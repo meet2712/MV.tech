@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MV.tech Data Solutions</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            blue: '#0052FF',
+                            dark: '#0052FF',
+                        },
+                    },
+                    animation: {
+                        float: 'float 3s ease-in-out infinite',
+                        scroll: 'scroll 1.5s ease-in-out infinite',
+                    }
+                },
+            },
+        }
+    </script>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        @keyframes scroll {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(8px); }
+        }
+
+        /* Ensure smooth scrolling works */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-slate-950 text-slate-300 font-sans">
+
+    <header id="main-header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0">
+                    <button onclick="scrollToSection('hero')" class="h-10 flex items-center gap-2 transition-transform hover:scale-110">
+                        <span class="text-2xl font-bold text-white tracking-tighter">MV<span class="text-blue-600"> .tech</span></span>
+                    </button>
+                </div>
+
+                <div class="hidden md:flex items-center space-x-8">
+                    <button onclick="scrollToSection('about')" class="text-slate-300 hover:text-blue-500 transition-colors">About</button>
+                    <button onclick="scrollToSection('services')" class="text-slate-300 hover:text-blue-500 transition-colors">Services</button>
+                    <button onclick="scrollToSection('experience')" class="text-slate-300 hover:text-blue-500 transition-colors">Experience</button>
+                    <button onclick="scrollToSection('contact')" class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all shadow-lg shadow-blue-600/30">Get in Touch</button>
+                </div>
+
+                <button id="mobile-menu-btn" class="md:hidden text-slate-300 hover:text-blue-500">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+
+            <div id="mobile-menu" class="hidden md:hidden bg-slate-900/95 backdrop-blur-md rounded-lg mt-2 p-4 space-y-3">
+                <button onclick="scrollToSection('about')" class="block w-full text-left text-slate-300 hover:text-blue-500 transition-colors py-2">About</button>
+                <button onclick="scrollToSection('services')" class="block w-full text-left text-slate-300 hover:text-blue-500 transition-colors py-2">Services</button>
+                <button onclick="scrollToSection('experience')" class="block w-full text-left text-slate-300 hover:text-blue-500 transition-colors py-2">Experience</button>
+                <button onclick="scrollToSection('contact')" class="block w-full px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all text-center">Get in Touch</button>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950"></div>
+
+        <div class="absolute inset-0 opacity-20 pointer-events-none">
+            <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-600 rounded-full filter blur-3xl animate-pulse"></div>
+            <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-600 rounded-full filter blur-3xl animate-pulse" style="animation-delay: 1s;"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div class="text-center">
+                <div class="flex justify-center space-x-8 mb-8 opacity-60">
+                    <i data-lucide="database" class="text-blue-500 animate-float w-8 h-8" style="animation-delay: 0s;"></i>
+                    <i data-lucide="cloud" class="text-blue-500 animate-float w-8 h-8" style="animation-delay: 0.2s;"></i>
+                    <i data-lucide="bar-chart-3" class="text-blue-500 animate-float w-8 h-8" style="animation-delay: 0.4s;"></i>
+                    <i data-lucide="zap" class="text-blue-500 animate-float w-8 h-8" style="animation-delay: 0.6s;"></i>
+                </div>
+
+                <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+                    Building Scalable,
+                    <span class="bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent">
+                        Data-Powered Systems
+                    </span>
+                    <br />
+                    That Drive Real Business Decisions
+                </h1>
+
+                <p class="text-xl sm:text-2xl text-slate-300 mb-12 max-w-4xl mx-auto leading-relaxed">
+                    MV.tech designs and manages modern data platforms—ETL pipelines, cloud architectures,
+                    and analytics systems—so businesses can trust their data.
+                </p>
+
+                <div class="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
+                    <button onclick="scrollToSection('contact')" class="group px-8 py-4 bg-blue-600 text-white text-lg font-semibold rounded-lg hover:bg-blue-700 transition-all shadow-xl shadow-blue-600/30 flex items-center justify-center">
+                        Talk to an Expert
+                        <i data-lucide="arrow-right" class="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform"></i>
+                    </button>
+                    <button onclick="scrollToSection('services')" class="px-8 py-4 bg-slate-800/50 backdrop-blur-sm text-white text-lg font-semibold rounded-lg border border-slate-700 hover:border-blue-500 hover:bg-slate-800 transition-all">
+                        View Our Services
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <div class="w-6 h-10 border-2 border-blue-500 rounded-full flex justify-center">
+                <div class="w-1 h-3 bg-blue-500 rounded-full mt-2 animate-scroll"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 bg-slate-900 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-5 pointer-events-none">
+            <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-cyan-500 to-blue-600"></div>
+        </div>
+
+        <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl sm:text-5xl font-bold text-white mb-6">
+                    About <span class="bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent">MV.tech</span>
+                </h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-blue-600 mx-auto mb-8"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <div class="bg-slate-800/50 backdrop-blur-sm p-8 rounded-xl border border-slate-700 hover:border-blue-500 transition-all group">
+                    <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <i data-lucide="trending-up" class="text-white w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Data-Driven</h3>
+                    <p class="text-slate-400">Transforming raw data into reliable, decision-ready insights</p>
+                </div>
+                <div class="bg-slate-800/50 backdrop-blur-sm p-8 rounded-xl border border-slate-700 hover:border-blue-500 transition-all group">
+                    <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <i data-lucide="shield" class="text-white w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Production-Grade</h3>
+                    <p class="text-slate-400">Building systems that perform reliably at scale</p>
+                </div>
+                <div class="bg-slate-800/50 backdrop-blur-sm p-8 rounded-xl border border-slate-700 hover:border-blue-500 transition-all group">
+                    <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <i data-lucide="sparkles" class="text-white w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Execution-Focused</h3>
+                    <p class="text-slate-400">Delivering measurable business outcomes</p>
+                </div>
+            </div>
+
+            <div class="bg-gradient-to-br from-slate-800/80 to-slate-800/40 backdrop-blur-sm p-10 rounded-2xl border border-slate-700">
+                <p class="text-lg text-slate-300 leading-relaxed mb-6">
+                    <span class="font-semibold text-white">MV.tech</span> is a data-powered solution company helping businesses
+                    build dependable and scalable data systems. With <span class="text-blue-500 font-semibold">5+ years</span> of
+                    hands-on experience, we focus on designing clean data models, robust pipelines, and cloud-native architectures
+                    that perform reliably in production.
+                </p>
+                <p class="text-slate-400 text-base">
+                    A Venture by <a href="https://www.linkedin.com/company/mv-tech-data/" target="_blank" class="text-blue-500 hover:text-blue-400 hover:underline transition-colors">Meet Jayantilal Vaghasia</a>, we specialize in turning complex
+                    data challenges into strategic advantages through technical excellence and proven methodologies.
+                </p>
+<!--                <div class="pt-6 mt-6 border-t border-slate-700/50 flex items-center text-sm text-slate-500">-->
+<!--                    <span class="mr-2">GSTIN:</span>-->
+<!--                    <span class="font-mono text-slate-400 tracking-wide">24BZMPV4008F1ZA</span>-->
+<!--                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-slate-950 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl sm:text-5xl font-bold text-white mb-6">
+                    Our <span class="bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent">Services</span>
+                </h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-blue-600 mx-auto mb-6"></div>
+                <p class="text-xl text-slate-400 max-w-3xl mx-auto">
+                    End-to-end data solutions tailored to your business needs
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="group bg-slate-900/50 backdrop-blur-sm p-8 rounded-xl border border-slate-800 hover:border-blue-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500/10">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="database" class="text-white w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Data Engineering & ETL Pipelines</h3>
+                    <p class="text-slate-400 leading-relaxed">Designing, building, and maintaining reliable data pipelines that automate data flow and ensure data quality.</p>
+                </div>
+                <div class="group bg-slate-900/50 backdrop-blur-sm p-8 rounded-xl border border-slate-800 hover:border-blue-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500/10">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="cloud" class="text-white w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Cloud Data Platforms (AWS & GCP)</h3>
+                    <p class="text-slate-400 leading-relaxed">Scalable cloud architectures optimized for performance, cost-efficiency, and seamless integration.</p>
+                </div>
+                <div class="group bg-slate-900/50 backdrop-blur-sm p-8 rounded-xl border border-slate-800 hover:border-blue-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500/10">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="database-zap" class="text-white w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Data Warehousing & Modeling</h3>
+                    <p class="text-slate-400 leading-relaxed">Clean, normalized schemas built specifically for analytics, reporting, and business intelligence.</p>
+                </div>
+                <div class="group bg-slate-900/50 backdrop-blur-sm p-8 rounded-xl border border-slate-800 hover:border-blue-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500/10">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="bar-chart-3" class="text-white w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Analytics & Reporting Systems</h3>
+                    <p class="text-slate-400 leading-relaxed">High-performance dashboards and reporting systems powered by advanced SQL and modern BI tools.</p>
+                </div>
+                <div class="group bg-slate-900/50 backdrop-blur-sm p-8 rounded-xl border border-slate-800 hover:border-blue-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500/10">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="plug" class="text-white w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">API & External Data Integrations</h3>
+                    <p class="text-slate-400 leading-relaxed">Seamless data ingestion from third-party platforms, APIs, and external data sources.</p>
+                </div>
+                <div class="group bg-slate-900/50 backdrop-blur-sm p-8 rounded-xl border border-slate-800 hover:border-blue-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500/10">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="file-search-corner" class="text-white w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Web Scraping & Data Extraction</h3>
+                    <p class="text-slate-400 leading-relaxed">Automated data collection from websites, dashboards, and online platforms, handling dynamic content, authentication, and structured output for analytics and reporting.</p>
+                </div>
+                <div class="group bg-slate-900/50 backdrop-blur-sm p-8 rounded-xl border border-slate-800 hover:border-blue-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500/10">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="workflow" class="text-white w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Process Automation & Workflows</h3>
+                    <p class="text-slate-400 leading-relaxed">Custom automation solutions that streamline repetitive tasks, scheduled jobs, and data workflows, improving reliability, speed, and operational efficiency.</p>
+                </div>
+                <div class="group bg-slate-900/50 backdrop-blur-sm p-8 rounded-xl border border-slate-800 hover:border-blue-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500/10">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="brain-circuit" class="text-white w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Retrieval-Augmented Generation (RAG)</h3>
+                    <p class="text-slate-400 leading-relaxed">Context-aware systems that combine internal data with language models, enabling accurate, controlled, and relevant responses from documents and structured data.</p>
+                </div>
+                <div class="group bg-slate-900/50 backdrop-blur-sm p-8 rounded-xl border border-slate-800 hover:border-blue-500 transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500/10">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="bot" class="text-white w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Custom Chatbots & Assistants</h3>
+                    <p class="text-slate-400 leading-relaxed">Purpose-built chatbots integrated with databases and APIs to provide fast, consistent responses for internal tools, support systems, and customer-facing applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-24 bg-slate-900 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 pointer-events-none">
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full filter blur-3xl"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl sm:text-5xl font-bold text-white mb-6">
+                    Experience & <span class="bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent">Credibility</span>
+                </h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-blue-600 mx-auto mb-8"></div>
+                <p class="text-xl text-slate-400 max-w-3xl mx-auto">
+                    Proven expertise in building enterprise-grade data infrastructure
+                </p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+                <div class="bg-slate-800/50 backdrop-blur-sm p-8 rounded-xl border border-slate-700 hover:border-blue-500 transition-all text-center group">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                        <i data-lucide="clock" class="text-white w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-2">5+ Years</h3>
+                    <p class="text-slate-400 text-sm">Hands-on industry experience</p>
+                </div>
+                <div class="bg-slate-800/50 backdrop-blur-sm p-8 rounded-xl border border-slate-700 hover:border-blue-500 transition-all text-center group">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                        <i data-lucide="award" class="text-white w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-2">Certified</h3>
+                    <p class="text-slate-400 text-sm">IBM & Google certified professional</p>
+                </div>
+                <div class="bg-slate-800/50 backdrop-blur-sm p-8 rounded-xl border border-slate-700 hover:border-blue-500 transition-all text-center group">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                        <i data-lucide="target" class="text-white w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-2">Precision</h3>
+                    <p class="text-slate-400 text-sm">Focus on automation & accuracy</p>
+                </div>
+                <div class="bg-slate-800/50 backdrop-blur-sm p-8 rounded-xl border border-slate-700 hover:border-blue-500 transition-all text-center group">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                        <i data-lucide="eye" class="text-white w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-2">Visibility</h3>
+                    <p class="text-slate-400 text-sm">End-to-end system monitoring</p>
+                </div>
+            </div>
+
+            <div class="bg-gradient-to-br from-slate-800 to-slate-900 p-10 rounded-2xl border border-slate-700">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-2xl font-bold text-white mb-4">Cloud Expertise</h3>
+                        <div class="space-y-3">
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
+                                <span class="text-slate-300">AWS ecosystem architecture</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
+                                <span class="text-slate-300">Google Cloud Platform solutions</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
+                                <span class="text-slate-300">Multi-cloud data integration</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-white mb-4">Core Values</h3>
+                        <div class="space-y-3">
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
+                                <span class="text-slate-300">Production-grade reliability</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
+                                <span class="text-slate-300">Measurable business outcomes</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
+                                <span class="text-slate-300">Transparent execution process</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="process" class="py-24 bg-slate-950 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl sm:text-5xl font-bold text-white mb-6">
+                    How We <span class="bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent">Work</span>
+                </h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-blue-600 mx-auto mb-6"></div>
+                <p class="text-xl text-slate-400 max-w-3xl mx-auto">
+                    An execution-first approach focused on delivering real value
+                </p>
+            </div>
+
+            <div class="relative">
+                <div class="hidden lg:block absolute left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-500 via-blue-600 to-blue-500 transform -translate-x-1/2"></div>
+
+                <div class="space-y-12">
+                    <div class="relative flex flex-col lg:flex-row items-center">
+                        <div class="lg:w-5/12 lg:text-right lg:pr-12">
+                            <div class="bg-slate-900/50 backdrop-blur-sm p-8 rounded-xl border border-slate-800 hover:border-blue-500 transition-all group">
+                                <div class="flex items-center gap-4 mb-4 lg:justify-end lg:flex-row-reverse">
+                                    <div class="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                                        <i data-lucide="target" class="text-white w-6 h-6"></i>
+                                    </div>
+                                    <span class="text-5xl font-bold text-blue-500/20">01</span>
+                                </div>
+                                <h3 class="text-2xl font-bold text-white mb-3">Understand Business Goals</h3>
+                                <p class="text-slate-400 leading-relaxed">Deep dive into your objectives, challenges, and success metrics</p>
+                            </div>
+                        </div>
+                        <div class="hidden lg:flex absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-500 rounded-full border-4 border-slate-950 z-10"></div>
+                        <div class="lg:w-5/12"></div>
+                    </div>
+
+                    <div class="relative flex flex-col lg:flex-row-reverse items-center">
+                        <div class="lg:w-5/12 lg:text-left lg:pl-12">
+                            <div class="bg-slate-900/50 backdrop-blur-sm p-8 rounded-xl border border-slate-800 hover:border-blue-500 transition-all group">
+                                <div class="flex items-center gap-4 mb-4 lg:justify-start">
+                                    <div class="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                                        <i data-lucide="pen-tool" class="text-white w-6 h-6"></i>
+                                    </div>
+                                    <span class="text-5xl font-bold text-blue-500/20">02</span>
+                                </div>
+                                <h3 class="text-2xl font-bold text-white mb-3">Design Scalable Architecture</h3>
+                                <p class="text-slate-400 leading-relaxed">Create robust, future-proof data infrastructure tailored to your needs</p>
+                            </div>
+                        </div>
+                        <div class="hidden lg:flex absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-500 rounded-full border-4 border-slate-950 z-10"></div>
+                        <div class="lg:w-5/12"></div>
+                    </div>
+
+                    <div class="relative flex flex-col lg:flex-row items-center">
+                        <div class="lg:w-5/12 lg:text-right lg:pr-12">
+                            <div class="bg-slate-900/50 backdrop-blur-sm p-8 rounded-xl border border-slate-800 hover:border-blue-500 transition-all group">
+                                <div class="flex items-center gap-4 mb-4 lg:justify-end lg:flex-row-reverse">
+                                    <div class="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                                        <i data-lucide="code" class="text-white w-6 h-6"></i>
+                                    </div>
+                                    <span class="text-5xl font-bold text-blue-500/20">03</span>
+                                </div>
+                                <h3 class="text-2xl font-bold text-white mb-3">Build Automated Pipelines</h3>
+                                <p class="text-slate-400 leading-relaxed">Develop clean, maintainable code with comprehensive error handling</p>
+                            </div>
+                        </div>
+                        <div class="hidden lg:flex absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-500 rounded-full border-4 border-slate-950 z-10"></div>
+                        <div class="lg:w-5/12"></div>
+                    </div>
+
+                    <div class="relative flex flex-col lg:flex-row-reverse items-center">
+                        <div class="lg:w-5/12 lg:text-left lg:pl-12">
+                            <div class="bg-slate-900/50 backdrop-blur-sm p-8 rounded-xl border border-slate-800 hover:border-blue-500 transition-all group">
+                                <div class="flex items-center gap-4 mb-4 lg:justify-start">
+                                    <div class="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                                        <i data-lucide="gauge" class="text-white w-6 h-6"></i>
+                                    </div>
+                                    <span class="text-5xl font-bold text-blue-500/20">04</span>
+                                </div>
+                                <h3 class="text-2xl font-bold text-white mb-3">Optimize Performance</h3>
+                                <p class="text-slate-400 leading-relaxed">Fine-tune for speed, reliability, and cost-efficiency</p>
+                            </div>
+                        </div>
+                        <div class="hidden lg:flex absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-500 rounded-full border-4 border-slate-950 z-10"></div>
+                        <div class="lg:w-5/12"></div>
+                    </div>
+
+                    <div class="relative flex flex-col lg:flex-row items-center">
+                        <div class="lg:w-5/12 lg:text-right lg:pr-12">
+                            <div class="bg-slate-900/50 backdrop-blur-sm p-8 rounded-xl border border-slate-800 hover:border-blue-500 transition-all group">
+                                <div class="flex items-center gap-4 mb-4 lg:justify-end lg:flex-row-reverse">
+                                    <div class="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                                        <i data-lucide="check-circle" class="text-white w-6 h-6"></i>
+                                    </div>
+                                    <span class="text-5xl font-bold text-blue-500/20">05</span>
+                                </div>
+                                <h3 class="text-2xl font-bold text-white mb-3">Deliver Measurable Results</h3>
+                                <p class="text-slate-400 leading-relaxed">Launch with full documentation, monitoring, and ongoing support</p>
+                            </div>
+                        </div>
+                        <div class="hidden lg:flex absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-500 rounded-full border-4 border-slate-950 z-10"></div>
+                        <div class="lg:w-5/12"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="clients" class="py-24 bg-slate-900 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-5 pointer-events-none">
+            <div class="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full filter blur-3xl"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl sm:text-5xl font-bold text-white mb-6">
+                    Who We <span class="bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent">Work With</span>
+                </h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-blue-600 mx-auto mb-8"></div>
+                <p class="text-xl text-slate-400 max-w-3xl mx-auto">
+                    We scale with you, from startup to enterprise
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <div class="bg-slate-800/50 backdrop-blur-sm p-8 rounded-xl border border-slate-700 hover:border-blue-500 transition-all group hover:transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="rocket" class="text-white w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Early-Stage Startups</h3>
+                    <p class="text-slate-400 leading-relaxed">Building your first data infrastructure from the ground up with scalability in mind</p>
+                </div>
+                <div class="bg-slate-800/50 backdrop-blur-sm p-8 rounded-xl border border-slate-700 hover:border-blue-500 transition-all group hover:transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="trending-up" class="text-white w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Growth-Stage Companies</h3>
+                    <p class="text-slate-400 leading-relaxed">Scaling your data systems to handle increasing complexity and volume</p>
+                </div>
+                <div class="bg-slate-800/50 backdrop-blur-sm p-8 rounded-xl border border-slate-700 hover:border-blue-500 transition-all group hover:transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="building-2" class="text-white w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Enterprise Data Teams</h3>
+                    <p class="text-slate-400 leading-relaxed">Modernizing legacy systems and implementing cloud-native architectures</p>
+                </div>
+            </div>
+
+            <div class="bg-gradient-to-br from-slate-800 to-slate-900 p-10 rounded-2xl border border-blue-500/30 text-center">
+                <h3 class="text-3xl font-bold text-white mb-4">
+                    We grow <span class="text-blue-500">with you</span>
+                </h3>
+                <p class="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
+                    Whether you're validating your first product or managing petabytes of data,
+                    we provide the technical expertise and strategic guidance to build data systems
+                    that support your business at every stage.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-slate-950 relative overflow-hidden">
+        <div class="absolute inset-0">
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full bg-gradient-to-br from-blue-500/10 to-blue-600/10 rounded-full filter blur-3xl"></div>
+        </div>
+
+        <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-12 md:p-16 rounded-3xl border border-blue-500/30 shadow-2xl shadow-blue-500/20">
+                <div class="text-center">
+                    <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+                        Ready to Build Data Systems
+                        <br />
+                        <span class="bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent">
+                            You Can Trust?
+                        </span>
+                    </h2>
+                    <p class="text-xl text-slate-300 mb-10 max-w-2xl mx-auto leading-relaxed">
+                        Let's discuss how MV.tech can transform your data infrastructure
+                        into a strategic business advantage.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row justify-center gap-6 mb-10">
+                        <a href="mailto:meet.vaghasia27@gmail.com" class="group inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white text-lg font-semibold rounded-lg hover:bg-blue-700 transition-all shadow-xl shadow-blue-600/30">
+                            <i data-lucide="mail" class="mr-2 w-5 h-5"></i>
+                            Get in Touch
+                            <i data-lucide="arrow-right" class="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                        <a href="https://calendly.com/meetvaghasia27/new-meeting?month=2026-01" target="_blank" class="inline-flex items-center justify-center px-8 py-4 bg-slate-800 text-white text-lg font-semibold rounded-lg border border-blue-500 hover:bg-slate-700 transition-all">
+                            <i data-lucide="calendar" class="mr-2 w-5 h-5"></i>
+                            Schedule a Consultation
+                        </a>
+                    </div>
+
+                    <div class="pt-8 border-t border-slate-700">
+                        <p class="text-slate-400 text-sm mb-3">Trusted by startups, growth companies, and enterprises</p>
+                        <div class="flex justify-center items-center gap-8 text-blue-500">
+                            <div class="flex items-center gap-2">
+                                <div class="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
+                                <span class="text-sm">5+ Years Experience</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <div class="w-2 h-2 bg-blue-500 rounded-full animate-pulse" style="animation-delay: 0.5s;"></div>
+                                <span class="text-sm">AWS & GCP Certified</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <div class="w-2 h-2 bg-blue-500 rounded-full animate-pulse" style="animation-delay: 1s;"></div>
+                                <span class="text-sm">Production-Grade</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 border-t border-slate-800 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div class="md:col-span-2">
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="text-2xl font-bold text-white tracking-tighter">MV<span class="text-blue-600"> .tech</span></span>
+                    </div>
+                    <p class="text-slate-400 mb-4 max-w-md">
+                        Data-Powered Solutions for Scalable Growth. Building enterprise-grade
+                        data infrastructure that drives real business decisions.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="mailto:meet.vaghasia27@gmail.com" class="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors" aria-label="Email">
+                            <i data-lucide="mail" class="text-slate-300 w-4 h-4"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/mv-tech-data/" target="_blank" class="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors" aria-label="LinkedIn">
+                            <i data-lucide="linkedin" class="text-slate-300 w-4 h-4"></i>
+                        </a>
+                        <a href="https://github.com/meet2712" target="_blank" class="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors" aria-label="GitHub">
+                            <i data-lucide="github" class="text-slate-300 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li>
+                            <button onclick="scrollToSection('about')" class="text-slate-400 hover:text-blue-500 transition-colors">About</button>
+                        </li>
+                        <li>
+                            <button onclick="scrollToSection('services')" class="text-slate-400 hover:text-blue-500 transition-colors">Services</button>
+                        </li>
+                        <li>
+                            <button onclick="scrollToSection('experience')" class="text-slate-400 hover:text-blue-500 transition-colors">Experience</button>
+                        </li>
+                        <li>
+                            <button onclick="scrollToSection('contact')" class="text-slate-400 hover:text-blue-500 transition-colors">Contact</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Services</h3>
+                    <ul class="space-y-2 text-slate-400 text-sm">
+                        <li>Data Engineering</li>
+                        <li>Cloud Platforms</li>
+                        <li>Data Warehousing</li>
+                        <li>Analytics & BI</li>
+                        <li>API Integrations</li>
+                    </ul>
+                </div>
+            </div>
+
+<!--            <div class="pt-8 border-t border-slate-800 flex flex-col sm:flex-row justify-between items-center gap-4">-->
+<!--                <p class="text-slate-400 text-sm">-->
+<!--                    © 2026 MV.tech. All rights reserved.-->
+<!--                </p>-->
+<!--                <p class="text-slate-500 text-sm">-->
+<!--                    A Venture by <a href="https://www.linkedin.com/company/mv-tech-data/" target="_blank" class="text-blue-500 hover:text-blue-400 hover:underline transition-colors">Meet Jayantilal Vaghasia</a>-->
+<!--                </p>-->
+<!--            </div>-->
+            <div class="pt-8 border-t border-slate-800 flex flex-col sm:flex-row justify-between items-center gap-4">
+    <div class="text-center sm:text-left">
+        <p class="text-slate-400 text-sm">
+            © 2026 MV.tech. All rights reserved.
+        </p>
+        <p class="text-slate-500 text-sm mt-1">
+            GSTIN: <span class="font-mono text-slate-400 tracking-wide">24BZMPV4008F1ZA</span>
+        </p>
+    </div>
+    <p class="text-slate-500 text-sm mb-6">
+        A Venture by <a href="https://www.linkedin.com/company/mv-tech-data/" target="_blank" class="text-blue-500 hover:text-blue-400 hover:underline transition-colors">Meet Jayantilal Vaghasia</a>
+    </p>
+</div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Icons
+        lucide.createIcons();
+
+        // Scroll Handling logic (replaces React state)
+        const header = document.getElementById('main-header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 20) {
+                header.classList.add('bg-slate-950/95', 'backdrop-blur-md', 'shadow-lg');
+                header.classList.remove('bg-transparent');
+            } else {
+                header.classList.remove('bg-slate-950/95', 'backdrop-blur-md', 'shadow-lg');
+                header.classList.add('bg-transparent');
+            }
+        });
+
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileMenuIcon = mobileMenuBtn.querySelector('i');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+
+            // Toggle icon (Lucide makes this slightly trickier without React state, easier to re-render or just toggle visibility)
+            // Ideally we'd swap the icon, but for simplicity in vanilla JS:
+            if(mobileMenu.classList.contains('hidden')) {
+               // Menu is closed
+               mobileMenuIcon.setAttribute('data-lucide', 'menu');
+            } else {
+               // Menu is open
+               mobileMenuIcon.setAttribute('data-lucide', 'x');
+            }
+            lucide.createIcons(); // Re-render icon
+        });
+
+        // Smooth Scrolling Function
+        function scrollToSection(id) {
+            const element = document.getElementById(id);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                // Close mobile menu if open
+                if(!mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                    mobileMenuIcon.setAttribute('data-lucide', 'menu');
+                    lucide.createIcons();
+                }
+            }
+        }
+    </script>
+</body>
+</html>
