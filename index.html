@@ -238,7 +238,7 @@
         .marquee-track {
             display: flex;
             width: max-content;
-            animation: marquee 24s linear infinite;
+            animation: marquee 36s linear infinite;
             will-change: transform;
         }
 
@@ -250,12 +250,17 @@
             padding-right: 2.5rem;
         }
 
+        .marquee-viewport {
+            width: 100%;
+            overflow: hidden;
+        }
+
         @keyframes marquee {
             from {
                 transform: translate3d(0, 0, 0);
             }
             to {
-                transform: translate3d(-50%, 0, 0);
+                transform: translate3d(-16.666666%, 0, 0);
             }
         }
 
@@ -464,8 +469,8 @@
                     </div>
 
                     <div class="hidden sm:block absolute -bottom-8 -left-8 glass rounded-2xl p-5 w-60 animate-float">
-                        <p class="text-sm text-slate-400">Current focus</p>
-                        <p class="text-white font-semibold mt-1">Reliable Product Delivery with Measurable Business Outcomes.</p>
+                        <p class="text-sm text-slate-400">Core Strength</p>
+                        <p class="text-white font-semibold mt-1">Data Engineering and Web Development.</p>
                     </div>
                 </div>
             </div>
@@ -473,9 +478,21 @@
     </section>
 
     <section class="border-y border-slate-800/80 bg-slate-950/80 overflow-hidden">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
+        <div class="marquee-viewport py-5">
             <div class="marquee-track whitespace-nowrap text-sm text-slate-400">
                 <div class="marquee-group">
+                    <span>Data Engineering</span><span>Web Development</span><span>App Development</span><span>Cloud Platforms</span><span>Analytics & BI</span><span>API Integrations</span><span>Automation</span><span>RAG Systems</span><span>Custom Chatbots</span>
+                </div>
+                <div class="marquee-group" aria-hidden="true">
+                    <span>Data Engineering</span><span>Web Development</span><span>App Development</span><span>Cloud Platforms</span><span>Analytics & BI</span><span>API Integrations</span><span>Automation</span><span>RAG Systems</span><span>Custom Chatbots</span>
+                </div>
+                <div class="marquee-group" aria-hidden="true">
+                    <span>Data Engineering</span><span>Web Development</span><span>App Development</span><span>Cloud Platforms</span><span>Analytics & BI</span><span>API Integrations</span><span>Automation</span><span>RAG Systems</span><span>Custom Chatbots</span>
+                </div>
+                <div class="marquee-group" aria-hidden="true">
+                    <span>Data Engineering</span><span>Web Development</span><span>App Development</span><span>Cloud Platforms</span><span>Analytics & BI</span><span>API Integrations</span><span>Automation</span><span>RAG Systems</span><span>Custom Chatbots</span>
+                </div>
+                <div class="marquee-group" aria-hidden="true">
                     <span>Data Engineering</span><span>Web Development</span><span>App Development</span><span>Cloud Platforms</span><span>Analytics & BI</span><span>API Integrations</span><span>Automation</span><span>RAG Systems</span><span>Custom Chatbots</span>
                 </div>
                 <div class="marquee-group" aria-hidden="true">
