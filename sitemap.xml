@@ -45,4 +45,14 @@
     <lastmod>2026-06-02</lastmod>
     <priority>0.80</priority>
   </url>
+  <url>
+    <loc>https://mvtech.solutions/llms.txt</loc>
+    <lastmod>2026-06-02</lastmod>
+    <priority>0.40</priority>
+  </url>
+  <url>
+    <loc>https://mvtech.solutions/llms-full.txt</loc>
+    <lastmod>2026-06-02</lastmod>
+    <priority>0.40</priority>
+  </url>
 </urlset>

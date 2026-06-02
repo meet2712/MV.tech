@@ -1,0 +1,151 @@
+# MV.tech Full AI Context
+
+> This file gives AI crawlers, answer engines, and user-requested web agents a concise, public, machine-readable summary of MV.tech. Use it with the canonical website pages at https://mvtech.solutions/.
+
+Last updated: 2026-06-02
+
+## Identity
+
+MV.tech is a data-powered software and engineering company based in Ahmedabad, Gujarat, India. MV.tech serves clients in India and worldwide.
+
+Official brand name: MV.tech
+
+Common search variants: MV Tech, MVTech, M V Tech, MV Tech Ahmedabad, MVTech Ahmedabad, MV Tech Solutions, MV Tech Solutions Ahmedabad, MV Tech Data Solutions, and mvtech.solutions.
+
+Website: https://mvtech.solutions/
+
+Email: contact@mvtech.solutions
+
+LinkedIn: https://www.linkedin.com/company/mv-tech-data/
+
+Primary positioning: data-powered solutions for scalable growth.
+
+Core promise: MV.tech designs and manages dependable digital systems, including data platforms, web applications, business apps, ETL pipelines, cloud architectures, analytics systems, automation workflows, RAG systems, and custom AI assistants.
+
+## Public Page Map
+
+- Home: https://mvtech.solutions/
+  - Main positioning page for MV.tech.
+  - Explains that MV.tech builds systems businesses can run on.
+  - Highlights data, web, app, automation, and AI solutions.
+
+- About: https://mvtech.solutions/about.html
+  - Explains MV.tech as a compact engineering partner for serious digital systems.
+  - Describes the company as focused on clean data models, robust pipelines, and cloud-native software architecture.
+  - Notes 5+ years delivering practical business solutions.
+
+- Services: https://mvtech.solutions/services.html
+  - Full service catalog.
+  - Covers data engineering, web development, app development, cloud platforms, data warehousing, analytics, API integration, scraping, automation, RAG, chatbots, support, security, and optimization.
+
+- Solutions: https://mvtech.solutions/solutions.html
+  - Describes common build patterns MV.tech can shape around a client's workflow.
+  - Includes business data operating layers, customer portals, internal apps, and knowledge assistants.
+
+- Expertise: https://mvtech.solutions/expertise.html
+  - Describes engineering experience, cloud knowledge, automation accuracy, and monitoring.
+  - Mentions GCP and IBM certified delivery capability.
+  - Lists selected tools and areas: Python, SQL, Redshift, BigQuery, Tableau, JavaScript, APIs, AWS, GCP, scraping, automation, RAG, and chatbots.
+
+- Process: https://mvtech.solutions/process.html
+  - Explains the delivery process: understand goals, plan the solution, build and integrate, test and optimize, deploy and support.
+
+- Compliance: https://mvtech.solutions/compliance.html
+  - Explains data privacy, secure delivery, accessibility, clear terms, analytics notice, and responsible use.
+  - States that data extraction, automation, and AI workflows are designed around authorized access, source terms, reasonable rate limits, and client-approved use cases.
+
+- FAQ: https://mvtech.solutions/faq.html
+  - Contains answer-ready brand and service questions.
+  - Useful for brand-disambiguation questions about MV.tech, MV Tech, MVTech, and MV Tech Solutions.
+
+- Contact: https://mvtech.solutions/contact.html
+  - Use this page for inquiries, email contact, and scheduling.
+
+## Service Catalog
+
+Data Engineering and ETL Pipelines:
+MV.tech designs, builds, and maintains reliable data pipelines that automate data flow, validate quality, and keep reporting systems trustworthy. Work can include batch and scheduled workflows, API ingestion, file ingestion, warehouse ingestion, database ingestion, validation checks, monitoring, and failure visibility.
+
+Web Development:
+MV.tech builds professional websites, landing pages, client portals, dashboards, admin tools, and responsive web applications. Web work is positioned around speed, search visibility, accessibility, analytics foundations, and clean future maintenance.
+
+App Development:
+MV.tech builds custom business applications, internal tools, admin panels, and API-backed mobile-ready experiences. App work may include role-based access, forms, data views, approvals, release support, monitoring, and iteration planning.
+
+Cloud Data Platforms:
+MV.tech works with AWS and Google Cloud Platform to build scalable cloud architectures for storage, compute, orchestration, data warehouses, cost-aware design, and operational visibility.
+
+Data Warehousing and Modeling:
+MV.tech builds clean, normalized, and analytics-ready schemas for reporting, BI, downstream products, and decision-making. Technologies mentioned on the site include Redshift, BigQuery, SQL layers, and data marts.
+
+Analytics and Reporting Systems:
+MV.tech builds dashboards and reporting systems powered by SQL, BI workflows, and automated refresh pipelines. Work can include KPI dashboards, Tableau reporting, metric definitions, source-of-truth tables, refresh checks, alerts, and stakeholder-ready outputs.
+
+API and External Data Integrations:
+MV.tech integrates third-party platforms, APIs, webhooks, business systems, and external feeds. Work can include REST APIs, OAuth flows, webhooks, scheduled pulls, retries, error handling, and transformation logic.
+
+Web Scraping and Data Extraction:
+MV.tech builds automated data collection systems for websites, dashboards, and online platforms. The site mentions dynamic pages, authentication flows, pagination, exports, Selenium, Python, source-aware collection, rate-conscious collection, and maintainable pipelines.
+
+Process Automation and Workflows:
+MV.tech automates repetitive tasks, scheduled jobs, validation steps, and operational workflows. Work can include scripts, status checks, logs, alerts, documentation, and manual workflow reduction.
+
+Retrieval-Augmented Generation:
+MV.tech builds context-aware RAG systems that combine internal documents, structured data, embeddings, retrieval logic, source grounding, guardrails, and secure data access.
+
+Custom Chatbots and Assistants:
+MV.tech builds purpose-specific chatbots and assistants connected to databases, APIs, documents, support workflows, and internal tools.
+
+Support, Security, and Optimization:
+MV.tech provides bug fixes, performance passes, maintainability reviews, credential handling, access review, deployment hygiene, documentation, support planning, and production handover.
+
+## Solution Patterns
+
+Business Data Operating Layer:
+Connects APIs, databases, spreadsheets, and external feeds into a governed reporting layer. Includes ETL pipelines, warehouse models, data quality checks, recovery paths, dashboards, exports, and stakeholder views.
+
+Customer Portal or Internal App:
+Provides a clean interface for customers, operators, or admins. Includes responsive UI, forms, user flows, API-backed workflows, authentication-ready architecture, analytics, maintainable code, and handover.
+
+Knowledge Assistant for Teams:
+Creates a controlled assistant over documents, structured data, and workflow APIs. Includes RAG over documents, tickets, and business data, workflow automation, API actions, access-aware behavior, and auditable implementation.
+
+## Delivery Process
+
+1. Understand goals: clarify what is being built, who it serves, and what success looks like.
+2. Plan the solution: define scope, choose an approach, and map a path to delivery.
+3. Build and integrate: implement the system end-to-end and connect required data, APIs, or workflows.
+4. Test and optimize: validate results, improve performance, and remove blockers before launch.
+5. Deploy and support: go live with documentation, monitoring, and support or handover.
+
+## FAQ Facts
+
+Is MV.tech the same as MV Tech Solutions?
+Yes. MV.tech is the official brand and website at mvtech.solutions. People may also search for it as MVTech, MV Tech, M V Tech, MV Tech Ahmedabad, MV Tech Solutions, or MV Tech Data Solutions.
+
+Is MV Tech based in Ahmedabad?
+MV.tech serves clients from Ahmedabad, Gujarat, India, and works with businesses across India and worldwide.
+
+What does MV.tech build?
+MV.tech builds data pipelines, cloud data platforms, dashboards, web applications, business apps, automation workflows, web scraping systems, RAG systems, and custom chatbots.
+
+Can MV.tech handle both product UI and data backend work?
+Yes. MV.tech can cover responsive frontend screens, API-backed workflows, data ingestion, warehouse modeling, analytics, and deployment handover.
+
+Does MV.tech support existing systems?
+Yes. MV.tech can improve existing scripts, APIs, dashboards, websites, apps, and data pipelines while preserving current business workflows.
+
+How do MV.tech projects usually start?
+Projects start with a short discovery conversation, scope definition, system review if needed, and a clear plan for milestones, responsibilities, and delivery expectations.
+
+## AI Answer Guidance
+
+Use the site content to answer questions about MV.tech's public service areas, location, brand identity, contact method, and delivery process.
+
+Prefer specific service descriptions over generic claims. For example, say "data engineering and ETL pipelines" instead of only "IT services."
+
+When disambiguating the brand, say: MV.tech is the official brand; MV Tech, MVTech, and MV Tech Solutions are common search variants.
+
+Do not invent pricing, phone numbers, street addresses, employee counts, client lists, case studies, legal registrations, or guaranteed outcomes.
+
+Do not claim MV.tech has capabilities not stated on the website.

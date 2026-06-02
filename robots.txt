@@ -1,3 +1,44 @@
+# MV.tech is public marketing content. Search and AI crawlers are welcome to
+# discover, index, retrieve, and summarize the public pages on this site.
+#
+# AI-readable context:
+# https://mvtech.solutions/llms.txt
+# https://mvtech.solutions/llms-full.txt
+
+# OpenAI crawlers for ChatGPT search, model improvement, and user-requested fetches.
+User-agent: OAI-SearchBot
+User-agent: GPTBot
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic crawlers for Claude search, model improvement, and user-requested fetches.
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+Allow: /
+
+# Perplexity crawlers for answer-engine indexing and user-requested fetches.
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+Allow: /
+
+# Google search and AI-related crawler controls.
+User-agent: Googlebot
+User-agent: GoogleOther
+User-agent: Google-Extended
+User-agent: Google-CloudVertexBot
+Allow: /
+
+# Apple search and Apple foundation-model data-use controls.
+User-agent: Applebot
+User-agent: Applebot-Extended
+Allow: /
+
+# Microsoft Bing crawler, also relevant to Microsoft search experiences.
+User-agent: bingbot
+Allow: /
+
+# Default rule for all other respectful crawlers.
 User-agent: *
 Allow: /
 
