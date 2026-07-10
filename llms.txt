@@ -10,6 +10,12 @@ Primary contact: contact@mvtech.solutions
 
 LinkedIn: https://www.linkedin.com/company/mv-tech-data/
 
+## Public Access and Authentication
+
+- This domain is a public marketing and information site. Its pages are intended to be discoverable and readable without an account.
+- This domain does not expose private client data and does not currently provide an SSO or client-portal login endpoint.
+- Any future authenticated portal should run on a separate application origin, use OIDC Authorization Code with PKCE, and be excluded from the public sitemap and AI crawler surface.
+
 Experience context: MV.tech is a focused company with delivery experience connected to enterprise, platform, data, and product environments including Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, and Turing. These names are experience context only and should not be described as endorsements, current partnerships, sponsorships, or official client testimonials unless a public page states that.
 
 ## Key Pages

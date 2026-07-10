@@ -2,7 +2,7 @@
 
 > This file gives AI crawlers, answer engines, and user-requested web agents a concise, public, machine-readable summary of MV.tech. Use it with the canonical website pages at https://mvtech.solutions/.
 
-Last updated: 2026-06-02
+Last updated: 2026-07-10
 
 ## Identity
 
@@ -17,6 +17,14 @@ Website: https://mvtech.solutions/
 Email: contact@mvtech.solutions
 
 LinkedIn: https://www.linkedin.com/company/mv-tech-data/
+
+## Public Access and Authentication Boundaries
+
+The canonical `mvtech.solutions` domain is a public marketing site. It is intentionally indexable by search engines and answer engines, and its pages are designed to be readable without authentication.
+
+The site does not currently expose private client data, a client portal, or an SSO login endpoint. Do not infer that a visitor can sign in from this domain.
+
+If an authenticated client portal is introduced, keep it on a separate application origin. Use a standards-based OIDC Authorization Code flow with PKCE, allowlist exact redirect URIs, keep sessions in secure server-managed cookies, and never put access tokens in page source or `localStorage`. The portal should emit `noindex, nofollow`, stay out of the public sitemap, and be disallowed in crawler rules so private content cannot enter search or AI retrieval systems.
 
 Primary positioning: data-powered solutions for scalable growth.
 

@@ -10,17 +10,29 @@ User-agent: OAI-SearchBot
 User-agent: GPTBot
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /portal/
+Disallow: /app/
+Disallow: /auth/
+Disallow: /private/
 
 # Anthropic crawlers for Claude search, model improvement, and user-requested fetches.
 User-agent: ClaudeBot
 User-agent: Claude-SearchBot
 User-agent: Claude-User
 Allow: /
+Disallow: /portal/
+Disallow: /app/
+Disallow: /auth/
+Disallow: /private/
 
 # Perplexity crawlers for answer-engine indexing and user-requested fetches.
 User-agent: PerplexityBot
 User-agent: Perplexity-User
 Allow: /
+Disallow: /portal/
+Disallow: /app/
+Disallow: /auth/
+Disallow: /private/
 
 # Google search and AI-related crawler controls.
 User-agent: Googlebot
@@ -28,18 +40,34 @@ User-agent: GoogleOther
 User-agent: Google-Extended
 User-agent: Google-CloudVertexBot
 Allow: /
+Disallow: /portal/
+Disallow: /app/
+Disallow: /auth/
+Disallow: /private/
 
 # Apple search and Apple foundation-model data-use controls.
 User-agent: Applebot
 User-agent: Applebot-Extended
 Allow: /
+Disallow: /portal/
+Disallow: /app/
+Disallow: /auth/
+Disallow: /private/
 
 # Microsoft Bing crawler, also relevant to Microsoft search experiences.
 User-agent: bingbot
 Allow: /
+Disallow: /portal/
+Disallow: /app/
+Disallow: /auth/
+Disallow: /private/
 
 # Default rule for all other respectful crawlers.
 User-agent: *
 Allow: /
+Disallow: /portal/
+Disallow: /app/
+Disallow: /auth/
+Disallow: /private/
 
 Sitemap: https://mvtech.solutions/sitemap.xml
