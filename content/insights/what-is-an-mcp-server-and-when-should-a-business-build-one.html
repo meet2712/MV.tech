@@ -1,0 +1,86 @@
+<!--meta
+{
+  "name": "What is an MCP server?",
+  "title": "What Is an MCP Server, and When Should a Business Build One?",
+  "description": "A business-level explanation of the Model Context Protocol: what an MCP server exposes, when building one makes sense, the security decisions involved and a first project.",
+  "kicker": "AI engineering",
+  "ogTitle": "What is an MCP server, and when should a business build one?",
+  "ogKicker": "Model Context Protocol explained · When to build · Security · A first project",
+  "published": "2026-09-10",
+  "keywords": [
+    "MCP server",
+    "Model Context Protocol",
+    "MCP development",
+    "AI integration",
+    "AI tools",
+    "agent tooling"
+  ],
+  "pageTitle": "What Is an MCP Server, and When Should a Business Build One? | MV.tech"
+}
+-->
+<div class="in-brief">
+  <p class="eyebrow">In brief</p>
+  <ul>
+    <li>The Model Context Protocol (MCP) is an open standard that lets AI applications connect to external tools and data through one consistent interface. An MCP server is the piece you build around your systems so that compatible AI assistants can use them.</li>
+    <li>Build one when several AI clients need the same governed access to internal systems, when off-the-shelf connectors do not exist for your tools, or when you need authorisation and logging in one place rather than in every prompt.</li>
+    <li>Treat an MCP server as production software: authentication, least-privilege tool design, human approval for consequential actions and audit logs are part of the scope, not extras.</li>
+</ul>
+</div>
+
+<p>Every business that tries to make an AI assistant useful eventually hits the same wall: the assistant needs to look things up in, or act on, systems the model has never seen. Customer records, ticket queues, order status, internal documentation, the finance system. The Model Context Protocol is the emerging standard way to make those connections, and "MCP server development" has become a common request from teams who want their AI tools to do more than chat. This guide explains what an MCP server is in practical terms, when it is worth building one, and what to insist on if you do.</p>
+
+<h2>What MCP is</h2>
+<p>MCP is an open protocol, originally released by Anthropic in late 2024 and since supported across the major AI assistant and developer platforms, that standardises how an AI application (the <em>client</em>) discovers and uses capabilities offered by an external program (the <em>server</em>). The full specification and reference implementations are published at <a href="https://modelcontextprotocol.io" target="_blank" rel="noopener">modelcontextprotocol.io</a>.</p>
+<p>Before MCP, connecting an assistant to a system meant writing a custom integration for each combination of assistant and system. With MCP, a system exposes its capabilities once, and any compatible client, whether a chat assistant, a coding tool or an internal agent, can use them the same way.</p>
+
+<h2>What an MCP server exposes</h2>
+<ul>
+  <li><strong>Tools:</strong> actions the assistant can call, with typed inputs and outputs. For example <code>lookup_order(order_id)</code>, <code>create_ticket(summary, priority)</code> or <code>run_approved_report(name, date_range)</code>.</li>
+  <li><strong>Resources:</strong> data the assistant can read, such as a document, a record or a query result, identified by a URI.</li>
+  <li><strong>Prompts:</strong> reusable, parameterised instructions that package a well-tested way of doing a task, for example "prepare a weekly status summary from these sources".</li>
+</ul>
+<p>The server describes these capabilities in a machine-readable way, the client shows them to the model, and the model decides when to use them. The server, not the model, enforces what is allowed.</p>
+
+<h2>When building an MCP server makes sense</h2>
+<ul>
+  <li><strong>Your systems have no ready-made connector.</strong> Internal databases, custom applications, older business systems and in-house APIs rarely come with an MCP integration. Building one is how they join the conversation.</li>
+  <li><strong>Several AI clients need the same access.</strong> If your support assistant, your internal chat tool and a coding agent all need to read the same records, one server with consistent rules beats three bespoke integrations.</li>
+  <li><strong>Governance has to live in one place.</strong> An MCP server is where you enforce who may do what, log every call and shape which data leaves the system. That is far more reliable than instructions inside prompts.</li>
+  <li><strong>You want the assistant to act, not just answer.</strong> Creating tickets, updating records, triggering workflows: actions need typed inputs, validation and often human approval, which is exactly what a tool interface provides.</li>
+</ul>
+
+<h2>When you probably do not need one</h2>
+<ul>
+  <li>One application, one model, one integration that will never be reused. A direct API call inside that application is simpler.</li>
+  <li>The system you want to connect already has a well-maintained MCP server from its vendor. Evaluate it before building.</li>
+  <li>The real problem is that the assistant cannot answer from documents. That is a retrieval problem; see <a href="/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/">RAG versus fine-tuning</a>. MCP can expose a retrieval tool, but the retrieval quality is the work.</li>
+</ul>
+
+<h2>Security decisions you cannot skip</h2>
+<h3>Authentication and identity</h3>
+<p>The server must know who is asking. Remote servers should use standards-based authentication, such as OAuth, and pass the user's identity through to the underlying systems so that existing permissions apply. A server that connects with one privileged service account on behalf of everyone is a data leak waiting for a clever prompt.</p>
+<h3>Least-privilege tool design</h3>
+<p>Expose narrow, purpose-built tools rather than "run any query" or "call any endpoint". Validate inputs, cap result sizes and separate read tools from write tools. The model will use whatever it is given; the server decides what that is.</p>
+<h3>Human approval for consequential actions</h3>
+<p>Anything that spends money, changes customer-facing records or sends communications should require an explicit confirmation step, either in the client's interface or in the workflow the tool triggers. Design the approval path into the tool, not around it.</p>
+<h3>Logging and audit</h3>
+<p>Record every tool call with the caller, the arguments and the outcome. This is how you debug odd behaviour, satisfy security reviews and answer the question "why did the assistant do that?"</p>
+<h3>Untrusted content</h3>
+<p>Data returned by a tool may contain text that tries to instruct the model (a classic prompt injection). Servers should treat returned content as data, clients should display it as such, and consequential actions should never be triggered by content alone.</p>
+
+<h2>What a sensible first MCP project looks like</h2>
+<ol>
+  <li><strong>Pick one system and two or three tools</strong> that would remove real friction, for example looking up a customer, summarising their recent tickets and drafting (not sending) a reply.</li>
+  <li><strong>Define the tool contracts</strong> with typed inputs, outputs, error cases and result limits, and agree which are read-only.</li>
+  <li><strong>Wire authentication</strong> so the user's own permissions apply, and add logging from the first commit.</li>
+  <li><strong>Test with the intended clients</strong> and with real tasks, including attempts to misuse the tools, before widening access.</li>
+  <li><strong>Document ownership and operation</strong>: who maintains the server, how it is deployed, how tools are added and reviewed.</li>
+</ol>
+<p>A project of this shape is typically weeks of work, and it produces something you can extend tool by tool as trust grows.</p>
+
+<h2>Frequently asked questions</h2>
+<div class="faq-list">
+  <details><summary><span>Is MCP tied to one AI vendor?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>No. MCP is an open specification with open-source SDKs in several languages, and it is supported by multiple AI assistants, developer tools and platforms. A server you build can be used by any compatible client, which is the main reason to prefer it over a bespoke integration.</p></div></details>
+  <details><summary><span>Does an MCP server need to be hosted on the internet?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>Not necessarily. Servers can run locally alongside a desktop client using standard input and output, or remotely over HTTP for shared use. Remote servers need proper authentication and network controls; local servers still need careful tool design because they run with the user's own access.</p></div></details>
+  <details><summary><span>What does MCP server development cost?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>The main cost drivers are the number and complexity of tools, the authentication model, the systems being integrated, testing and documentation. A focused first server with a handful of well-designed tools is a small project; the cost grows with the sensitivity of the actions it enables and the rigour those actions demand.</p></div></details>
+</div>

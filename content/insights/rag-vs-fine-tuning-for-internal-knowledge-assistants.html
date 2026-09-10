@@ -1,0 +1,84 @@
+<!--meta
+{
+  "name": "RAG vs fine-tuning",
+  "title": "RAG vs Fine-Tuning: Choosing the Right Approach for an Internal Knowledge Assistant",
+  "description": "A plain-language comparison of retrieval-augmented generation and fine-tuning for company knowledge assistants: when each fits, permissions, evaluation and cost.",
+  "kicker": "AI engineering",
+  "ogTitle": "RAG vs fine-tuning for internal knowledge assistants",
+  "ogKicker": "What each does · When each fits · Permissions · Evaluation · Cost",
+  "published": "2026-09-10",
+  "keywords": [
+    "RAG",
+    "retrieval-augmented generation",
+    "fine-tuning",
+    "knowledge assistant",
+    "enterprise AI",
+    "LLM"
+  ],
+  "pageTitle": "RAG vs Fine-Tuning for Internal Knowledge Assistants | MV.tech"
+}
+-->
+<div class="in-brief">
+  <p class="eyebrow">In brief</p>
+  <ul>
+    <li>Retrieval-augmented generation (RAG) gives a language model the relevant passages from your own documents at question time. Fine-tuning changes the model's weights using examples, which teaches behaviour and style far better than it teaches facts.</li>
+    <li>For assistants that answer questions about company knowledge, RAG is almost always the right starting point: it stays current, can cite sources and can respect user permissions. Fine-tuning suits narrow, repetitive tasks with a stable format.</li>
+    <li>Whichever you choose, the deciding work is retrieval quality, access control and evaluation against real questions, including the ones the documents cannot answer.</li>
+  </ul>
+</div>
+
+<p>Teams that want an assistant over their own documents, tickets and data usually ask the same first question: should we fine-tune a model on our content, or use retrieval? The short answer is that these techniques solve different problems, and for internal knowledge the answer is usually retrieval first, with fine-tuning added later only if a specific, measurable need appears. Here is the reasoning, without the jargon.</p>
+
+<h2>What each approach actually does</h2>
+<h3>Retrieval-augmented generation</h3>
+<p>RAG splits your documents into passages, indexes them (typically with embeddings and often a keyword index as well), and at question time retrieves the passages most relevant to the question. Those passages are placed in the model's context along with the question, and the model writes an answer grounded in them. The model itself is unchanged; what changes is what it is shown.</p>
+<h3>Fine-tuning</h3>
+<p>Fine-tuning continues training a model on examples of inputs and desired outputs, adjusting its weights. It is effective at teaching a model how to behave: a tone of voice, a strict output format, a domain's vocabulary, or a narrow classification task. It is a poor way to store facts that change, because updating a fact means retraining, and a fine-tuned model still cannot tell you which document its answer came from.</p>
+
+<h2>A side-by-side comparison</h2>
+<div class="table-wrap" tabindex="0"><table class="data-table"><caption>RAG and fine-tuning compared for company knowledge assistants</caption><thead><tr><th scope="col">Consideration</th><th scope="col">Retrieval-augmented generation</th><th scope="col">Fine-tuning</th></tr></thead><tbody>
+<tr><th scope="row">Keeping up with changing content</th><td>Re-index the changed documents; answers update immediately</td><td>Retrain and redeploy; facts baked into weights go stale</td></tr>
+<tr><th scope="row">Citing sources</th><td>Natural: the answer can link to the passages it used</td><td>Not available; the model cannot show where an answer came from</td></tr>
+<tr><th scope="row">Respecting user permissions</th><td>Filter retrieval by what the current user may see</td><td>Everything in the training data is available to every user</td></tr>
+<tr><th scope="row">Handling questions outside the material</th><td>Can detect weak retrieval and say "I don't know"</td><td>Tends to answer confidently anyway</td></tr>
+<tr><th scope="row">Teaching format, tone or a narrow task</th><td>Possible through prompting, with limits</td><td>Strong: this is what fine-tuning is for</td></tr>
+<tr><th scope="row">Upfront cost</th><td>Engineering time for ingestion, retrieval and evaluation</td><td>Curating thousands of quality examples plus training runs</td></tr>
+<tr><th scope="row">Ongoing cost</th><td>Longer prompts per query; index maintenance</td><td>Hosting or serving a custom model; periodic retraining</td></tr>
+</tbody></table></div>
+
+<h2>When RAG is the right choice</h2>
+<ul>
+  <li>The assistant must answer from documents, policies, tickets or records that change over time.</li>
+  <li>Users need to see where an answer came from before they trust it.</li>
+  <li>Different users are allowed to see different things, so permissions must be enforced at retrieval time.</li>
+  <li>The content is too large or too varied to summarise into training examples.</li>
+</ul>
+<p>This describes almost every internal knowledge assistant we are asked to build: HR and policy questions, engineering runbooks, customer-support knowledge, contract and procedure lookups.</p>
+
+<h2>When fine-tuning earns its place</h2>
+<ul>
+  <li>A narrow, repetitive task with a stable format: classifying tickets, extracting fields from a known document type, writing in a strict house style.</li>
+  <li>Prompting has been tried and measured, and the remaining error rate is about behaviour rather than missing information.</li>
+  <li>Latency or cost per request matters enough that a smaller, specialised model is worth the maintenance.</li>
+</ul>
+<p>Fine-tuning and RAG are not mutually exclusive. A common mature design uses retrieval for knowledge and a lightly fine-tuned or carefully prompted model for consistent behaviour. Start with retrieval and good prompting; add fine-tuning when you can name the metric it will improve.</p>
+
+<h2>The work that actually decides success</h2>
+<h3>Retrieval quality</h3>
+<p>Most "the AI is wrong" complaints are retrieval failures: the right passage was never shown to the model. Chunking that respects document structure, combining semantic and keyword search, adding metadata filters and re-ranking results all matter more than the choice of model. Measure retrieval separately from answer quality so you can tell which one is failing.</p>
+<h3>Access control</h3>
+<p>Permissions must be enforced in the application before retrieval, using the user's identity and the source system's rules. Instructions written into a prompt are not access control; a determined user can talk a model out of them. This is a design requirement, not a feature to add later.</p>
+<h3>Evaluation with real questions</h3>
+<p>Collect the questions people actually ask, including ones the documents cannot answer, and review the assistant's behaviour on them before widening the audience. Score groundedness (is the answer supported by the retrieved passages?), correctness, and how the assistant behaves when it should decline. Keep the set and re-run it after every change to the index, prompt or model.</p>
+<h3>Unanswerable questions</h3>
+<p>A good assistant says "I could not find this in the approved sources" and points to a human. A bad one improvises. Build the decline path deliberately, test it, and make it easy for users to report wrong answers.</p>
+
+<h2>A sensible first project</h2>
+<p>Choose one defined collection of documents and a small group of users. Collect twenty to fifty real questions. Build retrieval and answering over that collection, with source references and a decline path, and review the results with the users. Only then decide on wider access, automated actions or any fine-tuning. This bounded first release typically takes weeks rather than months, and it produces the evidence you need to justify the next step.</p>
+
+<h2>Frequently asked questions</h2>
+<div class="faq-list">
+  <details><summary><span>Does fine-tuning make a model "know" our documents?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>Not reliably. Fine-tuning shapes how a model responds far more than what it can recall, and it cannot cite where an answer came from. If the goal is accurate answers about specific documents, retrieval is the mechanism that puts the right text in front of the model.</p></div></details>
+  <details><summary><span>Will our data be used to train someone else's model?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>It depends on the provider and the contract terms you select. Business and API tiers of the major model providers generally state that customer data is not used for training, but this should be confirmed in writing and reflected in your architecture, including where indexes and logs are stored.</p></div></details>
+  <details><summary><span>How much does an internal knowledge assistant cost to run?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>Ongoing costs come from model usage per query, the retrieval infrastructure, and keeping the index current as documents change. For most internal tools these are modest compared with the engineering time to build and evaluate the system properly. Ask for both numbers when comparing proposals.</p></div></details>
+</div>

@@ -15,25 +15,70 @@
     ],
     "deliverablesHeading": "Data engineering services and deliverables",
     "deliverables": [
-      {"title": "ETL and ELT pipelines", "text": "Bring data from APIs, files and databases into a repeatable ingestion process. Define incremental loads, retries, backfills and duplicate handling around the behavior of each source."},
-      {"title": "Cloud warehouses and SQL models", "text": "Design BigQuery or Redshift tables, transformations and reporting models. Make business definitions, table ownership and refresh dependencies explicit before expanding the platform."},
-      {"title": "Data quality and observability", "text": "Check freshness, completeness and reconciliation at meaningful boundaries. Add useful logs and failure alerts so a successful job is not mistaken for trustworthy data."},
-      {"title": "Reporting and handover", "text": "Connect validated datasets to Tableau, dashboards or downstream applications. Include source mappings, operating notes and recovery steps in the agreed handover."}
+      {
+        "title": "ETL and ELT pipelines",
+        "text": "Bring data from APIs, files and databases into a repeatable ingestion process. Define incremental loads, retries, backfills and duplicate handling around the behaviour of each source."
+      },
+      {
+        "title": "Cloud warehouses and SQL models",
+        "text": "Design BigQuery or Redshift tables, transformations and reporting models. Make business definitions, table ownership and refresh dependencies explicit before expanding the platform."
+      },
+      {
+        "title": "Data quality and observability",
+        "text": "Check freshness, completeness and reconciliation at meaningful boundaries. Add useful logs and failure alerts so a successful job is not mistaken for trustworthy data."
+      },
+      {
+        "title": "Reporting and handover",
+        "text": "Connect validated datasets to Tableau, dashboards or downstream applications. Include source mappings, operating notes and recovery steps in the agreed handover."
+      }
     ],
     "scopeHeading": "A useful first project: one dependable reporting flow",
     "scope": "Start with a business report that matters and trace its path back to the source. Agree which records belong in the result, how fresh they need to be and how correctness will be checked. Then scope the ingestion, transformations and reporting output together. This gives the project a concrete acceptance test before more sources or dashboards are added.",
     "approach": [
-      {"title": "Map sources and definitions", "text": "Review access, API limits, data volumes, history requirements and the business meaning of the metrics."},
-      {"title": "Build and reconcile", "text": "Implement the pipeline and compare the output with source records, including empty periods, updates and retries."},
-      {"title": "Operate and extend", "text": "Document schedules, ownership and recovery. Agree support and the next useful source or reporting model."}
+      {
+        "title": "Map sources and definitions",
+        "text": "Review access, API limits, data volumes, history requirements and the business meaning of the metrics."
+      },
+      {
+        "title": "Build and reconcile",
+        "text": "Implement the pipeline and compare the output with source records, including empty periods, updates and retries."
+      },
+      {
+        "title": "Operate and extend",
+        "text": "Document schedules, ownership and recovery. Agree support and the next useful source or reporting model."
+      }
     ],
-    "tools": ["Python", "SQL", "BigQuery", "Redshift", "AWS", "Google Cloud", "Tableau", "REST APIs"],
+    "tools": [
+      "Python",
+      "SQL",
+      "BigQuery",
+      "Redshift",
+      "AWS",
+      "Google Cloud",
+      "Tableau",
+      "REST APIs"
+    ],
     "questions": [
-      {"question": "Can you improve an existing pipeline without rebuilding everything?", "answer": "Yes. We can start with a bounded review of your existing Python, SQL, cloud and reporting workflows. The scope can focus on unreliable jobs, missing validation, slow queries or a specific integration, preserving the parts that already work."},
-      {"question": "Can you work alongside our internal engineering team?", "answer": "Yes. MV.tech can own an agreed data workstream or provide specialist capacity alongside your team. We agree responsibilities, access, review steps and overlapping working hours before delivery begins."},
-      {"question": "How is a data engineering project priced?", "answer": "The estimate depends on source count, access complexity, historical data volume, transformation rules, freshness needs and support. Our remote operating model keeps overhead lean; a useful comparison includes monitoring, documentation and handover as well as the initial build."},
-      {"question": "What should we share before the first call?", "answer": "Share the report or workflow you want to improve, the source systems, approximate data volumes, current tools and required refresh frequency. A description or sanitized example is enough for an initial conversation; credentials are not needed in an enquiry."}
-    ]
+      {
+        "question": "Can you improve an existing pipeline without rebuilding everything?",
+        "answer": "Yes. We can start with a bounded review of your existing Python, SQL, cloud and reporting workflows. The scope can focus on unreliable jobs, missing validation, slow queries or a specific integration, preserving the parts that already work."
+      },
+      {
+        "question": "Can you work alongside our internal engineering team?",
+        "answer": "Yes. MV.tech can own an agreed data workstream or provide specialist capacity alongside your team. We agree responsibilities, access, review steps and overlapping working hours before delivery begins."
+      },
+      {
+        "question": "How is a data engineering project priced?",
+        "answer": "The estimate depends on source count, access complexity, historical data volume, transformation rules, freshness needs and support. Our remote operating model keeps overhead lean; a useful comparison includes monitoring, documentation and handover as well as the initial build."
+      },
+      {
+        "question": "What should we share before the first call?",
+        "answer": "Share the report or workflow you want to improve, the source systems, approximate data volumes, current tools and required refresh frequency. A description or sanitised example is enough for an initial conversation; credentials are not needed in an enquiry."
+      }
+    ],
+    "summary": "ETL/ELT pipelines, BigQuery and Redshift warehouses, data quality checks and reporting your team can trust.",
+    "ogTitle": "Data engineering & ETL consulting",
+    "ogKicker": "Python · SQL · BigQuery · Redshift · Data quality · Reporting"
   },
   {
     "path": "/services/ai-consulting/",
@@ -51,28 +96,82 @@
     ],
     "deliverablesHeading": "Practical AI consulting services",
     "deliverables": [
-      {"title": "RAG and knowledge search", "text": "Plan document ingestion, retrieval and source references around a defined knowledge collection. Account for updates, permissions and questions the available material cannot answer."},
-      {"title": "AI automation and custom assistants", "text": "Connect an assistant to a support workflow, internal tool or customer application. Automate agreed steps, define permitted actions and keep a person in control of approvals and exceptions."},
-      {"title": "MCP server and tool development", "text": "Build Model Context Protocol servers that expose approved tools and data to compatible AI applications. Define tool inputs, resource access, authorization and logging around the business systems being connected."},
-      {"title": "Custom AI solutions", "text": "Integrate document processing, classification, extraction or decision support into an existing workflow. Agree the expected output, validation rules and review path before automating a business action."},
-      {"title": "LLM and API integration", "text": "Bring model responses into existing business logic and user interfaces. Validate inputs and outputs, handle failures and keep application permissions under server-side control."},
-      {"title": "Evaluation and operating controls", "text": "Agree representative questions and expected behavior. Review source grounding, unsupported answers, latency and usage cost before expanding the feature's audience."}
+      {
+        "title": "RAG and knowledge search",
+        "text": "Plan document ingestion, retrieval and source references around a defined knowledge collection. Account for updates, permissions and questions the available material cannot answer."
+      },
+      {
+        "title": "AI automation and custom assistants",
+        "text": "Connect an assistant to a support workflow, internal tool or customer application. Automate agreed steps, define permitted actions and keep a person in control of approvals and exceptions."
+      },
+      {
+        "title": "MCP server and tool development",
+        "text": "Build Model Context Protocol servers that expose approved tools and data to compatible AI applications. Define tool inputs, resource access, authorisation and logging around the business systems being connected."
+      },
+      {
+        "title": "Custom AI solutions",
+        "text": "Integrate document processing, classification, extraction or decision support into an existing workflow. Agree the expected output, validation rules and review path before automating a business action."
+      },
+      {
+        "title": "LLM and API integration",
+        "text": "Bring model responses into existing business logic and user interfaces. Validate inputs and outputs, handle failures and keep application permissions under server-side control."
+      },
+      {
+        "title": "Evaluation and operating controls",
+        "text": "Agree representative questions and expected behaviour. Review source grounding, unsupported answers, latency and usage cost before expanding the feature's audience."
+      }
     ],
     "scopeHeading": "A useful first project: a bounded knowledge assistant",
     "scope": "Choose a defined set of documents and a small group of users. Collect questions they actually ask, including questions outside the documents' scope. A first release can then be assessed against source references, correct handling of missing information and the time it takes to find an answer. Wider access and automated actions can be scoped after those fundamentals are clear.",
     "approach": [
-      {"title": "Define the question and data", "text": "Identify users, approved sources, permissions and the decisions the assistant will support."},
-      {"title": "Build and evaluate", "text": "Connect retrieval, model behavior and the interface. Test with real questions and review failure cases."},
-      {"title": "Integrate and monitor", "text": "Release within an agreed scope, track answer quality and usage, and document the update process."}
+      {
+        "title": "Define the question and data",
+        "text": "Identify users, approved sources, permissions and the decisions the assistant will support."
+      },
+      {
+        "title": "Build and evaluate",
+        "text": "Connect retrieval, model behaviour and the interface. Test with real questions and review failure cases."
+      },
+      {
+        "title": "Integrate and monitor",
+        "text": "Release within an agreed scope, track answer quality and usage, and document the update process."
+      }
     ],
-    "tools": ["Python", "Model Context Protocol (MCP)", "LLM APIs", "RAG", "Embeddings", "Document retrieval", "REST APIs", "SQL"],
+    "tools": [
+      "Python",
+      "Model Context Protocol (MCP)",
+      "LLM APIs",
+      "RAG",
+      "Embeddings",
+      "Document retrieval",
+      "REST APIs",
+      "SQL"
+    ],
     "questions": [
-      {"question": "What is retrieval-augmented generation, or RAG?", "answer": "RAG retrieves relevant material from an approved source collection and provides it to a language model when generating an answer. It can help an assistant answer questions about your own information, but retrieval quality, access controls and evaluation still matter."},
-      {"question": "What is MCP development?", "answer": "Model Context Protocol (MCP) provides a shared interface for AI applications to connect to tools and data. We can build an MCP server around your approved APIs or systems, define the tools and resources it exposes, and test it with the intended compatible clients. Access permissions and approval requirements remain part of the application design."},
-      {"question": "Do we need to train our own AI model?", "answer": "Not necessarily. The right scope may use an existing model with retrieval and application integration. We review your use case, data, evaluation criteria and operating constraints before proposing an approach."},
-      {"question": "Can the assistant respect different user permissions?", "answer": "Role-aware access can be part of the scope. The design must enforce authorization before protected data is retrieved or an action is performed; instructions written into a prompt are not a substitute for application access controls."},
-      {"question": "What determines the cost of an AI assistant?", "answer": "The main factors are source preparation, integrations, permission rules, evaluation, user interface and support. Ongoing costs also depend on model usage, retrieval infrastructure and traffic. These should be considered alongside the build estimate."}
-    ]
+      {
+        "question": "What is retrieval-augmented generation, or RAG?",
+        "answer": "RAG retrieves relevant material from an approved source collection and provides it to a language model when generating an answer. It can help an assistant answer questions about your own information, but retrieval quality, access controls and evaluation still matter."
+      },
+      {
+        "question": "What is MCP development?",
+        "answer": "Model Context Protocol (MCP) provides a shared interface for AI applications to connect to tools and data. We can build an MCP server around your approved APIs or systems, define the tools and resources it exposes, and test it with the intended compatible clients. Access permissions and approval requirements remain part of the application design."
+      },
+      {
+        "question": "Do we need to train our own AI model?",
+        "answer": "Not necessarily. The right scope may use an existing model with retrieval and application integration. We review your use case, data, evaluation criteria and operating constraints before proposing an approach."
+      },
+      {
+        "question": "Can the assistant respect different user permissions?",
+        "answer": "Role-aware access can be part of the scope. The design must enforce authorisation before protected data is retrieved or an action is performed; instructions written into a prompt are not a substitute for application access controls."
+      },
+      {
+        "question": "What determines the cost of an AI assistant?",
+        "answer": "The main factors are source preparation, integrations, permission rules, evaluation, user interface and support. Ongoing costs also depend on model usage, retrieval infrastructure and traffic. These should be considered alongside the build estimate."
+      }
+    ],
+    "summary": "Knowledge assistants grounded in your documents, MCP servers exposing approved tools, and LLM features with evaluation built in.",
+    "ogTitle": "AI automation, RAG & MCP development",
+    "ogKicker": "Knowledge assistants · MCP servers · LLM integration · Evaluation"
   },
   {
     "path": "/services/workflow-automation/",
@@ -90,25 +189,69 @@
     ],
     "deliverablesHeading": "Automation that fits your operating process",
     "deliverables": [
-      {"title": "API and webhook integrations", "text": "Connect approved business systems using their supported interfaces. Handle pagination, rate limits, authentication and changes in source records."},
-      {"title": "Scheduled business workflows", "text": "Automate recurring data pulls, report preparation, exports and status checks. Define the schedule, inputs and expected output for each step."},
-      {"title": "Validation and exception handling", "text": "Add checks before data is written or a downstream action is triggered. Design retries, duplicate prevention and review paths around the impact of a failed step."},
-      {"title": "Monitoring and ownership", "text": "Provide logs, useful alerts and operating documentation. Make it clear who maintains a workflow and how to recover or rerun it when a dependency fails."}
+      {
+        "title": "API and webhook integrations",
+        "text": "Connect approved business systems using their supported interfaces. Handle pagination, rate limits, authentication and changes in source records."
+      },
+      {
+        "title": "Scheduled business workflows",
+        "text": "Automate recurring data pulls, report preparation, exports and status checks. Define the schedule, inputs and expected output for each step."
+      },
+      {
+        "title": "Validation and exception handling",
+        "text": "Add checks before data is written or a downstream action is triggered. Design retries, duplicate prevention and review paths around the impact of a failed step."
+      },
+      {
+        "title": "Monitoring and ownership",
+        "text": "Provide logs, useful alerts and operating documentation. Make it clear who maintains a workflow and how to recover or rerun it when a dependency fails."
+      }
     ],
     "scopeHeading": "A useful first project: one repeated manual handoff",
     "scope": "Pick a recurring handoff with a clear input and output, such as preparing a weekly report from several systems. Document what people check today, including exceptions. The project can then automate the repeatable steps while preserving review where judgment is required. Assess the result using completion time, exception frequency and the effort needed to recover a failed run.",
     "approach": [
-      {"title": "Observe the current workflow", "text": "Map triggers, source tools, manual checks, exceptions and who receives the result."},
-      {"title": "Connect and validate", "text": "Implement the integrations and test retries, missing data and downstream failures as well as a successful run."},
-      {"title": "Schedule and hand over", "text": "Agree operating hours, alert recipients, access ownership and a recovery procedure."}
+      {
+        "title": "Observe the current workflow",
+        "text": "Map triggers, source tools, manual checks, exceptions and who receives the result."
+      },
+      {
+        "title": "Connect and validate",
+        "text": "Implement the integrations and test retries, missing data and downstream failures as well as a successful run."
+      },
+      {
+        "title": "Schedule and hand over",
+        "text": "Agree operating hours, alert recipients, access ownership and a recovery procedure."
+      }
     ],
-    "tools": ["Python", "REST APIs", "Webhooks", "SQL", "Scheduled jobs", "Business systems", "Reporting workflows"],
+    "tools": [
+      "Python",
+      "REST APIs",
+      "Webhooks",
+      "SQL",
+      "Scheduled jobs",
+      "Business systems",
+      "Reporting workflows"
+    ],
     "questions": [
-      {"question": "Can you automate a workflow across several tools?", "answer": "Yes, when the tools provide suitable authorized access. We review available APIs, webhooks, exports and authentication before estimating the integration. Source limits and downstream permissions shape what can be automated reliably."},
-      {"question": "Does every automation need AI?", "answer": "No. A scheduled job or API integration may be enough for a predictable process. AI is useful when a step requires language or document interpretation, and that step still needs suitable evaluation and review."},
-      {"question": "How do you avoid duplicate records or repeated actions?", "answer": "The workflow can include stable record identifiers, state tracking, reconciliation and checks before writing. The exact design depends on whether the connected systems support safe retries and how costly a repeated action would be."},
-      {"question": "Can you maintain automations built by another developer?", "answer": "Yes. An initial review can establish the code, schedules, dependencies, access requirements and failure history. We can then scope a repair, documentation or ongoing support engagement."}
-    ]
+      {
+        "question": "Can you automate a workflow across several tools?",
+        "answer": "Yes, when the tools provide suitable authorised access. We review available APIs, webhooks, exports and authentication before estimating the integration. Source limits and downstream permissions shape what can be automated reliably."
+      },
+      {
+        "question": "Does every automation need AI?",
+        "answer": "No. A scheduled job or API integration may be enough for a predictable process. AI is useful when a step requires language or document interpretation, and that step still needs suitable evaluation and review."
+      },
+      {
+        "question": "How do you avoid duplicate records or repeated actions?",
+        "answer": "The workflow can include stable record identifiers, state tracking, reconciliation and checks before writing. The exact design depends on whether the connected systems support safe retries and how costly a repeated action would be."
+      },
+      {
+        "question": "Can you maintain automations built by another developer?",
+        "answer": "Yes. An initial review can establish the code, schedules, dependencies, access requirements and failure history. We can then scope a repair, documentation or ongoing support engagement."
+      }
+    ],
+    "summary": "Scheduled workflows, webhooks and API integrations that replace manual hand-offs and make failures visible.",
+    "ogTitle": "Workflow automation & API integration",
+    "ogKicker": "Scheduled workflows · Webhooks · Validation · Monitoring"
   },
   {
     "path": "/services/custom-software/",
@@ -126,25 +269,69 @@
     ],
     "deliverablesHeading": "Software development services",
     "deliverables": [
-      {"title": "Business web applications", "text": "Build responsive interfaces around actual user tasks, data views and permissions. Include loading, empty and error states in the workflow."},
-      {"title": "Client portals and internal tools", "text": "Implement role-based access, forms, operational dashboards and approval flows. Agree which actions each user can take and enforce those rules in the application."},
-      {"title": "APIs and data backends", "text": "Connect the product to databases, business systems and reporting workflows. Define validation, failure handling and how records stay consistent."},
-      {"title": "Release and maintainability", "text": "Scope testing, deployment, monitoring and documentation alongside development. Make future fixes and enhancements part of the handover conversation."}
+      {
+        "title": "Business web applications",
+        "text": "Build responsive interfaces around actual user tasks, data views and permissions. Include loading, empty and error states in the workflow."
+      },
+      {
+        "title": "Client portals and internal tools",
+        "text": "Implement role-based access, forms, operational dashboards and approval flows. Agree which actions each user can take and enforce those rules in the application."
+      },
+      {
+        "title": "APIs and data backends",
+        "text": "Connect the product to databases, business systems and reporting workflows. Define validation, failure handling and how records stay consistent."
+      },
+      {
+        "title": "Release and maintainability",
+        "text": "Scope testing, deployment, monitoring and documentation alongside development. Make future fixes and enhancements part of the handover conversation."
+      }
     ],
     "scopeHeading": "A useful first project: one complete user journey",
     "scope": "Choose a real workflow, such as submitting a request, reviewing it and seeing its status. Agree the roles, data, acceptance criteria and necessary integrations. Delivering that journey end to end gives stakeholders something concrete to evaluate and reveals the operational details that a collection of disconnected screens can miss.",
     "approach": [
-      {"title": "Agree the workflow", "text": "Define users, actions, permissions, existing systems and what a successful release needs to do."},
-      {"title": "Build in reviewable increments", "text": "Connect interface and backend behavior, review with stakeholders and test important edge cases."},
-      {"title": "Release and support", "text": "Validate deployment, document ownership and agree how feedback and maintenance will be handled."}
+      {
+        "title": "Agree the workflow",
+        "text": "Define users, actions, permissions, existing systems and what a successful release needs to do."
+      },
+      {
+        "title": "Build in reviewable increments",
+        "text": "Connect interface and backend behaviour, review with stakeholders and test important edge cases."
+      },
+      {
+        "title": "Release and support",
+        "text": "Validate deployment, document ownership and agree how feedback and maintenance will be handled."
+      }
     ],
-    "tools": ["JavaScript", "Python", "SQL", "REST APIs", "Web applications", "AWS", "Google Cloud"],
+    "tools": [
+      "JavaScript",
+      "Python",
+      "SQL",
+      "REST APIs",
+      "Web applications",
+      "AWS",
+      "Google Cloud"
+    ],
     "questions": [
-      {"question": "Can you work in our existing codebase?", "answer": "Yes. We review the current stack, conventions, deployment process and priorities before proposing changes. A bounded feature or integration is often a useful first engagement."},
-      {"question": "Do you build both the interface and the backend?", "answer": "Yes. Our services cover responsive interfaces, API-backed workflows, data ingestion, warehouse models and deployment handover. The project scope defines which parts your team and ours will own."},
-      {"question": "How do you estimate a custom software project?", "answer": "The estimate depends on user journeys, roles, integrations, data migration, testing and release requirements. We scope an initial milestone and clarify assumptions before treating a feature list as a delivery commitment."},
-      {"question": "Can remote developers overlap our working hours?", "answer": "Yes. MV.tech is remote-first and can plan overlap with teams in any timezone. We agree recurring collaboration windows for reviews and releases, supported by written updates between meetings."}
-    ]
+      {
+        "question": "Can you work in our existing codebase?",
+        "answer": "Yes. We review the current stack, conventions, deployment process and priorities before proposing changes. A bounded feature or integration is often a useful first engagement."
+      },
+      {
+        "question": "Do you build both the interface and the backend?",
+        "answer": "Yes. Our services cover responsive interfaces, API-backed workflows, data ingestion, warehouse models and deployment handover. The project scope defines which parts your team and ours will own."
+      },
+      {
+        "question": "How do you estimate a custom software project?",
+        "answer": "The estimate depends on user journeys, roles, integrations, data migration, testing and release requirements. We scope an initial milestone and clarify assumptions before treating a feature list as a delivery commitment."
+      },
+      {
+        "question": "Can remote developers overlap our working hours?",
+        "answer": "Yes. MV.tech is remote-first and can plan overlap with teams in any timezone. We agree recurring collaboration windows for reviews and releases, supported by written updates between meetings."
+      }
+    ],
+    "summary": "Business web applications, client portals, dashboards and internal tools with APIs and data backends designed together.",
+    "ogTitle": "Custom software & web app development",
+    "ogKicker": "Business apps · Client portals · Dashboards · APIs"
   },
   {
     "path": "/services/it-staff-augmentation/",
@@ -154,7 +341,14 @@
     "description": "Add remote AI, data, software and cloud consultants to your team with MV.tech. Flexible timezone overlap, direct collaboration and clearly scoped capacity.",
     "intro": "Add specialist capacity to your existing team. MV.tech provides remote technology consultants for AI, data engineering, software and cloud work, with responsibilities, availability and timezone overlap agreed around your delivery needs.",
     "callLabel": "Discuss your team needs",
-    "enquiryFields": ["Role and required skills", "Workstream or project", "Expected duration and capacity", "Preferred start date", "Timezone and required overlap", "Budget range (optional)"],
+    "enquiryFields": [
+      "Role and required skills",
+      "Workstream or project",
+      "Expected duration and capacity",
+      "Preferred start date",
+      "Timezone and required overlap",
+      "Budget range (optional)"
+    ],
     "closingHeading": "Which capability does your team need?",
     "closingCopy": "Share the role, technology stack, expected duration and working hours. We can discuss consultant fit, availability and the right engagement scope.",
     "fitHeading": "Extend your team where specialist work is waiting",
@@ -166,26 +360,69 @@
     ],
     "deliverablesHeading": "Technology staffing built around the work",
     "deliverables": [
-      {"title": "AI and data specialists", "text": "Discuss consultants for AI automation, RAG systems, MCP integrations, Python, SQL, ETL, analytics and cloud data platforms. Match the required skills to the actual workstream and level of ownership."},
-      {"title": "Software and cloud consultants", "text": "Add capacity for business applications, APIs, integrations and cloud implementation. Review technical fit, existing codebase conventions and deployment responsibilities before the engagement begins."},
-      {"title": "Dedicated remote collaboration", "text": "Agree the consultant's allocated capacity, collaboration windows and reporting relationship. Work through your team's planning, reviews and communication tools with clear expectations for availability."},
-      {"title": "Onboarding and continuity", "text": "Define access, initial tasks, acceptance criteria and documentation with your team. Review the arrangement as priorities change, and agree handover responsibilities before an engagement ends."}
+      {
+        "title": "AI and data specialists",
+        "text": "Discuss consultants for AI automation, RAG systems, MCP integrations, Python, SQL, ETL, analytics and cloud data platforms. Match the required skills to the actual workstream and level of ownership."
+      },
+      {
+        "title": "Software and cloud consultants",
+        "text": "Add capacity for business applications, APIs, integrations and cloud implementation. Review technical fit, existing codebase conventions and deployment responsibilities before the engagement begins."
+      },
+      {
+        "title": "Dedicated remote collaboration",
+        "text": "Agree the consultant's allocated capacity, collaboration windows and reporting relationship. Work through your team's planning, reviews and communication tools with clear expectations for availability."
+      },
+      {
+        "title": "Onboarding and continuity",
+        "text": "Define access, initial tasks, acceptance criteria and documentation with your team. Review the arrangement as priorities change, and agree handover responsibilities before an engagement ends."
+      }
     ],
     "scopeHeading": "Start with a role and a real workstream",
-    "scope": "A useful staffing brief explains the work to be done, not just a list of technologies. Share the backlog or milestone, required experience, team structure, expected duration and collaboration hours. Together we can review the capability needed, confirm availability and agree how progress will be assessed. For permanent employees hired into your organization, our technology recruitment service is the appropriate route.",
+    "scope": "A useful staffing brief explains the work to be done, not just a list of technologies. Share the backlog or milestone, required experience, team structure, expected duration and collaboration hours. Together we can review the capability needed, confirm availability and agree how progress will be assessed. For permanent employees hired into your organisation, our technology recruitment service is the appropriate route.",
     "approachHeading": "From capability gap to an integrated team member.",
     "approach": [
-      {"title": "Define the role and working model", "text": "Clarify the skills, responsibilities, expected capacity, duration, budget and timezone overlap."},
-      {"title": "Review fit and agree the engagement", "text": "Discuss relevant experience, technical expectations, availability and commercial terms before confirming a consultant."},
-      {"title": "Onboard and review progress", "text": "Provide agreed access, introduce the workstream and establish delivery reviews and handover expectations."}
+      {
+        "title": "Define the role and working model",
+        "text": "Clarify the skills, responsibilities, expected capacity, duration, budget and timezone overlap."
+      },
+      {
+        "title": "Review fit and agree the engagement",
+        "text": "Discuss relevant experience, technical expectations, availability and commercial terms before confirming a consultant."
+      },
+      {
+        "title": "Onboard and review progress",
+        "text": "Provide agreed access, introduce the workstream and establish delivery reviews and handover expectations."
+      }
     ],
-    "tools": ["AI and MCP developers", "Data engineers", "Software developers", "Cloud consultants", "BI specialists", "Remote teams"],
+    "tools": [
+      "AI and MCP developers",
+      "Data engineers",
+      "Software developers",
+      "Cloud consultants",
+      "BI specialists",
+      "Remote teams"
+    ],
     "questions": [
-      {"question": "What is the difference between staff augmentation and project consulting?", "answer": "With staff augmentation, consultants add capacity within your team and work under the agreed direction of your technical or delivery leads. A project engagement gives MV.tech ownership of a defined scope and its deliverables. Responsibilities should be explicit in either model."},
-      {"question": "Can we hire a dedicated remote team rather than one consultant?", "answer": "We can discuss a multi-role team around your workstream. Team composition, allocated capacity, start dates and availability are confirmed during scoping; the website does not imply that every role is immediately available."},
-      {"question": "Can consultants overlap our timezone?", "answer": "Yes. We can plan overlap with clients in any timezone. Share the working hours you need and any release requirements so collaboration windows can be agreed. This does not imply round-the-clock support."},
-      {"question": "Do you also recruit permanent employees?", "answer": "Yes. MV.tech also offers technology recruitment for permanent roles within a client's organization. Recruitment and consultant staffing are separate engagements with their own scope and commercial terms."}
-    ]
+      {
+        "question": "What is the difference between staff augmentation and project consulting?",
+        "answer": "With staff augmentation, consultants add capacity within your team and work under the agreed direction of your technical or delivery leads. A project engagement gives MV.tech ownership of a defined scope and its deliverables. Responsibilities should be explicit in either model."
+      },
+      {
+        "question": "Can we hire a dedicated remote team rather than one consultant?",
+        "answer": "We can discuss a multi-role team around your workstream. Team composition, allocated capacity, start dates and availability are confirmed during scoping; the website does not imply that every role is immediately available."
+      },
+      {
+        "question": "Can consultants overlap our timezone?",
+        "answer": "Yes. We can plan overlap with clients in any timezone. Share the working hours you need and any release requirements so collaboration windows can be agreed. This does not imply round-the-clock support."
+      },
+      {
+        "question": "Do you also recruit permanent employees?",
+        "answer": "Yes. MV.tech also offers technology recruitment for permanent roles within a client's organisation. Recruitment and consultant staffing are separate engagements with their own scope and commercial terms."
+      }
+    ],
+    "summary": "Senior data, software, cloud and AI consultants embedded in your team, in your tools and hours, for an agreed capacity.",
+    "ogTitle": "IT staff augmentation & dedicated remote teams",
+    "ogKicker": "Senior consultants in your team · Agreed capacity · Your hours"
   },
   {
     "path": "/services/technology-recruitment/",
@@ -195,46 +432,96 @@
     "description": "Hire permanent AI, data, software and cloud professionals with MV.tech. Technology recruitment shaped around your role, technical needs and hiring process.",
     "intro": "Build your in-house technology team. MV.tech supports permanent recruitment for AI, data, software and cloud roles, bringing an engineering perspective to role definition, candidate fit and the hiring conversation.",
     "callLabel": "Discuss your hiring needs",
-    "enquiryFields": ["Role title and required skills", "Responsibilities and experience level", "Location or remote policy", "Hiring timeline", "Compensation range", "Interview process and hiring contact"],
+    "enquiryFields": [
+      "Role title and required skills",
+      "Responsibilities and experience level",
+      "Location or remote policy",
+      "Hiring timeline",
+      "Compensation range",
+      "Interview process and hiring contact"
+    ],
     "closingHeading": "Tell us about the role you are hiring for.",
     "closingCopy": "Share the responsibilities, must-have skills, location or remote policy, compensation range and hiring timeline. We can use the first conversation to clarify fit and recruitment scope.",
     "fitHeading": "A hiring partner who understands the technical work",
     "fit": [
-      "You need to hire a permanent engineer or specialist into your own organization.",
+      "You need to hire a permanent engineer or specialist into your own organisation.",
       "A role spans AI, data, software or cloud skills that need a clear technical brief.",
       "Your hiring team needs support finding and assessing candidates for an agreed position.",
       "You want candidate conversations grounded in responsibilities, technical depth and the way your team works."
     ],
     "deliverablesHeading": "Permanent technology hiring support",
     "deliverables": [
-      {"title": "Role definition and hiring brief", "text": "Clarify the responsibilities, essential skills, experience level, compensation range and working model. Separate must-have capabilities from skills that can be developed in the role."},
-      {"title": "Candidate sourcing and shortlisting", "text": "Scope a search around the agreed profile and discuss relevant candidates with your hiring team. Confirm candidate interest, working preferences and availability as part of the process."},
-      {"title": "Technical fit discussions", "text": "Bring an engineering perspective to experience and problem-solving discussions. Agree the depth of screening, any assessment and your team's final interview requirements before the search begins."},
-      {"title": "Interview and selection coordination", "text": "Support interview scheduling, feedback and communication through the agreed hiring process. Your organization makes the final hiring decision and agrees employment terms directly with the selected candidate."}
+      {
+        "title": "Role definition and hiring brief",
+        "text": "Clarify the responsibilities, essential skills, experience level, compensation range and working model. Separate must-have capabilities from skills that can be developed in the role."
+      },
+      {
+        "title": "Candidate sourcing and shortlisting",
+        "text": "Scope a search around the agreed profile and discuss relevant candidates with your hiring team. Confirm candidate interest, working preferences and availability as part of the process."
+      },
+      {
+        "title": "Technical fit discussions",
+        "text": "Bring an engineering perspective to experience and problem-solving discussions. Agree the depth of screening, any assessment and your team's final interview requirements before the search begins."
+      },
+      {
+        "title": "Interview and selection coordination",
+        "text": "Support interview scheduling, feedback and communication through the agreed hiring process. Your organisation makes the final hiring decision and agrees employment terms directly with the selected candidate."
+      }
     ],
     "scopeHeading": "Begin with one well-defined hiring requirement",
     "scope": "A strong search starts with a role that candidates and interviewers can understand. Share what the person will own, the technical environment, expected experience, compensation range and location or remote policy. Agree the shortlist criteria and interview stages before sourcing. Search timing depends on the role and candidate market; fees and any follow-up terms are agreed for the engagement.",
     "approachHeading": "From hiring brief to a considered selection.",
     "approach": [
-      {"title": "Align on the role", "text": "Review the responsibilities, required skills, compensation, working model and selection process with the hiring manager."},
-      {"title": "Source and assess fit", "text": "Identify candidates against the agreed brief, discuss relevant experience and coordinate your team's assessment."},
-      {"title": "Support the hiring decision", "text": "Coordinate feedback and candidate communication while your organization owns the final selection and employment offer."}
+      {
+        "title": "Align on the role",
+        "text": "Review the responsibilities, required skills, compensation, working model and selection process with the hiring manager."
+      },
+      {
+        "title": "Source and assess fit",
+        "text": "Identify candidates against the agreed brief, discuss relevant experience and coordinate your team's assessment."
+      },
+      {
+        "title": "Support the hiring decision",
+        "text": "Coordinate feedback and candidate communication while your organisation owns the final selection and employment offer."
+      }
     ],
-    "tools": ["AI engineers", "Data engineers", "Software developers", "Cloud specialists", "BI and analytics", "Permanent hiring"],
+    "tools": [
+      "AI engineers",
+      "Data engineers",
+      "Software developers",
+      "Cloud specialists",
+      "BI and analytics",
+      "Permanent hiring"
+    ],
     "questions": [
-      {"question": "How does permanent recruitment differ from staff augmentation?", "answer": "Permanent recruitment helps you hire an employee into your own organization. Staff augmentation supplies consultants to work within your team for an agreed engagement. MV.tech offers both, and we clarify which arrangement you need before discussing candidates or consultants."},
-      {"question": "Which technology roles can we discuss?", "answer": "Our focus includes AI and automation, data engineering, software development, cloud platforms, BI and analytics. Share the specific role and experience level so we can assess whether the search fits our technical focus."},
-      {"question": "Can you help with remote technology hiring?", "answer": "Yes. Share the permitted hiring locations, remote policy, required working hours and employment arrangement. These constraints shape candidate suitability and should be clear before the search begins."},
-      {"question": "What are your recruitment fees and hiring timelines?", "answer": "Fees, search scope, expected timing and any follow-up terms are agreed for the specific role. Complexity, seniority, compensation, location and interview availability affect the search. We do not promise a hire or a fixed start date before assessing the requirement."}
-    ]
+      {
+        "question": "How does permanent recruitment differ from staff augmentation?",
+        "answer": "Permanent recruitment helps you hire an employee into your own organisation. Staff augmentation supplies consultants to work within your team for an agreed engagement. MV.tech offers both, and we clarify which arrangement you need before discussing candidates or consultants."
+      },
+      {
+        "question": "Which technology roles can we discuss?",
+        "answer": "Our focus includes AI and automation, data engineering, software development, cloud platforms, BI and analytics. Share the specific role and experience level so we can assess whether the search fits our technical focus."
+      },
+      {
+        "question": "Can you help with remote technology hiring?",
+        "answer": "Yes. Share the permitted hiring locations, remote policy, required working hours and employment arrangement. These constraints shape candidate suitability and should be clear before the search begins."
+      },
+      {
+        "question": "What are your recruitment fees and hiring timelines?",
+        "answer": "Fees, search scope, expected timing and any follow-up terms are agreed for the specific role. Complexity, seniority, compensation, location and interview availability affect the search. We do not promise a hire or a fixed start date before assessing the requirement."
+      }
+    ],
+    "summary": "Permanent hiring for AI, data, software and cloud roles, with an engineer shaping the brief and assessing fit.",
+    "ogTitle": "Technology recruitment",
+    "ogKicker": "Permanent AI, data, software & cloud hires · Engineer-led"
   },
   {
     "path": "/remote-consulting/",
     "key": "remote-consulting",
-    "name": "Remote Consulting Team",
-    "title": "Hire Remote Technology Consultants in India | MV.tech",
-    "description": "Work with MV.tech's senior data, software and AI consultants in India. Worldwide delivery, overlap with any timezone and a lean consulting model.",
-    "intro": "Get direct access to senior data, software, automation and AI specialists. Based in Ahmedabad, India, MV.tech works remotely with clients worldwide and plans collaboration around the hours your team needs.",
+    "name": "How We Work: Remote Team, Timezones & Costs",
+    "title": "How We Work: Remote Consulting from India in Your Timezone | MV.tech",
+    "description": "How MV.tech's senior consultants in India work with clients worldwide: collaboration windows by region, engagement models and where the cost difference comes from.",
+    "intro": "Get direct access to senior data, software, automation and AI specialists. MV.tech is based in Ahmedabad, India, works remotely with clients worldwide, and plans collaboration around the hours your team needs, with a lean model that keeps consulting overhead out of the price.",
     "fitHeading": "Choose the engagement around your work",
     "fit": [
       "A scoped project with defined deliverables, review points and acceptance criteria.",
@@ -244,24 +531,68 @@
     ],
     "deliverablesHeading": "How remote delivery works",
     "deliverables": [
-      {"title": "Overlap with any timezone", "text": "Share your timezone and the hours that matter for collaboration. We agree recurring windows for discovery, reviews and releases, then use written updates and documented decisions between meetings."},
-      {"title": "Direct access to specialists", "text": "Work with the people responsible for the implementation. Our team combines data, software, cloud, automation and AI capabilities, including Toptal-vetted talent and consultants with GCP and IBM credentials."},
-      {"title": "A lean cost structure", "text": "A focused remote team keeps office and management overhead low. Compare proposals on agreed scope, senior delivery time, validation, handover and support so the cost reflects the work you actually need."},
-      {"title": "Clear ownership and progress", "text": "Agree responsibilities, access, deliverables and review points at the start. Use working demonstrations and acceptance criteria to assess progress throughout the engagement."}
+      {
+        "title": "Overlap with any timezone",
+        "text": "Share your timezone and the hours that matter for collaboration. We agree recurring windows for discovery, reviews and releases, then use written updates and documented decisions between meetings."
+      },
+      {
+        "title": "Direct access to specialists",
+        "text": "Work with the people responsible for the implementation. Our team combines data, software, cloud, automation and AI capabilities, including Toptal-vetted talent and consultants with GCP and IBM credentials."
+      },
+      {
+        "title": "A lean cost structure",
+        "text": "A focused remote team keeps office and management overhead low. Compare proposals on agreed scope, senior delivery time, validation, handover and support so the cost reflects the work you actually need."
+      },
+      {
+        "title": "Clear ownership and progress",
+        "text": "Agree responsibilities, access, deliverables and review points at the start. Use working demonstrations and acceptance criteria to assess progress throughout the engagement."
+      }
     ],
     "scopeHeading": "Compare the scope and total engagement cost",
     "scope": "A useful consulting proposal explains who will do the work, how assumptions will be resolved and what will be handed over. Ask whether integration, testing, documentation and release support are included. MV.tech's remote model is designed to keep overhead lean, but an accurate comparison still requires the same scope and support expectations. Pricing is agreed for the specific engagement.",
     "approach": [
-      {"title": "Share the goal and timezone", "text": "Describe the business problem, existing tools, target date and the hours your team needs us to overlap."},
-      {"title": "Agree scope and responsibilities", "text": "Choose the initial milestone, deliverables, review process and access requirements together."},
-      {"title": "Work directly with the team", "text": "Review working progress, record decisions and plan the next milestone against your priorities."}
+      {
+        "title": "Share the goal and timezone",
+        "text": "Describe the business problem, existing tools, target date and the hours your team needs us to overlap."
+      },
+      {
+        "title": "Agree scope and responsibilities",
+        "text": "Choose the initial milestone, deliverables, review process and access requirements together."
+      },
+      {
+        "title": "Work directly with the team",
+        "text": "Review working progress, record decisions and plan the next milestone against your priorities."
+      }
     ],
-    "tools": ["Worldwide clients", "Ahmedabad, India", "Flexible timezone overlap", "Senior specialists", "Scoped delivery"],
+    "tools": [
+      "Worldwide clients",
+      "Ahmedabad, India",
+      "Flexible timezone overlap",
+      "Senior specialists",
+      "Scoped delivery"
+    ],
     "questions": [
-      {"question": "Can a team in India overlap US, UK, European or Australian hours?", "answer": "Yes. MV.tech can plan collaboration with clients in any timezone. Share the city or timezone and the hours you require so we can agree practical overlap for the engagement. Collaboration windows and support coverage are agreed separately."},
-      {"question": "Does timezone overlap mean 24/7 support?", "answer": "No. Overlap means agreed working hours for collaboration. Any support coverage, response expectations or release windows need to be defined in the engagement scope."},
-      {"question": "Why can a remote consulting team have lower overhead?", "answer": "A focused remote model can avoid large office and account-management costs and keep clients closer to the specialists doing the work. The total project cost depends on scope, complexity and support; we agree the deliverables and commercial terms for each engagement."},
-      {"question": "How can we assess the team's experience?", "answer": "Review our expertise page and the linked Toptal professional profile, then discuss experience relevant to your stack and workflow. The Top 3% credential belongs to the linked individual profile."}
-    ]
+      {
+        "question": "Can a team in India overlap US, UK, European or Australian hours?",
+        "answer": "Yes. India Standard Time (UTC+5:30) overlaps every major business region for part of the day. We typically plan 9:00 am to 1:00 pm US Eastern, 7:00 to 10:00 am US Pacific, 9:00 am to 3:30 pm in the UK, 9:00 am to 4:00 pm in Central Europe, most of the business day in the Gulf, and 12:30 to 6:00 pm in eastern Australia. Share your city and required hours and we agree the exact window for the engagement."
+      },
+      {
+        "question": "Does timezone overlap mean 24/7 support?",
+        "answer": "No. Overlap means agreed working hours for collaboration. Any support coverage, response expectations or release windows need to be defined in the engagement scope."
+      },
+      {
+        "question": "Why can a remote consulting team have lower overhead?",
+        "answer": "A focused remote model can avoid large office and account-management costs and keep clients closer to the specialists doing the work. The total project cost depends on scope, complexity and support; we agree the deliverables and commercial terms for each engagement."
+      },
+      {
+        "question": "How can we assess the team's experience?",
+        "answer": "Review our expertise page and the linked Toptal professional profile, then discuss experience relevant to your stack and workflow. The Top 3% credential belongs to the linked individual profile."
+      }
+    ],
+    "summary": "Engagement models, collaboration windows by region and how the cost model compares with the alternatives.",
+    "h1": "Remote consulting from India that works in your timezone.",
+    "eyebrow": "How we work",
+    "ogTitle": "How we work: timezones, team and costs",
+    "ogKicker": "Overlap windows by region · Engagement models · Cost model"
   }
 ]

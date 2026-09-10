@@ -1,0 +1,79 @@
+<!--meta
+{
+  "name": "Questions before hiring a data consultancy",
+  "title": "12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy",
+  "description": "A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.",
+  "kicker": "Buyer's guide",
+  "ogTitle": "12 questions to ask before hiring a remote data engineering consultancy",
+  "ogKicker": "People · Method · Commercials · Working model · Evidence",
+  "published": "2026-09-10",
+  "keywords": [
+    "hire data engineering consultancy",
+    "data engineering consultant",
+    "remote data engineers",
+    "vendor evaluation",
+    "ETL consulting"
+  ],
+  "pageTitle": "12 Questions to Ask Before Hiring a Data Consultancy | MV.tech"
+}
+-->
+<div class="in-brief">
+  <p class="eyebrow">In brief</p>
+  <ul>
+    <li>Most failed data projects fail on people and process, not technology. Ask who will actually write the code and how correctness will be proven.</li>
+    <li>Good vendors propose a small first milestone with acceptance criteria. Vendors who quote the whole roadmap on day one are guessing.</li>
+    <li>Compare proposals on the same scope, seniority, testing, documentation and support. A low headline price that excludes reconciliation and monitoring is not low.</li>
+  </ul>
+</div>
+
+<p>Choosing a data engineering partner is difficult because the output is invisible until it is wrong. A pipeline can run green for months while quietly dropping records, and a dashboard can look finished while the numbers underneath it are unreliable. The questions below are the ones we would want a client to ask us, grouped by what they reveal. Use them as a checklist in your first conversations with any remote consultancy, including this one.</p>
+
+<h2>People</h2>
+<h3>1. Who exactly will do the work, and can we meet them before we sign?</h3>
+<p><strong>Why it matters:</strong> Proposals are often written by senior people and delivered by junior ones. <strong>A good answer:</strong> named engineers, their backgrounds, and a call with them before commitment. Be cautious if the main contact will be an account manager rather than an engineer.</p>
+<h3>2. How senior is the person who will review the code and the data?</h3>
+<p><strong>Why it matters:</strong> Data work is full of judgment calls about grain, deduplication, late-arriving records and business definitions. <strong>A good answer:</strong> a specific senior engineer accountable for review, with examples of the kind of issues they catch.</p>
+<h3>3. What happens if that person is unavailable?</h3>
+<p><strong>Why it matters:</strong> Continuity is the real difference between a consultancy and a freelancer. <strong>A good answer:</strong> documented systems, a second engineer familiar with the work, and a handover process, not just "we have a big team".</p>
+
+<h2>Method</h2>
+<h3>4. What would you propose as the first milestone, and how would we know it worked?</h3>
+<p><strong>Why it matters:</strong> A vendor who cannot narrow the problem cannot estimate it. <strong>A good answer:</strong> one dependable reporting flow, one source integrated end to end, or one bounded review, with written acceptance criteria such as "matches the finance ledger to within 0.1% for the last twelve months".</p>
+<h3>5. How will you prove the numbers are right?</h3>
+<p><strong>Why it matters:</strong> "The job succeeded" and "the data is correct" are different statements. <strong>A good answer:</strong> reconciliation against source records, checks for freshness and completeness, tests for edge cases such as empty periods and reprocessed records, and a plan for what happens when a check fails.</p>
+<h3>6. What will operating this look like after you leave?</h3>
+<p><strong>Why it matters:</strong> Pipelines are run far longer than they are built. <strong>A good answer:</strong> schedules and ownership documented, alerts that reach a human, recovery steps for common failures, and source-to-report mappings your own team can follow.</p>
+
+<h2>Commercials</h2>
+<h3>7. What does the price include, and what does it exclude?</h3>
+<p><strong>Why it matters:</strong> Testing, documentation, monitoring and handover are where cheap proposals save money. <strong>A good answer:</strong> an itemised scope that names these explicitly. Ask two vendors to price the same written scope and the comparison becomes meaningful.</p>
+<h3>8. Who owns the code, the infrastructure and the data models?</h3>
+<p><strong>Why it matters:</strong> Some vendors deliver into their own accounts and charge to release them. <strong>A good answer:</strong> everything in your repositories and cloud accounts from day one, with ownership stated in the agreement.</p>
+<h3>9. How do you handle changes in scope?</h3>
+<p><strong>Why it matters:</strong> Requirements will change once real data appears. <strong>A good answer:</strong> changes are written down, estimated and agreed before they are built, and assumptions that prove wrong are raised immediately rather than absorbed silently or invoiced later.</p>
+
+<h2>Working model</h2>
+<h3>10. Which hours will you overlap with us, in our local time?</h3>
+<p><strong>Why it matters:</strong> "We adapt to your timezone" is not a commitment. <strong>A good answer:</strong> a specific recurring window, the meetings that live inside it, and how progress is communicated outside it. See our <a href="/insights/timezone-overlap-with-an-india-based-engineering-team/">timezone playbook</a> for what realistic windows look like.</p>
+<h3>11. Where will decisions and progress be recorded?</h3>
+<p><strong>Why it matters:</strong> Remote work fails when decisions live in someone's memory. <strong>A good answer:</strong> your tools, your wiki, your ticketing system; written standups and decision records you could forward to a stakeholder without editing.</p>
+
+<h2>Evidence</h2>
+<h3>12. What can you show us, and what can you not?</h3>
+<p><strong>Why it matters:</strong> Confidentiality limits what any consultancy can share, but it does not eliminate evidence. <strong>A good answer:</strong> verified credentials with links, anonymised descriptions of comparable work, a sample scope document or runbook, and honesty about what is under NDA. Be wary of logos without context and of testimonials that cannot be attributed.</p>
+
+<h2>How to run the comparison</h2>
+<ol>
+  <li>Write one page describing the outcome you need, the systems involved, approximate data volumes and your working hours.</li>
+  <li>Send the same page to each shortlisted vendor and ask for a first-milestone proposal, not a roadmap.</li>
+  <li>Score the proposals on the twelve questions above before you look at the price.</li>
+  <li>Only then compare prices, adjusting for what each proposal excludes.</li>
+</ol>
+<p>Vendors who respond to a one-page brief with specific questions of their own are usually the ones who will find the problems in your data before your finance team does.</p>
+
+<h2>Frequently asked questions</h2>
+<div class="faq-list">
+  <details><summary><span>Should we start with a data audit or go straight to building?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>If you already have pipelines and reports that people distrust, a short bounded review is usually the best first engagement: it produces a prioritised list of what is actually broken. If you are starting from spreadsheets and exports, build one dependable reporting flow end to end; it teaches both sides more than an audit would.</p></div></details>
+  <details><summary><span>Is a remote consultancy in India a reasonable choice for a US or UK company?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>Yes, provided the overlap hours, communication practices and accountability are explicit. The structural cost advantage is real because you are not paying for offices and account layers, but it only helps if the seniority and the working model are right. Apply the same twelve questions you would apply to a local firm.</p></div></details>
+  <details><summary><span>What should we share before the first call?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>The report or workflow you want to improve, the source systems, rough data volumes, the tools you use today and the refresh frequency you need. A description or a sanitised example is enough; credentials are never needed for an enquiry.</p></div></details>
+</div>

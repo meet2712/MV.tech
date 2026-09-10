@@ -1,0 +1,92 @@
+<!--meta
+{
+  "route": "/contact/",
+  "name": "Contact",
+  "title": "Contact MV.tech: Book a 30-Minute Scoping Call or Email Your Brief",
+  "description": "Talk to MV.tech's engineers about a data, software, automation or AI project, an embedded consultant or a permanent hire. Book a 30-minute call or email us.",
+  "ogTitle": "Book a 30-minute scoping call",
+  "ogKicker": "Remote from Ahmedabad, India · Overlap with any timezone · No obligation"
+}
+-->
+<main id="main-content" class="is-contact">
+  <section class="page-hero">
+    <div class="container">
+      <nav aria-label="Breadcrumb" class="breadcrumbs"><ol><li><a href="/">Home</a></li><li><span aria-current="page">Contact</span></li></ol></nav>
+      <p class="eyebrow">Contact</p>
+      <h1>Book a 30-minute scoping call, or send us your brief.</h1>
+      <p class="lead">Tell us what you want to build, improve or automate, which technology role you need to fill, or which consultant you need in your team. You speak with the engineers who would do the work, and you leave with a written next step.</p>
+      <ul class="fact-row" aria-label="Contact facts"><li><i data-lucide="mail" aria-hidden="true"></i><a href="mailto:contact@mvtech.solutions">contact@mvtech.solutions</a></li><li><i data-lucide="map-pin" aria-hidden="true"></i>Ahmedabad, India · remote worldwide</li><li><i data-lucide="timer" aria-hidden="true"></i>Replies usually within one business day</li><li><i data-lucide="clock-3" aria-hidden="true"></i>Calls available in US, UK, EU, Gulf and APAC hours</li></ul>
+    </div>
+  </section>
+
+  <section class="band band-light">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-panel">
+          <p class="eyebrow">Option 1</p>
+          <h2>Pick a time that suits your timezone</h2>
+          <p>A 30-minute video call. Choose any slot shown in your local time; the calendar adjusts automatically.</p>
+          <div class="calendly-frame" id="calendly-embed" data-url="https://calendly.com/contact-mvtech/30min">
+            <div class="calendly-fallback">
+              <p>The booking calendar loads here.</p>
+              <button type="button" class="button-primary" data-load-calendly>Load the calendar <i data-lucide="calendar" aria-hidden="true"></i></button>
+              <p>Or open it in a new tab: <a href="https://calendly.com/contact-mvtech/30min" target="_blank" rel="noopener" style="text-decoration:underline">calendly.com/contact-mvtech/30min</a></p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="contact-panel">
+            <p class="eyebrow">Option 2</p>
+            <h2>Prefer email? Build your brief in a minute</h2>
+            <p>Fill in what you know. This opens a ready-to-send email in your mail app; nothing is submitted through this website.</p>
+            <form id="brief-form" class="brief-form" data-email="contact@mvtech.solutions" action="mailto:contact@mvtech.solutions" method="get">
+              <label><span>What do you need?</span>
+                <select name="need">
+                  <option>Project</option><option>Data engineering</option><option>Custom software</option><option>Workflow automation</option><option>AI, RAG or MCP development</option><option>Consultant in our team (staff augmentation)</option><option>Permanent hire (recruitment)</option><option>Something else</option>
+                </select></label>
+              <label><span>Goal or problem</span><textarea name="goal" placeholder="e.g. Our weekly revenue report takes two days to assemble from Stripe, HubSpot and spreadsheets and the numbers rarely match."></textarea></label>
+              <label><span>Current systems and tools</span><input name="systems" type="text" placeholder="e.g. Postgres, HubSpot, Google Sheets, Tableau"></label>
+              <label><span>Timezone and preferred overlap hours</span><input name="timezone" type="text" placeholder="e.g. US Eastern, mornings"></label>
+              <label><span>Target date</span><input name="date" type="text" placeholder="e.g. first version by end of next quarter"></label>
+              <label><span>Budget range (optional)</span><input name="budget" type="text" placeholder="Helps us propose a sensible first milestone"></label>
+              <label><span>Your name and company</span><input name="from" type="text" placeholder="So we know who we are writing back to"></label>
+              <div class="brief-actions">
+                <button type="submit" class="button-primary">Open in my email app <i data-lucide="send" aria-hidden="true"></i></button>
+                <button type="button" class="button-secondary" data-copy-brief>Copy the brief instead <i data-lucide="copy" aria-hidden="true"></i></button>
+              </div>
+              <p class="brief-note">No mail app? Copy the brief and paste it into any email to <a href="mailto:contact@mvtech.solutions" style="text-decoration:underline">contact@mvtech.solutions</a>. Please do not include credentials; they are never needed for an enquiry.</p>
+              <pre id="brief-preview" class="brief-preview" aria-live="polite"></pre>
+            </form>
+          </div>
+          <ul class="contact-facts">
+            <li><i data-lucide="users-round" aria-hidden="true"></i><span>Need a consultant in your team? Share the role, stack, duration and hours; see <a href="/services/it-staff-augmentation/" style="text-decoration:underline">staff augmentation</a>.</span></li>
+            <li><i data-lucide="briefcase-business" aria-hidden="true"></i><span>Hiring permanently? Share the role, location or remote policy and timeline; see <a href="/services/technology-recruitment/" style="text-decoration:underline">technology recruitment</a>.</span></li>
+            <li><i data-lucide="shield-check" aria-hidden="true"></i><span>Happy to sign a mutual NDA before detailed discussions. Enquiry details are used only to respond to you; see our <a href="/compliance/" style="text-decoration:underline">privacy notice</a>.</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">What happens next</p><h2>From first call to a written next step.</h2></div></div>
+      <ol class="steps">
+        <li><span class="item-number">01</span><h3>We talk for 30 minutes</h3><p>You describe the result you need, the current setup and your constraints. We ask the questions an engineer would ask and tell you honestly whether we are the right fit.</p></li>
+        <li><span class="item-number">02</span><h3>You receive a written proposal</h3><p>A first milestone with deliverables, acceptance criteria, assumptions, the overlap hours in your timezone and the price for that scope. Usually within a few business days.</p></li>
+        <li><span class="item-number">03</span><h3>Work starts on your terms</h3><p>Once the scope is agreed, we set up access, tools and the collaboration window, and begin delivering reviewable increments.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="band band-light">
+    <div class="container split">
+      <div><p class="eyebrow">Three things to bring</p><h2>Make the first conversation count.</h2></div>
+      <ul class="check-list">
+        <li><i data-lucide="check" aria-hidden="true"></i><span><strong>The result you need.</strong> The workflow, report, application or AI feature, and what should be better when the work is done.</span></li>
+        <li><i data-lucide="check" aria-hidden="true"></i><span><strong>The current setup.</strong> The systems involved, what already works and what keeps getting in the way. A description or a sanitised example is enough to start.</span></li>
+        <li><i data-lucide="check" aria-hidden="true"></i><span><strong>Your working constraints.</strong> Timezone, preferred overlap, target date and any budget range. These shape a useful first scope.</span></li>
+      </ul>
+    </div>
+  </section>
+</main>

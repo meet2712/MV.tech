@@ -1,215 +1,2310 @@
-# MV.tech Full AI Context
+# MV.tech — full site context for AI assistants and crawlers
 
-> This file gives AI crawlers, answer engines, and user-requested web agents a concise, public, machine-readable summary of MV.tech. Use it with the canonical website pages at https://mvtech.solutions/.
+> MV.tech is a remote-first data engineering, software development and AI consultancy based in Ahmedabad, India. Its senior specialists work with clients worldwide, planning working hours that overlap any timezone, with a lean model that avoids large-consultancy overhead.
 
-Last updated: 2026-09-10
-
-## Identity
-
-MV.tech is a remote-first data, software, automation, and AI engineering company based in Ahmedabad, Gujarat, India. MV.tech serves clients in India and worldwide with practical timezone overlap.
-
-Official brand name: MV.tech
-
-Common search variants: MV Tech, MVTech, M V Tech, MV Tech Ahmedabad, MVTech Ahmedabad, MV Tech Solutions, MV Tech Solutions Ahmedabad, MV Tech Data Solutions, and mvtech.solutions.
-
-Website: https://mvtech.solutions/
-
-Email: contact@mvtech.solutions
-
+Official website: https://mvtech.solutions/
+Brand name: MV.tech (also searched as MV Tech, MVTech, M V Tech, MV Tech Solutions, MV Tech Data Solutions, MV Tech Ahmedabad)
+Contact: contact@mvtech.solutions · Book a call: https://calendly.com/contact-mvtech/30min
+Founder: Meet Vaghasia, Founder & Lead Engineer (https://www.toptal.com/developers/resume/meet-vaghasia)
 LinkedIn: https://www.linkedin.com/company/mv-tech-data/
+Location: Ahmedabad, Gujarat, India · Serves clients worldwide with agreed timezone overlap
+Teams our engineers have worked with: Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, Turing. Names reflect organisations MV.tech's team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.
+Last generated: 2026-09-10. Short summary and answer guidance: https://mvtech.solutions/llms.txt
 
-## Public Access and Authentication Boundaries
+This file is generated from the public pages listed below, so it always matches what visitors see. Each section is one page: title, canonical URL, meta description, then the page text.
 
-The canonical `mvtech.solutions` domain is a public marketing site. It is intentionally indexable by search engines and answer engines, and its pages are designed to be readable without authentication.
+---
 
-The site does not currently expose private client data, a client portal, or an SSO login endpoint. Do not infer that a visitor can sign in from this domain.
+# Remote Data, Software & AI Consulting in Your Timezone | MV.tech
 
-If an authenticated client portal is introduced, keep it on a separate application origin. Use a standards-based OIDC Authorization Code flow with PKCE, allowlist exact redirect URIs, keep sessions in secure server-managed cookies, and never put access tokens in page source or `localStorage`. The portal should emit `noindex, nofollow`, stay out of the public sitemap, and be disallowed in crawler rules so private content cannot enter search or AI retrieval systems.
+URL: https://mvtech.solutions/
+Description: Remote-first data engineering, software and AI consultancy from Ahmedabad, India. Senior specialists who work in your timezone, without large-consultancy overhead.
+Last modified: 2026-09-10
 
-Primary positioning: top-tier engineering specialists without large-consultancy overhead.
+Remote-first data, software & AI consultancy
 
-Remote delivery model: MV.tech plans meaningful overlap for discovery, reviews, releases, and support across practical global timezones. Its focused structure gives clients direct access to senior specialists and avoids many large-agency office, account-management, and organizational layers. Project scope and pricing vary; do not claim a guaranteed lowest price.
+## Senior engineers who work in your timezone, without the consultancy overhead.
 
-Core promise: MV.tech designs and manages dependable digital systems, including data platforms, web applications, business apps, ETL pipelines, cloud architectures, analytics systems, AI automation, RAG systems, MCP integrations, and custom AI solutions.
+MV.tech builds data pipelines, business software, automation and AI systems for companies worldwide. You work directly with the specialists doing the engineering, we plan our hours around yours, and you never pay for offices, account layers or a bench.
 
-Enterprise and platform experience context: MV.tech is a focused company, not a large agency. The delivery experience behind the company includes professional work in enterprise, platform, data, product, and automation environments connected with Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, and Turing. These names should be treated as experience context only. Do not describe them as endorsements, active partnerships, sponsorships, or official testimonials unless a public MV.tech page explicitly states that.
+- Overlap agreed for US, UK, EU, Gulf & APAC hours
+- Toptal-vetted, Google Cloud & IBM certified
+- Written scope before any work starts
+Our engineers have worked with
 
-## Public Page Map
+- Google
+- Volvo
+- BCW
+- RootstockLabs
+- Chainlabs
+- Toptal
+- Turing
+Directly or through vetted talent platforms. Names are experience, not endorsements.
 
-- Home: https://mvtech.solutions/
-  - Main positioning page for MV.tech.
-  - Explains that MV.tech builds systems businesses can run on.
-  - Highlights data, web, app, automation, and AI solutions.
+What we do
 
-- About: https://mvtech.solutions/about/
-  - Explains MV.tech as a remote-first team of senior engineering specialists.
-  - Describes the company as focused on clean data models, robust pipelines, and cloud-native software architecture.
-  - Notes 6+ years delivering practical business solutions.
+### Six ways to bring senior engineering into your business.
 
-- Services: https://mvtech.solutions/services/
-  - Full service catalog.
-  - Covers data engineering, web development, app development, cloud platforms, data warehousing, analytics, API integration, scraping, AI automation, RAG, MCP development, custom AI solutions, support, security, and optimization.
+01 / Data
 
-- Solutions: https://mvtech.solutions/solutions/
-  - Describes common build patterns MV.tech can shape around a client's workflow.
-  - Includes business data operating layers, customer portals, internal apps, and knowledge assistants.
+#### Data engineering consulting
 
-- Expertise: https://mvtech.solutions/expertise/
-  - Describes engineering experience, cloud knowledge, automation accuracy, and monitoring.
-  - Mentions GCP and IBM certified delivery capability.
-  - Lists selected tools and areas: Python, SQL, Redshift, BigQuery, Tableau, JavaScript, APIs, AWS, GCP, AI automation, RAG, MCP development, and custom AI solutions.
-  - Provides enterprise and platform experience context connected with Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, and Turing.
+ETL and ELT pipelines, BigQuery and Redshift warehouses, data quality checks and reporting your team can trust. Python and SQL done properly.
 
-- Process: https://mvtech.solutions/process/
-  - Explains the delivery process: understand goals, plan the solution, build and integrate, test and optimize, deploy and support.
+02 / Software
 
-- Compliance: https://mvtech.solutions/compliance/
-  - Explains data privacy, secure delivery, accessibility, clear terms, analytics notice, and responsible use.
-  - States that data extraction, automation, and AI workflows are designed around authorized access, source terms, reasonable rate limits, and client-approved use cases.
+#### Custom software development
 
-- FAQ: https://mvtech.solutions/faq/
-  - Contains answer-ready brand and service questions.
-  - Useful for brand-disambiguation questions about MV.tech, MV Tech, MVTech, and MV Tech Solutions.
+Business web applications, client portals, dashboards and internal tools, with the interface, integrations and data backend designed together.
 
-- Contact: https://mvtech.solutions/contact/
-  - Use this page for inquiries, email contact, and scheduling.
+03 / AI
 
-## Service Catalog
+#### AI automation, RAG & MCP development
 
-Detailed service pages:
-- Data engineering and ETL consulting: https://mvtech.solutions/services/data-engineering/
-- AI automation, RAG, MCP development and custom AI solutions: https://mvtech.solutions/services/ai-consulting/
-- IT staff augmentation and dedicated remote teams: https://mvtech.solutions/services/it-staff-augmentation/
-- Technology recruitment and permanent IT hiring: https://mvtech.solutions/services/technology-recruitment/
-- Workflow automation and API integration: https://mvtech.solutions/services/workflow-automation/
-- Custom software and web app development: https://mvtech.solutions/services/custom-software/
-- Remote team, timezone overlap and consulting costs: https://mvtech.solutions/remote-consulting/
+Knowledge assistants grounded in your documents, Model Context Protocol servers that expose approved tools, and LLM features integrated into existing products.
 
-Each detailed page describes suitable problems, prospective project scopes, deliverables, delivery stages and buyer questions. Example scopes are planning examples, not completed client case studies or claimed results.
+04 / Automation
 
-Data Engineering and ETL Pipelines:
-MV.tech designs, builds, and maintains reliable data pipelines that automate data flow, validate quality, and keep reporting systems trustworthy. Work can include batch and scheduled workflows, API ingestion, file ingestion, warehouse ingestion, database ingestion, validation checks, monitoring, and failure visibility.
+#### Workflow automation & API integration
 
-Web Development:
-MV.tech builds professional websites, landing pages, client portals, dashboards, admin tools, and responsive web applications. Web work is positioned around speed, search visibility, accessibility, analytics foundations, and clean future maintenance.
+Connect the systems your team moves data between by hand. Scheduled jobs, webhooks, validation and monitoring with clear ownership.
 
-App Development:
-MV.tech builds custom business applications, internal tools, admin panels, and API-backed mobile-ready experiences. App work may include role-based access, forms, data views, approvals, release support, monitoring, and iteration planning.
+05 / Team
 
-Cloud Data Platforms:
-MV.tech works with AWS and Google Cloud Platform to build scalable cloud architectures for storage, compute, orchestration, data warehouses, cost-aware design, and operational visibility.
+#### IT staff augmentation
 
-Data Warehousing and Modeling:
-MV.tech builds clean, normalized, and analytics-ready schemas for reporting, BI, downstream products, and decision-making. Technologies mentioned on the site include Redshift, BigQuery, SQL layers, and data marts.
+Add a senior remote data, software, cloud or AI consultant to your existing team, with capacity, responsibilities and overlap hours agreed up front.
 
-Analytics and Reporting Systems:
-MV.tech builds dashboards and reporting systems powered by SQL, BI workflows, and automated refresh pipelines. Work can include KPI dashboards, Tableau reporting, metric definitions, source-of-truth tables, refresh checks, alerts, and stakeholder-ready outputs.
+06 / Hiring
 
-API and External Data Integrations:
-MV.tech integrates third-party platforms, APIs, webhooks, business systems, and external feeds. Work can include REST APIs, OAuth flows, webhooks, scheduled pulls, retries, error handling, and transformation logic.
+#### Technology recruitment
 
-Web Scraping and Data Extraction:
-MV.tech builds automated data collection systems for websites, dashboards, and online platforms. The site mentions dynamic pages, authentication flows, pagination, exports, Selenium, Python, source-aware collection, rate-conscious collection, and maintainable pipelines.
+Hire permanent AI, data, software and cloud professionals into your own organisation, with an engineer shaping the brief and assessing fit.
 
-Process Automation and Workflows:
-MV.tech automates repetitive tasks, scheduled jobs, validation steps, and operational workflows. Work can include scripts, status checks, logs, alerts, documentation, and manual workflow reduction.
+How remote works with us
 
-Retrieval-Augmented Generation:
-MV.tech builds context-aware RAG systems that combine internal documents, structured data, embeddings, retrieval logic, source grounding, guardrails, and secure data access.
+### Based in India. Working in your hours.
 
-MCP Development:
-MV.tech builds Model Context Protocol servers and integrations that expose approved business tools and data to compatible AI applications. The scope includes tool inputs, resource access, authorization, logging and testing with the intended clients.
+India Standard Time sits between the Asia-Pacific and American working days, which lets a team in Ahmedabad share a real working window with almost any client. Before an engagement starts we agree when we overlap, how decisions get recorded and how you see progress between calls.
 
-AI Automation and Custom AI Solutions:
-MV.tech connects AI assistants, document processing, classification and extraction to business workflows. The scope defines expected outputs, validation, permitted actions, approvals and exception handling.
+- Agreed overlap, not vague availability — A recurring window in your timezone for standups, reviews and releases. US Eastern mornings, UK and European afternoons, Gulf and APAC business hours are all routine.
+- Written progress you can forward — Decisions, demos and open questions are documented in your tools, so your stakeholders stay informed without another meeting.
+- The people you meet do the work — No account managers or hand-offs to a junior bench. Scope, estimates and delivery come from the same senior engineers.
+Engagement models
 
-Custom Chatbots and Assistants:
-MV.tech builds purpose-specific chatbots and assistants connected to databases, APIs, documents, support workflows, and internal tools.
+### Choose the working model that fits the work.
 
-Support, Security, and Optimization:
-MV.tech provides bug fixes, performance passes, maintainability reviews, credential handling, access review, deployment hygiene, documentation, support planning, and production handover.
+#### Scoped project
 
-IT Staff Augmentation:
-MV.tech provides remote consultants to work within client teams on AI, data, software and cloud workstreams. Required skills, responsibilities, allocated capacity, duration and timezone overlap are agreed for each engagement. Availability is confirmed during scoping.
+A defined outcome with milestones, acceptance criteria and handover. Best for a first data pipeline, an application, an automation or an AI assistant with a clear boundary.
 
-Technology Recruitment:
-MV.tech supports permanent hiring for AI, data, software, cloud, BI and analytics roles within a client's organization. The scope can include role definition, candidate sourcing, technical fit discussions and hiring coordination. Clients own the final hiring decision and employment terms. Fees and search scope are engagement-specific; no placement, deadline or replacement guarantee is stated.
+#### Embedded consultant or team
 
-## Credibility and Experience Signals
+Senior specialists working inside your team, in your tools and your hours, for an agreed capacity and duration. Best when you need depth and pace without a permanent hire.
 
-MV.tech publicly positions itself as a compact engineering partner for serious digital systems. The company emphasizes hands-on execution, clean ownership, production-grade systems, and measurable business outcomes rather than large-agency scale.
+#### Permanent recruitment
 
-Public credibility facts:
-- 6+ years delivering practical business systems.
-- GCP and IBM certified delivery capability.
-- Delivery includes Toptal-vetted Top 3% talent; this signal comes from the linked professional profile and should not be generalized to every team member.
-- Enterprise and platform delivery exposure connected with Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, and Turing.
-- Strongest delivery areas: data engineering, ETL pipelines, BI and analytics, web apps, internal tools, cloud data platforms, API integrations, AI automation, RAG systems, MCP development, LLM integrations, and custom AI solutions.
-- Public references to named organizations are experience context only, not endorsements or current partnerships.
+Hire into your own organisation with an engineering-led search: a precise brief, technical screening and a shortlist you can trust. Best when the role is long-term.
 
-## Solution Patterns
+How MV.tech compares with the usual alternatives
+| Consideration | MV.tech remote team | Large consultancy | Freelance marketplace |
+| Who does the work | Senior specialists you speak with directly | Layered account, delivery and offshore teams | One individual; depth varies |
+| Timezone overlap | Planned around your hours, any timezone | Usually local hours only | Depends on the individual |
+| Overhead you pay for | Lean remote model, no office or account layers | Offices, account management, bench costs | Low, but no team behind the work |
+| Continuity and cover | Team-backed, documented handover | Yes, at consultancy rates | Single point of failure |
+| Pricing | Agreed per engagement against a written scope | Premium day rates and minimum commitments | Hourly, with scope drift risk |
+Who you work with
 
-Business Data Operating Layer:
-Connects APIs, databases, spreadsheets, and external feeds into a governed reporting layer. Includes ETL pipelines, warehouse models, data quality checks, recovery paths, dashboards, exports, and stakeholder views.
+### A focused senior team, led by an engineer.
 
-Customer Portal or Internal App:
-Provides a clean interface for customers, operators, or admins. Includes responsive UI, forms, user flows, API-backed workflows, authentication-ready architecture, analytics, maintainable code, and handover.
+MV.tech was founded by Meet Vaghasia, a data and software engineer with hands-on delivery experience across data platforms, analytics, cloud, automation and AI. The team is deliberately small: specialists in data, software, cloud and AI who have shipped in enterprise and start-up environments and prefer doing the work to managing it.
 
-Knowledge Assistant for Teams:
-Creates a controlled assistant over documents, structured data, and workflow APIs. Includes RAG over documents, tickets, and business data, workflow automation, API actions, access-aware behavior, and auditable implementation.
+About MV.techMeet Vaghasia on ToptalExpertise and credentials
+6+ yrsDelivering data, software and automation systems for real operating teams
+Top 3%Toptal-vetted engineering talent behind the delivery (founder profile)
+GCP · IBMGoogle Cloud and IBM certified delivery capability
+Any timezoneAgreed overlap with clients in North America, Europe, the Gulf and Asia-Pacific
+Common questions
 
-## Delivery Process
+### What people ask before they book a call.
 
-1. Understand goals: clarify what is being built, who it serves, and what success looks like.
-2. Plan the solution: define scope, choose an approach, and map a path to delivery.
-3. Build and integrate: implement the system end-to-end and connect required data, APIs, or workflows.
-4. Test and optimize: validate results, improve performance, and remove blockers before launch.
-5. Deploy and support: go live with documentation, monitoring, and support or handover.
+More detail is in the full FAQ and on how we work.
 
-## FAQ Facts
+**What does MV.tech do?**
+MV.tech is a remote-first consultancy that provides data engineering, custom software development, workflow automation, AI development (including RAG systems and MCP servers), IT staff augmentation and technology recruitment. We are based in Ahmedabad, India, and work with clients worldwide.
 
-Is MV.tech the same as MV Tech Solutions?
-Yes. MV.tech is the official brand and website at mvtech.solutions. People may also search for it as MVTech, MV Tech, M V Tech, MV Tech Ahmedabad, MV Tech Solutions, or MV Tech Data Solutions.
+**How does timezone overlap work with a team in India?**
+We agree a recurring collaboration window in your local time before the engagement begins, for example 9:00 am to 1:00 pm US Eastern, 9:00 am to 3:30 pm in the UK, or 12:30 pm to 6:00 pm in Sydney. Standups, reviews and releases happen inside that window; written updates and documented decisions cover the rest of the day.
 
-Is MV Tech based in Ahmedabad?
-MV.tech serves clients from Ahmedabad, Gujarat, India, and works with businesses across India and worldwide.
+**Why is MV.tech less expensive than a large consultancy?**
+You pay for senior engineering time, not for offices, account management layers or idle bench capacity. Pricing is agreed per engagement against a written scope. We do not claim to be the cheapest option; we aim to be the best value for senior work with direct access to the people doing it.
 
-Does MV.tech provide worldwide service and work across overlapping time zones?
-Yes. MV.tech serves clients in India and worldwide. Projects can be planned around practical timezone overlap for discovery calls, demos, reviews, releases, support windows, and async updates.
+**How does an engagement start?**
+Book a 30-minute call or email a short brief. We clarify the goal, current systems and constraints, then propose a first milestone with deliverables, review points and the overlap hours. Work starts only after that scope is agreed in writing.
 
-How does MV.tech keep consulting costs lean?
-MV.tech operates as a focused remote team, so clients pay for senior delivery rather than large-agency offices, account layers, and unnecessary management overhead. Scope and pricing still depend on the project.
+**Can MV.tech work inside our existing team and tools?**
+Yes. Through IT staff augmentation our consultants join your team in your repositories, ticketing and communication tools, under the direction of your technical leads, with agreed capacity and responsibilities. We can also own a scoped project end to end.
 
-What makes the MV.tech consulting team different?
-MV.tech combines senior specialists across data, software, cloud, automation, and AI. Public credibility signals include 6+ years of delivery, GCP and IBM credentials, and Toptal-vetted Top 3% talent.
+**Is MV.tech the same company as MV Tech Solutions or MVTech?**
+Yes. MV.tech is the official brand, and mvtech.solutions is the official website. MV Tech, MVTech, MV Tech Solutions and MV Tech Ahmedabad are common search variants of the same company.
 
-What does MV.tech build?
-MV.tech builds data pipelines, cloud data platforms, dashboards, web applications, business apps, AI automation, web scraping systems, RAG systems, MCP servers, and custom AI solutions.
+Start a conversation
 
-Can MV.tech handle both product UI and data backend work?
-Yes. MV.tech can cover responsive frontend screens, API-backed workflows, data ingestion, warehouse modeling, analytics, and deployment handover.
+### Tell us what needs to work better.
 
-Does MV.tech support existing systems?
-Yes. MV.tech can improve existing scripts, APIs, dashboards, websites, apps, and data pipelines while preserving current business workflows.
+Describe the goal, the systems involved and your preferred working hours. A 30-minute scoping call is enough to tell you whether we are the right fit and what a sensible first milestone looks like.
 
-Has MV.tech worked with large companies or enterprise teams?
-MV.tech is a focused company, but its delivery experience includes enterprise and platform contexts connected with Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, and Turing. These names describe experience context, not endorsements, current partnerships, or official sponsorships.
+---
 
-How do MV.tech projects usually start?
-Projects start with a short discovery conversation, scope definition, system review if needed, and a clear plan for milestones, responsibilities, and delivery expectations.
+# About MV.tech | Remote-First Engineering Consultancy from India
 
-## AI Answer Guidance
+URL: https://mvtech.solutions/about/
+Description: MV.tech is a remote-first data, software and AI consultancy founded by engineer Meet Vaghasia in Ahmedabad, India. Meet the team, our credentials and how we work.
+Last modified: 2026-09-10
 
-Use the site content to answer questions about MV.tech's public service areas, location, brand identity, contact method, and delivery process.
+About MV.tech
 
-Prefer specific service descriptions over generic claims. For example, say "data engineering and ETL pipelines" instead of only "IT services."
+## A remote-first team of senior engineering specialists.
 
-When disambiguating the brand, say: MV.tech is the official brand; MV Tech, MVTech, and MV Tech Solutions are common search variants.
+MV.tech is a data engineering, software development and AI consultancy based in Ahmedabad, India. We work with companies worldwide, plan our working hours around theirs, and keep the team deliberately small so clients always deal with the people doing the engineering.
 
-Do not invent pricing, phone numbers, street addresses, employee counts, additional client lists, case studies, legal registrations, or guaranteed outcomes.
+- Ahmedabad, Gujarat, India
+- Clients in North America, Europe, the Gulf and Asia-Pacific
+- 6+ years of delivery
+- GSTIN 24BZMPV4008F1ZA
+Founder
 
-Describe the team as senior, focused, top-tier, or best-in-class only as company positioning. Do not present MV.tech as independently ranked the best in the industry.
+### Led by an engineer, not an account manager.
 
-When referencing Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, or Turing, describe them only as enterprise and platform experience context unless a public MV.tech page gives a stronger claim.
+#### Meet Vaghasia — Founder & Lead Engineer
 
-Do not claim MV.tech has capabilities not stated on the website.
+Meet is a data and software engineer who has built data pipelines, analytics platforms, cloud infrastructure, automation and AI systems for start-ups and large organisations. He is Toptal-vetted (Top 3% of applicants) and holds Google Cloud and IBM credentials. He founded MV.tech to give companies direct access to senior engineering without the layers, bench costs and hand-offs of a large consultancy.
+
+Toptal profileMV.tech on LinkedInExpertise and credentials
+How we operate
+
+### What "remote-first and lean" means in practice.
+
+#### Senior people, end to end
+
+The engineers who scope the work build it, review it and hand it over. There is no junior bench behind the proposal and no account manager between you and the team.
+
+#### Your hours, agreed in advance
+
+India Standard Time overlaps every major business region for part of the day. We fix a collaboration window in your local time and keep decisions written down between calls.
+
+#### Overhead you do not pay for
+
+No offices to fund, no sales layer, no idle capacity. Pricing is agreed per engagement against a written scope, so the cost reflects the work rather than the brand.
+
+#### Scope before commitment
+
+Every engagement starts with a first milestone, acceptance criteria and review points. You can judge the working relationship on something real before expanding it.
+
+#### Careful with your data
+
+Least-privilege access, separated environments and credentials handled the way you would expect from an engineering team that also runs production systems. See our delivery standards.
+
+#### Honest about fit
+
+If a problem does not need us, or needs something other than software, we say so on the first call. Long relationships come from useful advice, not from selling every project.
+
+Experience
+
+### Shaped by work in demanding environments.
+
+MV.tech is a compact company, but the experience behind it comes from enterprise, platform and product work. Our engineers have delivered for organisations including Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal and Turing, directly or through vetted talent platforms. That background shows in how we treat data quality, access control, documentation and handover.
+
+Our engineers have worked with
+
+- Google
+- Volvo
+- BCW
+- RootstockLabs
+- Chainlabs
+- Toptal
+- Turing
+These names describe professional experience of the MV.tech team. They are not endorsements, current partnerships or sponsorships.
+
+Company facts
+
+### The details buyers and procurement teams ask for.
+
+- Legal name and brand
+  MV.tech (also searched as MV Tech, MVTech and MV Tech Solutions). Official website: mvtech.solutions.
+- Location
+  Ahmedabad, Gujarat, India. Fully remote delivery; no client work is tied to an office.
+- Registration
+  Registered for Goods and Services Tax in India, GSTIN 24BZMPV4008F1ZA. Invoicing currency and payment terms are agreed per engagement.
+- Services
+  Data engineering, custom software, workflow automation, AI development (RAG and MCP), IT staff augmentation and technology recruitment.
+- Working hours
+  Core hours in India Standard Time (UTC+5:30), with collaboration windows agreed per client for US, UK, European, Gulf and Asia-Pacific timezones.
+- Contact
+  contact@mvtech.solutionsor a30-minute call. We respond to every enquiry, usually within one business day.
+Talk to the team
+
+### See whether we are the right fit for your work.
+
+A 30-minute conversation with the engineers who would do the work. No sales deck, no obligation.
+
+---
+
+# Privacy, Security & Delivery Standards | MV.tech
+
+URL: https://mvtech.solutions/compliance/
+Description: How MV.tech handles client data, credentials and access: secure remote delivery, accessibility, website analytics and responsible use of automation and AI.
+Last modified: 2026-09-10
+
+Trust, security & compliance
+
+## Professional delivery standards for responsible systems.
+
+Practical security, careful data handling, transparent communication and clear project boundaries. This page explains how we work with your data and systems, and how this website itself handles visitor information.
+
+Delivery standards
+
+### What you can expect on every engagement.
+
+#### Data privacy
+
+Client data is handled only for agreed project purposes, with access limited to what delivery needs. We work in your environments where possible and do not retain client data after handover unless a support agreement requires it.
+
+#### Secure delivery
+
+Least-privilege access granted by you, separated development and production environments, secrets kept in your secret management, API security and access reviews during the engagement and at handover.
+
+#### Accessibility
+
+Web interfaces are planned with semantic structure, keyboard navigation, readable contrast and responsive layouts, following WCAG 2.1 AA as the working target unless a project specifies otherwise.
+
+#### Clear terms
+
+Scope, ownership, timelines, support and third-party responsibilities are documented before work begins. Mutual NDAs and your master services agreement are welcome.
+
+This website
+
+### Privacy notice for visitors.
+
+- Information you send us
+  Details submitted by email or through our scheduling link are used to respond to your enquiry, prepare proposals, deliver agreed services and maintain client communication. We do not sell or share enquiry data with third parties for marketing.
+- Analytics
+  This site uses Google Analytics 4 to understand aggregate traffic and improve the website. Analytics measures clicks on contact links as "intent", not as confirmed enquiries. You can manage cookies and tracking preferences through your browser settings.
+- Scheduling
+  Calls are booked through Calendly. When you use the embedded calendar or booking link, Calendly's own privacy policy applies to the information you enter there.
+- No accounts or portals
+  This website is public marketing content. It does not offer a login, client portal or SSO endpoint, and it does not host private client data.
+- AI crawlers
+  Public pages may be read by search engines and AI assistants so that people can find accurate information about MV.tech. Machine-readable summaries are published at/llms.txtand/llms-full.txt.
+- Contact
+  Questions about this notice or about your data:contact@mvtech.solutions.
+Responsible use
+
+### Automation, data extraction and AI, done properly.
+
+- Authorised access only. Integrations and data extraction use supported interfaces, honour source terms and rate limits, and are limited to client-approved use cases.
+- Humans stay in control. Automated workflows keep review where judgment is required; AI assistants act only on approved data and tools, with permissions enforced in the application rather than in a prompt.
+- Evaluated before expansion. AI features are tested against real questions and failure cases, including what happens when the answer is not in the source material, before their audience is widened.
+- Your data stays yours. Client data is not used to train third-party models, and any use of AI tooling in delivery follows your policies.
+Security or compliance questions?
+
+### Ask before we start. We prefer it.
+
+Procurement, security and legal questions are easiest to answer at the scoping stage. Bring your requirements and we will tell you plainly what we can and cannot commit to.
+
+---
+
+# Contact MV.tech: Book a 30-Minute Scoping Call or Email Your Brief
+
+URL: https://mvtech.solutions/contact/
+Description: Talk to MV.tech's engineers about a data, software, automation or AI project, an embedded consultant or a permanent hire. Book a 30-minute call or email us.
+Last modified: 2026-09-10
+
+Contact
+
+## Book a 30-minute scoping call, or send us your brief.
+
+Tell us what you want to build, improve or automate, which technology role you need to fill, or which consultant you need in your team. You speak with the engineers who would do the work, and you leave with a written next step.
+
+- contact@mvtech.solutions
+- Ahmedabad, India · remote worldwide
+- Replies usually within one business day
+- Calls available in US, UK, EU, Gulf and APAC hours
+Option 1
+
+### Pick a time that suits your timezone
+
+A 30-minute video call. Choose any slot shown in your local time; the calendar adjusts automatically.
+
+The booking calendar loads here.
+
+Or open it in a new tab: calendly.com/contact-mvtech/30min
+
+Option 2
+
+### Prefer email? Build your brief in a minute
+
+Fill in what you know. This opens a ready-to-send email in your mail app; nothing is submitted through this website.
+
+What do you need? ProjectData engineeringCustom softwareWorkflow automationAI, RAG or MCP developmentConsultant in our team (staff augmentation)Permanent hire (recruitment)Something else
+Goal or problem
+Current systems and tools
+Timezone and preferred overlap hours
+Target date
+Budget range (optional)
+Your name and company
+Open in my email app Copy the brief instead
+No mail app? Copy the brief and paste it into any email to contact@mvtech.solutions. Please do not include credentials; they are never needed for an enquiry.
+
+- Need a consultant in your team? Share the role, stack, duration and hours; see staff augmentation.
+- Hiring permanently? Share the role, location or remote policy and timeline; see technology recruitment.
+- Happy to sign a mutual NDA before detailed discussions. Enquiry details are used only to respond to you; see our privacy notice.
+What happens next
+
+### From first call to a written next step.
+
+- 01 — We talk for 30 minutes — You describe the result you need, the current setup and your constraints. We ask the questions an engineer would ask and tell you honestly whether we are the right fit.
+- 02 — You receive a written proposal — A first milestone with deliverables, acceptance criteria, assumptions, the overlap hours in your timezone and the price for that scope. Usually within a few business days.
+- 03 — Work starts on your terms — Once the scope is agreed, we set up access, tools and the collaboration window, and begin delivering reviewable increments.
+Three things to bring
+
+### Make the first conversation count.
+
+- The result you need. The workflow, report, application or AI feature, and what should be better when the work is done.
+- The current setup. The systems involved, what already works and what keeps getting in the way. A description or a sanitised example is enough to start.
+- Your working constraints. Timezone, preferred overlap, target date and any budget range. These shape a useful first scope.
+
+---
+
+# Expertise & Credentials: Data, Cloud, Software & AI | MV.tech
+
+URL: https://mvtech.solutions/expertise/
+Description: Our expertise across data engineering, analytics, cloud (AWS, GCP), software, automation and AI, backed by Toptal vetting and Google Cloud and IBM credentials.
+Last modified: 2026-09-10
+
+Expertise & credibility
+
+## Senior data, software, cloud and AI expertise for real delivery.
+
+The work combines hands-on engineering, certified cloud knowledge, careful automation and end-to-end monitoring, so systems stay useful long after launch. Here is what we know well, what we have been vetted on, and the environments that shaped our standards.
+
+6+ yearsDelivering practical data, software and automation systems for operating teams
+Top 3%Toptal-vetted engineering talent; the credential belongs to the founder's linked profile
+GCP & IBMGoogle Cloud and IBM certified delivery capability
+End to endFrom source systems and pipelines to interfaces, monitoring and handover
+Tools & technologies
+
+### The stack we use across data, product, cloud and AI delivery.
+
+#### Data engineering & BI
+
+Python, SQL, BigQuery, Amazon Redshift, dbt-style SQL modelling, Tableau, data validation and reconciliation checks, reporting layers and metric definitions.
+
+- Python
+- SQL
+- BigQuery
+- Redshift
+- Tableau
+- Data modelling
+- Data quality
+
+#### Cloud & automation
+
+AWS and Google Cloud services for storage, compute, orchestration and warehousing; scheduled jobs, monitoring scripts, workflow automation and repeatable deployment patterns.
+
+- AWS
+- Google Cloud
+- Scheduling
+- Monitoring
+- CI/CD
+- Infrastructure hygiene
+
+#### Software & web applications
+
+JavaScript and modern component-based interfaces, responsive layouts, dashboards, portals and admin panels, REST APIs and integrations with business systems.
+
+- JavaScript
+- React-style UI
+- REST APIs
+- Portals
+- Dashboards
+- Accessibility
+
+#### AI automation & solutions
+
+Retrieval-augmented generation, Model Context Protocol servers and tools, custom assistants, LLM API integration, evaluation of answer quality, structured outputs and AI workflows with human approval.
+
+- RAG
+- MCP
+- LLM APIs
+- Embeddings
+- Evaluation
+- Guardrails
+Who we work with
+
+### From first product to enterprise data teams.
+
+Whether you are validating a first product or modernising a large reporting estate, the engineering standards are the same: traceable data, controlled access, documentation and monitoring.
+
+#### Early-stage start-ups
+
+First data and product infrastructure built with scale in mind but without premature complexity.
+
+#### Growth-stage companies
+
+Systems that handle increasing complexity, operational load and reporting needs without a rewrite.
+
+#### Enterprise data teams
+
+Modernising legacy workflows, adding cloud-native components and specialist capacity alongside internal teams.
+
+Our engineers have worked with
+
+- Google
+- Volvo
+- BCW
+- RootstockLabs
+- Chainlabs
+- Toptal
+- Turing
+Directly or through vetted talent platforms. These names describe experience, not endorsements or current partnerships.
+
+Credentials
+
+### Verified where it can be verified.
+
+- Toptal (Top 3% of applicants)
+  Founder Meet Vaghasia passed Toptal's multi-stage screening for senior engineering talent.View the Toptal profile. The credential applies to the linked individual profile, not automatically to every team member.
+- Google Cloud
+  Certified delivery capability on Google Cloud Platform, applied to BigQuery warehousing, data pipelines and cloud infrastructure work.
+- IBM
+  IBM certified delivery capability referenced publicly on this site, supporting data and analytics engineering work.
+- Company registration
+  MV.tech is registered for Goods and Services Tax in India (GSTIN 24BZMPV4008F1ZA), based in Ahmedabad, Gujarat.
+Put it to the test
+
+### Ask us the hard technical questions on the first call.
+
+You will speak with the engineers who would do the work. Bring your stack, your constraints and the problem that keeps coming back.
+
+---
+
+# FAQ: Working with MV.tech, a Remote Consultancy in India | MV.tech
+
+URL: https://mvtech.solutions/faq/
+Description: Answers about MV.tech: where we are based, timezone overlap with US, UK, EU and Australian clients, costs, services, credentials, security and how projects start.
+Last modified: 2026-09-10
+
+FAQ
+
+## Remote consulting questions, answered plainly.
+
+Everything people usually want to know before booking a call: who we are, where we are, how timezones and costs work, what we build and how we protect your data. If your question is not here, ask us directly.
+
+The company
+
+### Who MV.tech is.
+
+**What is MV.tech?**
+MV.tech is a remote-first technology consultancy based in Ahmedabad, Gujarat, India. We provide data engineering, custom software development, workflow automation, AI development (including RAG systems and MCP servers), IT staff augmentation and technology recruitment to clients worldwide. The company was founded by engineer Meet Vaghasia and is led by engineers rather than account managers.
+
+**Is MV.tech the same as MV Tech Solutions or MVTech?**
+Yes. MV.tech is the official brand and mvtech.solutions is the official website. People also search for it as MVTech, MV Tech, M V Tech, MV Tech Ahmedabad, MV Tech Solutions or MV Tech Data Solutions. They all refer to the same company.
+
+**Where is MV.tech based, and where are your clients?**
+We are based in Ahmedabad, India, and deliver fully remotely. Our clients are in India and worldwide, including North America, the United Kingdom, continental Europe, the Gulf and Asia-Pacific.
+
+**How big is the team?**
+Deliberately small. MV.tech is a focused team of senior specialists across data, software, cloud, automation and AI, led by founder Meet Vaghasia. We scale a specific engagement with additional specialists when the scope needs it, and say so when it does not.
+
+**Has MV.tech worked with large companies?**
+Our engineers have worked with organisations including Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal and Turing, directly or through vetted talent platforms. These names describe experience, not endorsements, current partnerships or sponsorships.
+
+Timezones & cost
+
+### Working with a team in India.
+
+**Can a team in India overlap US, UK, European or Australian working hours?**
+Yes. India Standard Time (UTC+5:30) overlaps the working day of every major business region for part of the day. Typical collaboration windows we plan around are 9:00 am to 1:00 pm US Eastern, 7:00 am to 10:00 am US Pacific, 9:00 am to 3:30 pm in the UK, 9:00 am to 4:00 pm in Central Europe, most of the business day in the Gulf, and 12:30 pm to 6:00 pm in eastern Australia. Exact hours are agreed per engagement.
+
+**Does timezone overlap mean 24/7 support?**
+No. Overlap means agreed working hours for collaboration: standups, reviews, demos and releases. Any support coverage, response-time expectations or release windows are defined separately in the engagement scope.
+
+**How does MV.tech keep consulting costs lean?**
+We operate as a focused remote team, so you pay for senior delivery time rather than offices, account-management layers, sales teams or idle bench capacity. Pricing is agreed per engagement against a written scope. We do not claim to be the cheapest option; we aim to be the best value for senior work with direct access to the people doing it.
+
+**How are projects priced?**
+Each engagement is priced against its written scope: deliverables, integrations, data volumes, testing, documentation and support. Embedded consultants are priced on agreed capacity and duration; recruitment fees are agreed per role. You receive the price before committing, and comparisons with other proposals should use the same scope and support expectations.
+
+**How do you communicate between meetings?**
+In your tools where possible: Slack or Teams, Jira or Linear, GitHub or GitLab, Google Workspace or Microsoft 365. Progress, decisions and open questions are written down so your stakeholders stay informed without another meeting.
+
+Services & delivery
+
+### What we build and how.
+
+**What does MV.tech build?**
+Data pipelines and cloud data platforms, dashboards and reporting layers, web applications and client portals, internal tools and business apps, workflow automations and API integrations, web scraping systems, RAG knowledge assistants, MCP servers and custom AI features integrated into existing products.
+
+**Can you handle both the product interface and the data backend?**
+Yes. The work can cover responsive front-end screens, API-backed workflows, data ingestion, warehouse modelling, analytics and deployment handover. The scope defines which parts your team owns and which parts we own.
+
+**Do you support or improve existing systems?**
+Yes. We can review and improve existing scripts, pipelines, APIs, dashboards, websites and applications while preserving current business workflows. A bounded review is often the most useful first engagement.
+
+**How do projects usually start?**
+With a 30-minute scoping call or an emailed brief. We clarify the goal, systems and constraints, then propose a first milestone with deliverables, acceptance criteria, review points and overlap hours. Work starts once that scope is agreed in writing.
+
+**What is the difference between a project, staff augmentation and recruitment?**
+In a project, MV.tech owns a defined scope and its deliverables. In staff augmentation, our consultants work inside your team under your technical leads for an agreed capacity. In recruitment, we help you hire a permanent employee into your own organisation. Each has its own scope and commercial terms.
+
+Security & trust
+
+### How we treat your data and systems.
+
+**How do you handle access to our systems and data?**
+With least-privilege access granted by you, separated development and production environments, and credentials stored in your secret management rather than shared in chat or documents. Access is reviewed during the engagement and removed at handover. Credentials are never needed for an initial enquiry.
+
+**Will you sign an NDA or work under our contract?**
+Yes. Mutual NDAs before detailed discussions are routine, and we can work under your master services agreement or provide a straightforward engagement agreement covering scope, ownership, confidentiality and payment terms.
+
+**Who owns the deliverables?**
+You do. Code, infrastructure definitions, documentation and data models are delivered into your repositories and accounts, with ownership stated in the engagement agreement.
+
+**Do you use AI tools when building for clients?**
+Where it helps and where your policy allows. AI-assisted development is reviewed by senior engineers like any other code, and client data is not used to train third-party models. Tell us your constraints and we work within them.
+
+Still have a question?
+
+### Ask the engineers directly.
+
+Book a 30-minute call or email us. We respond to every enquiry, usually within one business day.
+
+---
+
+# Insights on Remote Engineering, Data & AI | MV.tech
+
+URL: https://mvtech.solutions/insights/
+Description: Practical guides from MV.tech on working with remote engineering teams across timezones, hiring data consultants, RAG, MCP servers and engagement models.
+Last modified: 2026-09-10
+
+Insights
+
+## Practical guides on remote engineering, data and AI.
+
+Written by the people who do the work. Plain answers to the questions teams ask before they hire a remote data, software or AI team.
+
+Buyer's guide
+
+### 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
+
+A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
+
+10 Sept 2026 · 5 min read
+Remote delivery playbook
+
+### How to Work with an India-Based Engineering Team Across Timezones
+
+Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
+
+10 Sept 2026 · 6 min read
+AI engineering
+
+### RAG vs Fine-Tuning: Choosing the Right Approach for an Internal Knowledge Assistant
+
+A plain-language comparison of retrieval-augmented generation and fine-tuning for company knowledge assistants: when each fits, permissions, evaluation and cost.
+
+10 Sept 2026 · 5 min read
+Engagement models
+
+### Staff Augmentation vs Project Consulting vs Recruitment: Which Engagement Model Fits?
+
+How to choose between embedding a consultant, commissioning a scoped project and hiring permanently for data, software and AI work: control, cost, speed and risk.
+
+10 Sept 2026 · 5 min read
+AI engineering
+
+### What Is an MCP Server, and When Should a Business Build One?
+
+A business-level explanation of the Model Context Protocol: what an MCP server exposes, when building one makes sense, the security decisions involved and a first project.
+
+10 Sept 2026 · 5 min read
+Your next step
+
+### Have a question these guides do not answer?
+
+Tell us about your situation. A 30-minute call with the engineering team is usually enough to point you in a useful direction.
+
+---
+
+# 12 Questions to Ask Before Hiring a Data Consultancy | MV.tech
+
+URL: https://mvtech.solutions/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/
+Description: A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
+Last modified: 2026-09-10
+
+Buyer's guide
+
+## 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
+
+A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
+
+By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · 5 min read
+
+In brief
+
+- Most failed data projects fail on people and process, not technology. Ask who will actually write the code and how correctness will be proven.
+- Good vendors propose a small first milestone with acceptance criteria. Vendors who quote the whole roadmap on day one are guessing.
+- Compare proposals on the same scope, seniority, testing, documentation and support. A low headline price that excludes reconciliation and monitoring is not low.
+Choosing a data engineering partner is difficult because the output is invisible until it is wrong. A pipeline can run green for months while quietly dropping records, and a dashboard can look finished while the numbers underneath it are unreliable. The questions below are the ones we would want a client to ask us, grouped by what they reveal. Use them as a checklist in your first conversations with any remote consultancy, including this one.
+
+### People
+
+#### 1. Who exactly will do the work, and can we meet them before we sign?
+
+Why it matters: Proposals are often written by senior people and delivered by junior ones. A good answer: named engineers, their backgrounds, and a call with them before commitment. Be cautious if the main contact will be an account manager rather than an engineer.
+
+#### 2. How senior is the person who will review the code and the data?
+
+Why it matters: Data work is full of judgment calls about grain, deduplication, late-arriving records and business definitions. A good answer: a specific senior engineer accountable for review, with examples of the kind of issues they catch.
+
+#### 3. What happens if that person is unavailable?
+
+Why it matters: Continuity is the real difference between a consultancy and a freelancer. A good answer: documented systems, a second engineer familiar with the work, and a handover process, not just "we have a big team".
+
+### Method
+
+#### 4. What would you propose as the first milestone, and how would we know it worked?
+
+Why it matters: A vendor who cannot narrow the problem cannot estimate it. A good answer: one dependable reporting flow, one source integrated end to end, or one bounded review, with written acceptance criteria such as "matches the finance ledger to within 0.1% for the last twelve months".
+
+#### 5. How will you prove the numbers are right?
+
+Why it matters: "The job succeeded" and "the data is correct" are different statements. A good answer: reconciliation against source records, checks for freshness and completeness, tests for edge cases such as empty periods and reprocessed records, and a plan for what happens when a check fails.
+
+#### 6. What will operating this look like after you leave?
+
+Why it matters: Pipelines are run far longer than they are built. A good answer: schedules and ownership documented, alerts that reach a human, recovery steps for common failures, and source-to-report mappings your own team can follow.
+
+### Commercials
+
+#### 7. What does the price include, and what does it exclude?
+
+Why it matters: Testing, documentation, monitoring and handover are where cheap proposals save money. A good answer: an itemised scope that names these explicitly. Ask two vendors to price the same written scope and the comparison becomes meaningful.
+
+#### 8. Who owns the code, the infrastructure and the data models?
+
+Why it matters: Some vendors deliver into their own accounts and charge to release them. A good answer: everything in your repositories and cloud accounts from day one, with ownership stated in the agreement.
+
+#### 9. How do you handle changes in scope?
+
+Why it matters: Requirements will change once real data appears. A good answer: changes are written down, estimated and agreed before they are built, and assumptions that prove wrong are raised immediately rather than absorbed silently or invoiced later.
+
+### Working model
+
+#### 10. Which hours will you overlap with us, in our local time?
+
+Why it matters: "We adapt to your timezone" is not a commitment. A good answer: a specific recurring window, the meetings that live inside it, and how progress is communicated outside it. See our timezone playbook for what realistic windows look like.
+
+#### 11. Where will decisions and progress be recorded?
+
+Why it matters: Remote work fails when decisions live in someone's memory. A good answer: your tools, your wiki, your ticketing system; written standups and decision records you could forward to a stakeholder without editing.
+
+### Evidence
+
+#### 12. What can you show us, and what can you not?
+
+Why it matters: Confidentiality limits what any consultancy can share, but it does not eliminate evidence. A good answer: verified credentials with links, anonymised descriptions of comparable work, a sample scope document or runbook, and honesty about what is under NDA. Be wary of logos without context and of testimonials that cannot be attributed.
+
+### How to run the comparison
+
+- Write one page describing the outcome you need, the systems involved, approximate data volumes and your working hours.
+- Send the same page to each shortlisted vendor and ask for a first-milestone proposal, not a roadmap.
+- Score the proposals on the twelve questions above before you look at the price.
+- Only then compare prices, adjusting for what each proposal excludes.
+Vendors who respond to a one-page brief with specific questions of their own are usually the ones who will find the problems in your data before your finance team does.
+
+### Frequently asked questions
+
+**Should we start with a data audit or go straight to building?**
+If you already have pipelines and reports that people distrust, a short bounded review is usually the best first engagement: it produces a prioritised list of what is actually broken. If you are starting from spreadsheets and exports, build one dependable reporting flow end to end; it teaches both sides more than an audit would.
+
+**Is a remote consultancy in India a reasonable choice for a US or UK company?**
+Yes, provided the overlap hours, communication practices and accountability are explicit. The structural cost advantage is real because you are not paying for offices and account layers, but it only helps if the seniority and the working model are right. Apply the same twelve questions you would apply to a local firm.
+
+**What should we share before the first call?**
+The report or workflow you want to improve, the source systems, rough data volumes, the tools you use today and the refresh frequency you need. A description or a sanitised example is enough; credentials are never needed for an enquiry.
+
+About the author
+
+### Meet Vaghasia
+
+Meet Vaghasia is the founder of MV.tech. He is a data and software engineer with hands-on experience across data engineering, analytics, cloud platforms, automation and AI systems, and is Toptal-vetted (Top 3%) with Google Cloud and IBM credentials.
+
+About MV.techToptal profileServices
+Your next step
+
+### Want help applying this?
+
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech.
+
+---
+
+# RAG vs Fine-Tuning for Internal Knowledge Assistants | MV.tech
+
+URL: https://mvtech.solutions/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/
+Description: A plain-language comparison of retrieval-augmented generation and fine-tuning for company knowledge assistants: when each fits, permissions, evaluation and cost.
+Last modified: 2026-09-10
+
+AI engineering
+
+## RAG vs Fine-Tuning: Choosing the Right Approach for an Internal Knowledge Assistant
+
+A plain-language comparison of retrieval-augmented generation and fine-tuning for company knowledge assistants: when each fits, permissions, evaluation and cost.
+
+By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · 5 min read
+
+In brief
+
+- Retrieval-augmented generation (RAG) gives a language model the relevant passages from your own documents at question time. Fine-tuning changes the model's weights using examples, which teaches behaviour and style far better than it teaches facts.
+- For assistants that answer questions about company knowledge, RAG is almost always the right starting point: it stays current, can cite sources and can respect user permissions. Fine-tuning suits narrow, repetitive tasks with a stable format.
+- Whichever you choose, the deciding work is retrieval quality, access control and evaluation against real questions, including the ones the documents cannot answer.
+Teams that want an assistant over their own documents, tickets and data usually ask the same first question: should we fine-tune a model on our content, or use retrieval? The short answer is that these techniques solve different problems, and for internal knowledge the answer is usually retrieval first, with fine-tuning added later only if a specific, measurable need appears. Here is the reasoning, without the jargon.
+
+### What each approach actually does
+
+#### Retrieval-augmented generation
+
+RAG splits your documents into passages, indexes them (typically with embeddings and often a keyword index as well), and at question time retrieves the passages most relevant to the question. Those passages are placed in the model's context along with the question, and the model writes an answer grounded in them. The model itself is unchanged; what changes is what it is shown.
+
+#### Fine-tuning
+
+Fine-tuning continues training a model on examples of inputs and desired outputs, adjusting its weights. It is effective at teaching a model how to behave: a tone of voice, a strict output format, a domain's vocabulary, or a narrow classification task. It is a poor way to store facts that change, because updating a fact means retraining, and a fine-tuned model still cannot tell you which document its answer came from.
+
+### A side-by-side comparison
+
+RAG and fine-tuning compared for company knowledge assistants
+| Consideration | Retrieval-augmented generation | Fine-tuning |
+| Keeping up with changing content | Re-index the changed documents; answers update immediately | Retrain and redeploy; facts baked into weights go stale |
+| Citing sources | Natural: the answer can link to the passages it used | Not available; the model cannot show where an answer came from |
+| Respecting user permissions | Filter retrieval by what the current user may see | Everything in the training data is available to every user |
+| Handling questions outside the material | Can detect weak retrieval and say "I don't know" | Tends to answer confidently anyway |
+| Teaching format, tone or a narrow task | Possible through prompting, with limits | Strong: this is what fine-tuning is for |
+| Upfront cost | Engineering time for ingestion, retrieval and evaluation | Curating thousands of quality examples plus training runs |
+| Ongoing cost | Longer prompts per query; index maintenance | Hosting or serving a custom model; periodic retraining |
+
+### When RAG is the right choice
+
+- The assistant must answer from documents, policies, tickets or records that change over time.
+- Users need to see where an answer came from before they trust it.
+- Different users are allowed to see different things, so permissions must be enforced at retrieval time.
+- The content is too large or too varied to summarise into training examples.
+This describes almost every internal knowledge assistant we are asked to build: HR and policy questions, engineering runbooks, customer-support knowledge, contract and procedure lookups.
+
+### When fine-tuning earns its place
+
+- A narrow, repetitive task with a stable format: classifying tickets, extracting fields from a known document type, writing in a strict house style.
+- Prompting has been tried and measured, and the remaining error rate is about behaviour rather than missing information.
+- Latency or cost per request matters enough that a smaller, specialised model is worth the maintenance.
+Fine-tuning and RAG are not mutually exclusive. A common mature design uses retrieval for knowledge and a lightly fine-tuned or carefully prompted model for consistent behaviour. Start with retrieval and good prompting; add fine-tuning when you can name the metric it will improve.
+
+### The work that actually decides success
+
+#### Retrieval quality
+
+Most "the AI is wrong" complaints are retrieval failures: the right passage was never shown to the model. Chunking that respects document structure, combining semantic and keyword search, adding metadata filters and re-ranking results all matter more than the choice of model. Measure retrieval separately from answer quality so you can tell which one is failing.
+
+#### Access control
+
+Permissions must be enforced in the application before retrieval, using the user's identity and the source system's rules. Instructions written into a prompt are not access control; a determined user can talk a model out of them. This is a design requirement, not a feature to add later.
+
+#### Evaluation with real questions
+
+Collect the questions people actually ask, including ones the documents cannot answer, and review the assistant's behaviour on them before widening the audience. Score groundedness (is the answer supported by the retrieved passages?), correctness, and how the assistant behaves when it should decline. Keep the set and re-run it after every change to the index, prompt or model.
+
+#### Unanswerable questions
+
+A good assistant says "I could not find this in the approved sources" and points to a human. A bad one improvises. Build the decline path deliberately, test it, and make it easy for users to report wrong answers.
+
+### A sensible first project
+
+Choose one defined collection of documents and a small group of users. Collect twenty to fifty real questions. Build retrieval and answering over that collection, with source references and a decline path, and review the results with the users. Only then decide on wider access, automated actions or any fine-tuning. This bounded first release typically takes weeks rather than months, and it produces the evidence you need to justify the next step.
+
+### Frequently asked questions
+
+**Does fine-tuning make a model "know" our documents?**
+Not reliably. Fine-tuning shapes how a model responds far more than what it can recall, and it cannot cite where an answer came from. If the goal is accurate answers about specific documents, retrieval is the mechanism that puts the right text in front of the model.
+
+**Will our data be used to train someone else's model?**
+It depends on the provider and the contract terms you select. Business and API tiers of the major model providers generally state that customer data is not used for training, but this should be confirmed in writing and reflected in your architecture, including where indexes and logs are stored.
+
+**How much does an internal knowledge assistant cost to run?**
+Ongoing costs come from model usage per query, the retrieval infrastructure, and keeping the index current as documents change. For most internal tools these are modest compared with the engineering time to build and evaluate the system properly. Ask for both numbers when comparing proposals.
+
+About the author
+
+### Meet Vaghasia
+
+Meet Vaghasia is the founder of MV.tech. He is a data and software engineer with hands-on experience across data engineering, analytics, cloud platforms, automation and AI systems, and is Toptal-vetted (Top 3%) with Google Cloud and IBM credentials.
+
+About MV.techToptal profileServices
+Your next step
+
+### Want help applying this?
+
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech.
+
+---
+
+# Staff Augmentation vs Project Consulting vs Recruitment | MV.tech
+
+URL: https://mvtech.solutions/insights/staff-augmentation-vs-project-consulting-vs-recruitment/
+Description: How to choose between embedding a consultant, commissioning a scoped project and hiring permanently for data, software and AI work: control, cost, speed and risk.
+Last modified: 2026-09-10
+
+Engagement models
+
+## Staff Augmentation vs Project Consulting vs Recruitment: Which Engagement Model Fits?
+
+How to choose between embedding a consultant, commissioning a scoped project and hiring permanently for data, software and AI work: control, cost, speed and risk.
+
+By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · 5 min read
+
+In brief
+
+- Choose ascoped projectwhen the outcome is clear and you want someone else accountable for delivering it.
+- Choosestaff augmentationwhen the work is ongoing or still taking shape and you want senior capacity working under your own direction.
+- Choosepermanent recruitmentwhen the role will exist for years and belongs inside your organisation.
+- Many teams combine them: a project to prove the approach, an embedded consultant to extend it, a permanent hire once the role is understood.
+When a company needs more data, software or AI capability than it has, there are three ways to get it: commission a project, bring outside people into the team, or hire. They are often confused, sometimes deliberately by vendors who sell whichever they have available. This guide separates them by the questions that actually matter: who directs the work, who carries the risk, how quickly it starts and what it costs over time.
+
+### The three models, defined
+
+#### Scoped project consulting
+
+You describe an outcome; the consultancy proposes a scope with deliverables, milestones and acceptance criteria, then delivers it. The consultancy directs its own people and is accountable for the result. Typical examples: a first data pipeline and reporting layer, an internal application, an automation of a specific process, a knowledge assistant over a defined document set.
+
+#### Staff augmentation (embedded consultants or a dedicated team)
+
+Senior specialists join your team for an agreed capacity and duration, working in your tools, your rituals and your hours, under the direction of your technical leads. You own the backlog and the priorities; the consultancy supplies the people, the continuity and the quality bar. Typical examples: a data engineer alongside your product team for two quarters, an AI engineer to build out an assistant your team has designed, additional senior developers during a delivery crunch.
+
+#### Technology recruitment
+
+You hire a permanent employee into your organisation. A recruitment partner helps define the role, find and assess candidates and coordinate the process; you make the hiring decision and employ the person directly. Typical examples: a head of data, a lead engineer for a new product, a permanent platform team.
+
+### Side by side
+
+Engagement models compared
+| Question | Scoped project | Staff augmentation | Permanent recruitment |
+| Who directs the day-to-day work? | The consultancy, against an agreed scope | Your technical leads | You, as the employer |
+| Who carries delivery risk? | Shared, with the consultancy accountable for the scope | Mostly you; the consultancy is accountable for the person's quality and continuity | You |
+| How quickly does it start? | After scoping, typically one to three weeks | Usually fastest once a fit is confirmed | Slowest: weeks to months depending on the role |
+| Best when | The outcome is clear and bounded | The work is ongoing or still emerging | The role is long-term and core to the business |
+| Cost structure | Fixed or milestone-based price for the scope | Agreed capacity and duration, priced accordingly | A recruitment fee plus ongoing salary and overheads |
+| Knowledge stays with | You, via documentation and handover | Your team, because the work happens inside it | You, as long as the employee stays |
+| Flexibility to stop or change | At milestone boundaries | High, within the notice terms | Low; hiring is a long-term commitment |
+
+### How to decide
+
+#### Start from the shape of the work
+
+If you can write the outcome on one page with acceptance criteria, it is a project. If you can only describe a stream of work and a direction, it is capacity, which points to augmentation. If you can describe a role that will still exist in three years, it is a hire.
+
+#### Then consider who should be in control
+
+Project consulting suits teams that want to buy an outcome and get on with their own work. Augmentation suits teams with strong technical leadership who want more senior hands without giving up direction. Recruitment suits organisations building durable in-house capability.
+
+#### Then think about risk and reversibility
+
+A project has a natural end and clear acceptance, which limits the downside. Augmentation is easy to scale up or down. A permanent hire is the largest commitment and the hardest to reverse, which is why it deserves the most careful brief.
+
+### Common mistakes
+
+- Buying a project when you need a team.Fixed scopes fight with emerging requirements. If the roadmap is uncertain, embed people instead.
+- Buying "staff augmentation" that is really outsourcing.If you never meet the engineers and cannot direct them, it is not augmentation, whatever the contract says.
+- Hiring permanently for a temporary spike.Six months of intense delivery followed by maintenance is a job for consultants, not a new headcount line.
+- Treating recruitment and consulting as interchangeable.They have different scopes, fees and obligations. A good partner will tell you which one you are actually asking for.
+
+### Combining the models
+
+The most effective sequence we see is: a scoped project to prove an approach and establish trust; an embedded consultant to extend it while priorities settle; and a permanent hire once the organisation understands the role well enough to write it. Each step reduces the risk of the next. A partner that offers all three, as MV.tech does, can move with you through that sequence without a change of vendor, but the model you choose at each step should follow the work, not the vendor's preference.
+
+### Frequently asked questions
+
+**Is staff augmentation the same as outsourcing?**
+No. In staff augmentation, named consultants work inside your team under your direction, in your tools and your hours. In outsourcing, a vendor takes over a function or a scope and directs its own people. Augmentation keeps control and knowledge with you; outsourcing trades some of that for a managed outcome.
+
+**Can an embedded consultant work in our timezone?**
+Yes, within an agreed window. A remote consultant in India can typically overlap US Eastern mornings, most of the UK and European working day, Gulf business hours or Australian afternoons. The specific hours, meetings and response expectations should be written into the engagement.
+
+**Can a consultant later become a permanent hire?**
+Sometimes, if all parties agree and the arrangement allows it. It is better to decide up front whether the engagement is intended as a trial for a permanent role and to set the terms accordingly than to negotiate it under pressure later.
+
+About the author
+
+### Meet Vaghasia
+
+Meet Vaghasia is the founder of MV.tech. He is a data and software engineer with hands-on experience across data engineering, analytics, cloud platforms, automation and AI systems, and is Toptal-vetted (Top 3%) with Google Cloud and IBM credentials.
+
+About MV.techToptal profileServices
+Your next step
+
+### Want help applying this?
+
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech.
+
+---
+
+# Working With an India Engineering Team Across Timezones | MV.tech
+
+URL: https://mvtech.solutions/insights/timezone-overlap-with-an-india-based-engineering-team/
+Description: Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
+Last modified: 2026-09-10
+
+Remote delivery playbook
+
+## How to Work with an India-Based Engineering Team Across Timezones
+
+Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
+
+By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · 6 min read
+
+In brief
+
+- India Standard Time (UTC+5:30) overlaps the working day of every major business region for part of the day, so the question is never "is overlap possible?" but "which hours, and what happens outside them?"
+- Agree four things before work starts: the collaboration window, where decisions get recorded, response expectations, and release windows. Most timezone problems are really unwritten-expectation problems.
+- Treat "24/7 coverage" claims and unnamed engineers as warning signs. Ask for the specific hours and the specific people.
+Companies hesitate about remote teams in India for one reason more than any other: the clock. The worry is reasonable, and it is also solvable, because it is mostly a planning problem rather than a geography problem. This guide covers what realistic overlap looks like from different regions, what to agree before an engagement begins, and the working habits that make distributed delivery feel closer than it is.
+
+### Where India sits on the clock
+
+India Standard Time is UTC+5:30 all year; India does not observe daylight saving. That places an Indian working day roughly like this relative to other regions:
+
+- United Kingdom and Europe:India is 4.5 to 5.5 hours ahead of London and 3.5 to 4.5 hours ahead of Berlin, depending on the season. An engineer working a standard Indian day shares most of the UK and European morning and early afternoon.
+- North America:India is 9.5 to 10.5 hours ahead of US Eastern time and 12.5 to 13.5 hours ahead of Pacific. A standard Indian day barely touches the US morning, so teams that serve American clients shift their hours later, typically starting around midday IST, to cover the US morning.
+- Gulf:India is only 1.5 hours ahead of Dubai. Overlap is almost the whole day.
+- Asia-Pacific:India is 2.5 hours behind Singapore and 4.5 to 5.5 hours behind Sydney, so Australian afternoons coincide with Indian mornings.
+The practical conclusion: a team in India can give a European client a half-day of overlap without any adjustment, and can give an American client three to four hours every morning by shifting its day. It cannot give a single client both a full US afternoon and a full Australian morning with the same people, and any vendor who implies otherwise is describing something other than a normal working week.
+
+### Typical overlap windows
+
+These are the windows we plan engagements around at MV.tech. Yours may differ; the point is that they are specific.
+
+Illustrative collaboration windows for a team in Ahmedabad, India
+| Your team | Overlap in your local time | Equivalent in IST |
+| New York (US Eastern) | 9:00 am – 1:00 pm | 6:30 pm – 10:30 pm |
+| San Francisco (US Pacific) | 7:00 am – 10:00 am | 7:30 pm – 10:30 pm |
+| London | 9:00 am – 3:30 pm | 1:30 pm – 8:00 pm |
+| Berlin (Central Europe) | 9:00 am – 4:00 pm | 12:30 pm – 7:30 pm |
+| Dubai (Gulf) | 9:00 am – 6:00 pm | 10:30 am – 7:30 pm |
+| Singapore | 11:00 am – 6:00 pm | 8:30 am – 3:30 pm |
+| Sydney (Australia East) | 12:30 pm – 6:00 pm | 8:00 am – 1:30 pm |
+Two things are worth noticing. First, the windows are three to seven hours long, which is enough for standups, reviews, pairing and releases; nobody needs eight hours of shared screen time to deliver software well. Second, the windows shift by an hour when your region changes its clocks, so write the window in your local time and let the vendor adjust.
+
+### Four things to agree before the first sprint
+
+#### 1. The collaboration window, in your time
+
+Write down the recurring hours during which the team is reachable synchronously, which meetings live inside them, and who attends. "Flexible" is not a window. "9:00 am to 1:00 pm Eastern, Monday to Friday, with standup at 9:15" is.
+
+#### 2. Where decisions live
+
+Distributed teams fail when decisions are made in a call and then forgotten by the half of the team that was asleep. Choose one place, such as a decision log in your wiki, pull request descriptions or a pinned channel, and make "write it down where the other side will see it" a habit, not a favour.
+
+#### 3. Response expectations outside the window
+
+Say explicitly what "urgent" means, how it is raised, and what response is expected outside the window. Most engagements need no out-of-hours coverage at all; production systems that do need it should have it written into the scope with named responsibilities, not implied by a sales conversation.
+
+#### 4. Release windows
+
+Decide when changes may reach production and who must be awake when they do. A team that deploys during the client's morning, with the client's own engineers online, avoids most of the drama associated with remote delivery.
+
+### Async habits that actually work
+
+- Written standups.Three lines per person, posted before the client's day begins: done, next, blocked. Ten minutes of reading replaces a meeting nobody wanted at 7:00 am.
+- Recorded demos.A five-minute screen recording of a working feature, shared in the channel, lets stakeholders review at their convenience and reply with timestamps.
+- Pull requests that explain themselves.What changed, why, how it was tested, what to look at first. Reviews then happen across the time gap instead of waiting for a call.
+- Handover notes at the end of each day.Where things stand, what was decided, what needs an answer. The other side starts its morning informed rather than guessing.
+- One synchronous ritual that never moves.A weekly review inside the window, with a demo and a look at the plan. Everything else can flex; this cannot.
+
+### What should still be synchronous
+
+Discovery conversations, design decisions with real trade-offs, incident response, and anything involving disagreement. If a thread has gone back and forth three times without converging, book fifteen minutes inside the window and settle it. Async is a default, not a religion.
+
+### Warning signs when evaluating a remote vendor
+
+- "We provide 24/7 support"from a team of five. Ask who exactly is awake at 3:00 am your time and what they are authorised to do.
+- No named engineersbefore signing. If you cannot meet the people who will do the work, you are buying a promise, not a team.
+- A dedicated account manageras the main contact. Useful in a large programme, but for a small engagement it usually means the engineers are somewhere behind a wall.
+- Vague overlap."We adjust to your timezone" without hours attached is a sentence, not a commitment.
+
+### The cost dimension, briefly
+
+The economic case for a remote team in India is real, but it is often described badly. The saving does not come from cheap labour; senior engineers in India are not cheap, nor should they be. It comes from what you are not paying for: offices in expensive cities, account-management layers, idle bench capacity and brand premiums. A lean remote consultancy passes that structural difference through. Compare proposals on the same scope, the same seniority and the same support expectations, and the difference is still substantial without being suspicious.
+
+### Frequently asked questions
+
+**Does India observe daylight saving time?**
+No. India Standard Time stays at UTC+5:30 all year. Overlap windows written in a client's local time shift by an hour in IST when the client's region changes its clocks, which is why the window should be defined in the client's time.
+
+**Can a team in India cover US Pacific hours?**
+Yes, for part of the day. A common arrangement is 7:00 am to 10:00 am Pacific, which is 7:30 pm to 10:30 pm in India. Some teams run a later shift to cover more of the Pacific morning; a full Pacific afternoon is unrealistic for a team keeping a normal week.
+
+**How much overlap does a software project really need?**
+In our experience, three to four hours of daily overlap is enough for standups, reviews, pairing on hard problems and releases, provided decisions and progress are written down. More overlap is pleasant; it is rarely what determines whether a project succeeds.
+
+About the author
+
+### Meet Vaghasia
+
+Meet Vaghasia is the founder of MV.tech. He is a data and software engineer with hands-on experience across data engineering, analytics, cloud platforms, automation and AI systems, and is Toptal-vetted (Top 3%) with Google Cloud and IBM credentials.
+
+About MV.techToptal profileServices
+Your next step
+
+### Want help applying this?
+
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech.
+
+---
+
+# What Is an MCP Server, and When Should a Business Build One? | MV.tech
+
+URL: https://mvtech.solutions/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/
+Description: A business-level explanation of the Model Context Protocol: what an MCP server exposes, when building one makes sense, the security decisions involved and a first project.
+Last modified: 2026-09-10
+
+AI engineering
+
+## What Is an MCP Server, and When Should a Business Build One?
+
+A business-level explanation of the Model Context Protocol: what an MCP server exposes, when building one makes sense, the security decisions involved and a first project.
+
+By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · 5 min read
+
+In brief
+
+- The Model Context Protocol (MCP) is an open standard that lets AI applications connect to external tools and data through one consistent interface. An MCP server is the piece you build around your systems so that compatible AI assistants can use them.
+- Build one when several AI clients need the same governed access to internal systems, when off-the-shelf connectors do not exist for your tools, or when you need authorisation and logging in one place rather than in every prompt.
+- Treat an MCP server as production software: authentication, least-privilege tool design, human approval for consequential actions and audit logs are part of the scope, not extras.
+Every business that tries to make an AI assistant useful eventually hits the same wall: the assistant needs to look things up in, or act on, systems the model has never seen. Customer records, ticket queues, order status, internal documentation, the finance system. The Model Context Protocol is the emerging standard way to make those connections, and "MCP server development" has become a common request from teams who want their AI tools to do more than chat. This guide explains what an MCP server is in practical terms, when it is worth building one, and what to insist on if you do.
+
+### What MCP is
+
+MCP is an open protocol, originally released by Anthropic in late 2024 and since supported across the major AI assistant and developer platforms, that standardises how an AI application (the client) discovers and uses capabilities offered by an external program (the server). The full specification and reference implementations are published at modelcontextprotocol.io.
+
+Before MCP, connecting an assistant to a system meant writing a custom integration for each combination of assistant and system. With MCP, a system exposes its capabilities once, and any compatible client, whether a chat assistant, a coding tool or an internal agent, can use them the same way.
+
+### What an MCP server exposes
+
+- Tools:actions the assistant can call, with typed inputs and outputs. For examplelookup_order(order_id),create_ticket(summary, priority)orrun_approved_report(name, date_range).
+- Resources:data the assistant can read, such as a document, a record or a query result, identified by a URI.
+- Prompts:reusable, parameterised instructions that package a well-tested way of doing a task, for example "prepare a weekly status summary from these sources".
+The server describes these capabilities in a machine-readable way, the client shows them to the model, and the model decides when to use them. The server, not the model, enforces what is allowed.
+
+### When building an MCP server makes sense
+
+- Your systems have no ready-made connector.Internal databases, custom applications, older business systems and in-house APIs rarely come with an MCP integration. Building one is how they join the conversation.
+- Several AI clients need the same access.If your support assistant, your internal chat tool and a coding agent all need to read the same records, one server with consistent rules beats three bespoke integrations.
+- Governance has to live in one place.An MCP server is where you enforce who may do what, log every call and shape which data leaves the system. That is far more reliable than instructions inside prompts.
+- You want the assistant to act, not just answer.Creating tickets, updating records, triggering workflows: actions need typed inputs, validation and often human approval, which is exactly what a tool interface provides.
+
+### When you probably do not need one
+
+- One application, one model, one integration that will never be reused. A direct API call inside that application is simpler.
+- The system you want to connect already has a well-maintained MCP server from its vendor. Evaluate it before building.
+- The real problem is that the assistant cannot answer from documents. That is a retrieval problem; seeRAG versus fine-tuning. MCP can expose a retrieval tool, but the retrieval quality is the work.
+
+### Security decisions you cannot skip
+
+#### Authentication and identity
+
+The server must know who is asking. Remote servers should use standards-based authentication, such as OAuth, and pass the user's identity through to the underlying systems so that existing permissions apply. A server that connects with one privileged service account on behalf of everyone is a data leak waiting for a clever prompt.
+
+#### Least-privilege tool design
+
+Expose narrow, purpose-built tools rather than "run any query" or "call any endpoint". Validate inputs, cap result sizes and separate read tools from write tools. The model will use whatever it is given; the server decides what that is.
+
+#### Human approval for consequential actions
+
+Anything that spends money, changes customer-facing records or sends communications should require an explicit confirmation step, either in the client's interface or in the workflow the tool triggers. Design the approval path into the tool, not around it.
+
+#### Logging and audit
+
+Record every tool call with the caller, the arguments and the outcome. This is how you debug odd behaviour, satisfy security reviews and answer the question "why did the assistant do that?"
+
+#### Untrusted content
+
+Data returned by a tool may contain text that tries to instruct the model (a classic prompt injection). Servers should treat returned content as data, clients should display it as such, and consequential actions should never be triggered by content alone.
+
+### What a sensible first MCP project looks like
+
+- Pick one system and two or three toolsthat would remove real friction, for example looking up a customer, summarising their recent tickets and drafting (not sending) a reply.
+- Define the tool contractswith typed inputs, outputs, error cases and result limits, and agree which are read-only.
+- Wire authenticationso the user's own permissions apply, and add logging from the first commit.
+- Test with the intended clientsand with real tasks, including attempts to misuse the tools, before widening access.
+- Document ownership and operation: who maintains the server, how it is deployed, how tools are added and reviewed.
+A project of this shape is typically weeks of work, and it produces something you can extend tool by tool as trust grows.
+
+### Frequently asked questions
+
+**Is MCP tied to one AI vendor?**
+No. MCP is an open specification with open-source SDKs in several languages, and it is supported by multiple AI assistants, developer tools and platforms. A server you build can be used by any compatible client, which is the main reason to prefer it over a bespoke integration.
+
+**Does an MCP server need to be hosted on the internet?**
+Not necessarily. Servers can run locally alongside a desktop client using standard input and output, or remotely over HTTP for shared use. Remote servers need proper authentication and network controls; local servers still need careful tool design because they run with the user's own access.
+
+**What does MCP server development cost?**
+The main cost drivers are the number and complexity of tools, the authentication model, the systems being integrated, testing and documentation. A focused first server with a handful of well-designed tools is a small project; the cost grows with the sensitivity of the actions it enables and the rigour those actions demand.
+
+About the author
+
+### Meet Vaghasia
+
+Meet Vaghasia is the founder of MV.tech. He is a data and software engineer with hands-on experience across data engineering, analytics, cloud platforms, automation and AI systems, and is Toptal-vetted (Top 3%) with Google Cloud and IBM credentials.
+
+About MV.techToptal profileServices
+Your next step
+
+### Want help applying this?
+
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech.
+
+---
+
+# Our Delivery Process: Scoping Call to Production Handover | MV.tech
+
+URL: https://mvtech.solutions/process/
+Description: How MV.tech delivers remote engineering projects: a 30-minute scoping call, a written first milestone, reviewable increments in your timezone and a documented handover.
+Last modified: 2026-09-10
+
+How we work
+
+## A clear remote delivery process from idea to production.
+
+Execution first, without burying the project in ceremony. Every engagement follows the same five steps, whether we own a scoped project or work embedded in your team. You always know what is being built, who is doing it, and what happens next.
+
+- 01 — Understand the goal — A 30-minute call to clarify what you are building, who it is for, the systems involved and what success looks like. We tell you honestly whether we are the right fit.
+- 02 — Scope the first milestone — A written proposal with deliverables, acceptance criteria, assumptions, review points and the overlap hours in your timezone. Nothing starts until this is agreed.
+- 03 — Build in reviewable increments — Working software, pipelines or automations you can see early and often. Decisions are recorded in your tools so stakeholders stay informed between calls.
+- 04 — Test against reality — Reconcile outputs with source records, test failure paths and retries, check performance and access control before anything is called done.
+- 05 — Deploy and hand over — Go live with documentation, monitoring and a clear support or handover plan. Then we agree the next useful increment, or you run it yourself.
+What you receive
+
+### Artefacts, not just activity.
+
+- Scope document with milestones, acceptance criteria and explicit assumptions before work begins.
+- Working demonstrations at each review point, in your collaboration window, with decisions written down afterwards.
+- Source code and infrastructure in your repositories and accounts, with credentials and access under your control.
+- Operating documentation: schedules, ownership, recovery steps, source mappings and known limitations.
+- Monitoring and alerts so a job that "succeeded" with bad data does not go unnoticed.
+- A support option sized to the system: ad-hoc, a monthly retainer or continued embedded capacity.
+Working across timezones
+
+### Overlap when it matters, async when it does not.
+
+Discovery, demos, reviews and releases happen inside an agreed window in your local time. Between those, work continues in India Standard Time and you receive written updates you can forward without translation. Response expectations, release windows and any support coverage are written into the scope rather than assumed.
+
+Process questions
+
+### Frequently asked about how we deliver.
+
+**How long does the first milestone usually take?**
+Most first milestones are sized to deliver something working within a few weeks: one dependable reporting flow, one automated hand-off, one complete user journey or one bounded knowledge assistant. The exact duration is part of the written scope.
+
+**Who owns the code and infrastructure?**
+You do. Work is delivered into your repositories, cloud accounts and tools wherever possible, and ownership and licensing terms are stated in the engagement agreement.
+
+**How do you handle changes in scope?**
+New requirements are welcome; they are written down, estimated and either added to the current milestone by agreement or planned into the next one. Assumptions that turn out to be wrong are raised as soon as they are found.
+
+**What happens after the handover?**
+You can run the system yourself with the documentation provided, keep us on for ad-hoc support or a monthly retainer, or continue with embedded capacity. The support arrangement is agreed separately from the build.
+
+Step one
+
+### Start with the 30-minute scoping call.
+
+Bring the goal, the systems involved and your preferred working hours. You leave with a written next step, whether or not that involves us.
+
+---
+
+# How We Work: Remote Consulting from India in Your Timezone | MV.tech
+
+URL: https://mvtech.solutions/remote-consulting/
+Description: How MV.tech's senior consultants in India work with clients worldwide: collaboration windows by region, engagement models and where the cost difference comes from.
+Last modified: 2026-09-10
+
+How we work
+
+## Remote consulting from India that works in your timezone.
+
+Get direct access to senior data, software, automation and AI specialists. MV.tech is based in Ahmedabad, India, works remotely with clients worldwide, and plans collaboration around the hours your team needs, with a lean model that keeps consulting overhead out of the price.
+
+- Remote from Ahmedabad, India
+- Overlap with your timezone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### Choose the engagement around your work
+
+- A scoped project with defined deliverables, review points and acceptance criteria.
+- Specialist capacity working alongside your existing engineering or product team.
+- Ongoing improvement of data pipelines, applications and automation workflows.
+- A focused review to clarify an unreliable system or plan the next delivery milestone.
+What we deliver
+
+### How remote delivery works
+
+01
+
+#### Overlap with any timezone
+
+Share your timezone and the hours that matter for collaboration. We agree recurring windows for discovery, reviews and releases, then use written updates and documented decisions between meetings.
+
+02
+
+#### Direct access to specialists
+
+Work with the people responsible for the implementation. Our team combines data, software, cloud, automation and AI capabilities, including Toptal-vetted talent and consultants with GCP and IBM credentials.
+
+03
+
+#### A lean cost structure
+
+A focused remote team keeps office and management overhead low. Compare proposals on agreed scope, senior delivery time, validation, handover and support so the cost reflects the work you actually need.
+
+04
+
+#### Clear ownership and progress
+
+Agree responsibilities, access, deliverables and review points at the start. Use working demonstrations and acceptance criteria to assess progress throughout the engagement.
+
+- Worldwide clients
+- Ahmedabad, India
+- Flexible timezone overlap
+- Senior specialists
+- Scoped delivery
+Timezone overlap
+
+### Working hours planned around yours.
+
+India Standard Time (UTC+5:30) sits between Asia-Pacific mornings and American mornings, so a remote team in Ahmedabad can share a substantial working window with almost any client. We agree the collaboration window before the engagement starts and keep written updates flowing outside it.
+
+Typical collaboration windows by client timezone
+| Your team | Overlap in your local time | Our hours (IST, UTC+5:30) |
+| New York US Eastern | 9:00 am – 1:00 pm | 6:30 pm – 10:30 pm IST |
+| San Francisco US Pacific | 7:00 am – 10:00 am | 7:30 pm – 10:30 pm IST |
+| London United Kingdom | 9:00 am – 3:30 pm | 1:30 pm – 8:00 pm IST |
+| Berlin Central Europe | 9:00 am – 4:00 pm | 12:30 pm – 7:30 pm IST |
+| Dubai Gulf | 9:00 am – 6:00 pm | 10:30 am – 7:30 pm IST |
+| Singapore Southeast Asia | 11:00 am – 6:00 pm | 8:30 am – 3:30 pm IST |
+| Sydney Australia East | 12:30 pm – 6:00 pm | 8:00 am – 1:30 pm IST |
+Illustrative windows we plan engagements around. Exact hours are agreed per engagement and adjusted for daylight saving.
+
+Compare the model
+
+### Where the cost difference actually comes from.
+
+A lean remote consultancy is not cheaper because the work is worse. It is cheaper because you are not paying for offices, account layers and idle bench capacity. Compare proposals on scope, seniority, validation, documentation and support, and the difference becomes visible.
+
+How MV.tech compares with the usual alternatives
+| Consideration | MV.tech remote team | Large consultancy | Freelance marketplace |
+| Who does the work | Senior specialists you speak with directly | Layered account, delivery and offshore teams | One individual; depth varies |
+| Timezone overlap | Planned around your hours, any timezone | Usually local hours only | Depends on the individual |
+| Overhead you pay for | Lean remote model, no office or account layers | Offices, account management, bench costs | Low, but no team behind the work |
+| Continuity and cover | Team-backed, documented handover | Yes, at consultancy rates | Single point of failure |
+| Ownership model | Scoped project, embedded consultant or recruitment | Project or programme | Task by task |
+| Pricing | Agreed per engagement against a written scope | Premium day rates and minimum commitments | Hourly, with scope drift risk |
+A useful first project
+
+### Compare the scope and total engagement cost
+
+A useful consulting proposal explains who will do the work, how assumptions will be resolved and what will be handed over. Ask whether integration, testing, documentation and release support are included. MV.tech's remote model is designed to keep overhead lean, but an accurate comparison still requires the same scope and support expectations. Pricing is agreed for the specific engagement.
+
+Working together
+
+### A practical path from scope to delivery.
+
+- 01 — Share the goal and timezone — Describe the business problem, existing tools, target date and the hours your team needs us to overlap.
+- 02 — Agree scope and responsibilities — Choose the initial milestone, deliverables, review process and access requirements together.
+- 03 — Work directly with the team — Review working progress, record decisions and plan the next milestone against your priorities.
+Teams our engineers have worked with
+
+- Google
+- Volvo
+- BCW
+- RootstockLabs
+- Chainlabs
+- Toptal
+- Turing
+Explore our expertiseMeet Vaghasia on ToptalAll services
+Before we begin
+
+### Questions about how we work: remote team, timezones & costs.
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**Can a team in India overlap US, UK, European or Australian hours?**
+Yes. India Standard Time (UTC+5:30) overlaps every major business region for part of the day. We typically plan 9:00 am to 1:00 pm US Eastern, 7:00 to 10:00 am US Pacific, 9:00 am to 3:30 pm in the UK, 9:00 am to 4:00 pm in Central Europe, most of the business day in the Gulf, and 12:30 to 6:00 pm in eastern Australia. Share your city and required hours and we agree the exact window for the engagement.
+
+**Does timezone overlap mean 24/7 support?**
+No. Overlap means agreed working hours for collaboration. Any support coverage, response expectations or release windows need to be defined in the engagement scope.
+
+**Why can a remote consulting team have lower overhead?**
+A focused remote model can avoid large office and account-management costs and keep clients closer to the specialists doing the work. The total project cost depends on scope, complexity and support; we agree the deliverables and commercial terms for each engagement.
+
+**How can we assess the team's experience?**
+Review our expertise page and the linked Toptal professional profile, then discuss experience relevant to your stack and workflow. The Top 3% credential belongs to the linked individual profile.
+
+Related services
+
+### Other ways we can help.
+
+#### Data Engineering Consulting
+
+ETL/ELT pipelines, BigQuery and Redshift warehouses, data quality checks and reporting your team can trust.
+
+#### AI Automation, RAG & MCP Development
+
+Knowledge assistants grounded in your documents, MCP servers exposing approved tools, and LLM features with evaluation built in.
+
+#### Workflow Automation Consulting
+
+Scheduled workflows, webhooks and API integrations that replace manual hand-offs and make failures visible.
+
+Your next step
+
+### Tell us what needs to work better.
+
+Bring your goal, current tools and preferred working hours. We use the first 30-minute conversation to clarify fit and an initial scope, and you leave with a written next step.
+
+---
+
+# Services: Data, Software, AI, Automation & Staffing | MV.tech
+
+URL: https://mvtech.solutions/services/
+Description: MV.tech's remote consulting services: data engineering and ETL, custom software, workflow automation, AI/RAG/MCP development, staff augmentation and recruitment.
+Last modified: 2026-09-10
+
+Services
+
+## Consulting, engineering capacity and hiring for data, software and AI.
+
+Build a new system, fix the one you have, add senior people to your team or hire permanently. Every service below is delivered remotely from India by senior specialists, in working hours that overlap yours, with scope agreed in writing first.
+
+Core services
+
+### Six services, one senior team.
+
+### Data engineering & ETL consulting
+
+Pipelines from APIs, files and databases into BigQuery, Redshift or your warehouse of choice. Data quality checks, SQL models and reporting your team can trust.
+
+### Custom software & web app development
+
+Business applications, client portals, dashboards and internal tools with role-based access, APIs and data backends designed together.
+
+### AI automation, RAG & MCP development
+
+Knowledge assistants grounded in your documents, Model Context Protocol servers exposing approved tools, and LLM features integrated into existing products with evaluation built in.
+
+### Workflow automation & API integration
+
+Replace manual hand-offs between business systems with scheduled jobs, webhooks and integrations that validate, retry safely and tell you when they fail.
+
+### IT staff augmentation & remote teams
+
+Senior data, software, cloud and AI consultants embedded in your team, in your tools and your hours, for an agreed capacity and duration.
+
+### Technology recruitment
+
+Permanent hiring for AI, data, software and cloud roles, with an engineer writing the brief, screening for technical depth and coordinating your interview process.
+
+Capabilities within those services
+
+### The specific work we are asked for most often.
+
+#### Cloud data platforms (AWS & Google Cloud)
+
+Storage, compute, orchestration and warehouse design on AWS or GCP, with cost-aware architecture and operational visibility from day one.
+
+#### Data warehousing & modelling
+
+Redshift, BigQuery and SQL layers with dimensional or normalised models, naming standards, query tuning and documentation.
+
+#### Analytics & reporting systems
+
+KPI dashboards, Tableau reporting and source-of-truth tables with metric definitions, refresh checks and alerts.
+
+#### API & external data integrations
+
+REST APIs, OAuth flows, webhooks and scheduled pulls from SaaS, finance and operational systems, with retries and transformation logic.
+
+#### Web scraping & data extraction
+
+Maintainable Python collection from dynamic pages and authenticated portals, respecting source terms and rate limits, with structured outputs.
+
+#### Business app & portal development
+
+Operational apps, admin panels and customer portals with role-based access, forms, approvals and API-backed workflows.
+
+#### Custom chatbots & AI assistants
+
+Support and internal Q&A assistants connected to databases and APIs, with role-aware behaviour and source grounding.
+
+#### MCP servers & AI tool integration
+
+Model Context Protocol servers that expose approved business tools and data to AI applications, with authorisation and logging designed in.
+
+#### Support, security & optimisation
+
+Performance passes, monitoring, credential handling, deployment hygiene and support plans for systems already in production.
+
+Which service do I need?
+
+### A quick way to choose.
+
+- "Our reports are unreliable or manual."
+  Data engineering consulting, usually starting with one dependable reporting flow.
+- "People copy data between tools every week."
+  Workflow automation, starting with a single repeated hand-off.
+- "We need an app, portal or internal tool."
+  Custom software development, scoped around one complete user journey.
+- "We want an assistant over our documents or tools."
+  AI automation, RAG & MCP development, starting with a bounded knowledge set.
+- "We need a senior engineer in the team for a while."
+  IT staff augmentation, with capacity and overlap hours agreed up front.
+- "We need to hire someone permanently."
+  Technology recruitment, led by an engineer who understands the role.
+Not sure where to start?
+
+### Describe the problem. We will suggest the smallest useful first step.
+
+Thirty minutes with the engineers who would do the work is usually enough to tell whether the answer is a project, a consultant in your team, a hire, or something you can fix yourself.
+
+---
+
+# AI Automation, RAG & MCP Development Services | MV.tech
+
+URL: https://mvtech.solutions/services/ai-consulting/
+Description: Build AI automation, RAG systems, MCP servers and custom AI solutions with MV.tech's senior remote consultants. Connect business data, tools and workflows.
+Last modified: 2026-09-10
+
+Service · Remote-first senior specialists
+
+## AI Automation, RAG & MCP Development
+
+Turn a specific business problem into a useful AI solution. MV.tech builds AI automation, retrieval-augmented generation systems, Model Context Protocol (MCP) integrations and custom assistants that connect approved company knowledge, tools and workflows.
+
+- Remote from Ahmedabad, India
+- Overlap with your timezone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### Start with a workflow people already need
+
+- Employees spend time searching through documents to answer recurring operational questions.
+- A prototype chatbot gives plausible answers but cannot show where they came from.
+- Your product needs an assistant that can use approved business data, APIs or tools through MCP.
+- You need engineering help to evaluate and integrate an AI feature into an existing application.
+What we deliver
+
+### Practical AI consulting services
+
+01
+
+#### RAG and knowledge search
+
+Plan document ingestion, retrieval and source references around a defined knowledge collection. Account for updates, permissions and questions the available material cannot answer.
+
+02
+
+#### AI automation and custom assistants
+
+Connect an assistant to a support workflow, internal tool or customer application. Automate agreed steps, define permitted actions and keep a person in control of approvals and exceptions.
+
+03
+
+#### MCP server and tool development
+
+Build Model Context Protocol servers that expose approved tools and data to compatible AI applications. Define tool inputs, resource access, authorisation and logging around the business systems being connected.
+
+04
+
+#### Custom AI solutions
+
+Integrate document processing, classification, extraction or decision support into an existing workflow. Agree the expected output, validation rules and review path before automating a business action.
+
+05
+
+#### LLM and API integration
+
+Bring model responses into existing business logic and user interfaces. Validate inputs and outputs, handle failures and keep application permissions under server-side control.
+
+06
+
+#### Evaluation and operating controls
+
+Agree representative questions and expected behaviour. Review source grounding, unsupported answers, latency and usage cost before expanding the feature's audience.
+
+- Python
+- Model Context Protocol (MCP)
+- LLM APIs
+- RAG
+- Embeddings
+- Document retrieval
+- REST APIs
+- SQL
+A useful first project
+
+### A useful first project: a bounded knowledge assistant
+
+Choose a defined set of documents and a small group of users. Collect questions they actually ask, including questions outside the documents' scope. A first release can then be assessed against source references, correct handling of missing information and the time it takes to find an answer. Wider access and automated actions can be scoped after those fundamentals are clear.
+
+Working together
+
+### A practical path from scope to delivery.
+
+- 01 — Define the question and data — Identify users, approved sources, permissions and the decisions the assistant will support.
+- 02 — Build and evaluate — Connect retrieval, model behaviour and the interface. Test with real questions and review failure cases.
+- 03 — Integrate and monitor — Release within an agreed scope, track answer quality and usage, and document the update process.
+Teams our engineers have worked with
+
+- Google
+- Volvo
+- BCW
+- RootstockLabs
+- Chainlabs
+- Toptal
+- Turing
+Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Before we begin
+
+### Questions about ai automation, rag & mcp development.
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**What is retrieval-augmented generation, or RAG?**
+RAG retrieves relevant material from an approved source collection and provides it to a language model when generating an answer. It can help an assistant answer questions about your own information, but retrieval quality, access controls and evaluation still matter.
+
+**What is MCP development?**
+Model Context Protocol (MCP) provides a shared interface for AI applications to connect to tools and data. We can build an MCP server around your approved APIs or systems, define the tools and resources it exposes, and test it with the intended compatible clients. Access permissions and approval requirements remain part of the application design.
+
+**Do we need to train our own AI model?**
+Not necessarily. The right scope may use an existing model with retrieval and application integration. We review your use case, data, evaluation criteria and operating constraints before proposing an approach.
+
+**Can the assistant respect different user permissions?**
+Role-aware access can be part of the scope. The design must enforce authorisation before protected data is retrieved or an action is performed; instructions written into a prompt are not a substitute for application access controls.
+
+**What determines the cost of an AI assistant?**
+The main factors are source preparation, integrations, permission rules, evaluation, user interface and support. Ongoing costs also depend on model usage, retrieval infrastructure and traffic. These should be considered alongside the build estimate.
+
+Related services
+
+### Other ways we can help.
+
+#### Data Engineering Consulting
+
+ETL/ELT pipelines, BigQuery and Redshift warehouses, data quality checks and reporting your team can trust.
+
+#### Workflow Automation Consulting
+
+Scheduled workflows, webhooks and API integrations that replace manual hand-offs and make failures visible.
+
+#### Custom Software Development
+
+Business web applications, client portals, dashboards and internal tools with APIs and data backends designed together.
+
+Your next step
+
+### Tell us what needs to work better.
+
+Bring your goal, current tools and preferred working hours. We use the first 30-minute conversation to clarify fit and an initial scope, and you leave with a written next step.
+
+---
+
+# Custom Software & Web App Development | MV.tech
+
+URL: https://mvtech.solutions/services/custom-software/
+Description: Hire senior remote developers for business apps, client portals, dashboards and API integrations. MV.tech works alongside your team across timezones.
+Last modified: 2026-09-10
+
+Service · Remote-first senior specialists
+
+## Custom Software Development
+
+Build software around the way your business works. MV.tech develops web applications, client portals, dashboards and internal tools, with the interface, data and integrations considered together.
+
+- Remote from Ahmedabad, India
+- Overlap with your timezone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### When a custom application makes sense
+
+- Your team runs an important process through spreadsheets, email and repeated manual follow-up.
+- Customers need a portal for records, requests or service updates.
+- An existing application needs a better interface, a new integration or more reliable reporting.
+- You need senior development capacity to deliver a defined workstream with your product team.
+What we deliver
+
+### Software development services
+
+01
+
+#### Business web applications
+
+Build responsive interfaces around actual user tasks, data views and permissions. Include loading, empty and error states in the workflow.
+
+02
+
+#### Client portals and internal tools
+
+Implement role-based access, forms, operational dashboards and approval flows. Agree which actions each user can take and enforce those rules in the application.
+
+03
+
+#### APIs and data backends
+
+Connect the product to databases, business systems and reporting workflows. Define validation, failure handling and how records stay consistent.
+
+04
+
+#### Release and maintainability
+
+Scope testing, deployment, monitoring and documentation alongside development. Make future fixes and enhancements part of the handover conversation.
+
+- JavaScript
+- Python
+- SQL
+- REST APIs
+- Web applications
+- AWS
+- Google Cloud
+A useful first project
+
+### A useful first project: one complete user journey
+
+Choose a real workflow, such as submitting a request, reviewing it and seeing its status. Agree the roles, data, acceptance criteria and necessary integrations. Delivering that journey end to end gives stakeholders something concrete to evaluate and reveals the operational details that a collection of disconnected screens can miss.
+
+Working together
+
+### A practical path from scope to delivery.
+
+- 01 — Agree the workflow — Define users, actions, permissions, existing systems and what a successful release needs to do.
+- 02 — Build in reviewable increments — Connect interface and backend behaviour, review with stakeholders and test important edge cases.
+- 03 — Release and support — Validate deployment, document ownership and agree how feedback and maintenance will be handled.
+Teams our engineers have worked with
+
+- Google
+- Volvo
+- BCW
+- RootstockLabs
+- Chainlabs
+- Toptal
+- Turing
+Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Before we begin
+
+### Questions about custom software development.
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**Can you work in our existing codebase?**
+Yes. We review the current stack, conventions, deployment process and priorities before proposing changes. A bounded feature or integration is often a useful first engagement.
+
+**Do you build both the interface and the backend?**
+Yes. Our services cover responsive interfaces, API-backed workflows, data ingestion, warehouse models and deployment handover. The project scope defines which parts your team and ours will own.
+
+**How do you estimate a custom software project?**
+The estimate depends on user journeys, roles, integrations, data migration, testing and release requirements. We scope an initial milestone and clarify assumptions before treating a feature list as a delivery commitment.
+
+**Can remote developers overlap our working hours?**
+Yes. MV.tech is remote-first and can plan overlap with teams in any timezone. We agree recurring collaboration windows for reviews and releases, supported by written updates between meetings.
+
+Related services
+
+### Other ways we can help.
+
+#### Data Engineering Consulting
+
+ETL/ELT pipelines, BigQuery and Redshift warehouses, data quality checks and reporting your team can trust.
+
+#### AI Automation, RAG & MCP Development
+
+Knowledge assistants grounded in your documents, MCP servers exposing approved tools, and LLM features with evaluation built in.
+
+#### Workflow Automation Consulting
+
+Scheduled workflows, webhooks and API integrations that replace manual hand-offs and make failures visible.
+
+Your next step
+
+### Tell us what needs to work better.
+
+Bring your goal, current tools and preferred working hours. We use the first 30-minute conversation to clarify fit and an initial scope, and you leave with a written next step.
+
+---
+
+# Data Engineering & ETL Consulting Services | MV.tech
+
+URL: https://mvtech.solutions/services/data-engineering/
+Description: Hire remote data engineers for Python and SQL pipelines, BigQuery, Redshift and reliable reporting. Senior specialists with flexible timezone overlap.
+Last modified: 2026-09-10
+
+Service · Remote-first senior specialists
+
+## Data Engineering Consulting
+
+Get dependable data from the systems you already use. MV.tech builds and improves ingestion pipelines, cloud warehouses and reporting models so your team can work with consistent, current information.
+
+- Remote from Ahmedabad, India
+- Overlap with your timezone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### When your data needs engineering attention
+
+- Reports depend on spreadsheets, recurring exports or someone remembering to run a script.
+- A dashboard refresh succeeds, but the underlying numbers are incomplete or out of date.
+- API changes, duplicate records and failed jobs make every reporting cycle a repair exercise.
+- Your product team needs a data engineer alongside its existing developers.
+What we deliver
+
+### Data engineering services and deliverables
+
+01
+
+#### ETL and ELT pipelines
+
+Bring data from APIs, files and databases into a repeatable ingestion process. Define incremental loads, retries, backfills and duplicate handling around the behaviour of each source.
+
+02
+
+#### Cloud warehouses and SQL models
+
+Design BigQuery or Redshift tables, transformations and reporting models. Make business definitions, table ownership and refresh dependencies explicit before expanding the platform.
+
+03
+
+#### Data quality and observability
+
+Check freshness, completeness and reconciliation at meaningful boundaries. Add useful logs and failure alerts so a successful job is not mistaken for trustworthy data.
+
+04
+
+#### Reporting and handover
+
+Connect validated datasets to Tableau, dashboards or downstream applications. Include source mappings, operating notes and recovery steps in the agreed handover.
+
+- Python
+- SQL
+- BigQuery
+- Redshift
+- AWS
+- Google Cloud
+- Tableau
+- REST APIs
+A useful first project
+
+### A useful first project: one dependable reporting flow
+
+Start with a business report that matters and trace its path back to the source. Agree which records belong in the result, how fresh they need to be and how correctness will be checked. Then scope the ingestion, transformations and reporting output together. This gives the project a concrete acceptance test before more sources or dashboards are added.
+
+Working together
+
+### A practical path from scope to delivery.
+
+- 01 — Map sources and definitions — Review access, API limits, data volumes, history requirements and the business meaning of the metrics.
+- 02 — Build and reconcile — Implement the pipeline and compare the output with source records, including empty periods, updates and retries.
+- 03 — Operate and extend — Document schedules, ownership and recovery. Agree support and the next useful source or reporting model.
+Teams our engineers have worked with
+
+- Google
+- Volvo
+- BCW
+- RootstockLabs
+- Chainlabs
+- Toptal
+- Turing
+Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Before we begin
+
+### Questions about data engineering consulting.
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**Can you improve an existing pipeline without rebuilding everything?**
+Yes. We can start with a bounded review of your existing Python, SQL, cloud and reporting workflows. The scope can focus on unreliable jobs, missing validation, slow queries or a specific integration, preserving the parts that already work.
+
+**Can you work alongside our internal engineering team?**
+Yes. MV.tech can own an agreed data workstream or provide specialist capacity alongside your team. We agree responsibilities, access, review steps and overlapping working hours before delivery begins.
+
+**How is a data engineering project priced?**
+The estimate depends on source count, access complexity, historical data volume, transformation rules, freshness needs and support. Our remote operating model keeps overhead lean; a useful comparison includes monitoring, documentation and handover as well as the initial build.
+
+**What should we share before the first call?**
+Share the report or workflow you want to improve, the source systems, approximate data volumes, current tools and required refresh frequency. A description or sanitised example is enough for an initial conversation; credentials are not needed in an enquiry.
+
+Related services
+
+### Other ways we can help.
+
+#### AI Automation, RAG & MCP Development
+
+Knowledge assistants grounded in your documents, MCP servers exposing approved tools, and LLM features with evaluation built in.
+
+#### Workflow Automation Consulting
+
+Scheduled workflows, webhooks and API integrations that replace manual hand-offs and make failures visible.
+
+#### Custom Software Development
+
+Business web applications, client portals, dashboards and internal tools with APIs and data backends designed together.
+
+Your next step
+
+### Tell us what needs to work better.
+
+Bring your goal, current tools and preferred working hours. We use the first 30-minute conversation to clarify fit and an initial scope, and you leave with a written next step.
+
+---
+
+# IT Staff Augmentation & Dedicated Remote Teams | MV.tech
+
+URL: https://mvtech.solutions/services/it-staff-augmentation/
+Description: Add remote AI, data, software and cloud consultants to your team with MV.tech. Flexible timezone overlap, direct collaboration and clearly scoped capacity.
+Last modified: 2026-09-10
+
+Service · Remote-first senior specialists
+
+## IT Staff Augmentation
+
+Add specialist capacity to your existing team. MV.tech provides remote technology consultants for AI, data engineering, software and cloud work, with responsibilities, availability and timezone overlap agreed around your delivery needs.
+
+- Remote from Ahmedabad, India
+- Overlap with your timezone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### Extend your team where specialist work is waiting
+
+- You need an experienced engineer for an active workstream without opening a permanent role.
+- Your team needs specialist AI, RAG, MCP, data or cloud capability for a defined phase.
+- A delivery backlog needs additional hands-on capacity alongside your existing technical leads.
+- You want remote consultants who participate in your team's reviews and agreed working hours.
+What we deliver
+
+### Technology staffing built around the work
+
+01
+
+#### AI and data specialists
+
+Discuss consultants for AI automation, RAG systems, MCP integrations, Python, SQL, ETL, analytics and cloud data platforms. Match the required skills to the actual workstream and level of ownership.
+
+02
+
+#### Software and cloud consultants
+
+Add capacity for business applications, APIs, integrations and cloud implementation. Review technical fit, existing codebase conventions and deployment responsibilities before the engagement begins.
+
+03
+
+#### Dedicated remote collaboration
+
+Agree the consultant's allocated capacity, collaboration windows and reporting relationship. Work through your team's planning, reviews and communication tools with clear expectations for availability.
+
+04
+
+#### Onboarding and continuity
+
+Define access, initial tasks, acceptance criteria and documentation with your team. Review the arrangement as priorities change, and agree handover responsibilities before an engagement ends.
+
+- AI and MCP developers
+- Data engineers
+- Software developers
+- Cloud consultants
+- BI specialists
+- Remote teams
+A useful first project
+
+### Start with a role and a real workstream
+
+A useful staffing brief explains the work to be done, not just a list of technologies. Share the backlog or milestone, required experience, team structure, expected duration and collaboration hours. Together we can review the capability needed, confirm availability and agree how progress will be assessed. For permanent employees hired into your organisation, our technology recruitment service is the appropriate route.
+
+Working together
+
+### From capability gap to an integrated team member.
+
+- 01 — Define the role and working model — Clarify the skills, responsibilities, expected capacity, duration, budget and timezone overlap.
+- 02 — Review fit and agree the engagement — Discuss relevant experience, technical expectations, availability and commercial terms before confirming a consultant.
+- 03 — Onboard and review progress — Provide agreed access, introduce the workstream and establish delivery reviews and handover expectations.
+Teams our engineers have worked with
+
+- Google
+- Volvo
+- BCW
+- RootstockLabs
+- Chainlabs
+- Toptal
+- Turing
+Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Before we begin
+
+### Questions about it staff augmentation.
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**What is the difference between staff augmentation and project consulting?**
+With staff augmentation, consultants add capacity within your team and work under the agreed direction of your technical or delivery leads. A project engagement gives MV.tech ownership of a defined scope and its deliverables. Responsibilities should be explicit in either model.
+
+**Can we hire a dedicated remote team rather than one consultant?**
+We can discuss a multi-role team around your workstream. Team composition, allocated capacity, start dates and availability are confirmed during scoping; the website does not imply that every role is immediately available.
+
+**Can consultants overlap our timezone?**
+Yes. We can plan overlap with clients in any timezone. Share the working hours you need and any release requirements so collaboration windows can be agreed. This does not imply round-the-clock support.
+
+**Do you also recruit permanent employees?**
+Yes. MV.tech also offers technology recruitment for permanent roles within a client's organisation. Recruitment and consultant staffing are separate engagements with their own scope and commercial terms.
+
+Related services
+
+### Other ways we can help.
+
+#### Data Engineering Consulting
+
+ETL/ELT pipelines, BigQuery and Redshift warehouses, data quality checks and reporting your team can trust.
+
+#### AI Automation, RAG & MCP Development
+
+Knowledge assistants grounded in your documents, MCP servers exposing approved tools, and LLM features with evaluation built in.
+
+#### Workflow Automation Consulting
+
+Scheduled workflows, webhooks and API integrations that replace manual hand-offs and make failures visible.
+
+Your next step
+
+### Which capability does your team need?
+
+Share the role, technology stack, expected duration and working hours. We can discuss consultant fit, availability and the right engagement scope.
+
+---
+
+# Technology Recruitment & Permanent IT Hiring | MV.tech
+
+URL: https://mvtech.solutions/services/technology-recruitment/
+Description: Hire permanent AI, data, software and cloud professionals with MV.tech. Technology recruitment shaped around your role, technical needs and hiring process.
+Last modified: 2026-09-10
+
+Service · Remote-first senior specialists
+
+## Technology Recruitment
+
+Build your in-house technology team. MV.tech supports permanent recruitment for AI, data, software and cloud roles, bringing an engineering perspective to role definition, candidate fit and the hiring conversation.
+
+- Remote from Ahmedabad, India
+- Overlap with your timezone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### A hiring partner who understands the technical work
+
+- You need to hire a permanent engineer or specialist into your own organisation.
+- A role spans AI, data, software or cloud skills that need a clear technical brief.
+- Your hiring team needs support finding and assessing candidates for an agreed position.
+- You want candidate conversations grounded in responsibilities, technical depth and the way your team works.
+What we deliver
+
+### Permanent technology hiring support
+
+01
+
+#### Role definition and hiring brief
+
+Clarify the responsibilities, essential skills, experience level, compensation range and working model. Separate must-have capabilities from skills that can be developed in the role.
+
+02
+
+#### Candidate sourcing and shortlisting
+
+Scope a search around the agreed profile and discuss relevant candidates with your hiring team. Confirm candidate interest, working preferences and availability as part of the process.
+
+03
+
+#### Technical fit discussions
+
+Bring an engineering perspective to experience and problem-solving discussions. Agree the depth of screening, any assessment and your team's final interview requirements before the search begins.
+
+04
+
+#### Interview and selection coordination
+
+Support interview scheduling, feedback and communication through the agreed hiring process. Your organisation makes the final hiring decision and agrees employment terms directly with the selected candidate.
+
+- AI engineers
+- Data engineers
+- Software developers
+- Cloud specialists
+- BI and analytics
+- Permanent hiring
+A useful first project
+
+### Begin with one well-defined hiring requirement
+
+A strong search starts with a role that candidates and interviewers can understand. Share what the person will own, the technical environment, expected experience, compensation range and location or remote policy. Agree the shortlist criteria and interview stages before sourcing. Search timing depends on the role and candidate market; fees and any follow-up terms are agreed for the engagement.
+
+Working together
+
+### From hiring brief to a considered selection.
+
+- 01 — Align on the role — Review the responsibilities, required skills, compensation, working model and selection process with the hiring manager.
+- 02 — Source and assess fit — Identify candidates against the agreed brief, discuss relevant experience and coordinate your team's assessment.
+- 03 — Support the hiring decision — Coordinate feedback and candidate communication while your organisation owns the final selection and employment offer.
+Teams our engineers have worked with
+
+- Google
+- Volvo
+- BCW
+- RootstockLabs
+- Chainlabs
+- Toptal
+- Turing
+Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Before we begin
+
+### Questions about technology recruitment.
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**How does permanent recruitment differ from staff augmentation?**
+Permanent recruitment helps you hire an employee into your own organisation. Staff augmentation supplies consultants to work within your team for an agreed engagement. MV.tech offers both, and we clarify which arrangement you need before discussing candidates or consultants.
+
+**Which technology roles can we discuss?**
+Our focus includes AI and automation, data engineering, software development, cloud platforms, BI and analytics. Share the specific role and experience level so we can assess whether the search fits our technical focus.
+
+**Can you help with remote technology hiring?**
+Yes. Share the permitted hiring locations, remote policy, required working hours and employment arrangement. These constraints shape candidate suitability and should be clear before the search begins.
+
+**What are your recruitment fees and hiring timelines?**
+Fees, search scope, expected timing and any follow-up terms are agreed for the specific role. Complexity, seniority, compensation, location and interview availability affect the search. We do not promise a hire or a fixed start date before assessing the requirement.
+
+Related services
+
+### Other ways we can help.
+
+#### Data Engineering Consulting
+
+ETL/ELT pipelines, BigQuery and Redshift warehouses, data quality checks and reporting your team can trust.
+
+#### AI Automation, RAG & MCP Development
+
+Knowledge assistants grounded in your documents, MCP servers exposing approved tools, and LLM features with evaluation built in.
+
+#### Workflow Automation Consulting
+
+Scheduled workflows, webhooks and API integrations that replace manual hand-offs and make failures visible.
+
+Your next step
+
+### Tell us about the role you are hiring for.
+
+Share the responsibilities, must-have skills, location or remote policy, compensation range and hiring timeline. We can use the first conversation to clarify fit and recruitment scope.
+
+---
+
+# Workflow Automation & API Integration Services | MV.tech
+
+URL: https://mvtech.solutions/services/workflow-automation/
+Description: Automate repetitive business workflows, API integrations and reporting with MV.tech's remote consultants. Reliable jobs, checks and clear ownership.
+Last modified: 2026-09-10
+
+Service · Remote-first senior specialists
+
+## Workflow Automation Consulting
+
+Connect the steps between your business systems. MV.tech builds API integrations, scheduled workflows and operational automation that reduce repeated manual work and make failures visible.
+
+- Remote from Ahmedabad, India
+- Overlap with your timezone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### Where business automation can help
+
+- People repeatedly move the same records between business tools and spreadsheets.
+- Scheduled reports rely on manual downloads, cleanup and distribution.
+- An integration works on the happy path but produces duplicate actions after a retry.
+- A script runs in the background without clear ownership, status checks or recovery steps.
+What we deliver
+
+### Automation that fits your operating process
+
+01
+
+#### API and webhook integrations
+
+Connect approved business systems using their supported interfaces. Handle pagination, rate limits, authentication and changes in source records.
+
+02
+
+#### Scheduled business workflows
+
+Automate recurring data pulls, report preparation, exports and status checks. Define the schedule, inputs and expected output for each step.
+
+03
+
+#### Validation and exception handling
+
+Add checks before data is written or a downstream action is triggered. Design retries, duplicate prevention and review paths around the impact of a failed step.
+
+04
+
+#### Monitoring and ownership
+
+Provide logs, useful alerts and operating documentation. Make it clear who maintains a workflow and how to recover or rerun it when a dependency fails.
+
+- Python
+- REST APIs
+- Webhooks
+- SQL
+- Scheduled jobs
+- Business systems
+- Reporting workflows
+A useful first project
+
+### A useful first project: one repeated manual handoff
+
+Pick a recurring handoff with a clear input and output, such as preparing a weekly report from several systems. Document what people check today, including exceptions. The project can then automate the repeatable steps while preserving review where judgment is required. Assess the result using completion time, exception frequency and the effort needed to recover a failed run.
+
+Working together
+
+### A practical path from scope to delivery.
+
+- 01 — Observe the current workflow — Map triggers, source tools, manual checks, exceptions and who receives the result.
+- 02 — Connect and validate — Implement the integrations and test retries, missing data and downstream failures as well as a successful run.
+- 03 — Schedule and hand over — Agree operating hours, alert recipients, access ownership and a recovery procedure.
+Teams our engineers have worked with
+
+- Google
+- Volvo
+- BCW
+- RootstockLabs
+- Chainlabs
+- Toptal
+- Turing
+Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Before we begin
+
+### Questions about workflow automation consulting.
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**Can you automate a workflow across several tools?**
+Yes, when the tools provide suitable authorised access. We review available APIs, webhooks, exports and authentication before estimating the integration. Source limits and downstream permissions shape what can be automated reliably.
+
+**Does every automation need AI?**
+No. A scheduled job or API integration may be enough for a predictable process. AI is useful when a step requires language or document interpretation, and that step still needs suitable evaluation and review.
+
+**How do you avoid duplicate records or repeated actions?**
+The workflow can include stable record identifiers, state tracking, reconciliation and checks before writing. The exact design depends on whether the connected systems support safe retries and how costly a repeated action would be.
+
+**Can you maintain automations built by another developer?**
+Yes. An initial review can establish the code, schedules, dependencies, access requirements and failure history. We can then scope a repair, documentation or ongoing support engagement.
+
+Related services
+
+### Other ways we can help.
+
+#### Data Engineering Consulting
+
+ETL/ELT pipelines, BigQuery and Redshift warehouses, data quality checks and reporting your team can trust.
+
+#### AI Automation, RAG & MCP Development
+
+Knowledge assistants grounded in your documents, MCP servers exposing approved tools, and LLM features with evaluation built in.
+
+#### Custom Software Development
+
+Business web applications, client portals, dashboards and internal tools with APIs and data backends designed together.
+
+Your next step
+
+### Tell us what needs to work better.
+
+Bring your goal, current tools and preferred working hours. We use the first 30-minute conversation to clarify fit and an initial scope, and you leave with a written next step.
+
+---
+
+# Solution Patterns: Data Platforms, Portals & AI Assistants | MV.tech
+
+URL: https://mvtech.solutions/solutions/
+Description: Common systems MV.tech builds for operating teams: governed business data layers, customer portals and internal apps, and knowledge assistants grounded in company data.
+Last modified: 2026-09-10
+
+Solution patterns
+
+## Practical systems for real operating teams.
+
+Most of the work we are asked for falls into a few recognisable shapes. These patterns show what a first release usually contains, what it costs you to run, and where it tends to grow next. Each one is shaped around your workflows, data sources and stage of growth.
+
+Data platform
+
+### Business data operating layer
+
+Connect APIs, databases, spreadsheets and external feeds into a governed reporting layer your team can trust. Definitions live in one place, refreshes are monitored, and every number can be traced to its source.
+
+- ETL/ELT pipelines and warehouse models in BigQuery or Redshift
+- Data quality checks, alerts and recovery paths
+- Dashboards, exports and stakeholder views
+Web & app
+
+### Customer portal or internal app
+
+Ship a clean interface for customers, operators or administrators with forms, user flows, integrations and analytics. Built around one complete user journey first, then extended as the process matures.
+
+- Responsive UI and API-backed workflows
+- Role-based access, approvals and audit trails
+- Maintainable code and documented handover
+AI & automation
+
+### Knowledge assistant for teams
+
+Give a team a controlled assistant over documents, structured data and workflow APIs, with answers grounded in source context and actions limited to what has been approved.
+
+- RAG over documents, tickets and business data
+- MCP tools and workflow automation with human approval
+- Access-aware, evaluated and auditable implementation
+Two more common shapes
+
+### Operational automation and an embedded specialist.
+
+### Repeated hand-off, automated
+
+A weekly report assembled from four systems, invoices pushed from one tool to another, records reconciled by hand. We automate the repeatable steps, keep review where judgment is needed, and make failures visible with logs and alerts.
+
+### Senior specialist inside your team
+
+When the shape of the work is still emerging, an embedded data, software or AI consultant working in your tools and your hours is often the fastest route. Capacity, responsibilities and overlap are agreed before the start.
+
+How a pattern becomes a project
+
+### Start small, prove it, then extend.
+
+- 01 — Pick one workflow — One report, one journey, one hand-off, one knowledge set. Enough to matter, small enough to judge in weeks.
+- 02 — Agree acceptance — What "working" means: which records, how fresh, who can see what, what happens on failure.
+- 03 — Deliver and decide — A working release with documentation and monitoring, then a conversation about the next useful increment.
+Which pattern fits?
+
+### Describe your workflow and we will map it to a first release.
+
+Bring the goal, the systems involved and your preferred working hours. Thirty minutes is enough to propose a sensible first milestone.

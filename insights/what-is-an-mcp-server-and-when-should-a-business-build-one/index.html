@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What Is an MCP Server, and When Should a Business Build One? | MV.tech</title>
+<meta name="description" content="A business-level explanation of the Model Context Protocol: what an MCP server exposes, when building one makes sense, the security decisions involved and a first project.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link rel="canonical" href="https://mvtech.solutions/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/">
+
+<meta name="author" content="Meet Vaghasia">
+<meta name="theme-color" content="#07080b">
+<link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/images/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="alternate" type="text/plain" title="AI-readable site summary" href="https://mvtech.solutions/llms.txt">
+<link rel="alternate" type="text/plain" title="AI-readable full site context" href="https://mvtech.solutions/llms-full.txt">
+<link rel="sitemap" type="application/xml" title="XML sitemap" href="https://mvtech.solutions/sitemap.xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="MV.tech">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://mvtech.solutions/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/">
+<meta property="og:title" content="What Is an MCP Server, and When Should a Business Build One? | MV.tech">
+<meta property="og:description" content="A business-level explanation of the Model Context Protocol: what an MCP server exposes, when building one makes sense, the security decisions involved and a first project.">
+<meta property="og:image" content="https://mvtech.solutions/images/og/insights-what-is-an-mcp-server-and-when-should-a-business-build-one.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="What is an MCP server, and when should a business build one? – MV.tech">
+<meta property="article:published_time" content="2026-09-10">
+<meta property="article:modified_time" content="2026-09-10">
+<meta property="article:author" content="Meet Vaghasia">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="What Is an MCP Server, and When Should a Business Build One? | MV.tech">
+<meta name="twitter:description" content="A business-level explanation of the Model Context Protocol: what an MCP server exposes, when building one makes sense, the security decisions involved and a first project.">
+<meta name="twitter:image" content="https://mvtech.solutions/images/og/insights-what-is-an-mcp-server-and-when-should-a-business-build-one.jpg">
+<meta name="twitter:image:alt" content="What is an MCP server, and when should a business build one? – MV.tech">
+<link rel="preload" href="/fonts/inter-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/site.css">
+<script src="/js/icons.js" defer></script>
+<script src="/js/site.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://mvtech.solutions/#organization","name":"MV.tech","legalName":"MV.tech","alternateName":["MV Tech","MVTech","M V Tech","MV Tech Solutions","MV Tech Data Solutions","MV Tech Ahmedabad"],"url":"https://mvtech.solutions/","logo":{"@type":"ImageObject","url":"https://mvtech.solutions/images/logo.png","width":1200,"height":305},"image":"https://mvtech.solutions/images/og/home.jpg","description":"MV.tech is a remote-first data engineering, software development and AI consultancy based in Ahmedabad, India. Its senior specialists work with clients worldwide, planning working hours that overlap any timezone, with a lean model that avoids large-consultancy overhead.","slogan":"Senior engineering in your timezone, without large-consultancy overhead","email":"contact@mvtech.solutions","address":{"@type":"PostalAddress","addressLocality":"Ahmedabad","addressRegion":"Gujarat","addressCountry":"IN"},"areaServed":"Worldwide","founder":{"@id":"https://mvtech.solutions/#founder"},"sameAs":["https://www.linkedin.com/company/mv-tech-data/"],"knowsAbout":["Data engineering and ETL/ELT pipelines","Cloud data warehouses (BigQuery, Redshift) and SQL modelling","Business intelligence, reporting and Tableau dashboards","Custom software, web applications and client portals","Workflow automation and API integration","AI automation, retrieval-augmented generation (RAG) and knowledge assistants","Model Context Protocol (MCP) server and tool development","IT staff augmentation and dedicated remote engineering teams","Technology recruitment for AI, data, software and cloud roles"],"contactPoint":{"@type":"ContactPoint","contactType":"sales","email":"contact@mvtech.solutions","url":"https://mvtech.solutions/contact/","areaServed":"Worldwide","availableLanguage":["English","Hindi","Gujarati"]},"hasCredential":[{"@type":"EducationalOccupationalCredential","name":"Google Cloud certified delivery capability","credentialCategory":"Cloud certification","recognizedBy":{"@type":"Organization","name":"Google Cloud"}},{"@type":"EducationalOccupationalCredential","name":"IBM certified delivery capability","credentialCategory":"Technology certification","recognizedBy":{"@type":"Organization","name":"IBM"}},{"@type":"EducationalOccupationalCredential","name":"Toptal-vetted talent (Top 3%)","credentialCategory":"Talent network vetting","recognizedBy":{"@type":"Organization","name":"Toptal"}}],"makesOffer":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Data Engineering Consulting","url":"https://mvtech.solutions/services/data-engineering/"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"AI Automation, RAG & MCP Development","url":"https://mvtech.solutions/services/ai-consulting/"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Workflow Automation Consulting","url":"https://mvtech.solutions/services/workflow-automation/"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Custom Software Development","url":"https://mvtech.solutions/services/custom-software/"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"IT Staff Augmentation","url":"https://mvtech.solutions/services/it-staff-augmentation/"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Technology Recruitment","url":"https://mvtech.solutions/services/technology-recruitment/"}}]},{"@type":"Person","@id":"https://mvtech.solutions/#founder","name":"Meet Vaghasia","jobTitle":"Founder & Lead Engineer","description":"Meet Vaghasia is the founder of MV.tech. He is a data and software engineer with hands-on experience across data engineering, analytics, cloud platforms, automation and AI systems, and is Toptal-vetted (Top 3%) with Google Cloud and IBM credentials.","url":"https://mvtech.solutions/about/","worksFor":{"@id":"https://mvtech.solutions/#organization"},"sameAs":["https://www.toptal.com/developers/resume/meet-vaghasia","https://github.com/meet2712"],"knowsAbout":["Data engineering and ETL/ELT pipelines","Cloud data warehouses (BigQuery, Redshift) and SQL modelling","Business intelligence, reporting and Tableau dashboards","Custom software, web applications and client portals","Workflow automation and API integration","AI automation, retrieval-augmented generation (RAG) and knowledge assistants","Model Context Protocol (MCP) server and tool development","IT staff augmentation and dedicated remote engineering teams","Technology recruitment for AI, data, software and cloud roles"]},{"@type":"WebSite","@id":"https://mvtech.solutions/#website","name":"MV.tech","alternateName":["MV Tech","MVTech","M V Tech"],"url":"https://mvtech.solutions/","description":"Remote-first data, software and AI engineering team based in Ahmedabad, India, working in any client timezone.","publisher":{"@id":"https://mvtech.solutions/#organization"},"inLanguage":"en"},{"@type":"WebPage","@id":"https://mvtech.solutions/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/#webpage","url":"https://mvtech.solutions/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/","name":"What Is an MCP Server, and When Should a Business Build One? | MV.tech","description":"A business-level explanation of the Model Context Protocol: what an MCP server exposes, when building one makes sense, the security decisions involved and a first project.","isPartOf":{"@id":"https://mvtech.solutions/#website"},"about":{"@id":"https://mvtech.solutions/#organization"},"primaryImageOfPage":{"@type":"ImageObject","url":"https://mvtech.solutions/images/og/insights-what-is-an-mcp-server-and-when-should-a-business-build-one.jpg","width":1200,"height":630},"inLanguage":"en","datePublished":"2026-09-10","dateModified":"2026-09-10","breadcrumb":{"@id":"https://mvtech.solutions/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/#breadcrumb"},"mainEntity":{"@id":"https://mvtech.solutions/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/#article"},"hasPart":{"@id":"https://mvtech.solutions/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/#faq"}},{"@type":"BreadcrumbList","@id":"https://mvtech.solutions/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://mvtech.solutions/"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://mvtech.solutions/insights/"},{"@type":"ListItem","position":3,"name":"What is an MCP server?","item":"https://mvtech.solutions/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/"}]},{"@type":"Article","@id":"https://mvtech.solutions/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/#article","headline":"What Is an MCP Server, and When Should a Business Build One?","description":"A business-level explanation of the Model Context Protocol: what an MCP server exposes, when building one makes sense, the security decisions involved and a first project.","image":"https://mvtech.solutions/images/og/insights-what-is-an-mcp-server-and-when-should-a-business-build-one.jpg","datePublished":"2026-09-10","dateModified":"2026-09-10","author":{"@id":"https://mvtech.solutions/#founder"},"publisher":{"@id":"https://mvtech.solutions/#organization"},"mainEntityOfPage":{"@id":"https://mvtech.solutions/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/#webpage"},"wordCount":1155,"keywords":["MCP server","Model Context Protocol","MCP development","AI integration","AI tools","agent tooling"],"inLanguage":"en","isAccessibleForFree":true},{"@type":"FAQPage","@id":"https://mvtech.solutions/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/#faq","mainEntity":[{"@type":"Question","name":"Is MCP tied to one AI vendor?","acceptedAnswer":{"@type":"Answer","text":"No. MCP is an open specification with open-source SDKs in several languages, and it is supported by multiple AI assistants, developer tools and platforms. A server you build can be used by any compatible client, which is the main reason to prefer it over a bespoke integration."}},{"@type":"Question","name":"Does an MCP server need to be hosted on the internet?","acceptedAnswer":{"@type":"Answer","text":"Not necessarily. Servers can run locally alongside a desktop client using standard input and output, or remotely over HTTP for shared use. Remote servers need proper authentication and network controls; local servers still need careful tool design because they run with the user's own access."}},{"@type":"Question","name":"What does MCP server development cost?","acceptedAnswer":{"@type":"Answer","text":"The main cost drivers are the number and complexity of tools, the authentication model, the systems being integrated, testing and documentation. A focused first server with a handful of well-designed tools is a small project; the cost grows with the sensitivity of the actions it enables and the rigour those actions demand."}}]}]}</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YRM2SJ2EMP"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-YRM2SJ2EMP');</script>
+</head>
+<body class="site-body is-article">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header id="main-header" class="site-header">
+  <div class="container header-inner">
+    <a href="/" class="brand-link" aria-label="MV.tech home"><img src="/images/logo-wordmark.svg" alt="MV.tech" width="520" height="92"></a>
+    <nav class="desktop-nav" aria-label="Main navigation"><a href="/services/" class="site-nav-link">Services</a><a href="/remote-consulting/" class="site-nav-link">How we work</a><a href="/insights/" class="site-nav-link">Insights</a><a href="/about/" class="site-nav-link">About</a><a href="/contact/" class="site-nav-link">Contact</a></nav>
+    <div class="header-actions"><a class="button-primary header-cta" href="https://calendly.com/contact-mvtech/30min" target="_blank" rel="noopener">Book a call <i data-lucide="arrow-right" aria-hidden="true"></i></a><button id="mobile-menu-btn" class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><i data-lucide="menu" aria-hidden="true"></i></button></div>
+  </div>
+  <nav id="mobile-menu" class="mobile-nav" hidden aria-label="Mobile navigation"><div class="container"><a href="/services/" class="site-nav-link">Services</a><a href="/remote-consulting/" class="site-nav-link">How we work</a><a href="/insights/" class="site-nav-link">Insights</a><a href="/about/" class="site-nav-link">About</a><a href="/contact/" class="site-nav-link">Contact</a><a href="/faq/" class="site-nav-link">FAQ</a><a class="button-primary" href="https://calendly.com/contact-mvtech/30min" target="_blank" rel="noopener">Book a 30-minute call <i data-lucide="arrow-right" aria-hidden="true"></i></a></div></nav>
+</header>
+<main id="main-content">
+  <article class="article">
+    <header class="page-hero article-hero">
+      <div class="container narrow">
+        <nav aria-label="Breadcrumb" class="breadcrumbs"><ol><li><a href="/">Home</a></li><li><a href="/insights/">Insights</a></li><li><span aria-current="page">What is an MCP server?</span></li></ol></nav>
+        <p class="eyebrow">AI engineering</p>
+        <h1>What Is an MCP Server, and When Should a Business Build One?</h1>
+        <p class="lead">A business-level explanation of the Model Context Protocol: what an MCP server exposes, when building one makes sense, the security decisions involved and a first project.</p>
+        <p class="article-meta">By <a href="/about/">Meet Vaghasia</a>, Founder &amp; Lead Engineer · Published <time datetime="2026-09-10">10 September 2026</time> · 5 min read</p>
+      </div>
+    </header>
+    <div class="band band-light article-body">
+      <div class="container narrow">
+        <div class="in-brief">
+  <p class="eyebrow">In brief</p>
+  <ul>
+    <li>The Model Context Protocol (MCP) is an open standard that lets AI applications connect to external tools and data through one consistent interface. An MCP server is the piece you build around your systems so that compatible AI assistants can use them.</li>
+    <li>Build one when several AI clients need the same governed access to internal systems, when off-the-shelf connectors do not exist for your tools, or when you need authorisation and logging in one place rather than in every prompt.</li>
+    <li>Treat an MCP server as production software: authentication, least-privilege tool design, human approval for consequential actions and audit logs are part of the scope, not extras.</li>
+</ul>
+</div>
+
+<p>Every business that tries to make an AI assistant useful eventually hits the same wall: the assistant needs to look things up in, or act on, systems the model has never seen. Customer records, ticket queues, order status, internal documentation, the finance system. The Model Context Protocol is the emerging standard way to make those connections, and "MCP server development" has become a common request from teams who want their AI tools to do more than chat. This guide explains what an MCP server is in practical terms, when it is worth building one, and what to insist on if you do.</p>
+
+<h2>What MCP is</h2>
+<p>MCP is an open protocol, originally released by Anthropic in late 2024 and since supported across the major AI assistant and developer platforms, that standardises how an AI application (the <em>client</em>) discovers and uses capabilities offered by an external program (the <em>server</em>). The full specification and reference implementations are published at <a href="https://modelcontextprotocol.io" target="_blank" rel="noopener">modelcontextprotocol.io</a>.</p>
+<p>Before MCP, connecting an assistant to a system meant writing a custom integration for each combination of assistant and system. With MCP, a system exposes its capabilities once, and any compatible client, whether a chat assistant, a coding tool or an internal agent, can use them the same way.</p>
+
+<h2>What an MCP server exposes</h2>
+<ul>
+  <li><strong>Tools:</strong> actions the assistant can call, with typed inputs and outputs. For example <code>lookup_order(order_id)</code>, <code>create_ticket(summary, priority)</code> or <code>run_approved_report(name, date_range)</code>.</li>
+  <li><strong>Resources:</strong> data the assistant can read, such as a document, a record or a query result, identified by a URI.</li>
+  <li><strong>Prompts:</strong> reusable, parameterised instructions that package a well-tested way of doing a task, for example "prepare a weekly status summary from these sources".</li>
+</ul>
+<p>The server describes these capabilities in a machine-readable way, the client shows them to the model, and the model decides when to use them. The server, not the model, enforces what is allowed.</p>
+
+<h2>When building an MCP server makes sense</h2>
+<ul>
+  <li><strong>Your systems have no ready-made connector.</strong> Internal databases, custom applications, older business systems and in-house APIs rarely come with an MCP integration. Building one is how they join the conversation.</li>
+  <li><strong>Several AI clients need the same access.</strong> If your support assistant, your internal chat tool and a coding agent all need to read the same records, one server with consistent rules beats three bespoke integrations.</li>
+  <li><strong>Governance has to live in one place.</strong> An MCP server is where you enforce who may do what, log every call and shape which data leaves the system. That is far more reliable than instructions inside prompts.</li>
+  <li><strong>You want the assistant to act, not just answer.</strong> Creating tickets, updating records, triggering workflows: actions need typed inputs, validation and often human approval, which is exactly what a tool interface provides.</li>
+</ul>
+
+<h2>When you probably do not need one</h2>
+<ul>
+  <li>One application, one model, one integration that will never be reused. A direct API call inside that application is simpler.</li>
+  <li>The system you want to connect already has a well-maintained MCP server from its vendor. Evaluate it before building.</li>
+  <li>The real problem is that the assistant cannot answer from documents. That is a retrieval problem; see <a href="/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/">RAG versus fine-tuning</a>. MCP can expose a retrieval tool, but the retrieval quality is the work.</li>
+</ul>
+
+<h2>Security decisions you cannot skip</h2>
+<h3>Authentication and identity</h3>
+<p>The server must know who is asking. Remote servers should use standards-based authentication, such as OAuth, and pass the user's identity through to the underlying systems so that existing permissions apply. A server that connects with one privileged service account on behalf of everyone is a data leak waiting for a clever prompt.</p>
+<h3>Least-privilege tool design</h3>
+<p>Expose narrow, purpose-built tools rather than "run any query" or "call any endpoint". Validate inputs, cap result sizes and separate read tools from write tools. The model will use whatever it is given; the server decides what that is.</p>
+<h3>Human approval for consequential actions</h3>
+<p>Anything that spends money, changes customer-facing records or sends communications should require an explicit confirmation step, either in the client's interface or in the workflow the tool triggers. Design the approval path into the tool, not around it.</p>
+<h3>Logging and audit</h3>
+<p>Record every tool call with the caller, the arguments and the outcome. This is how you debug odd behaviour, satisfy security reviews and answer the question "why did the assistant do that?"</p>
+<h3>Untrusted content</h3>
+<p>Data returned by a tool may contain text that tries to instruct the model (a classic prompt injection). Servers should treat returned content as data, clients should display it as such, and consequential actions should never be triggered by content alone.</p>
+
+<h2>What a sensible first MCP project looks like</h2>
+<ol>
+  <li><strong>Pick one system and two or three tools</strong> that would remove real friction, for example looking up a customer, summarising their recent tickets and drafting (not sending) a reply.</li>
+  <li><strong>Define the tool contracts</strong> with typed inputs, outputs, error cases and result limits, and agree which are read-only.</li>
+  <li><strong>Wire authentication</strong> so the user's own permissions apply, and add logging from the first commit.</li>
+  <li><strong>Test with the intended clients</strong> and with real tasks, including attempts to misuse the tools, before widening access.</li>
+  <li><strong>Document ownership and operation</strong>: who maintains the server, how it is deployed, how tools are added and reviewed.</li>
+</ol>
+<p>A project of this shape is typically weeks of work, and it produces something you can extend tool by tool as trust grows.</p>
+
+<h2>Frequently asked questions</h2>
+<div class="faq-list">
+  <details><summary><span>Is MCP tied to one AI vendor?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>No. MCP is an open specification with open-source SDKs in several languages, and it is supported by multiple AI assistants, developer tools and platforms. A server you build can be used by any compatible client, which is the main reason to prefer it over a bespoke integration.</p></div></details>
+  <details><summary><span>Does an MCP server need to be hosted on the internet?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>Not necessarily. Servers can run locally alongside a desktop client using standard input and output, or remotely over HTTP for shared use. Remote servers need proper authentication and network controls; local servers still need careful tool design because they run with the user's own access.</p></div></details>
+  <details><summary><span>What does MCP server development cost?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>The main cost drivers are the number and complexity of tools, the authentication model, the systems being integrated, testing and documentation. A focused first server with a handful of well-designed tools is a small project; the cost grows with the sensitivity of the actions it enables and the rigour those actions demand.</p></div></details>
+</div>
+      </div>
+    </div>
+    <div class="band">
+      <div class="container narrow author-box">
+        <div class="author-mark" aria-hidden="true">MV</div>
+        <div><p class="eyebrow">About the author</p><h2>Meet Vaghasia</h2><p>Meet Vaghasia is the founder of MV.tech. He is a data and software engineer with hands-on experience across data engineering, analytics, cloud platforms, automation and AI systems, and is Toptal-vetted (Top 3%) with Google Cloud and IBM credentials.</p><div class="proof-links"><a href="/about/">About MV.tech</a><a href="https://www.toptal.com/developers/resume/meet-vaghasia" target="_blank" rel="noopener">Toptal profile</a><a href="/services/">Services</a></div></div>
+      </div>
+    </div>
+  </article>
+  <section class="band cta-band"><div class="container cta-grid"><div><p class="eyebrow">Your next step</p><h2>Want help applying this?</h2><p class="lead">Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech.</p></div><div class="cta-actions"><a class="button-primary" href="https://calendly.com/contact-mvtech/30min" target="_blank" rel="noopener">Book a 30-minute call <i data-lucide="arrow-right" aria-hidden="true"></i></a><a class="button-secondary" href="mailto:contact@mvtech.solutions?subject=Project%20enquiry%20for%20MV.tech&amp;body=Project%20goal%3A%0A%0ACurrent%20systems%3A%0A%0ATarget%20date%3A%0A%0ATimezone%20and%20preferred%20overlap%3A%0A%0ABudget%20range%20(optional)%3A%0A">Email your brief <i data-lucide="mail" aria-hidden="true"></i></a><a class="cta-email" href="mailto:contact@mvtech.solutions">contact@mvtech.solutions</a><p class="cta-note">Remote from Ahmedabad, India · Overlap with any timezone · No obligation</p></div></div></section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="/" aria-label="MV.tech home"><img src="/images/logo.svg" alt="MV.tech – Data-Powered Solutions" width="520" height="132" loading="lazy"></a>
+        <p>MV.tech is a remote-first data engineering, software development and AI consultancy based in Ahmedabad, India. Its senior specialists work with clients worldwide, planning working hours that overlap any timezone, with a lean model that avoids large-consultancy overhead.</p>
+        <p class="footer-worked">Our engineers have worked with Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, Turing.</p>
+      </div>
+      <nav aria-label="Services"><h2>Services</h2><a href="/services/data-engineering/">Data engineering consulting</a><a href="/services/custom-software/">Custom software development</a><a href="/services/ai-consulting/">AI automation, RAG &amp; MCP</a><a href="/services/workflow-automation/">Workflow automation</a><a href="/services/it-staff-augmentation/">IT staff augmentation</a><a href="/services/technology-recruitment/">Technology recruitment</a></nav>
+      <nav aria-label="Company"><h2>Company</h2><a href="/about/">About MV.tech</a><a href="/remote-consulting/">How we work &amp; timezones</a><a href="/process/">Delivery process</a><a href="/expertise/">Expertise &amp; credentials</a><a href="/solutions/">Solution patterns</a><a href="/insights/">Insights</a></nav>
+      <nav aria-label="Contact"><h2>Contact</h2><a href="https://calendly.com/contact-mvtech/30min" target="_blank" rel="noopener">Book a 30-minute call</a><a href="mailto:contact@mvtech.solutions">contact@mvtech.solutions</a><a href="https://www.linkedin.com/company/mv-tech-data/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.toptal.com/developers/resume/meet-vaghasia" target="_blank" rel="noopener">Meet Vaghasia on Toptal</a><a href="/faq/">FAQ</a><a href="/compliance/">Privacy &amp; delivery standards</a></nav>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2026 MV.tech. All rights reserved.</p><p>Ahmedabad, Gujarat, India · GSTIN 24BZMPV4008F1ZA</p><p><a href="/llms.txt">llms.txt</a> · <a href="/sitemap.xml">Sitemap</a></p></div>
+  </div>
+</footer>
+<div class="sticky-cta" id="sticky-cta" hidden><a class="button-primary" href="https://calendly.com/contact-mvtech/30min" target="_blank" rel="noopener">Book a call</a><a class="button-secondary" href="mailto:contact@mvtech.solutions">Email us</a></div>
+</body>
+</html>

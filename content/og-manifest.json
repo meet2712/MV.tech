@@ -1,0 +1,134 @@
+[
+  {
+    "route": "/",
+    "slug": "home",
+    "title": "Senior data, software & AI engineers who work in your timezone",
+    "kicker": "Remote-first consultancy · Ahmedabad, India · Clients worldwide"
+  },
+  {
+    "route": "/about/",
+    "slug": "about",
+    "title": "About MV.tech",
+    "kicker": "Remote-first · Founded by an engineer · Ahmedabad, India"
+  },
+  {
+    "route": "/compliance/",
+    "slug": "compliance",
+    "title": "Privacy, security & delivery standards",
+    "kicker": "Data handling · Secure delivery · Accessibility · Analytics · Responsible AI"
+  },
+  {
+    "route": "/contact/",
+    "slug": "contact",
+    "title": "Book a 30-minute scoping call",
+    "kicker": "Remote from Ahmedabad, India · Overlap with any timezone · No obligation"
+  },
+  {
+    "route": "/expertise/",
+    "slug": "expertise",
+    "title": "Expertise & credentials",
+    "kicker": "Python · SQL · BigQuery · Redshift · AWS · GCP · Tableau · RAG · MCP"
+  },
+  {
+    "route": "/faq/",
+    "slug": "faq",
+    "title": "Frequently asked questions",
+    "kicker": "Timezones · Costs · Services · Team · Security · Getting started"
+  },
+  {
+    "route": "/insights/",
+    "slug": "insights",
+    "title": "Insights",
+    "kicker": "Guides from the MV.tech engineering team"
+  },
+  {
+    "route": "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
+    "slug": "insights-questions-to-ask-before-hiring-a-remote-data-engineering-consultancy",
+    "title": "12 questions to ask before hiring a remote data engineering consultancy",
+    "kicker": "People · Method · Commercials · Working model · Evidence"
+  },
+  {
+    "route": "/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/",
+    "slug": "insights-rag-vs-fine-tuning-for-internal-knowledge-assistants",
+    "title": "RAG vs fine-tuning for internal knowledge assistants",
+    "kicker": "What each does · When each fits · Permissions · Evaluation · Cost"
+  },
+  {
+    "route": "/insights/staff-augmentation-vs-project-consulting-vs-recruitment/",
+    "slug": "insights-staff-augmentation-vs-project-consulting-vs-recruitment",
+    "title": "Staff augmentation vs project consulting vs recruitment",
+    "kicker": "Control · Cost · Speed · Risk · How to decide"
+  },
+  {
+    "route": "/insights/timezone-overlap-with-an-india-based-engineering-team/",
+    "slug": "insights-timezone-overlap-with-an-india-based-engineering-team",
+    "title": "Working with an India-based engineering team across timezones",
+    "kicker": "Overlap windows · What to agree up front · Async habits that work"
+  },
+  {
+    "route": "/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/",
+    "slug": "insights-what-is-an-mcp-server-and-when-should-a-business-build-one",
+    "title": "What is an MCP server, and when should a business build one?",
+    "kicker": "Model Context Protocol explained · When to build · Security · A first project"
+  },
+  {
+    "route": "/process/",
+    "slug": "process",
+    "title": "How we deliver",
+    "kicker": "Scope · Build in increments · Review in your hours · Hand over with documentation"
+  },
+  {
+    "route": "/remote-consulting/",
+    "slug": "remote-consulting",
+    "title": "How we work: timezones, team and costs",
+    "kicker": "Overlap windows by region · Engagement models · Cost model"
+  },
+  {
+    "route": "/services/",
+    "slug": "services",
+    "title": "Services",
+    "kicker": "Data · Software · AI · Automation · Staffing · Recruitment"
+  },
+  {
+    "route": "/services/ai-consulting/",
+    "slug": "services-ai-consulting",
+    "title": "AI automation, RAG & MCP development",
+    "kicker": "Knowledge assistants · MCP servers · LLM integration · Evaluation"
+  },
+  {
+    "route": "/services/custom-software/",
+    "slug": "services-custom-software",
+    "title": "Custom software & web app development",
+    "kicker": "Business apps · Client portals · Dashboards · APIs"
+  },
+  {
+    "route": "/services/data-engineering/",
+    "slug": "services-data-engineering",
+    "title": "Data engineering & ETL consulting",
+    "kicker": "Python · SQL · BigQuery · Redshift · Data quality · Reporting"
+  },
+  {
+    "route": "/services/it-staff-augmentation/",
+    "slug": "services-it-staff-augmentation",
+    "title": "IT staff augmentation & dedicated remote teams",
+    "kicker": "Senior consultants in your team · Agreed capacity · Your hours"
+  },
+  {
+    "route": "/services/technology-recruitment/",
+    "slug": "services-technology-recruitment",
+    "title": "Technology recruitment",
+    "kicker": "Permanent AI, data, software & cloud hires · Engineer-led"
+  },
+  {
+    "route": "/services/workflow-automation/",
+    "slug": "services-workflow-automation",
+    "title": "Workflow automation & API integration",
+    "kicker": "Scheduled workflows · Webhooks · Validation · Monitoring"
+  },
+  {
+    "route": "/solutions/",
+    "slug": "solutions",
+    "title": "Solution patterns",
+    "kicker": "Data platforms · Portals & internal apps · AI knowledge assistants"
+  }
+]

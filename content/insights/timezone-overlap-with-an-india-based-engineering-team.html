@@ -1,0 +1,93 @@
+<!--meta
+{
+  "name": "Timezone overlap with an India-based team",
+  "title": "How to Work with an India-Based Engineering Team Across Timezones",
+  "description": "Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.",
+  "kicker": "Remote delivery playbook",
+  "ogTitle": "Working with an India-based engineering team across timezones",
+  "ogKicker": "Overlap windows · What to agree up front · Async habits that work",
+  "published": "2026-09-10",
+  "keywords": [
+    "timezone overlap",
+    "India engineering team",
+    "remote consulting",
+    "offshore development",
+    "IST",
+    "distributed teams"
+  ],
+  "pageTitle": "Working With an India Engineering Team Across Timezones | MV.tech"
+}
+-->
+<div class="in-brief">
+  <p class="eyebrow">In brief</p>
+  <ul>
+    <li>India Standard Time (UTC+5:30) overlaps the working day of every major business region for part of the day, so the question is never "is overlap possible?" but "which hours, and what happens outside them?"</li>
+    <li>Agree four things before work starts: the collaboration window, where decisions get recorded, response expectations, and release windows. Most timezone problems are really unwritten-expectation problems.</li>
+    <li>Treat "24/7 coverage" claims and unnamed engineers as warning signs. Ask for the specific hours and the specific people.</li>
+  </ul>
+</div>
+
+<p>Companies hesitate about remote teams in India for one reason more than any other: the clock. The worry is reasonable, and it is also solvable, because it is mostly a planning problem rather than a geography problem. This guide covers what realistic overlap looks like from different regions, what to agree before an engagement begins, and the working habits that make distributed delivery feel closer than it is.</p>
+
+<h2>Where India sits on the clock</h2>
+<p>India Standard Time is UTC+5:30 all year; India does not observe daylight saving. That places an Indian working day roughly like this relative to other regions:</p>
+<ul>
+  <li><strong>United Kingdom and Europe:</strong> India is 4.5 to 5.5 hours ahead of London and 3.5 to 4.5 hours ahead of Berlin, depending on the season. An engineer working a standard Indian day shares most of the UK and European morning and early afternoon.</li>
+  <li><strong>North America:</strong> India is 9.5 to 10.5 hours ahead of US Eastern time and 12.5 to 13.5 hours ahead of Pacific. A standard Indian day barely touches the US morning, so teams that serve American clients shift their hours later, typically starting around midday IST, to cover the US morning.</li>
+  <li><strong>Gulf:</strong> India is only 1.5 hours ahead of Dubai. Overlap is almost the whole day.</li>
+  <li><strong>Asia-Pacific:</strong> India is 2.5 hours behind Singapore and 4.5 to 5.5 hours behind Sydney, so Australian afternoons coincide with Indian mornings.</li>
+</ul>
+<p>The practical conclusion: a team in India can give a European client a half-day of overlap without any adjustment, and can give an American client three to four hours every morning by shifting its day. It cannot give a single client both a full US afternoon and a full Australian morning with the same people, and any vendor who implies otherwise is describing something other than a normal working week.</p>
+
+<h2>Typical overlap windows</h2>
+<p>These are the windows we plan engagements around at MV.tech. Yours may differ; the point is that they are specific.</p>
+<div class="table-wrap" tabindex="0"><table class="data-table"><caption>Illustrative collaboration windows for a team in Ahmedabad, India</caption><thead><tr><th scope="col">Your team</th><th scope="col">Overlap in your local time</th><th scope="col">Equivalent in IST</th></tr></thead><tbody>
+<tr><th scope="row">New York (US Eastern)</th><td>9:00 am – 1:00 pm</td><td>6:30 pm – 10:30 pm</td></tr>
+<tr><th scope="row">San Francisco (US Pacific)</th><td>7:00 am – 10:00 am</td><td>7:30 pm – 10:30 pm</td></tr>
+<tr><th scope="row">London</th><td>9:00 am – 3:30 pm</td><td>1:30 pm – 8:00 pm</td></tr>
+<tr><th scope="row">Berlin (Central Europe)</th><td>9:00 am – 4:00 pm</td><td>12:30 pm – 7:30 pm</td></tr>
+<tr><th scope="row">Dubai (Gulf)</th><td>9:00 am – 6:00 pm</td><td>10:30 am – 7:30 pm</td></tr>
+<tr><th scope="row">Singapore</th><td>11:00 am – 6:00 pm</td><td>8:30 am – 3:30 pm</td></tr>
+<tr><th scope="row">Sydney (Australia East)</th><td>12:30 pm – 6:00 pm</td><td>8:00 am – 1:30 pm</td></tr>
+</tbody></table></div>
+<p>Two things are worth noticing. First, the windows are three to seven hours long, which is enough for standups, reviews, pairing and releases; nobody needs eight hours of shared screen time to deliver software well. Second, the windows shift by an hour when your region changes its clocks, so write the window in <em>your</em> local time and let the vendor adjust.</p>
+
+<h2>Four things to agree before the first sprint</h2>
+<h3>1. The collaboration window, in your time</h3>
+<p>Write down the recurring hours during which the team is reachable synchronously, which meetings live inside them, and who attends. "Flexible" is not a window. "9:00 am to 1:00 pm Eastern, Monday to Friday, with standup at 9:15" is.</p>
+<h3>2. Where decisions live</h3>
+<p>Distributed teams fail when decisions are made in a call and then forgotten by the half of the team that was asleep. Choose one place, such as a decision log in your wiki, pull request descriptions or a pinned channel, and make "write it down where the other side will see it" a habit, not a favour.</p>
+<h3>3. Response expectations outside the window</h3>
+<p>Say explicitly what "urgent" means, how it is raised, and what response is expected outside the window. Most engagements need no out-of-hours coverage at all; production systems that do need it should have it written into the scope with named responsibilities, not implied by a sales conversation.</p>
+<h3>4. Release windows</h3>
+<p>Decide when changes may reach production and who must be awake when they do. A team that deploys during the client's morning, with the client's own engineers online, avoids most of the drama associated with remote delivery.</p>
+
+<h2>Async habits that actually work</h2>
+<ul>
+  <li><strong>Written standups.</strong> Three lines per person, posted before the client's day begins: done, next, blocked. Ten minutes of reading replaces a meeting nobody wanted at 7:00 am.</li>
+  <li><strong>Recorded demos.</strong> A five-minute screen recording of a working feature, shared in the channel, lets stakeholders review at their convenience and reply with timestamps.</li>
+  <li><strong>Pull requests that explain themselves.</strong> What changed, why, how it was tested, what to look at first. Reviews then happen across the time gap instead of waiting for a call.</li>
+  <li><strong>Handover notes at the end of each day.</strong> Where things stand, what was decided, what needs an answer. The other side starts its morning informed rather than guessing.</li>
+  <li><strong>One synchronous ritual that never moves.</strong> A weekly review inside the window, with a demo and a look at the plan. Everything else can flex; this cannot.</li>
+</ul>
+
+<h2>What should still be synchronous</h2>
+<p>Discovery conversations, design decisions with real trade-offs, incident response, and anything involving disagreement. If a thread has gone back and forth three times without converging, book fifteen minutes inside the window and settle it. Async is a default, not a religion.</p>
+
+<h2>Warning signs when evaluating a remote vendor</h2>
+<ul>
+  <li><strong>"We provide 24/7 support"</strong> from a team of five. Ask who exactly is awake at 3:00 am your time and what they are authorised to do.</li>
+  <li><strong>No named engineers</strong> before signing. If you cannot meet the people who will do the work, you are buying a promise, not a team.</li>
+  <li><strong>A dedicated account manager</strong> as the main contact. Useful in a large programme, but for a small engagement it usually means the engineers are somewhere behind a wall.</li>
+  <li><strong>Vague overlap.</strong> "We adjust to your timezone" without hours attached is a sentence, not a commitment.</li>
+</ul>
+
+<h2>The cost dimension, briefly</h2>
+<p>The economic case for a remote team in India is real, but it is often described badly. The saving does not come from cheap labour; senior engineers in India are not cheap, nor should they be. It comes from what you are not paying for: offices in expensive cities, account-management layers, idle bench capacity and brand premiums. A lean remote consultancy passes that structural difference through. Compare proposals on the same scope, the same seniority and the same support expectations, and the difference is still substantial without being suspicious.</p>
+
+<h2>Frequently asked questions</h2>
+<div class="faq-list">
+  <details><summary><span>Does India observe daylight saving time?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>No. India Standard Time stays at UTC+5:30 all year. Overlap windows written in a client's local time shift by an hour in IST when the client's region changes its clocks, which is why the window should be defined in the client's time.</p></div></details>
+  <details><summary><span>Can a team in India cover US Pacific hours?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>Yes, for part of the day. A common arrangement is 7:00 am to 10:00 am Pacific, which is 7:30 pm to 10:30 pm in India. Some teams run a later shift to cover more of the Pacific morning; a full Pacific afternoon is unrealistic for a team keeping a normal week.</p></div></details>
+  <details><summary><span>How much overlap does a software project really need?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>In our experience, three to four hours of daily overlap is enough for standups, reviews, pairing on hard problems and releases, provided decisions and progress are written down. More overlap is pleasant; it is rarely what determines whether a project succeeds.</p></div></details>
+</div>

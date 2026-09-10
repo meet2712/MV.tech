@@ -21,6 +21,7 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci --ignore-scripts
+      # The build is reproducible: dates come from content/page-dates.json, not the clock, unless content changed.
       - run: npm run build
       - run: npm test
       - name: Verify generated files are committed

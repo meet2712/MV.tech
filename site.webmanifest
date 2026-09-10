@@ -1,0 +1,14 @@
+{
+  "name": "MV.tech",
+  "short_name": "MV.tech",
+  "description": "Remote-first data, software and AI engineering consultancy based in Ahmedabad, India, working in any client timezone.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#07080b",
+  "theme_color": "#07080b",
+  "icons": [
+    { "src": "/images/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/images/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/images/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
