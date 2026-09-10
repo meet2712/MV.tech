@@ -1,0 +1,228 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background:
+                linear-gradient(180deg, rgba(0, 36, 255, 0.12), transparent 20rem),
+                radial-gradient(circle at 50% -20%, rgba(0, 194, 255, 0.16), transparent 28rem),
+                #020617;
+        }
+
+        .grid-surface {
+            background-image:
+                linear-gradient(rgba(148, 163, 184, 0.08) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(148, 163, 184, 0.08) 1px, transparent 1px);
+            background-size: 42px 42px;
+            mask-image: linear-gradient(to bottom, black, transparent);
+        }
+
+        .glass {
+            background: linear-gradient(180deg, rgba(15, 23, 42, 0.82), rgba(15, 23, 42, 0.52));
+            border: 1px solid rgba(148, 163, 184, 0.18);
+            box-shadow: 0 20px 70px rgba(2, 8, 23, 0.38);
+            backdrop-filter: blur(18px);
+        }
+
+        .edge-card {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .edge-card::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            background: linear-gradient(135deg, rgba(0, 194, 255, 0.22), transparent 35%, rgba(49, 208, 170, 0.14));
+            opacity: 0;
+            transition: opacity 260ms ease;
+        }
+
+        .edge-card:hover::before {
+            opacity: 1;
+        }
+
+        .text-balance {
+            text-wrap: balance;
+        }
+
+        .prose-copy {
+            color: rgb(203 213 225 / 0.88);
+            font-weight: 400;
+            line-height: 1.78;
+            letter-spacing: 0;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+        }
+
+        .prose-copy-lg {
+            font-size: 1.0625rem;
+        }
+
+        .section-copy {
+            color: rgb(148 163 184 / 0.94);
+            font-size: 1.0625rem;
+            font-weight: 400;
+            line-height: 1.72;
+            letter-spacing: 0;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+        }
+
+        .card-copy {
+            color: rgb(148 163 184 / 0.92);
+            font-weight: 400;
+            line-height: 1.7;
+            letter-spacing: 0;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+        }
+
+        .edge-card p.text-slate-400,
+        .glass p.text-slate-400,
+        section[id="process"] p.text-slate-400,
+        section[id="clients"] p.text-slate-400,
+        section[id="compliance"] p.text-slate-400,
+        section[id="faq"] p.text-slate-400 {
+            color: rgb(148 163 184 / 0.92);
+            font-weight: 400;
+            line-height: 1.7;
+            letter-spacing: 0;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+        }
+
+        @media (min-width: 640px) {
+            .prose-copy-lg {
+                font-size: 1.125rem;
+            }
+
+            .section-copy {
+                font-size: 1.125rem;
+            }
+        }
+
+        .marquee-track {
+            display: flex;
+            width: max-content;
+            animation: marquee 36s linear infinite;
+            will-change: transform;
+        }
+
+        .marquee-group {
+            display: flex;
+            align-items: center;
+            flex-shrink: 0;
+            gap: 0.75rem;
+            padding-right: 0.75rem;
+        }
+
+        .marquee-group > span {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            border: 1px solid rgba(148, 163, 184, 0.14);
+            border-radius: 999px;
+            background: linear-gradient(180deg, rgba(15, 23, 42, 0.78), rgba(15, 23, 42, 0.44));
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+            color: rgb(203, 213, 225);
+            padding: 0.55rem 0.95rem;
+        }
+
+        .marquee-group > span::before {
+            content: "";
+            width: 0.42rem;
+            height: 0.42rem;
+            border-radius: 999px;
+            background: linear-gradient(135deg, #00C2FF, #31D0AA);
+            box-shadow: 0 0 18px rgba(0, 194, 255, 0.35);
+        }
+
+        .marquee-viewport {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            mask-image: linear-gradient(90deg, transparent, black 9%, black 91%, transparent);
+        }
+
+        .marquee-viewport::before,
+        .marquee-viewport::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            z-index: 2;
+            width: 5rem;
+            pointer-events: none;
+        }
+
+        .marquee-viewport::before {
+            left: 0;
+            background: linear-gradient(90deg, #020617, transparent);
+        }
+
+        .marquee-viewport::after {
+            right: 0;
+            background: linear-gradient(270deg, #020617, transparent);
+        }
+
+        .marquee-viewport:hover .marquee-track {
+            animation-play-state: paused;
+        }
+
+        .capability-strip {
+            position: relative;
+            background:
+                radial-gradient(circle at 50% 0%, rgba(0, 194, 255, 0.1), transparent 28rem),
+                linear-gradient(180deg, rgba(2, 6, 23, 0.96), rgba(15, 23, 42, 0.72));
+        }
+
+        .capability-strip::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            background-image: linear-gradient(90deg, rgba(148, 163, 184, 0.06) 1px, transparent 1px);
+            background-size: 48px 100%;
+            opacity: 0.45;
+        }
+
+        @keyframes marquee {
+            from {
+                transform: translate3d(0, 0, 0);
+            }
+            to {
+                transform: translate3d(-16.666666%, 0, 0);
+            }
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        @keyframes pulseLine {
+            0%, 100% {
+                opacity: 0.28;
+            }
+            50% {
+                opacity: 1;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                scroll-behavior: auto !important;
+            }
+        }

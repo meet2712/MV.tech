@@ -7,15 +7,15 @@ if (footerMount) {
         <div class="grid gap-8 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-start mb-5">
             <div>
                 <div class="mb-5">
-                    <img src="images/logo.png" alt="MV.tech Data-Powered Solutions logo"
+                    <img src="/images/logo.png" alt="MV.tech Data-Powered Solutions logo"
                          class="h-6 sm:h-8 lg:h-10 w-auto object-contain" />
                 </div>
                 <p class="text-slate-400 mb-5 max-w-lg">
-                    Building Enterprise-Grade Data Infrastructure, Web Platforms, and Business Applications that Drive
-                    Real Decisions.
+                    Remote-first data, software, automation, and AI consulting with senior specialists and flexible
+                    timezone overlap.
                 </p>
                 <div class="flex gap-3">
-                    <a href="mailto:contact@mvtech.solutions"
+                    <a href="mailto:contact@mvtech.solutions?subject=Project%20enquiry%20for%20MV.tech"
                        class="w-10 h-10 bg-slate-900 border border-slate-800 rounded-xl flex items-center justify-center hover:bg-blue-600 hover:border-blue-600 transition-colors"
                        aria-label="Email">
                         <i data-lucide="mail" class="text-slate-300 w-4 h-4"></i>
@@ -39,19 +39,19 @@ if (footerMount) {
                 <div>
                     <h3 class="text-white font-semibold mb-4">Navigate</h3>
                     <ul class="space-y-3 text-sm">
-                        <li><a href="index.html" class="text-slate-400 hover:text-white transition-colors">Home</a></li>
-                        <li><a href="services.html" class="text-slate-400 hover:text-white transition-colors">Services</a></li>
-                        <li><a href="solutions.html" class="text-slate-400 hover:text-white transition-colors">Solutions</a></li>
-                        <li><a href="expertise.html" class="text-slate-400 hover:text-white transition-colors">Expertise</a></li>
-                        <li><a href="contact.html" class="text-slate-400 hover:text-white transition-colors">Contact Us</a></li>
+                        <li><a href="/" class="text-slate-400 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="/services/" class="text-slate-400 hover:text-white transition-colors">Services</a></li>
+                        <li><a href="/solutions/" class="text-slate-400 hover:text-white transition-colors">Solutions</a></li>
+                        <li><a href="/expertise/" class="text-slate-400 hover:text-white transition-colors">Expertise</a></li>
+                        <li><a href="/contact/" class="text-slate-400 hover:text-white transition-colors">Contact Us</a></li>
                     </ul>
                 </div>
 
                 <div>
                     <h3 class="text-white font-semibold mb-4">Company</h3>
                     <ul class="space-y-3 text-sm text-slate-400">
-                        <li><a href="compliance.html" class="hover:text-white transition-colors">Compliance</a></li>
-                        <li><a href="faq.html" class="hover:text-white transition-colors">FAQs</a></li>
+                        <li><a href="/compliance/" class="hover:text-white transition-colors">Compliance</a></li>
+                        <li><a href="/faq/" class="hover:text-white transition-colors">FAQs</a></li>
                         <li><a href="mailto:contact@mvtech.solutions" class="hover:text-white transition-colors">contact@mvtech.solutions</a></li>
                     </ul>
                 </div>
@@ -72,4 +72,16 @@ if (footerMount) {
     if (window.lucide) {
         window.lucide.createIcons();
     }
+
+    document.querySelectorAll('a[href^="mailto:"]').forEach((link) => {
+        link.addEventListener('click', () => {
+            if (window.gtag) window.gtag('event', 'generate_lead', { method: 'email' });
+        });
+    });
+
+    document.querySelectorAll('a[href*="calendly.com/contact-mvtech"]').forEach((link) => {
+        link.addEventListener('click', () => {
+            if (window.gtag) window.gtag('event', 'generate_lead', { method: 'calendar' });
+        });
+    });
 }
