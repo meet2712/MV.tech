@@ -1,0 +1,14 @@
+exclude:
+  - node_modules
+  - content
+  - partials
+  - scripts
+  - tests
+  - docs
+  - package.json
+  - package-lock.json
+  - tailwind.config.js
+  - README.md
+  - SSO.md
+  - css/input.css
+  - js/icons-entry.js

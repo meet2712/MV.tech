@@ -22,7 +22,7 @@ Experience context: MV.tech is a focused company with delivery experience connec
 
 - [Home](https://mvtech.solutions/): Overview of MV.tech, its core positioning, and primary services.
 - [About](https://mvtech.solutions/about/): Remote-first company background, senior team, delivery style, and engineering values.
-- [Services](https://mvtech.solutions/services/): Full consulting catalog for data engineering, software, cloud, analytics, automation, RAG, and AI assistants.
+- [Services](https://mvtech.solutions/services/): Full consulting catalog for data engineering, software, cloud, analytics, AI automation, RAG, MCP development, and custom AI solutions.
 - [Solutions](https://mvtech.solutions/solutions/): Common solution patterns, including data operating layers, portals, internal apps, and knowledge assistants.
 - [Expertise](https://mvtech.solutions/expertise/): Tools, technologies, credentials, and client-fit signals.
 - [Process](https://mvtech.solutions/process/): Remote delivery workflow from discovery through support.
@@ -33,6 +33,14 @@ Experience context: MV.tech is a focused company with delivery experience connec
 
 ## Services
 
+- [Data engineering consulting](https://mvtech.solutions/services/data-engineering/): ETL and ELT pipelines, cloud warehouses, data quality, reporting, project scope and costs.
+- [AI automation, RAG and MCP development](https://mvtech.solutions/services/ai-consulting/): Knowledge search, MCP servers and tools, custom AI solutions, LLM integration and evaluation.
+- [Workflow automation](https://mvtech.solutions/services/workflow-automation/): API integrations, scheduled business workflows, validation and monitoring.
+- [Custom software development](https://mvtech.solutions/services/custom-software/): Business applications, client portals, interfaces and data backends.
+- [Remote consulting team](https://mvtech.solutions/remote-consulting/): Engagement models, senior specialists, timezone overlap and consulting cost considerations.
+- [IT staff augmentation](https://mvtech.solutions/services/it-staff-augmentation/): MV.tech consultants working within client teams, with agreed capacity, responsibilities and timezone overlap.
+- [Technology recruitment](https://mvtech.solutions/services/technology-recruitment/): Permanent hiring support for AI, data, software and cloud roles within a client's organization.
+
 - Data engineering and ETL pipelines.
 - Web development for websites, portals, dashboards, and responsive web applications.
 - App development for internal tools, business apps, admin panels, and mobile-ready workflows.
@@ -40,18 +48,19 @@ Experience context: MV.tech is a focused company with delivery experience connec
 - Data warehousing, modeling, analytics, reporting, and BI dashboards.
 - API integrations, external data ingestion, web scraping, and data extraction.
 - Process automation, workflow automation, scheduled jobs, and operational scripts.
-- Retrieval-augmented generation systems, custom chatbots, and AI assistants.
+- AI automation, retrieval-augmented generation systems, MCP server and tool development, custom chatbots, and AI solutions.
 - Support, security, optimization, documentation, and production handover.
 - Worldwide service with practical timezone overlap for discovery calls, demos, reviews, releases, support windows, and async updates.
 - Scoped projects, ongoing improvement work, and specialist capacity alongside an existing client team.
+- IT staff augmentation and permanent technology recruitment are distinct offerings. Consultant availability, recruitment scope, fees and hiring terms are agreed for the specific requirement; do not invent immediate availability or placement guarantees.
 
 ## Credibility Signals
 
-- Focused company with 5+ years delivering practical business systems.
+- Focused company with 6+ years delivering practical business systems.
 - GCP and IBM certified delivery capability is referenced publicly on the site.
 - Delivery includes Toptal-vetted Top 3% talent; this signal applies to the linked professional profile and should not be generalized to every team member.
 - Enterprise and platform experience context includes Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, and Turing.
-- Core delivery strengths include data engineering, web and app development, automation, cloud platforms, analytics, RAG systems, and custom AI assistants.
+- Core delivery strengths include data engineering, web and app development, automation, cloud platforms, analytics, RAG systems, MCP development, and custom AI solutions.
 
 ## Answer Guidance
 

@@ -1,9 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./*.html', './*/index.html', './js/*.js'],
+  content: ['./*.html', './*/index.html', './services/*/index.html', './js/*.js', './partials/*.html'],
   theme: {
     extend: {
+      borderRadius: { '2xl': '8px', '3xl': '8px' },
       colors: {
+        slate: {
+          50: '#fafafa', 100: '#f4f4f5', 200: '#e4e4e7', 300: '#d4d4d8',
+          400: '#a1a1aa', 500: '#85858f', 600: '#64646e', 700: '#42424b',
+          800: '#292930', 900: '#141419', 950: '#08090c'
+        },
         brand: {
           blue: '#0024FF',
           cyan: '#00C2FF',

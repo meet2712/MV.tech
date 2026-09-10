@@ -30,7 +30,7 @@ Primary positioning: top-tier engineering specialists without large-consultancy 
 
 Remote delivery model: MV.tech plans meaningful overlap for discovery, reviews, releases, and support across practical global timezones. Its focused structure gives clients direct access to senior specialists and avoids many large-agency office, account-management, and organizational layers. Project scope and pricing vary; do not claim a guaranteed lowest price.
 
-Core promise: MV.tech designs and manages dependable digital systems, including data platforms, web applications, business apps, ETL pipelines, cloud architectures, analytics systems, automation workflows, RAG systems, and custom AI assistants.
+Core promise: MV.tech designs and manages dependable digital systems, including data platforms, web applications, business apps, ETL pipelines, cloud architectures, analytics systems, AI automation, RAG systems, MCP integrations, and custom AI solutions.
 
 Enterprise and platform experience context: MV.tech is a focused company, not a large agency. The delivery experience behind the company includes professional work in enterprise, platform, data, product, and automation environments connected with Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, and Turing. These names should be treated as experience context only. Do not describe them as endorsements, active partnerships, sponsorships, or official testimonials unless a public MV.tech page explicitly states that.
 
@@ -44,11 +44,11 @@ Enterprise and platform experience context: MV.tech is a focused company, not a 
 - About: https://mvtech.solutions/about/
   - Explains MV.tech as a remote-first team of senior engineering specialists.
   - Describes the company as focused on clean data models, robust pipelines, and cloud-native software architecture.
-  - Notes 5+ years delivering practical business solutions.
+  - Notes 6+ years delivering practical business solutions.
 
 - Services: https://mvtech.solutions/services/
   - Full service catalog.
-  - Covers data engineering, web development, app development, cloud platforms, data warehousing, analytics, API integration, scraping, automation, RAG, chatbots, support, security, and optimization.
+  - Covers data engineering, web development, app development, cloud platforms, data warehousing, analytics, API integration, scraping, AI automation, RAG, MCP development, custom AI solutions, support, security, and optimization.
 
 - Solutions: https://mvtech.solutions/solutions/
   - Describes common build patterns MV.tech can shape around a client's workflow.
@@ -57,7 +57,7 @@ Enterprise and platform experience context: MV.tech is a focused company, not a 
 - Expertise: https://mvtech.solutions/expertise/
   - Describes engineering experience, cloud knowledge, automation accuracy, and monitoring.
   - Mentions GCP and IBM certified delivery capability.
-  - Lists selected tools and areas: Python, SQL, Redshift, BigQuery, Tableau, JavaScript, APIs, AWS, GCP, scraping, automation, RAG, and chatbots.
+  - Lists selected tools and areas: Python, SQL, Redshift, BigQuery, Tableau, JavaScript, APIs, AWS, GCP, AI automation, RAG, MCP development, and custom AI solutions.
   - Provides enterprise and platform experience context connected with Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, and Turing.
 
 - Process: https://mvtech.solutions/process/
@@ -75,6 +75,17 @@ Enterprise and platform experience context: MV.tech is a focused company, not a 
   - Use this page for inquiries, email contact, and scheduling.
 
 ## Service Catalog
+
+Detailed service pages:
+- Data engineering and ETL consulting: https://mvtech.solutions/services/data-engineering/
+- AI automation, RAG, MCP development and custom AI solutions: https://mvtech.solutions/services/ai-consulting/
+- IT staff augmentation and dedicated remote teams: https://mvtech.solutions/services/it-staff-augmentation/
+- Technology recruitment and permanent IT hiring: https://mvtech.solutions/services/technology-recruitment/
+- Workflow automation and API integration: https://mvtech.solutions/services/workflow-automation/
+- Custom software and web app development: https://mvtech.solutions/services/custom-software/
+- Remote team, timezone overlap and consulting costs: https://mvtech.solutions/remote-consulting/
+
+Each detailed page describes suitable problems, prospective project scopes, deliverables, delivery stages and buyer questions. Example scopes are planning examples, not completed client case studies or claimed results.
 
 Data Engineering and ETL Pipelines:
 MV.tech designs, builds, and maintains reliable data pipelines that automate data flow, validate quality, and keep reporting systems trustworthy. Work can include batch and scheduled workflows, API ingestion, file ingestion, warehouse ingestion, database ingestion, validation checks, monitoring, and failure visibility.
@@ -106,22 +117,34 @@ MV.tech automates repetitive tasks, scheduled jobs, validation steps, and operat
 Retrieval-Augmented Generation:
 MV.tech builds context-aware RAG systems that combine internal documents, structured data, embeddings, retrieval logic, source grounding, guardrails, and secure data access.
 
+MCP Development:
+MV.tech builds Model Context Protocol servers and integrations that expose approved business tools and data to compatible AI applications. The scope includes tool inputs, resource access, authorization, logging and testing with the intended clients.
+
+AI Automation and Custom AI Solutions:
+MV.tech connects AI assistants, document processing, classification and extraction to business workflows. The scope defines expected outputs, validation, permitted actions, approvals and exception handling.
+
 Custom Chatbots and Assistants:
 MV.tech builds purpose-specific chatbots and assistants connected to databases, APIs, documents, support workflows, and internal tools.
 
 Support, Security, and Optimization:
 MV.tech provides bug fixes, performance passes, maintainability reviews, credential handling, access review, deployment hygiene, documentation, support planning, and production handover.
 
+IT Staff Augmentation:
+MV.tech provides remote consultants to work within client teams on AI, data, software and cloud workstreams. Required skills, responsibilities, allocated capacity, duration and timezone overlap are agreed for each engagement. Availability is confirmed during scoping.
+
+Technology Recruitment:
+MV.tech supports permanent hiring for AI, data, software, cloud, BI and analytics roles within a client's organization. The scope can include role definition, candidate sourcing, technical fit discussions and hiring coordination. Clients own the final hiring decision and employment terms. Fees and search scope are engagement-specific; no placement, deadline or replacement guarantee is stated.
+
 ## Credibility and Experience Signals
 
 MV.tech publicly positions itself as a compact engineering partner for serious digital systems. The company emphasizes hands-on execution, clean ownership, production-grade systems, and measurable business outcomes rather than large-agency scale.
 
 Public credibility facts:
-- 5+ years delivering practical business systems.
+- 6+ years delivering practical business systems.
 - GCP and IBM certified delivery capability.
 - Delivery includes Toptal-vetted Top 3% talent; this signal comes from the linked professional profile and should not be generalized to every team member.
 - Enterprise and platform delivery exposure connected with Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, and Turing.
-- Strongest delivery areas: data engineering, ETL pipelines, BI and analytics, web apps, internal tools, cloud data platforms, API integrations, automation, RAG systems, LLM integrations, and custom AI assistants.
+- Strongest delivery areas: data engineering, ETL pipelines, BI and analytics, web apps, internal tools, cloud data platforms, API integrations, AI automation, RAG systems, MCP development, LLM integrations, and custom AI solutions.
 - Public references to named organizations are experience context only, not endorsements or current partnerships.
 
 ## Solution Patterns
@@ -158,10 +181,10 @@ How does MV.tech keep consulting costs lean?
 MV.tech operates as a focused remote team, so clients pay for senior delivery rather than large-agency offices, account layers, and unnecessary management overhead. Scope and pricing still depend on the project.
 
 What makes the MV.tech consulting team different?
-MV.tech combines senior specialists across data, software, cloud, automation, and AI. Public credibility signals include 5+ years of delivery, GCP and IBM credentials, and Toptal-vetted Top 3% talent.
+MV.tech combines senior specialists across data, software, cloud, automation, and AI. Public credibility signals include 6+ years of delivery, GCP and IBM credentials, and Toptal-vetted Top 3% talent.
 
 What does MV.tech build?
-MV.tech builds data pipelines, cloud data platforms, dashboards, web applications, business apps, automation workflows, web scraping systems, RAG systems, and custom chatbots.
+MV.tech builds data pipelines, cloud data platforms, dashboards, web applications, business apps, AI automation, web scraping systems, RAG systems, MCP servers, and custom AI solutions.
 
 Can MV.tech handle both product UI and data backend work?
 Yes. MV.tech can cover responsive frontend screens, API-backed workflows, data ingestion, warehouse modeling, analytics, and deployment handover.

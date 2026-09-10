@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "npm run build:css && npm run build:icons",
+    "build": "npm run build:content && npm run build:css && npm run build:icons",
+    "build:content": "node scripts/build-content.mjs",
     "build:css": "tailwindcss -c tailwind.config.js -i css/input.css -o css/site.css --minify",
-    "build:icons": "esbuild js/icons-entry.js --bundle --minify --format=iife --outfile=js/icons.js"
+    "build:icons": "esbuild js/icons-entry.js --bundle --minify --format=iife --outfile=js/icons.js",
+    "test": "npm run check",
+    "check": "node scripts/check-site.mjs"
   },
   "devDependencies": {
     "esbuild": "0.28.2",
     "lucide": "0.468.0",
+    "parse5": "8.0.1",
     "tailwindcss": "3.4.17"
   }
 }
