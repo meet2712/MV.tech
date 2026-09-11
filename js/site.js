@@ -70,7 +70,9 @@
         calendly.querySelector('.calendly-fallback')?.remove();
         const widget = document.createElement('div');
         widget.className = 'calendly-inline-widget';
-        widget.dataset.url = calendly.dataset.url + '?hide_gdpr_banner=1&background_color=ffffff&text_color=0b1220&primary_color=0024ff';
+        // Calendly renders on white, so the brand colour here is Teal Ink (the only teal that
+        // passes AA on white) and the text colour is Navy. Signal Teal would be unreadable.
+        widget.dataset.url = calendly.dataset.url + '?hide_gdpr_banner=1&background_color=ffffff&text_color=071118&primary_color=007e7b';
         widget.style.minWidth = '320px';
         widget.style.height = '660px';
         calendly.appendChild(widget);

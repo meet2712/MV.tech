@@ -10,3 +10,6 @@ exclude:
   - SSO.md
   - css/input.css
   - js/icons-entry.js
+  - "Brand Kit"
+  - "Brand Kit.zip"
+  - "Claude outputs"

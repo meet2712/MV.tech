@@ -1,33 +1,33 @@
 {
   "/": {
-    "hash": "7af8619f2341aff7",
+    "hash": "832da76d0f5ec5d3",
     "published": "2026-01-02",
-    "modified": "2026-09-10"
+    "modified": "2026-09-11"
   },
   "/about/": {
-    "hash": "3505abb583ce7642",
+    "hash": "919904710dd86fd6",
     "published": "2026-06-02",
-    "modified": "2026-09-10"
+    "modified": "2026-09-11"
   },
   "/compliance/": {
-    "hash": "3f1d3829a3d11db4",
+    "hash": "d026f3d3e39b1458",
     "published": "2026-06-02",
-    "modified": "2026-09-10"
+    "modified": "2026-09-11"
   },
   "/contact/": {
-    "hash": "0cceb3cfbb46725d",
+    "hash": "5c987366835fb506",
     "published": "2026-06-02",
-    "modified": "2026-09-10"
+    "modified": "2026-09-11"
   },
   "/expertise/": {
-    "hash": "3c83c699f079c9b1",
+    "hash": "9466b5be7a235b8a",
     "published": "2026-06-02",
-    "modified": "2026-09-10"
+    "modified": "2026-09-11"
   },
   "/faq/": {
-    "hash": "692310f3b9cdb4f1",
+    "hash": "3786fd5c9cfe906b",
     "published": "2026-06-02",
-    "modified": "2026-09-10"
+    "modified": "2026-09-11"
   },
   "/insights/": {
     "hash": "1bf23aebda9c2673",
@@ -60,53 +60,53 @@
     "modified": "2026-09-10"
   },
   "/process/": {
-    "hash": "5c937731ba832581",
+    "hash": "3a29ac10042a6bdb",
     "published": "2026-06-02",
-    "modified": "2026-09-10"
+    "modified": "2026-09-11"
   },
   "/remote-consulting/": {
-    "hash": "946d1fa420876c04",
+    "hash": "607de775f2ed7af4",
     "published": "2026-09-10",
-    "modified": "2026-09-10"
+    "modified": "2026-09-11"
   },
   "/services/": {
-    "hash": "435308ce93404c60",
+    "hash": "72facaa00f2909b1",
     "published": "2026-06-02",
-    "modified": "2026-09-10"
+    "modified": "2026-09-11"
   },
   "/services/ai-consulting/": {
-    "hash": "d4f1056a0c09bdd2",
+    "hash": "b76ecabba41a3e1f",
     "published": "2026-09-10",
-    "modified": "2026-09-10"
+    "modified": "2026-09-11"
   },
   "/services/custom-software/": {
-    "hash": "b7f03721dcd2f8c0",
+    "hash": "605b7c12dc5e87d7",
     "published": "2026-09-10",
-    "modified": "2026-09-10"
+    "modified": "2026-09-11"
   },
   "/services/data-engineering/": {
-    "hash": "5de5c6365edf8674",
+    "hash": "ef3961360b8aaed5",
     "published": "2026-09-10",
-    "modified": "2026-09-10"
+    "modified": "2026-09-11"
   },
   "/services/it-staff-augmentation/": {
-    "hash": "6e662f7af66a2532",
+    "hash": "4efcd574542b57a5",
     "published": "2026-09-10",
-    "modified": "2026-09-10"
+    "modified": "2026-09-11"
   },
   "/services/technology-recruitment/": {
-    "hash": "2256b2dbc59ad519",
+    "hash": "938c87f86b0248a4",
     "published": "2026-09-10",
-    "modified": "2026-09-10"
+    "modified": "2026-09-11"
   },
   "/services/workflow-automation/": {
-    "hash": "837f0a841e21cbbc",
+    "hash": "0a89c6513192e0a0",
     "published": "2026-09-10",
-    "modified": "2026-09-10"
+    "modified": "2026-09-11"
   },
   "/solutions/": {
-    "hash": "a8aa571c444e203c",
+    "hash": "876997762558d7e7",
     "published": "2026-06-02",
-    "modified": "2026-09-10"
+    "modified": "2026-09-11"
   }
 }

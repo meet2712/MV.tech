@@ -27,7 +27,7 @@
     "route": "/expertise/",
     "slug": "expertise",
     "title": "Expertise & credentials",
-    "kicker": "Python · SQL · BigQuery · Redshift · AWS · GCP · Tableau · RAG · MCP"
+    "kicker": "Python · SQL · BigQuery · Snowflake · Power BI · AWS · GCP · Azure · RAG · MCP"
   },
   {
     "route": "/faq/",
@@ -105,7 +105,7 @@
     "route": "/services/data-engineering/",
     "slug": "services-data-engineering",
     "title": "Data engineering & ETL consulting",
-    "kicker": "Python · SQL · BigQuery · Redshift · Data quality · Reporting"
+    "kicker": "Python · SQL · BigQuery · Snowflake · Redshift · Data quality"
   },
   {
     "route": "/services/it-staff-augmentation/",

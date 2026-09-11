@@ -4,64 +4,95 @@
     "key": "data-engineering",
     "name": "Data Engineering Consulting",
     "title": "Data Engineering & ETL Consulting Services | MV.tech",
-    "description": "Hire remote data engineers for Python and SQL pipelines, BigQuery, Redshift and reliable reporting. Senior specialists with flexible timezone overlap.",
-    "intro": "Get dependable data from the systems you already use. MV.tech builds and improves ingestion pipelines, cloud warehouses and reporting models so your team can work with consistent, current information.",
+    "description": "Remote data engineers for Python and SQL pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, data quality and reporting you can trust.",
+    "intro": "Get dependable data from the systems you already use. MV.tech builds and improves ingestion pipelines, cloud warehouses on BigQuery, Snowflake, Redshift or PostgreSQL, dimensional and semantic models, and the validation that keeps reporting trustworthy — including migrations off legacy databases and manual spreadsheets.",
     "fitHeading": "When your data needs engineering attention",
     "fit": [
       "Reports depend on spreadsheets, recurring exports or someone remembering to run a script.",
       "A dashboard refresh succeeds, but the underlying numbers are incomplete or out of date.",
       "API changes, duplicate records and failed jobs make every reporting cycle a repair exercise.",
+      "Reporting is moving to a cloud warehouse and nobody has mapped what depends on the old one.",
+      "Two systems disagree on the same number and reconciling them is a monthly manual exercise.",
+      "Queries scan far more data than they need to, and refreshes take hours instead of minutes.",
       "Your product team needs a data engineer alongside its existing developers."
     ],
     "deliverablesHeading": "Data engineering services and deliverables",
     "deliverables": [
       {
         "title": "ETL and ELT pipelines",
-        "text": "Bring data from APIs, files and databases into a repeatable ingestion process. Define incremental loads, retries, backfills and duplicate handling around the behaviour of each source."
+        "text": "Bring data from APIs, files and databases into a repeatable ingestion process in Python and SQL. Define incremental loads, retries, scheduled refreshes, automated backfills and duplicate handling around the behaviour of each source."
       },
       {
         "title": "Cloud warehouses and SQL models",
-        "text": "Design BigQuery or Redshift tables, transformations and reporting models. Make business definitions, table ownership and refresh dependencies explicit before expanding the platform."
+        "text": "Design BigQuery, Snowflake, Redshift or PostgreSQL tables and transformations across raw, staging, curated and reporting layers. Make business definitions, table ownership and refresh dependencies explicit before expanding the platform."
       },
       {
-        "title": "Data quality and observability",
-        "text": "Check freshness, completeness and reconciliation at meaningful boundaries. Add useful logs and failure alerts so a successful job is not mistaken for trustworthy data."
+        "title": "Warehouse migration and source-to-target mapping",
+        "text": "Move legacy databases, data lakes and manual reporting onto a cloud warehouse. Start with database discovery and metadata profiling — catalogue queries, DDL and information schema — then produce detailed source-to-target mappings, ingestion plans through tools such as Azure Data Factory and Blob Storage, and the upstream and downstream dependency analysis that shows what a change will break."
+      },
+      {
+        "title": "Dimensional and semantic modelling",
+        "text": "Build fact and dimension models with an agreed grain, conformed dimensions, bridge tables and source-load tracking, then the curated views and semantic structures that BI tools read. Review existing Power BI, SSAS or Analysis Services models before rebuilding them, and handle Salesforce CRM Analytics datasets, recipes, dataflows and field mapping where reporting already lives there."
+      },
+      {
+        "title": "Data quality, reconciliation and observability",
+        "text": "Check freshness, completeness and reconciliation at meaningful boundaries: record counts, date coverage, nulls, duplicates, totals and metric comparisons between pipeline stages. Add outlier detection, useful logs and failure alerts so a successful job is not mistaken for trustworthy data."
+      },
+      {
+        "title": "Performance and cost tuning",
+        "text": "Reduce what a query has to read. Reusable transformation layers, caching, parallel reads, partitioning and incremental Parquet extracts are the usual levers, with the before-and-after measured on your own queries and refresh windows."
+      },
+      {
+        "title": "Blockchain and on-chain datasets",
+        "text": "Consolidate cross-chain transaction data into a warehouse for teams that need it: raw transactions, logs and events decoded with contract ABIs and Web3.py, FX reference tables, token-level valuation, fee proration and staking-reward reconciliation across networks."
       },
       {
         "title": "Reporting and handover",
-        "text": "Connect validated datasets to Tableau, dashboards or downstream applications. Include source mappings, operating notes and recovery steps in the agreed handover."
+        "text": "Connect validated datasets to Power BI, Tableau, Looker Studio, Streamlit or downstream applications. Include source mappings, ER diagrams, validation checklists, operating notes and recovery steps in the agreed handover."
       }
     ],
     "scopeHeading": "A useful first project: one dependable reporting flow",
-    "scope": "Start with a business report that matters and trace its path back to the source. Agree which records belong in the result, how fresh they need to be and how correctness will be checked. Then scope the ingestion, transformations and reporting output together. This gives the project a concrete acceptance test before more sources or dashboards are added.",
+    "scope": "Start with a business report that matters and trace its path back to the source. Agree which records belong in the result, how fresh they need to be and how correctness will be checked — record counts, totals and a comparison against the numbers people trust today. Then scope the ingestion, transformations, model and reporting output together. This gives the project a concrete acceptance test before more sources, a full migration or additional dashboards are added.",
     "approach": [
       {
         "title": "Map sources and definitions",
-        "text": "Review access, API limits, data volumes, history requirements and the business meaning of the metrics."
+        "text": "Profile the databases and APIs involved, review access, limits, volumes and history, and agree the business meaning of each metric."
       },
       {
         "title": "Build and reconcile",
-        "text": "Implement the pipeline and compare the output with source records, including empty periods, updates and retries."
+        "text": "Implement the pipeline and model, then compare output with source records: counts, totals, date coverage, empty periods, updates and retries."
       },
       {
         "title": "Operate and extend",
-        "text": "Document schedules, ownership and recovery. Agree support and the next useful source or reporting model."
+        "text": "Document schedules, lineage, ownership and recovery. Agree support and the next useful source, model or reporting layer."
       }
     ],
     "tools": [
       "Python",
       "SQL",
       "BigQuery",
-      "Redshift",
+      "Snowflake",
+      "Amazon Redshift",
+      "PostgreSQL",
+      "dbt-style modelling",
+      "Azure Data Factory",
+      "Power BI",
+      "Tableau",
+      "Looker Studio",
+      "Salesforce CRM Analytics",
       "AWS",
       "Google Cloud",
-      "Tableau",
+      "Parquet",
       "REST APIs"
     ],
     "questions": [
       {
         "question": "Can you improve an existing pipeline without rebuilding everything?",
         "answer": "Yes. We can start with a bounded review of your existing Python, SQL, cloud and reporting workflows. The scope can focus on unreliable jobs, missing validation, slow queries or a specific integration, preserving the parts that already work."
+      },
+      {
+        "question": "Can you migrate our reporting to a cloud warehouse without breaking existing dashboards?",
+        "answer": "That is the normal shape of the work. It starts with discovery: profiling the source databases, documenting source-to-target mappings and running an impact analysis across dashboards and semantic models to find hardcoded rules, dependencies and migration blockers. Layers are then built and reconciled stage by stage against the existing numbers, so reports are cut over on evidence rather than on a date."
       },
       {
         "question": "Can you work alongside our internal engineering team?",
@@ -76,9 +107,9 @@
         "answer": "Share the report or workflow you want to improve, the source systems, approximate data volumes, current tools and required refresh frequency. A description or sanitised example is enough for an initial conversation; credentials are not needed in an enquiry."
       }
     ],
-    "summary": "ETL/ELT pipelines, BigQuery and Redshift warehouses, data quality checks and reporting your team can trust.",
+    "summary": "ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.",
     "ogTitle": "Data engineering & ETL consulting",
-    "ogKicker": "Python · SQL · BigQuery · Redshift · Data quality · Reporting"
+    "ogKicker": "Python · SQL · BigQuery · Snowflake · Redshift · Data quality"
   },
   {
     "path": "/services/ai-consulting/",
@@ -86,43 +117,50 @@
     "name": "AI Automation, RAG & MCP Development",
     "title": "AI Automation, RAG & MCP Development Services | MV.tech",
     "description": "Build AI automation, RAG systems, MCP servers and custom AI solutions with MV.tech's senior remote consultants. Connect business data, tools and workflows.",
-    "intro": "Turn a specific business problem into a useful AI solution. MV.tech builds AI automation, retrieval-augmented generation systems, Model Context Protocol (MCP) integrations and custom assistants that connect approved company knowledge, tools and workflows.",
+    "intro": "Turn a specific business problem into a useful AI solution. MV.tech builds AI automation, retrieval-augmented generation systems, Model Context Protocol (MCP) servers, custom AI connectors and agentic workflows that link approved company knowledge, databases, APIs and internal tools to models such as GPT, Claude, Llama and Qwen.",
     "fitHeading": "Start with a workflow people already need",
     "fit": [
       "Employees spend time searching through documents to answer recurring operational questions.",
       "A prototype chatbot gives plausible answers but cannot show where they came from.",
       "Your product needs an assistant that can use approved business data, APIs or tools through MCP.",
+      "An enterprise AI platform needs a secure, token-aware connector into your database, finance or accounting systems.",
+      "People re-key figures out of documents, portals and emails because no reliable extraction step exists.",
+      "An analyst question could be answered by generated SQL, if someone validated the query and the result first.",
       "You need engineering help to evaluate and integrate an AI feature into an existing application."
     ],
     "deliverablesHeading": "Practical AI consulting services",
     "deliverables": [
       {
         "title": "RAG and knowledge search",
-        "text": "Plan document ingestion, retrieval and source references around a defined knowledge collection. Account for updates, permissions and questions the available material cannot answer."
+        "text": "Plan document ingestion, chunking, retrieval and source references around a defined knowledge collection. Account for updates, permissions and questions the available material cannot answer, and put retrieval behind your own access rules."
       },
       {
-        "title": "AI automation and custom assistants",
-        "text": "Connect an assistant to a support workflow, internal tool or customer application. Automate agreed steps, define permitted actions and keep a person in control of approvals and exceptions."
+        "title": "AI automation and agentic workflows",
+        "text": "Connect an assistant to a support workflow, internal tool or customer application. Multi-step workflows can retrieve context, generate SQL, validate a result and produce a formatted output, with permitted actions defined and a person in control of approvals and exceptions."
       },
       {
         "title": "MCP server and tool development",
-        "text": "Build Model Context Protocol servers that expose approved tools and data to compatible AI applications. Define tool inputs, resource access, authorisation and logging around the business systems being connected."
+        "text": "Build Model Context Protocol servers in Python that expose approved tools and data to compatible AI applications. Define tool inputs, resource access, authorisation through OAuth and managed secrets, and logging around the business systems being connected."
+      },
+      {
+        "title": "Custom AI connectors, plugins and skills",
+        "text": "Connect enterprise AI platforms and agents to databases, APIs and internal tools with scoped, token-aware access. Package recurring tasks — retrieval, SQL generation, validation, formatted export — as reusable connectors, plugins and AI skills rather than one-off prompts."
       },
       {
         "title": "Custom AI solutions",
-        "text": "Integrate document processing, classification, extraction or decision support into an existing workflow. Agree the expected output, validation rules and review path before automating a business action."
+        "text": "Integrate document processing, classification, extraction or decision support into an existing workflow. LLM-assisted extraction can pull structured records out of documents, APIs and web sources; agree the expected output, validation rules and review path before automating a business action."
       },
       {
         "title": "LLM and API integration",
-        "text": "Bring model responses into existing business logic and user interfaces. Validate inputs and outputs, handle failures and keep application permissions under server-side control."
+        "text": "Bring responses from GPT, Claude, Llama or Qwen into existing business logic and user interfaces. Validate inputs and outputs, handle failures, compare models against your own task, and keep application permissions under server-side control."
       },
       {
         "title": "Evaluation and operating controls",
-        "text": "Agree representative questions and expected behaviour. Review source grounding, unsupported answers, latency and usage cost before expanding the feature's audience."
+        "text": "Agree representative questions and expected behaviour. Review source grounding, unsupported answers, latency and usage cost before expanding the feature's audience. Where an assistant touches financial or audited systems, access is scoped with OAuth and managed secrets and every tool call is logged, which is the kind of evidence a SOC 2 programme asks for."
       }
     ],
     "scopeHeading": "A useful first project: a bounded knowledge assistant",
-    "scope": "Choose a defined set of documents and a small group of users. Collect questions they actually ask, including questions outside the documents' scope. A first release can then be assessed against source references, correct handling of missing information and the time it takes to find an answer. Wider access and automated actions can be scoped after those fundamentals are clear.",
+    "scope": "Choose a defined set of documents and a small group of users. Collect questions they actually ask, including questions outside the documents' scope. A first release can then be assessed against source references, correct handling of missing information and the time it takes to find an answer. Wider access, an MCP server, a connector into a live database or automated actions can be scoped once those fundamentals are clear.",
     "approach": [
       {
         "title": "Define the question and data",
@@ -140,12 +178,17 @@
     "tools": [
       "Python",
       "Model Context Protocol (MCP)",
-      "LLM APIs",
+      "Custom AI connectors",
+      "LLM APIs (GPT, Claude, Llama, Qwen)",
       "RAG",
       "Embeddings",
+      "Agentic workflows",
       "Document retrieval",
+      "OAuth",
+      "Secret management",
       "REST APIs",
-      "SQL"
+      "SQL",
+      "Streamlit"
     ],
     "questions": [
       {
@@ -154,7 +197,11 @@
       },
       {
         "question": "What is MCP development?",
-        "answer": "Model Context Protocol (MCP) provides a shared interface for AI applications to connect to tools and data. We can build an MCP server around your approved APIs or systems, define the tools and resources it exposes, and test it with the intended compatible clients. Access permissions and approval requirements remain part of the application design."
+        "answer": "Model Context Protocol (MCP) provides a shared interface for AI applications to connect to tools and data. We build MCP servers in Python around your approved APIs or systems, define the tools and resources they expose, handle authorisation with OAuth and managed secrets, and test them with the intended compatible clients. Access permissions and approval requirements remain part of the application design."
+      },
+      {
+        "question": "Can an AI agent query our databases safely?",
+        "answer": "It can, when access is engineered rather than prompted. In practice that means a connector or MCP server that authenticates as a scoped service identity, exposes only approved tables or endpoints, generates SQL against a governed reporting layer, validates the query and the result before returning it, and logs every call. Whitelists and read-only access keep an agent away from anything it has no business touching."
       },
       {
         "question": "Do we need to train our own AI model?",
@@ -169,7 +216,7 @@
         "answer": "The main factors are source preparation, integrations, permission rules, evaluation, user interface and support. Ongoing costs also depend on model usage, retrieval infrastructure and traffic. These should be considered alongside the build estimate."
       }
     ],
-    "summary": "Knowledge assistants grounded in your documents, MCP servers exposing approved tools, and LLM features with evaluation built in.",
+    "summary": "Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.",
     "ogTitle": "AI automation, RAG & MCP development",
     "ogKicker": "Knowledge assistants · MCP servers · LLM integration · Evaluation"
   },
@@ -179,11 +226,13 @@
     "name": "Workflow Automation Consulting",
     "title": "Workflow Automation & API Integration Services | MV.tech",
     "description": "Automate repetitive business workflows, API integrations and reporting with MV.tech's remote consultants. Reliable jobs, checks and clear ownership.",
-    "intro": "Connect the steps between your business systems. MV.tech builds API integrations, scheduled workflows and operational automation that reduce repeated manual work and make failures visible.",
+    "intro": "Connect the steps between your business systems. MV.tech builds API integrations, scheduled workflows, spreadsheet and add-on automation, and the operational plumbing around them — reducing repeated manual work and making failures visible.",
     "fitHeading": "Where business automation can help",
     "fit": [
       "People repeatedly move the same records between business tools and spreadsheets.",
       "Scheduled reports rely on manual downloads, cleanup and distribution.",
+      "Finance or operations reconcile two systems by hand every month and the differences are never documented.",
+      "A spreadsheet has quietly become a business system, with formulas and scripts nobody owns.",
       "An integration works on the happy path but produces duplicate actions after a retry.",
       "A script runs in the background without clear ownership, status checks or recovery steps."
     ],
@@ -191,23 +240,31 @@
     "deliverables": [
       {
         "title": "API and webhook integrations",
-        "text": "Connect approved business systems using their supported interfaces. Handle pagination, rate limits, authentication and changes in source records."
+        "text": "Connect approved business systems using their supported interfaces: REST APIs, webhooks, OAuth flows and blockchain RPCs. Handle pagination, rate limits, authentication and changes in source records."
       },
       {
         "title": "Scheduled business workflows",
-        "text": "Automate recurring data pulls, report preparation, exports and status checks. Define the schedule, inputs and expected output for each step."
+        "text": "Automate recurring data pulls, report preparation, exports and status checks in Python and SQL. Define the schedule, inputs and expected output for each step, and run them somewhere accountable — Cloud Run, a container or scheduled CI, rather than a laptop."
       },
       {
-        "title": "Validation and exception handling",
-        "text": "Add checks before data is written or a downstream action is triggered. Design retries, duplicate prevention and review paths around the impact of a failed step."
+        "title": "Spreadsheet and add-on automation",
+        "text": "Where the process genuinely lives in Google Sheets or Excel, automate it there: Google Apps Script jobs, Sheets add-ons, controlled exports and usage logging. Keep the calculation in a governed source and let the spreadsheet be the interface."
       },
       {
-        "title": "Monitoring and ownership",
-        "text": "Provide logs, useful alerts and operating documentation. Make it clear who maintains a workflow and how to recover or rerun it when a dependency fails."
+        "title": "Reconciliation and exception handling",
+        "text": "Add checks before data is written or a downstream action is triggered: matching, tolerance rules, duplicate prevention and retries. Where a figure must be adjusted by hand, an override layer can record the change without altering the immutable source record, which leaves an audit trail instead of an argument."
+      },
+      {
+        "title": "Web and document data extraction",
+        "text": "Collect data that has no API. Maintainable Python scraping of dynamic pages and authenticated portals, respecting source terms and rate limits, plus LLM-assisted extraction from documents where the layout keeps changing."
+      },
+      {
+        "title": "Monitoring, deployment and ownership",
+        "text": "Provide logs, useful alerts and operating documentation, with deployment through Docker and GitHub Actions so a change is reviewable. Make it clear who maintains a workflow and how to recover or rerun it when a dependency fails."
       }
     ],
     "scopeHeading": "A useful first project: one repeated manual handoff",
-    "scope": "Pick a recurring handoff with a clear input and output, such as preparing a weekly report from several systems. Document what people check today, including exceptions. The project can then automate the repeatable steps while preserving review where judgment is required. Assess the result using completion time, exception frequency and the effort needed to recover a failed run.",
+    "scope": "Pick a recurring handoff with a clear input and output, such as preparing a weekly report from several systems or reconciling two ledgers. Document what people check today, including exceptions and the adjustments they make by hand. The project can then automate the repeatable steps while preserving review where judgment is required. Assess the result using completion time, exception frequency, how much manual reconciliation is left and the effort needed to recover a failed run.",
     "approach": [
       {
         "title": "Observe the current workflow",
@@ -226,9 +283,15 @@
       "Python",
       "REST APIs",
       "Webhooks",
+      "OAuth",
       "SQL",
+      "Google Apps Script",
+      "Google Sheets add-ons",
+      "Cloud Run",
+      "Docker",
+      "GitHub Actions",
       "Scheduled jobs",
-      "Business systems",
+      "Cloud Logging",
       "Reporting workflows"
     ],
     "questions": [
@@ -249,7 +312,7 @@
         "answer": "Yes. An initial review can establish the code, schedules, dependencies, access requirements and failure history. We can then scope a repair, documentation or ongoing support engagement."
       }
     ],
-    "summary": "Scheduled workflows, webhooks and API integrations that replace manual hand-offs and make failures visible.",
+    "summary": "Scheduled workflows, webhooks, Apps Script and API integrations that replace manual hand-offs and make failures visible.",
     "ogTitle": "Workflow automation & API integration",
     "ogKicker": "Scheduled workflows · Webhooks · Validation · Monitoring"
   },
@@ -259,12 +322,14 @@
     "name": "Custom Software Development",
     "title": "Custom Software & Web App Development | MV.tech",
     "description": "Hire senior remote developers for business apps, client portals, dashboards and API integrations. MV.tech works alongside your team across timezones.",
-    "intro": "Build software around the way your business works. MV.tech develops web applications, client portals, dashboards and internal tools, with the interface, data and integrations considered together.",
+    "intro": "Build software around the way your business works. MV.tech develops web applications, client portals, internal tools and data apps in TypeScript, JavaScript and Python, with the interface, data model and integrations considered together.",
     "fitHeading": "When a custom application makes sense",
     "fit": [
       "Your team runs an important process through spreadsheets, email and repeated manual follow-up.",
       "Customers need a portal for records, requests or service updates.",
       "An existing application needs a better interface, a new integration or more reliable reporting.",
+      "Analysts need a filterable interface over warehouse data, not another static export.",
+      "A dashboard cannot express the workflow: people need to review, adjust and approve records as well as read them.",
       "You need senior development capacity to deliver a defined workstream with your product team."
     ],
     "deliverablesHeading": "Software development services",
@@ -279,11 +344,15 @@
       },
       {
         "title": "APIs and data backends",
-        "text": "Connect the product to databases, business systems and reporting workflows. Define validation, failure handling and how records stay consistent."
+        "text": "Connect the product to PostgreSQL, a cloud warehouse, business systems and reporting workflows. Define validation, failure handling and how records stay consistent across services."
+      },
+      {
+        "title": "Internal data apps and dashboards",
+        "text": "Where the audience is internal and the data is the product, a Streamlit or Plotly application is often the right answer: filterable tables with date ranges and live record counts, drill-downs into the underlying records, and exports that match what the screen shows."
       },
       {
         "title": "Release and maintainability",
-        "text": "Scope testing, deployment, monitoring and documentation alongside development. Make future fixes and enhancements part of the handover conversation."
+        "text": "Scope testing, deployment, monitoring and documentation alongside development — Pytest, Docker and GitHub Actions where they fit your stack. Make future fixes and enhancements part of the handover conversation."
       }
     ],
     "scopeHeading": "A useful first project: one complete user journey",
@@ -303,11 +372,16 @@
       }
     ],
     "tools": [
+      "TypeScript",
       "JavaScript",
       "Python",
       "SQL",
+      "PostgreSQL",
       "REST APIs",
-      "Web applications",
+      "Streamlit",
+      "Plotly",
+      "Docker",
+      "GitHub Actions",
       "AWS",
       "Google Cloud"
     ],
@@ -329,7 +403,7 @@
         "answer": "Yes. MV.tech is remote-first and can plan overlap with teams in any timezone. We agree recurring collaboration windows for reviews and releases, supported by written updates between meetings."
       }
     ],
-    "summary": "Business web applications, client portals, dashboards and internal tools with APIs and data backends designed together.",
+    "summary": "Business web applications, client portals, internal tools and Streamlit data apps with APIs and data backends designed together.",
     "ogTitle": "Custom software & web app development",
     "ogKicker": "Business apps · Client portals · Dashboards · APIs"
   },
@@ -339,7 +413,7 @@
     "name": "IT Staff Augmentation",
     "title": "IT Staff Augmentation & Dedicated Remote Teams | MV.tech",
     "description": "Add remote AI, data, software and cloud consultants to your team with MV.tech. Flexible timezone overlap, direct collaboration and clearly scoped capacity.",
-    "intro": "Add specialist capacity to your existing team. MV.tech provides remote technology consultants for AI, data engineering, software and cloud work, with responsibilities, availability and timezone overlap agreed around your delivery needs.",
+    "intro": "Add specialist capacity to your existing team. MV.tech provides remote technology consultants for AI, data engineering, analytics engineering, software and cloud work — from warehouse migrations and semantic models to MCP servers and automation — with responsibilities, availability and timezone overlap agreed around your delivery needs.",
     "callLabel": "Discuss your team needs",
     "enquiryFields": [
       "Role and required skills",
@@ -355,6 +429,7 @@
     "fit": [
       "You need an experienced engineer for an active workstream without opening a permanent role.",
       "Your team needs specialist AI, RAG, MCP, data or cloud capability for a defined phase.",
+      "A warehouse migration or BI rebuild needs a specialist for its discovery, modelling and reconciliation phases.",
       "A delivery backlog needs additional hands-on capacity alongside your existing technical leads.",
       "You want remote consultants who participate in your team's reviews and agreed working hours."
     ],
@@ -362,11 +437,15 @@
     "deliverables": [
       {
         "title": "AI and data specialists",
-        "text": "Discuss consultants for AI automation, RAG systems, MCP integrations, Python, SQL, ETL, analytics and cloud data platforms. Match the required skills to the actual workstream and level of ownership."
+        "text": "Discuss consultants for AI automation, RAG systems, MCP servers and custom connectors, Python, SQL, ETL and cloud data platforms including BigQuery, Snowflake, Redshift and PostgreSQL. Match the required skills to the actual workstream and level of ownership."
+      },
+      {
+        "title": "Analytics engineering and BI specialists",
+        "text": "Capacity for dimensional and semantic modelling, curated warehouse layers, source-to-target mapping, reconciliation and dashboard work in Power BI, Tableau, Looker Studio or Streamlit, including review of existing SSAS and Analysis Services models."
       },
       {
         "title": "Software and cloud consultants",
-        "text": "Add capacity for business applications, APIs, integrations and cloud implementation. Review technical fit, existing codebase conventions and deployment responsibilities before the engagement begins."
+        "text": "Add capacity for business applications, APIs, integrations and cloud implementation across AWS, Google Cloud and Azure. Review technical fit, existing codebase conventions and deployment responsibilities before the engagement begins."
       },
       {
         "title": "Dedicated remote collaboration",
@@ -397,9 +476,12 @@
     "tools": [
       "AI and MCP developers",
       "Data engineers",
+      "Analytics engineers",
+      "BI and semantic modelling specialists",
       "Software developers",
       "Cloud consultants",
-      "BI specialists",
+      "Automation specialists",
+      "Blockchain data engineers",
       "Remote teams"
     ],
     "questions": [
@@ -420,7 +502,7 @@
         "answer": "Yes. MV.tech also offers technology recruitment for permanent roles within a client's organisation. Recruitment and consultant staffing are separate engagements with their own scope and commercial terms."
       }
     ],
-    "summary": "Senior data, software, cloud and AI consultants embedded in your team, in your tools and hours, for an agreed capacity.",
+    "summary": "Senior data, analytics, software, cloud and AI consultants embedded in your team, in your tools and hours, for an agreed capacity.",
     "ogTitle": "IT staff augmentation & dedicated remote teams",
     "ogKicker": "Senior consultants in your team · Agreed capacity · Your hours"
   },
@@ -430,7 +512,7 @@
     "name": "Technology Recruitment",
     "title": "Technology Recruitment & Permanent IT Hiring | MV.tech",
     "description": "Hire permanent AI, data, software and cloud professionals with MV.tech. Technology recruitment shaped around your role, technical needs and hiring process.",
-    "intro": "Build your in-house technology team. MV.tech supports permanent recruitment for AI, data, software and cloud roles, bringing an engineering perspective to role definition, candidate fit and the hiring conversation.",
+    "intro": "Build your in-house technology team. MV.tech supports permanent recruitment for AI, data, analytics, software and cloud roles — data and analytics engineers, BI developers, platform and automation engineers, AI and MCP specialists — bringing an engineering perspective to role definition, candidate fit and the hiring conversation.",
     "callLabel": "Discuss your hiring needs",
     "enquiryFields": [
       "Role title and required skills",
@@ -461,7 +543,7 @@
       },
       {
         "title": "Technical fit discussions",
-        "text": "Bring an engineering perspective to experience and problem-solving discussions. Agree the depth of screening, any assessment and your team's final interview requirements before the search begins."
+        "text": "Bring an engineering perspective to experience and problem-solving discussions, whether the role calls for SQL and warehouse modelling, pipeline engineering, BI and semantic models, or LLM and MCP work. Agree the depth of screening, any assessment and your team's final interview requirements before the search begins."
       },
       {
         "title": "Interview and selection coordination",
@@ -526,6 +608,7 @@
     "fit": [
       "A scoped project with defined deliverables, review points and acceptance criteria.",
       "Specialist capacity working alongside your existing engineering or product team.",
+      "A warehouse migration, BI rebuild or AI automation programme that needs senior hands for a defined phase.",
       "Ongoing improvement of data pipelines, applications and automation workflows.",
       "A focused review to clarify an unreliable system or plan the next delivery milestone."
     ],
@@ -537,7 +620,7 @@
       },
       {
         "title": "Direct access to specialists",
-        "text": "Work with the people responsible for the implementation. Our team combines data, software, cloud, automation and AI capabilities, including Toptal-vetted talent and consultants with GCP and IBM credentials."
+        "text": "Work with the people responsible for the implementation. The team covers pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and BI layers for Power BI, Tableau, Looker Studio and Streamlit, application and API development, and AI automation with RAG, MCP servers and custom connectors — including Toptal-vetted talent and consultants with GCP and IBM credentials."
       },
       {
         "title": "A lean cost structure",

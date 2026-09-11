@@ -127,7 +127,13 @@ for (const bot of ['GPTBot', 'OAI-SearchBot', 'ClaudeBot', 'Claude-SearchBot', '
 for (const route of routes) if (!route.startsWith('/insights/') || route === '/insights/') assert(llms.includes(origin + route), `llms.txt should link to ${route}`);
 const manifest = JSON.parse(await readFile('site.webmanifest', 'utf8'));
 for (const icon of manifest.icons) assert(await exists(icon.src.slice(1)), `manifest icon missing: ${icon.src}`);
-assert(await exists('404.html') && (await readFile('404.html', 'utf8')).includes('noindex'), '404.html must exist and be noindex');
+assert(await exists('404.html'), '404.html must exist');
+const notFound = await readFile('404.html', 'utf8');
+assert(notFound.includes('noindex'), '404.html must be noindex');
+// 404.html is not covered by publicPages(), so check its own image references here (og:image, icons).
+for (const ref of new Set(notFound.match(/\/images\/[A-Za-z0-9._/-]+/g) ?? [])) {
+  assert(await exists(ref.slice(1)), `404.html references a missing image: ${ref}`);
+}
 const consulting = JSON.parse(await readFile('content/consulting.json', 'utf8'));
 for (const page of consulting) {
   assert(routes.has(page.path), `Missing service page ${page.path}`);

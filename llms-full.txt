@@ -1,15 +1,15 @@
 # MV.tech — full site context for AI assistants and crawlers
 
-> MV.tech is a remote-first data engineering, software development and AI consultancy based in Ahmedabad, India. Its senior specialists work with clients worldwide, planning working hours that overlap any timezone, with a lean model that avoids large-consultancy overhead.
+> MV.tech is a remote-first data engineering, software development and AI consultancy based in Ahmedabad, India. It builds cloud warehouses and ETL pipelines, warehouse migrations, semantic and BI layers, workflow automation and AI systems using RAG, MCP servers and custom AI connectors. Its senior specialists work with clients worldwide, planning working hours that overlap any timezone, with a lean model that avoids large-consultancy overhead.
 
 Official website: https://mvtech.solutions/
 Brand name: MV.tech (also searched as MV Tech, MVTech, M V Tech, MV Tech Solutions, MV Tech Data Solutions, MV Tech Ahmedabad)
-Contact: contact@mvtech.solutions · Book a call: https://calendly.com/contact-mvtech/30min
+Contact: contact@mvtech.solutions · Book a call: https://calendly.com/contact-mvtech/new-meeting
 Founder: Meet Vaghasia, Founder & Lead Engineer (https://www.toptal.com/developers/resume/meet-vaghasia)
 LinkedIn: https://www.linkedin.com/company/mv-tech-data/
 Location: Ahmedabad, Gujarat, India · Serves clients worldwide with agreed timezone overlap
 Teams our engineers have worked with: Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, Turing. Names reflect organisations MV.tech's team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.
-Last generated: 2026-09-10. Short summary and answer guidance: https://mvtech.solutions/llms.txt
+Last generated: 2026-09-11. Short summary and answer guidance: https://mvtech.solutions/llms.txt
 
 This file is generated from the public pages listed below, so it always matches what visitors see. Each section is one page: title, canonical URL, meta description, then the page text.
 
@@ -19,7 +19,7 @@ This file is generated from the public pages listed below, so it always matches 
 
 URL: https://mvtech.solutions/
 Description: Remote-first data engineering, software and AI consultancy from Ahmedabad, India. Senior specialists who work in your timezone, without large-consultancy overhead.
-Last modified: 2026-09-10
+Last modified: 2026-09-11
 
 Remote-first data, software & AI consultancy
 
@@ -28,7 +28,7 @@ Remote-first data, software & AI consultancy
 MV.tech builds data pipelines, business software, automation and AI systems for companies worldwide. You work directly with the specialists doing the engineering, we plan our hours around yours, and you never pay for offices, account layers or a bench.
 
 - Overlap agreed for US, UK, EU, Gulf & APAC hours
-- Toptal-vetted, Google Cloud & IBM certified
+- Founder is Toptal-vetted and Google Cloud certified
 - Written scope before any work starts
 Our engineers have worked with
 
@@ -49,7 +49,7 @@ What we do
 
 #### Data engineering consulting
 
-ETL and ELT pipelines, BigQuery and Redshift warehouses, data quality checks and reporting your team can trust. Python and SQL done properly.
+ETL and ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations off legacy reporting, semantic models and data quality checks. Python and SQL done properly.
 
 02 / Software
 
@@ -117,12 +117,12 @@ Who you work with
 
 ### A focused senior team, led by an engineer.
 
-MV.tech was founded by Meet Vaghasia, a data and software engineer with hands-on delivery experience across data platforms, analytics, cloud, automation and AI. The team is deliberately small: specialists in data, software, cloud and AI who have shipped in enterprise and start-up environments and prefer doing the work to managing it.
+MV.tech was founded by Meet Vaghasia, a senior data and AI engineer whose hands-on work spans BigQuery, Snowflake and Redshift warehouses, semantic and BI layers for Power BI, Tableau and Looker Studio, and AI automation with RAG, MCP servers and custom connectors. The team is deliberately small: specialists in data, software, cloud and AI who have shipped in enterprise and start-up environments and prefer doing the work to managing it.
 
 About MV.techMeet Vaghasia on ToptalExpertise and credentials
 6+ yrsDelivering data, software and automation systems for real operating teams
 Top 3%Toptal-vetted engineering talent behind the delivery (founder profile)
-GCP · IBMGoogle Cloud and IBM certified delivery capability
+GCP · IBMGoogle Cloud Professional Data Engineer and IBM Mastery Awards held by the founder
 Any timezoneAgreed overlap with clients in North America, Europe, the Gulf and Asia-Pacific
 Common questions
 
@@ -159,14 +159,14 @@ Describe the goal, the systems involved and your preferred working hours. A 30-m
 # About MV.tech | Remote-First Engineering Consultancy from India
 
 URL: https://mvtech.solutions/about/
-Description: MV.tech is a remote-first data, software and AI consultancy founded by engineer Meet Vaghasia in Ahmedabad, India. Meet the team, our credentials and how we work.
-Last modified: 2026-09-10
+Description: MV.tech is a remote-first data, software and AI consultancy founded by engineer Meet Vaghasia in Ahmedabad, India. Our team, credentials and how we work.
+Last modified: 2026-09-11
 
 About MV.tech
 
 ## A remote-first team of senior engineering specialists.
 
-MV.tech is a data engineering, software development and AI consultancy based in Ahmedabad, India. We work with companies worldwide, plan our working hours around theirs, and keep the team deliberately small so clients always deal with the people doing the engineering.
+MV.tech is a data engineering, software development and AI consultancy based in Ahmedabad, India. We build cloud warehouses and pipelines, the analytics and BI layers on top of them, business software and AI automation. We work with companies worldwide, plan our working hours around theirs, and keep the team deliberately small so clients always deal with the people doing the engineering.
 
 - Ahmedabad, Gujarat, India
 - Clients in North America, Europe, the Gulf and Asia-Pacific
@@ -176,9 +176,11 @@ Founder
 
 ### Led by an engineer, not an account manager.
 
-#### Meet Vaghasia — Founder & Lead Engineer
+### Meet Vaghasia — Founder & Lead Engineer
 
-Meet is a data and software engineer who has built data pipelines, analytics platforms, cloud infrastructure, automation and AI systems for start-ups and large organisations. He is Toptal-vetted (Top 3% of applicants) and holds Google Cloud and IBM credentials. He founded MV.tech to give companies direct access to senior engineering without the layers, bench costs and hand-offs of a large consultancy.
+Meet is a senior data and AI engineer. His hands-on work covers Python and SQL pipelines into BigQuery, Snowflake, Redshift and PostgreSQL, enterprise analytics migrations off legacy databases and manual reporting, dimensional and semantic models behind Power BI, Tableau, Looker Studio and Streamlit, and AI automation built with RAG, Model Context Protocol servers and custom AI connectors. He is Toptal-vetted (Top 3% of applicants) and holds Google Cloud and IBM credentials.
+
+That experience runs from enterprise reporting estates and financial data platforms through to on-chain analytics, which is why MV.tech treats reconciliation, access control, documentation and handover as part of the build rather than a later phase. He founded the company to give clients direct access to senior engineering without the layers, bench costs and hand-offs of a large consultancy.
 
 Toptal profileMV.tech on LinkedInExpertise and credentials
 How we operate
@@ -213,7 +215,7 @@ Experience
 
 ### Shaped by work in demanding environments.
 
-MV.tech is a compact company, but the experience behind it comes from enterprise, platform and product work. Our engineers have delivered for organisations including Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal and Turing, directly or through vetted talent platforms. That background shows in how we treat data quality, access control, documentation and handover.
+MV.tech is a compact company, but the experience behind it comes from enterprise, platform and product work: analytics modernisation programmes moving legacy reporting into a cloud warehouse, financial and operational data platforms where every figure has to reconcile, and AI automation connected to real business systems. Our engineers have delivered for organisations including Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal and Turing, directly or through vetted talent platforms. That background shows in how we treat data quality, access control, documentation and handover.
 
 Our engineers have worked with
 
@@ -237,7 +239,7 @@ Company facts
 - Registration
   Registered for Goods and Services Tax in India, GSTIN 24BZMPV4008F1ZA. Invoicing currency and payment terms are agreed per engagement.
 - Services
-  Data engineering, custom software, workflow automation, AI development (RAG and MCP), IT staff augmentation and technology recruitment.
+  Data engineering and warehouse migration, analytics and BI layers, custom software, workflow automation, AI development (RAG, MCP and custom connectors), IT staff augmentation and technology recruitment.
 - Working hours
   Core hours in India Standard Time (UTC+5:30), with collaboration windows agreed per client for US, UK, European, Gulf and Asia-Pacific timezones.
 - Contact
@@ -254,7 +256,7 @@ A 30-minute conversation with the engineers who would do the work. No sales deck
 
 URL: https://mvtech.solutions/compliance/
 Description: How MV.tech handles client data, credentials and access: secure remote delivery, accessibility, website analytics and responsible use of automation and AI.
-Last modified: 2026-09-10
+Last modified: 2026-09-11
 
 Trust, security & compliance
 
@@ -289,7 +291,7 @@ This website
 - Information you send us
   Details submitted by email or through our scheduling link are used to respond to your enquiry, prepare proposals, deliver agreed services and maintain client communication. We do not sell or share enquiry data with third parties for marketing.
 - Analytics
-  This site uses Google Analytics 4 to understand aggregate traffic and improve the website. Analytics measures clicks on contact links as "intent", not as confirmed enquiries. You can manage cookies and tracking preferences through your browser settings.
+  This site uses Google Analytics 4 to understand aggregate traffic and improve the website. Analytics measures clicks on contact links as "intent", not as confirmed enquiries. Google Analytics loads when a page loads and sets its cookies immediately; this site does not show a consent banner, so there is no prompt to accept or reject it. To opt out, block analytics cookies or the googletagmanager.com domain in your browser settings or an extension, use a browser that blocks trackers by default, or install Google'sAnalytics opt-out add-on.
 - Scheduling
   Calls are booked through Calendly. When you use the embedded calendar or booking link, Calendly's own privacy policy applies to the information you enter there.
 - No accounts or portals
@@ -318,7 +320,7 @@ Procurement, security and legal questions are easiest to answer at the scoping s
 
 URL: https://mvtech.solutions/contact/
 Description: Talk to MV.tech's engineers about a data, software, automation or AI project, an embedded consultant or a permanent hire. Book a 30-minute call or email us.
-Last modified: 2026-09-10
+Last modified: 2026-09-11
 
 Contact
 
@@ -338,7 +340,7 @@ A 30-minute video call. Choose any slot shown in your local time; the calendar a
 
 The booking calendar loads here.
 
-Or open it in a new tab: calendly.com/contact-mvtech/30min
+Or open it in a new tab: calendly.com/contact-mvtech/new-meeting
 
 Option 2
 
@@ -379,67 +381,99 @@ Three things to bring
 # Expertise & Credentials: Data, Cloud, Software & AI | MV.tech
 
 URL: https://mvtech.solutions/expertise/
-Description: Our expertise across data engineering, analytics, cloud (AWS, GCP), software, automation and AI, backed by Toptal vetting and Google Cloud and IBM credentials.
-Last modified: 2026-09-10
+Description: The MV.tech stack: Python, SQL, BigQuery, Snowflake, Redshift, Power BI, AWS, GCP, Azure, RAG and MCP, plus Toptal vetting and Google Cloud credentials.
+Last modified: 2026-09-11
 
 Expertise & credibility
 
 ## Senior data, software, cloud and AI expertise for real delivery.
 
-The work combines hands-on engineering, certified cloud knowledge, careful automation and end-to-end monitoring, so systems stay useful long after launch. Here is what we know well, what we have been vetted on, and the environments that shaped our standards.
+The work combines hands-on engineering, certified cloud knowledge, careful automation and end-to-end monitoring, so systems stay useful long after launch. Here is the stack we actually work in day to day, what we have been vetted on, and the environments that shaped our standards.
 
 6+ yearsDelivering practical data, software and automation systems for operating teams
 Top 3%Toptal-vetted engineering talent; the credential belongs to the founder's linked profile
-GCP & IBMGoogle Cloud and IBM certified delivery capability
+GCP & IBMGoogle Cloud Professional Data Engineer; IBM Big Data Engineer Mastery Award, held by the founder
 End to endFrom source systems and pipelines to interfaces, monitoring and handover
 Tools & technologies
 
 ### The stack we use across data, product, cloud and AI delivery.
 
-#### Data engineering & BI
+#### Data engineering & warehousing
 
-Python, SQL, BigQuery, Amazon Redshift, dbt-style SQL modelling, Tableau, data validation and reconciliation checks, reporting layers and metric definitions.
+Python and SQL pipelines into BigQuery, Snowflake, Amazon Redshift or PostgreSQL, split into raw, staging, curated and reporting layers. Incremental loads, scheduled refreshes, automated backfills, Parquet extracts and query tuning. Includes cross-chain transaction data decoded with contract ABIs and Web3.py.
 
 - Python
 - SQL
 - BigQuery
+- Snowflake
 - Redshift
+- PostgreSQL
+- dbt-style modelling
+- Parquet
+- On-chain data
+
+#### Analytics, BI & semantic models
+
+Fact and dimension models with an agreed grain, conformed dimensions and curated SQL views behind every dashboard. Reporting in Power BI, Tableau, Looker Studio, Streamlit and Plotly, plus review of existing SSAS or Analysis Services models and Salesforce CRM Analytics datasets, recipes and dataflows.
+
+- Power BI
 - Tableau
-- Data modelling
-- Data quality
+- Looker Studio
+- Streamlit
+- Plotly
+- Semantic models
+- SSAS / Analysis Services
+- Salesforce CRM Analytics
 
-#### Cloud & automation
+#### Cloud, delivery & automation
 
-AWS and Google Cloud services for storage, compute, orchestration and warehousing; scheduled jobs, monitoring scripts, workflow automation and repeatable deployment patterns.
+Google Cloud, AWS and Azure services for storage, compute, orchestration and warehousing: BigQuery, Cloud Run, Cloud Logging, Secret Manager and Apps Script; S3, EC2 and Redshift; Azure Data Factory, Azure SQL, Blob Storage and Data Lake ingestion. Scheduled jobs, containers, monitoring and reviewable deployments.
 
-- AWS
 - Google Cloud
+- AWS
+- Azure
+- Docker
+- GitHub Actions
+- CI/CD
 - Scheduling
 - Monitoring
-- CI/CD
-- Infrastructure hygiene
 
 #### Software & web applications
 
-JavaScript and modern component-based interfaces, responsive layouts, dashboards, portals and admin panels, REST APIs and integrations with business systems.
+TypeScript, JavaScript and Python behind responsive interfaces, client portals, admin panels and internal tools. REST APIs, OAuth flows and webhooks into business systems, plus Streamlit and Plotly data apps with filterable tables, date ranges and live record counts when the audience is internal.
 
+- TypeScript
 - JavaScript
-- React-style UI
+- Python
 - REST APIs
 - Portals
-- Dashboards
+- Streamlit apps
 - Accessibility
 
-#### AI automation & solutions
+#### AI automation, RAG & MCP
 
-Retrieval-augmented generation, Model Context Protocol servers and tools, custom assistants, LLM API integration, evaluation of answer quality, structured outputs and AI workflows with human approval.
+Retrieval-augmented generation over a defined knowledge set, Model Context Protocol servers in Python, custom AI connectors, plugins and reusable AI skills, and agentic workflows that retrieve context, generate SQL, validate the result and stop for approval. GPT, Claude, Llama and Qwen integrated behind your own access rules.
 
 - RAG
-- MCP
+- MCP servers
+- AI connectors
 - LLM APIs
+- Agentic workflows
 - Embeddings
 - Evaluation
 - Guardrails
+
+#### Data quality, governance & access
+
+Validation and reconciliation frameworks comparing record counts, date coverage, nulls, duplicates, totals and metrics between stages and systems. Metadata profiling, dependency and lineage analysis, outlier detection and alerting, and access control with OAuth and managed secrets that supports SOC 2 programmes.
+
+- Data quality
+- Reconciliation
+- Metadata profiling
+- Lineage analysis
+- OAuth
+- Secret management
+- Audit trails
 Who we work with
 
 ### From first product to enterprise data teams.
@@ -448,15 +482,15 @@ Whether you are validating a first product or modernising a large reporting esta
 
 #### Early-stage start-ups
 
-First data and product infrastructure built with scale in mind but without premature complexity.
+First data and product infrastructure built with scale in mind but without premature complexity: one warehouse, clear definitions, a dashboard people believe.
 
 #### Growth-stage companies
 
-Systems that handle increasing complexity, operational load and reporting needs without a rewrite.
+Systems that handle increasing complexity, operational load and reporting needs without a rewrite, including the reconciliation and data quality checks that growth exposes.
 
 #### Enterprise data teams
 
-Modernising legacy workflows, adding cloud-native components and specialist capacity alongside internal teams.
+Migrating legacy databases and manual reporting into Snowflake or BigQuery, rebuilding semantic and BI layers, and adding specialist capacity alongside internal teams.
 
 Our engineers have worked with
 
@@ -476,9 +510,9 @@ Credentials
 - Toptal (Top 3% of applicants)
   Founder Meet Vaghasia passed Toptal's multi-stage screening for senior engineering talent.View the Toptal profile. The credential applies to the linked individual profile, not automatically to every team member.
 - Google Cloud
-  Certified delivery capability on Google Cloud Platform, applied to BigQuery warehousing, data pipelines and cloud infrastructure work.
+  Founder Meet Vaghasia holds the Google Cloud Professional Data Engineer certification, listed with its issue date on hisToptal profile. It applies to that individual, not automatically to every team member.
 - IBM
-  IBM certified delivery capability referenced publicly on this site, supporting data and analytics engineering work.
+  Founder Meet Vaghasia holds IBM’s Big Data Engineer Mastery Award and Artificial Intelligence Analyst Mastery Award, both listed on hisToptal profile. They apply to that individual, not automatically to every team member.
 - Company registration
   MV.tech is registered for Goods and Services Tax in India (GSTIN 24BZMPV4008F1ZA), based in Ahmedabad, Gujarat.
 Put it to the test
@@ -493,7 +527,7 @@ You will speak with the engineers who would do the work. Bring your stack, your 
 
 URL: https://mvtech.solutions/faq/
 Description: Answers about MV.tech: where we are based, timezone overlap with US, UK, EU and Australian clients, costs, services, credentials, security and how projects start.
-Last modified: 2026-09-10
+Last modified: 2026-09-11
 
 FAQ
 
@@ -739,7 +773,7 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech. He is a data and software engineer with hands-on experience across data engineering, analytics, cloud platforms, automation and AI systems, and is Toptal-vetted (Top 3%) with Google Cloud and IBM credentials.
+Meet Vaghasia is the founder of MV.tech. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
 
 About MV.techToptal profileServices
 Your next step
@@ -845,7 +879,7 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech. He is a data and software engineer with hands-on experience across data engineering, analytics, cloud platforms, automation and AI systems, and is Toptal-vetted (Top 3%) with Google Cloud and IBM credentials.
+Meet Vaghasia is the founder of MV.tech. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
 
 About MV.techToptal profileServices
 Your next step
@@ -944,7 +978,7 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech. He is a data and software engineer with hands-on experience across data engineering, analytics, cloud platforms, automation and AI systems, and is Toptal-vetted (Top 3%) with Google Cloud and IBM credentials.
+Meet Vaghasia is the founder of MV.tech. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
 
 About MV.techToptal profileServices
 Your next step
@@ -1057,7 +1091,7 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech. He is a data and software engineer with hands-on experience across data engineering, analytics, cloud platforms, automation and AI systems, and is Toptal-vetted (Top 3%) with Google Cloud and IBM credentials.
+Meet Vaghasia is the founder of MV.tech. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
 
 About MV.techToptal profileServices
 Your next step
@@ -1161,7 +1195,7 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech. He is a data and software engineer with hands-on experience across data engineering, analytics, cloud platforms, automation and AI systems, and is Toptal-vetted (Top 3%) with Google Cloud and IBM credentials.
+Meet Vaghasia is the founder of MV.tech. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
 
 About MV.techToptal profileServices
 Your next step
@@ -1176,13 +1210,17 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/process/
 Description: How MV.tech delivers remote engineering projects: a 30-minute scoping call, a written first milestone, reviewable increments in your timezone and a documented handover.
-Last modified: 2026-09-10
+Last modified: 2026-09-11
 
 How we work
 
 ## A clear remote delivery process from idea to production.
 
 Execution first, without burying the project in ceremony. Every engagement follows the same five steps, whether we own a scoped project or work embedded in your team. You always know what is being built, who is doing it, and what happens next.
+
+The engagement
+
+### Five steps from first call to handover.
 
 - 01 — Understand the goal — A 30-minute call to clarify what you are building, who it is for, the systems involved and what success looks like. We tell you honestly whether we are the right fit.
 - 02 — Scope the first milestone — A written proposal with deliverables, acceptance criteria, assumptions, review points and the overlap hours in your timezone. Nothing starts until this is agreed.
@@ -1233,7 +1271,7 @@ Bring the goal, the systems involved and your preferred working hours. You leave
 
 URL: https://mvtech.solutions/remote-consulting/
 Description: How MV.tech's senior consultants in India work with clients worldwide: collaboration windows by region, engagement models and where the cost difference comes from.
-Last modified: 2026-09-10
+Last modified: 2026-09-11
 
 How we work
 
@@ -1251,6 +1289,7 @@ The starting point
 
 - A scoped project with defined deliverables, review points and acceptance criteria.
 - Specialist capacity working alongside your existing engineering or product team.
+- A warehouse migration, BI rebuild or AI automation programme that needs senior hands for a defined phase.
 - Ongoing improvement of data pipelines, applications and automation workflows.
 - A focused review to clarify an unreliable system or plan the next delivery milestone.
 What we deliver
@@ -1267,7 +1306,7 @@ Share your timezone and the hours that matter for collaboration. We agree recurr
 
 #### Direct access to specialists
 
-Work with the people responsible for the implementation. Our team combines data, software, cloud, automation and AI capabilities, including Toptal-vetted talent and consultants with GCP and IBM credentials.
+Work with the people responsible for the implementation. The team covers pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and BI layers for Power BI, Tableau, Looker Studio and Streamlit, application and API development, and AI automation with RAG, MCP servers and custom connectors — including Toptal-vetted talent and consultants with GCP and IBM credentials.
 
 03
 
@@ -1364,15 +1403,15 @@ Related services
 
 #### Data Engineering Consulting
 
-ETL/ELT pipelines, BigQuery and Redshift warehouses, data quality checks and reporting your team can trust.
+ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
 
 #### AI Automation, RAG & MCP Development
 
-Knowledge assistants grounded in your documents, MCP servers exposing approved tools, and LLM features with evaluation built in.
+Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
 
 #### Workflow Automation Consulting
 
-Scheduled workflows, webhooks and API integrations that replace manual hand-offs and make failures visible.
+Scheduled workflows, webhooks, Apps Script and API integrations that replace manual hand-offs and make failures visible.
 
 Your next step
 
@@ -1385,8 +1424,8 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 # Services: Data, Software, AI, Automation & Staffing | MV.tech
 
 URL: https://mvtech.solutions/services/
-Description: MV.tech's remote consulting services: data engineering and ETL, custom software, workflow automation, AI/RAG/MCP development, staff augmentation and recruitment.
-Last modified: 2026-09-10
+Description: MV.tech's remote services: ETL and cloud warehouses, BI and semantic layers, custom software, workflow automation, AI with RAG and MCP, staffing and hiring.
+Last modified: 2026-09-11
 
 Services
 
@@ -1400,7 +1439,7 @@ Core services
 
 ### Data engineering & ETL consulting
 
-Pipelines from APIs, files and databases into BigQuery, Redshift or your warehouse of choice. Data quality checks, SQL models and reporting your team can trust.
+Pipelines from APIs, files and databases into BigQuery, Snowflake, Redshift or your warehouse of choice. Migrations off legacy reporting, dimensional and semantic models, reconciliation checks and reporting your team can trust.
 
 ### Custom software & web app development
 
@@ -1408,11 +1447,11 @@ Business applications, client portals, dashboards and internal tools with role-b
 
 ### AI automation, RAG & MCP development
 
-Knowledge assistants grounded in your documents, Model Context Protocol servers exposing approved tools, and LLM features integrated into existing products with evaluation built in.
+Knowledge assistants grounded in your documents, Model Context Protocol servers and custom AI connectors exposing approved tools and databases, and GPT, Claude, Llama or Qwen features integrated into existing products with evaluation built in.
 
 ### Workflow automation & API integration
 
-Replace manual hand-offs between business systems with scheduled jobs, webhooks and integrations that validate, retry safely and tell you when they fail.
+Replace manual hand-offs between business systems with scheduled jobs, webhooks, Apps Script and integrations that validate, reconcile, retry safely and tell you when they fail.
 
 ### IT staff augmentation & remote teams
 
@@ -1426,41 +1465,53 @@ Capabilities within those services
 
 ### The specific work we are asked for most often.
 
-#### Cloud data platforms (AWS & Google Cloud)
+#### Cloud data platforms (GCP, AWS & Azure)
 
-Storage, compute, orchestration and warehouse design on AWS or GCP, with cost-aware architecture and operational visibility from day one.
+Storage, compute, orchestration and warehouse design on Google Cloud, AWS or Azure: BigQuery, Cloud Run, Cloud Logging and Secret Manager; S3, EC2 and Redshift; Azure Data Factory, Azure SQL, Blob Storage and Data Lake ingestion.
 
 #### Data warehousing & modelling
 
-Redshift, BigQuery and SQL layers with dimensional or normalised models, naming standards, query tuning and documentation.
+Snowflake, BigQuery, Redshift and PostgreSQL with raw, staging, curated and reporting layers, fact and dimension models at an agreed grain, conformed dimensions, naming standards, query tuning and documentation.
 
-#### Analytics & reporting systems
+#### Warehouse migration & cutover
 
-KPI dashboards, Tableau reporting and source-of-truth tables with metric definitions, refresh checks and alerts.
+Moving legacy databases such as SQL Server, data lakes and manual spreadsheet reporting into a cloud warehouse, with database discovery, source-to-target mappings, dependency and impact analysis, and stage-by-stage reconciliation before anything is switched off.
 
-#### API & external data integrations
+#### Analytics, BI & semantic layers
 
-REST APIs, OAuth flows, webhooks and scheduled pulls from SaaS, finance and operational systems, with retries and transformation logic.
+Power BI, Tableau, Looker Studio and Streamlit reporting over curated views and semantic models, with metric definitions, refresh checks and alerts. Existing SSAS and Analysis Services models reviewed before they are rebuilt.
+
+#### Data quality, validation & reconciliation
+
+Checks that compare pipeline stages and source systems on record counts, date coverage, nulls, duplicates, totals and metrics, with outlier detection, alerting and a documented override path for the figures people adjust by hand.
+
+#### API, webhook & spreadsheet integrations
+
+REST APIs, OAuth flows, webhooks, blockchain RPCs and scheduled pulls from SaaS, finance and operational systems, with retries and transformation logic. Google Apps Script jobs and Sheets add-ons where the process genuinely lives in a spreadsheet.
 
 #### Web scraping & data extraction
 
-Maintainable Python collection from dynamic pages and authenticated portals, respecting source terms and rate limits, with structured outputs.
+Maintainable Python collection from dynamic pages and authenticated portals, respecting source terms and rate limits, plus LLM-assisted extraction from documents whose layout keeps changing.
 
 #### Business app & portal development
 
-Operational apps, admin panels and customer portals with role-based access, forms, approvals and API-backed workflows.
+Operational apps, admin panels and customer portals with role-based access, forms, approvals and API-backed workflows, plus Streamlit and Plotly data apps for internal analysis.
 
 #### Custom chatbots & AI assistants
 
-Support and internal Q&A assistants connected to databases and APIs, with role-aware behaviour and source grounding.
+Support and internal Q&A assistants connected to databases and APIs, with role-aware behaviour, source grounding and a clear answer when the source material cannot answer.
 
-#### MCP servers & AI tool integration
+#### MCP servers & custom AI connectors
 
-Model Context Protocol servers that expose approved business tools and data to AI applications, with authorisation and logging designed in.
+Model Context Protocol servers in Python, custom connectors, plugins and reusable AI skills that expose approved business tools and data to AI applications, with OAuth, managed secrets and logging designed in.
+
+#### Blockchain & on-chain analytics
+
+Cross-chain transaction data consolidated into a warehouse: transactions, logs and events decoded with contract ABIs and Web3.py, token valuation with FX reference data, fee proration, categorisation and staking-reward reconciliation.
 
 #### Support, security & optimisation
 
-Performance passes, monitoring, credential handling, deployment hygiene and support plans for systems already in production.
+Performance passes, monitoring, least-privilege access, OAuth and managed secrets that support SOC 2 programmes, deployment hygiene and support plans for systems already in production.
 
 Which service do I need?
 
@@ -1468,6 +1519,10 @@ Which service do I need?
 
 - "Our reports are unreliable or manual."
   Data engineering consulting, usually starting with one dependable reporting flow.
+- "We are moving reporting to Snowflake or BigQuery."
+  Data engineering consulting, starting with discovery, source-to-target mapping and an impact analysis of what depends on the old estate.
+- "Two systems disagree and we reconcile by hand."
+  Data engineering consultingfor the checks, orworkflow automationif the matching itself is the manual part.
 - "People copy data between tools every week."
   Workflow automation, starting with a single repeated hand-off.
 - "We need an app, portal or internal tool."
@@ -1490,13 +1545,13 @@ Thirty minutes with the engineers who would do the work is usually enough to tel
 
 URL: https://mvtech.solutions/services/ai-consulting/
 Description: Build AI automation, RAG systems, MCP servers and custom AI solutions with MV.tech's senior remote consultants. Connect business data, tools and workflows.
-Last modified: 2026-09-10
+Last modified: 2026-09-11
 
 Service · Remote-first senior specialists
 
 ## AI Automation, RAG & MCP Development
 
-Turn a specific business problem into a useful AI solution. MV.tech builds AI automation, retrieval-augmented generation systems, Model Context Protocol (MCP) integrations and custom assistants that connect approved company knowledge, tools and workflows.
+Turn a specific business problem into a useful AI solution. MV.tech builds AI automation, retrieval-augmented generation systems, Model Context Protocol (MCP) servers, custom AI connectors and agentic workflows that link approved company knowledge, databases, APIs and internal tools to models such as GPT, Claude, Llama and Qwen.
 
 - Remote from Ahmedabad, India
 - Overlap with your timezone
@@ -1509,6 +1564,9 @@ The starting point
 - Employees spend time searching through documents to answer recurring operational questions.
 - A prototype chatbot gives plausible answers but cannot show where they came from.
 - Your product needs an assistant that can use approved business data, APIs or tools through MCP.
+- An enterprise AI platform needs a secure, token-aware connector into your database, finance or accounting systems.
+- People re-key figures out of documents, portals and emails because no reliable extraction step exists.
+- An analyst question could be answered by generated SQL, if someone validated the query and the result first.
 - You need engineering help to evaluate and integrate an AI feature into an existing application.
 What we deliver
 
@@ -1518,51 +1576,62 @@ What we deliver
 
 #### RAG and knowledge search
 
-Plan document ingestion, retrieval and source references around a defined knowledge collection. Account for updates, permissions and questions the available material cannot answer.
+Plan document ingestion, chunking, retrieval and source references around a defined knowledge collection. Account for updates, permissions and questions the available material cannot answer, and put retrieval behind your own access rules.
 
 02
 
-#### AI automation and custom assistants
+#### AI automation and agentic workflows
 
-Connect an assistant to a support workflow, internal tool or customer application. Automate agreed steps, define permitted actions and keep a person in control of approvals and exceptions.
+Connect an assistant to a support workflow, internal tool or customer application. Multi-step workflows can retrieve context, generate SQL, validate a result and produce a formatted output, with permitted actions defined and a person in control of approvals and exceptions.
 
 03
 
 #### MCP server and tool development
 
-Build Model Context Protocol servers that expose approved tools and data to compatible AI applications. Define tool inputs, resource access, authorisation and logging around the business systems being connected.
+Build Model Context Protocol servers in Python that expose approved tools and data to compatible AI applications. Define tool inputs, resource access, authorisation through OAuth and managed secrets, and logging around the business systems being connected.
 
 04
 
-#### Custom AI solutions
+#### Custom AI connectors, plugins and skills
 
-Integrate document processing, classification, extraction or decision support into an existing workflow. Agree the expected output, validation rules and review path before automating a business action.
+Connect enterprise AI platforms and agents to databases, APIs and internal tools with scoped, token-aware access. Package recurring tasks — retrieval, SQL generation, validation, formatted export — as reusable connectors, plugins and AI skills rather than one-off prompts.
 
 05
 
-#### LLM and API integration
+#### Custom AI solutions
 
-Bring model responses into existing business logic and user interfaces. Validate inputs and outputs, handle failures and keep application permissions under server-side control.
+Integrate document processing, classification, extraction or decision support into an existing workflow. LLM-assisted extraction can pull structured records out of documents, APIs and web sources; agree the expected output, validation rules and review path before automating a business action.
 
 06
 
+#### LLM and API integration
+
+Bring responses from GPT, Claude, Llama or Qwen into existing business logic and user interfaces. Validate inputs and outputs, handle failures, compare models against your own task, and keep application permissions under server-side control.
+
+07
+
 #### Evaluation and operating controls
 
-Agree representative questions and expected behaviour. Review source grounding, unsupported answers, latency and usage cost before expanding the feature's audience.
+Agree representative questions and expected behaviour. Review source grounding, unsupported answers, latency and usage cost before expanding the feature's audience. Where an assistant touches financial or audited systems, access is scoped with OAuth and managed secrets and every tool call is logged, which is the kind of evidence a SOC 2 programme asks for.
 
 - Python
 - Model Context Protocol (MCP)
-- LLM APIs
+- Custom AI connectors
+- LLM APIs (GPT, Claude, Llama, Qwen)
 - RAG
 - Embeddings
+- Agentic workflows
 - Document retrieval
+- OAuth
+- Secret management
 - REST APIs
 - SQL
+- Streamlit
 A useful first project
 
 ### A useful first project: a bounded knowledge assistant
 
-Choose a defined set of documents and a small group of users. Collect questions they actually ask, including questions outside the documents' scope. A first release can then be assessed against source references, correct handling of missing information and the time it takes to find an answer. Wider access and automated actions can be scoped after those fundamentals are clear.
+Choose a defined set of documents and a small group of users. Collect questions they actually ask, including questions outside the documents' scope. A first release can then be assessed against source references, correct handling of missing information and the time it takes to find an answer. Wider access, an MCP server, a connector into a live database or automated actions can be scoped once those fundamentals are clear.
 
 Working together
 
@@ -1583,7 +1652,7 @@ Teams our engineers have worked with
 Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
 Before we begin
 
-### Questions about ai automation, rag & mcp development.
+### Questions about AI automation, RAG & MCP development.
 
 Not answered here? Ask us directly or read the full FAQ.
 
@@ -1591,7 +1660,10 @@ Not answered here? Ask us directly or read the full FAQ.
 RAG retrieves relevant material from an approved source collection and provides it to a language model when generating an answer. It can help an assistant answer questions about your own information, but retrieval quality, access controls and evaluation still matter.
 
 **What is MCP development?**
-Model Context Protocol (MCP) provides a shared interface for AI applications to connect to tools and data. We can build an MCP server around your approved APIs or systems, define the tools and resources it exposes, and test it with the intended compatible clients. Access permissions and approval requirements remain part of the application design.
+Model Context Protocol (MCP) provides a shared interface for AI applications to connect to tools and data. We build MCP servers in Python around your approved APIs or systems, define the tools and resources they expose, handle authorisation with OAuth and managed secrets, and test them with the intended compatible clients. Access permissions and approval requirements remain part of the application design.
+
+**Can an AI agent query our databases safely?**
+It can, when access is engineered rather than prompted. In practice that means a connector or MCP server that authenticates as a scoped service identity, exposes only approved tables or endpoints, generates SQL against a governed reporting layer, validates the query and the result before returning it, and logs every call. Whitelists and read-only access keep an agent away from anything it has no business touching.
 
 **Do we need to train our own AI model?**
 Not necessarily. The right scope may use an existing model with retrieval and application integration. We review your use case, data, evaluation criteria and operating constraints before proposing an approach.
@@ -1608,15 +1680,15 @@ Related services
 
 #### Data Engineering Consulting
 
-ETL/ELT pipelines, BigQuery and Redshift warehouses, data quality checks and reporting your team can trust.
+ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
 
 #### Workflow Automation Consulting
 
-Scheduled workflows, webhooks and API integrations that replace manual hand-offs and make failures visible.
+Scheduled workflows, webhooks, Apps Script and API integrations that replace manual hand-offs and make failures visible.
 
 #### Custom Software Development
 
-Business web applications, client portals, dashboards and internal tools with APIs and data backends designed together.
+Business web applications, client portals, internal tools and Streamlit data apps with APIs and data backends designed together.
 
 Your next step
 
@@ -1630,13 +1702,13 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/custom-software/
 Description: Hire senior remote developers for business apps, client portals, dashboards and API integrations. MV.tech works alongside your team across timezones.
-Last modified: 2026-09-10
+Last modified: 2026-09-11
 
 Service · Remote-first senior specialists
 
 ## Custom Software Development
 
-Build software around the way your business works. MV.tech develops web applications, client portals, dashboards and internal tools, with the interface, data and integrations considered together.
+Build software around the way your business works. MV.tech develops web applications, client portals, internal tools and data apps in TypeScript, JavaScript and Python, with the interface, data model and integrations considered together.
 
 - Remote from Ahmedabad, India
 - Overlap with your timezone
@@ -1649,6 +1721,8 @@ The starting point
 - Your team runs an important process through spreadsheets, email and repeated manual follow-up.
 - Customers need a portal for records, requests or service updates.
 - An existing application needs a better interface, a new integration or more reliable reporting.
+- Analysts need a filterable interface over warehouse data, not another static export.
+- A dashboard cannot express the workflow: people need to review, adjust and approve records as well as read them.
 - You need senior development capacity to deliver a defined workstream with your product team.
 What we deliver
 
@@ -1670,19 +1744,30 @@ Implement role-based access, forms, operational dashboards and approval flows. A
 
 #### APIs and data backends
 
-Connect the product to databases, business systems and reporting workflows. Define validation, failure handling and how records stay consistent.
+Connect the product to PostgreSQL, a cloud warehouse, business systems and reporting workflows. Define validation, failure handling and how records stay consistent across services.
 
 04
 
+#### Internal data apps and dashboards
+
+Where the audience is internal and the data is the product, a Streamlit or Plotly application is often the right answer: filterable tables with date ranges and live record counts, drill-downs into the underlying records, and exports that match what the screen shows.
+
+05
+
 #### Release and maintainability
 
-Scope testing, deployment, monitoring and documentation alongside development. Make future fixes and enhancements part of the handover conversation.
+Scope testing, deployment, monitoring and documentation alongside development — Pytest, Docker and GitHub Actions where they fit your stack. Make future fixes and enhancements part of the handover conversation.
 
+- TypeScript
 - JavaScript
 - Python
 - SQL
+- PostgreSQL
 - REST APIs
-- Web applications
+- Streamlit
+- Plotly
+- Docker
+- GitHub Actions
 - AWS
 - Google Cloud
 A useful first project
@@ -1732,15 +1817,15 @@ Related services
 
 #### Data Engineering Consulting
 
-ETL/ELT pipelines, BigQuery and Redshift warehouses, data quality checks and reporting your team can trust.
+ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
 
 #### AI Automation, RAG & MCP Development
 
-Knowledge assistants grounded in your documents, MCP servers exposing approved tools, and LLM features with evaluation built in.
+Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
 
 #### Workflow Automation Consulting
 
-Scheduled workflows, webhooks and API integrations that replace manual hand-offs and make failures visible.
+Scheduled workflows, webhooks, Apps Script and API integrations that replace manual hand-offs and make failures visible.
 
 Your next step
 
@@ -1753,14 +1838,14 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 # Data Engineering & ETL Consulting Services | MV.tech
 
 URL: https://mvtech.solutions/services/data-engineering/
-Description: Hire remote data engineers for Python and SQL pipelines, BigQuery, Redshift and reliable reporting. Senior specialists with flexible timezone overlap.
-Last modified: 2026-09-10
+Description: Remote data engineers for Python and SQL pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, data quality and reporting you can trust.
+Last modified: 2026-09-11
 
 Service · Remote-first senior specialists
 
 ## Data Engineering Consulting
 
-Get dependable data from the systems you already use. MV.tech builds and improves ingestion pipelines, cloud warehouses and reporting models so your team can work with consistent, current information.
+Get dependable data from the systems you already use. MV.tech builds and improves ingestion pipelines, cloud warehouses on BigQuery, Snowflake, Redshift or PostgreSQL, dimensional and semantic models, and the validation that keeps reporting trustworthy — including migrations off legacy databases and manual spreadsheets.
 
 - Remote from Ahmedabad, India
 - Overlap with your timezone
@@ -1773,6 +1858,9 @@ The starting point
 - Reports depend on spreadsheets, recurring exports or someone remembering to run a script.
 - A dashboard refresh succeeds, but the underlying numbers are incomplete or out of date.
 - API changes, duplicate records and failed jobs make every reporting cycle a repair exercise.
+- Reporting is moving to a cloud warehouse and nobody has mapped what depends on the old one.
+- Two systems disagree on the same number and reconciling them is a monthly manual exercise.
+- Queries scan far more data than they need to, and refreshes take hours instead of minutes.
 - Your product team needs a data engineer alongside its existing developers.
 What we deliver
 
@@ -1782,47 +1870,79 @@ What we deliver
 
 #### ETL and ELT pipelines
 
-Bring data from APIs, files and databases into a repeatable ingestion process. Define incremental loads, retries, backfills and duplicate handling around the behaviour of each source.
+Bring data from APIs, files and databases into a repeatable ingestion process in Python and SQL. Define incremental loads, retries, scheduled refreshes, automated backfills and duplicate handling around the behaviour of each source.
 
 02
 
 #### Cloud warehouses and SQL models
 
-Design BigQuery or Redshift tables, transformations and reporting models. Make business definitions, table ownership and refresh dependencies explicit before expanding the platform.
+Design BigQuery, Snowflake, Redshift or PostgreSQL tables and transformations across raw, staging, curated and reporting layers. Make business definitions, table ownership and refresh dependencies explicit before expanding the platform.
 
 03
 
-#### Data quality and observability
+#### Warehouse migration and source-to-target mapping
 
-Check freshness, completeness and reconciliation at meaningful boundaries. Add useful logs and failure alerts so a successful job is not mistaken for trustworthy data.
+Move legacy databases, data lakes and manual reporting onto a cloud warehouse. Start with database discovery and metadata profiling — catalogue queries, DDL and information schema — then produce detailed source-to-target mappings, ingestion plans through tools such as Azure Data Factory and Blob Storage, and the upstream and downstream dependency analysis that shows what a change will break.
 
 04
 
+#### Dimensional and semantic modelling
+
+Build fact and dimension models with an agreed grain, conformed dimensions, bridge tables and source-load tracking, then the curated views and semantic structures that BI tools read. Review existing Power BI, SSAS or Analysis Services models before rebuilding them, and handle Salesforce CRM Analytics datasets, recipes, dataflows and field mapping where reporting already lives there.
+
+05
+
+#### Data quality, reconciliation and observability
+
+Check freshness, completeness and reconciliation at meaningful boundaries: record counts, date coverage, nulls, duplicates, totals and metric comparisons between pipeline stages. Add outlier detection, useful logs and failure alerts so a successful job is not mistaken for trustworthy data.
+
+06
+
+#### Performance and cost tuning
+
+Reduce what a query has to read. Reusable transformation layers, caching, parallel reads, partitioning and incremental Parquet extracts are the usual levers, with the before-and-after measured on your own queries and refresh windows.
+
+07
+
+#### Blockchain and on-chain datasets
+
+Consolidate cross-chain transaction data into a warehouse for teams that need it: raw transactions, logs and events decoded with contract ABIs and Web3.py, FX reference tables, token-level valuation, fee proration and staking-reward reconciliation across networks.
+
+08
+
 #### Reporting and handover
 
-Connect validated datasets to Tableau, dashboards or downstream applications. Include source mappings, operating notes and recovery steps in the agreed handover.
+Connect validated datasets to Power BI, Tableau, Looker Studio, Streamlit or downstream applications. Include source mappings, ER diagrams, validation checklists, operating notes and recovery steps in the agreed handover.
 
 - Python
 - SQL
 - BigQuery
-- Redshift
+- Snowflake
+- Amazon Redshift
+- PostgreSQL
+- dbt-style modelling
+- Azure Data Factory
+- Power BI
+- Tableau
+- Looker Studio
+- Salesforce CRM Analytics
 - AWS
 - Google Cloud
-- Tableau
+- Parquet
 - REST APIs
 A useful first project
 
 ### A useful first project: one dependable reporting flow
 
-Start with a business report that matters and trace its path back to the source. Agree which records belong in the result, how fresh they need to be and how correctness will be checked. Then scope the ingestion, transformations and reporting output together. This gives the project a concrete acceptance test before more sources or dashboards are added.
+Start with a business report that matters and trace its path back to the source. Agree which records belong in the result, how fresh they need to be and how correctness will be checked — record counts, totals and a comparison against the numbers people trust today. Then scope the ingestion, transformations, model and reporting output together. This gives the project a concrete acceptance test before more sources, a full migration or additional dashboards are added.
 
 Working together
 
 ### A practical path from scope to delivery.
 
-- 01 — Map sources and definitions — Review access, API limits, data volumes, history requirements and the business meaning of the metrics.
-- 02 — Build and reconcile — Implement the pipeline and compare the output with source records, including empty periods, updates and retries.
-- 03 — Operate and extend — Document schedules, ownership and recovery. Agree support and the next useful source or reporting model.
+- 01 — Map sources and definitions — Profile the databases and APIs involved, review access, limits, volumes and history, and agree the business meaning of each metric.
+- 02 — Build and reconcile — Implement the pipeline and model, then compare output with source records: counts, totals, date coverage, empty periods, updates and retries.
+- 03 — Operate and extend — Document schedules, lineage, ownership and recovery. Agree support and the next useful source, model or reporting layer.
 Teams our engineers have worked with
 
 - Google
@@ -1842,6 +1962,9 @@ Not answered here? Ask us directly or read the full FAQ.
 **Can you improve an existing pipeline without rebuilding everything?**
 Yes. We can start with a bounded review of your existing Python, SQL, cloud and reporting workflows. The scope can focus on unreliable jobs, missing validation, slow queries or a specific integration, preserving the parts that already work.
 
+**Can you migrate our reporting to a cloud warehouse without breaking existing dashboards?**
+That is the normal shape of the work. It starts with discovery: profiling the source databases, documenting source-to-target mappings and running an impact analysis across dashboards and semantic models to find hardcoded rules, dependencies and migration blockers. Layers are then built and reconciled stage by stage against the existing numbers, so reports are cut over on evidence rather than on a date.
+
 **Can you work alongside our internal engineering team?**
 Yes. MV.tech can own an agreed data workstream or provide specialist capacity alongside your team. We agree responsibilities, access, review steps and overlapping working hours before delivery begins.
 
@@ -1857,15 +1980,15 @@ Related services
 
 #### AI Automation, RAG & MCP Development
 
-Knowledge assistants grounded in your documents, MCP servers exposing approved tools, and LLM features with evaluation built in.
+Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
 
 #### Workflow Automation Consulting
 
-Scheduled workflows, webhooks and API integrations that replace manual hand-offs and make failures visible.
+Scheduled workflows, webhooks, Apps Script and API integrations that replace manual hand-offs and make failures visible.
 
 #### Custom Software Development
 
-Business web applications, client portals, dashboards and internal tools with APIs and data backends designed together.
+Business web applications, client portals, internal tools and Streamlit data apps with APIs and data backends designed together.
 
 Your next step
 
@@ -1879,13 +2002,13 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/it-staff-augmentation/
 Description: Add remote AI, data, software and cloud consultants to your team with MV.tech. Flexible timezone overlap, direct collaboration and clearly scoped capacity.
-Last modified: 2026-09-10
+Last modified: 2026-09-11
 
 Service · Remote-first senior specialists
 
 ## IT Staff Augmentation
 
-Add specialist capacity to your existing team. MV.tech provides remote technology consultants for AI, data engineering, software and cloud work, with responsibilities, availability and timezone overlap agreed around your delivery needs.
+Add specialist capacity to your existing team. MV.tech provides remote technology consultants for AI, data engineering, analytics engineering, software and cloud work — from warehouse migrations and semantic models to MCP servers and automation — with responsibilities, availability and timezone overlap agreed around your delivery needs.
 
 - Remote from Ahmedabad, India
 - Overlap with your timezone
@@ -1897,6 +2020,7 @@ The starting point
 
 - You need an experienced engineer for an active workstream without opening a permanent role.
 - Your team needs specialist AI, RAG, MCP, data or cloud capability for a defined phase.
+- A warehouse migration or BI rebuild needs a specialist for its discovery, modelling and reconciliation phases.
 - A delivery backlog needs additional hands-on capacity alongside your existing technical leads.
 - You want remote consultants who participate in your team's reviews and agreed working hours.
 What we deliver
@@ -1907,21 +2031,27 @@ What we deliver
 
 #### AI and data specialists
 
-Discuss consultants for AI automation, RAG systems, MCP integrations, Python, SQL, ETL, analytics and cloud data platforms. Match the required skills to the actual workstream and level of ownership.
+Discuss consultants for AI automation, RAG systems, MCP servers and custom connectors, Python, SQL, ETL and cloud data platforms including BigQuery, Snowflake, Redshift and PostgreSQL. Match the required skills to the actual workstream and level of ownership.
 
 02
 
-#### Software and cloud consultants
+#### Analytics engineering and BI specialists
 
-Add capacity for business applications, APIs, integrations and cloud implementation. Review technical fit, existing codebase conventions and deployment responsibilities before the engagement begins.
+Capacity for dimensional and semantic modelling, curated warehouse layers, source-to-target mapping, reconciliation and dashboard work in Power BI, Tableau, Looker Studio or Streamlit, including review of existing SSAS and Analysis Services models.
 
 03
+
+#### Software and cloud consultants
+
+Add capacity for business applications, APIs, integrations and cloud implementation across AWS, Google Cloud and Azure. Review technical fit, existing codebase conventions and deployment responsibilities before the engagement begins.
+
+04
 
 #### Dedicated remote collaboration
 
 Agree the consultant's allocated capacity, collaboration windows and reporting relationship. Work through your team's planning, reviews and communication tools with clear expectations for availability.
 
-04
+05
 
 #### Onboarding and continuity
 
@@ -1929,9 +2059,12 @@ Define access, initial tasks, acceptance criteria and documentation with your te
 
 - AI and MCP developers
 - Data engineers
+- Analytics engineers
+- BI and semantic modelling specialists
 - Software developers
 - Cloud consultants
-- BI specialists
+- Automation specialists
+- Blockchain data engineers
 - Remote teams
 A useful first project
 
@@ -1958,7 +2091,7 @@ Teams our engineers have worked with
 Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
 Before we begin
 
-### Questions about it staff augmentation.
+### Questions about IT staff augmentation.
 
 Not answered here? Ask us directly or read the full FAQ.
 
@@ -1980,15 +2113,15 @@ Related services
 
 #### Data Engineering Consulting
 
-ETL/ELT pipelines, BigQuery and Redshift warehouses, data quality checks and reporting your team can trust.
+ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
 
 #### AI Automation, RAG & MCP Development
 
-Knowledge assistants grounded in your documents, MCP servers exposing approved tools, and LLM features with evaluation built in.
+Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
 
 #### Workflow Automation Consulting
 
-Scheduled workflows, webhooks and API integrations that replace manual hand-offs and make failures visible.
+Scheduled workflows, webhooks, Apps Script and API integrations that replace manual hand-offs and make failures visible.
 
 Your next step
 
@@ -2002,13 +2135,13 @@ Share the role, technology stack, expected duration and working hours. We can di
 
 URL: https://mvtech.solutions/services/technology-recruitment/
 Description: Hire permanent AI, data, software and cloud professionals with MV.tech. Technology recruitment shaped around your role, technical needs and hiring process.
-Last modified: 2026-09-10
+Last modified: 2026-09-11
 
 Service · Remote-first senior specialists
 
 ## Technology Recruitment
 
-Build your in-house technology team. MV.tech supports permanent recruitment for AI, data, software and cloud roles, bringing an engineering perspective to role definition, candidate fit and the hiring conversation.
+Build your in-house technology team. MV.tech supports permanent recruitment for AI, data, analytics, software and cloud roles — data and analytics engineers, BI developers, platform and automation engineers, AI and MCP specialists — bringing an engineering perspective to role definition, candidate fit and the hiring conversation.
 
 - Remote from Ahmedabad, India
 - Overlap with your timezone
@@ -2042,7 +2175,7 @@ Scope a search around the agreed profile and discuss relevant candidates with yo
 
 #### Technical fit discussions
 
-Bring an engineering perspective to experience and problem-solving discussions. Agree the depth of screening, any assessment and your team's final interview requirements before the search begins.
+Bring an engineering perspective to experience and problem-solving discussions, whether the role calls for SQL and warehouse modelling, pipeline engineering, BI and semantic models, or LLM and MCP work. Agree the depth of screening, any assessment and your team's final interview requirements before the search begins.
 
 04
 
@@ -2103,15 +2236,15 @@ Related services
 
 #### Data Engineering Consulting
 
-ETL/ELT pipelines, BigQuery and Redshift warehouses, data quality checks and reporting your team can trust.
+ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
 
 #### AI Automation, RAG & MCP Development
 
-Knowledge assistants grounded in your documents, MCP servers exposing approved tools, and LLM features with evaluation built in.
+Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
 
 #### Workflow Automation Consulting
 
-Scheduled workflows, webhooks and API integrations that replace manual hand-offs and make failures visible.
+Scheduled workflows, webhooks, Apps Script and API integrations that replace manual hand-offs and make failures visible.
 
 Your next step
 
@@ -2125,13 +2258,13 @@ Share the responsibilities, must-have skills, location or remote policy, compens
 
 URL: https://mvtech.solutions/services/workflow-automation/
 Description: Automate repetitive business workflows, API integrations and reporting with MV.tech's remote consultants. Reliable jobs, checks and clear ownership.
-Last modified: 2026-09-10
+Last modified: 2026-09-11
 
 Service · Remote-first senior specialists
 
 ## Workflow Automation Consulting
 
-Connect the steps between your business systems. MV.tech builds API integrations, scheduled workflows and operational automation that reduce repeated manual work and make failures visible.
+Connect the steps between your business systems. MV.tech builds API integrations, scheduled workflows, spreadsheet and add-on automation, and the operational plumbing around them — reducing repeated manual work and making failures visible.
 
 - Remote from Ahmedabad, India
 - Overlap with your timezone
@@ -2143,6 +2276,8 @@ The starting point
 
 - People repeatedly move the same records between business tools and spreadsheets.
 - Scheduled reports rely on manual downloads, cleanup and distribution.
+- Finance or operations reconcile two systems by hand every month and the differences are never documented.
+- A spreadsheet has quietly become a business system, with formulas and scripts nobody owns.
 - An integration works on the happy path but produces duplicate actions after a retry.
 - A script runs in the background without clear ownership, status checks or recovery steps.
 What we deliver
@@ -2153,38 +2288,56 @@ What we deliver
 
 #### API and webhook integrations
 
-Connect approved business systems using their supported interfaces. Handle pagination, rate limits, authentication and changes in source records.
+Connect approved business systems using their supported interfaces: REST APIs, webhooks, OAuth flows and blockchain RPCs. Handle pagination, rate limits, authentication and changes in source records.
 
 02
 
 #### Scheduled business workflows
 
-Automate recurring data pulls, report preparation, exports and status checks. Define the schedule, inputs and expected output for each step.
+Automate recurring data pulls, report preparation, exports and status checks in Python and SQL. Define the schedule, inputs and expected output for each step, and run them somewhere accountable — Cloud Run, a container or scheduled CI, rather than a laptop.
 
 03
 
-#### Validation and exception handling
+#### Spreadsheet and add-on automation
 
-Add checks before data is written or a downstream action is triggered. Design retries, duplicate prevention and review paths around the impact of a failed step.
+Where the process genuinely lives in Google Sheets or Excel, automate it there: Google Apps Script jobs, Sheets add-ons, controlled exports and usage logging. Keep the calculation in a governed source and let the spreadsheet be the interface.
 
 04
 
-#### Monitoring and ownership
+#### Reconciliation and exception handling
 
-Provide logs, useful alerts and operating documentation. Make it clear who maintains a workflow and how to recover or rerun it when a dependency fails.
+Add checks before data is written or a downstream action is triggered: matching, tolerance rules, duplicate prevention and retries. Where a figure must be adjusted by hand, an override layer can record the change without altering the immutable source record, which leaves an audit trail instead of an argument.
+
+05
+
+#### Web and document data extraction
+
+Collect data that has no API. Maintainable Python scraping of dynamic pages and authenticated portals, respecting source terms and rate limits, plus LLM-assisted extraction from documents where the layout keeps changing.
+
+06
+
+#### Monitoring, deployment and ownership
+
+Provide logs, useful alerts and operating documentation, with deployment through Docker and GitHub Actions so a change is reviewable. Make it clear who maintains a workflow and how to recover or rerun it when a dependency fails.
 
 - Python
 - REST APIs
 - Webhooks
+- OAuth
 - SQL
+- Google Apps Script
+- Google Sheets add-ons
+- Cloud Run
+- Docker
+- GitHub Actions
 - Scheduled jobs
-- Business systems
+- Cloud Logging
 - Reporting workflows
 A useful first project
 
 ### A useful first project: one repeated manual handoff
 
-Pick a recurring handoff with a clear input and output, such as preparing a weekly report from several systems. Document what people check today, including exceptions. The project can then automate the repeatable steps while preserving review where judgment is required. Assess the result using completion time, exception frequency and the effort needed to recover a failed run.
+Pick a recurring handoff with a clear input and output, such as preparing a weekly report from several systems or reconciling two ledgers. Document what people check today, including exceptions and the adjustments they make by hand. The project can then automate the repeatable steps while preserving review where judgment is required. Assess the result using completion time, exception frequency, how much manual reconciliation is left and the effort needed to recover a failed run.
 
 Working together
 
@@ -2227,15 +2380,15 @@ Related services
 
 #### Data Engineering Consulting
 
-ETL/ELT pipelines, BigQuery and Redshift warehouses, data quality checks and reporting your team can trust.
+ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
 
 #### AI Automation, RAG & MCP Development
 
-Knowledge assistants grounded in your documents, MCP servers exposing approved tools, and LLM features with evaluation built in.
+Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
 
 #### Custom Software Development
 
-Business web applications, client portals, dashboards and internal tools with APIs and data backends designed together.
+Business web applications, client portals, internal tools and Streamlit data apps with APIs and data backends designed together.
 
 Your next step
 
@@ -2248,14 +2401,14 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 # Solution Patterns: Data Platforms, Portals & AI Assistants | MV.tech
 
 URL: https://mvtech.solutions/solutions/
-Description: Common systems MV.tech builds for operating teams: governed business data layers, customer portals and internal apps, and knowledge assistants grounded in company data.
-Last modified: 2026-09-10
+Description: Systems MV.tech builds most often: governed data layers, warehouse migrations, reconciliation layers, portals and internal apps, and AI knowledge assistants.
+Last modified: 2026-09-11
 
 Solution patterns
 
 ## Practical systems for real operating teams.
 
-Most of the work we are asked for falls into a few recognisable shapes. These patterns show what a first release usually contains, what it costs you to run, and where it tends to grow next. Each one is shaped around your workflows, data sources and stage of growth.
+Most of the work we are asked for falls into a few recognisable shapes. These patterns show what a first release usually contains and where it tends to grow next. Each one is shaped around your workflows, data sources and stage of growth.
 
 Data platform
 
@@ -2263,9 +2416,9 @@ Data platform
 
 Connect APIs, databases, spreadsheets and external feeds into a governed reporting layer your team can trust. Definitions live in one place, refreshes are monitored, and every number can be traced to its source.
 
-- ETL/ELT pipelines and warehouse models in BigQuery or Redshift
+- ETL/ELT pipelines and warehouse models in BigQuery, Snowflake, Redshift or PostgreSQL
 - Data quality checks, alerts and recovery paths
-- Dashboards, exports and stakeholder views
+- Power BI, Tableau, Looker Studio or Streamlit views, with exports that match the screen
 Web & app
 
 ### Customer portal or internal app
@@ -2282,8 +2435,35 @@ AI & automation
 Give a team a controlled assistant over documents, structured data and workflow APIs, with answers grounded in source context and actions limited to what has been approved.
 
 - RAG over documents, tickets and business data
-- MCP tools and workflow automation with human approval
+- MCP servers and custom AI connectors into approved tools, with human approval
 - Access-aware, evaluated and auditable implementation
+Migration
+
+### Legacy reporting moved to a cloud warehouse
+
+Move reporting off legacy databases, extracts and spreadsheets into Snowflake or BigQuery without losing the numbers people already rely on. Discovery first, then layers, then a cutover justified by evidence rather than a date.
+
+- Database discovery, source-to-target mapping and dependency analysis
+- Raw, staging, curated and reporting layers with fact and dimension models
+- Stage-by-stage reconciliation against the reports in use today
+Data quality
+
+### Reconciliation and validation layer
+
+When two systems disagree every month, the fix is a layer that compares them on a schedule, explains the difference and records any adjustment. The source data stays immutable; the corrections sit above it with an audit trail.
+
+- Record counts, date coverage, nulls, duplicates, totals and metric comparisons
+- Matching and tolerance rules, outlier detection and alerting
+- Manual-override and whitelist layers that leave the base dataset untouched
+On-chain data
+
+### Cross-chain transaction ledger
+
+For teams whose data lives on several networks, a warehouse-backed ledger that consolidates activity into consistent, valued and categorised records that finance and operations can query like any other dataset.
+
+- Transactions, logs and events decoded with contract ABIs and Web3.py
+- FX reference data, token-level valuation and fee proration
+- Transaction categorisation, staking-reward reconciliation and KPI reporting
 Two more common shapes
 
 ### Operational automation and an embedded specialist.

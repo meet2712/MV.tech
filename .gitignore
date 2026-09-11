@@ -4,3 +4,9 @@ node_modules/
 .env
 .env.*
 !.env.example
+
+# Brand kit design assets — 244 MB of source files, and the zips exceed GitHub's 100 MB limit.
+# Keep them out of the website repo; distribute via Drive or a dedicated asset repo instead.
+Brand Kit/
+Brand Kit.zip
+Claude outputs/

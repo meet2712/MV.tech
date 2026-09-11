@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1200 694.36" width="1200" height="694.36">
+  <title>MV.tech Safari pinned-tab mask</title>
+  <desc>Single-colour silhouette of the MV.tech monogram from 00_Master_Vector/mvtech-monogram-mono-black.svg, at the master's full 1200 x 694.36 artwork box so the V's rounded bottom arc is not clipped. Safari uses this as an alpha mask and tints it with the mask-icon color attribute. No background. Do not recolour or separate the dot.</desc>
+  <g id="mvpin-mark">
+    <path id="mvpin-body" fill="#000000" fill-rule="nonzero" d="M 166.49 678.72 L 0.00 678.72 L 0.00 0.00 L 380.26 399.58 L 419.78 356.54 L 419.78 678.72 L 417.69 678.72 L 166.49 409.79 L 166.49 678.72Z M 601.32 642.44 L 303.81 141.84 L 462.08 141.84 A 62.86 62.86 0 0 1 516.45 173.13 L 672.89 442.56 L 966.98 0.58 L 1200.00 0.58 L 1200.00 5.67 L 781.42 646.27 A 106.14 106.14 0 0 1 601.32 642.44Z"/>
+    <path id="mvpin-arm" fill="#000000" fill-rule="nonzero" d="M 672.89 442.56 L 966.98 0.58 L 1200.00 0.58 L 1200.00 5.67 L 786.59 638.37Z"/>
+    <circle id="mvpin-dot" fill="#000000" cx="969.54" cy="599.37" r="68.75"/>
+  </g>
+</svg>

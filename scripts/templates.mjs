@@ -4,6 +4,14 @@ import { escapeHtml as h } from './html.mjs';
 
 export const icon = (name) => `<i data-lucide="${name}" aria-hidden="true"></i>`;
 
+/**
+ * Lower-case a service name for use mid-sentence, keeping acronyms (AI, RAG, MCP, IT) capitalised.
+ * "AI Automation, RAG & MCP Development" -> "AI automation, RAG & MCP development".
+ */
+export function midSentence(name) {
+  return name.replace(/[A-Za-z0-9]+/g, (word) => (/^[A-Z][A-Z0-9]+$/.test(word) ? word : word.toLowerCase()));
+}
+
 export function breadcrumbs(crumbs) {
   return `<nav aria-label="Breadcrumb" class="breadcrumbs"><ol>${crumbs.map((crumb, i) => i === crumbs.length - 1
     ? `<li><span aria-current="page">${h(crumb.name)}</span></li>`
@@ -126,7 +134,7 @@ export function servicePage(page, site, allPages) {
   </section>
   <section class="band band-light">
     <div class="container split">
-      <div><p class="eyebrow">Before we begin</p><h2>Questions about ${h(page.name.toLowerCase())}.</h2><p class="body-copy">Not answered here? <a href="/contact/">Ask us directly</a> or read the <a href="/faq/">full FAQ</a>.</p></div>
+      <div><p class="eyebrow">Before we begin</p><h2>Questions about ${h(midSentence(page.name))}.</h2><p class="body-copy">Not answered here? <a href="/contact/">Ask us directly</a> or read the <a href="/faq/">full FAQ</a>.</p></div>
       ${faqList(page.questions)}
     </div>
   </section>

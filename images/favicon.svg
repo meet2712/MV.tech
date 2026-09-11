@@ -1,7 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="MV.tech">
-<rect width="512" height="512" rx="96" fill="#08090c"/>
-<g transform="translate(-475.710 -504.353) scale(2.07827)"><g transform="translate(-39.166 -29.375) scale(1.0765)">
-<path d="m357.8 358.6-18.636 33.359 0.10296 11.223h18.739zm-83.604 44.582h18.842v-9.9871l-18.85-33.66zm66.821-72.072-24.71 41.596-25.328-41.596h-16.782l18.842 34.903 18.43 30.064h9.0605l18.533-31.094 18.224-33.874z" fill="#fff"/>
-<path d="m392.97 331.11h-22.033l20.489 48.185 11.017-25.225zm39.537 0-19.974 46.95-10.811 25.122h20.077l30.888-72.072z" fill="#d5dbff"/>
-</g></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>MV.tech favicon</title>
+  <desc>MV.tech brand kit v2. Monogram geometry inlined verbatim from 00_Master_Vector/mvtech-monogram-dark.svg (true vector, full 1200 x 694.36 artwork box so the V's rounded bottom arc is not clipped), mark width 78% of the square, optically centred (raised 2.0%), on Ink #05060B. Ids prefixed "mvfav-".</desc>
+  <defs>
+    <linearGradient id="mvfav-grad-silver" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="694.36">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="0.35" stop-color="#F9FAFB"/><stop offset="0.6" stop-color="#F5F7F8"/><stop offset="1" stop-color="#AAB4BC"/>
+    </linearGradient>
+    <linearGradient id="mvfav-grad-facet" gradientUnits="userSpaceOnUse" x1="0.00" y1="231.54" x2="-223.59" y2="455.13">
+      <stop offset="0" stop-color="#1D252A"/><stop offset="0.125" stop-color="#3E464B"/><stop offset="0.375" stop-color="#82898E"/><stop offset="0.624" stop-color="#C3C7CA"/><stop offset="0.724" stop-color="#D9DBDD"/><stop offset="0.873" stop-color="#F0F1F2"/><stop offset="1" stop-color="#FAFAFB"/>
+    </linearGradient>
+    <linearGradient id="mvfav-grad-fold" gradientUnits="userSpaceOnUse" x1="166.49" y1="510.83" x2="98.99" y2="711.68">
+      <stop offset="0" stop-color="#0A1015"/><stop offset="1" stop-color="#384044"/>
+    </linearGradient>
+    <linearGradient id="mvfav-grad-teal" gradientUnits="userSpaceOnUse" x1="731.74" y1="601.44" x2="1090.19" y2="-53.76">
+      <stop offset="0" stop-color="#087D9B"/><stop offset="0.55" stop-color="#00C9C8"/><stop offset="1" stop-color="#18F2CF"/>
+    </linearGradient>
+  </defs>
+  <rect id="mvfav-bg" x="0" y="0" width="512" height="512" rx="92.16" ry="92.16" fill="#05060B"/>
+  <g id="mvfav-mark" transform="translate(56.320 130.218) scale(0.332800)">
+    <path id="mvfav-body" fill="url(#mvfav-grad-silver)" fill-rule="nonzero" d="M 166.49 678.72 L 0.00 678.72 L 0.00 0.00 L 380.26 399.58 L 419.78 356.54 L 419.78 678.72 L 417.69 678.72 L 166.49 409.79 L 166.49 678.72Z M 601.32 642.44 L 303.81 141.84 L 462.08 141.84 A 62.86 62.86 0 0 1 516.45 173.13 L 672.89 442.56 L 966.98 0.58 L 1200.00 0.58 L 1200.00 5.67 L 781.42 646.27 A 106.14 106.14 0 0 1 601.32 642.44Z"/>
+    <path id="mvfav-facet" fill="url(#mvfav-grad-facet)" fill-rule="nonzero" d="M 0.00 231.54 L 166.49 409.79 L 166.49 510.83 L 0.00 678.72Z"/>
+    <path id="mvfav-fold" fill="url(#mvfav-grad-fold)" fill-rule="nonzero" d="M 0.00 678.72 L 166.49 510.83 L 166.49 678.72Z"/>
+    <path id="mvfav-arm" fill="url(#mvfav-grad-teal)" fill-rule="nonzero" d="M 672.89 442.56 L 966.98 0.58 L 1200.00 0.58 L 1200.00 5.67 L 786.59 638.37Z"/>
+    <circle id="mvfav-dot" fill="#10F5D0" cx="969.54" cy="599.37" r="68.75"/>
+  </g>
 </svg>

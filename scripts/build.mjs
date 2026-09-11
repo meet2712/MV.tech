@@ -100,7 +100,7 @@ if (routes.size !== pages.length) throw new Error('Duplicate routes: ' + pages.m
 // ---------------------------------------------------------------------------------------------
 const header = `<header id="main-header" class="site-header">
   <div class="container header-inner">
-    <a href="/" class="brand-link" aria-label="MV.tech home"><img src="/images/logo-wordmark.svg" alt="MV.tech" width="520" height="92"></a>
+    <a href="/" class="brand-link" aria-label="MV.tech home"><img src="/images/logo.svg" alt="MV.tech" width="520" height="120"></a>
     <nav class="desktop-nav" aria-label="Main navigation">${site.nav.map((item) => `<a href="${item.href}" class="site-nav-link">${h(item.label)}</a>`).join('')}</nav>
     <div class="header-actions">${callButton(site, 'Book a call', 'button-primary header-cta')}<button id="mobile-menu-btn" class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">${icon('menu')}</button></div>
   </div>
@@ -112,7 +112,7 @@ const footer = `<footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="/" aria-label="MV.tech home"><img src="/images/logo.svg" alt="MV.tech – Data-Powered Solutions" width="520" height="132" loading="lazy"></a>
+        <a href="/" aria-label="MV.tech home"><img src="/images/logo.svg" alt="MV.tech – Data, AI and digital solutions" width="520" height="120" loading="lazy"></a>
         <p>${h(site.summary)}</p>
         <p class="footer-worked">Our engineers have worked with ${site.workedWith.join(', ')}.</p>
       </div>
@@ -142,18 +142,17 @@ function extractFaq(body) {
 
 function schemaGraph(page) {
   const url = origin + page.route;
-  const ogImage = `${origin}/images/og/${slugFor(page.route)}.jpg`;
+  const ogImage = `${origin}/images/og/${page.ogSlug ?? slugFor(page.route)}.jpg`;
   const organization = {
     '@type': ['Organization', 'ProfessionalService'], '@id': `${origin}/#organization`, name: site.name, legalName: site.legalName, alternateName: site.alternateNames,
-    url: `${origin}/`, logo: { '@type': 'ImageObject', url: `${origin}/images/logo.png`, width: 1200, height: 305 }, image: `${origin}/images/og/home.jpg`,
+    url: `${origin}/`, logo: { '@type': 'ImageObject', url: `${origin}/images/logo.png`, width: 1200, height: 276 }, image: `${origin}/images/og/home.jpg`,
     description: site.summary, slogan: 'Senior engineering in your timezone, without large-consultancy overhead', email: site.email,
     address: { '@type': 'PostalAddress', addressLocality: site.address.locality, addressRegion: site.address.region, addressCountry: site.address.country },
     areaServed: 'Worldwide', founder: { '@id': `${origin}/#founder` }, sameAs: [site.linkedin], knowsAbout: site.knowsAbout,
     contactPoint: { '@type': 'ContactPoint', contactType: 'sales', email: site.email, url: `${origin}/contact/`, areaServed: 'Worldwide', availableLanguage: ['English', 'Hindi', 'Gujarati'] },
-    hasCredential: site.credentials.map((c) => ({ '@type': 'EducationalOccupationalCredential', name: c.name, credentialCategory: c.category, recognizedBy: { '@type': 'Organization', name: c.issuer } })),
     makesOffer: consulting.filter((p) => p.path.startsWith('/services/')).map((p) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: p.name, url: origin + p.path } })),
   };
-  const founder = { '@type': 'Person', '@id': `${origin}/#founder`, name: site.founder.name, jobTitle: site.founder.jobTitle, description: site.founder.description, url: `${origin}/about/`, worksFor: { '@id': `${origin}/#organization` }, sameAs: site.founder.sameAs, knowsAbout: site.knowsAbout };
+  const founder = { '@type': 'Person', '@id': `${origin}/#founder`, name: site.founder.name, jobTitle: site.founder.jobTitle, description: site.founder.description, url: `${origin}/about/`, worksFor: { '@id': `${origin}/#organization` }, sameAs: site.founder.sameAs, knowsAbout: site.knowsAbout, hasCredential: site.credentials.map((c) => ({ '@type': 'EducationalOccupationalCredential', name: c.name, credentialCategory: c.category, recognizedBy: { '@type': 'Organization', name: c.issuer } })) };
   const website = { '@type': 'WebSite', '@id': `${origin}/#website`, name: site.name, alternateName: site.alternateNames.slice(0, 3), url: `${origin}/`, description: site.shortSummary, publisher: { '@id': `${origin}/#organization` }, inLanguage: 'en' };
   const crumbs = page.route === '/' ? null : [{ name: 'Home', url: origin + '/' }, ...(page.route.startsWith('/services/') && page.route !== '/services/' ? [{ name: 'Services', url: origin + '/services/' }] : []), ...(page.kind === 'article' ? [{ name: 'Insights', url: origin + '/insights/' }] : []), { name: page.name, url }];
   const types = { '/': 'WebPage', '/about/': 'AboutPage', '/contact/': 'ContactPage', '/services/': 'CollectionPage', '/insights/': 'CollectionPage', '/faq/': 'FAQPage' };
@@ -187,7 +186,7 @@ function schemaGraph(page) {
 // ---------------------------------------------------------------------------------------------
 function layout(page, { noindex = false } = {}) {
   const url = origin + page.route;
-  const ogImage = `${origin}/images/og/${slugFor(page.route)}.jpg`;
+  const ogImage = `${origin}/images/og/${page.ogSlug ?? slugFor(page.route)}.jpg`;
   const bodyClass = ['site-body', page.kind === 'article' ? 'is-article' : '', page.route === '/' ? 'is-home' : ''].filter(Boolean).join(' ');
   return `<!DOCTYPE html>
 <html lang="en">
@@ -200,10 +199,13 @@ ${noindex ? '<meta name="robots" content="noindex, follow">' : '<meta name="robo
 <link rel="canonical" href="${url}">
 ${page.route === '/' ? `<meta name="google-site-verification" content="${site.googleSiteVerification}">` : ''}
 <meta name="author" content="${h(page.kind === 'article' ? site.founder.name : site.name)}">
-<meta name="theme-color" content="#07080b">
+<meta name="theme-color" content="#05060B">
 <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/images/favicon.ico" sizes="any">
 <link rel="icon" href="/images/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/images/favicon-16.png" sizes="16x16" type="image/png">
 <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#007E7B">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="alternate" type="text/plain" title="AI-readable site summary" href="${origin}/llms.txt">
 <link rel="alternate" type="text/plain" title="AI-readable full site context" href="${origin}/llms-full.txt">
@@ -254,7 +256,7 @@ for (const page of pages) {
 // 404 page (GitHub Pages serves /404.html for unknown routes).
 await writeFile('404.html', layout({
   route: '/404.html', kind: 'page', name: 'Page not found', title: 'Page not found | MV.tech', description: 'The page you requested does not exist. Find MV.tech services, insights and contact details.',
-  published: latest, modified: latest, ogTitle: 'Page not found',
+  published: latest, modified: latest, ogTitle: 'Page not found', ogSlug: 'home',
   body: `<main id="main-content"><section class="page-hero"><div class="container"><p class="eyebrow">404</p><h1>That page is not here.</h1><p class="lead">The address may have changed. These links cover most of what people look for.</p><div class="action-row"><a class="button-primary" href="/">Go to the homepage ${icon('arrow-right')}</a><a class="button-secondary" href="/services/">Browse services</a></div><div class="proof-links"><a href="/remote-consulting/">How we work across timezones</a><a href="/insights/">Insights</a><a href="/about/">About MV.tech</a><a href="/contact/">Contact</a></div></div></section></main>`,
 }, { noindex: true }).replace(`<link rel="canonical" href="${origin}/404.html">\n`, ''));
 
