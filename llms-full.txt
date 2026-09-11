@@ -5,7 +5,7 @@
 Official website: https://mvtech.solutions/
 Brand name: MV.tech (also searched as MV Tech, MVTech, M V Tech, MV Tech Solutions, MV Tech Data Solutions, MV Tech Ahmedabad)
 Contact: contact@mvtech.solutions · Book a call: https://calendly.com/contact-mvtech/new-meeting
-Founder: Meet Vaghasia, Founder & Lead Engineer (https://www.toptal.com/developers/resume/meet-vaghasia)
+Founder: Meet Vaghasia, Founder & Lead Engineer (https://www.linkedin.com/in/meet2712/)
 LinkedIn: https://www.linkedin.com/company/mv-tech-data/
 Location: Ahmedabad, Gujarat, India · Serves clients worldwide with agreed timezone overlap
 Teams our engineers have worked with: Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, Turing. Names reflect organisations MV.tech's team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.
@@ -182,7 +182,7 @@ Meet is a senior data and AI engineer. His hands-on work covers Python and SQL p
 
 That experience runs from enterprise reporting estates and financial data platforms through to on-chain analytics, which is why MV.tech treats reconciliation, access control, documentation and handover as part of the build rather than a later phase. He founded the company to give clients direct access to senior engineering without the layers, bench costs and hand-offs of a large consultancy.
 
-Toptal profileMV.tech on LinkedInExpertise and credentials
+Meet on LinkedInToptal profileMV.tech on LinkedInExpertise and credentials
 How we operate
 
 ### What "remote-first and lean" means in practice.

@@ -1,7 +1,14 @@
 {
   "name": "MV.tech",
   "legalName": "MV.tech",
-  "alternateNames": ["MV Tech", "MVTech", "M V Tech", "MV Tech Solutions", "MV Tech Data Solutions", "MV Tech Ahmedabad"],
+  "alternateNames": [
+    "MV Tech",
+    "MVTech",
+    "M V Tech",
+    "MV Tech Solutions",
+    "MV Tech Data Solutions",
+    "MV Tech Ahmedabad"
+  ],
   "origin": "https://mvtech.solutions",
   "tagline": "Data-Powered Solutions",
   "summary": "MV.tech is a remote-first data engineering, software development and AI consultancy based in Ahmedabad, India. It builds cloud warehouses and ETL pipelines, warehouse migrations, semantic and BI layers, workflow automation and AI systems using RAG, MCP servers and custom AI connectors. Its senior specialists work with clients worldwide, planning working hours that overlap any timezone, with a lean model that avoids large-consultancy overhead.",
@@ -14,19 +21,49 @@
   "gstin": "24BZMPV4008F1ZA",
   "analyticsId": "G-YRM2SJ2EMP",
   "googleSiteVerification": "jHv9z-tx17troA76X9oZKxtdUyA2kZ3ucxekWu2IKNo",
-  "address": { "locality": "Ahmedabad", "region": "Gujarat", "country": "IN", "countryName": "India" },
+  "address": {
+    "locality": "Ahmedabad",
+    "region": "Gujarat",
+    "country": "IN",
+    "countryName": "India"
+  },
   "founder": {
     "name": "Meet Vaghasia",
     "jobTitle": "Founder & Lead Engineer",
     "description": "Meet Vaghasia is the founder of MV.tech. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.",
-    "sameAs": ["https://www.toptal.com/developers/resume/meet-vaghasia", "https://github.com/meet2712"]
+    "sameAs": [
+      "https://www.linkedin.com/in/meet2712/",
+      "https://www.toptal.com/developers/resume/meet-vaghasia",
+      "https://github.com/meet2712"
+    ],
+    "linkedin": "https://www.linkedin.com/in/meet2712/"
   },
   "credentials": [
-    { "name": "Google Cloud Professional Data Engineer", "category": "Cloud certification", "issuer": "Google Cloud" },
-    { "name": "IBM Big Data Engineer Mastery Award", "category": "Technology certification", "issuer": "IBM" },
-    { "name": "Toptal-vetted talent (Top 3%)", "category": "Talent network vetting", "issuer": "Toptal" }
+    {
+      "name": "Google Cloud Professional Data Engineer",
+      "category": "Cloud certification",
+      "issuer": "Google Cloud"
+    },
+    {
+      "name": "IBM Big Data Engineer Mastery Award",
+      "category": "Technology certification",
+      "issuer": "IBM"
+    },
+    {
+      "name": "Toptal-vetted talent (Top 3%)",
+      "category": "Talent network vetting",
+      "issuer": "Toptal"
+    }
   ],
-  "workedWith": ["Google", "Volvo", "BCW", "RootstockLabs", "Chainlabs", "Toptal", "Turing"],
+  "workedWith": [
+    "Google",
+    "Volvo",
+    "BCW",
+    "RootstockLabs",
+    "Chainlabs",
+    "Toptal",
+    "Turing"
+  ],
   "workedWithNote": "Names reflect organisations MV.tech's team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.",
   "knowsAbout": [
     "Data engineering and ETL/ELT pipeline development in Python and SQL",
@@ -69,48 +106,169 @@
     "Technology recruitment for AI, data, software and cloud roles"
   ],
   "nav": [
-    { "label": "Services", "href": "/services/" },
-    { "label": "How we work", "href": "/remote-consulting/" },
-    { "label": "Insights", "href": "/insights/" },
-    { "label": "About", "href": "/about/" },
-    { "label": "Contact", "href": "/contact/" }
+    {
+      "label": "Services",
+      "href": "/services/"
+    },
+    {
+      "label": "How we work",
+      "href": "/remote-consulting/"
+    },
+    {
+      "label": "Insights",
+      "href": "/insights/"
+    },
+    {
+      "label": "About",
+      "href": "/about/"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact/"
+    }
   ],
   "footer": {
     "services": [
-      { "label": "Data engineering consulting", "href": "/services/data-engineering/" },
-      { "label": "Custom software development", "href": "/services/custom-software/" },
-      { "label": "AI automation, RAG & MCP", "href": "/services/ai-consulting/" },
-      { "label": "Workflow automation", "href": "/services/workflow-automation/" },
-      { "label": "IT staff augmentation", "href": "/services/it-staff-augmentation/" },
-      { "label": "Technology recruitment", "href": "/services/technology-recruitment/" }
+      {
+        "label": "Data engineering consulting",
+        "href": "/services/data-engineering/"
+      },
+      {
+        "label": "Custom software development",
+        "href": "/services/custom-software/"
+      },
+      {
+        "label": "AI automation, RAG & MCP",
+        "href": "/services/ai-consulting/"
+      },
+      {
+        "label": "Workflow automation",
+        "href": "/services/workflow-automation/"
+      },
+      {
+        "label": "IT staff augmentation",
+        "href": "/services/it-staff-augmentation/"
+      },
+      {
+        "label": "Technology recruitment",
+        "href": "/services/technology-recruitment/"
+      }
     ],
     "company": [
-      { "label": "About MV.tech", "href": "/about/" },
-      { "label": "How we work & timezones", "href": "/remote-consulting/" },
-      { "label": "Delivery process", "href": "/process/" },
-      { "label": "Expertise & credentials", "href": "/expertise/" },
-      { "label": "Solution patterns", "href": "/solutions/" },
-      { "label": "Insights", "href": "/insights/" }
+      {
+        "label": "About MV.tech",
+        "href": "/about/"
+      },
+      {
+        "label": "How we work & timezones",
+        "href": "/remote-consulting/"
+      },
+      {
+        "label": "Delivery process",
+        "href": "/process/"
+      },
+      {
+        "label": "Expertise & credentials",
+        "href": "/expertise/"
+      },
+      {
+        "label": "Solution patterns",
+        "href": "/solutions/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      }
     ],
     "connect": [
-      { "label": "Book a 30-minute call", "href": "https://calendly.com/contact-mvtech/new-meeting", "external": true },
-      { "label": "contact@mvtech.solutions", "href": "mailto:contact@mvtech.solutions" },
-      { "label": "LinkedIn", "href": "https://www.linkedin.com/company/mv-tech-data/", "external": true },
-      { "label": "Meet Vaghasia on Toptal", "href": "https://www.toptal.com/developers/resume/meet-vaghasia", "external": true },
-      { "label": "FAQ", "href": "/faq/" },
-      { "label": "Privacy & delivery standards", "href": "/compliance/" }
+      {
+        "label": "Book a 30-minute call",
+        "href": "https://calendly.com/contact-mvtech/new-meeting",
+        "external": true
+      },
+      {
+        "label": "contact@mvtech.solutions",
+        "href": "mailto:contact@mvtech.solutions"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/company/mv-tech-data/",
+        "external": true
+      },
+      {
+        "label": "Meet Vaghasia on Toptal",
+        "href": "https://www.toptal.com/developers/resume/meet-vaghasia",
+        "external": true
+      },
+      {
+        "label": "FAQ",
+        "href": "/faq/"
+      },
+      {
+        "label": "Privacy & delivery standards",
+        "href": "/compliance/"
+      }
     ]
   },
   "overlap": {
     "note": "Illustrative windows we plan engagements around. Exact hours are agreed per engagement and adjusted for daylight saving.",
     "zones": [
-      { "city": "New York", "zone": "US Eastern", "window": "9:00 am – 1:00 pm", "start": 9, "end": 13, "ist": "6:30 pm – 10:30 pm IST" },
-      { "city": "San Francisco", "zone": "US Pacific", "window": "7:00 am – 10:00 am", "start": 7, "end": 10, "ist": "7:30 pm – 10:30 pm IST" },
-      { "city": "London", "zone": "United Kingdom", "window": "9:00 am – 3:30 pm", "start": 9, "end": 15.5, "ist": "1:30 pm – 8:00 pm IST" },
-      { "city": "Berlin", "zone": "Central Europe", "window": "9:00 am – 4:00 pm", "start": 9, "end": 16, "ist": "12:30 pm – 7:30 pm IST" },
-      { "city": "Dubai", "zone": "Gulf", "window": "9:00 am – 6:00 pm", "start": 9, "end": 18, "ist": "10:30 am – 7:30 pm IST" },
-      { "city": "Singapore", "zone": "Southeast Asia", "window": "11:00 am – 6:00 pm", "start": 11, "end": 18, "ist": "8:30 am – 3:30 pm IST" },
-      { "city": "Sydney", "zone": "Australia East", "window": "12:30 pm – 6:00 pm", "start": 12.5, "end": 18, "ist": "8:00 am – 1:30 pm IST" }
+      {
+        "city": "New York",
+        "zone": "US Eastern",
+        "window": "9:00 am – 1:00 pm",
+        "start": 9,
+        "end": 13,
+        "ist": "6:30 pm – 10:30 pm IST"
+      },
+      {
+        "city": "San Francisco",
+        "zone": "US Pacific",
+        "window": "7:00 am – 10:00 am",
+        "start": 7,
+        "end": 10,
+        "ist": "7:30 pm – 10:30 pm IST"
+      },
+      {
+        "city": "London",
+        "zone": "United Kingdom",
+        "window": "9:00 am – 3:30 pm",
+        "start": 9,
+        "end": 15.5,
+        "ist": "1:30 pm – 8:00 pm IST"
+      },
+      {
+        "city": "Berlin",
+        "zone": "Central Europe",
+        "window": "9:00 am – 4:00 pm",
+        "start": 9,
+        "end": 16,
+        "ist": "12:30 pm – 7:30 pm IST"
+      },
+      {
+        "city": "Dubai",
+        "zone": "Gulf",
+        "window": "9:00 am – 6:00 pm",
+        "start": 9,
+        "end": 18,
+        "ist": "10:30 am – 7:30 pm IST"
+      },
+      {
+        "city": "Singapore",
+        "zone": "Southeast Asia",
+        "window": "11:00 am – 6:00 pm",
+        "start": 11,
+        "end": 18,
+        "ist": "8:30 am – 3:30 pm IST"
+      },
+      {
+        "city": "Sydney",
+        "zone": "Australia East",
+        "window": "12:30 pm – 6:00 pm",
+        "start": 12.5,
+        "end": 18,
+        "ist": "8:00 am – 1:30 pm IST"
+      }
     ]
   }
 }
