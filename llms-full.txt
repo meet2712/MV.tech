@@ -1492,9 +1492,9 @@ ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, sema
 
 Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
 
-#### Workflow Automation Consulting
+#### MCP Servers & AI Connectors
 
-Scheduled workflows, webhooks, Apps Script and API integrations that replace manual hand-offs and make failures visible.
+Custom MCP servers and AI connectors in Python that give agents scoped, validated and logged access to your databases, APIs and internal tools.
 
 Your next step
 
@@ -1508,7 +1508,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/
 Description: MV.tech's remote services: ETL and cloud warehouses, BI and semantic layers, custom software, workflow automation, AI with RAG and MCP, staffing and hiring.
-Last modified: 2026-09-11
+Last modified: 2026-09-12
 
 Services
 
@@ -1518,11 +1518,19 @@ Build a new system, fix the one you have, add senior people to your team or hire
 
 Core services
 
-### Six services, one senior team.
+### Ten services, one senior team.
 
 ### Data engineering & ETL consulting
 
 Pipelines from APIs, files and databases into BigQuery, Snowflake, Redshift or your warehouse of choice. Migrations off legacy reporting, dimensional and semantic models, reconciliation checks and reporting your team can trust.
+
+### Data warehouse migration
+
+Legacy databases and manual reporting moved into Snowflake, BigQuery or Redshift, with metadata profiling, dependency analysis, source-to-target mapping and stage-by-stage reconciliation before anything is switched off.
+
+### Business intelligence & dashboards
+
+Semantic and dimensional models behind Power BI, Tableau, Looker Studio and Streamlit, with DAX, governed KPI definitions, self-service datasets and refreshes that finish on time.
 
 ### Custom software & web app development
 
@@ -1531,6 +1539,14 @@ Business applications, client portals, dashboards and internal tools with role-b
 ### AI automation, RAG & MCP development
 
 Knowledge assistants grounded in your documents, Model Context Protocol servers and custom AI connectors exposing approved tools and databases, and GPT, Claude, Llama or Qwen features integrated into existing products with evaluation built in.
+
+### MCP servers & AI connectors
+
+The layer underneath an assistant: custom MCP servers and enterprise AI connectors in Python that give agents scoped, validated and logged access to your databases, APIs and internal tools.
+
+### Blockchain & on-chain data analytics
+
+Transactions, logs and events decoded with contract ABIs and Web3.py, consolidated across networks into BigQuery, with token valuation, categorisation, staking-reward reconciliation and an audit trail that survives corrections.
 
 ### Workflow automation & API integration
 
@@ -1603,7 +1619,9 @@ Which service do I need?
 - "Our reports are unreliable or manual."
   Data engineering consulting, usually starting with one dependable reporting flow.
 - "We are moving reporting to Snowflake or BigQuery."
-  Data engineering consulting, starting with discovery, source-to-target mapping and an impact analysis of what depends on the old estate.
+  Data warehouse migration, starting with discovery, source-to-target mapping and an impact analysis of what depends on the old estate.
+- "Two dashboards answer the same question differently."
+  Business intelligence & dashboards, starting with one semantic model and a written definition per metric.
 - "Two systems disagree and we reconcile by hand."
   Data engineering consultingfor the checks, orworkflow automationif the matching itself is the manual part.
 - "People copy data between tools every week."
@@ -1612,6 +1630,10 @@ Which service do I need?
   Custom software development, scoped around one complete user journey.
 - "We want an assistant over our documents or tools."
   AI automation, RAG & MCP development, starting with a bounded knowledge set.
+- "Our AI platform has no connector for the system we actually use."
+  MCP servers & AI connectors, starting with one system, a few tools and a scoped service identity.
+- "We need on-chain activity in a warehouse finance can use."
+  Blockchain & on-chain data analytics, starting with one network and one reported figure.
 - "We need a senior engineer in the team for a while."
   IT staff augmentation, with capacity and overlap hours agreed up front.
 - "We need to hire someone permanently."
@@ -1765,13 +1787,335 @@ Related services
 
 ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
 
-#### Workflow Automation Consulting
+#### MCP Servers & AI Connectors
 
-Scheduled workflows, webhooks, Apps Script and API integrations that replace manual hand-offs and make failures visible.
+Custom MCP servers and AI connectors in Python that give agents scoped, validated and logged access to your databases, APIs and internal tools.
 
-#### Custom Software Development
+#### Business Intelligence & Dashboards
 
-Business web applications, client portals, internal tools and Streamlit data apps with APIs and data backends designed together.
+Semantic and dimensional models, Power BI, Tableau and Looker Studio dashboards, governed KPI definitions and refreshes that finish on time.
+
+Your next step
+
+### Tell us what needs to work better.
+
+Bring your goal, current tools and preferred working hours. We use the first 30-minute conversation to clarify fit and an initial scope, and you leave with a written next step.
+
+---
+
+# Blockchain & On-Chain Data Analytics | MV.tech
+
+URL: https://mvtech.solutions/services/blockchain-data-analytics/
+Description: On-chain data engineering: decoded transactions and events, cross-chain ETL into BigQuery, token valuation, categorisation and reward reconciliation.
+Last modified: 2026-09-12
+
+Service · Remote-first senior specialists
+
+## Blockchain & On-Chain Data Analytics
+
+Raw chain data is not analytics. MV.tech decodes transactions, logs and events using contract ABIs and Web3.py, consolidates them across networks into BigQuery, and adds the valuation, categorisation and reconciliation layers that let finance, product and compliance teams answer questions about on-chain activity.
+
+- Remote from Ahmedabad, India
+- Overlap with your timezone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### When on-chain activity has to answer business questions
+
+- A block explorer can show one transaction, but nobody can total a quarter across chains.
+- Each network has its own ingestion script and its own idea of what a transaction record looks like.
+- Finance needs token movements valued in fiat at the right timestamp, with fees attributed.
+- Staking rewards are reconciled by hand and the totals never quite agree.
+- A compliance or AML question needs wallet-level history and there is no dataset to query.
+- Someone corrected a figure directly in the analytics table and the original value is gone.
+- Token coverage is partial, so a material share of transfers lands in an "unknown" bucket.
+What we deliver
+
+### On-chain data engineering services
+
+01
+
+#### Cross-chain ingestion and ETL
+
+Pull blocks, transactions, logs and events from node RPCs, indexers and chain APIs into a common schema in BigQuery. Reorg handling, backfills, checkpointing and per-chain rate limits are part of the pipeline rather than an afterthought. Work has covered Ethereum, Bitcoin, Immutable X, Immutable zkEVM, XDC, WEMIX, Tezos and Cardano.
+
+02
+
+#### Decoding transactions, logs and events
+
+Apply contract ABIs with Web3.py to turn opaque input data and topics into named events with typed arguments: transfers, mints, burns, stakes, swaps. That includes proxy contracts, non-standard implementations and the contracts whose interface has to be reconstructed before anything can be read.
+
+03
+
+#### Token identification and valuation
+
+Maintain token registries and price reference data, and value movements at the relevant block timestamp in the reporting currency, handling decimals, fee proration and FX explicitly. Widening mapping coverage is ordinary, high-value work: on past engagements it moved from 35 tokens to 42 and beyond, pulling material volume out of the unknown bucket.
+
+04
+
+#### Transaction categorisation
+
+Classify activity into the categories the business reports on — transfer, trade, fee, reward, bridge, internal movement — using contract, method, counterparty and pattern rules that are written down and reviewable rather than buried inside a query.
+
+05
+
+#### Staking-reward reconciliation
+
+Reward ledgers per validator, delegator or wallet, reconciled against on-chain distributions and internal records, with period totals, accrual timing and a discrepancy report. On past engagements a ledger of this kind has removed more than 70% of a manual reconciliation cycle.
+
+06
+
+#### Wallet analytics and attribution
+
+Wallet-level histories, balances over time, cohort and retention views, and attribution of addresses to known entities or internal accounts, with the labelling maintained as data rather than hardcoded into reports.
+
+07
+
+#### Compliance and AML investigative datasets
+
+Queryable datasets for investigation and monitoring: counterparty exposure, flows through addresses of interest, thresholds and time-windowed aggregates. They support an analyst’s judgement and an auditor’s questions; they do not replace either.
+
+08
+
+#### Immutable base data with an audit trail
+
+Base tables hold exactly what the chain reported and are never edited. Manual corrections, whitelists and overrides live in separate layers applied when the reporting view is built, each carrying an author, a timestamp and a reason, so a figure can still be explained months later.
+
+- Python
+- Web3.py
+- Contract ABIs
+- BigQuery
+- Node RPCs
+- Ethereum
+- Bitcoin
+- Immutable X
+- Immutable zkEVM
+- XDC
+- WEMIX
+- Tezos
+- Cardano
+- Pandas
+- Parquet
+- SQL
+- Docker
+- Looker Studio
+A useful first project
+
+### A useful first project: one chain, end to end
+
+Take a single network and one business question — a quarterly token flow, a staking-reward total, a wallet cohort — and build it the whole way: ingestion, decoding with the relevant ABIs, token mapping, valuation, categorisation and a reconciled output compared against whatever figures exist today. One chain done properly establishes the schema, the decoding patterns, the override model and the validation checks, so the second and third networks are mostly configuration rather than new engineering.
+
+Working together
+
+### A practical path from scope to delivery.
+
+- 01 — Agree the question and the chains — Identify the networks, contracts and wallets in scope, the reporting currency and period, and the figures the output has to reconcile against.
+- 02 — Ingest, decode and value — Build the pipeline and decoding layer, map tokens, apply valuation and categorisation, and check coverage and gaps block by block.
+- 03 — Reconcile and operate — Compare against on-chain and internal sources, document the override path, then schedule, monitor and hand over with the mapping rules.
+Teams our engineers have worked with
+
+- Google
+- Volvo
+- BCW
+- RootstockLabs
+- Chainlabs
+- Toptal
+- Turing
+Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Before we begin
+
+### Questions about blockchain & on-chain data analytics.
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**Why not just use a public chain dataset?**
+Public datasets are a reasonable starting point for common chains and standard token transfers. They tend to fall short on newer or smaller networks, on contracts whose events are not standard, and on the business layer: your token registry, your categorisation rules, your reporting currency and your reconciliation against internal records. We use public datasets where they fit and build ingestion where they do not.
+
+**How do you handle a contract with no published ABI?**
+Several ways, in order of preference: a verified ABI from the explorer, a standard interface the contract conforms to, an ABI supplied by whoever deployed it, or reconstruction from method signatures and observed event topics. Whichever route is used, the decoding rules are recorded per contract and the raw input data is retained, so decoding can be corrected and replayed without re-ingesting the chain.
+
+**Can analysts correct a figure without breaking the audit trail?**
+That is what the override layer is for. Base tables hold what the chain reported and are never edited. Corrections, whitelists and manual classifications live in separate tables with an author, a timestamp and a reason, and are applied when the reporting view is built. Both the original and the adjusted figure stay available, which is usually what an auditor asks to see.
+
+**How do you value tokens that barely trade?**
+Carefully, and visibly. The valuation method is a documented rule per token: reference price at block timestamp, a defined source hierarchy, a fallback, or explicitly no valuation at all. Unvalued volume is reported rather than hidden. It is better for a finance team to see that a share of activity has no reliable price than to receive a confident number built on a thin market.
+
+**Can this feed our existing warehouse and dashboards?**
+Yes. On-chain data is just another source: it lands in the same layered warehouse, under the same validation and modelling standards, and is read by Power BI, Looker Studio, Tableau or a Streamlit tool alongside everything else. Teams usually want it joined to off-chain records — customers, internal accounts, fiat movements — and that join is where most of the analytical value appears.
+
+Related services
+
+### Other ways we can help.
+
+#### Data Engineering Consulting
+
+ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
+
+#### AI Automation, RAG & MCP Development
+
+Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
+
+#### MCP Servers & AI Connectors
+
+Custom MCP servers and AI connectors in Python that give agents scoped, validated and logged access to your databases, APIs and internal tools.
+
+Your next step
+
+### Tell us what needs to work better.
+
+Bring your goal, current tools and preferred working hours. We use the first 30-minute conversation to clarify fit and an initial scope, and you leave with a written next step.
+
+---
+
+# Business Intelligence & Power BI Consulting | MV.tech
+
+URL: https://mvtech.solutions/services/business-intelligence/
+Description: Power BI, Tableau and Looker Studio consulting: semantic models, DAX, governed KPI definitions and dashboards whose numbers agree with each other.
+Last modified: 2026-09-12
+
+Service · Remote-first senior specialists
+
+## Business Intelligence & Dashboards
+
+Reporting people act on starts with an agreed definition of every number on it. MV.tech builds semantic and dimensional models, curated reporting layers and dashboards in Power BI, Tableau, Looker Studio and Streamlit — and reviews the models you already have before proposing that anything is rebuilt.
+
+- Remote from Ahmedabad, India
+- Overlap with your timezone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### When reporting exists but nobody trusts it
+
+- Two dashboards answer the same question with different numbers and nobody can say which is right.
+- A Power BI model has grown organically: no agreed grain, duplicated measures and DAX nobody wants to touch.
+- Refreshes are slow or time out, and the workaround has been to import less data.
+- Executives ask for one view and receive a deck assembled by hand every month.
+- Analysts export to Excel because the reporting layer cannot answer their follow-up question.
+- The same KPI exists in four tools with four definitions and no owner.
+- An SSAS or Azure Analysis Services model needs a proper review before anyone decides whether to migrate it.
+What we deliver
+
+### Business intelligence services and deliverables
+
+01
+
+#### Semantic and dimensional models
+
+Fact and dimension tables at an agreed grain, with conformed dimensions, bridge tables for many-to-many relationships and source-load tracking. The model carries the business logic, so each report reads the same definitions instead of re-implementing them.
+
+02
+
+#### Power BI development and DAX
+
+Datasets, relationships, calculation groups and measures in DAX, with row-level security where the data needs it. Existing models are profiled first — storage mode, cardinality, unused columns, duplicated measures — so a rebuild becomes a justified decision rather than a default.
+
+03
+
+#### SSAS and Azure Analysis Services review
+
+Document what a tabular model actually contains: tables, relationships, calculated columns, measures and the reports depending on each one. The output is a written assessment of what to keep, what belongs in the warehouse instead and what can be retired.
+
+04
+
+#### Tableau, Looker Studio and Streamlit reporting
+
+Dashboards built on curated views rather than ad-hoc extracts, published to Tableau Server, Looker Studio, or a Streamlit and Plotly application where an interactive Python tool fits the job better than a BI licence.
+
+05
+
+#### KPI definition and metric governance
+
+Write each metric down: the calculation, the filters, the grain, the owner and where it is allowed to appear. Past engagements have defined 20+ governed KPIs this way and cut reporting inconsistencies by around 40%, mostly by removing definitions that had quietly diverged.
+
+06
+
+#### Refresh performance and cost
+
+Reduce what a report has to read: partitioning, incremental refresh, aggregation tables, pushing transformation back into the warehouse and removing columns nothing uses. On past work this has reduced query scan sizes by 60–75% and moved refreshes from hours to minutes.
+
+07
+
+#### Self-service layers, documentation and handover
+
+A curated dataset analysts can slice without writing joins: naming standards, hidden technical columns, a description on every field and a clear line between governed measures and someone’s own analysis. Handover includes the measure catalogue, refresh schedule, access model and how to extend it.
+
+- Power BI
+- DAX
+- Tableau
+- Looker Studio
+- Streamlit
+- SSAS / Azure Analysis Services
+- Tabular Editor
+- DAX Studio
+- Salesforce CRM Analytics
+- Dimensional modelling
+- Semantic models
+- SQL
+- BigQuery
+- Snowflake
+- Plotly
+- Excel
+A useful first project
+
+### A useful first project: one dashboard, defined end to end
+
+Take the report a team or an executive actually uses and rebuild it properly. Agree the grain, write down the definition of every number on it, model the facts and dimensions behind it, and reconcile the result against the figures people trust today. That gives the semantic model a spine other reports can hang off, and it gives the project an acceptance test that is not a matter of opinion. Further dashboards, self-service datasets and a wider semantic layer are scoped once the first one is agreed.
+
+Working together
+
+### A practical path from scope to delivery.
+
+- 01 — Audit what exists — Inventory reports, models and measures, profile refresh times and query patterns, and record which numbers disagree and why.
+- 02 — Model and define — Build the semantic model at an agreed grain and write the metric definitions alongside it, reconciling each measure against a trusted source.
+- 03 — Publish and hand over — Release with access rules, refresh monitoring and documentation, then work with the people who will extend it.
+Teams our engineers have worked with
+
+- Google
+- Volvo
+- BCW
+- RootstockLabs
+- Chainlabs
+- Toptal
+- Turing
+Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Before we begin
+
+### Questions about business intelligence & dashboards.
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**Can you work with our existing Power BI model instead of rebuilding it?**
+Usually yes, and that is where we prefer to start. A review covers grain, relationships, calculated columns, duplicated measures, storage mode and refresh behaviour, and produces a written list of what to fix in place and what genuinely needs rebuilding. A rebuild is something we have to justify, not a starting assumption.
+
+**What is a semantic model and why does it matter?**
+It is the layer between your warehouse and your dashboards that holds tables, relationships and agreed measures. When it exists, every report calculates revenue the same way. When it does not, each dashboard re-implements the logic and the numbers drift apart. It also lets analysts build their own views without writing joins.
+
+**Our dashboards disagree with each other. Where does that get fixed?**
+Almost always upstream of the dashboard. The usual causes are different filters, a different grain, different date logic or a metric defined twice. We trace each figure back to its source, agree one definition per metric with a named owner, and move the calculation into the model so a report is no longer the place the logic lives.
+
+**Which BI tool should we use?**
+Whichever one your team will maintain. Power BI suits organisations already in Microsoft 365 that need a governed semantic layer; Tableau suits heavy visual exploration; Looker Studio is reasonable for lighter reporting over Google Cloud data; Streamlit fits when the output is really an interactive Python tool. We would rather improve the tool you have than sell you a migration.
+
+**Do we need a data warehouse before we can do BI properly?**
+Not always, but usually. A semantic model can read an operational database for a while and sometimes that is the right call. Once reports need history, several sources, or a grain the source system does not store, a curated warehouse layer costs less than repeatedly patching reports. We can tell you which situation you are in after looking at the sources.
+
+Related services
+
+### Other ways we can help.
+
+#### Data Engineering Consulting
+
+ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
+
+#### AI Automation, RAG & MCP Development
+
+Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
+
+#### MCP Servers & AI Connectors
+
+Custom MCP servers and AI connectors in Python that give agents scoped, validated and logged access to your databases, APIs and internal tools.
 
 Your next step
 
@@ -1906,9 +2250,9 @@ ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, sema
 
 Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
 
-#### Workflow Automation Consulting
+#### MCP Servers & AI Connectors
 
-Scheduled workflows, webhooks, Apps Script and API integrations that replace manual hand-offs and make failures visible.
+Custom MCP servers and AI connectors in Python that give agents scoped, validated and logged access to your databases, APIs and internal tools.
 
 Your next step
 
@@ -2065,13 +2409,170 @@ Related services
 
 Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
 
-#### Workflow Automation Consulting
+#### MCP Servers & AI Connectors
 
-Scheduled workflows, webhooks, Apps Script and API integrations that replace manual hand-offs and make failures visible.
+Custom MCP servers and AI connectors in Python that give agents scoped, validated and logged access to your databases, APIs and internal tools.
 
-#### Custom Software Development
+#### Business Intelligence & Dashboards
 
-Business web applications, client portals, internal tools and Streamlit data apps with APIs and data backends designed together.
+Semantic and dimensional models, Power BI, Tableau and Looker Studio dashboards, governed KPI definitions and refreshes that finish on time.
+
+Your next step
+
+### Tell us what needs to work better.
+
+Bring your goal, current tools and preferred working hours. We use the first 30-minute conversation to clarify fit and an initial scope, and you leave with a written next step.
+
+---
+
+# Data Warehouse Migration to Snowflake or BigQuery | MV.tech
+
+URL: https://mvtech.solutions/services/data-warehouse-migration/
+Description: Move legacy databases and manual reporting into Snowflake, BigQuery or Redshift with mapped sources, stage-by-stage reconciliation and an evidenced cutover.
+Last modified: 2026-09-12
+
+Service · Remote-first senior specialists
+
+## Data Warehouse Migration
+
+Migrations fail on the things nobody mapped. MV.tech moves legacy databases such as SQL Server and Oracle, along with the manual reporting that grew around them, into Snowflake, BigQuery or Amazon Redshift — starting with metadata profiling and dependency analysis, reconciling at every stage, and cutting over on evidence rather than on a date.
+
+- Remote from Ahmedabad, India
+- Overlap with your timezone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### When the old platform has to go and nothing is documented
+
+- A licence renewal, a cost target or end-of-support has set a date for leaving the current platform.
+- Reporting runs on a SQL Server estate of views, jobs and stored procedures nobody fully owns.
+- Nobody can say which dashboards, extracts or semantic models depend on a given table.
+- Month-end reporting is assembled from spreadsheets that were never meant to be a system of record.
+- A previous migration attempt stalled because the new numbers did not match the old ones.
+- The warehouse was lifted and shifted as-is, and its query patterns and costs came with it.
+- Someone has to prove the new platform is right before the old one is switched off.
+What we deliver
+
+### Migration services and deliverables
+
+01
+
+#### Discovery and metadata profiling
+
+Catalogue the current estate from the information schema, DDL, query logs and job schedules: tables, volumes, refresh frequencies, objects nothing reads and the handful that carry the business. Profile the data itself for types, null rates, key uniqueness and history depth, so the target design reflects what is there rather than what the documentation claims.
+
+02
+
+#### Dependency and impact analysis
+
+Trace what reads each object — views, stored procedures, scheduled jobs, extracts, semantic models and dashboards — and flag hardcoded rules, cross-database joins and platform-specific SQL that will not survive the move. This is the analysis that decides whether a migration is a planned project or a sequence of surprises.
+
+03
+
+#### Source-to-target mapping
+
+A written mapping per object: source, target table and layer, data types, transformation rules, keys, grain, historical scope and the check that proves it landed correctly. It is the document both sides sign off and the basis for every test that follows.
+
+04
+
+#### Target design: raw, staging, curated and reporting layers
+
+Design Snowflake, BigQuery or Redshift with separated layers: raw as it arrived, staging conformed, curated facts and dimensions, and reporting shapes that BI tools read. Partitioning, clustering and incremental loads are chosen against real query patterns, which is where the 60–75% reductions in query scan size on past engagements came from.
+
+05
+
+#### Validation and reconciliation
+
+Automated comparison between old and new at each pipeline stage: record counts, date coverage, nulls, duplicates, control totals and metric-level comparison of the figures people actually report. Differences are explained rather than rounded away — several times they have revealed a defect in the legacy logic. This work has cut manual reconciliation effort by more than 70% on past migrations.
+
+06
+
+#### Dashboard and semantic-model impact
+
+Repoint Power BI, Tableau, Looker Studio or Analysis Services models at the new layers, or rebuild them where the old model was itself the problem. Report-level differences are reconciled visual by visual before a dashboard is called migrated.
+
+07
+
+#### Cutover, parallel run and handover
+
+Plan the sequence: what runs in parallel and for how long, the freeze window, who signs off each domain, what is decommissioned when, and how to roll back. Handover includes the mappings, ER diagrams, validation results, schedules, ownership and operating runbooks.
+
+- Snowflake
+- BigQuery
+- Amazon Redshift
+- SQL Server
+- Azure SQL
+- Oracle
+- PostgreSQL
+- Azure Synapse
+- Azure Data Factory
+- dbt-style modelling
+- Matillion
+- Pentaho
+- Python
+- SQL
+- Parquet
+- Power BI
+A useful first project
+
+### A useful first project: migrate one reporting domain
+
+Pick one reporting domain — finance, sales, operations — and take it the whole way: discovery of its sources, dependency analysis, source-to-target mapping, warehouse layers, reconciliation against the existing numbers and a repointed dashboard. It proves the target design, the validation approach and the cutover process on something small enough to correct cheaply, and it produces patterns the following domains reuse. It also gives an estimate for the rest of the estate based on your data rather than on a template.
+
+Working together
+
+### A practical path from scope to delivery.
+
+- 01 — Discover and map — Profile the source estate and its dependencies, agree the target architecture, and write the source-to-target mapping and migration sequence.
+- 02 — Build and reconcile — Load and model domain by domain, comparing each stage with the legacy system on counts, coverage, totals and reported metrics.
+- 03 — Cut over and decommission — Run in parallel, repoint reporting on evidence, take written sign-off and retire legacy objects in a documented order.
+Teams our engineers have worked with
+
+- Google
+- Volvo
+- BCW
+- RootstockLabs
+- Chainlabs
+- Toptal
+- Turing
+Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Before we begin
+
+### Questions about data warehouse migration.
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**How long does a data warehouse migration take?**
+It depends far more on dependencies than on data volume. Discovery and dependency analysis on a mid-sized estate typically takes weeks; the migration is then scoped domain by domain, each reconciled before the next begins. We would rather give an estimate after discovery than before it, and discovery can be bought as a standalone piece of work.
+
+**How do you prove the new warehouse is correct?**
+By comparing it with the old one, automatically and repeatedly. Record counts and control totals per load, date coverage and gap checks, null and duplicate profiles, key uniqueness, and metric-level comparison of reported figures. Every difference is investigated and then either fixed or documented as a deliberate change, including the cases where the legacy number turns out to be the wrong one.
+
+**Can we migrate without breaking existing dashboards?**
+That is what the dependency analysis is for. Before anything moves we trace which reports, extracts and semantic models read which objects, and flag the business logic hiding inside them. Dashboards are then repointed and reconciled visual by visual, usually while both platforms run in parallel, so the old estate is switched off only after the new numbers have been signed off.
+
+**Should we lift and shift, or redesign?**
+Usually a mix, decided per domain. Lifting and shifting is faster and keeps reconciliation simple, but it carries forward the modelling problems and often the cost profile. Redesigning is right where the grain is wrong, where legacy logic is unmaintainable, or where query patterns will change on the new platform. Discovery is what tells you which objects belong in which category.
+
+**Our reporting lives in spreadsheets rather than a database. Is that still a migration?**
+Yes, and it is a common one. The shape of the work is the same: find the sources behind the spreadsheets, document the rules that live in formulas and in people’s heads, model them in the warehouse and reconcile the output against the last few months of manual figures. The difference is that more of the discovery happens in conversation than in the information schema.
+
+Related services
+
+### Other ways we can help.
+
+#### Data Engineering Consulting
+
+ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
+
+#### AI Automation, RAG & MCP Development
+
+Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
+
+#### MCP Servers & AI Connectors
+
+Custom MCP servers and AI connectors in Python that give agents scoped, validated and logged access to your databases, APIs and internal tools.
 
 Your next step
 
@@ -2202,15 +2703,172 @@ ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, sema
 
 Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
 
-#### Workflow Automation Consulting
+#### MCP Servers & AI Connectors
 
-Scheduled workflows, webhooks, Apps Script and API integrations that replace manual hand-offs and make failures visible.
+Custom MCP servers and AI connectors in Python that give agents scoped, validated and logged access to your databases, APIs and internal tools.
 
 Your next step
 
 ### Which capability does your team need?
 
 Share the role, technology stack, expected duration and working hours. We can discuss consultant fit, availability and the right engagement scope.
+
+---
+
+# Custom MCP Server Development & AI Connectors | MV.tech
+
+URL: https://mvtech.solutions/services/mcp-and-ai-connectors/
+Description: Custom Model Context Protocol servers and enterprise AI connectors in Python, giving agents scoped, validated and logged access to your systems.
+Last modified: 2026-09-12
+
+Service · Remote-first senior specialists
+
+## MCP Servers & AI Connectors
+
+Give an AI agent access to real systems without handing over the keys. MV.tech builds custom Model Context Protocol (MCP) servers and AI connectors in Python that expose approved databases, APIs and internal tools to enterprise AI platforms, with scoped authorisation, validated queries, logged calls and evaluation before access is widened.
+
+- Remote from Ahmedabad, India
+- Overlap with your timezone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### When an agent needs real access, not a pasted export
+
+- An assistant is convincing in a demo but has no safe route to live data.
+- Your enterprise AI platform has a connector for everything except the system the business runs on.
+- Analysts want questions answered from a governed dataset, with the generated SQL checked before it runs.
+- Several teams are each building their own prompt-and-paste workflow against the same internal tools.
+- Security will not approve an agent that authenticates as a shared admin account.
+- An agent can already read your data and nobody can produce an audit trail of what it read.
+- A working MCP prototype now needs authentication, error handling, logging and a deployment story.
+What we deliver
+
+### MCP and connector development services
+
+01
+
+#### Custom MCP servers in Python
+
+Model Context Protocol servers built around your systems: tool definitions with typed inputs, explicit failure modes, resources, pagination and sensible limits. Tools are designed around tasks a person would recognise rather than mirroring every API endpoint, because an agent chooses far better from a short, well-named list.
+
+02
+
+#### Connectors and plugins for enterprise AI platforms
+
+Connectors, plugins and extensions for the AI platforms your organisation has already adopted — including Claude, Gemini Enterprise and Cortex AI environments — so approved data reaches assistants through one maintained integration instead of several ad-hoc ones.
+
+03
+
+#### Database, API and internal-tool access
+
+Connect agents to warehouses, operational databases, REST APIs, ticketing and finance systems. Access runs through a scoped service identity against an approved set of tables or endpoints: read-only by default, whitelists rather than blocklists, and no path to anything outside the agreed surface.
+
+04
+
+#### Secure retrieval, SQL generation and validation
+
+Where an agent generates SQL, it generates it against a governed reporting layer. Queries are parsed and checked before execution — permitted objects only, row and cost limits, no writes — and results are validated and shaped before they are returned. Retrieval respects the permissions the requesting user already has.
+
+05
+
+#### OAuth, secrets and token-aware access control
+
+Authorisation designed in rather than bolted on: OAuth flows, short-lived tokens, secrets held in a managed store such as Secret Manager, per-user identity carried through to the data layer, and a log of every tool call with its arguments and outcome — the kind of evidence a SOC 2 programme asks for.
+
+06
+
+#### Reusable AI skills and packaged workflows
+
+Package the sequences people repeat — retrieve, generate SQL, validate, format, export — as reusable skills and tools rather than prompts copied between teams, so behaviour is versioned, tested and improved in one place.
+
+07
+
+#### Evaluation, guardrails and deployment
+
+Agree a test set of real requests, including ones the server should refuse, and measure tool-selection accuracy, answer correctness, latency and cost before widening access. Ship containerised with Pytest coverage, CI, structured logging and a documented upgrade path as the protocol and the clients change.
+
+- Python
+- Model Context Protocol (MCP)
+- Custom AI connectors
+- AI skills and plugins
+- OAuth 2.0
+- Secret Manager
+- REST APIs
+- SQL
+- BigQuery
+- Snowflake
+- Cortex AI
+- Gemini Enterprise
+- Docker
+- Cloud Run
+- GitHub Actions
+- Pytest
+A useful first project
+
+### A useful first project: one server, one system, one group
+
+Choose one system your teams query constantly and one small group of users. Define the three or four tools that cover most of their requests, wire them to a scoped service identity, and put validation and logging around every call from the first day. Test against the requests those users actually make, including the ones the server should refuse. That first server establishes the authorisation pattern, the logging format and the evaluation set, and every connector added afterwards inherits them instead of reinventing them.
+
+Working together
+
+### A practical path from scope to delivery.
+
+- 01 — Define the tools and the boundary — Agree which tasks belong to the agent, which systems and objects are in scope, what it must never do, and who approves an exception.
+- 02 — Build, secure and evaluate — Implement the server and its authorisation, then test against real requests and refusal cases before anyone outside the pilot group connects.
+- 03 — Deploy and maintain — Ship with logging, monitoring and CI, document the tool contract, and agree how tools change as your systems and the protocol evolve.
+Teams our engineers have worked with
+
+- Google
+- Volvo
+- BCW
+- RootstockLabs
+- Chainlabs
+- Toptal
+- Turing
+Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Before we begin
+
+### Questions about MCP servers & AI connectors.
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**What is an MCP server, in practice?**
+It is a small service that describes a set of tools and resources in a standard way, so any compatible AI application can use them without a bespoke integration. In practice it is ordinary backend engineering: authenticate, validate the input, call the underlying system, shape the response, log the call. The protocol is the straightforward part; the access model is the work.
+
+**How is this different from your AI automation and RAG service?**
+The AI automation, RAG and MCP development page covers the assistant itself: knowledge sources, retrieval, model behaviour and the user-facing workflow. This page covers the layer underneath it — the servers and connectors that give agents governed access to live systems. Many projects need both and they are often scoped together. If you are not sure which one you are asking for, describe the workflow and we will say.
+
+**Can an agent be allowed to write data, not just read it?**
+It can, with deliberate design. Write tools are kept separate from read tools, restricted to specific objects and operations, made idempotent where possible, and in most cases placed behind a human approval step that happens outside the model’s control. We would start read-only, prove tool selection is reliable, then add write capability one operation at a time.
+
+**Which AI platforms can use what you build?**
+Any MCP-compatible client, which now covers the major assistant and IDE products, plus platform-specific connectors and plugins where an organisation has standardised on one vendor. We test against the clients you actually use, because a tool description that works well in one client can be read differently in another.
+
+**How do you stop prompt injection turning a tool into a problem?**
+By not relying on the model to enforce anything. Permissions are checked server-side before a tool runs, tools expose only approved objects, generated SQL is validated against a whitelist, destructive operations are either not exposed or require human approval, and retrieved content is treated as data rather than as instructions. Logging every call means an unexpected request is visible afterwards, not merely prevented in theory.
+
+Related services
+
+### Other ways we can help.
+
+#### Data Engineering Consulting
+
+ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
+
+#### AI Automation, RAG & MCP Development
+
+Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
+
+#### Business Intelligence & Dashboards
+
+Semantic and dimensional models, Power BI, Tableau and Looker Studio dashboards, governed KPI definitions and refreshes that finish on time.
+
+Your next step
+
+### Tell us what needs to work better.
+
+Bring your goal, current tools and preferred working hours. We use the first 30-minute conversation to clarify fit and an initial scope, and you leave with a written next step.
 
 ---
 
@@ -2325,9 +2983,9 @@ ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, sema
 
 Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
 
-#### Workflow Automation Consulting
+#### MCP Servers & AI Connectors
 
-Scheduled workflows, webhooks, Apps Script and API integrations that replace manual hand-offs and make failures visible.
+Custom MCP servers and AI connectors in Python that give agents scoped, validated and logged access to your databases, APIs and internal tools.
 
 Your next step
 
@@ -2469,9 +3127,9 @@ ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, sema
 
 Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
 
-#### Custom Software Development
+#### MCP Servers & AI Connectors
 
-Business web applications, client portals, internal tools and Streamlit data apps with APIs and data backends designed together.
+Custom MCP servers and AI connectors in Python that give agents scoped, validated and logged access to your databases, APIs and internal tools.
 
 Your next step
 

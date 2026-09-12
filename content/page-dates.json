@@ -75,14 +75,24 @@
     "published": "2026-09-10"
   },
   "/services/": {
-    "hash": "72facaa00f2909b1",
-    "modified": "2026-09-11",
-    "published": "2026-06-02"
+    "hash": "e3e578a9df4774c1",
+    "published": "2026-06-02",
+    "modified": "2026-09-12"
   },
   "/services/ai-consulting/": {
     "hash": "b76ecabba41a3e1f",
     "modified": "2026-09-11",
     "published": "2026-09-10"
+  },
+  "/services/blockchain-data-analytics/": {
+    "hash": "571e0e9d96db53ea",
+    "published": "2026-09-12",
+    "modified": "2026-09-12"
+  },
+  "/services/business-intelligence/": {
+    "hash": "00e1ae817f9e7027",
+    "published": "2026-09-12",
+    "modified": "2026-09-12"
   },
   "/services/custom-software/": {
     "hash": "605b7c12dc5e87d7",
@@ -94,10 +104,20 @@
     "modified": "2026-09-11",
     "published": "2026-09-10"
   },
+  "/services/data-warehouse-migration/": {
+    "hash": "a7d2abfd42df0df3",
+    "published": "2026-09-12",
+    "modified": "2026-09-12"
+  },
   "/services/it-staff-augmentation/": {
     "hash": "4efcd574542b57a5",
     "modified": "2026-09-11",
     "published": "2026-09-10"
+  },
+  "/services/mcp-and-ai-connectors/": {
+    "hash": "6677c2a419600df2",
+    "published": "2026-09-12",
+    "modified": "2026-09-12"
   },
   "/services/technology-recruitment/": {
     "hash": "938c87f86b0248a4",

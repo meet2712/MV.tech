@@ -102,6 +102,18 @@
     "kicker": "Knowledge assistants · MCP servers · LLM integration · Evaluation"
   },
   {
+    "route": "/services/blockchain-data-analytics/",
+    "slug": "services-blockchain-data-analytics",
+    "title": "Blockchain & on-chain data analytics",
+    "kicker": "Cross-chain ETL · ABI decoding · Valuation · Reconciliation"
+  },
+  {
+    "route": "/services/business-intelligence/",
+    "slug": "services-business-intelligence",
+    "title": "Business intelligence & dashboards",
+    "kicker": "Power BI · Tableau · Looker Studio · Semantic models · DAX"
+  },
+  {
     "route": "/services/custom-software/",
     "slug": "services-custom-software",
     "title": "Custom software & web app development",
@@ -114,10 +126,22 @@
     "kicker": "Python · SQL · BigQuery · Snowflake · Redshift · Data quality"
   },
   {
+    "route": "/services/data-warehouse-migration/",
+    "slug": "services-data-warehouse-migration",
+    "title": "Data warehouse migration",
+    "kicker": "Snowflake · BigQuery · Redshift · Mapping · Reconciliation"
+  },
+  {
     "route": "/services/it-staff-augmentation/",
     "slug": "services-it-staff-augmentation",
     "title": "IT staff augmentation & dedicated remote teams",
     "kicker": "Senior consultants in your team · Agreed capacity · Your hours"
+  },
+  {
+    "route": "/services/mcp-and-ai-connectors/",
+    "slug": "services-mcp-and-ai-connectors",
+    "title": "MCP servers & AI connectors",
+    "kicker": "Custom MCP servers · Enterprise connectors · Scoped access"
   },
   {
     "route": "/services/technology-recruitment/",

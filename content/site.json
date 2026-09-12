@@ -134,12 +134,28 @@
         "href": "/services/data-engineering/"
       },
       {
+        "label": "Data warehouse migration",
+        "href": "/services/data-warehouse-migration/"
+      },
+      {
+        "label": "Business intelligence & dashboards",
+        "href": "/services/business-intelligence/"
+      },
+      {
         "label": "Custom software development",
         "href": "/services/custom-software/"
       },
       {
         "label": "AI automation, RAG & MCP",
         "href": "/services/ai-consulting/"
+      },
+      {
+        "label": "MCP servers & AI connectors",
+        "href": "/services/mcp-and-ai-connectors/"
+      },
+      {
+        "label": "Blockchain & on-chain analytics",
+        "href": "/services/blockchain-data-analytics/"
       },
       {
         "label": "Workflow automation",
