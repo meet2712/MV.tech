@@ -149,7 +149,7 @@ function schemaGraph(page) {
     description: site.summary, slogan: 'Senior engineering in your timezone, without large-consultancy overhead', email: site.email, telephone: site.phone,
     numberOfEmployees: { '@type': 'QuantitativeValue', minValue: site.teamSize.min, maxValue: site.teamSize.max },
     address: { '@type': 'PostalAddress', addressLocality: site.address.locality, addressRegion: site.address.region, postalCode: site.address.postalCode, addressCountry: site.address.country },
-    areaServed: 'Worldwide', founder: { '@id': `${origin}/#founder` }, sameAs: [site.linkedin], knowsAbout: site.knowsAbout,
+    areaServed: 'Worldwide', founder: { '@id': `${origin}/#founder` }, sameAs: [site.linkedin, site.crunchbase], knowsAbout: site.knowsAbout,
     contactPoint: { '@type': 'ContactPoint', contactType: 'sales', email: site.email, telephone: site.phone, url: `${origin}/contact/`, areaServed: 'Worldwide', availableLanguage: ['English', 'Hindi', 'Gujarati'] },
     makesOffer: consulting.filter((p) => p.path.startsWith('/services/')).map((p) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: p.name, url: origin + p.path } })),
   };
