@@ -12,6 +12,12 @@
     "kicker": "Remote-first · Founded by an engineer · Ahmedabad, India"
   },
   {
+    "route": "/brand/",
+    "slug": "brand",
+    "title": "MV.tech brand kit — logos, colours, type and guidelines",
+    "kicker": "Vector masters · Design tokens · Guidelines · Free download"
+  },
+  {
     "route": "/compliance/",
     "slug": "compliance",
     "title": "Privacy, security & delivery standards",

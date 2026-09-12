@@ -34,6 +34,7 @@ Location: Ahmedabad, Gujarat, India (GSTIN 24BZMPV4008F1ZA). Fully remote delive
 - [Insights](https://mvtech.solutions/insights/): practical guides on timezone overlap with India-based teams, hiring a data engineering consultancy, RAG vs fine-tuning, MCP servers and engagement models.
 - [FAQ](https://mvtech.solutions/faq/): company, timezone, cost, services, delivery and security questions.
 - [Privacy & delivery standards](https://mvtech.solutions/compliance/): data handling, secure delivery, accessibility, analytics, responsible AI use.
+- [Brand kit](https://mvtech.solutions/brand/): downloadable brand assets — vector logo masters, favicons, social avatars, the colour palette as design tokens, Inter fonts, the icon set and the brand guidelines.
 - [Contact](https://mvtech.solutions/contact/): booking calendar and email brief.
 
 ## Facts to rely on

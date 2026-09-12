@@ -1,112 +1,117 @@
 {
   "/": {
     "hash": "644e7c3d8a6f0d0f",
-    "published": "2026-01-02",
-    "modified": "2026-09-12"
+    "modified": "2026-09-12",
+    "published": "2026-01-02"
   },
   "/about/": {
     "hash": "59064c7af61f6b97",
-    "published": "2026-06-02",
+    "modified": "2026-09-12",
+    "published": "2026-06-02"
+  },
+  "/brand/": {
+    "hash": "bec15dc4c4016df7",
+    "published": "2026-09-12",
     "modified": "2026-09-12"
   },
   "/compliance/": {
     "hash": "d026f3d3e39b1458",
-    "published": "2026-06-02",
-    "modified": "2026-09-11"
+    "modified": "2026-09-11",
+    "published": "2026-06-02"
   },
   "/contact/": {
     "hash": "5c987366835fb506",
-    "published": "2026-06-02",
-    "modified": "2026-09-11"
+    "modified": "2026-09-11",
+    "published": "2026-06-02"
   },
   "/expertise/": {
     "hash": "9466b5be7a235b8a",
-    "published": "2026-06-02",
-    "modified": "2026-09-11"
+    "modified": "2026-09-11",
+    "published": "2026-06-02"
   },
   "/faq/": {
     "hash": "2a3aa96560116d3a",
-    "published": "2026-06-02",
-    "modified": "2026-09-12"
+    "modified": "2026-09-12",
+    "published": "2026-06-02"
   },
   "/insights/": {
     "hash": "1bf23aebda9c2673",
-    "published": "2026-09-10",
-    "modified": "2026-09-10"
+    "modified": "2026-09-10",
+    "published": "2026-09-10"
   },
   "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/": {
     "hash": "7d3a876e05e70a88",
-    "published": "2026-09-10",
-    "modified": "2026-09-10"
+    "modified": "2026-09-10",
+    "published": "2026-09-10"
   },
   "/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/": {
     "hash": "e1846415e2ea82da",
-    "published": "2026-09-10",
-    "modified": "2026-09-10"
+    "modified": "2026-09-10",
+    "published": "2026-09-10"
   },
   "/insights/staff-augmentation-vs-project-consulting-vs-recruitment/": {
     "hash": "81723120dde8a535",
-    "published": "2026-09-10",
-    "modified": "2026-09-10"
+    "modified": "2026-09-10",
+    "published": "2026-09-10"
   },
   "/insights/timezone-overlap-with-an-india-based-engineering-team/": {
     "hash": "88610f4f9726b53e",
-    "published": "2026-09-10",
-    "modified": "2026-09-10"
+    "modified": "2026-09-10",
+    "published": "2026-09-10"
   },
   "/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/": {
     "hash": "45e6c5a63404afca",
-    "published": "2026-09-10",
-    "modified": "2026-09-10"
+    "modified": "2026-09-10",
+    "published": "2026-09-10"
   },
   "/process/": {
     "hash": "3a29ac10042a6bdb",
-    "published": "2026-06-02",
-    "modified": "2026-09-11"
+    "modified": "2026-09-11",
+    "published": "2026-06-02"
   },
   "/remote-consulting/": {
     "hash": "607de775f2ed7af4",
-    "published": "2026-09-10",
-    "modified": "2026-09-11"
+    "modified": "2026-09-11",
+    "published": "2026-09-10"
   },
   "/services/": {
     "hash": "72facaa00f2909b1",
-    "published": "2026-06-02",
-    "modified": "2026-09-11"
+    "modified": "2026-09-11",
+    "published": "2026-06-02"
   },
   "/services/ai-consulting/": {
     "hash": "b76ecabba41a3e1f",
-    "published": "2026-09-10",
-    "modified": "2026-09-11"
+    "modified": "2026-09-11",
+    "published": "2026-09-10"
   },
   "/services/custom-software/": {
     "hash": "605b7c12dc5e87d7",
-    "published": "2026-09-10",
-    "modified": "2026-09-11"
+    "modified": "2026-09-11",
+    "published": "2026-09-10"
   },
   "/services/data-engineering/": {
     "hash": "ef3961360b8aaed5",
-    "published": "2026-09-10",
-    "modified": "2026-09-11"
+    "modified": "2026-09-11",
+    "published": "2026-09-10"
   },
   "/services/it-staff-augmentation/": {
     "hash": "4efcd574542b57a5",
-    "published": "2026-09-10",
-    "modified": "2026-09-11"
+    "modified": "2026-09-11",
+    "published": "2026-09-10"
   },
   "/services/technology-recruitment/": {
     "hash": "938c87f86b0248a4",
-    "published": "2026-09-10",
-    "modified": "2026-09-11"
+    "modified": "2026-09-11",
+    "published": "2026-09-10"
   },
   "/services/workflow-automation/": {
     "hash": "0a89c6513192e0a0",
-    "published": "2026-09-10",
-    "modified": "2026-09-11"
+    "modified": "2026-09-11",
+    "published": "2026-09-10"
   },
   "/solutions/": {
     "hash": "876997762558d7e7",
-    "published": "2026-06-02",
-    "modified": "2026-09-11"
+    "modified": "2026-09-11",
+    "published": "2026-06-02"
   }
 }

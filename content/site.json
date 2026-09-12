@@ -178,6 +178,10 @@
       {
         "label": "Insights",
         "href": "/insights/"
+      },
+      {
+        "label": "Brand kit",
+        "href": "/brand/"
       }
     ],
     "connect": [

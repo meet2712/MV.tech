@@ -252,6 +252,89 @@ A 30-minute conversation with the engineers who would do the work. No sales deck
 
 ---
 
+# MV.tech Brand Kit: Logos, Colours, Fonts & Guidelines
+
+URL: https://mvtech.solutions/brand/
+Description: Download the MV.tech brand kit: vector logos, favicons, avatars, the colour palette as design tokens, Inter fonts, icons and the full brand guidelines.
+Last modified: 2026-09-12
+
+Brand assets
+
+## The MV.tech brand kit, ready to use.
+
+Everything you need to represent MV.tech correctly in an article, a partner deck, a directory listing or a co-branded page. Vector logo masters, favicons and avatars, the colour palette as design tokens, the Inter type family, the icon set and the full guidelines.
+
+Download the brand kit ZIP · 15 MB Ask for print files
+
+What is inside
+
+### Eight folders, no guesswork.
+
+#### Vector masters
+
+The logo as true vector, SVG and PDF, in every variant: horizontal, primary and vertical lockups, the monogram and the wordmark, each in dark, light and single colour. Send these to printers and designers.
+
+#### Ready-made exports
+
+PNG at 512 and 1024 pixels for every variant, so you rarely need to open a vector editor.
+
+#### Favicons and app icons
+
+favicon.ico, an SVG favicon, Apple touch icon, Android and maskable icons, a Safari pinned-tab mark and a ready-made head snippet.
+
+#### Social avatars
+
+Circle-safe profile images sized for LinkedIn, X, Instagram, YouTube, WhatsApp and Google Business.
+
+#### Colour and design tokens
+
+The palette as JSON, CSS custom properties, SCSS, a Tailwind config, W3C design tokens, Adobe and GIMP swatches, and an Office theme.
+
+#### Type
+
+Inter for desktop and web with its open font licence, plus a type specimen and the rules for sizes, weights and letter-spacing.
+
+#### Icon set
+
+Brand icons in three colourways as SVG and PNG, with app-style tiles.
+
+#### Guidelines
+
+The full brand guidelines and a one-page quick reference covering logo use, clear space, minimum sizes, colour, accessibility and misuse.
+
+Using the logo
+
+### Five rules that cover almost every case.
+
+- Use the vector masters.They are the source of truth. The PNGs are for everyday work.
+- Match the logo to the background.Dark surfaces take the silver logo, white and pale surfaces the navy one.
+- When you cannot control the background,use a file ending-on-inkor-on-white. Each carries its own background and clear space.
+- Keep one dot of clear space.Nothing may enter the area around the logo equal to the teal dot's diameter.
+- MV never appears twice.The monogram is the letters M and V, and its dot is the full stop, so a lockup pairs the mark withtechonly, never with the full wordmark. Never retype the wordmark in a font.
+Do not stretch, rotate, recolour or add effects to the logo, and do not place it on a busy or low-contrast area. The guidelines in the download show the misuses in full.
+
+Colour
+
+### The palette, and where each colour is allowed.
+
+| Name | Hex | Use |
+| Ink | #05060B | Primary dark background |
+| Navy | #071118 | Body text on light backgrounds, and the mark on white |
+| Signal Teal | #10F5D0 | Accent and highlights on dark. Decorative only on white |
+| System Cyan | #00BFCB | Gradient support and separators |
+| Teal Ink | #007E7B | The only teal for links and small text on white |
+| Silver | #F4F6F8 | Light surfaces and the mark on dark |
+| Graphite | #405466 | Secondary text on light backgrounds |
+Signal Teal and System Cyan do not meet accessibility contrast requirements for text on white, so on light backgrounds they are used for shapes and borders rather than words. Full contrast data ships with the download.
+
+### Need the print files?
+
+The download covers logos, colour, type, icons and the guidelines. Print-ready business cards with bleed and crop marks, letterhead, the company one-pager, Word and PowerPoint templates, email signatures and the complete social set are part of the full kit. Ask us and we will send them.
+
+Download the brand kit
+
+---
+
 # Privacy, Security & Delivery Standards | MV.tech
 
 URL: https://mvtech.solutions/compliance/
