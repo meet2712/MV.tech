@@ -100,7 +100,7 @@ if (routes.size !== pages.length) throw new Error('Duplicate routes: ' + pages.m
 // ---------------------------------------------------------------------------------------------
 const header = `<header id="main-header" class="site-header">
   <div class="container header-inner">
-    <a href="/" class="brand-link" aria-label="MV.tech home"><img src="/images/logo.svg" alt="MV.tech" width="520" height="120"></a>
+    <a href="/" class="brand-link" aria-label="MV.tech home"><img src="/images/logo.svg" alt="MV.tech" width="520" height="167"></a>
     <nav class="desktop-nav" aria-label="Main navigation">${site.nav.map((item) => `<a href="${item.href}" class="site-nav-link">${h(item.label)}</a>`).join('')}</nav>
     <div class="header-actions">${callButton(site, 'Book a call', 'button-primary header-cta')}<button id="mobile-menu-btn" class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">${icon('menu')}</button></div>
   </div>
@@ -112,7 +112,7 @@ const footer = `<footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="/" aria-label="MV.tech home"><img src="/images/logo.svg" alt="MV.tech – Data, AI and digital solutions" width="520" height="120" loading="lazy"></a>
+        <a href="/" aria-label="MV.tech home"><img src="/images/logo.svg" alt="MV.tech – Data, AI and digital solutions" width="520" height="167" loading="lazy"></a>
         <p>${h(site.summary)}</p>
         <p class="footer-worked">Our engineers have worked with ${site.workedWith.join(', ')}.</p>
       </div>
@@ -145,7 +145,7 @@ function schemaGraph(page) {
   const ogImage = `${origin}/images/og/${page.ogSlug ?? slugFor(page.route)}.jpg`;
   const organization = {
     '@type': ['Organization', 'ProfessionalService'], '@id': `${origin}/#organization`, name: site.name, legalName: site.legalName, alternateName: site.alternateNames,
-    url: `${origin}/`, logo: { '@type': 'ImageObject', url: `${origin}/images/logo.png`, width: 1200, height: 276 }, image: `${origin}/images/og/home.jpg`,
+    url: `${origin}/`, logo: { '@type': 'ImageObject', url: `${origin}/images/logo.png`, width: 1200, height: 384 }, image: `${origin}/images/og/home.jpg`,
     description: site.summary, slogan: 'Senior engineering in your timezone, without large-consultancy overhead', email: site.email,
     address: { '@type': 'PostalAddress', addressLocality: site.address.locality, addressRegion: site.address.region, addressCountry: site.address.country },
     areaServed: 'Worldwide', founder: { '@id': `${origin}/#founder` }, sameAs: [site.linkedin], knowsAbout: site.knowsAbout,

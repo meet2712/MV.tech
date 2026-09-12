@@ -23,7 +23,7 @@ body{font-family:Inter,system-ui,sans-serif;background:#05060B;color:#F4F6F8;pos
 .grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse at 20% 20%,#000 30%,transparent 80%);-webkit-mask-image:radial-gradient(ellipse at 20% 20%,#000 30%,transparent 80%)}
 .frame{position:absolute;inset:0;padding:64px 72px;display:flex;flex-direction:column;justify-content:space-between}
 /* Width must track images/logo.svg's own viewBox ratio (4443.54 / 1023.04) so the lockup is never stretched. */
-.logo svg{display:block;height:74px;width:321.41px}
+.logo svg{display:block;height:74px;width:231.0px}
 .kicker{font-size:22px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#10F5D0;margin-bottom:22px}
 h1{font-size:${title.length > 60 ? 52 : title.length > 40 ? 60 : 68}px;line-height:1.08;letter-spacing:-.028em;font-weight:700;max-width:1000px;color:#FFFFFF;text-wrap:balance}
 .foot{display:flex;justify-content:space-between;align-items:flex-end;font-size:22px;color:#8DA0B5}
