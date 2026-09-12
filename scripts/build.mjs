@@ -197,7 +197,7 @@ function layout(page, { noindex = false } = {}) {
 <meta name="description" content="${h(page.description)}">
 ${noindex ? '<meta name="robots" content="noindex, follow">' : '<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">'}
 <link rel="canonical" href="${url}">
-${page.route === '/' ? `<meta name="google-site-verification" content="${site.googleSiteVerification}">` : ''}
+${page.route === '/' ? `<meta name="google-site-verification" content="${site.googleSiteVerification}">${site.bingSiteVerification ? `\n<meta name="msvalidate.01" content="${h(site.bingSiteVerification)}">` : ''}` : ''}
 <meta name="author" content="${h(page.kind === 'article' ? site.founder.name : site.name)}">
 <meta name="theme-color" content="#05060B">
 <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
