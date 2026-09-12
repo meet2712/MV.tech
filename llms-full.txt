@@ -234,8 +234,12 @@ Company facts
 
 - Legal name and brand
   MV.tech (also searched as MV Tech, MVTech and MV Tech Solutions). Official website: mvtech.solutions.
+- Founded
+  2022
+- Team
+  10–15 specialists
 - Location
-  Ahmedabad, Gujarat, India. Fully remote delivery; no client work is tied to an office.
+  Ahmedabad, Gujarat, India, 380061. Remote delivery worldwide, with client visits when needed.
 - Registration
   Registered for Goods and Services Tax in India, GSTIN 24BZMPV4008F1ZA. Invoicing currency and payment terms are agreed per engagement.
 - Services
@@ -243,7 +247,7 @@ Company facts
 - Working hours
   Core hours in India Standard Time (UTC+5:30), with collaboration windows agreed per client for US, UK, European, Gulf and Asia-Pacific timezones.
 - Contact
-  contact@mvtech.solutionsor a30-minute call. We respond to every enquiry, usually within one business day.
+  contact@mvtech.solutions,+91 9409299016or a30-minute call. We respond to every enquiry, usually within one business day.
 Talk to the team
 
 ### See whether we are the right fit for your work.
@@ -403,7 +407,7 @@ Procurement, security and legal questions are easiest to answer at the scoping s
 
 URL: https://mvtech.solutions/contact/
 Description: Talk to MV.tech's engineers about a data, software, automation or AI project, an embedded consultant or a permanent hire. Book a 30-minute call or email us.
-Last modified: 2026-09-11
+Last modified: 2026-09-12
 
 Contact
 
@@ -412,7 +416,8 @@ Contact
 Tell us what you want to build, improve or automate, which technology role you need to fill, or which consultant you need in your team. You speak with the engineers who would do the work, and you leave with a written next step.
 
 - contact@mvtech.solutions
-- Ahmedabad, India · remote worldwide
+- +91 9409299016
+- Ahmedabad, Gujarat, India, 380061 · remote worldwide
 - Replies usually within one business day
 - Calls available in US, UK, EU, Gulf and APAC hours
 Option 1
@@ -3143,7 +3148,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/solutions/
 Description: Systems MV.tech builds most often: governed data layers, warehouse migrations, reconciliation layers, portals and internal apps, and AI knowledge assistants.
-Last modified: 2026-09-11
+Last modified: 2026-09-12
 
 Solution patterns
 

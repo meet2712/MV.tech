@@ -26,7 +26,8 @@
     "locality": "Ahmedabad",
     "region": "Gujarat",
     "country": "IN",
-    "countryName": "India"
+    "countryName": "India",
+    "postalCode": "380061"
   },
   "founder": {
     "name": "Meet Vaghasia",
@@ -212,6 +213,10 @@
         "href": "mailto:contact@mvtech.solutions"
       },
       {
+        "label": "+91 9409299016",
+        "href": "tel:+919409299016"
+      },
+      {
         "label": "LinkedIn",
         "href": "https://www.linkedin.com/company/mv-tech-data/",
         "external": true
@@ -291,5 +296,11 @@
         "ist": "8:00 am – 1:30 pm IST"
       }
     ]
+  },
+  "phone": "+919409299016",
+  "foundingYear": 2022,
+  "teamSize": {
+    "min": 10,
+    "max": 15
   }
 }

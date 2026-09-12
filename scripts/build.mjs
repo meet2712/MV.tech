@@ -146,10 +146,11 @@ function schemaGraph(page) {
   const organization = {
     '@type': ['Organization', 'ProfessionalService'], '@id': `${origin}/#organization`, name: site.name, legalName: site.legalName, alternateName: site.alternateNames,
     url: `${origin}/`, logo: { '@type': 'ImageObject', url: `${origin}/images/logo.png`, width: 1200, height: 384 }, image: `${origin}/images/og/home.jpg`,
-    description: site.summary, slogan: 'Senior engineering in your timezone, without large-consultancy overhead', email: site.email,
-    address: { '@type': 'PostalAddress', addressLocality: site.address.locality, addressRegion: site.address.region, addressCountry: site.address.country },
+    description: site.summary, slogan: 'Senior engineering in your timezone, without large-consultancy overhead', email: site.email, telephone: site.phone,
+    numberOfEmployees: { '@type': 'QuantitativeValue', minValue: site.teamSize.min, maxValue: site.teamSize.max },
+    address: { '@type': 'PostalAddress', addressLocality: site.address.locality, addressRegion: site.address.region, postalCode: site.address.postalCode, addressCountry: site.address.country },
     areaServed: 'Worldwide', founder: { '@id': `${origin}/#founder` }, sameAs: [site.linkedin], knowsAbout: site.knowsAbout,
-    contactPoint: { '@type': 'ContactPoint', contactType: 'sales', email: site.email, url: `${origin}/contact/`, areaServed: 'Worldwide', availableLanguage: ['English', 'Hindi', 'Gujarati'] },
+    contactPoint: { '@type': 'ContactPoint', contactType: 'sales', email: site.email, telephone: site.phone, url: `${origin}/contact/`, areaServed: 'Worldwide', availableLanguage: ['English', 'Hindi', 'Gujarati'] },
     makesOffer: consulting.filter((p) => p.path.startsWith('/services/')).map((p) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: p.name, url: origin + p.path } })),
   };
   const founder = { '@type': 'Person', '@id': `${origin}/#founder`, name: site.founder.name, jobTitle: site.founder.jobTitle, description: site.founder.description, url: `${origin}/about/`, worksFor: { '@id': `${origin}/#organization` }, sameAs: site.founder.sameAs, knowsAbout: site.knowsAbout, hasCredential: site.credentials.map((c) => ({ '@type': 'EducationalOccupationalCredential', name: c.name, credentialCategory: c.category, recognizedBy: { '@type': 'Organization', name: c.issuer } })) };
