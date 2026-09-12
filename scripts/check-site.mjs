@@ -1,12 +1,30 @@
 // Validates the built site: metadata, structured data, links, sitemap, registry and AI-readability files.
 // Run with `npm test`. Fails loudly so a broken page never reaches GitHub Pages.
 import assert from 'node:assert/strict';
-import { access, readFile } from 'node:fs/promises';
+import { access, readdir, readFile } from 'node:fs/promises';
 import { attr, parse, publicPages, routeFor, slugFor, textContent, walk } from './html.mjs';
 
 const site = JSON.parse(await readFile('content/site.json', 'utf8'));
 const origin = site.origin;
 const files = await publicPages();
+
+
+// A root-level <name>.html shadows the clean route /<name>/ on GitHub Pages, which resolves
+// extensionless requests to <name>.html first. That served visitors a noindex redirect stub on
+// /services, /about and six others while /insights and /brand — which had no colliding file —
+// resolved correctly. Fail the build rather than let it come back.
+{
+  const entries = await readdir('.', { withFileTypes: true });
+  const dirs = new Set(entries.filter((e) => e.isDirectory()).map((e) => e.name));
+  const rootHtml = entries.filter((e) => e.isFile()).map((e) => e.name).filter((f) => f.endsWith('.html') && f !== '404.html' && f !== 'index.html');
+  const shadowed = [];
+  for (const file of rootHtml) {
+    const route = file.replace(/\.html$/, '');
+    if (dirs.has(route)) shadowed.push(`${file} shadows /${route}/`);
+  }
+  assert(shadowed.length === 0, `root .html files shadow clean routes: ${shadowed.join(', ')}`);
+}
+
 const routes = new Set(files.map(routeFor));
 const registry = JSON.parse(await readFile('content/page-dates.json', 'utf8'));
 const llmsFull = await readFile('llms-full.txt', 'utf8');
