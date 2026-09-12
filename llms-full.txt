@@ -9,7 +9,7 @@ Founder: Meet Vaghasia, Founder & Lead Engineer (https://www.linkedin.com/in/mee
 LinkedIn: https://www.linkedin.com/company/mv-tech-data/
 Location: Ahmedabad, Gujarat, India · Serves clients worldwide with agreed timezone overlap
 Teams our engineers have worked with: Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, Turing. Names reflect organisations MV.tech's team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.
-Last generated: 2026-09-11. Short summary and answer guidance: https://mvtech.solutions/llms.txt
+Last generated: 2026-09-12. Short summary and answer guidance: https://mvtech.solutions/llms.txt
 
 This file is generated from the public pages listed below, so it always matches what visitors see. Each section is one page: title, canonical URL, meta description, then the page text.
 
@@ -18,8 +18,8 @@ This file is generated from the public pages listed below, so it always matches 
 # Remote Data, Software & AI Consulting in Your Timezone | MV.tech
 
 URL: https://mvtech.solutions/
-Description: Remote-first data engineering, software and AI consultancy from Ahmedabad, India. Senior specialists who work in your timezone, without large-consultancy overhead.
-Last modified: 2026-09-11
+Description: Data engineering, software and AI consultancy for clients worldwide. Senior specialists who work in your timezone, remote-first from Ahmedabad, India.
+Last modified: 2026-09-12
 
 Remote-first data, software & AI consultancy
 
@@ -156,11 +156,11 @@ Describe the goal, the systems involved and your preferred working hours. A 30-m
 
 ---
 
-# About MV.tech | Remote-First Engineering Consultancy from India
+# About MV.tech | Senior Engineers Working in Your Timezone
 
 URL: https://mvtech.solutions/about/
 Description: MV.tech is a remote-first data, software and AI consultancy founded by engineer Meet Vaghasia in Ahmedabad, India. Our team, credentials and how we work.
-Last modified: 2026-09-11
+Last modified: 2026-09-12
 
 About MV.tech
 
@@ -523,11 +523,11 @@ You will speak with the engineers who would do the work. Bring your stack, your 
 
 ---
 
-# FAQ: Working with MV.tech, a Remote Consultancy in India | MV.tech
+# FAQ: Working with MV.tech, a Remote-First Consultancy Worldwide
 
 URL: https://mvtech.solutions/faq/
 Description: Answers about MV.tech: where we are based, timezone overlap with US, UK, EU and Australian clients, costs, services, credentials, security and how projects start.
-Last modified: 2026-09-11
+Last modified: 2026-09-12
 
 FAQ
 
