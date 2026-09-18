@@ -107,6 +107,30 @@
         "answer": "Share the report or workflow you want to improve, the source systems, approximate data volumes, current tools and required refresh frequency. A description or sanitised example is enough for an initial conversation; credentials are not needed in an enquiry."
       }
     ],
+    "relatedResourcesHeading": "Resources for choosing a data partner.",
+    "relatedResources": [
+      {
+        "href": "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
+        "kicker": "Buyer's checklist",
+        "title": "12 questions to ask before hiring a remote data consultancy",
+        "text": "Who does the work, how the first milestone is scoped and how correctness is proven.",
+        "label": "Hiring checklist"
+      },
+      {
+        "href": "/insights/data-consultancy-company-for-offshore-team/",
+        "kicker": "Buyer guide",
+        "title": "Looking for a data consultancy company for an offshore team?",
+        "text": "How to evaluate a data consultancy for offshore delivery, and where MV.tech fits.",
+        "label": "Offshore guide"
+      },
+      {
+        "href": "/insights/timezone-overlap-with-an-india-based-engineering-team/",
+        "kicker": "Remote delivery",
+        "title": "Working with an India-based team across timezones",
+        "text": "Realistic overlap windows and the async habits that keep distributed work moving.",
+        "label": "Timezone guide"
+      }
+    ],
     "summary": "ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.",
     "ogTitle": "Data engineering & ETL consulting",
     "ogKicker": "Python · SQL · BigQuery · Snowflake · Redshift · Data quality"
@@ -347,6 +371,30 @@
         "answer": "The main factors are source preparation, integrations, permission rules, evaluation, user interface and support. Ongoing costs also depend on model usage, retrieval infrastructure and traffic. These should be considered alongside the build estimate."
       }
     ],
+    "relatedResourcesHeading": "Background reading on AI delivery.",
+    "relatedResources": [
+      {
+        "href": "/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/",
+        "kicker": "AI approach",
+        "title": "RAG or fine-tuning for an internal knowledge assistant?",
+        "text": "When each approach fits, with permissions, evaluation and cost in plain language.",
+        "label": "Approach comparison"
+      },
+      {
+        "href": "/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/",
+        "kicker": "MCP explained",
+        "title": "What is an MCP server, and when should a business build one?",
+        "text": "What an MCP server exposes, when building one makes sense, and the security decisions involved.",
+        "label": "MCP guide"
+      },
+      {
+        "href": "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
+        "kicker": "Buyer's checklist",
+        "title": "12 questions to ask before hiring a remote data consultancy",
+        "text": "Who does the work, how the first milestone is scoped and how correctness is proven.",
+        "label": "Hiring checklist"
+      }
+    ],
     "summary": "Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.",
     "ogTitle": "AI automation, RAG & MCP development",
     "ogKicker": "Knowledge assistants · MCP servers · LLM integration · Evaluation"
@@ -453,6 +501,30 @@
       {
         "question": "How do you stop prompt injection turning a tool into a problem?",
         "answer": "By not relying on the model to enforce anything. Permissions are checked server-side before a tool runs, tools expose only approved objects, generated SQL is validated against a whitelist, destructive operations are either not exposed or require human approval, and retrieved content is treated as data rather than as instructions. Logging every call means an unexpected request is visible afterwards, not merely prevented in theory."
+      }
+    ],
+    "relatedResourcesHeading": "Background reading on MCP and connectors.",
+    "relatedResources": [
+      {
+        "href": "/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/",
+        "kicker": "MCP explained",
+        "title": "What is an MCP server, and when should a business build one?",
+        "text": "What an MCP server exposes, when building one makes sense, and the security decisions involved.",
+        "label": "MCP guide"
+      },
+      {
+        "href": "/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/",
+        "kicker": "AI approach",
+        "title": "RAG or fine-tuning for an internal knowledge assistant?",
+        "text": "When each approach fits, with permissions, evaluation and cost in plain language.",
+        "label": "Approach comparison"
+      },
+      {
+        "href": "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
+        "kicker": "Buyer's checklist",
+        "title": "12 questions to ask before hiring a remote data consultancy",
+        "text": "Who does the work, how the first milestone is scoped and how correctness is proven.",
+        "label": "Hiring checklist"
       }
     ],
     "summary": "Custom MCP servers and AI connectors in Python that give agents scoped, validated and logged access to your databases, APIs and internal tools.",
@@ -1071,6 +1143,30 @@
         "answer": "Yes. MV.tech also offers technology recruitment for permanent roles within a client's organisation. Recruitment and consultant staffing are separate engagements with their own scope and commercial terms."
       }
     ],
+    "relatedResourcesHeading": "Resources for choosing an engagement model.",
+    "relatedResources": [
+      {
+        "href": "/insights/staff-augmentation-vs-project-consulting-vs-recruitment/",
+        "kicker": "Engagement models",
+        "title": "Staff augmentation, project consulting or recruitment?",
+        "text": "How to choose between embedded capacity, a scoped project and a permanent hire.",
+        "label": "Model comparison"
+      },
+      {
+        "href": "/insights/timezone-overlap-with-an-india-based-engineering-team/",
+        "kicker": "Remote delivery",
+        "title": "Working with an India-based team across timezones",
+        "text": "Realistic overlap windows and the async habits that keep distributed work moving.",
+        "label": "Timezone guide"
+      },
+      {
+        "href": "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
+        "kicker": "Buyer's checklist",
+        "title": "12 questions to ask before hiring a remote data consultancy",
+        "text": "Who does the work, how the first milestone is scoped and how correctness is proven.",
+        "label": "Hiring checklist"
+      }
+    ],
     "summary": "Senior data, analytics, software, cloud and AI consultants embedded in your team, in your tools and hours, for an agreed capacity.",
     "ogTitle": "IT staff augmentation & dedicated remote teams",
     "ogKicker": "Senior consultants in your team · Agreed capacity · Your hours"
@@ -1263,6 +1359,30 @@
       {
         "question": "How can we assess the team's experience?",
         "answer": "Review our expertise page and the linked Toptal professional profile, then discuss experience relevant to your stack and workflow. The Top 3% credential belongs to the linked individual profile."
+      }
+    ],
+    "relatedResourcesHeading": "Resources for working with a remote team.",
+    "relatedResources": [
+      {
+        "href": "/insights/timezone-overlap-with-an-india-based-engineering-team/",
+        "kicker": "Remote delivery",
+        "title": "Working with an India-based team across timezones",
+        "text": "Realistic overlap windows and the async habits that keep distributed work moving.",
+        "label": "Timezone guide"
+      },
+      {
+        "href": "/insights/staff-augmentation-vs-project-consulting-vs-recruitment/",
+        "kicker": "Engagement models",
+        "title": "Staff augmentation, project consulting or recruitment?",
+        "text": "How to choose between embedded capacity, a scoped project and a permanent hire.",
+        "label": "Model comparison"
+      },
+      {
+        "href": "/insights/data-consultancy-company-for-offshore-team/",
+        "kicker": "Buyer guide",
+        "title": "Looking for a data consultancy company for an offshore team?",
+        "text": "How to evaluate a data consultancy for offshore delivery, and where MV.tech fits.",
+        "label": "Offshore guide"
       }
     ],
     "summary": "Engagement models, collaboration windows by region and how the cost model compares with the alternatives.",

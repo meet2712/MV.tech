@@ -1645,7 +1645,7 @@ Bring the goal, the systems involved and your preferred working hours. You leave
 
 URL: https://mvtech.solutions/remote-consulting/
 Description: How MV.tech's senior consultants in India work with clients worldwide: collaboration windows by region, engagement models and where the cost difference comes from.
-Last modified: 2026-09-11
+Last modified: 2026-09-18
 
 How we work
 
@@ -1787,6 +1787,31 @@ Dedicated offshore data engineering and analytics capacity from India for ETL, c
 
 Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
 
+Related guides
+
+### Resources for working with a remote team.
+
+Remote delivery
+
+### Working with an India-based team across timezones
+
+Realistic overlap windows and the async habits that keep distributed work moving.
+
+Timezone guide
+Engagement models
+
+### Staff augmentation, project consulting or recruitment?
+
+How to choose between embedded capacity, a scoped project and a permanent hire.
+
+Model comparison
+Buyer guide
+
+### Looking for a data consultancy company for an offshore team?
+
+How to evaluate a data consultancy for offshore delivery, and where MV.tech fits.
+
+Offshore guide
 Your next step
 
 ### Tell us what needs to work better.
@@ -1972,7 +1997,7 @@ Thirty minutes with the engineers who would do the work is usually enough to tel
 
 URL: https://mvtech.solutions/services/ai-consulting/
 Description: Build AI automation, RAG systems, MCP servers and custom AI solutions with MV.tech's senior remote consultants. Connect business data, tools and workflows.
-Last modified: 2026-09-11
+Last modified: 2026-09-18
 
 Service · Remote-first senior specialists
 
@@ -2117,6 +2142,31 @@ Dedicated offshore data engineering and analytics capacity from India for ETL, c
 
 Custom MCP servers and AI connectors in Python that give agents scoped, validated and logged access to your databases, APIs and internal tools.
 
+Related guides
+
+### Background reading on AI delivery.
+
+AI approach
+
+### RAG or fine-tuning for an internal knowledge assistant?
+
+When each approach fits, with permissions, evaluation and cost in plain language.
+
+Approach comparison
+MCP explained
+
+### What is an MCP server, and when should a business build one?
+
+What an MCP server exposes, when building one makes sense, and the security decisions involved.
+
+MCP guide
+Buyer's checklist
+
+### 12 questions to ask before hiring a remote data consultancy
+
+Who does the work, how the first milestone is scoped and how correctness is proven.
+
+Hiring checklist
 Your next step
 
 ### Tell us what needs to work better.
@@ -2588,7 +2638,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/data-engineering/
 Description: Remote data engineers for Python and SQL pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, data quality and reporting you can trust.
-Last modified: 2026-09-11
+Last modified: 2026-09-18
 
 Service · Remote-first senior specialists
 
@@ -2739,6 +2789,31 @@ Knowledge assistants grounded in your documents, MCP servers and custom connecto
 
 Custom MCP servers and AI connectors in Python that give agents scoped, validated and logged access to your databases, APIs and internal tools.
 
+Related guides
+
+### Resources for choosing a data partner.
+
+Buyer's checklist
+
+### 12 questions to ask before hiring a remote data consultancy
+
+Who does the work, how the first milestone is scoped and how correctness is proven.
+
+Hiring checklist
+Buyer guide
+
+### Looking for a data consultancy company for an offshore team?
+
+How to evaluate a data consultancy for offshore delivery, and where MV.tech fits.
+
+Offshore guide
+Remote delivery
+
+### Working with an India-based team across timezones
+
+Realistic overlap windows and the async habits that keep distributed work moving.
+
+Timezone guide
 Your next step
 
 ### Tell us what needs to work better.
@@ -2908,7 +2983,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/it-staff-augmentation/
 Description: Add remote AI, data, software and cloud consultants to your team with MV.tech. Flexible timezone overlap, direct collaboration and clearly scoped capacity.
-Last modified: 2026-09-11
+Last modified: 2026-09-18
 
 Service · Remote-first senior specialists
 
@@ -3029,6 +3104,31 @@ Dedicated offshore data engineering and analytics capacity from India for ETL, c
 
 Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
 
+Related guides
+
+### Resources for choosing an engagement model.
+
+Engagement models
+
+### Staff augmentation, project consulting or recruitment?
+
+How to choose between embedded capacity, a scoped project and a permanent hire.
+
+Model comparison
+Remote delivery
+
+### Working with an India-based team across timezones
+
+Realistic overlap windows and the async habits that keep distributed work moving.
+
+Timezone guide
+Buyer's checklist
+
+### 12 questions to ask before hiring a remote data consultancy
+
+Who does the work, how the first milestone is scoped and how correctness is proven.
+
+Hiring checklist
 Your next step
 
 ### Which capability does your team need?
@@ -3041,7 +3141,7 @@ Share the role, technology stack, expected duration and working hours. We can di
 
 URL: https://mvtech.solutions/services/mcp-and-ai-connectors/
 Description: Custom Model Context Protocol servers and enterprise AI connectors in Python, giving agents scoped, validated and logged access to your systems.
-Last modified: 2026-09-12
+Last modified: 2026-09-18
 
 Service · Remote-first senior specialists
 
@@ -3186,6 +3286,31 @@ Dedicated offshore data engineering and analytics capacity from India for ETL, c
 
 Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
 
+Related guides
+
+### Background reading on MCP and connectors.
+
+MCP explained
+
+### What is an MCP server, and when should a business build one?
+
+What an MCP server exposes, when building one makes sense, and the security decisions involved.
+
+MCP guide
+AI approach
+
+### RAG or fine-tuning for an internal knowledge assistant?
+
+When each approach fits, with permissions, evaluation and cost in plain language.
+
+Approach comparison
+Buyer's checklist
+
+### 12 questions to ask before hiring a remote data consultancy
+
+Who does the work, how the first milestone is scoped and how correctness is proven.
+
+Hiring checklist
 Your next step
 
 ### Tell us what needs to work better.

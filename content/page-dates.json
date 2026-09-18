@@ -75,9 +75,9 @@
     "published": "2026-06-02"
   },
   "/remote-consulting/": {
-    "hash": "607de775f2ed7af4",
-    "modified": "2026-09-11",
-    "published": "2026-09-10"
+    "hash": "5f9f47803d465ffe",
+    "published": "2026-09-10",
+    "modified": "2026-09-18"
   },
   "/services/": {
     "hash": "96858cf9d549801a",
@@ -85,9 +85,9 @@
     "modified": "2026-09-18"
   },
   "/services/ai-consulting/": {
-    "hash": "b76ecabba41a3e1f",
-    "modified": "2026-09-11",
-    "published": "2026-09-10"
+    "hash": "f55cafa7097d62b2",
+    "published": "2026-09-10",
+    "modified": "2026-09-18"
   },
   "/services/blockchain-data-analytics/": {
     "hash": "571e0e9d96db53ea",
@@ -105,9 +105,9 @@
     "published": "2026-09-10"
   },
   "/services/data-engineering/": {
-    "hash": "ef3961360b8aaed5",
-    "modified": "2026-09-11",
-    "published": "2026-09-10"
+    "hash": "b2114c4f2e1d34b3",
+    "published": "2026-09-10",
+    "modified": "2026-09-18"
   },
   "/services/data-warehouse-migration/": {
     "hash": "a7d2abfd42df0df3",
@@ -115,14 +115,14 @@
     "modified": "2026-09-12"
   },
   "/services/it-staff-augmentation/": {
-    "hash": "4efcd574542b57a5",
-    "modified": "2026-09-11",
-    "published": "2026-09-10"
+    "hash": "a8b69a63f9dc96c8",
+    "published": "2026-09-10",
+    "modified": "2026-09-18"
   },
   "/services/mcp-and-ai-connectors/": {
-    "hash": "6677c2a419600df2",
+    "hash": "528f7f5438208ec2",
     "published": "2026-09-12",
-    "modified": "2026-09-12"
+    "modified": "2026-09-18"
   },
   "/services/offshore-data-engineering-team/": {
     "hash": "fb3b695aa7216c2c",

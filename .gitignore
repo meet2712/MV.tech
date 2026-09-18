@@ -12,3 +12,10 @@ Brand Kit.zip
 Claude outputs/
 mvtech_brand_kit_v2/
 mvtech_brand_kit/
+
+# Actual on-disk brand kit folder name (the patterns above miss this spelling)
+MVtech Brand Kit/
+# Nested checkout of the separate outreach repo — must not be committed here
+MVtech_Outreach_Ready/
+# Internal working notes; would be publicly served by GitHub Pages if committed
+SEO-AUDIT-NOTES.md
