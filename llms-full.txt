@@ -9,7 +9,7 @@ Founder: Meet Vaghasia, Founder & Lead Engineer (https://www.linkedin.com/in/mee
 LinkedIn: https://www.linkedin.com/company/mv-tech-data/
 Location: Ahmedabad, Gujarat, India · Serves clients worldwide with agreed timezone overlap
 Teams our engineers have worked with: Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, Turing. Names reflect organisations MV.tech's team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.
-Last generated: 2026-09-12. Short summary and answer guidance: https://mvtech.solutions/llms.txt
+Last generated: 2026-09-18. Short summary and answer guidance: https://mvtech.solutions/llms.txt
 
 This file is generated from the public pages listed below, so it always matches what visitors see. Each section is one page: title, canonical URL, meta description, then the page text.
 
@@ -19,7 +19,7 @@ This file is generated from the public pages listed below, so it always matches 
 
 URL: https://mvtech.solutions/
 Description: Data engineering, software and AI consultancy for clients worldwide. Senior specialists who work in your timezone, remote-first from Ahmedabad, India.
-Last modified: 2026-09-12
+Last modified: 2026-09-18
 
 Remote-first data, software & AI consultancy
 
@@ -148,6 +148,38 @@ Yes. Through IT staff augmentation our consultants join your team in your reposi
 **Is MV.tech the same company as MV Tech Solutions or MVTech?**
 Yes. MV.tech is the official brand, and mvtech.solutions is the official website. MV Tech, MVTech, MV Tech Solutions and MV Tech Ahmedabad are common search variants of the same company.
 
+Planning guides
+
+### Useful reading before you hire a remote engineering partner.
+
+Buyer's guide
+
+### 12 questions before hiring a data consultancy
+
+How to compare vendors on people, scope, correctness, ownership and proof before price clouds the decision.
+
+Vendor checklist
+Engagement models
+
+### Staff augmentation, project consulting or recruitment?
+
+A practical split between embedded capacity, scoped delivery and permanent hiring.
+
+Model comparison
+Remote delivery
+
+### Working with an India-based team across timezones
+
+Realistic overlap windows and the habits that keep distributed engineering work moving.
+
+Timezone playbook
+Hiring service
+
+### Technology recruitment for data, AI and software roles
+
+Permanent hiring support shaped by engineers who understand the role and the interview trade-offs.
+
+Recruitment page
 Start a conversation
 
 ### Tell us what needs to work better.
@@ -763,7 +795,7 @@ Tell us about your situation. A 30-minute call with the engineering team is usua
 
 URL: https://mvtech.solutions/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/
 Description: A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
-Last modified: 2026-09-10
+Last modified: 2026-09-18
 
 Buyer's guide
 
@@ -771,7 +803,7 @@ Buyer's guide
 
 A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · 5 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 18 September 2026 · 5 min read
 
 In brief
 
@@ -857,6 +889,31 @@ Yes, provided the overlap hours, communication practices and accountability are 
 **What should we share before the first call?**
 The report or workflow you want to improve, the source systems, rough data volumes, the tools you use today and the refresh frequency you need. A description or a sanitised example is enough; credentials are never needed for an enquiry.
 
+Related guides
+
+### Keep planning the engagement.
+
+Remote delivery playbook
+
+### How to Work with an India-Based Engineering Team Across Timezones
+
+Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
+
+6 min read
+AI engineering
+
+### RAG vs Fine-Tuning: Choosing the Right Approach for an Internal Knowledge Assistant
+
+A plain-language comparison of retrieval-augmented generation and fine-tuning for company knowledge assistants: when each fits, permissions, evaluation and cost.
+
+5 min read
+Engagement models
+
+### Staff Augmentation vs Project Consulting vs Recruitment: Which Engagement Model Fits?
+
+How to choose between embedding a consultant, commissioning a scoped project and hiring permanently for data, software and AI work: control, cost, speed and risk.
+
+5 min read
 About the author
 
 ### Meet Vaghasia
@@ -876,7 +933,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/
 Description: A plain-language comparison of retrieval-augmented generation and fine-tuning for company knowledge assistants: when each fits, permissions, evaluation and cost.
-Last modified: 2026-09-10
+Last modified: 2026-09-18
 
 AI engineering
 
@@ -884,7 +941,7 @@ AI engineering
 
 A plain-language comparison of retrieval-augmented generation and fine-tuning for company knowledge assistants: when each fits, permissions, evaluation and cost.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · 5 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 18 September 2026 · 5 min read
 
 In brief
 
@@ -963,6 +1020,31 @@ It depends on the provider and the contract terms you select. Business and API t
 **How much does an internal knowledge assistant cost to run?**
 Ongoing costs come from model usage per query, the retrieval infrastructure, and keeping the index current as documents change. For most internal tools these are modest compared with the engineering time to build and evaluate the system properly. Ask for both numbers when comparing proposals.
 
+Related guides
+
+### Keep planning the engagement.
+
+Buyer's guide
+
+### 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
+
+A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
+
+5 min read
+Remote delivery playbook
+
+### How to Work with an India-Based Engineering Team Across Timezones
+
+Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
+
+6 min read
+Engagement models
+
+### Staff Augmentation vs Project Consulting vs Recruitment: Which Engagement Model Fits?
+
+How to choose between embedding a consultant, commissioning a scoped project and hiring permanently for data, software and AI work: control, cost, speed and risk.
+
+5 min read
 About the author
 
 ### Meet Vaghasia
@@ -982,7 +1064,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/insights/staff-augmentation-vs-project-consulting-vs-recruitment/
 Description: How to choose between embedding a consultant, commissioning a scoped project and hiring permanently for data, software and AI work: control, cost, speed and risk.
-Last modified: 2026-09-10
+Last modified: 2026-09-18
 
 Engagement models
 
@@ -990,7 +1072,7 @@ Engagement models
 
 How to choose between embedding a consultant, commissioning a scoped project and hiring permanently for data, software and AI work: control, cost, speed and risk.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · 5 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 18 September 2026 · 5 min read
 
 In brief
 
@@ -1062,6 +1144,31 @@ Yes, within an agreed window. A remote consultant in India can typically overlap
 **Can a consultant later become a permanent hire?**
 Sometimes, if all parties agree and the arrangement allows it. It is better to decide up front whether the engagement is intended as a trial for a permanent role and to set the terms accordingly than to negotiate it under pressure later.
 
+Related guides
+
+### Keep planning the engagement.
+
+Buyer's guide
+
+### 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
+
+A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
+
+5 min read
+Remote delivery playbook
+
+### How to Work with an India-Based Engineering Team Across Timezones
+
+Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
+
+6 min read
+AI engineering
+
+### RAG vs Fine-Tuning: Choosing the Right Approach for an Internal Knowledge Assistant
+
+A plain-language comparison of retrieval-augmented generation and fine-tuning for company knowledge assistants: when each fits, permissions, evaluation and cost.
+
+5 min read
 About the author
 
 ### Meet Vaghasia
@@ -1081,7 +1188,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/insights/timezone-overlap-with-an-india-based-engineering-team/
 Description: Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
-Last modified: 2026-09-10
+Last modified: 2026-09-18
 
 Remote delivery playbook
 
@@ -1089,7 +1196,7 @@ Remote delivery playbook
 
 Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 18 September 2026 · 6 min read
 
 In brief
 
@@ -1175,6 +1282,31 @@ Yes, for part of the day. A common arrangement is 7:00 am to 10:00 am Pacific, w
 **How much overlap does a software project really need?**
 In our experience, three to four hours of daily overlap is enough for standups, reviews, pairing on hard problems and releases, provided decisions and progress are written down. More overlap is pleasant; it is rarely what determines whether a project succeeds.
 
+Related guides
+
+### Keep planning the engagement.
+
+Buyer's guide
+
+### 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
+
+A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
+
+5 min read
+AI engineering
+
+### RAG vs Fine-Tuning: Choosing the Right Approach for an Internal Knowledge Assistant
+
+A plain-language comparison of retrieval-augmented generation and fine-tuning for company knowledge assistants: when each fits, permissions, evaluation and cost.
+
+5 min read
+Engagement models
+
+### Staff Augmentation vs Project Consulting vs Recruitment: Which Engagement Model Fits?
+
+How to choose between embedding a consultant, commissioning a scoped project and hiring permanently for data, software and AI work: control, cost, speed and risk.
+
+5 min read
 About the author
 
 ### Meet Vaghasia
@@ -1194,7 +1326,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/
 Description: A business-level explanation of the Model Context Protocol: what an MCP server exposes, when building one makes sense, the security decisions involved and a first project.
-Last modified: 2026-09-10
+Last modified: 2026-09-18
 
 AI engineering
 
@@ -1202,7 +1334,7 @@ AI engineering
 
 A business-level explanation of the Model Context Protocol: what an MCP server exposes, when building one makes sense, the security decisions involved and a first project.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · 5 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 18 September 2026 · 5 min read
 
 In brief
 
@@ -1279,6 +1411,31 @@ Not necessarily. Servers can run locally alongside a desktop client using standa
 **What does MCP server development cost?**
 The main cost drivers are the number and complexity of tools, the authentication model, the systems being integrated, testing and documentation. A focused first server with a handful of well-designed tools is a small project; the cost grows with the sensitivity of the actions it enables and the rigour those actions demand.
 
+Related guides
+
+### Keep planning the engagement.
+
+Buyer's guide
+
+### 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
+
+A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
+
+5 min read
+Remote delivery playbook
+
+### How to Work with an India-Based Engineering Team Across Timezones
+
+Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
+
+6 min read
+AI engineering
+
+### RAG vs Fine-Tuning: Choosing the Right Approach for an Internal Knowledge Assistant
+
+A plain-language comparison of retrieval-augmented generation and fine-tuning for company knowledge assistants: when each fits, permissions, evaluation and cost.
+
+5 min read
 About the author
 
 ### Meet Vaghasia
@@ -1513,7 +1670,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/
 Description: MV.tech's remote services: ETL and cloud warehouses, BI and semantic layers, custom software, workflow automation, AI with RAG and MCP, staffing and hiring.
-Last modified: 2026-09-12
+Last modified: 2026-09-18
 
 Services
 
@@ -1643,6 +1800,31 @@ Which service do I need?
   IT staff augmentation, with capacity and overlap hours agreed up front.
 - "We need to hire someone permanently."
   Technology recruitment, led by an engineer who understands the role.
+Buyer resources
+
+### Guides for choosing the right working model.
+
+Buyer's guide
+
+### 12 questions before hiring a remote data consultancy
+
+What to ask about seniority, scope, validation, ownership and handover before comparing proposals.
+
+Vendor checklist
+Engagement models
+
+### Staff augmentation vs project consulting vs recruitment
+
+When to choose a scoped project, embedded consultants or a permanent hire.
+
+Model comparison
+Remote delivery
+
+### How India-based engineering teams work across timezones
+
+Overlap windows, async habits and what to agree before a remote engagement starts.
+
+Timezone playbook
 Not sure where to start?
 
 ### Describe the problem. We will suggest the smallest useful first step.
@@ -2881,7 +3063,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/technology-recruitment/
 Description: Hire permanent AI, data, software and cloud professionals with MV.tech. Technology recruitment shaped around your role, technical needs and hiring process.
-Last modified: 2026-09-11
+Last modified: 2026-09-18
 
 Service · Remote-first senior specialists
 
@@ -2992,6 +3174,31 @@ Knowledge assistants grounded in your documents, MCP servers and custom connecto
 
 Custom MCP servers and AI connectors in Python that give agents scoped, validated and logged access to your databases, APIs and internal tools.
 
+Related guides
+
+### Clarify the hiring model before the search starts.
+
+Engagement models
+
+### Staff augmentation vs project consulting vs recruitment
+
+Use this guide to decide whether the need should become an embedded consultant, a scoped project or a permanent hire.
+
+Model comparison
+Buyer's guide
+
+### 12 questions before hiring a remote data consultancy
+
+A checklist for testing seniority, validation, ownership and handover before comparing providers.
+
+Vendor checklist
+Remote delivery
+
+### Working with an India-based team across timezones
+
+Overlap windows and async practices to define before adding remote capacity or hiring remotely.
+
+Timezone playbook
 Your next step
 
 ### Tell us about the role you are hiring for.

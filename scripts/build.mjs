@@ -18,6 +18,7 @@ const origin = site.origin;
 const today = process.env.SITE_BUILD_DATE || new Date().toISOString().slice(0, 10);
 const registryFile = 'content/page-dates.json';
 const registry = JSON.parse(await readFile(registryFile, 'utf8').catch(() => '{}'));
+const articleTemplateRevision = '2026-09-18-related-guides';
 const hash = (value) => createHash('sha256').update(typeof value === 'string' ? value : JSON.stringify(value)).digest('hex').slice(0, 16);
 const jsonLd = (value) => JSON.stringify(value).replace(/</g, '\\u003c');
 
@@ -54,7 +55,7 @@ for (const name of (await readdir('content/insights').catch(() => [])).filter((f
   const file = `content/insights/${name}`;
   const { meta, body } = parseMetaFile(await readFile(file, 'utf8'), file);
   const words = stripTags(body).split(/\s+/).filter(Boolean).length;
-  articles.push({ ...meta, route: meta.route ?? `/insights/${name.replace(/\.html$/, '')}/`, bodyHtml: body, words, readingTime: Math.max(3, Math.round(words / 220)), source: file, hashSource: hash(JSON.stringify(meta) + body) });
+  articles.push({ ...meta, route: meta.route ?? `/insights/${name.replace(/\.html$/, '')}/`, bodyHtml: body, words, readingTime: Math.max(3, Math.round(words / 220)), source: file, hashSource: hash(articleTemplateRevision + JSON.stringify(meta) + body) });
 }
 
 // Dates come from the registry; assign before rendering because templates print them.
@@ -68,10 +69,13 @@ function dates(page) {
 for (const page of pages) Object.assign(page, dates(page));
 for (const article of articles) {
   Object.assign(article, dates(article));
+}
+articles.sort((a, b) => b.published.localeCompare(a.published) || a.title.localeCompare(b.title));
+for (const article of articles) {
+  article.relatedArticles = articles.filter((item) => item.route !== article.route).slice(0, 3);
   article.body = article.bodyHtml;
   pages.push({ ...article, kind: 'article', body: articlePage(article, site), article });
 }
-articles.sort((a, b) => b.published.localeCompare(a.published) || a.title.localeCompare(b.title));
 {
   const indexPage = {
     route: '/insights/', name: 'Insights', kind: 'collection',

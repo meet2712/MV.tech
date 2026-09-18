@@ -1,8 +1,8 @@
 {
   "/": {
-    "hash": "644e7c3d8a6f0d0f",
-    "modified": "2026-09-12",
-    "published": "2026-01-02"
+    "hash": "e9ee902919d03e2a",
+    "published": "2026-01-02",
+    "modified": "2026-09-18"
   },
   "/about/": {
     "hash": "da9a3d89db88e31a",
@@ -40,29 +40,29 @@
     "published": "2026-09-10"
   },
   "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/": {
-    "hash": "7d3a876e05e70a88",
-    "modified": "2026-09-10",
-    "published": "2026-09-10"
+    "hash": "633b2b500bb0418a",
+    "published": "2026-09-10",
+    "modified": "2026-09-18"
   },
   "/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/": {
-    "hash": "e1846415e2ea82da",
-    "modified": "2026-09-10",
-    "published": "2026-09-10"
+    "hash": "30220173b6bd6325",
+    "published": "2026-09-10",
+    "modified": "2026-09-18"
   },
   "/insights/staff-augmentation-vs-project-consulting-vs-recruitment/": {
-    "hash": "81723120dde8a535",
-    "modified": "2026-09-10",
-    "published": "2026-09-10"
+    "hash": "f8ded25cd84f470c",
+    "published": "2026-09-10",
+    "modified": "2026-09-18"
   },
   "/insights/timezone-overlap-with-an-india-based-engineering-team/": {
-    "hash": "88610f4f9726b53e",
-    "modified": "2026-09-10",
-    "published": "2026-09-10"
+    "hash": "3482a1ce3b4f451a",
+    "published": "2026-09-10",
+    "modified": "2026-09-18"
   },
   "/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/": {
-    "hash": "45e6c5a63404afca",
-    "modified": "2026-09-10",
-    "published": "2026-09-10"
+    "hash": "63196a276d221e1b",
+    "published": "2026-09-10",
+    "modified": "2026-09-18"
   },
   "/process/": {
     "hash": "3a29ac10042a6bdb",
@@ -75,9 +75,9 @@
     "published": "2026-09-10"
   },
   "/services/": {
-    "hash": "e3e578a9df4774c1",
+    "hash": "27204023463035e7",
     "published": "2026-06-02",
-    "modified": "2026-09-12"
+    "modified": "2026-09-18"
   },
   "/services/ai-consulting/": {
     "hash": "b76ecabba41a3e1f",
@@ -120,9 +120,9 @@
     "modified": "2026-09-12"
   },
   "/services/technology-recruitment/": {
-    "hash": "938c87f86b0248a4",
-    "modified": "2026-09-11",
-    "published": "2026-09-10"
+    "hash": "581de6b8a0863a90",
+    "published": "2026-09-10",
+    "modified": "2026-09-18"
   },
   "/services/workflow-automation/": {
     "hash": "0a89c6513192e0a0",

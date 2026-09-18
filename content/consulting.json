@@ -1031,6 +1031,30 @@
         "answer": "Fees, search scope, expected timing and any follow-up terms are agreed for the specific role. Complexity, seniority, compensation, location and interview availability affect the search. We do not promise a hire or a fixed start date before assessing the requirement."
       }
     ],
+    "relatedResourcesHeading": "Clarify the hiring model before the search starts.",
+    "relatedResources": [
+      {
+        "href": "/insights/staff-augmentation-vs-project-consulting-vs-recruitment/",
+        "kicker": "Engagement models",
+        "title": "Staff augmentation vs project consulting vs recruitment",
+        "text": "Use this guide to decide whether the need should become an embedded consultant, a scoped project or a permanent hire.",
+        "label": "Model comparison"
+      },
+      {
+        "href": "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
+        "kicker": "Buyer's guide",
+        "title": "12 questions before hiring a remote data consultancy",
+        "text": "A checklist for testing seniority, validation, ownership and handover before comparing providers.",
+        "label": "Vendor checklist"
+      },
+      {
+        "href": "/insights/timezone-overlap-with-an-india-based-engineering-team/",
+        "kicker": "Remote delivery",
+        "title": "Working with an India-based team across timezones",
+        "text": "Overlap windows and async practices to define before adding remote capacity or hiring remotely.",
+        "label": "Timezone playbook"
+      }
+    ],
     "summary": "Permanent hiring for AI, data, software and cloud roles, with an engineer shaping the brief and assessing fit.",
     "ogTitle": "Technology recruitment",
     "ogKicker": "Permanent AI, data, software & cloud hires · Engineer-led"

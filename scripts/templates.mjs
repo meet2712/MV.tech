@@ -74,6 +74,16 @@ export function relatedServices(pages, currentKey, site) {
   return `<section class="band"><div class="container"><div class="section-heading"><div><p class="eyebrow">Related services</p><h2>Other ways we can help.</h2></div><a class="text-link" href="/services/">All services ${icon('arrow-right')}</a></div><div class="card-grid card-grid-3">${related.map((p) => `<a class="card card-link" href="${p.path}"><h3>${h(p.name)}</h3><p>${h(p.summary ?? p.intro)}</p><span class="card-more">Explore ${icon('arrow-right')}</span></a>`).join('')}</div></div></section>`;
 }
 
+export function relatedResources(page) {
+  if (!page.relatedResources?.length) return '';
+  return `<section class="band">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">Related guides</p><h2>${h(page.relatedResourcesHeading ?? 'Planning resources for this work.')}</h2></div><a class="text-link" href="/insights/">All insights ${icon('arrow-right')}</a></div>
+      <div class="card-grid card-grid-3 article-grid">${page.relatedResources.map((item) => `<a class="card card-link article-card" href="${item.href}"><p class="eyebrow">${h(item.kicker)}</p><h2>${h(item.title)}</h2><p>${h(item.text)}</p><span class="article-card-meta">${h(item.label)}</span></a>`).join('')}</div>
+    </div>
+  </section>`;
+}
+
 /** Service and engagement pages generated from content/consulting.json. */
 export function servicePage(page, site, allPages) {
   const servicePage = page.path.startsWith('/services/');
@@ -138,7 +148,7 @@ export function servicePage(page, site, allPages) {
       ${faqList(page.questions)}
     </div>
   </section>
-  ${relatedServices(allPages, page.key, site)}
+  ${relatedServices(allPages, page.key, site)}${relatedResources(page)}
   ${ctaBand(site, { heading: page.closingHeading ?? 'Tell us what needs to work better.', copy: page.closingCopy ?? 'Bring your goal, current tools and preferred working hours. We use the first 30-minute conversation to clarify fit and an initial scope, and you leave with a written next step.', subject, fields, callLabel: 'Book a 30-minute call' })}
 </main>`;
 }
@@ -146,6 +156,12 @@ export function servicePage(page, site, allPages) {
 export function articlePage(article, site) {
   const crumbs = [{ name: 'Home', url: '/' }, { name: 'Insights', url: '/insights/' }, { name: article.name, url: article.route }];
   const fmt = (iso) => new Date(iso + 'T00:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+  const related = article.relatedArticles?.length ? `<div class="band">
+      <div class="container narrow">
+        <div class="section-heading"><div><p class="eyebrow">Related guides</p><h2>Keep planning the engagement.</h2></div><a class="text-link" href="/insights/">All insights ${icon('arrow-right')}</a></div>
+        <div class="card-grid card-grid-3 article-grid">${article.relatedArticles.map((item) => `<a class="card card-link article-card" href="${item.route}"><p class="eyebrow">${h(item.kicker ?? 'Insight')}</p><h2>${h(item.title)}</h2><p>${h(item.description)}</p><span class="article-card-meta">${item.readingTime} min read</span></a>`).join('')}</div>
+      </div>
+    </div>` : '';
   return `<main id="main-content">
   <article class="article">
     <header class="page-hero article-hero">
@@ -162,6 +178,7 @@ export function articlePage(article, site) {
         ${article.body}
       </div>
     </div>
+    ${related}
     <div class="band">
       <div class="container narrow author-box">
         <div class="author-mark" aria-hidden="true">MV</div>
