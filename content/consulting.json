@@ -112,6 +112,137 @@
     "ogKicker": "Python · SQL · BigQuery · Snowflake · Redshift · Data quality"
   },
   {
+    "path": "/services/offshore-data-engineering-team/",
+    "key": "offshore-data-engineering-team",
+    "name": "Offshore Data Engineering Team",
+    "title": "Offshore Data Engineering Team from India | MV.tech",
+    "description": "Hire an offshore data engineering team from India for ETL, cloud warehouses, BI and analytics, with senior MV.tech consultants working in your timezone.",
+    "h1": "Offshore data engineering team from India, working in your timezone.",
+    "eyebrow": "Service · Offshore data consultancy",
+    "serviceType": "Offshore data engineering and analytics team",
+    "intro": "Add senior data engineering capacity without opening another office or hiring a permanent team first. MV.tech provides offshore data engineers, analytics engineers and BI specialists from Ahmedabad, India, working remotely with clients worldwide through agreed overlap hours, written scope and direct access to the people doing the work.",
+    "fitHeading": "When an offshore data team makes sense",
+    "fit": [
+      "Your reporting, warehouse or ETL backlog is bigger than your internal team can handle.",
+      "You want a data consultancy company for an offshore team, but need senior engineers rather than a generic staffing vendor.",
+      "A permanent data hire will take months, while pipelines, dashboards or migration work need attention now.",
+      "You need timezone overlap with the US, UK, Europe, Gulf or Asia-Pacific, not a team that disappears after handoff.",
+      "Your analysts and engineers need help with Python, SQL, BigQuery, Snowflake, Redshift, Power BI or Tableau.",
+      "You want one specialist or a small delivery team that can start with a written first milestone.",
+      "Cost matters, but you still need documented work, validation and accountability."
+    ],
+    "deliverablesHeading": "What an offshore data team can own",
+    "deliverables": [
+      {
+        "title": "Dedicated data engineering capacity",
+        "text": "Add one senior specialist or a small remote team for a defined capacity and duration. Responsibilities, review cadence, tools, repositories and overlap hours are agreed before work begins."
+      },
+      {
+        "title": "ETL, ELT and data pipelines",
+        "text": "Build or improve Python and SQL pipelines from APIs, databases, files and SaaS tools into repeatable ingestion and transformation flows with retries, logging, backfills and data quality checks."
+      },
+      {
+        "title": "Cloud warehouses and analytics models",
+        "text": "Design and maintain BigQuery, Snowflake, Redshift or PostgreSQL layers across raw, staging, curated and reporting tables. Define fact grain, dimensions, semantic views and metric ownership."
+      },
+      {
+        "title": "BI, dashboards and reporting support",
+        "text": "Connect validated datasets to Power BI, Tableau, Looker Studio, Streamlit or internal apps. Fix refresh issues, align KPI definitions and document what each dashboard can and cannot prove."
+      },
+      {
+        "title": "Migration and modernisation support",
+        "text": "Support movement from spreadsheets, legacy databases or brittle scripts into a cloud warehouse. The work starts with discovery, dependency mapping, source-to-target mapping and reconciliation before cutover."
+      },
+      {
+        "title": "Operating rhythm and handover",
+        "text": "Work in your project tools with visible updates, pull requests or review notes, and a written record of decisions, validation checks and next steps. Handover includes runbooks and recovery notes where needed."
+      }
+    ],
+    "scopeHeading": "A useful first milestone: one data workstream with clear acceptance criteria",
+    "scope": "Start with one reporting flow, pipeline, model, dashboard set or migration slice. Agree what output is needed, which systems are involved, how correctness will be checked and when the team overlaps with yours. That keeps the offshore engagement concrete: one useful result, visible progress and a simple decision about whether to extend the team.",
+    "approach": [
+      {
+        "title": "Choose the first workstream",
+        "text": "Share the business problem, current tools, timezone and deadline. We help pick a first milestone small enough to verify and useful enough to matter."
+      },
+      {
+        "title": "Agree the collaboration model",
+        "text": "Set capacity, responsibilities, repositories, review points, communication channels and overlap hours so your team knows how the offshore team will operate."
+      },
+      {
+        "title": "Deliver, validate and decide",
+        "text": "Build the agreed output, document validation and open questions, then decide whether to extend into more sources, models, dashboards or embedded capacity."
+      }
+    ],
+    "tools": [
+      "Python",
+      "SQL",
+      "BigQuery",
+      "Snowflake",
+      "Amazon Redshift",
+      "PostgreSQL",
+      "Power BI",
+      "Tableau",
+      "Looker Studio",
+      "Streamlit",
+      "Azure Data Factory",
+      "AWS",
+      "Google Cloud",
+      "REST APIs",
+      "dbt-style modelling"
+    ],
+    "questions": [
+      {
+        "question": "Is MV.tech a data consultancy company for an offshore team?",
+        "answer": "Yes. MV.tech is a data, software and AI consultancy based in Ahmedabad, India. For offshore data work, we provide senior remote data engineering and analytics capacity for ETL, cloud warehouses, BI, data quality and reporting, with overlap hours agreed around the client's timezone."
+      },
+      {
+        "question": "How is this different from generic offshore staffing?",
+        "answer": "The engagement is engineering-led. We help shape the scope, define acceptance criteria, validate the data and document handover. You can use the team like embedded capacity, but the work is still managed around a concrete outcome rather than resumes alone."
+      },
+      {
+        "question": "Can the team overlap with US, UK, EU, Gulf or APAC hours?",
+        "answer": "Yes. MV.tech works from India Standard Time and agrees a collaboration window before the engagement begins. Typical overlap is possible with US Eastern mornings, UK and European business hours, Gulf hours and Asia-Pacific afternoons."
+      },
+      {
+        "question": "Can we start with one part-time data engineer?",
+        "answer": "Yes. A first engagement can be a scoped milestone, a part-time specialist or a small embedded team. The right shape depends on the backlog, access needed, review bandwidth and how quickly decisions can be made."
+      },
+      {
+        "question": "What should we share before asking for an offshore data team?",
+        "answer": "Share the reporting or data problem, source systems, target warehouse or BI tools, desired timeline, timezone and any constraints around security or access. A sanitised example is enough for an initial call; credentials are not needed for an enquiry."
+      }
+    ],
+    "questionsHeading": "Questions about hiring an offshore data engineering team.",
+    "relatedResourcesHeading": "Resources for planning an offshore data team.",
+    "relatedResources": [
+      {
+        "href": "/services/data-engineering/",
+        "kicker": "Service detail",
+        "title": "Data engineering consulting",
+        "text": "The deeper service page for ETL, warehouses, migrations, semantic models and data quality work.",
+        "label": "Core data service"
+      },
+      {
+        "href": "/insights/staff-augmentation-vs-project-consulting-vs-recruitment/",
+        "kicker": "Engagement models",
+        "title": "Staff augmentation, project consulting or recruitment?",
+        "text": "How to choose between embedded offshore capacity, a scoped project and a permanent hire.",
+        "label": "Model comparison"
+      },
+      {
+        "href": "/insights/timezone-overlap-with-an-india-based-engineering-team/",
+        "kicker": "Remote delivery",
+        "title": "Working with an India-based team across timezones",
+        "text": "Realistic overlap windows and habits that keep distributed engineering work moving.",
+        "label": "Timezone guide"
+      }
+    ],
+    "summary": "Dedicated offshore data engineering and analytics capacity from India for ETL, cloud warehouses, BI, migration and data quality work.",
+    "ogTitle": "Offshore data engineering team from India",
+    "ogKicker": "Dedicated data engineers · Analytics capacity · Timezone overlap"
+  },
+  {
     "path": "/services/ai-consulting/",
     "key": "ai-consulting",
     "name": "AI Automation, RAG & MCP Development",

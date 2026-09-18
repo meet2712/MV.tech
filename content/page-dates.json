@@ -1,6 +1,6 @@
 {
   "/": {
-    "hash": "e9ee902919d03e2a",
+    "hash": "55f8a88d99364d4b",
     "published": "2026-01-02",
     "modified": "2026-09-18"
   },
@@ -35,32 +35,37 @@
     "published": "2026-06-02"
   },
   "/insights/": {
-    "hash": "1bf23aebda9c2673",
-    "modified": "2026-09-10",
-    "published": "2026-09-10"
+    "hash": "2ca887b947e33c9c",
+    "published": "2026-09-10",
+    "modified": "2026-09-18"
+  },
+  "/insights/data-consultancy-company-for-offshore-team/": {
+    "hash": "af96c17092b858ef",
+    "published": "2026-09-18",
+    "modified": "2026-09-18"
   },
   "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/": {
-    "hash": "633b2b500bb0418a",
+    "hash": "94d9b532da528fa5",
     "published": "2026-09-10",
     "modified": "2026-09-18"
   },
   "/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/": {
-    "hash": "30220173b6bd6325",
+    "hash": "fbef6cf5a2b070de",
     "published": "2026-09-10",
     "modified": "2026-09-18"
   },
   "/insights/staff-augmentation-vs-project-consulting-vs-recruitment/": {
-    "hash": "f8ded25cd84f470c",
+    "hash": "4b6b6b334af7cce5",
     "published": "2026-09-10",
     "modified": "2026-09-18"
   },
   "/insights/timezone-overlap-with-an-india-based-engineering-team/": {
-    "hash": "3482a1ce3b4f451a",
+    "hash": "352056350c5bccbd",
     "published": "2026-09-10",
     "modified": "2026-09-18"
   },
   "/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/": {
-    "hash": "63196a276d221e1b",
+    "hash": "cef34f87cb01af29",
     "published": "2026-09-10",
     "modified": "2026-09-18"
   },
@@ -75,7 +80,7 @@
     "published": "2026-09-10"
   },
   "/services/": {
-    "hash": "27204023463035e7",
+    "hash": "96858cf9d549801a",
     "published": "2026-06-02",
     "modified": "2026-09-18"
   },
@@ -118,6 +123,11 @@
     "hash": "6677c2a419600df2",
     "published": "2026-09-12",
     "modified": "2026-09-12"
+  },
+  "/services/offshore-data-engineering-team/": {
+    "hash": "fb3b695aa7216c2c",
+    "published": "2026-09-18",
+    "modified": "2026-09-18"
   },
   "/services/technology-recruitment/": {
     "hash": "581de6b8a0863a90",

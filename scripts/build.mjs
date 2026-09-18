@@ -18,7 +18,7 @@ const origin = site.origin;
 const today = process.env.SITE_BUILD_DATE || new Date().toISOString().slice(0, 10);
 const registryFile = 'content/page-dates.json';
 const registry = JSON.parse(await readFile(registryFile, 'utf8').catch(() => '{}'));
-const articleTemplateRevision = '2026-09-18-related-guides';
+const articleTemplateRevision = '2026-09-18-offshore-guide';
 const hash = (value) => createHash('sha256').update(typeof value === 'string' ? value : JSON.stringify(value)).digest('hex').slice(0, 16);
 const jsonLd = (value) => JSON.stringify(value).replace(/</g, '\\u003c');
 

@@ -144,7 +144,7 @@ export function servicePage(page, site, allPages) {
   </section>
   <section class="band band-light">
     <div class="container split">
-      <div><p class="eyebrow">Before we begin</p><h2>Questions about ${h(midSentence(page.name))}.</h2><p class="body-copy">Not answered here? <a href="/contact/">Ask us directly</a> or read the <a href="/faq/">full FAQ</a>.</p></div>
+      <div><p class="eyebrow">Before we begin</p><h2>${h(page.questionsHeading ?? `Questions about ${midSentence(page.name)}.`)}</h2><p class="body-copy">Not answered here? <a href="/contact/">Ask us directly</a> or read the <a href="/faq/">full FAQ</a>.</p></div>
       ${faqList(page.questions)}
     </div>
   </section>

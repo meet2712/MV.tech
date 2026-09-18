@@ -12,11 +12,20 @@
 
 ## One-time setup still to do (needs your accounts)
 
-1. **Google Search Console**: the site verification tag is already on the homepage. Add the property, submit `https://mvtech.solutions/sitemap.xml`, and use *URL Inspection → Request indexing* on the homepage, the six service pages and `/remote-consulting/` once after this release.
+1. **Google Search Console**: the site verification tag is already on the homepage. Add the property, submit `https://mvtech.solutions/sitemap.xml`, and use *URL Inspection → Request indexing* on the homepage, priority service pages and `/remote-consulting/` once after this release.
 2. **Bing Webmaster Tools**: import the site from Search Console (one click) so Bing, Copilot and ChatGPT search index it quickly; IndexNow submissions will then show up under *IndexNow*.
 3. **Google Business Profile** for "MV.tech" in Ahmedabad (service-area business, no public address needed). Google's AI answers for "consultancy in Ahmedabad" style questions lean heavily on Business Profiles.
 4. **LinkedIn company page**: make sure the tagline, description and website match the wording on `/about/` (same entity description everywhere helps AI systems reconcile the company).
 5. **Founder links**: add Meet's personal LinkedIn and any GitHub or conference profiles to `founder.sameAs` in `content/site.json`; entity resolution for the author improves E-E-A-T signals.
+
+## Accounts and profiles by surface
+
+- **Google Search and Gemini grounding**: Google Search Console is the main webmaster account. Google Business Profile is strongly recommended for local/company entity signals. There is no separate Gemini webmaster submission account for ordinary websites.
+- **Bing, Copilot, Yahoo and DuckDuckGo**: create or verify Bing Webmaster Tools. DuckDuckGo has its own crawler and indexes, but its traditional links are largely sourced from Bing, so Bing Webmaster Tools plus IndexNow is the practical submission route.
+- **ChatGPT**: there is no ChatGPT Search Console. Keep `OAI-SearchBot` allowed in `robots.txt`, keep public pages clear and current, and build third-party mentions that ChatGPT search can cite.
+- **Claude**: there is no Claude Search Console. Keep `ClaudeBot`, `Claude-SearchBot` and `Claude-User` allowed, and publish clear pages plus external citations.
+- **Directory and trust profiles**: LinkedIn, Clutch, GoodFirms, DesignRush, TechBehemoths, Crunchbase and relevant founder profiles help AI systems reconcile MV.tech as a real service provider rather than only a website.
+- **Not needed as separate accounts**: DuckDuckGo direct URL submission, ChatGPT webmaster submission, Claude webmaster submission and Gemini webmaster submission are not normal account flows for public websites.
 
 ## Where AI assistants actually get "best consultancy" answers from
 
@@ -37,7 +46,7 @@ ChatGPT, Claude, Perplexity and Google AI Overviews rarely invent vendor lists; 
 
 ## Measure
 
-- Search Console: impressions, clicks and average position per landing page; check that the six service pages and `/remote-consulting/` are indexed and gaining query variety.
+- Search Console: impressions, clicks and average position per landing page; check that priority service pages and `/remote-consulting/` are indexed and gaining query variety.
 - Bing Webmaster Tools: IndexNow submissions and crawl stats.
 - GA4: `contact_intent` (clicks), `brief_compose` (email briefs built), `book_call` (confirmed Calendly bookings on `/contact/`). Report leads from `book_call` plus replies to email briefs, not from clicks.
 - Every quarter, ask ChatGPT, Claude and Perplexity the questions your buyers ask ("remote data engineering consultancy that overlaps US hours", "who can build an MCP server for our business") and note whether MV.tech appears and whether the description is accurate. If a description is wrong, fix the page it came from and, if needed, the wording in `llms.txt`.

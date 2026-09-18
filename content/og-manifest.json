@@ -48,6 +48,12 @@
     "kicker": "Guides from the MV.tech engineering team"
   },
   {
+    "route": "/insights/data-consultancy-company-for-offshore-team/",
+    "slug": "insights-data-consultancy-company-for-offshore-team",
+    "title": "Data consultancy company for an offshore team",
+    "kicker": "Offshore data team · Vendor fit · Timezone overlap"
+  },
+  {
     "route": "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
     "slug": "insights-questions-to-ask-before-hiring-a-remote-data-engineering-consultancy",
     "title": "12 questions to ask before hiring a remote data engineering consultancy",
@@ -142,6 +148,12 @@
     "slug": "services-mcp-and-ai-connectors",
     "title": "MCP servers & AI connectors",
     "kicker": "Custom MCP servers · Enterprise connectors · Scoped access"
+  },
+  {
+    "route": "/services/offshore-data-engineering-team/",
+    "slug": "services-offshore-data-engineering-team",
+    "title": "Offshore data engineering team from India",
+    "kicker": "Dedicated data engineers · Analytics capacity · Timezone overlap"
   },
   {
     "route": "/services/technology-recruitment/",
