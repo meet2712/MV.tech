@@ -6,6 +6,16 @@ name: Notify search engines (IndexNow)
 on:
   push:
     branches: [main]
+  # A page that is never edited is never submitted by the push path above, so it can sit
+  # unindexed indefinitely. Once a week, resubmit every URL in the sitemap to close that gap.
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+    inputs:
+      full:
+        description: 'Submit every sitemap URL instead of only changed pages'
+        type: boolean
+        default: true
 
 permissions:
   contents: read
@@ -26,12 +36,20 @@ jobs:
       - name: Collect changed public URLs
         id: urls
         run: |
-          BEFORE="${{ github.event.before }}"
-          if [ -z "$BEFORE" ] || ! git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then BEFORE=$(git rev-parse HEAD~1); fi
-          git diff --name-only "$BEFORE" "${{ github.sha }}" -- '*/index.html' 'index.html' 'llms.txt' 'llms-full.txt' \
-            | grep -v -E '^(content|scripts|partials|node_modules|docs)/' \
-            | sed -E 's#^index\.html$#/#; s#/index\.html$#/#; s#^([^/])#/\1#' \
-            | sort -u > changed.txt
+          FULL="${{ github.event_name == 'schedule' || inputs.full }}"
+          if [ "$FULL" = "true" ]; then
+            # Full sweep: every public URL in the sitemap, so nothing is left permanently unsubmitted.
+            grep -o '<loc>[^<]*</loc>' sitemap.xml \
+              | sed -E 's#</?loc>##g; s#^https://[^/]+##' \
+              | sort -u > changed.txt
+          else
+            BEFORE="${{ github.event.before }}"
+            if [ -z "$BEFORE" ] || ! git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then BEFORE=$(git rev-parse HEAD~1); fi
+            git diff --name-only "$BEFORE" "${{ github.sha }}" -- '*/index.html' 'index.html' 'llms.txt' 'llms-full.txt' \
+              | grep -v -E '^(content|scripts|partials|node_modules|docs)/' \
+              | sed -E 's#^index\.html$#/#; s#/index\.html$#/#; s#^([^/])#/\1#' \
+              | sort -u > changed.txt
+          fi
           # Always include the sitemap so the crawler sees fresh lastmod values.
           echo "/sitemap.xml" >> changed.txt
           sort -u changed.txt -o changed.txt
@@ -42,6 +60,7 @@ jobs:
             fs.writeFileSync("payload.json", JSON.stringify({host:new URL(site).host,key:process.env.INDEXNOW_KEY,keyLocation:`${site}/${process.env.INDEXNOW_KEY}.txt`,urlList:urls}));
           '
       - name: Wait for GitHub Pages to publish
+        if: github.event_name == 'push'
         run: sleep 120
       - name: Submit to IndexNow
         run: |
