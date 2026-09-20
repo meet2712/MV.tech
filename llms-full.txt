@@ -9,7 +9,7 @@ Founder: Meet Vaghasia, Founder & Lead Engineer (https://www.linkedin.com/in/mee
 LinkedIn: https://www.linkedin.com/company/mv-tech-data/
 Location: Ahmedabad, Gujarat, India · Serves clients worldwide with agreed timezone overlap
 Teams our engineers have worked with: Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, Turing. Names reflect organisations MV.tech's team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.
-Last generated: 2026-09-18. Short summary and answer guidance: https://mvtech.solutions/llms.txt
+Last generated: 2026-09-20. Short summary and answer guidance: https://mvtech.solutions/llms.txt
 
 This file is generated from the public pages listed below, so it always matches what visitors see. Each section is one page: title, canonical URL, meta description, then the page text.
 
@@ -18,14 +18,14 @@ This file is generated from the public pages listed below, so it always matches 
 # Offshore Data, Software & AI Consulting | MV.tech
 
 URL: https://mvtech.solutions/
-Description: Offshore data engineering, software and AI consultancy from Ahmedabad, India. Senior specialists who work with clients worldwide in agreed timezone overlap.
-Last modified: 2026-09-18
+Description: MV.tech builds data pipelines, BI dashboards, business software and AI systems. Senior engineers in Ahmedabad, India, delivering remotely for clients worldwide.
+Last modified: 2026-09-20
 
 Offshore data, software & AI consultancy
 
-## Senior engineers who work in your timezone, without the consultancy overhead.
+## Senior engineers for your data, software and AI projects.
 
-MV.tech builds data pipelines, business software, automation and AI systems for companies worldwide. Use us as an offshore data engineering team, a remote software and AI partner, or senior specialists inside your own team. You work directly with the people doing the engineering, we plan our hours around yours, and you never pay for offices, account layers or a bench.
+MV.tech is a remote-first consultancy based in Ahmedabad, India. We help companies make reporting reliable, automate manual work and build business applications and AI systems. Work with us on a defined project or add senior specialists to your team, with direct access to the engineers and collaboration hours agreed in your timezone.
 
 - Overlap agreed for US, UK, EU, Gulf & APAC hours
 - Founder is Toptal-vetted and Google Cloud certified
@@ -43,7 +43,7 @@ Directly or through vetted talent platforms. Names are experience, not endorseme
 
 What we do
 
-### Seven ways to bring senior engineering into your business.
+### Build a system, improve a workflow or strengthen your team.
 
 01 / Offshore data team
 
@@ -87,13 +87,14 @@ Add a senior remote data, software, cloud or AI consultant to your existing team
 
 Hire permanent AI, data, software and cloud professionals into your own organisation, with an engineer shaping the brief and assessing fit.
 
+Data warehouse migrationBusiness intelligence & dashboardsMCP servers & AI connectorsBlockchain data analytics
 How remote works with us
 
 ### Based in India. Working in your hours.
 
 India Standard Time sits between the Asia-Pacific and American working days, which lets a team in Ahmedabad share a real working window with almost any client. Before an engagement starts we agree when we overlap, how decisions get recorded and how you see progress between calls.
 
-- Agreed overlap, not vague availability — A recurring window in your timezone for standups, reviews and releases. US Eastern mornings, UK and European afternoons, Gulf and APAC business hours are all routine.
+- Agreed collaboration hours — A recurring window in your timezone for standups, reviews and releases. Share the hours your team needs; we confirm coverage and account for daylight-saving changes before starting.
 - Written progress you can forward — Decisions, demos and open questions are documented in your tools, so your stakeholders stay informed without another meeting.
 - The people you meet do the work — No account managers or hand-offs to a junior bench. Scope, estimates and delivery come from the same senior engineers.
 Engagement models
@@ -110,15 +111,14 @@ Senior specialists working inside your team, in your tools and your hours, for a
 
 #### Permanent recruitment
 
-Hire into your own organisation with an engineering-led search: a precise brief, technical screening and a shortlist you can trust. Best when the role is long-term.
+Hire into your own organisation with an engineering-led search: a clear role brief, agreed screening and candidates for your team to assess. Best when the role is long-term.
 
-How MV.tech compares with the usual alternatives
-| Consideration | MV.tech remote team | Large consultancy | Freelance marketplace |
-| Who does the work | Senior specialists you speak with directly | Layered account, delivery and offshore teams | One individual; depth varies |
-| Timezone overlap | Planned around your hours, any timezone | Usually local hours only | Depends on the individual |
-| Overhead you pay for | Lean remote model, no office or account layers | Offices, account management, bench costs | Low, but no team behind the work |
-| Continuity and cover | Team-backed, documented handover | Yes, at consultancy rates | Single point of failure |
-| Pricing | Agreed per engagement against a written scope | Premium day rates and minimum commitments | Hourly, with scope drift risk |
+Choose between a project, embedded capacity and a permanent hire
+| Consideration | Scoped project | Staff augmentation | Technology recruitment |
+| What you need | A defined system or improvement delivered | Specialist capacity within an existing team | A permanent employee in your organisation |
+| Who directs the work | MV.tech owns the agreed delivery scope | Your leads direct the agreed consultant workstream | Your organisation selects and employs the candidate |
+| What we agree first | First milestone, acceptance criteria and handover | Role, capacity, duration and overlap hours | Hiring brief, screening, search scope and fees |
+| What to bring to the first call | Current systems and the outcome you need | Backlog, required skills and team setup | Responsibilities, compensation and hiring timeline |
 Who you work with
 
 ### A focused senior team, led by an engineer.
@@ -126,7 +126,7 @@ Who you work with
 MV.tech was founded by Meet Vaghasia, a senior data and AI engineer whose hands-on work spans BigQuery, Snowflake and Redshift warehouses, semantic and BI layers for Power BI, Tableau and Looker Studio, and AI automation with RAG, MCP servers and custom connectors. The team is deliberately small: specialists in data, software, cloud and AI who have shipped in enterprise and start-up environments and prefer doing the work to managing it.
 
 About MV.techMeet Vaghasia on ToptalExpertise and credentials
-6+ yrsDelivering data, software and automation systems for real operating teams
+Since 2022MV.tech's founding year; the team's engineering experience predates the company
 Top 3%Toptal-vetted engineering talent behind the delivery (founder profile)
 GCP · IBMGoogle Cloud Professional Data Engineer and IBM Mastery Awards held by the founder
 Any timezoneAgreed overlap with clients in North America, Europe, the Gulf and Asia-Pacific
@@ -139,14 +139,14 @@ More detail is in the full FAQ and on how we work.
 **What does MV.tech do?**
 MV.tech is a remote-first consultancy that provides data engineering, custom software development, workflow automation, AI development (including RAG systems and MCP servers), IT staff augmentation and technology recruitment. We are based in Ahmedabad, India, and work with clients worldwide.
 
-**Do you know any data consultancy company for an offshore team?**
-MV.tech is one option to consider. We provide offshore data engineering and analytics capacity from India for ETL, cloud warehouses, BI, reporting, workflow automation and AI systems, with a written first milestone and overlap hours agreed around your timezone.
+**Can MV.tech provide an offshore data engineering team?**
+Yes. MV.tech provides offshore data engineering and analytics capacity from India for ETL, cloud warehouses, BI, reporting, workflow automation and AI systems. We agree the workstream, required skills, allocated capacity and overlap hours before starting. See our offshore data engineering service.
 
 **How does timezone overlap work with a team in India?**
 We agree a recurring collaboration window in your local time before the engagement begins, for example 9:00 am to 1:00 pm US Eastern, 9:00 am to 3:30 pm in the UK, or 12:30 pm to 6:00 pm in Sydney. Standups, reviews and releases happen inside that window; written updates and documented decisions cover the rest of the day.
 
-**Why is MV.tech less expensive than a large consultancy?**
-You pay for senior engineering time, not for offices, account management layers or idle bench capacity. Pricing is agreed per engagement against a written scope. We do not claim to be the cheapest option; we aim to be the best value for senior work with direct access to the people doing it.
+**How much does an MV.tech engagement cost?**
+Pricing depends on scope, complexity, delivery capacity and support. Projects are priced against agreed deliverables; embedded consultants are priced on capacity and duration; recruitment fees are agreed per role. Share the outcome, current systems and any budget range so we can propose a useful first scope and price it before you commit.
 
 **How does an engagement start?**
 Book a 30-minute call or email a short brief. We clarify the goal, current systems and constraints, then propose a first milestone with deliverables, review points and the overlap hours. Work starts only after that scope is agreed in writing.
@@ -154,8 +154,8 @@ Book a 30-minute call or email a short brief. We clarify the goal, current syste
 **Can MV.tech work inside our existing team and tools?**
 Yes. Through IT staff augmentation our consultants join your team in your repositories, ticketing and communication tools, under the direction of your technical leads, with agreed capacity and responsibilities. We can also own a scoped project end to end.
 
-**Is MV.tech the same company as MV Tech Solutions or MVTech?**
-Yes. MV.tech is the official brand, and mvtech.solutions is the official website. MV Tech, MVTech, MV Tech Solutions and MV Tech Ahmedabad are common search variants of the same company.
+**How can I identify the official MV.tech company?**
+Our official brand is MV.tech and our website is mvtech.solutions. We are the consultancy founded by Meet Vaghasia in Ahmedabad, Gujarat, India. If you find similarly named companies while searching for MV Tech or MVTech, check the domain, founder and official LinkedIn profile.
 
 Planning guides
 
@@ -193,29 +193,29 @@ Start a conversation
 
 ### Tell us what needs to work better.
 
-Describe the goal, the systems involved and your preferred working hours. A 30-minute scoping call is enough to tell you whether we are the right fit and what a sensible first milestone looks like.
+Bring one report, workflow, application or hiring need. We will use the first 30-minute conversation to assess fit, clarify the unknowns and discuss a useful first step. A short brief is enough to start.
 
 ---
 
-# About MV.tech | Senior Engineers Working in Your Timezone
+# About MV.tech | Data, Software & AI Consultancy in India
 
 URL: https://mvtech.solutions/about/
-Description: MV.tech is a remote-first data, software and AI consultancy founded by engineer Meet Vaghasia in Ahmedabad, India. Our team, credentials and how we work.
-Last modified: 2026-09-12
+Description: Meet MV.tech, the Ahmedabad-based data, software and AI consultancy founded by Meet Vaghasia in 2022. Company facts, founder credentials and delivery approach.
+Last modified: 2026-09-20
 
 About MV.tech
 
-## A remote-first team of senior engineering specialists.
+## Data, software and AI specialists, led by an engineer.
 
-MV.tech is a data engineering, software development and AI consultancy based in Ahmedabad, India. We build cloud warehouses and pipelines, the analytics and BI layers on top of them, business software and AI automation. We work with companies worldwide, plan our working hours around theirs, and keep the team deliberately small so clients always deal with the people doing the engineering.
+MV.tech is a data engineering, software development and AI consultancy founded by Meet Vaghasia in 2022 and based in Ahmedabad, Gujarat, India. We build cloud warehouses, reliable reporting, business applications and AI automation for companies worldwide. Our remote team works directly with your technical and business teams, with responsibilities and timezone overlap agreed before delivery starts.
 
 - Ahmedabad, Gujarat, India
-- Clients in North America, Europe, the Gulf and Asia-Pacific
-- 6+ years of delivery
+- Remote delivery worldwide
+- Founded in 2022
 - GSTIN 24BZMPV4008F1ZA
 Founder
 
-### Led by an engineer, not an account manager.
+### Meet the engineer behind MV.tech.
 
 ### Meet Vaghasia — Founder & Lead Engineer
 
@@ -226,7 +226,7 @@ That experience runs from enterprise reporting estates and financial data platfo
 Meet on LinkedInToptal profileMV.tech on LinkedInExpertise and credentials
 How we operate
 
-### What "remote-first and lean" means in practice.
+### What to expect when you work with us.
 
 #### Senior people, end to end
 
@@ -236,9 +236,9 @@ The engineers who scope the work build it, review it and hand it over. There is 
 
 India Standard Time overlaps every major business region for part of the day. We fix a collaboration window in your local time and keep decisions written down between calls.
 
-#### Overhead you do not pay for
+#### A price tied to the work
 
-No offices to fund, no sales layer, no idle capacity. Pricing is agreed per engagement against a written scope, so the cost reflects the work rather than the brand.
+Pricing is agreed against a written scope, or the capacity and duration of an embedded role. Deliverables, testing, documentation and support expectations are clear before you commit.
 
 #### Scope before commitment
 
@@ -273,10 +273,12 @@ Company facts
 
 ### The details buyers and procurement teams ask for.
 
-- Legal name and brand
-  MV.tech (also searched as MV Tech, MVTech and MV Tech Solutions). Official website: mvtech.solutions.
+- Company identity
+  MV.tech. Our official website ismvtech.solutionsand our company profile isMV.tech on LinkedIn. Use the domain, founder and Ahmedabad location to identify us when searching for MV Tech or MVTech.
 - Founded
   2022
+- Founder
+  Meet Vaghasia, Founder & Lead Engineer. HisToptal profileandLinkedIn profileprovide professional background; individual credentials are distinct from company certifications.
 - Team
   10–15 specialists
 - Location
@@ -284,16 +286,34 @@ Company facts
 - Registration
   Registered for Goods and Services Tax in India, GSTIN 24BZMPV4008F1ZA. Invoicing currency and payment terms are agreed per engagement.
 - Services
-  Data engineering and warehouse migration, analytics and BI layers, custom software, workflow automation, AI development (RAG, MCP and custom connectors), IT staff augmentation and technology recruitment.
+  Data engineering and warehouse migration, business intelligence, custom software, workflow automation, AI development (RAG, MCP and custom connectors), blockchain data analytics, offshore engineering teams, IT staff augmentation and technology recruitment. Seeservice scopes and starting points.
+- Engagement models
+  A scoped project with agreed deliverables, consultants embedded in your team, or recruitment for a permanent role in your organisation. Availability, responsibilities and commercial terms are agreed for each engagement.
 - Working hours
   Core hours in India Standard Time (UTC+5:30), with collaboration windows agreed per client for US, UK, European, Gulf and Asia-Pacific timezones.
 - Contact
   contact@mvtech.solutions,+91 9409299016or a30-minute call. We respond to every enquiry, usually within one business day.
+Where we fit
+
+### Bring us a workstream with a clear owner and a useful outcome.
+
+#### Your data needs to be dependable
+
+Reports disagree, refreshes fail or a warehouse migration is stuck. Start with one source-to-report flow, agreed metric definitions and checks your team can review.
+
+#### A manual process needs a working system
+
+Your team needs an application, an integration or an AI assistant connected to approved business information. Start with one workflow, its users and a way to test whether it works.
+
+#### Your team needs specialist capacity
+
+You have a backlog and a delivery lead, but need data, software or AI experience. Define the role, duration and collaboration hours; we confirm fit and availability before an engagement.
+
 Talk to the team
 
 ### See whether we are the right fit for your work.
 
-A 30-minute conversation with the engineers who would do the work. No sales deck, no obligation.
+Bring the problem, your current systems and the result you need. We will discuss a useful first milestone, who would own it and what we need to learn before estimating the work.
 
 ---
 
@@ -448,13 +468,13 @@ Procurement, security and legal questions are easiest to answer at the scoping s
 
 URL: https://mvtech.solutions/contact/
 Description: Talk to MV.tech's engineers about a data, software, automation or AI project, an embedded consultant or a permanent hire. Book a 30-minute call or email us.
-Last modified: 2026-09-12
+Last modified: 2026-09-20
 
 Contact
 
 ## Book a 30-minute scoping call, or send us your brief.
 
-Tell us what you want to build, improve or automate, which technology role you need to fill, or which consultant you need in your team. You speak with the engineers who would do the work, and you leave with a written next step.
+Tell us what needs to work better, the systems involved and your target date. A short description is enough to start; you do not need a finished specification. We will discuss fit, the first useful milestone and any questions we need to answer before proposing the work.
 
 - contact@mvtech.solutions
 - +91 9409299016
@@ -473,12 +493,12 @@ Or open it in a new tab: calendly.com/contact-mvtech/new-meeting
 
 Option 2
 
-### Prefer email? Build your brief in a minute
+### Prefer email? Start with a short brief
 
-Fill in what you know. This opens a ready-to-send email in your mail app; nothing is submitted through this website.
+Fill in what you know and leave the rest blank. This opens a draft in your mail app; you review and send it there. Nothing is submitted through this website.
 
-What do you need? ProjectData engineeringCustom softwareWorkflow automationAI, RAG or MCP developmentConsultant in our team (staff augmentation)Permanent hire (recruitment)Something else
-Goal or problem
+What do you need? Help choosing a serviceOffshore data engineering teamData engineering and ETLData warehouse migrationBusiness intelligence and dashboardsCustom softwareWorkflow automation and API integrationAI and RAG developmentMCP servers and AI connectorsBlockchain data analyticsConsultant in our team (staff augmentation)Permanent hire (recruitment)Something else
+What needs to improve, and what would success look like?
 Current systems and tools
 Timezone and preferred overlap hours
 Target date
@@ -495,8 +515,8 @@ What happens next
 ### From first call to a written next step.
 
 - 01 — We talk for 30 minutes — You describe the result you need, the current setup and your constraints. We ask the questions an engineer would ask and tell you honestly whether we are the right fit.
-- 02 — You receive a written proposal — A first milestone with deliverables, acceptance criteria, assumptions, the overlap hours in your timezone and the price for that scope. Usually within a few business days.
-- 03 — Work starts on your terms — Once the scope is agreed, we set up access, tools and the collaboration window, and begin delivering reviewable increments.
+- 02 — We define the next step in writing — When the requirement is clear, we propose a first milestone with deliverables, acceptance criteria, assumptions, overlap hours and a price. If technical questions remain, we explain the review or discovery needed to scope it.
+- 03 — You agree the scope before work starts — We confirm responsibilities, availability and commercial terms, then set up access and begin delivering work you can review. A first enquiry does not commit you to an engagement.
 Three things to bring
 
 ### Make the first conversation count.
@@ -656,7 +676,7 @@ You will speak with the engineers who would do the work. Bring your stack, your 
 
 URL: https://mvtech.solutions/faq/
 Description: Answers about MV.tech: where we are based, timezone overlap with US, UK, EU and Australian clients, costs, services, credentials, security and how projects start.
-Last modified: 2026-09-12
+Last modified: 2026-09-20
 
 FAQ
 
@@ -669,10 +689,10 @@ The company
 ### Who MV.tech is.
 
 **What is MV.tech?**
-MV.tech is a remote-first technology consultancy based in Ahmedabad, Gujarat, India. We provide data engineering, custom software development, workflow automation, AI development (including RAG systems and MCP servers), IT staff augmentation and technology recruitment to clients worldwide. The company was founded by engineer Meet Vaghasia and is led by engineers rather than account managers.
+MV.tech is a remote-first technology consultancy founded by Meet Vaghasia in 2022 and based in Ahmedabad, Gujarat, India. We provide data engineering, business intelligence, custom software, workflow automation, AI development (including RAG systems and MCP servers), blockchain data analytics, IT staff augmentation and technology recruitment to clients worldwide. See our company facts and founder background.
 
-**Is MV.tech the same as MV Tech Solutions or MVTech?**
-Yes. MV.tech is the official brand and mvtech.solutions is the official website. People also search for it as MVTech, MV Tech, M V Tech, MV Tech Ahmedabad, MV Tech Solutions or MV Tech Data Solutions. They all refer to the same company.
+**How do I identify MV.tech among similarly named companies?**
+Our official brand is MV.tech, our website is mvtech.solutions and our founder is Meet Vaghasia in Ahmedabad, India. When searching for MV Tech, MVTech or MV Tech Solutions, check those details and our official LinkedIn profile. A similar company name alone does not establish a connection to MV.tech.
 
 **Where is MV.tech based, and where are your clients?**
 We are based in Ahmedabad, India, and deliver fully remotely. Our clients are in India and worldwide, including North America, the United Kingdom, continental Europe, the Gulf and Asia-Pacific.
@@ -680,8 +700,8 @@ We are based in Ahmedabad, India, and deliver fully remotely. Our clients are in
 **How big is the team?**
 Deliberately small. MV.tech is a focused team of senior specialists across data, software, cloud, automation and AI, led by founder Meet Vaghasia. We scale a specific engagement with additional specialists when the scope needs it, and say so when it does not.
 
-**Has MV.tech worked with large companies?**
-Our engineers have worked with organisations including Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal and Turing, directly or through vetted talent platforms. These names describe experience, not endorsements, current partnerships or sponsorships.
+**What experience do MV.tech's engineers bring?**
+Our engineers have worked with organisations including Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal and Turing, directly or through vetted talent platforms. These names describe team members' professional experience, not endorsements, current partnerships or a list of direct MV.tech clients. Review the expertise and credentials page and the founder's linked professional profiles, then ask about experience relevant to your workstream.
 
 Timezones & cost
 
@@ -694,7 +714,7 @@ Yes. India Standard Time (UTC+5:30) overlaps the working day of every major busi
 No. Overlap means agreed working hours for collaboration: standups, reviews, demos and releases. Any support coverage, response-time expectations or release windows are defined separately in the engagement scope.
 
 **How does MV.tech keep consulting costs lean?**
-We operate as a focused remote team, so you pay for senior delivery time rather than offices, account-management layers, sales teams or idle bench capacity. Pricing is agreed per engagement against a written scope. We do not claim to be the cheapest option; we aim to be the best value for senior work with direct access to the people doing it.
+MV.tech operates as a focused remote team with direct access to the engineers doing the work. We scope an initial milestone so you can assess delivery before expanding it. The total cost still depends on complexity, capacity and support; compare proposals using the same deliverables and responsibilities.
 
 **How are projects priced?**
 Each engagement is priced against its written scope: deliverables, integrations, data volumes, testing, documentation and support. Embedded consultants are priced on agreed capacity and duration; recruitment fees are agreed per role. You receive the price before committing, and comparisons with other proposals should use the same scope and support expectations.
@@ -709,6 +729,12 @@ Services & delivery
 **What does MV.tech build?**
 Data pipelines and cloud data platforms, dashboards and reporting layers, web applications and client portals, internal tools and business apps, workflow automations and API integrations, web scraping systems, RAG knowledge assistants, MCP servers and custom AI features integrated into existing products.
 
+**Which data platforms and BI tools do you work with?**
+MV.tech's data work includes Python and SQL pipelines, BigQuery, Snowflake, Amazon Redshift and PostgreSQL, plus reporting and semantic models for Power BI, Tableau, Looker Studio and Streamlit. We also work with Google Cloud, AWS and Azure data services. Share your actual stack and constraints so we can confirm fit; see data engineering and business intelligence.
+
+**Can you build AI assistants connected to our internal systems?**
+Yes. MV.tech builds retrieval-augmented generation (RAG) assistants over approved information, Model Context Protocol (MCP) servers and custom connectors for business APIs and databases. We define the users, permitted data and actions, then test representative questions and failure cases. See AI consulting and MCP servers and AI connectors.
+
 **Can you handle both the product interface and the data backend?**
 Yes. The work can cover responsive front-end screens, API-backed workflows, data ingestion, warehouse modelling, analytics and deployment handover. The scope defines which parts your team owns and which parts we own.
 
@@ -717,6 +743,9 @@ Yes. We can review and improve existing scripts, pipelines, APIs, dashboards, we
 
 **How do projects usually start?**
 With a 30-minute scoping call or an emailed brief. We clarify the goal, systems and constraints, then propose a first milestone with deliverables, acceptance criteria, review points and overlap hours. Work starts once that scope is agreed in writing.
+
+**What would a useful first milestone look like?**
+Examples include one source-to-report pipeline with reconciliation checks, a dashboard with agreed metric definitions, a complete application workflow, or an AI assistant tested against a bounded knowledge set. The first milestone should produce something your team can inspect and accept. Its timing, price and deliverables depend on your systems and are agreed in the written scope; see our delivery process.
 
 **What is the difference between a project, staff augmentation and recruitment?**
 In a project, MV.tech owns a defined scope and its deliverables. In staff augmentation, our consultants work inside your team under your technical leads for an agreed capacity. In recruitment, we help you hire a permanent employee into your own organisation. Each has its own scope and commercial terms.
@@ -1645,7 +1674,7 @@ Bring the goal, the systems involved and your preferred working hours. You leave
 
 URL: https://mvtech.solutions/remote-consulting/
 Description: How MV.tech's senior consultants in India work with clients worldwide: collaboration windows by region, engagement models and where the cost difference comes from.
-Last modified: 2026-09-18
+Last modified: 2026-09-20
 
 How we work
 
@@ -1718,18 +1747,16 @@ Illustrative windows we plan engagements around. Exact hours are agreed per enga
 
 Compare the model
 
-### Where the cost difference actually comes from.
+### Choose the delivery model that fits your team.
 
-A lean remote consultancy is not cheaper because the work is worse. It is cheaper because you are not paying for offices, account layers and idle bench capacity. Compare proposals on scope, seniority, validation, documentation and support, and the difference becomes visible.
+Our remote model keeps the engagement focused on engineering time and agreed deliverables. Compare proposals on scope, seniority, validation, documentation and support. Pricing depends on the work and responsibilities you need us to own.
 
-How MV.tech compares with the usual alternatives
-| Consideration | MV.tech remote team | Large consultancy | Freelance marketplace |
-| Who does the work | Senior specialists you speak with directly | Layered account, delivery and offshore teams | One individual; depth varies |
-| Timezone overlap | Planned around your hours, any timezone | Usually local hours only | Depends on the individual |
-| Overhead you pay for | Lean remote model, no office or account layers | Offices, account management, bench costs | Low, but no team behind the work |
-| Continuity and cover | Team-backed, documented handover | Yes, at consultancy rates | Single point of failure |
-| Ownership model | Scoped project, embedded consultant or recruitment | Project or programme | Task by task |
-| Pricing | Agreed per engagement against a written scope | Premium day rates and minimum commitments | Hourly, with scope drift risk |
+Choose how to engage MV.tech
+| Consideration | Scoped project | Embedded specialist | Permanent recruitment |
+| Best fit | A defined system or improvement | Capacity in an existing delivery team | A permanent role in your organisation |
+| Who directs the work | MV.tech owns the agreed delivery scope | Your leads direct the consultant workstream | You select and employ the candidate |
+| What we agree first | Milestone, acceptance criteria and handover | Skills, capacity, duration and overlap | Hiring brief, screening scope and fees |
+| What to bring | Current systems and desired outcome | Backlog, required skills and team setup | Responsibilities, compensation and timeline |
 A useful first project
 
 ### Compare the scope and total engagement cost
@@ -1824,13 +1851,13 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/
 Description: MV.tech's offshore and remote services: data engineering teams, ETL and cloud warehouses, BI, custom software, workflow automation, AI, staffing and hiring.
-Last modified: 2026-09-18
+Last modified: 2026-09-20
 
 Services
 
 ## Consulting, offshore engineering capacity and hiring for data, software and AI.
 
-Build a new system, fix the one you have, add an offshore data engineering team or hire permanently. Every service below is delivered remotely from India by senior specialists, in working hours that overlap yours, with scope agreed in writing first.
+Build a new system, improve the one you have, add engineering capacity or hire permanently. MV.tech provides data, software, automation and AI services remotely from Ahmedabad, India. We agree the first deliverable, who owns the work and the collaboration hours before an engagement starts.
 
 Core services
 
@@ -1850,7 +1877,7 @@ Legacy databases and manual reporting moved into Snowflake, BigQuery or Redshift
 
 ### Business intelligence & dashboards
 
-Semantic and dimensional models behind Power BI, Tableau, Looker Studio and Streamlit, with DAX, governed KPI definitions, self-service datasets and refreshes that finish on time.
+Semantic and dimensional models behind Power BI, Tableau, Looker Studio and Streamlit, with DAX, agreed KPI definitions, self-service datasets and monitored refreshes.
 
 ### Custom software & web app development
 
@@ -1882,7 +1909,7 @@ Permanent hiring for AI, data, software and cloud roles, with an engineer writin
 
 Capabilities within those services
 
-### The specific work we are asked for most often.
+### Tools and implementation work we can scope with you.
 
 #### Cloud data platforms (GCP, AWS & Azure)
 
@@ -1934,12 +1961,14 @@ Performance passes, monitoring, least-privilege access, OAuth and managed secret
 
 Which service do I need?
 
-### A quick way to choose.
+### Start with the problem and one useful deliverable.
+
+These are examples of starting scopes. We confirm the deliverables, access, acceptance criteria and price for your systems before work begins.
 
 - "Our reports are unreliable or manual."
   Data engineering consulting, usually starting with one dependable reporting flow.
-- "We need a data consultancy company for an offshore team."
-  Offshore data engineering team, starting with one bounded data workstream and agreed overlap hours.
+- "We need offshore data engineering capacity."
+  Offshore data engineering team, starting with one bounded data workstream, required skills and agreed overlap hours.
 - "We are moving reporting to Snowflake or BigQuery."
   Data warehouse migration, starting with discovery, source-to-target mapping and an impact analysis of what depends on the old estate.
 - "Two dashboards answer the same question differently."
@@ -1951,7 +1980,7 @@ Which service do I need?
 - "We need an app, portal or internal tool."
   Custom software development, scoped around one complete user journey.
 - "We want an assistant over our documents or tools."
-  AI automation, RAG & MCP development, starting with a bounded knowledge set.
+  AI automation, RAG & MCP development, starting with an approved knowledge set, representative questions and checks for answer quality and access.
 - "Our AI platform has no connector for the system we actually use."
   MCP servers & AI connectors, starting with one system, a few tools and a scoped service identity.
 - "We need on-chain activity in a warehouse finance can use."
@@ -1989,7 +2018,7 @@ Not sure where to start?
 
 ### Describe the problem. We will suggest the smallest useful first step.
 
-Thirty minutes with the engineers who would do the work is usually enough to tell whether the answer is a project, a consultant in your team, a hire, or something you can fix yourself.
+Share what is slowing your team down, the systems involved and the result you need. We will discuss whether a project, an embedded specialist or a permanent hire fits, and what needs clarifying before we propose a scope.
 
 ---
 

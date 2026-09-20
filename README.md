@@ -13,7 +13,7 @@ Static site for [mvtech.solutions](https://mvtech.solutions/), published from `m
 | Styles | `css/input.css` (design tokens at the top; `.band-light` switches a section to the light palette) |
 | Behaviour (menu, sticky CTA, Calendly embed, email brief, analytics events) | `js/site.js` |
 | Icons | `js/icons-entry.js` — import a Lucide icon before using a new `data-lucide` name |
-| Short AI summary and answer guidance | `llms.txt` (hand-maintained; `llms-full.txt` is generated) |
+| Factual public-site index for retrieval tools | `llms.txt` (hand-maintained; `llms-full.txt` is generated) |
 
 FAQ blocks are plain `<details><summary>` markup; the build turns them into `FAQPage` structured data automatically and the tests fail if the two ever disagree.
 
@@ -27,7 +27,7 @@ npm test           # metadata, structured data, links, sitemap, registry, robots
 git add -A && git commit -m "…" && git push
 ```
 
-Commit the generated output together with the source change; GitHub Pages serves the committed files and the `Validate website` workflow rebuilds and fails if anything was forgotten. The `Notify search engines` workflow then submits every changed URL to IndexNow (Bing, Copilot, ChatGPT search, DuckDuckGo) about two minutes after the push.
+Commit the generated output together with the source change; GitHub Pages serves the committed files and the `Validate website` workflow rebuilds and fails if anything was forgotten. The `Notify search engines` workflow waits for this commit's Pages deployment, then submits changed URLs to IndexNow. Submission helps participating engines discover updates; it does not guarantee indexing or AI citations. Failed submissions fail the workflow so they remain visible.
 
 `content/page-dates.json` records a content hash and the published/modified dates for every page. The build updates a page's `modified` date only when its content actually changes, so `<lastmod>` in the sitemap and `dateModified` in structured data stay truthful. Do not edit it by hand.
 

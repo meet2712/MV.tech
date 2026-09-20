@@ -1,13 +1,13 @@
 {
   "/": {
-    "hash": "55f8a88d99364d4b",
+    "hash": "ebbde6e00a2f3e2c",
     "published": "2026-01-02",
-    "modified": "2026-09-18"
+    "modified": "2026-09-20"
   },
   "/about/": {
-    "hash": "da9a3d89db88e31a",
+    "hash": "5581e9b2fa115152",
     "published": "2026-06-02",
-    "modified": "2026-09-12"
+    "modified": "2026-09-20"
   },
   "/brand/": {
     "hash": "bec15dc4c4016df7",
@@ -20,9 +20,9 @@
     "published": "2026-06-02"
   },
   "/contact/": {
-    "hash": "24bfdabb1b286c89",
+    "hash": "c70a09510953a122",
     "published": "2026-06-02",
-    "modified": "2026-09-12"
+    "modified": "2026-09-20"
   },
   "/expertise/": {
     "hash": "9466b5be7a235b8a",
@@ -30,9 +30,9 @@
     "published": "2026-06-02"
   },
   "/faq/": {
-    "hash": "2a3aa96560116d3a",
-    "modified": "2026-09-12",
-    "published": "2026-06-02"
+    "hash": "cb06f246dd7722bf",
+    "published": "2026-06-02",
+    "modified": "2026-09-20"
   },
   "/insights/": {
     "hash": "2ca887b947e33c9c",
@@ -75,14 +75,14 @@
     "published": "2026-06-02"
   },
   "/remote-consulting/": {
-    "hash": "5f9f47803d465ffe",
+    "hash": "bb4a4f5c5f71eb63",
     "published": "2026-09-10",
-    "modified": "2026-09-18"
+    "modified": "2026-09-20"
   },
   "/services/": {
-    "hash": "96858cf9d549801a",
+    "hash": "61c1cc2d7880e6aa",
     "published": "2026-06-02",
-    "modified": "2026-09-18"
+    "modified": "2026-09-20"
   },
   "/services/ai-consulting/": {
     "hash": "f55cafa7097d62b2",

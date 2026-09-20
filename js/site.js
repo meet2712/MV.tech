@@ -114,9 +114,10 @@
       window.location.href = href;
     });
     brief.querySelector('[data-copy-brief]')?.addEventListener('click', async (btn) => {
+      const copyButton = btn.currentTarget;
       const { subject, body } = compose();
       const text = `To: ${email}\nSubject: ${subject}\n\n${body}`;
-      try { await navigator.clipboard.writeText(text); btn.currentTarget.textContent = 'Copied — paste it into your email'; }
+      try { await navigator.clipboard.writeText(text); copyButton.textContent = 'Copied — paste it into your email'; }
       catch { if (preview) { preview.textContent = text; preview.classList.add('is-visible'); } }
       track('brief_compose', { method: 'copy' });
     });

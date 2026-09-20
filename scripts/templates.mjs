@@ -49,16 +49,8 @@ export function overlapGraphic(site) {
 </figure>`;
 }
 
-export function comparisonTable() {
-  const rows = [
-    ['Who does the work', 'Senior specialists you speak with directly', 'Layered account, delivery and offshore teams', 'One individual; depth varies'],
-    ['Timezone overlap', 'Planned around your hours, any timezone', 'Usually local hours only', 'Depends on the individual'],
-    ['Overhead you pay for', 'Lean remote model, no office or account layers', 'Offices, account management, bench costs', 'Low, but no team behind the work'],
-    ['Continuity and cover', 'Team-backed, documented handover', 'Yes, at consultancy rates', 'Single point of failure'],
-    ['Ownership model', 'Scoped project, embedded consultant or recruitment', 'Project or programme', 'Task by task'],
-    ['Pricing', 'Agreed per engagement against a written scope', 'Premium day rates and minimum commitments', 'Hourly, with scope drift risk'],
-  ];
-  return `<div class="table-wrap" tabindex="0"><table class="data-table compare-table"><caption>How MV.tech compares with the usual alternatives</caption><thead><tr><th scope="col"><span class="sr-only">Consideration</span></th><th scope="col" class="highlight">MV.tech remote team</th><th scope="col">Large consultancy</th><th scope="col">Freelance marketplace</th></tr></thead><tbody>${rows.map(([label, a, b, c]) => `<tr><th scope="row">${h(label)}</th><td class="highlight">${h(a)}</td><td>${h(b)}</td><td>${h(c)}</td></tr>`).join('')}</tbody></table></div>`;
+export function comparisonTable(comparison) {
+  return `<div class="table-wrap" tabindex="0"><table class="data-table compare-table"><caption>Choose how to engage MV.tech</caption><thead><tr><th scope="col"><span class="sr-only">Consideration</span></th>${comparison.columns.map((label) => `<th scope="col">${h(label)}</th>`).join('')}</tr></thead><tbody>${comparison.rows.map(([label, ...cells]) => `<tr><th scope="row">${h(label)}</th>${cells.map((cell) => `<td>${h(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
 }
 
 export function faqList(items) {
@@ -124,9 +116,9 @@ export function servicePage(page, site, allPages) {
   </section>
   <section class="band">
     <div class="container">
-      <div class="section-heading"><div><p class="eyebrow">Compare the model</p><h2>Where the cost difference actually comes from.</h2></div></div>
-      <p class="lead measure">A lean remote consultancy is not cheaper because the work is worse. It is cheaper because you are not paying for offices, account layers and idle bench capacity. Compare proposals on scope, seniority, validation, documentation and support, and the difference becomes visible.</p>
-      ${comparisonTable()}
+      <div class="section-heading"><div><p class="eyebrow">Compare the model</p><h2>${h(page.comparison.heading)}</h2></div></div>
+      <p class="lead measure">${h(page.comparison.intro)}</p>
+      ${comparisonTable(page.comparison)}
     </div>
   </section>` : ''}
   <section class="band ${remote ? 'band-light' : 'band-light'}">

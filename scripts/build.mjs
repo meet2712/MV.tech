@@ -151,6 +151,7 @@ function schemaGraph(page) {
     '@type': ['Organization', 'ProfessionalService'], '@id': `${origin}/#organization`, name: site.name, legalName: site.legalName, alternateName: site.alternateNames,
     url: `${origin}/`, logo: { '@type': 'ImageObject', url: `${origin}/images/logo.png`, width: 1200, height: 384 }, image: `${origin}/images/og/home.jpg`,
     description: site.summary, slogan: 'Senior engineering in your timezone, without large-consultancy overhead', email: site.email, telephone: site.phone,
+    foundingDate: String(site.foundingYear), taxID: site.gstin,
     numberOfEmployees: { '@type': 'QuantitativeValue', minValue: site.teamSize.min, maxValue: site.teamSize.max },
     address: { '@type': 'PostalAddress', addressLocality: site.address.locality, addressRegion: site.address.region, postalCode: site.address.postalCode, addressCountry: site.address.country },
     areaServed: 'Worldwide', founder: { '@id': `${origin}/#founder` }, sameAs: [site.linkedin, site.crunchbase], knowsAbout: site.knowsAbout,
@@ -168,6 +169,10 @@ function schemaGraph(page) {
     ...(crumbs ? { breadcrumb: { '@id': `${url}#breadcrumb` } } : {}),
   };
   const graph = [organization, founder, website, webpage];
+  if (page.route === '/about/') {
+    webpage.mainEntity = { '@id': organization['@id'] };
+    organization.mainEntityOfPage = { '@id': webpage['@id'] };
+  }
   if (crumbs) graph.push({ '@type': 'BreadcrumbList', '@id': `${url}#breadcrumb`, itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: c.url })) });
   if (page.kind === 'service') {
     webpage.mainEntity = { '@id': `${url}#service` };
@@ -234,7 +239,7 @@ ${page.kind === 'article' ? `<meta property="article:published_time" content="${
 <meta name="twitter:description" content="${h(page.description)}">
 <meta name="twitter:image" content="${ogImage}">
 <meta name="twitter:image:alt" content="${h(page.ogTitle ?? page.name)} – MV.tech">
-<link rel="preload" href="/fonts/inter-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/inter-latin-site.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/css/site.css">
 <script src="/js/icons.js" defer></script>
 <script src="/js/site.js" defer></script>

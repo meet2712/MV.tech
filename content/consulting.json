@@ -1389,6 +1389,41 @@
     "h1": "Remote consulting from India that works in your timezone.",
     "eyebrow": "How we work",
     "ogTitle": "How we work: timezones, team and costs",
-    "ogKicker": "Overlap windows by region · Engagement models · Cost model"
+    "ogKicker": "Overlap windows by region · Engagement models · Cost model",
+    "comparison": {
+      "heading": "Choose the delivery model that fits your team.",
+      "intro": "Our remote model keeps the engagement focused on engineering time and agreed deliverables. Compare proposals on scope, seniority, validation, documentation and support. Pricing depends on the work and responsibilities you need us to own.",
+      "columns": [
+        "Scoped project",
+        "Embedded specialist",
+        "Permanent recruitment"
+      ],
+      "rows": [
+        [
+          "Best fit",
+          "A defined system or improvement",
+          "Capacity in an existing delivery team",
+          "A permanent role in your organisation"
+        ],
+        [
+          "Who directs the work",
+          "MV.tech owns the agreed delivery scope",
+          "Your leads direct the consultant workstream",
+          "You select and employ the candidate"
+        ],
+        [
+          "What we agree first",
+          "Milestone, acceptance criteria and handover",
+          "Skills, capacity, duration and overlap",
+          "Hiring brief, screening scope and fees"
+        ],
+        [
+          "What to bring",
+          "Current systems and desired outcome",
+          "Backlog, required skills and team setup",
+          "Responsibilities, compensation and timeline"
+        ]
+      ]
+    }
   }
 ]
