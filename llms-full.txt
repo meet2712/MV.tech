@@ -4,12 +4,12 @@
 
 Official website: https://mvtech.solutions/
 Brand name: MV.tech (also searched as MV Tech, MVTech, M V Tech, MV Tech Solutions, MV Tech Data Solutions, MV Tech Ahmedabad)
-Contact: contact@mvtech.solutions · Book a call: https://calendly.com/contact-mvtech/new-meeting
+Contact: contact@mvtech.solutions · Book a call: https://mvtech.solutions/contact/#book-call
 Founder: Meet Vaghasia, Founder & Lead Engineer (https://www.linkedin.com/in/meet2712/)
 LinkedIn: https://www.linkedin.com/company/mv-tech-data/
 Location: Ahmedabad, Gujarat, India · Serves clients worldwide with agreed timezone overlap
 Teams our engineers have worked with: Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, Turing. Names reflect organisations MV.tech's team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.
-Last generated: 2026-09-20. Short summary and answer guidance: https://mvtech.solutions/llms.txt
+Last generated: 2026-10-07. Short summary and answer guidance: https://mvtech.solutions/llms.txt
 
 This file is generated from the public pages listed below, so it always matches what visitors see. Each section is one page: title, canonical URL, meta description, then the page text.
 
@@ -19,7 +19,7 @@ This file is generated from the public pages listed below, so it always matches 
 
 URL: https://mvtech.solutions/
 Description: MV.tech builds data pipelines, BI dashboards, business software and AI systems. Senior engineers in Ahmedabad, India, delivering remotely for clients worldwide.
-Last modified: 2026-09-20
+Last modified: 2026-10-07
 
 Offshore data, software & AI consultancy
 
@@ -201,7 +201,7 @@ Bring one report, workflow, application or hiring need. We will use the first 30
 
 URL: https://mvtech.solutions/about/
 Description: Meet MV.tech, the Ahmedabad-based data, software and AI consultancy founded by Meet Vaghasia in 2022. Company facts, founder credentials and delivery approach.
-Last modified: 2026-09-20
+Last modified: 2026-10-07
 
 About MV.tech
 
@@ -404,7 +404,7 @@ Download the brand kit
 
 URL: https://mvtech.solutions/compliance/
 Description: How MV.tech handles client data, credentials and access: secure remote delivery, accessibility, website analytics and responsible use of automation and AI.
-Last modified: 2026-09-11
+Last modified: 2026-10-07
 
 Trust, security & compliance
 
@@ -468,7 +468,7 @@ Procurement, security and legal questions are easiest to answer at the scoping s
 
 URL: https://mvtech.solutions/contact/
 Description: Talk to MV.tech's engineers about a data, software, automation or AI project, an embedded consultant or a permanent hire. Book a 30-minute call or email us.
-Last modified: 2026-09-20
+Last modified: 2026-10-07
 
 Contact
 
@@ -490,6 +490,8 @@ A 30-minute video call. Choose any slot shown in your local time; the calendar a
 The booking calendar loads here.
 
 Or open it in a new tab: calendly.com/contact-mvtech/new-meeting
+
+Calendar unavailable? Open the booking page in a new tab.
 
 Option 2
 
@@ -531,7 +533,7 @@ Three things to bring
 
 URL: https://mvtech.solutions/expertise/
 Description: The MV.tech stack: Python, SQL, BigQuery, Snowflake, Redshift, Power BI, AWS, GCP, Azure, RAG and MCP, plus Toptal vetting and Google Cloud credentials.
-Last modified: 2026-09-11
+Last modified: 2026-10-07
 
 Expertise & credibility
 
@@ -672,11 +674,11 @@ You will speak with the engineers who would do the work. Bring your stack, your 
 
 ---
 
-# FAQ: Working with MV.tech, a Remote-First Consultancy Worldwide
+# MV.tech FAQ: Services, Pricing, Timezones & How to Start
 
 URL: https://mvtech.solutions/faq/
-Description: Answers about MV.tech: where we are based, timezone overlap with US, UK, EU and Australian clients, costs, services, credentials, security and how projects start.
-Last modified: 2026-09-20
+Description: Get to know MV.tech in Ahmedabad, India: data and AI services, project pricing, remote collaboration hours, security, hiring options and the first scoping call.
+Last modified: 2026-10-07
 
 FAQ
 
@@ -827,7 +829,7 @@ AI engineering
 
 A business-level explanation of the Model Context Protocol: what an MCP server exposes, when building one makes sense, the security decisions involved and a first project.
 
-10 Sept 2026 · 5 min read
+10 Sept 2026 · 6 min read
 Your next step
 
 ### Have a question these guides do not answer?
@@ -840,7 +842,7 @@ Tell us about your situation. A 30-minute call with the engineering team is usua
 
 URL: https://mvtech.solutions/insights/data-consultancy-company-for-offshore-team/
 Description: How to evaluate a data consultancy company for an offshore team, and where MV.tech fits for data engineering, analytics, BI and AI delivery from India.
-Last modified: 2026-09-18
+Last modified: 2026-10-07
 
 Buyer question
 
@@ -848,7 +850,7 @@ Buyer question
 
 How to evaluate a data consultancy company for an offshore team, and where MV.tech fits for data engineering, analytics, BI and AI delivery from India.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 18 September 2026 · 3 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published 18 September 2026 · Updated 7 October 2026 · 3 min read
 
 In brief
 
@@ -920,6 +922,13 @@ Buyer's guide
 A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
 
 5 min read
+Engagement models
+
+### Staff Augmentation vs Project Consulting vs Recruitment: Which Engagement Model Fits?
+
+How to choose between embedding a consultant, commissioning a scoped project and hiring permanently for data, software and AI work: control, cost, speed and risk.
+
+5 min read
 Remote delivery playbook
 
 ### How to Work with an India-Based Engineering Team Across Timezones
@@ -927,13 +936,6 @@ Remote delivery playbook
 Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
 
 6 min read
-AI engineering
-
-### RAG vs Fine-Tuning: Choosing the Right Approach for an Internal Knowledge Assistant
-
-A plain-language comparison of retrieval-augmented generation and fine-tuning for company knowledge assistants: when each fits, permissions, evaluation and cost.
-
-5 min read
 About the author
 
 ### Meet Vaghasia
@@ -953,7 +955,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/
 Description: A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
-Last modified: 2026-09-18
+Last modified: 2026-10-07
 
 Buyer's guide
 
@@ -961,7 +963,7 @@ Buyer's guide
 
 A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 18 September 2026 · 5 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 7 October 2026 · 5 min read
 
 In brief
 
@@ -1058,6 +1060,13 @@ Buyer question
 How to evaluate a data consultancy company for an offshore team, and where MV.tech fits for data engineering, analytics, BI and AI delivery from India.
 
 3 min read
+Engagement models
+
+### Staff Augmentation vs Project Consulting vs Recruitment: Which Engagement Model Fits?
+
+How to choose between embedding a consultant, commissioning a scoped project and hiring permanently for data, software and AI work: control, cost, speed and risk.
+
+5 min read
 Remote delivery playbook
 
 ### How to Work with an India-Based Engineering Team Across Timezones
@@ -1065,13 +1074,6 @@ Remote delivery playbook
 Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
 
 6 min read
-AI engineering
-
-### RAG vs Fine-Tuning: Choosing the Right Approach for an Internal Knowledge Assistant
-
-A plain-language comparison of retrieval-augmented generation and fine-tuning for company knowledge assistants: when each fits, permissions, evaluation and cost.
-
-5 min read
 About the author
 
 ### Meet Vaghasia
@@ -1091,7 +1093,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/
 Description: A plain-language comparison of retrieval-augmented generation and fine-tuning for company knowledge assistants: when each fits, permissions, evaluation and cost.
-Last modified: 2026-09-18
+Last modified: 2026-10-07
 
 AI engineering
 
@@ -1099,12 +1101,12 @@ AI engineering
 
 A plain-language comparison of retrieval-augmented generation and fine-tuning for company knowledge assistants: when each fits, permissions, evaluation and cost.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 18 September 2026 · 5 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 7 October 2026 · 5 min read
 
 In brief
 
-- Retrieval-augmented generation (RAG) gives a language model the relevant passages from your own documents at question time. Fine-tuning changes the model's weights using examples, which teaches behaviour and style far better than it teaches facts.
-- For assistants that answer questions about company knowledge, RAG is almost always the right starting point: it stays current, can cite sources and can respect user permissions. Fine-tuning suits narrow, repetitive tasks with a stable format.
+- Retrieval-augmented generation (RAG) supplies passages from your documents at question time. Fine-tuning changes the model's weights using examples to improve a measured task or behaviour.
+- Retrieval is a useful starting point when answers need current company knowledge, source references and permission checks. Those features need to be built and tested. Fine-tuning can help with a stable format or repetitive task.
 - Whichever you choose, the deciding work is retrieval quality, access control and evaluation against real questions, including the ones the documents cannot answer.
 Teams that want an assistant over their own documents, tickets and data usually ask the same first question: should we fine-tune a model on our content, or use retrieval? The short answer is that these techniques solve different problems, and for internal knowledge the answer is usually retrieval first, with fine-tuning added later only if a specific, measurable need appears. Here is the reasoning, without the jargon.
 
@@ -1116,18 +1118,18 @@ RAG splits your documents into passages, indexes them (typically with embeddings
 
 #### Fine-tuning
 
-Fine-tuning continues training a model on examples of inputs and desired outputs, adjusting its weights. It is effective at teaching a model how to behave: a tone of voice, a strict output format, a domain's vocabulary, or a narrow classification task. It is a poor way to store facts that change, because updating a fact means retraining, and a fine-tuned model still cannot tell you which document its answer came from.
+Fine-tuning continues training a model on examples of inputs and desired outputs, adjusting its weights. It can teach a tone of voice, an output format, domain vocabulary or a narrow classification task. Facts learned in weights are harder to keep current, and those weights do not provide a reliable source reference. A fine-tuned model can still use retrieval when it needs current, attributable information.
 
 ### A side-by-side comparison
 
 RAG and fine-tuning compared for company knowledge assistants
 | Consideration | Retrieval-augmented generation | Fine-tuning |
-| Keeping up with changing content | Re-index the changed documents; answers update immediately | Retrain and redeploy; facts baked into weights go stale |
-| Citing sources | Natural: the answer can link to the passages it used | Not available; the model cannot show where an answer came from |
-| Respecting user permissions | Filter retrieval by what the current user may see | Everything in the training data is available to every user |
-| Handling questions outside the material | Can detect weak retrieval and say "I don't know" | Tends to answer confidently anyway |
+| Keeping up with changing content | Refresh the index, then check that updated passages are retrieved; timing depends on the ingestion schedule | Updating facts learned in weights requires another training and deployment cycle; a fine-tuned model can also use retrieval |
+| Citing sources | Retrieved passages can support citations, which still need to be checked against the answer | Fine-tuning alone does not provide source provenance; retrieval or another evidence layer can add it |
+| Respecting user permissions | Enforce source permissions before retrieval and test isolation between users | Model weights do not enforce document permissions; keep restricted knowledge in an access-controlled retrieval layer |
+| Handling questions outside the material | Test retrieval confidence and a refusal path; retrieval alone does not prevent unsupported answers | Train and evaluate refusal behaviour; fine-tuning alone does not establish that an answer is supported |
 | Teaching format, tone or a narrow task | Possible through prompting, with limits | Strong: this is what fine-tuning is for |
-| Upfront cost | Engineering time for ingestion, retrieval and evaluation | Curating thousands of quality examples plus training runs |
+| Upfront cost | Engineering time for ingestion, retrieval and evaluation | Preparing representative training and evaluation examples, plus training runs; the amount depends on the task and model |
 | Ongoing cost | Longer prompts per query; index maintenance | Hosting or serving a custom model; periodic retraining |
 
 ### When RAG is the right choice
@@ -1136,7 +1138,7 @@ RAG and fine-tuning compared for company knowledge assistants
 - Users need to see where an answer came from before they trust it.
 - Different users are allowed to see different things, so permissions must be enforced at retrieval time.
 - The content is too large or too varied to summarise into training examples.
-This describes almost every internal knowledge assistant we are asked to build: HR and policy questions, engineering runbooks, customer-support knowledge, contract and procedure lookups.
+These requirements arise in HR and policy questions, engineering runbooks, customer-support knowledge, and contract and procedure lookups.
 
 ### When fine-tuning earns its place
 
@@ -1149,7 +1151,7 @@ Fine-tuning and RAG are not mutually exclusive. A common mature design uses retr
 
 #### Retrieval quality
 
-Most "the AI is wrong" complaints are retrieval failures: the right passage was never shown to the model. Chunking that respects document structure, combining semantic and keyword search, adding metadata filters and re-ranking results all matter more than the choice of model. Measure retrieval separately from answer quality so you can tell which one is failing.
+Check whether the right passage reached the model before changing the model itself. Document structure, semantic and keyword search, metadata filters and re-ranking can all affect retrieval. Measure retrieval separately from answer quality so you can tell whether the source was missing, the wrong passage was selected or the answer misused the evidence.
 
 #### Access control
 
@@ -1165,12 +1167,14 @@ A good assistant says "I could not find this in the approved sources" and points
 
 ### A sensible first project
 
-Choose one defined collection of documents and a small group of users. Collect twenty to fifty real questions. Build retrieval and answering over that collection, with source references and a decline path, and review the results with the users. Only then decide on wider access, automated actions or any fine-tuning. This bounded first release typically takes weeks rather than months, and it produces the evidence you need to justify the next step.
+Choose one defined collection of documents and a small group of users. Collect twenty to fifty real questions. Build retrieval and answering over that collection, with source references and a decline path, and review the results with the users. Only then decide on wider access, automated actions or any fine-tuning. Agree the timeline after checking source access, permissions and the evaluation requirements.
+
+For the underlying approach, see the original RAG research paper and AWS's guide to retrieval and source citations. Implementation choices still need testing against your own sources and users.
 
 ### Frequently asked questions
 
 **Does fine-tuning make a model "know" our documents?**
-Not reliably. Fine-tuning shapes how a model responds far more than what it can recall, and it cannot cite where an answer came from. If the goal is accurate answers about specific documents, retrieval is the mechanism that puts the right text in front of the model.
+A model may learn information during fine-tuning, but reliable recall, updates and source citations are separate requirements. For answers about current documents, retrieval supplies the passages that can support the answer. Fine-tuning can be combined with that retrieval when a measured behaviour or format requirement justifies it.
 
 **Will our data be used to train someone else's model?**
 It depends on the provider and the contract terms you select. Business and API tiers of the major model providers generally state that customer data is not used for training, but this should be confirmed in writing and reflected in your architecture, including where indexes and logs are stored.
@@ -1178,10 +1182,21 @@ It depends on the provider and the contract terms you select. Business and API t
 **How much does an internal knowledge assistant cost to run?**
 Ongoing costs come from model usage per query, the retrieval infrastructure, and keeping the index current as documents change. For most internal tools these are modest compared with the engineering time to build and evaluate the system properly. Ask for both numbers when comparing proposals.
 
+### Scope a knowledge assistant with MV.tech
+
+Our AI consulting service covers source preparation, retrieval, access rules and evaluation. If the assistant also needs live systems, review MCP servers and AI connectors. Bring one source collection and a few real questions to a 30-minute scoping call.
+
 Related guides
 
 ### Keep planning the engagement.
 
+AI engineering
+
+### What Is an MCP Server, and When Should a Business Build One?
+
+A business-level explanation of the Model Context Protocol: what an MCP server exposes, when building one makes sense, the security decisions involved and a first project.
+
+6 min read
 Buyer question
 
 ### Looking for a Data Consultancy Company for an Offshore Team?
@@ -1196,13 +1211,6 @@ Buyer's guide
 A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
 
 5 min read
-Remote delivery playbook
-
-### How to Work with an India-Based Engineering Team Across Timezones
-
-Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
-
-6 min read
 About the author
 
 ### Meet Vaghasia
@@ -1222,7 +1230,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/insights/staff-augmentation-vs-project-consulting-vs-recruitment/
 Description: How to choose between embedding a consultant, commissioning a scoped project and hiring permanently for data, software and AI work: control, cost, speed and risk.
-Last modified: 2026-09-18
+Last modified: 2026-10-07
 
 Engagement models
 
@@ -1230,7 +1238,7 @@ Engagement models
 
 How to choose between embedding a consultant, commissioning a scoped project and hiring permanently for data, software and AI work: control, cost, speed and risk.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 18 September 2026 · 5 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 7 October 2026 · 5 min read
 
 In brief
 
@@ -1346,7 +1354,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/insights/timezone-overlap-with-an-india-based-engineering-team/
 Description: Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
-Last modified: 2026-09-18
+Last modified: 2026-10-07
 
 Remote delivery playbook
 
@@ -1354,7 +1362,7 @@ Remote delivery playbook
 
 Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 18 September 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 7 October 2026 · 6 min read
 
 In brief
 
@@ -1458,11 +1466,11 @@ Buyer's guide
 A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
 
 5 min read
-AI engineering
+Engagement models
 
-### RAG vs Fine-Tuning: Choosing the Right Approach for an Internal Knowledge Assistant
+### Staff Augmentation vs Project Consulting vs Recruitment: Which Engagement Model Fits?
 
-A plain-language comparison of retrieval-augmented generation and fine-tuning for company knowledge assistants: when each fits, permissions, evaluation and cost.
+How to choose between embedding a consultant, commissioning a scoped project and hiring permanently for data, software and AI work: control, cost, speed and risk.
 
 5 min read
 About the author
@@ -1484,7 +1492,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/
 Description: A business-level explanation of the Model Context Protocol: what an MCP server exposes, when building one makes sense, the security decisions involved and a first project.
-Last modified: 2026-09-18
+Last modified: 2026-10-07
 
 AI engineering
 
@@ -1492,7 +1500,7 @@ AI engineering
 
 A business-level explanation of the Model Context Protocol: what an MCP server exposes, when building one makes sense, the security decisions involved and a first project.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 18 September 2026 · 5 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 7 October 2026 · 6 min read
 
 In brief
 
@@ -1543,7 +1551,7 @@ Anything that spends money, changes customer-facing records or sends communicati
 
 #### Logging and audit
 
-Record every tool call with the caller, the arguments and the outcome. This is how you debug odd behaviour, satisfy security reviews and answer the question "why did the assistant do that?"
+Record the caller, tool name, time, outcome and a request identifier. Keep arguments and results to an approved set of fields, mask secrets and personal data, and agree retention and access to the logs. An audit trail should help explain a call without creating another copy of confidential data. Review the protocol's security guidance alongside your own access requirements.
 
 #### Untrusted content
 
@@ -1569,10 +1577,21 @@ Not necessarily. Servers can run locally alongside a desktop client using standa
 **What does MCP server development cost?**
 The main cost drivers are the number and complexity of tools, the authentication model, the systems being integrated, testing and documentation. A focused first server with a handful of well-designed tools is a small project; the cost grows with the sensitivity of the actions it enables and the rigour those actions demand.
 
+### Plan an MCP integration with MV.tech
+
+Our MCP server development service covers tool contracts, authentication, validation, evaluation and deployment. For the assistant and retrieval layer, see AI consulting. Start a scoping call with the system you want to connect, the clients that will use it and the first tasks they need to complete.
+
 Related guides
 
 ### Keep planning the engagement.
 
+AI engineering
+
+### RAG vs Fine-Tuning: Choosing the Right Approach for an Internal Knowledge Assistant
+
+A plain-language comparison of retrieval-augmented generation and fine-tuning for company knowledge assistants: when each fits, permissions, evaluation and cost.
+
+5 min read
 Buyer question
 
 ### Looking for a Data Consultancy Company for an Offshore Team?
@@ -1587,13 +1606,6 @@ Buyer's guide
 A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
 
 5 min read
-Remote delivery playbook
-
-### How to Work with an India-Based Engineering Team Across Timezones
-
-Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
-
-6 min read
 About the author
 
 ### Meet Vaghasia
@@ -1613,7 +1625,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/process/
 Description: How MV.tech delivers remote engineering projects: a 30-minute scoping call, a written first milestone, reviewable increments in your timezone and a documented handover.
-Last modified: 2026-09-11
+Last modified: 2026-10-07
 
 How we work
 
@@ -1674,7 +1686,7 @@ Bring the goal, the systems involved and your preferred working hours. You leave
 
 URL: https://mvtech.solutions/remote-consulting/
 Description: How MV.tech's senior consultants in India work with clients worldwide: collaboration windows by region, engagement models and where the cost difference comes from.
-Last modified: 2026-09-20
+Last modified: 2026-10-07
 
 How we work
 
@@ -1802,17 +1814,17 @@ Related services
 
 ### Other ways we can help.
 
-#### Data Engineering Consulting
-
-ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
-
 #### Offshore Data Engineering Team
 
 Dedicated offshore data engineering and analytics capacity from India for ETL, cloud warehouses, BI, migration and data quality work.
 
-#### AI Automation, RAG & MCP Development
+#### IT Staff Augmentation
 
-Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
+Senior data, analytics, software, cloud and AI consultants embedded in your team, in your tools and hours, for an agreed capacity.
+
+#### Technology Recruitment
+
+Permanent hiring for AI, data, software and cloud roles, with an engineer shaping the brief and assessing fit.
 
 Related guides
 
@@ -1851,7 +1863,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/
 Description: MV.tech's offshore and remote services: data engineering teams, ETL and cloud warehouses, BI, custom software, workflow automation, AI, staffing and hiring.
-Last modified: 2026-09-20
+Last modified: 2026-10-07
 
 Services
 
@@ -2026,7 +2038,7 @@ Share what is slowing your team down, the systems involved and the result you ne
 
 URL: https://mvtech.solutions/services/ai-consulting/
 Description: Build AI automation, RAG systems, MCP servers and custom AI solutions with MV.tech's senior remote consultants. Connect business data, tools and workflows.
-Last modified: 2026-09-18
+Last modified: 2026-10-07
 
 Service · Remote-first senior specialists
 
@@ -2159,17 +2171,17 @@ Related services
 
 ### Other ways we can help.
 
-#### Data Engineering Consulting
-
-ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
-
-#### Offshore Data Engineering Team
-
-Dedicated offshore data engineering and analytics capacity from India for ETL, cloud warehouses, BI, migration and data quality work.
-
 #### MCP Servers & AI Connectors
 
 Custom MCP servers and AI connectors in Python that give agents scoped, validated and logged access to your databases, APIs and internal tools.
+
+#### Workflow Automation Consulting
+
+Scheduled workflows, webhooks, Apps Script and API integrations that replace manual hand-offs and make failures visible.
+
+#### Data Engineering Consulting
+
+ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
 
 Related guides
 
@@ -2208,7 +2220,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/blockchain-data-analytics/
 Description: On-chain data engineering: decoded transactions and events, cross-chain ETL into BigQuery, token valuation, categorisation and reward reconciliation.
-Last modified: 2026-09-12
+Last modified: 2026-10-07
 
 Service · Remote-first senior specialists
 
@@ -2353,13 +2365,13 @@ Related services
 
 ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
 
-#### Offshore Data Engineering Team
+#### Business Intelligence & Dashboards
 
-Dedicated offshore data engineering and analytics capacity from India for ETL, cloud warehouses, BI, migration and data quality work.
+Semantic and dimensional models, Power BI, Tableau and Looker Studio dashboards, governed KPI definitions and refreshes that finish on time.
 
-#### AI Automation, RAG & MCP Development
+#### Workflow Automation Consulting
 
-Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
+Scheduled workflows, webhooks, Apps Script and API integrations that replace manual hand-offs and make failures visible.
 
 Your next step
 
@@ -2373,7 +2385,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/business-intelligence/
 Description: Power BI, Tableau and Looker Studio consulting: semantic models, DAX, governed KPI definitions and dashboards whose numbers agree with each other.
-Last modified: 2026-09-12
+Last modified: 2026-10-07
 
 Service · Remote-first senior specialists
 
@@ -2510,13 +2522,13 @@ Related services
 
 ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
 
+#### Data Warehouse Migration
+
+Legacy databases and manual reporting moved into Snowflake, BigQuery or Redshift, with mapped sources, staged reconciliation and a planned cutover.
+
 #### Offshore Data Engineering Team
 
 Dedicated offshore data engineering and analytics capacity from India for ETL, cloud warehouses, BI, migration and data quality work.
-
-#### AI Automation, RAG & MCP Development
-
-Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
 
 Your next step
 
@@ -2530,7 +2542,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/custom-software/
 Description: Hire senior remote developers for business apps, client portals, dashboards and API integrations. MV.tech works alongside your team across timezones.
-Last modified: 2026-09-11
+Last modified: 2026-10-07
 
 Service · Remote-first senior specialists
 
@@ -2643,17 +2655,17 @@ Related services
 
 ### Other ways we can help.
 
-#### Data Engineering Consulting
+#### Workflow Automation Consulting
 
-ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
+Scheduled workflows, webhooks, Apps Script and API integrations that replace manual hand-offs and make failures visible.
 
-#### Offshore Data Engineering Team
+#### MCP Servers & AI Connectors
 
-Dedicated offshore data engineering and analytics capacity from India for ETL, cloud warehouses, BI, migration and data quality work.
+Custom MCP servers and AI connectors in Python that give agents scoped, validated and logged access to your databases, APIs and internal tools.
 
-#### AI Automation, RAG & MCP Development
+#### IT Staff Augmentation
 
-Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
+Senior data, analytics, software, cloud and AI consultants embedded in your team, in your tools and hours, for an agreed capacity.
 
 Your next step
 
@@ -2667,7 +2679,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/data-engineering/
 Description: Remote data engineers for Python and SQL pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, data quality and reporting you can trust.
-Last modified: 2026-09-18
+Last modified: 2026-10-07
 
 Service · Remote-first senior specialists
 
@@ -2810,13 +2822,13 @@ Related services
 
 Dedicated offshore data engineering and analytics capacity from India for ETL, cloud warehouses, BI, migration and data quality work.
 
-#### AI Automation, RAG & MCP Development
+#### Data Warehouse Migration
 
-Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
+Legacy databases and manual reporting moved into Snowflake, BigQuery or Redshift, with mapped sources, staged reconciliation and a planned cutover.
 
-#### MCP Servers & AI Connectors
+#### Business Intelligence & Dashboards
 
-Custom MCP servers and AI connectors in Python that give agents scoped, validated and logged access to your databases, APIs and internal tools.
+Semantic and dimensional models, Power BI, Tableau and Looker Studio dashboards, governed KPI definitions and refreshes that finish on time.
 
 Related guides
 
@@ -2855,7 +2867,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/data-warehouse-migration/
 Description: Move legacy databases and manual reporting into Snowflake, BigQuery or Redshift with mapped sources, stage-by-stage reconciliation and an evidenced cutover.
-Last modified: 2026-09-12
+Last modified: 2026-10-07
 
 Service · Remote-first senior specialists
 
@@ -2992,13 +3004,13 @@ Related services
 
 ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
 
+#### Business Intelligence & Dashboards
+
+Semantic and dimensional models, Power BI, Tableau and Looker Studio dashboards, governed KPI definitions and refreshes that finish on time.
+
 #### Offshore Data Engineering Team
 
 Dedicated offshore data engineering and analytics capacity from India for ETL, cloud warehouses, BI, migration and data quality work.
-
-#### AI Automation, RAG & MCP Development
-
-Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
 
 Your next step
 
@@ -3012,7 +3024,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/it-staff-augmentation/
 Description: Add remote AI, data, software and cloud consultants to your team with MV.tech. Flexible timezone overlap, direct collaboration and clearly scoped capacity.
-Last modified: 2026-09-18
+Last modified: 2026-10-07
 
 Service · Remote-first senior specialists
 
@@ -3121,17 +3133,17 @@ Related services
 
 ### Other ways we can help.
 
-#### Data Engineering Consulting
-
-ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
-
 #### Offshore Data Engineering Team
 
 Dedicated offshore data engineering and analytics capacity from India for ETL, cloud warehouses, BI, migration and data quality work.
 
-#### AI Automation, RAG & MCP Development
+#### Technology Recruitment
 
-Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
+Permanent hiring for AI, data, software and cloud roles, with an engineer shaping the brief and assessing fit.
+
+#### Data Engineering Consulting
+
+ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
 
 Related guides
 
@@ -3170,7 +3182,7 @@ Share the role, technology stack, expected duration and working hours. We can di
 
 URL: https://mvtech.solutions/services/mcp-and-ai-connectors/
 Description: Custom Model Context Protocol servers and enterprise AI connectors in Python, giving agents scoped, validated and logged access to your systems.
-Last modified: 2026-09-18
+Last modified: 2026-10-07
 
 Service · Remote-first senior specialists
 
@@ -3225,7 +3237,7 @@ Where an agent generates SQL, it generates it against a governed reporting layer
 
 #### OAuth, secrets and token-aware access control
 
-Authorisation designed in rather than bolted on: OAuth flows, short-lived tokens, secrets held in a managed store such as Secret Manager, per-user identity carried through to the data layer, and a log of every tool call with its arguments and outcome — the kind of evidence a SOC 2 programme asks for.
+Authorisation designed into the integration: OAuth flows, short-lived tokens, secrets held in a managed store such as Secret Manager, and per-user identity carried through to the data layer. Log the caller, tool, time and outcome; include only approved argument fields, mask secrets and personal data, and agree log access and retention for the audit trail.
 
 06
 
@@ -3303,17 +3315,17 @@ Related services
 
 ### Other ways we can help.
 
-#### Data Engineering Consulting
-
-ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
-
-#### Offshore Data Engineering Team
-
-Dedicated offshore data engineering and analytics capacity from India for ETL, cloud warehouses, BI, migration and data quality work.
-
 #### AI Automation, RAG & MCP Development
 
 Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
+
+#### Workflow Automation Consulting
+
+Scheduled workflows, webhooks, Apps Script and API integrations that replace manual hand-offs and make failures visible.
+
+#### Custom Software Development
+
+Business web applications, client portals, internal tools and Streamlit data apps with APIs and data backends designed together.
 
 Related guides
 
@@ -3352,7 +3364,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/offshore-data-engineering-team/
 Description: Hire an offshore data engineering team from India for ETL, cloud warehouses, BI and analytics, with senior MV.tech consultants working in your timezone.
-Last modified: 2026-09-18
+Last modified: 2026-10-07
 
 Service · Offshore data consultancy
 
@@ -3482,13 +3494,13 @@ Related services
 
 ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
 
-#### AI Automation, RAG & MCP Development
+#### IT Staff Augmentation
 
-Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
+Senior data, analytics, software, cloud and AI consultants embedded in your team, in your tools and hours, for an agreed capacity.
 
-#### MCP Servers & AI Connectors
+#### Technology Recruitment
 
-Custom MCP servers and AI connectors in Python that give agents scoped, validated and logged access to your databases, APIs and internal tools.
+Permanent hiring for AI, data, software and cloud roles, with an engineer shaping the brief and assessing fit.
 
 Related guides
 
@@ -3527,7 +3539,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/technology-recruitment/
 Description: Hire permanent AI, data, software and cloud professionals with MV.tech. Technology recruitment shaped around your role, technical needs and hiring process.
-Last modified: 2026-09-18
+Last modified: 2026-10-07
 
 Service · Remote-first senior specialists
 
@@ -3626,17 +3638,17 @@ Related services
 
 ### Other ways we can help.
 
-#### Data Engineering Consulting
+#### IT Staff Augmentation
 
-ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
+Senior data, analytics, software, cloud and AI consultants embedded in your team, in your tools and hours, for an agreed capacity.
 
 #### Offshore Data Engineering Team
 
 Dedicated offshore data engineering and analytics capacity from India for ETL, cloud warehouses, BI, migration and data quality work.
 
-#### AI Automation, RAG & MCP Development
+#### Data Engineering Consulting
 
-Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
+ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
 
 Related guides
 
@@ -3675,7 +3687,7 @@ Share the responsibilities, must-have skills, location or remote policy, compens
 
 URL: https://mvtech.solutions/services/workflow-automation/
 Description: Automate repetitive business workflows, API integrations and reporting with MV.tech's remote consultants. Reliable jobs, checks and clear ownership.
-Last modified: 2026-09-11
+Last modified: 2026-10-07
 
 Service · Remote-first senior specialists
 
@@ -3795,17 +3807,17 @@ Related services
 
 ### Other ways we can help.
 
-#### Data Engineering Consulting
+#### MCP Servers & AI Connectors
 
-ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
-
-#### Offshore Data Engineering Team
-
-Dedicated offshore data engineering and analytics capacity from India for ETL, cloud warehouses, BI, migration and data quality work.
+Custom MCP servers and AI connectors in Python that give agents scoped, validated and logged access to your databases, APIs and internal tools.
 
 #### AI Automation, RAG & MCP Development
 
 Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.
+
+#### Custom Software Development
+
+Business web applications, client portals, internal tools and Streamlit data apps with APIs and data backends designed together.
 
 Your next step
 
@@ -3819,7 +3831,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/solutions/
 Description: Systems MV.tech builds most often: governed data layers, warehouse migrations, reconciliation layers, portals and internal apps, and AI knowledge assistants.
-Last modified: 2026-09-12
+Last modified: 2026-10-07
 
 Solution patterns
 

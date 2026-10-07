@@ -15,7 +15,12 @@
     "AI tools",
     "agent tooling"
   ],
-  "pageTitle": "What Is an MCP Server, and When Should a Business Build One? | MV.tech"
+  "pageTitle": "What Is an MCP Server, and When Should a Business Build One? | MV.tech",
+  "relatedArticleRoutes": [
+    "/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/",
+    "/insights/data-consultancy-company-for-offshore-team/",
+    "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/"
+  ]
 }
 -->
 <div class="in-brief">
@@ -64,7 +69,7 @@
 <h3>Human approval for consequential actions</h3>
 <p>Anything that spends money, changes customer-facing records or sends communications should require an explicit confirmation step, either in the client's interface or in the workflow the tool triggers. Design the approval path into the tool, not around it.</p>
 <h3>Logging and audit</h3>
-<p>Record every tool call with the caller, the arguments and the outcome. This is how you debug odd behaviour, satisfy security reviews and answer the question "why did the assistant do that?"</p>
+<p>Record the caller, tool name, time, outcome and a request identifier. Keep arguments and results to an approved set of fields, mask secrets and personal data, and agree retention and access to the logs. An audit trail should help explain a call without creating another copy of confidential data. Review the protocol's <a href="https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices" target="_blank" rel="noopener">security guidance</a> alongside your own access requirements.</p>
 <h3>Untrusted content</h3>
 <p>Data returned by a tool may contain text that tries to instruct the model (a classic prompt injection). Servers should treat returned content as data, clients should display it as such, and consequential actions should never be triggered by content alone.</p>
 
@@ -84,3 +89,6 @@
   <details><summary><span>Does an MCP server need to be hosted on the internet?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>Not necessarily. Servers can run locally alongside a desktop client using standard input and output, or remotely over HTTP for shared use. Remote servers need proper authentication and network controls; local servers still need careful tool design because they run with the user's own access.</p></div></details>
   <details><summary><span>What does MCP server development cost?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>The main cost drivers are the number and complexity of tools, the authentication model, the systems being integrated, testing and documentation. A focused first server with a handful of well-designed tools is a small project; the cost grows with the sensitivity of the actions it enables and the rigour those actions demand.</p></div></details>
 </div>
+
+<h2>Plan an MCP integration with MV.tech</h2>
+<p>Our <a href="/services/mcp-and-ai-connectors/">MCP server development service</a> covers tool contracts, authentication, validation, evaluation and deployment. For the assistant and retrieval layer, see <a href="/services/ai-consulting/">AI consulting</a>. Start a <a href="/contact/#book-call">scoping call</a> with the system you want to connect, the clients that will use it and the first tasks they need to complete.</p>

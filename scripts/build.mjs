@@ -72,7 +72,11 @@ for (const article of articles) {
 }
 articles.sort((a, b) => b.published.localeCompare(a.published) || a.title.localeCompare(b.title));
 for (const article of articles) {
-  article.relatedArticles = articles.filter((item) => item.route !== article.route).slice(0, 3);
+  article.relatedArticles = (article.relatedArticleRoutes ?? []).map((route) => {
+    const related = articles.find((item) => item.route === route && item.route !== article.route);
+    if (!related) throw new Error(`Invalid related article ${route} on ${article.route}`);
+    return related;
+  });
   article.body = article.bodyHtml;
   pages.push({ ...article, kind: 'article', body: articlePage(article, site), article });
 }
@@ -127,10 +131,19 @@ const footer = `<footer class="site-footer">
     <div class="footer-bottom"><p>&copy; ${latest.slice(0, 4)} ${h(site.name)}. All rights reserved.</p><p>${h(site.address.locality)}, ${h(site.address.region)}, ${h(site.address.countryName)} · GSTIN ${h(site.gstin)}</p><p><a href="/llms.txt">llms.txt</a> · <a href="/sitemap.xml">Sitemap</a></p></div>
   </div>
 </footer>
-<div class="sticky-cta" id="sticky-cta" hidden><a class="button-primary" href="${site.calendly}" target="_blank" rel="noopener">Book a call</a><a class="button-secondary" href="mailto:${site.email}">Email us</a></div>`;
+<div class="sticky-cta" id="sticky-cta" hidden><a class="button-primary" href="/contact/#book-call">Book a call</a><a class="button-secondary" href="mailto:${site.email}">Email us</a></div>`;
 
-const analytics = `<script async src="https://www.googletagmanager.com/gtag/js?id=${site.analyticsId}"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${site.analyticsId}');</script>`;
+// Keep local previews and automated checks out of the production property.
+const analytics = `<script>
+if (${JSON.stringify([new URL(origin).hostname, 'www.' + new URL(origin).hostname])}.includes(window.location.hostname)) {
+  window.dataLayer=window.dataLayer||[];
+  window.gtag=function(){window.dataLayer.push(arguments);};
+  gtag('js',new Date());gtag('config','${site.analyticsId}');
+  var analyticsScript=document.createElement('script');
+  analyticsScript.async=true;analyticsScript.src='https://www.googletagmanager.com/gtag/js?id=${site.analyticsId}';
+  document.head.appendChild(analyticsScript);
+}
+</script>`;
 
 // ---------------------------------------------------------------------------------------------
 // Structured data
@@ -283,7 +296,7 @@ const llmsHeader = `# MV.tech — full site context for AI assistants and crawle
 
 Official website: ${origin}/
 Brand name: ${site.name} (also searched as ${site.alternateNames.join(', ')})
-Contact: ${site.email} · Book a call: ${site.calendly}
+Contact: ${site.email} · Book a call: ${origin}/contact/#book-call
 Founder: ${site.founder.name}, ${site.founder.jobTitle} (${site.founder.sameAs[0]})
 LinkedIn: ${site.linkedin}
 Location: ${site.address.locality}, ${site.address.region}, ${site.address.countryName} · Serves clients worldwide with agreed timezone overlap

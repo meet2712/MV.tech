@@ -212,8 +212,7 @@
     "connect": [
       {
         "label": "Book a 30-minute call",
-        "href": "https://calendly.com/contact-mvtech/new-meeting",
-        "external": true
+        "href": "/contact/#book-call"
       },
       {
         "label": "contact@mvtech.solutions",

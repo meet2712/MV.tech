@@ -52,7 +52,9 @@
     const url = new URL(link.getAttribute('href'), window.location.origin);
     let method;
     if (url.protocol === 'mailto:') method = 'email';
+    if (url.protocol === 'tel:') method = 'phone';
     if (url.hostname === 'calendly.com') method = 'calendar';
+    if (url.origin === window.location.origin && url.pathname === '/contact/' && url.hash === '#book-call') method = 'calendar';
     if (method) track('contact_intent', { method });
   });
 
@@ -67,18 +69,20 @@
       script.src = 'https://assets.calendly.com/assets/external/widget.js';
       script.async = true;
       script.onload = () => {
+        if (typeof window.Calendly?.initInlineWidget !== 'function') { loaded = false; script.remove(); return; }
         calendly.querySelector('.calendly-fallback')?.remove();
         const widget = document.createElement('div');
         widget.className = 'calendly-inline-widget';
         // Calendly renders on white, so the brand colour here is Teal Ink (the only teal that
         // passes AA on white) and the text colour is Navy. Signal Teal would be unreadable.
         widget.dataset.url = calendly.dataset.url + '?hide_gdpr_banner=1&background_color=ffffff&text_color=071118&primary_color=007e7b';
-        widget.style.minWidth = '320px';
+        widget.style.minWidth = '0';
+        widget.style.width = '100%';
         widget.style.height = '660px';
         calendly.appendChild(widget);
         window.Calendly?.initInlineWidget({ url: widget.dataset.url, parentElement: widget });
       };
-      script.onerror = () => { loaded = false; };
+      script.onerror = () => { loaded = false; script.remove(); };
       document.head.appendChild(script);
     };
     calendly.querySelector('[data-load-calendly]')?.addEventListener('click', load);
@@ -87,7 +91,8 @@
       observer.observe(calendly);
     } else load();
     window.addEventListener('message', (event) => {
-      if (event.origin === 'https://calendly.com' && event.data?.event === 'calendly.event_scheduled') track('book_call', { method: 'calendar' });
+      const frame = calendly.querySelector('iframe');
+      if (frame && event.source === frame.contentWindow && event.origin === 'https://calendly.com' && event.data?.event === 'calendly.event_scheduled') track('book_call', { method: 'calendar' });
     });
   }
 

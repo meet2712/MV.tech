@@ -15,14 +15,19 @@
     "enterprise AI",
     "LLM"
   ],
-  "pageTitle": "RAG vs Fine-Tuning for Internal Knowledge Assistants | MV.tech"
+  "pageTitle": "RAG vs Fine-Tuning for Internal Knowledge Assistants | MV.tech",
+  "relatedArticleRoutes": [
+    "/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/",
+    "/insights/data-consultancy-company-for-offshore-team/",
+    "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/"
+  ]
 }
 -->
 <div class="in-brief">
   <p class="eyebrow">In brief</p>
   <ul>
-    <li>Retrieval-augmented generation (RAG) gives a language model the relevant passages from your own documents at question time. Fine-tuning changes the model's weights using examples, which teaches behaviour and style far better than it teaches facts.</li>
-    <li>For assistants that answer questions about company knowledge, RAG is almost always the right starting point: it stays current, can cite sources and can respect user permissions. Fine-tuning suits narrow, repetitive tasks with a stable format.</li>
+    <li>Retrieval-augmented generation (RAG) supplies passages from your documents at question time. Fine-tuning changes the model's weights using examples to improve a measured task or behaviour.</li>
+    <li>Retrieval is a useful starting point when answers need current company knowledge, source references and permission checks. Those features need to be built and tested. Fine-tuning can help with a stable format or repetitive task.</li>
     <li>Whichever you choose, the deciding work is retrieval quality, access control and evaluation against real questions, including the ones the documents cannot answer.</li>
   </ul>
 </div>
@@ -33,16 +38,16 @@
 <h3>Retrieval-augmented generation</h3>
 <p>RAG splits your documents into passages, indexes them (typically with embeddings and often a keyword index as well), and at question time retrieves the passages most relevant to the question. Those passages are placed in the model's context along with the question, and the model writes an answer grounded in them. The model itself is unchanged; what changes is what it is shown.</p>
 <h3>Fine-tuning</h3>
-<p>Fine-tuning continues training a model on examples of inputs and desired outputs, adjusting its weights. It is effective at teaching a model how to behave: a tone of voice, a strict output format, a domain's vocabulary, or a narrow classification task. It is a poor way to store facts that change, because updating a fact means retraining, and a fine-tuned model still cannot tell you which document its answer came from.</p>
+<p>Fine-tuning continues training a model on examples of inputs and desired outputs, adjusting its weights. It can teach a tone of voice, an output format, domain vocabulary or a narrow classification task. Facts learned in weights are harder to keep current, and those weights do not provide a reliable source reference. A fine-tuned model can still use retrieval when it needs current, attributable information.</p>
 
 <h2>A side-by-side comparison</h2>
 <div class="table-wrap" tabindex="0"><table class="data-table"><caption>RAG and fine-tuning compared for company knowledge assistants</caption><thead><tr><th scope="col">Consideration</th><th scope="col">Retrieval-augmented generation</th><th scope="col">Fine-tuning</th></tr></thead><tbody>
-<tr><th scope="row">Keeping up with changing content</th><td>Re-index the changed documents; answers update immediately</td><td>Retrain and redeploy; facts baked into weights go stale</td></tr>
-<tr><th scope="row">Citing sources</th><td>Natural: the answer can link to the passages it used</td><td>Not available; the model cannot show where an answer came from</td></tr>
-<tr><th scope="row">Respecting user permissions</th><td>Filter retrieval by what the current user may see</td><td>Everything in the training data is available to every user</td></tr>
-<tr><th scope="row">Handling questions outside the material</th><td>Can detect weak retrieval and say "I don't know"</td><td>Tends to answer confidently anyway</td></tr>
+<tr><th scope="row">Keeping up with changing content</th><td>Refresh the index, then check that updated passages are retrieved; timing depends on the ingestion schedule</td><td>Updating facts learned in weights requires another training and deployment cycle; a fine-tuned model can also use retrieval</td></tr>
+<tr><th scope="row">Citing sources</th><td>Retrieved passages can support citations, which still need to be checked against the answer</td><td>Fine-tuning alone does not provide source provenance; retrieval or another evidence layer can add it</td></tr>
+<tr><th scope="row">Respecting user permissions</th><td>Enforce source permissions before retrieval and test isolation between users</td><td>Model weights do not enforce document permissions; keep restricted knowledge in an access-controlled retrieval layer</td></tr>
+<tr><th scope="row">Handling questions outside the material</th><td>Test retrieval confidence and a refusal path; retrieval alone does not prevent unsupported answers</td><td>Train and evaluate refusal behaviour; fine-tuning alone does not establish that an answer is supported</td></tr>
 <tr><th scope="row">Teaching format, tone or a narrow task</th><td>Possible through prompting, with limits</td><td>Strong: this is what fine-tuning is for</td></tr>
-<tr><th scope="row">Upfront cost</th><td>Engineering time for ingestion, retrieval and evaluation</td><td>Curating thousands of quality examples plus training runs</td></tr>
+<tr><th scope="row">Upfront cost</th><td>Engineering time for ingestion, retrieval and evaluation</td><td>Preparing representative training and evaluation examples, plus training runs; the amount depends on the task and model</td></tr>
 <tr><th scope="row">Ongoing cost</th><td>Longer prompts per query; index maintenance</td><td>Hosting or serving a custom model; periodic retraining</td></tr>
 </tbody></table></div>
 
@@ -53,7 +58,7 @@
   <li>Different users are allowed to see different things, so permissions must be enforced at retrieval time.</li>
   <li>The content is too large or too varied to summarise into training examples.</li>
 </ul>
-<p>This describes almost every internal knowledge assistant we are asked to build: HR and policy questions, engineering runbooks, customer-support knowledge, contract and procedure lookups.</p>
+<p>These requirements arise in HR and policy questions, engineering runbooks, customer-support knowledge, and contract and procedure lookups.</p>
 
 <h2>When fine-tuning earns its place</h2>
 <ul>
@@ -65,7 +70,7 @@
 
 <h2>The work that actually decides success</h2>
 <h3>Retrieval quality</h3>
-<p>Most "the AI is wrong" complaints are retrieval failures: the right passage was never shown to the model. Chunking that respects document structure, combining semantic and keyword search, adding metadata filters and re-ranking results all matter more than the choice of model. Measure retrieval separately from answer quality so you can tell which one is failing.</p>
+<p>Check whether the right passage reached the model before changing the model itself. Document structure, semantic and keyword search, metadata filters and re-ranking can all affect retrieval. Measure retrieval separately from answer quality so you can tell whether the source was missing, the wrong passage was selected or the answer misused the evidence.</p>
 <h3>Access control</h3>
 <p>Permissions must be enforced in the application before retrieval, using the user's identity and the source system's rules. Instructions written into a prompt are not access control; a determined user can talk a model out of them. This is a design requirement, not a feature to add later.</p>
 <h3>Evaluation with real questions</h3>
@@ -74,11 +79,15 @@
 <p>A good assistant says "I could not find this in the approved sources" and points to a human. A bad one improvises. Build the decline path deliberately, test it, and make it easy for users to report wrong answers.</p>
 
 <h2>A sensible first project</h2>
-<p>Choose one defined collection of documents and a small group of users. Collect twenty to fifty real questions. Build retrieval and answering over that collection, with source references and a decline path, and review the results with the users. Only then decide on wider access, automated actions or any fine-tuning. This bounded first release typically takes weeks rather than months, and it produces the evidence you need to justify the next step.</p>
+<p>Choose one defined collection of documents and a small group of users. Collect twenty to fifty real questions. Build retrieval and answering over that collection, with source references and a decline path, and review the results with the users. Only then decide on wider access, automated actions or any fine-tuning. Agree the timeline after checking source access, permissions and the evaluation requirements.</p>
 
+<p>For the underlying approach, see the original <a href="https://arxiv.org/abs/2005.11401" target="_blank" rel="noopener">RAG research paper</a> and <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html" target="_blank" rel="noopener">AWS's guide to retrieval and source citations</a>. Implementation choices still need testing against your own sources and users.</p>
 <h2>Frequently asked questions</h2>
 <div class="faq-list">
-  <details><summary><span>Does fine-tuning make a model "know" our documents?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>Not reliably. Fine-tuning shapes how a model responds far more than what it can recall, and it cannot cite where an answer came from. If the goal is accurate answers about specific documents, retrieval is the mechanism that puts the right text in front of the model.</p></div></details>
+  <details><summary><span>Does fine-tuning make a model "know" our documents?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>A model may learn information during fine-tuning, but reliable recall, updates and source citations are separate requirements. For answers about current documents, retrieval supplies the passages that can support the answer. Fine-tuning can be combined with that retrieval when a measured behaviour or format requirement justifies it.</p></div></details>
   <details><summary><span>Will our data be used to train someone else's model?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>It depends on the provider and the contract terms you select. Business and API tiers of the major model providers generally state that customer data is not used for training, but this should be confirmed in writing and reflected in your architecture, including where indexes and logs are stored.</p></div></details>
   <details><summary><span>How much does an internal knowledge assistant cost to run?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>Ongoing costs come from model usage per query, the retrieval infrastructure, and keeping the index current as documents change. For most internal tools these are modest compared with the engineering time to build and evaluate the system properly. Ask for both numbers when comparing proposals.</p></div></details>
 </div>
+
+<h2>Scope a knowledge assistant with MV.tech</h2>
+<p>Our <a href="/services/ai-consulting/">AI consulting service</a> covers source preparation, retrieval, access rules and evaluation. If the assistant also needs live systems, review <a href="/services/mcp-and-ai-connectors/">MCP servers and AI connectors</a>. Bring one source collection and a few real questions to a <a href="/contact/#book-call">30-minute scoping call</a>.</p>
