@@ -133,7 +133,12 @@
     ],
     "summary": "ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.",
     "ogTitle": "Data engineering & ETL consulting",
-    "ogKicker": "Python · SQL · BigQuery · Snowflake · Redshift · Data quality"
+    "ogKicker": "Python · SQL · BigQuery · Snowflake · Redshift · Data quality",
+    "relatedServiceKeys": [
+      "offshore-data-engineering-team",
+      "data-warehouse-migration",
+      "business-intelligence"
+    ]
   },
   {
     "path": "/services/offshore-data-engineering-team/",
@@ -264,7 +269,12 @@
     ],
     "summary": "Dedicated offshore data engineering and analytics capacity from India for ETL, cloud warehouses, BI, migration and data quality work.",
     "ogTitle": "Offshore data engineering team from India",
-    "ogKicker": "Dedicated data engineers · Analytics capacity · Timezone overlap"
+    "ogKicker": "Dedicated data engineers · Analytics capacity · Timezone overlap",
+    "relatedServiceKeys": [
+      "data-engineering",
+      "it-staff-augmentation",
+      "technology-recruitment"
+    ]
   },
   {
     "path": "/services/ai-consulting/",
@@ -397,7 +407,12 @@
     ],
     "summary": "Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.",
     "ogTitle": "AI automation, RAG & MCP development",
-    "ogKicker": "Knowledge assistants · MCP servers · LLM integration · Evaluation"
+    "ogKicker": "Knowledge assistants · MCP servers · LLM integration · Evaluation",
+    "relatedServiceKeys": [
+      "mcp-and-ai-connectors",
+      "workflow-automation",
+      "data-engineering"
+    ]
   },
   {
     "path": "/services/mcp-and-ai-connectors/",
@@ -436,7 +451,7 @@
       },
       {
         "title": "OAuth, secrets and token-aware access control",
-        "text": "Authorisation designed in rather than bolted on: OAuth flows, short-lived tokens, secrets held in a managed store such as Secret Manager, per-user identity carried through to the data layer, and a log of every tool call with its arguments and outcome — the kind of evidence a SOC 2 programme asks for."
+        "text": "Authorisation designed into the integration: OAuth flows, short-lived tokens, secrets held in a managed store such as Secret Manager, and per-user identity carried through to the data layer. Log the caller, tool, time and outcome; include only approved argument fields, mask secrets and personal data, and agree log access and retention for the audit trail."
       },
       {
         "title": "Reusable AI skills and packaged workflows",
@@ -529,7 +544,12 @@
     ],
     "summary": "Custom MCP servers and AI connectors in Python that give agents scoped, validated and logged access to your databases, APIs and internal tools.",
     "ogTitle": "MCP servers & AI connectors",
-    "ogKicker": "Custom MCP servers · Enterprise connectors · Scoped access"
+    "ogKicker": "Custom MCP servers · Enterprise connectors · Scoped access",
+    "relatedServiceKeys": [
+      "ai-consulting",
+      "workflow-automation",
+      "custom-software"
+    ]
   },
   {
     "path": "/services/business-intelligence/",
@@ -637,7 +657,12 @@
     ],
     "summary": "Semantic and dimensional models, Power BI, Tableau and Looker Studio dashboards, governed KPI definitions and refreshes that finish on time.",
     "ogTitle": "Business intelligence & dashboards",
-    "ogKicker": "Power BI · Tableau · Looker Studio · Semantic models · DAX"
+    "ogKicker": "Power BI · Tableau · Looker Studio · Semantic models · DAX",
+    "relatedServiceKeys": [
+      "data-engineering",
+      "data-warehouse-migration",
+      "offshore-data-engineering-team"
+    ]
   },
   {
     "path": "/services/data-warehouse-migration/",
@@ -745,7 +770,12 @@
     ],
     "summary": "Legacy databases and manual reporting moved into Snowflake, BigQuery or Redshift, with mapped sources, staged reconciliation and a planned cutover.",
     "ogTitle": "Data warehouse migration",
-    "ogKicker": "Snowflake · BigQuery · Redshift · Mapping · Reconciliation"
+    "ogKicker": "Snowflake · BigQuery · Redshift · Mapping · Reconciliation",
+    "relatedServiceKeys": [
+      "data-engineering",
+      "business-intelligence",
+      "offshore-data-engineering-team"
+    ]
   },
   {
     "path": "/services/blockchain-data-analytics/",
@@ -859,7 +889,12 @@
     ],
     "summary": "Decoded on-chain transactions across networks, cross-chain ETL into BigQuery, token valuation, categorisation and staking-reward reconciliation.",
     "ogTitle": "Blockchain & on-chain data analytics",
-    "ogKicker": "Cross-chain ETL · ABI decoding · Valuation · Reconciliation"
+    "ogKicker": "Cross-chain ETL · ABI decoding · Valuation · Reconciliation",
+    "relatedServiceKeys": [
+      "data-engineering",
+      "business-intelligence",
+      "workflow-automation"
+    ]
   },
   {
     "path": "/services/workflow-automation/",
@@ -955,7 +990,12 @@
     ],
     "summary": "Scheduled workflows, webhooks, Apps Script and API integrations that replace manual hand-offs and make failures visible.",
     "ogTitle": "Workflow automation & API integration",
-    "ogKicker": "Scheduled workflows · Webhooks · Validation · Monitoring"
+    "ogKicker": "Scheduled workflows · Webhooks · Validation · Monitoring",
+    "relatedServiceKeys": [
+      "mcp-and-ai-connectors",
+      "ai-consulting",
+      "custom-software"
+    ]
   },
   {
     "path": "/services/custom-software/",
@@ -1046,7 +1086,12 @@
     ],
     "summary": "Business web applications, client portals, internal tools and Streamlit data apps with APIs and data backends designed together.",
     "ogTitle": "Custom software & web app development",
-    "ogKicker": "Business apps · Client portals · Dashboards · APIs"
+    "ogKicker": "Business apps · Client portals · Dashboards · APIs",
+    "relatedServiceKeys": [
+      "workflow-automation",
+      "mcp-and-ai-connectors",
+      "it-staff-augmentation"
+    ]
   },
   {
     "path": "/services/it-staff-augmentation/",
@@ -1169,7 +1214,12 @@
     ],
     "summary": "Senior data, analytics, software, cloud and AI consultants embedded in your team, in your tools and hours, for an agreed capacity.",
     "ogTitle": "IT staff augmentation & dedicated remote teams",
-    "ogKicker": "Senior consultants in your team · Agreed capacity · Your hours"
+    "ogKicker": "Senior consultants in your team · Agreed capacity · Your hours",
+    "relatedServiceKeys": [
+      "offshore-data-engineering-team",
+      "technology-recruitment",
+      "data-engineering"
+    ]
   },
   {
     "path": "/services/technology-recruitment/",
@@ -1284,7 +1334,12 @@
     ],
     "summary": "Permanent hiring for AI, data, software and cloud roles, with an engineer shaping the brief and assessing fit.",
     "ogTitle": "Technology recruitment",
-    "ogKicker": "Permanent AI, data, software & cloud hires · Engineer-led"
+    "ogKicker": "Permanent AI, data, software & cloud hires · Engineer-led",
+    "relatedServiceKeys": [
+      "it-staff-augmentation",
+      "offshore-data-engineering-team",
+      "data-engineering"
+    ]
   },
   {
     "path": "/remote-consulting/",
@@ -1424,6 +1479,11 @@
           "Responsibilities, compensation and timeline"
         ]
       ]
-    }
+    },
+    "relatedServiceKeys": [
+      "offshore-data-engineering-team",
+      "it-staff-augmentation",
+      "technology-recruitment"
+    ]
   }
 ]

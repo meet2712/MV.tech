@@ -9,7 +9,7 @@
     "build:css": "esbuild css/input.css --minify --outfile=css/site.css --log-level=warning",
     "build:icons": "esbuild js/icons-entry.js --bundle --minify --format=iife --outfile=js/icons.js --log-level=warning",
     "build:og": "node scripts/build-og.mjs",
-    "test": "npm run check",
+    "test": "npm run check && node --test scripts/check-measurement.test.mjs",
     "check": "node scripts/check-site.mjs",
     "serve": "python3 -m http.server 8080"
   },

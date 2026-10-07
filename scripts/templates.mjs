@@ -19,7 +19,7 @@ export function breadcrumbs(crumbs) {
 }
 
 export function callButton(site, label = 'Book a 30-minute call', cls = 'button-primary') {
-  return `<a class="${cls}" href="${site.calendly}" target="_blank" rel="noopener">${h(label)} ${icon('arrow-right')}</a>`;
+  return `<a class="${cls}" href="/contact/#book-call">${h(label)} ${icon('arrow-right')}</a>`;
 }
 
 export function emailLink(site, subject, fields, label = 'Email your brief', cls = 'button-secondary') {
@@ -62,7 +62,12 @@ export function ctaBand(site, { heading = 'Tell us what needs to work better.', 
 }
 
 export function relatedServices(pages, currentKey, site) {
-  const related = pages.filter((p) => p.key !== currentKey && p.path.startsWith('/services/')).slice(0, 3);
+  const current = pages.find((p) => p.key === currentKey);
+  const related = (current.relatedServiceKeys ?? []).map((key) => {
+    const page = pages.find((p) => p.key === key && p.key !== currentKey && p.path.startsWith('/services/'));
+    if (!page) throw new Error(`Invalid related service ${key} on ${currentKey}`);
+    return page;
+  });
   return `<section class="band"><div class="container"><div class="section-heading"><div><p class="eyebrow">Related services</p><h2>Other ways we can help.</h2></div><a class="text-link" href="/services/">All services ${icon('arrow-right')}</a></div><div class="card-grid card-grid-3">${related.map((p) => `<a class="card card-link" href="${p.path}"><h3>${h(p.name)}</h3><p>${h(p.summary ?? p.intro)}</p><span class="card-more">Explore ${icon('arrow-right')}</span></a>`).join('')}</div></div></section>`;
 }
 

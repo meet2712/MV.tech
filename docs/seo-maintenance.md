@@ -1,6 +1,6 @@
 # Search visibility, AI discovery and qualified leads
 
-Maintainer guidance reviewed on 20 September 2026. The aim is to help relevant buyers find, understand and contact MV.tech. Crawl access, indexing, search position, AI citations and qualified leads are separate outcomes; none of the site files guarantees placement in every answer engine.
+Maintainer guidance reviewed on 7 October 2026. The aim is to help relevant buyers find, understand and contact MV.tech. Crawl access, indexing, search position, AI citations and qualified leads are separate outcomes; none of the site files guarantees placement in every answer engine.
 
 ## What the site provides
 
@@ -15,7 +15,7 @@ Maintainer guidance reviewed on 20 September 2026. The aim is to help relevant b
 
 | Surface | Relevant access and discovery | Evidence to check |
 | --- | --- | --- |
-| Google Search, AI Overviews and AI Mode | Googlebot access, canonical indexable HTML, useful content and internal links. Google says its AI search features use the same search foundations; it does not use `llms.txt` for visibility or rankings. | Search Console sitemap status, URL Inspection, landing-page queries and the AI reporting available in the property. |
+| Google Search, AI Overviews and AI Mode | Googlebot access, canonical indexable HTML, useful content and internal links. Google says its AI search features use the same search foundations; it does not use `llms.txt` for visibility or rankings. | Search Console sitemap status, URL Inspection, landing-page queries and the Generative AI performance report. The AI report measures impressions, not confirmed visits or leads. |
 | Bing and Copilot | Bingbot access, canonical HTML, sitemap and IndexNow updates. Avoid `noarchive`, `nocache` and restrictive snippet directives on pages intended for grounding. | Bing Webmaster Tools crawl/index status and AI Performance reporting where available. A submission receipt is not proof of indexing. |
 | ChatGPT search | `OAI-SearchBot` must be allowed; check real crawler access if a firewall is introduced. `ChatGPT-User` is a user-requested fetcher, not the search-index eligibility control. | Actual cited pages and attributable visits. There is no site file that forces selection for a query. |
 | Claude search and retrieval | Allow `Claude-SearchBot` for search and `Claude-User` for user-directed retrieval. | Actual citations and attributable visits; verify crawl access after hosting changes. |
@@ -61,7 +61,10 @@ Useful enquiries include the business problem, existing stack, source systems, d
 
 - Search Console: compare consecutive 28-day periods by landing page and query. Track service-page impressions, clicks, CTR and index status. Keep branded and non-branded queries separate where the available data supports it.
 - Bing Webmaster Tools: inspect crawl/index results, IndexNow receipts and available [AI citation reporting](https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview). Keep submission counts separate from indexed-page counts.
-- Analytics: `contact_intent` is a click; `brief_compose` is composition or copying, not email delivery; `book_call` represents a supported embedded Calendly confirmation. External bookings and email replies may require manual reconciliation. Never count every click or composed brief as a lead.
+- Analytics: use Traffic acquisition with Session source / medium to inspect identifiable referrals from ChatGPT, Claude, Perplexity and other assistants. A missing referral can mean no attributable visit or missing referrer information; it does not establish that the site was never cited. Keep Google AI impressions separate from referral sessions.
+- Analytics runs only on the canonical website hostname and its `www` variant. Local previews and checks do not load the production tag. Historical test visits remain in existing data; use hostname filters when comparing periods and annotate unexplained direct-traffic spikes rather than treating all visits as buyers.
+- `contact_intent` is a click (calendar, email or phone); `brief_compose` is composition or copying, not email delivery. Booking buttons lead to `/contact/#book-call`, where `book_call` records a confirmation from the actual embedded Calendly iframe. A permanent external booking fallback remains available. External bookings and email replies need separate reconciliation. Never count every click or composed brief as a lead.
+- Register `book_call` as a GA4 key event when configuring the Analytics property. Keep intent and composed-brief events out of confirmed-lead totals. Verify received events after deployment; zero recorded key events alone does not prove zero enquiries.
 - Leads: track confirmed consultations, received enquiries, qualified opportunities and won work, with landing page/source when known. Keep personal enquiry details out of analytics event fields.
 - AI visibility: periodically sample a stable set of genuine buyer questions across target products. Save the date, exact question, cited URL and whether the description was accurate. Results vary by session, location and query; a prompt sample is not overall market coverage.
 

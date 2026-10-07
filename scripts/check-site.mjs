@@ -156,7 +156,13 @@ const consulting = JSON.parse(await readFile('content/consulting.json', 'utf8'))
 for (const page of consulting) {
   assert(routes.has(page.path), `Missing service page ${page.path}`);
   assert(page.questions.length >= 3, `Fewer than three buyer questions on ${page.path}`);
+  assert.equal(new Set(page.relatedServiceKeys).size, 3, `Expected three distinct related services on ${page.path}`);
+  for (const key of page.relatedServiceKeys) {
+    assert(key !== page.key && consulting.some((p) => p.key === key && p.path.startsWith('/services/')), `Invalid related service ${key} on ${page.path}`);
+  }
 }
+const contact = await readFile('contact/index.html', 'utf8');
+assert(contact.includes('id="book-call"'), 'Booking links need a contact-page destination');
 const indexNow = (await readFile('.github/workflows/indexnow.yml', 'utf8')).match(/INDEXNOW_KEY:\s*([a-f0-9]{32})/);
 assert(indexNow && await exists(`${indexNow[1]}.txt`), 'IndexNow key file must exist at the site root and match the workflow');
 
