@@ -1,0 +1,91 @@
+<!--meta
+{
+  "name": "Excel reporting to a cloud warehouse",
+  "title": "How Do You Move Excel Reporting into a Cloud Data Warehouse?",
+  "description": "How to move month-end Excel reporting into Snowflake or BigQuery: finding the sources and rules behind the spreadsheets, the order of work and reconciliation.",
+  "kicker": "Warehouse migration",
+  "ogTitle": "Moving Excel reporting into a cloud data warehouse",
+  "ogKicker": "Signals · Source discovery · Rules in formulas · Reconciliation",
+  "published": "2026-10-12",
+  "keywords": [
+    "migrate Excel reporting to data warehouse",
+    "replace spreadsheets with data warehouse",
+    "move Excel reports to Snowflake",
+    "spreadsheet to BigQuery",
+    "data warehouse migration",
+    "month-end reporting",
+    "reconciliation"
+  ],
+  "pageTitle": "Moving Excel Reporting into a Cloud Data Warehouse | MV.tech",
+  "relatedArticleRoutes": [
+    "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
+    "/insights/data-consultancy-company-for-offshore-team/",
+    "/insights/staff-augmentation-vs-project-consulting-vs-recruitment/"
+  ]
+}
+-->
+<div class="in-brief">
+  <p class="eyebrow">In brief</p>
+  <ul>
+    <li>A spreadsheet has become a system of record when its figures cannot be reproduced from the source systems without it. Typed-in adjustments and rules that exist only in formulas are the usual signs.</li>
+    <li>The migration is mostly discovery. Find the sources behind each tab, write the rules down, model them in raw, staging, curated and reporting layers, and reconcile against the last few months of manual figures before any dashboard is repointed.</li>
+    <li>Start with one report, not the whole month-end pack. It proves the design and the reconciliation method on something small enough to correct cheaply.</li>
+  </ul>
+</div>
+
+<p>Few finance or operations teams decide to run reporting in Excel. It happens one workaround at a time, and by the time anyone asks how to migrate Excel reporting to a data warehouse, the spreadsheet is doing a job it was never designed for. This guide covers how to recognise that point, where the sources and rules are hiding, the order of work and what should stay in a spreadsheet.</p>
+
+<h2>How do you know month-end spreadsheets have become a system of record?</h2>
+<p>A spreadsheet has become a system of record when a figure in it cannot be rebuilt from the source systems without the spreadsheet. The test is blunt: if the file were deleted, could anyone reproduce last month's numbers from the systems alone?</p>
+<p>The usual signals:</p>
+<ul>
+  <li><strong>Typed-in adjustments.</strong> Someone overwrites a cell each month because the source is known to be wrong, and the correction exists nowhere else.</li>
+  <li><strong>Versioned filenames.</strong> A file called <code>report_final_v3.xlsx</code> is a change log without the log.</li>
+  <li><strong>Lookups into other spreadsheets.</strong> A VLOOKUP into a file on a shared drive is a dependency on an undocumented table.</li>
+  <li><strong>Two numbers for the same thing.</strong> The dashboard says one figure, the board pack another, and the spreadsheet is the one people believe.</li>
+</ul>
+<p>Each is a reason to treat the spreadsheet as a legacy system with an undocumented data model.</p>
+
+<h2>Where are the sources and the rules hiding?</h2>
+<p>The sources are usually a handful of systems behind the export buttons, and the rules are in the formulas, the pivot filters and the adjustments people apply by hand. More of this discovery happens in conversation than in a database catalogue.</p>
+<ul>
+  <li><strong>Trace each tab backwards.</strong> Who pastes into it, from which system, with which filters and date range.</li>
+  <li><strong>Read the formulas as transformation rules.</strong> Nested IFs that map codes to categories, SUMIFS with hard-coded dates. Each needs a name, an owner and a test.</li>
+  <li><strong>Collect the rules in people's heads.</strong> "We always exclude the intercompany entities." Write them down verbatim, then make them precise.</li>
+  <li><strong>Find the mapping tables hiding in tabs.</strong> Cost-centre hierarchies, region lists, owner assignments. These become dimension tables, each with an owner.</li>
+</ul>
+<p>The output is a rule register: one row per rule, where it lives today, what it does, who decides it and a worked example from a recent month. Both sides sign it off before anything is built.</p>
+
+<h2>What order should the work happen in?</h2>
+<p>One report first, then source discovery, rules written down, warehouse layers, reconciliation against the last months of manual figures, and only then the dashboard repointed. The order matters because each step produces the acceptance test for the next.</p>
+<div class="table-wrap" tabindex="0"><table class="data-table"><caption>The order of work for moving one spreadsheet report into a warehouse</caption><thead><tr><th scope="col">Step</th><th scope="col">What it produces</th><th scope="col">Finished when</th></tr></thead><tbody>
+<tr><th scope="row">1. Choose one report</th><td>The report a decision-maker actually uses, with tabs, inputs and recipients listed</td><td>Everyone agrees which figures on it must match</td></tr>
+<tr><th scope="row">2. Source discovery</th><td>The systems, exports, filters and refresh timing behind each tab</td><td>Every input cell has a named source</td></tr>
+<tr><th scope="row">3. Rules written down</th><td>A rule register with owners and worked examples</td><td>No formula or manual adjustment is unexplained</td></tr>
+<tr><th scope="row">4. Warehouse layers</th><td>Raw, staging, curated and reporting layers in Snowflake, BigQuery or Redshift</td><td>The reporting layer reproduces the report's structure</td></tr>
+<tr><th scope="row">5. Reconciliation</th><td>Automated comparison with the last three to six months of manual figures</td><td>Every difference is fixed or documented as deliberate</td></tr>
+<tr><th scope="row">6. Dashboard repointing</th><td>Power BI, Tableau or Looker Studio reading the reporting layer</td><td>The dashboard matches the signed-off figures, visual by visual</td></tr>
+</tbody></table></div>
+<p>Raw holds the exports as they arrived, so you can prove where a number came from; staging conforms types, keys and dates; curated holds the facts and dimensions, where the rule register becomes code; reporting holds the shapes a BI tool reads. When a reconciliation fails, the layers show which step introduced the difference.</p>
+<p>Reconciliation is the step teams are tempted to cut, and the step that decides whether anyone trusts the result. Compare row counts, control totals and every reported figure with the spreadsheet versions, and investigate each difference: some will be defects in the new pipeline, some defects in the spreadsheet found for the first time. Dashboards are repointed last, once the <a href="/services/business-intelligence/">semantic model</a> carries the definitions.</p>
+
+<h2>What does a reconciled migration of manual reporting look like in practice?</h2>
+<p>It looks like a layered warehouse, a written mapping for every object and automated checks against every system that already reports the figures. In a previous engagement at Volvo Cars via Toptal, MV.tech's founder migrated legacy and manual reporting into a Snowflake warehouse with raw, staging, curated and reporting layers, designed fact and dimension models for Power BI with source-to-target mappings, and built validation and reconciliation checks across source systems, Snowflake, Salesforce CRM Analytics and BI reports. Checks of that breadth are what let a manual process be retired on evidence rather than on a date.</p>
+
+<h2>What should stay in a spreadsheet?</h2>
+<p>Analysis, scenarios and anything one person needs for a week. A spreadsheet is the right tool for a question nobody has asked before and the wrong tool for a figure that has to be the same every month.</p>
+<p>Keep in Excel: what-if models built on a governed extract, board-pack commentary written next to figures pulled from the reporting layer, and inputs that genuinely originate with a person, such as budget assumptions, provided they are loaded into the warehouse with a timestamp and an owner. Move into the warehouse: any mapping table more than one report depends on, any adjustment applied every month, and any formula behind a figure reported to the board, the auditors or a regulator. The aim is not to ban Excel but to stop a spreadsheet being the only place a rule exists.</p>
+
+<h2>What is a sensible first milestone?</h2>
+<p>One report, reproduced from the warehouse, reconciled against the last three months of manual figures and signed off by the person who used to build it. It gives an estimate for the rest of the pack based on your sources and rules rather than a template.</p>
+<p>Pick a report with few sources and a clear owner, agree in advance what "matches" means, run both versions in parallel for at least one close, and insist that handover includes the rule register, source mapping, reconciliation results and refresh schedule. We quote after a scoping call, because the cost depends on the number of sources and rules, not on the size of the file.</p>
+
+<h2>Frequently asked questions</h2>
+<div class="faq-list">
+  <details><summary><span>Should we move Excel reporting to Snowflake or to BigQuery?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>Either works, and so does Amazon Redshift. Choose by where your data already sits: BigQuery if the sources sit in Google Cloud, Snowflake if you want one platform across clouds. The discovery, the rule register and the reconciliation are the same whichever target you pick.</p></div></details>
+  <details><summary><span>How long does it take to replace spreadsheets with a data warehouse?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>Discovery on the first report typically takes weeks, and the time is driven by the number of sources and undocumented rules rather than by data volume. The rest of the pack is scoped once the first report has been reconciled. We quote after a scoping call.</p></div></details>
+  <details><summary><span>Will the warehouse figures match the spreadsheet exactly?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>Not always, and the differences are the useful part. Some turn out to be defects in the spreadsheet, such as a lookup that silently stopped matching. Each difference is investigated and then either fixed or documented as a deliberate change, with the tolerance agreed before reconciliation starts.</p></div></details>
+</div>
+
+<h2>Plan the move with MV.tech</h2>
+<p>Our <a href="/services/data-warehouse-migration/">data warehouse migration service</a> covers source discovery, the rule register, raw-to-reporting layers, reconciliation and the repointed dashboard, starting with one report. Bring the month-end pack, the list of systems behind it and the person who builds it today to a <a href="/contact/#book-call">scoping call</a>. We quote after a scoping call.</p>

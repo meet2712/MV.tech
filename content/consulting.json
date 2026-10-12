@@ -74,7 +74,7 @@
       "Snowflake",
       "Amazon Redshift",
       "PostgreSQL",
-      "dbt-style modelling",
+      "layered SQL modelling",
       "Azure Data Factory",
       "Power BI",
       "Tableau",
@@ -228,7 +228,7 @@
       "AWS",
       "Google Cloud",
       "REST APIs",
-      "dbt-style modelling"
+      "layered SQL modelling"
     ],
     "questions": [
       {
@@ -626,7 +626,7 @@
       },
       {
         "title": "Refresh performance and cost",
-        "text": "Reduce what a report has to read: partitioning, incremental refresh, aggregation tables, pushing transformation back into the warehouse and removing columns nothing uses. On past work this has reduced query scan sizes by 60–75% and moved refreshes from hours to minutes."
+        "text": "Reduce what a report has to read: partitioning, incremental refresh, aggregation tables, pushing transformation back into the warehouse and removing columns nothing uses."
       },
       {
         "title": "Self-service layers, documentation and handover",
@@ -741,11 +741,11 @@
       },
       {
         "title": "Target design: raw, staging, curated and reporting layers",
-        "text": "Design Snowflake, BigQuery or Redshift with separated layers: raw as it arrived, staging conformed, curated facts and dimensions, and reporting shapes that BI tools read. Partitioning, clustering and incremental loads are chosen against real query patterns, which is where the 60–75% reductions in query scan size on past engagements came from."
+        "text": "Design Snowflake, BigQuery or Redshift with separated layers: raw as it arrived, staging conformed, curated facts and dimensions, and reporting shapes that BI tools read. Partitioning, clustering and incremental loads are chosen against real query patterns rather than copied from the old platform."
       },
       {
         "title": "Validation and reconciliation",
-        "text": "Automated comparison between old and new at each pipeline stage: record counts, date coverage, nulls, duplicates, control totals and metric-level comparison of the figures people actually report. Differences are explained rather than rounded away — several times they have revealed a defect in the legacy logic. This work has cut manual reconciliation effort by more than 70% on past migrations."
+        "text": "Automated comparison between old and new at each pipeline stage: record counts, date coverage, nulls, duplicates, control totals and metric-level comparison of the figures people actually report. Differences are explained rather than rounded away — several times they have revealed a defect in the legacy logic."
       },
       {
         "title": "Dashboard and semantic-model impact",
@@ -782,7 +782,7 @@
       "PostgreSQL",
       "Azure Synapse",
       "Azure Data Factory",
-      "dbt-style modelling",
+      "layered SQL modelling",
       "Matillion",
       "Pentaho",
       "Python",
@@ -868,7 +868,7 @@
       },
       {
         "title": "Staking-reward reconciliation",
-        "text": "Reward ledgers per validator, delegator or wallet, reconciled against on-chain distributions and internal records, with period totals, accrual timing and a discrepancy report. On past engagements a ledger of this kind has removed more than 70% of a manual reconciliation cycle."
+        "text": "Reward ledgers per validator, delegator or wallet, reconciled against on-chain distributions and internal records, with period totals, accrual timing and a discrepancy report."
       },
       {
         "title": "Wallet analytics and attribution",
@@ -946,7 +946,7 @@
       },
       {
         "question": "How do you reconcile staking rewards against on-chain and internal records?",
-        "answer": "We build a reward ledger per validator, delegator or wallet and reconcile it against on-chain distributions and internal records, with period totals, accrual timing and a discrepancy report. Base tables hold exactly what the chain reported and are never edited; corrections live in a separate override layer with an author, a timestamp and a reason, so both the original and adjusted figures stay available. On past engagements a ledger of this kind has removed more than 70% of a manual reconciliation cycle."
+        "answer": "We build a reward ledger per validator, delegator or wallet and reconcile it against on-chain distributions and internal records, with period totals, accrual timing and a discrepancy report. Base tables hold exactly what the chain reported and are never edited; corrections live in a separate override layer with an author, a timestamp and a reason, so both the original and adjusted figures stay available."
       }
     ],
     "summary": "Decoded on-chain transactions across networks, cross-chain ETL into BigQuery, token valuation, categorisation and staking-reward reconciliation.",
@@ -1598,5 +1598,613 @@
       "technology-recruitment"
     ],
     "questionsHeading": "Questions about hiring a remote data team in India"
+  },
+  {
+    "path": "/services/hire-data-engineers/",
+    "key": "hire-data-engineers",
+    "name": "Hire Data Engineers",
+    "title": "Hire Data Engineers: Senior Remote Engineers from India | MV.tech",
+    "description": "Hire senior data, analytics, BI and AI engineers from India: named people you meet first, agreed overlap hours and a written first milestone.",
+    "h1": "Hire data engineers you have met, on a milestone you can check.",
+    "eyebrow": "Service · Hire data engineers",
+    "serviceType": "Data engineer hiring: embedded, project or permanent",
+    "intro": "Hiring a data engineer through MV.tech means a named senior engineer, not a bench or a profile you never speak to. You brief the work, meet the person who will do it, agree the overlap hours in your local time and start on a written first milestone that is small enough to verify. You can hire through staff augmentation, as a scoped project, or through technology recruitment for a permanent employee in your own organisation.",
+    "fitHeading": "When should you hire a data engineer rather than wait for a permanent hire?",
+    "fit": [
+      "A permanent data engineering role has been open for months and pipelines, dashboards or a migration cannot wait for it.",
+      "Your analysts spend their week repairing SQL and spreadsheets instead of answering questions, and nobody owns the warehouse.",
+      "You need a fractional data engineer for a few days a week rather than a full-time salary and the hiring process that comes with it.",
+      "A warehouse migration or BI rebuild needs a senior person for its discovery, modelling and reconciliation phases, then far less.",
+      "You have tried an offshore staffing vendor and received a rotating cast of juniors behind an account manager.",
+      "Your team needs an AI or automation engineer who understands the data behind the model, not only the model.",
+      "You want to hire a remote data engineer in India with agreed overlap hours and written scope, or a permanent hire found through technology recruitment."
+    ],
+    "deliverablesHeading": "What do you actually get when you hire a data engineer from MV.tech?",
+    "deliverables": [
+      {
+        "title": "A named senior engineer, introduced before anything is signed",
+        "text": "You meet the engineer who will do the work, review their experience against your stack and agree the role with them directly. The person you meet is the person who does the work; there is no bench, and you work directly with whoever writes the code."
+      },
+      {
+        "title": "Data engineers for pipelines and cloud warehouses",
+        "text": "Engineers who build and maintain Python and SQL pipelines from APIs, databases, files and SaaS tools into BigQuery, Snowflake, Amazon Redshift or PostgreSQL, with retries, logging, backfills and data quality checks. In a previous engagement at RootstockLabs, MV.tech's founder migrated HubSpot ingestion from Skyvia to Hevo, cutting the full-data load from 2 hours 45 minutes to 5 minutes."
+      },
+      {
+        "title": "Analytics engineers and BI developers",
+        "text": "Specialists for raw, staging, curated and reporting layers, fact and dimension models, source-to-target mapping and reconciliation, and dashboards in Power BI, Tableau, Looker Studio or Streamlit. They define KPI ownership and document what each dashboard can and cannot prove."
+      },
+      {
+        "title": "AI and automation engineers",
+        "text": "Engineers for RAG systems, MCP servers, custom AI connectors and scheduled automation that connect models to your databases, APIs and internal tools. The work starts from the data and permissions involved, which is why these roles sit alongside the data engineers rather than apart from them."
+      },
+      {
+        "title": "Cloud data engineers",
+        "text": "Engineers who set up and operate data platforms on AWS, Google Cloud or Azure, including Azure Data Factory, scheduled jobs, access control and monitoring. They work in your cloud account and your repositories, agreed before work begins, and hand over runbooks and recovery notes where needed when the engagement ends."
+      },
+      {
+        "title": "Agreed seniority and overlap hours",
+        "text": "Every engineer is senior enough to shape scope, write acceptance criteria and challenge a brief, not only execute tickets. Overlap hours are written in your local time before the start, for example 9:00 am to 1:00 pm US Eastern or 9:00 am to 3:30 pm in the UK. MV.tech's founder holds the Google Cloud Professional Data Engineer certification."
+      },
+      {
+        "title": "A written first milestone with acceptance criteria",
+        "text": "Before work begins, the first deliverable, the systems involved, how correctness will be checked and the review date are written down. It is the basis on which you decide to extend, change the role or stop."
+      },
+      {
+        "title": "Three ways to hire",
+        "text": "Embed an engineer or a small team in your workflow through IT staff augmentation, give MV.tech a scoped project to own, or use technology recruitment to hire a permanent employee into your organisation. The arrangement is reviewed as priorities change; recruitment is a separate engagement with its own scope and commercial terms."
+      }
+    ],
+    "scopeHeading": "How does hiring a data engineer through MV.tech start?",
+    "scope": "It starts with a brief, not a contract. You describe the work, the systems, the timezone and the deadline on a scoping call, and we propose a named engineer and a first milestone small enough to verify: one pipeline, one reporting model, one dashboard set or one migration slice, with written acceptance criteria and a review date. The engineer works in your tools and your agreed overlap hours, posts written updates and ships something checkable by the review date. At the review you decide whether to extend into a longer embedded arrangement, hand over a larger scoped project or begin a permanent search for the same kind of role. The trial milestone is what reduces the risk: you judge the person on delivered work, not on a CV alone, and the decision to continue is yours.",
+    "approach": [
+      {
+        "title": "Brief and match",
+        "text": "Share the workstream, required skills, timezone and duration. We propose a named senior engineer and you meet them before anything is agreed."
+      },
+      {
+        "title": "Agree the first milestone",
+        "text": "Write down the deliverable, acceptance criteria, overlap hours, repositories, access and review date so both sides know what done means."
+      },
+      {
+        "title": "Deliver, review and decide",
+        "text": "The engineer ships the milestone with written validation; you then extend the engagement, change its shape or close it on evidence."
+      }
+    ],
+    "tools": [
+      "Python",
+      "SQL",
+      "BigQuery",
+      "Snowflake",
+      "Amazon Redshift",
+      "PostgreSQL",
+      "Power BI",
+      "Tableau",
+      "Looker Studio",
+      "Streamlit",
+      "Azure Data Factory",
+      "AWS",
+      "Google Cloud",
+      "REST APIs",
+      "Model Context Protocol (MCP)",
+      "RAG"
+    ],
+    "questionsHeading": "Questions people ask before hiring a data engineer.",
+    "questions": [
+      {
+        "question": "How much does it cost to hire a data engineer from India?",
+        "answer": "We quote after a scoping call. The figure depends on the role, seniority, allocated capacity, duration and the support expected outside overlap hours, so a number before that conversation would be a guess. MV.tech's remote model keeps office and account-management overhead out of the price, and we ask you to compare proposals on the same scope, seniority and support expectations."
+      },
+      {
+        "question": "Can a remote team in India work in our timezone?",
+        "answer": "Yes. India Standard Time overlaps every major business region for part of the day, and we agree the window in your local time before the engineer starts. Typical windows are 9:00 am to 1:00 pm US Eastern, 7:00 to 10:00 am US Pacific, 9:00 am to 3:30 pm in the UK, 9:00 am to 4:00 pm in Central Europe, most of the day in the Gulf and 12:30 to 6:00 pm in eastern Australia. Overlap does not mean round-the-clock support; any out-of-hours coverage is written into the scope separately."
+      },
+      {
+        "question": "Can we hire a fractional or part-time data engineer?",
+        "answer": "Yes. A fractional arrangement of a few days a week suits a small team that needs senior judgement on pipelines, warehouse modelling or BI without a full-time hire. The capacity, the days and the overlap hours are agreed up front, and the engineer stays the same person for the duration rather than whoever is free that week."
+      },
+      {
+        "question": "Will we get a named engineer or a bench?",
+        "answer": "A named engineer. You meet the person before anything is signed, review their experience against your stack and work with them directly for the duration. If the engagement grows into a team, composition, start dates and availability are confirmed during scoping rather than implied by the website."
+      },
+      {
+        "question": "What is the difference between staff augmentation, a scoped project and recruitment?",
+        "answer": "With staff augmentation the engineer works inside your team under your leads' direction for an agreed capacity and duration. With a scoped project MV.tech owns a defined deliverable, its acceptance criteria and handover. With technology recruitment you hire a permanent employee into your own organisation and agree employment terms with them directly. We clarify which arrangement you need before discussing candidates or consultants."
+      },
+      {
+        "question": "How does a trial milestone reduce the risk of hiring remotely?",
+        "answer": "Because you judge delivered work rather than an interview. The first milestone is small, written down and checkable: a pipeline that reconciles to the source, a model whose figures match the ones people report, a dashboard with documented definitions. If the result or the working relationship is not right, the engagement ends at the review with the work and its documentation handed over."
+      },
+      {
+        "question": "What should we share before asking to hire a data engineer?",
+        "answer": "The workstream or backlog, the source systems and target warehouse or BI tools, the skills you need, the expected duration and capacity, your timezone and the hours that matter, and any constraints around security or access. A sanitised example of the data is enough for the first call; credentials are never needed for an enquiry."
+      }
+    ],
+    "relatedResourcesHeading": "Three ways to hire, and how to choose between them.",
+    "relatedResources": [
+      {
+        "href": "/services/it-staff-augmentation/",
+        "kicker": "Embedded engineer or team",
+        "title": "IT staff augmentation and dedicated remote teams",
+        "text": "Add a named engineer or a small team to your own workflow, in your tools and overlap hours, for an agreed capacity and duration.",
+        "label": "Staff augmentation"
+      },
+      {
+        "href": "/services/data-engineering/",
+        "kicker": "Scoped project",
+        "title": "Data engineering and ETL consulting",
+        "text": "Hand MV.tech a defined deliverable with acceptance criteria and handover: pipelines, warehouse layers, migrations and data quality.",
+        "label": "Project delivery"
+      },
+      {
+        "href": "/services/technology-recruitment/",
+        "kicker": "Permanent hire",
+        "title": "Technology recruitment for permanent roles",
+        "text": "Recruit a data, analytics, BI or AI engineer into your organisation, with an engineer shaping the brief and assessing technical fit.",
+        "label": "Permanent recruitment"
+      }
+    ],
+    "summary": "Hire named senior data, analytics, BI and AI engineers from India as embedded capacity or a scoped project that starts with a written first milestone, or use technology recruitment for a permanent hire.",
+    "ogTitle": "Hire data engineers: named, senior, in your hours",
+    "ogKicker": "Named engineers · Agreed overlap · Written first milestone · Three ways to hire",
+    "relatedServiceKeys": [
+      "offshore-data-engineering-team",
+      "it-staff-augmentation",
+      "technology-recruitment"
+    ]
+  },
+  {
+    "path": "/services/snowflake-consulting/",
+    "key": "snowflake-consulting",
+    "name": "Snowflake Consulting",
+    "title": "Snowflake Consulting, Migration & Power BI Modelling | MV.tech",
+    "description": "Independent Snowflake consulting: migrate SQL Server, Oracle and spreadsheets into layered Snowflake, model for Power BI, reconcile sources and tune cost.",
+    "h1": "Snowflake consulting and migration from an independent engineering team.",
+    "eyebrow": "Service · Snowflake consulting",
+    "serviceType": "Snowflake consulting and migration",
+    "intro": "Most Snowflake problems are design problems: one schema doing the job of four layers, warehouses sized by guesswork and Power BI figures that no longer match the source. MV.tech is not a Snowflake reseller or partner programme member; it works as an independent engineering team that migrates legacy reporting and SQL Server, Oracle and spreadsheet estates into Snowflake with raw, staging, curated and reporting layers, fact and dimension models for Power BI, and reconciliation at every stage. In a previous engagement at Volvo Cars via Toptal, MV.tech's founder migrated legacy and manual reporting into a Snowflake warehouse with those four layers, built fact and dimension models for Power BI with source-to-target mappings, and delivered a lead-to-sale matchback comparison between Volvo's attribution and an external vendor across about 427K lead-month records.",
+    "fitHeading": "When does a Snowflake consultant make sense?",
+    "fit": [
+      "Reporting still runs on SQL Server, Oracle or a folder of spreadsheets, Snowflake has been chosen as the target, and nobody has mapped what depends on the old estate.",
+      "Snowflake is already in place, but everything landed in one schema with no raw, staging, curated or reporting separation to build on.",
+      "Power BI reads Snowflake through hand-written queries rather than fact and dimension tables, so every report calculates its own version of revenue.",
+      "Monthly credit consumption keeps rising and nobody can say which warehouses, queries or refreshes are responsible.",
+      "Figures in Snowflake, Salesforce CRM Analytics and the finance system disagree, and reconciling them is a manual job each month.",
+      "Ingestion through Azure Data Factory or Python jobs works most days, with no validation that would catch the days it does not.",
+      "A previous migration attempt stalled because the new numbers did not match the old ones and no one could explain why."
+    ],
+    "deliverablesHeading": "What does Snowflake consulting from MV.tech include?",
+    "deliverables": [
+      {
+        "title": "Migration from SQL Server, Oracle and spreadsheets",
+        "text": "Catalogue the source estate from the information schema, DDL, query logs and job schedules, then write a source-to-target mapping per object: target table and layer, data types, transformation rules, keys, grain and historical scope. Spreadsheet reporting is handled the same way, with the rules that live in formulas written down before they are modelled. Each load is reconciled against the legacy figures so cutover happens on evidence rather than on a date."
+      },
+      {
+        "title": "Raw, staging, curated and reporting layers",
+        "text": "Design Snowflake as four separated layers: raw as it arrived, staging typed and conformed, curated facts and dimensions, and reporting views shaped for the tools that read them. Each layer has an owner, a refresh dependency and a check that proves it loaded, which is what keeps the warehouse maintainable after the project ends."
+      },
+      {
+        "title": "Fact and dimension models for Power BI",
+        "text": "Build fact and dimension tables at an agreed grain, with conformed dimensions, bridge tables for many-to-many relationships and source-load tracking, then the curated views Power BI imports or queries directly. Existing Power BI and DAX models are profiled first, so a rebuild is a justified decision rather than a default."
+      },
+      {
+        "title": "Views and curated datasets",
+        "text": "Publish curated datasets analysts can query without writing joins: consistent naming, a description on every column, technical fields hidden and governed measures kept apart from someone's own analysis. Secure views and role-based grants control who sees what without copying the data."
+      },
+      {
+        "title": "Validation and reconciliation across sources",
+        "text": "Automated comparison at each stage: record counts, date coverage, nulls, duplicates, control totals and metric-level comparison of the figures people report, across the source systems, Snowflake and the BI layer. Differences are explained rather than rounded away, and each one ends as a fix or a documented, deliberate change."
+      },
+      {
+        "title": "Cost and performance tuning",
+        "text": "Reduce what each query reads and what each warehouse costs: clustering keys chosen against real query patterns, warehouse sizes and auto-suspend settings taken from the query history rather than guesswork, incremental loads in place of full refreshes, and materialised results where a report reads the same aggregate every hour. The before-and-after is measured on your own queries and credit consumption."
+      },
+      {
+        "title": "Salesforce CRM Analytics and Azure Data Factory ingestion",
+        "text": "Where reporting already lives in Salesforce CRM Analytics, handle the datasets, recipes, dataflows and field mapping so Snowflake and CRM Analytics agree on the same figures. Where sources sit in Azure, build Azure Data Factory pipelines through Blob Storage into Snowflake with incremental loads, retries and logging, and Python and SQL ingestion elsewhere."
+      },
+      {
+        "title": "Handover and operating documentation",
+        "text": "Mappings, ER diagrams, validation results, refresh schedules, the role and grant model, cost monitoring and runbooks, written for the people who will run Snowflake after the engagement. Handover is part of the scope, not an extra."
+      }
+    ],
+    "scopeHeading": "What is a sensible first Snowflake project?",
+    "scope": "One reporting domain, taken the whole way. Pick finance, sales or operations and cover discovery of its sources, source-to-target mapping, the four Snowflake layers, a fact and dimension model, reconciliation against the figures people trust today and one Power BI report repointed at the result. It is small enough to correct cheaply and complete enough to prove the layer design, the validation approach and the cost profile on your data. The remaining domains are then estimated from what the first one showed rather than from a template, and we quote after a scoping call.",
+    "approach": [
+      {
+        "title": "Discover and map",
+        "text": "Profile the source estate, its dependencies and any existing Snowflake usage, agree the layer design and write the source-to-target mapping and migration sequence."
+      },
+      {
+        "title": "Build and reconcile",
+        "text": "Load and model one domain at a time, comparing each layer with the source on counts, coverage, totals and reported metrics before the next domain begins."
+      },
+      {
+        "title": "Tune, cut over and hand over",
+        "text": "Set clustering, warehouse sizing and refresh schedules from real query history, repoint Power BI on evidence, and hand over mappings, grants and runbooks."
+      }
+    ],
+    "tools": [
+      "Snowflake",
+      "SQL Server",
+      "Oracle",
+      "Azure SQL",
+      "Azure Data Factory",
+      "Matillion",
+      "Salesforce CRM Analytics",
+      "Power BI",
+      "DAX",
+      "Python",
+      "SQL",
+      "Parquet",
+      "Excel",
+      "Dimensional modelling",
+      "Semantic models"
+    ],
+    "questionsHeading": "Questions about Snowflake consulting.",
+    "questions": [
+      {
+        "question": "Is MV.tech a Snowflake consulting partner?",
+        "answer": "No. MV.tech is not a Snowflake reseller or a member of the Snowflake partner programme; it works as an independent engineering team that designs, migrates and tunes Snowflake warehouses on your own Snowflake account. You buy Snowflake from Snowflake and engineering from us, so there is no resale margin in the advice. The founder holds the Google Cloud Professional Data Engineer certification; MV.tech makes no Snowflake certification or partner claims."
+      },
+      {
+        "question": "How much does Snowflake consulting cost?",
+        "answer": "For Snowflake work, we quote after a scoping call. The estimate depends on the number of source systems, the volume of historical data, how much logic is hidden in views, stored procedures and spreadsheets, the Power BI models to be repointed and the support expected afterwards. A first domain is scoped as a bounded piece of work so the figure for the rest of the estate rests on your data rather than on a template."
+      },
+      {
+        "question": "How do you migrate SQL Server or Oracle to Snowflake without breaking reports?",
+        "answer": "Dependency analysis first, reconciliation throughout. Before anything moves we trace which reports, extracts and semantic models read each object and flag the platform-specific SQL, cross-database joins and hardcoded rules that will not survive the move. Layers are then built and compared with the legacy numbers stage by stage, and dashboards are repointed visual by visual, usually while both platforms run in parallel."
+      },
+      {
+        "question": "Should Power BI connect to Snowflake with Import or DirectQuery?",
+        "answer": "Import for most governed reporting, DirectQuery where data must be current to the minute or is too large to hold in memory, and a composite model when one report needs both. The more important decision is upstream: Power BI should read fact and dimension tables and curated views from the reporting layer, not raw tables, so the model stays small and the business logic lives in one place. We profile the existing model before recommending a change."
+      },
+      {
+        "question": "Why is our Snowflake bill rising, and can you reduce it?",
+        "answer": "Usually because warehouses stay awake for queries that scan more than they should. The common causes are missing clustering on large tables, full refreshes where incremental loads would do, oversized warehouses with long auto-suspend settings and reports that repeat the same aggregate many times an hour. We measure from the query history, change the few things that account for most of the spend and show the before-and-after on your own credit consumption."
+      },
+      {
+        "question": "Can a remote team in India run our Snowflake migration?",
+        "answer": "Yes. MV.tech works from Ahmedabad, India, and agrees a collaboration window in your timezone before work begins: US Eastern mornings, UK and European business hours, Gulf hours or Asia-Pacific afternoons. Snowflake work suits remote delivery because access is role-based and every change can be reviewed as SQL in a pull request. Reconciliation results, decisions and handover notes are written down where your team can read them the next morning."
+      },
+      {
+        "question": "Can you reconcile Snowflake with Salesforce CRM Analytics and our finance system?",
+        "answer": "Yes, and it is often the part that earns trust in the warehouse. We compare the same metric across the source systems, Snowflake and the CRM Analytics or BI layer at an agreed grain, then investigate every difference until it is fixed or documented as a deliberate change. That investigation sometimes shows that the legacy figure was the wrong one."
+      }
+    ],
+    "relatedResourcesHeading": "Resources for planning a Snowflake project.",
+    "relatedResources": [
+      {
+        "href": "/services/data-warehouse-migration/",
+        "kicker": "Service detail",
+        "title": "Data warehouse migration",
+        "text": "The wider migration service: discovery, dependency analysis, source-to-target mapping and cutover for Snowflake, BigQuery or Redshift.",
+        "label": "Migration service"
+      },
+      {
+        "href": "/services/business-intelligence/",
+        "kicker": "Service detail",
+        "title": "Business intelligence and Power BI",
+        "text": "Semantic models, DAX and governed KPI definitions for the reports that will read from Snowflake.",
+        "label": "BI service"
+      },
+      {
+        "href": "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
+        "kicker": "Buyer's checklist",
+        "title": "12 questions to ask before hiring a remote data consultancy",
+        "text": "Who does the work, how the first milestone is scoped and how correctness is proven.",
+        "label": "Hiring checklist"
+      }
+    ],
+    "summary": "Snowflake migration, layered warehouse design, fact and dimension models for Power BI, reconciliation across sources and credit tuning from an independent engineering team.",
+    "ogTitle": "Snowflake consulting and migration",
+    "ogKicker": "Migration · Layered design · Power BI models · Reconciliation · Cost tuning",
+    "relatedServiceKeys": [
+      "data-warehouse-migration",
+      "data-engineering",
+      "business-intelligence"
+    ]
+  },
+  {
+    "path": "/services/bigquery-consulting/",
+    "key": "bigquery-consulting",
+    "name": "BigQuery Consulting",
+    "title": "BigQuery Consultant & Google Cloud Data Engineering | MV.tech",
+    "description": "BigQuery consulting: warehouse design, partitioning and clustering from real queries, Cloud Run ingestion, Looker Studio reporting, cost control and migration.",
+    "h1": "BigQuery consulting for warehouse design, ingestion, reporting and cost.",
+    "eyebrow": "Service · BigQuery consulting",
+    "serviceType": "BigQuery consulting and Google Cloud data engineering",
+    "intro": "BigQuery is quick to start on and easy to run up a bill on. MV.tech designs BigQuery warehouses around the queries that will actually run against them, with partitioning, clustering and layered datasets chosen from the query log rather than from habit, and builds the ingestion, Cloud Run jobs, Looker Studio reporting and cost controls around them. MV.tech's founder holds the Google Cloud Professional Data Engineer credential, an individual certification rather than a Google partnership.",
+    "fitHeading": "When should you hire a BigQuery consultant?",
+    "fit": [
+      "Hire one when the warehouse costs more each month and nobody can say which queries, scheduled jobs or dashboards are responsible.",
+      "Tables were loaded as they arrived, without partitions or clustering, and every report query scans the full history.",
+      "Reporting is moving off SQL Server, PostgreSQL, Redshift, Snowflake or spreadsheets into Google Cloud and nothing has been mapped yet.",
+      "Data comes from APIs, CSV exports, operational databases or blockchain nodes through scripts that run on someone's laptop.",
+      "Looker Studio reports are slow, disagree with each other or read raw tables directly.",
+      "The company already runs on Google Workspace or Google Cloud and wants the warehouse to sit next to everything else.",
+      "There is a data engineer's worth of BigQuery work waiting and nobody on the team has run BigQuery in production."
+    ],
+    "deliverablesHeading": "What does a BigQuery consultant deliver?",
+    "deliverables": [
+      {
+        "title": "Warehouse design and dataset layout",
+        "text": "Datasets separated into raw, staging, curated and reporting layers, with naming standards, a named owner per table and access granted at dataset level rather than to individuals. Production and development live in separate projects, so a test query cannot touch the bill or the tables finance reads. The on-demand versus slot-reservation decision is made from measured usage, not at the outset."
+      },
+      {
+        "title": "Partitioning and clustering against real query patterns",
+        "text": "Read the INFORMATION_SCHEMA job history to see which tables are hit, which columns the queries filter and join on and how many bytes each one bills, then choose the partition column, clustering keys and partition-filter requirement from that evidence. The before-and-after is measured on your own queries, in bytes billed and seconds, not on a benchmark."
+      },
+      {
+        "title": "Ingestion from APIs, files, databases and on-chain sources",
+        "text": "Python ingestion into Cloud Storage and BigQuery, using load jobs where batch is fine and streaming only where latency justifies the cost. Incremental watermarks, backfills, MERGE-based deduplication and schema changes are handled per source: pagination and rate limits on REST APIs, change tracking on PostgreSQL and other operational databases, and block ranges and reorgs from node RPCs."
+      },
+      {
+        "title": "Cloud Run jobs, scheduling and secrets",
+        "text": "Each pipeline runs as a containerised job on Cloud Run, triggered on a schedule, with secrets in Secret Manager, logs in Cloud Logging and deployment through GitHub Actions so every change is reviewable. Jobs are written to be rerun safely: the same run twice produces the same tables, not duplicate rows."
+      },
+      {
+        "title": "Looker Studio reporting on curated views",
+        "text": "Reports connect to curated views with agreed metric definitions, never to raw tables, so a dashboard edit cannot change a number and a slow report cannot scan a year of history. In a previous engagement at BCW, MV.tech's founder led the design and build of a cross-chain inventory ledger in BigQuery for the Immutable gaming ecosystem, consolidating Immutable X, Immutable zkEVM, Ethereum and Bitcoin transactions with FX reference tables, token-level valuation and 22+ wallet- and network-level KPIs, reported in Looker Studio with finance-user override controls and a full audit trail."
+      },
+      {
+        "title": "Cost control",
+        "text": "A per-project view of who spends what, built from the job and billing metadata BigQuery already keeps. Then the levers in order of effect: partition filters enforced, clustering on the columns reports filter on, maximum-bytes-billed limits and custom quotas per user, materialised views for the queries dashboards repeat, partition expiry on raw data, and a review of scheduled queries nobody reads."
+      },
+      {
+        "title": "Migrations into BigQuery",
+        "text": "Move a SQL Server, PostgreSQL, Oracle, Redshift or Snowflake estate, or the spreadsheets that stand in for one, with a written source-to-target mapping per object, SQL translated and tested rather than pasted, and record counts, control totals and reported metrics reconciled at each layer before anything is switched off. The full method is on the data warehouse migration page."
+      },
+      {
+        "title": "Data quality, documentation and handover",
+        "text": "Freshness, row-count and reconciliation checks between layers that fail loudly, column descriptions on every curated table, and a runbook that says how to rerun a job, roll back a load and extend the model. Handover is to your team, with the IAM roles, schedules and ownership written down."
+      }
+    ],
+    "scopeHeading": "What is a sensible first BigQuery project?",
+    "scope": "One report people rely on, or the one table that dominates the bill, taken the whole way through. Ingest its sources through a Cloud Run job, land them in raw and curated layers with partitions and clustering chosen from the query log, reconcile the output against the figures people trust today, publish it in Looker Studio and record bytes billed before and after. That is small enough to verify in weeks, and it settles the dataset layout, the scheduling pattern and the validation checks that every later source reuses. We quote after a scoping call, with the estimate for the rest of the warehouse based on your query history rather than on a template.",
+    "approach": [
+      {
+        "title": "Read the query log first",
+        "text": "Profile job history, table sizes, scheduled queries and dashboards to find where the bytes and the risk are before proposing any design."
+      },
+      {
+        "title": "Build and measure",
+        "text": "Load, model and schedule one domain, reconciling against existing numbers and recording bytes billed and run time before and after."
+      },
+      {
+        "title": "Hand over with controls",
+        "text": "Leave quotas, partition rules, alerts, documentation and ownership in place so the warehouse stays cheap after the engagement ends."
+      }
+    ],
+    "tools": [
+      "BigQuery",
+      "Google Cloud",
+      "SQL",
+      "Python",
+      "Cloud Run",
+      "Cloud Logging",
+      "Looker Studio",
+      "Power BI",
+      "Parquet",
+      "REST APIs",
+      "PostgreSQL",
+      "Node RPCs",
+      "Docker",
+      "GitHub Actions"
+    ],
+    "questionsHeading": "Questions people ask before hiring a BigQuery consultant.",
+    "questions": [
+      {
+        "question": "How much does BigQuery consulting cost?",
+        "answer": "We quote after a scoping call. The estimate depends on the number of sources, the volume of history to load, how much SQL needs translating, the reports in scope and whether you want support after handover. A first project is scoped to be verifiable in weeks, and the quote for anything beyond it is based on your own query history."
+      },
+      {
+        "question": "Why is our BigQuery bill so high?",
+        "answer": "Usually because queries read more than they need to. The common causes are tables with no partitioning, dashboards that query raw tables, scheduled queries that rebuild full history every hour and SELECT * in views that other views build on. The fix starts with the job history, which shows exactly which queries bill the most bytes and who runs them, and then applies partition filters, clustering, materialised views and per-user limits in that order."
+      },
+      {
+        "question": "Should we partition BigQuery tables by ingestion time or by an event date column?",
+        "answer": "By the column your queries filter on, which is usually an event or transaction date. Ingestion-time partitioning is simpler to load but only helps when reports ask about when data arrived, which they rarely do. Where late-arriving records are common, the load uses MERGE into the correct date partition rather than appending to today's, and a partition-filter requirement stops anyone scanning the full table by accident."
+      },
+      {
+        "question": "Can you migrate us to BigQuery from SQL Server, PostgreSQL, Redshift or Snowflake?",
+        "answer": "Yes. The work starts with discovery of what exists and what depends on it, then a source-to-target mapping per object, SQL translated and tested, and reconciliation of counts, totals and reported metrics at each layer before the old platform is switched off. Platform-specific SQL, stored procedures and cross-database joins are the usual blockers, and they are found in discovery rather than at cutover."
+      },
+      {
+        "question": "Can a remote team in India run our BigQuery project?",
+        "answer": "Yes. MV.tech works from Ahmedabad, India, and agrees a collaboration window in your timezone before the engagement starts, which typically covers UK and European business hours, US Eastern mornings, Gulf hours or Asia-Pacific afternoons. Access is through your own Google Cloud project with IAM roles you grant and can revoke, logs stay in your project and no credentials are needed for an initial enquiry."
+      },
+      {
+        "question": "Is Looker Studio good enough, or do we need Power BI?",
+        "answer": "Looker Studio is reasonable for reporting over BigQuery when the model lives in the warehouse and the reports read curated views. Power BI becomes the better choice when you need a governed semantic layer, row-level security or complex measures, or when the organisation already runs on Microsoft 365. Either way the metric definitions belong in BigQuery, so changing the reporting tool later is a repointing exercise rather than a rebuild."
+      },
+      {
+        "question": "Is MV.tech a Google Cloud partner?",
+        "answer": "No. MV.tech is not a Google partner. Its founder holds the Google Cloud Professional Data Engineer credential, which is an individual certification, and has built BigQuery pipelines in previous roles. If partner status matters for your procurement, say so on the first call."
+      }
+    ],
+    "relatedResourcesHeading": "Reading before you hire a BigQuery consultant.",
+    "relatedResources": [
+      {
+        "href": "/services/data-warehouse-migration/",
+        "kicker": "Service detail",
+        "title": "Data warehouse migration",
+        "text": "How a migration into BigQuery is discovered, mapped, reconciled and cut over.",
+        "label": "Migration service"
+      },
+      {
+        "href": "/services/blockchain-data-analytics/",
+        "kicker": "Service detail",
+        "title": "Blockchain and on-chain data analytics",
+        "text": "Cross-chain ingestion into BigQuery, event decoding, token valuation and reconciliation.",
+        "label": "On-chain data"
+      },
+      {
+        "href": "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
+        "kicker": "Buyer's checklist",
+        "title": "12 questions to ask before hiring a remote data consultancy",
+        "text": "Who does the work, how the first milestone is scoped and how correctness is proven.",
+        "label": "Hiring checklist"
+      }
+    ],
+    "summary": "BigQuery warehouse design, partitioning and clustering from real query patterns, Cloud Run ingestion, Looker Studio reporting, cost control and migrations into BigQuery.",
+    "ogTitle": "BigQuery consulting & Google Cloud data engineering",
+    "ogKicker": "Warehouse design · Partitioning · Cloud Run · Looker Studio · Cost control",
+    "relatedServiceKeys": [
+      "data-engineering",
+      "data-warehouse-migration",
+      "business-intelligence"
+    ]
+  },
+  {
+    "path": "/services/power-bi-consulting/",
+    "key": "power-bi-consulting",
+    "name": "Power BI Consulting",
+    "title": "Power BI Consultant: Semantic Models, DAX & Refresh | MV.tech",
+    "description": "Remote Power BI consulting: semantic models with an explicit grain, DAX, slow refresh fixes, SSAS migrations and KPI definitions reconciled to source.",
+    "h1": "Power BI consulting: semantic models, DAX and refreshes that finish on time.",
+    "eyebrow": "Service · Power BI consulting",
+    "serviceType": "Power BI consulting and semantic model development",
+    "intro": "A Power BI report is only as good as the model underneath it. MV.tech provides remote Power BI consultants and developers who build semantic and dimensional models with an explicit grain, write and review DAX, fix slow refreshes, migrate SSAS and Azure Analysis Services models and reconcile every figure on a report back to its source. We review the model you already have before proposing that anything is rebuilt.",
+    "fitHeading": "When does a Power BI consultant make sense?",
+    "fit": [
+      "A Power BI dashboard refresh is slow or times out, and the workaround so far has been to import less data.",
+      "The model has grown report by report: no agreed grain, duplicated measures and DAX nobody wants to touch.",
+      "Two reports answer the same question with different numbers and nobody can say which one is right.",
+      "An SSAS or Azure Analysis Services model has to move to Power BI and nobody has documented what it contains.",
+      "Analysts export to Excel because the published dataset cannot answer their follow-up question.",
+      "A KPI exists in several reports with several definitions and no owner.",
+      "You need a remote Power BI developer alongside your team for a defined phase rather than a permanent hire."
+    ],
+    "deliverablesHeading": "What does a Power BI consultant deliver?",
+    "deliverables": [
+      {
+        "title": "Semantic and dimensional models with an explicit grain",
+        "text": "Star schemas with fact tables at a stated grain, conformed dimensions shared across subject areas, bridge tables where a relationship is genuinely many-to-many and a date table every measure filters through. The grain is written down before the first measure is, because most wrong totals in Power BI trace back to a fact table at the wrong grain rather than to the DAX on top of it."
+      },
+      {
+        "title": "DAX measures, calculation groups and Tabular Editor",
+        "text": "Measures written once in the model and reused by every report, with calculation groups for time intelligence and currency rather than a copy per visual. Tabular Editor is used for scripted changes, measure organisation and best-practice rules, and DAX Studio for query timings, so a slow visual is traced to a specific measure rather than guessed at."
+      },
+      {
+        "title": "Source-to-target mappings",
+        "text": "A written mapping per table: the source system and query, the warehouse or dataflow layer it passes through, the Power BI table and column, data types, transformation rules, keys and the check that proves it landed. It is what a reviewer reads to understand where a number came from, and it is what the reconciliation tests are generated from."
+      },
+      {
+        "title": "Refresh performance",
+        "text": "Profile the model first: storage mode, column cardinality, calculated columns that belong upstream, unused columns and Power Query steps that stopped folding so whole tables are pulled before they are filtered. The usual fixes are incremental refresh with a proper partition policy, aggregation tables, pushing transformation back into the warehouse and removing what nothing reads, with refresh duration measured before and after on your own gateway or capacity."
+      },
+      {
+        "title": "SSAS and Azure Analysis Services migration",
+        "text": "Document what the tabular model contains — tables, relationships, calculated columns, measures, roles and the reports depending on each — then move it into a Power BI semantic model through the XMLA endpoint, or rebuild it where the old model was itself the problem. Measures are compared old against new on identical filters before any report is repointed."
+      },
+      {
+        "title": "Governed KPI definitions",
+        "text": "Each metric written down: the calculation, the filters, the grain, the owner and the reports it is allowed to appear on. Definitions live in the model's measure descriptions and in a catalogue your team can read without opening Power BI Desktop, so a KPI cannot quietly diverge between reports."
+      },
+      {
+        "title": "Self-service datasets",
+        "text": "A shared dataset analysts can slice without writing joins: naming standards, hidden technical columns, a description on every field, row-level security where the data needs it and a clear line between governed measures and someone's own analysis. Thin reports connect live to it instead of each carrying its own copy of the data."
+      },
+      {
+        "title": "Reconciliation of report figures to source",
+        "text": "Automated comparisons between what a report shows and what the source system holds: record counts, control totals, date coverage and the specific figures people act on, run on every refresh rather than once at sign-off. In a previous engagement at Volvo Cars via Toptal, MV.tech's founder designed fact and dimension models for Power BI with source-to-target mappings, built validation and reconciliation checks across source systems, Snowflake, Salesforce CRM Analytics and BI reports, and delivered a lead-to-sale matchback comparison across about 427K lead-month records for executive review."
+      }
+    ],
+    "scopeHeading": "Where should a Power BI engagement start?",
+    "scope": "With one report that someone relies on and nobody fully trusts. We agree the grain, write down the definition of every figure on it, map each table back to its source, repair or rebuild the model behind it and reconcile the result against the numbers the business accepts today, with refresh time measured before and after. It is small enough to correct cheaply, and it leaves behind a semantic model, a measure catalogue and a reconciliation test that the next reports reuse. Wider self-service datasets, an Analysis Services migration or a full workspace review are scoped once the first report is signed off.",
+    "approach": [
+      {
+        "title": "Review the model",
+        "text": "Profile storage mode, relationships, cardinality, DAX and refresh history, and record which figures disagree with source and why."
+      },
+      {
+        "title": "Model, measure and map",
+        "text": "Build or repair the semantic model at an agreed grain, write each measure once, and keep the source-to-target mapping and KPI definitions alongside it."
+      },
+      {
+        "title": "Reconcile and hand over",
+        "text": "Compare report figures with source on every refresh, publish with access rules and documentation, and work with the people who will extend it."
+      }
+    ],
+    "tools": [
+      "Power BI",
+      "DAX",
+      "Tabular Editor",
+      "DAX Studio",
+      "SSAS / Azure Analysis Services",
+      "Semantic models",
+      "Dimensional modelling",
+      "SQL",
+      "Snowflake",
+      "BigQuery",
+      "SQL Server",
+      "Azure Synapse",
+      "Azure Data Factory",
+      "Salesforce CRM Analytics",
+      "Excel"
+    ],
+    "questionsHeading": "Questions about hiring a Power BI consultant.",
+    "questions": [
+      {
+        "question": "Why is my Power BI dashboard refresh slow?",
+        "answer": "Usually because the model imports more than it reads, or does work at refresh time that belongs in the warehouse. The common causes are calculated columns over large fact tables, high-cardinality columns such as timestamps or free text, Power Query steps that stop folding so a whole table is pulled before it is filtered, and a full refresh where an incremental policy would do. We profile the model with DAX Studio and the refresh history first, then change the few things that account for most of the time."
+      },
+      {
+        "question": "What is a Power BI semantic model?",
+        "answer": "It is the dataset layer between your warehouse and your reports: tables, relationships, measures, hierarchies and security roles. When it exists as one governed model, every report calculates revenue the same way and analysts can build their own views without writing joins. When each report carries its own copy of the data and its own measures, the numbers drift apart."
+      },
+      {
+        "question": "Can you fix our existing Power BI model instead of rebuilding it?",
+        "answer": "Usually, and that is the cheaper place to start. The review covers grain, relationships, calculated columns, duplicated measures, storage mode and refresh behaviour, and ends in a written list of what to fix in place and what genuinely needs remodelling. A rebuild is something we have to justify, not a starting assumption."
+      },
+      {
+        "question": "Can you migrate our SSAS or Azure Analysis Services model to Power BI?",
+        "answer": "Yes. The first step is documenting what the tabular model contains and which reports depend on each table and measure, because that decides whether it can move largely as-is through the XMLA endpoint or should be remodelled. Measures are compared old against new on identical filters before any report is repointed, and both models run in parallel until the figures are signed off."
+      },
+      {
+        "question": "How much does Power BI consulting cost?",
+        "answer": "We quote after a scoping call. The estimate depends on the number of reports and sources, the state of the existing model, whether an Analysis Services migration is involved and how much reconciliation the business needs to see. A review of one existing model is a bounded piece of work and is usually the cheapest way to find out what the rest would involve."
+      },
+      {
+        "question": "Can a remote team in India work on our Power BI tenant?",
+        "answer": "Yes. MV.tech works from India Standard Time and agrees an overlap window with your team before the engagement begins, with access through your own tenant, workspaces and gateway rather than through copies of your data. Changes go through deployment pipelines or version-controlled model files, so your team can see what changed and when."
+      },
+      {
+        "question": "How do you prove the numbers on a report are right?",
+        "answer": "By reconciling them to source and keeping the check running. Record counts, control totals and date coverage per table, plus the handful of figures people actually act on, are compared against the source system on every refresh. Differences are investigated and either fixed or written down as a deliberate change, which sometimes means the old report was the one that was wrong."
+      }
+    ],
+    "relatedResourcesHeading": "Resources for planning Power BI work.",
+    "relatedResources": [
+      {
+        "href": "/services/business-intelligence/",
+        "kicker": "Service detail",
+        "title": "Business intelligence and dashboards",
+        "text": "Tableau, Looker Studio and Streamlit reporting alongside Power BI, with KPI governance and semantic layers.",
+        "label": "BI service"
+      },
+      {
+        "href": "/services/data-warehouse-migration/",
+        "kicker": "Related service",
+        "title": "Data warehouse migration",
+        "text": "Moving the sources behind your reports into Snowflake, BigQuery or Redshift with staged reconciliation.",
+        "label": "Migration service"
+      },
+      {
+        "href": "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
+        "kicker": "Buyer's checklist",
+        "title": "12 questions to ask before hiring a remote data consultancy",
+        "text": "Who does the work, how the first milestone is scoped and how correctness is proven.",
+        "label": "Hiring checklist"
+      }
+    ],
+    "summary": "Remote Power BI consulting: semantic models at an explicit grain, DAX, refresh performance, SSAS migration and report figures reconciled to source.",
+    "ogTitle": "Power BI consulting & semantic models",
+    "ogKicker": "Semantic models · DAX · Refresh performance · SSAS migration · Reconciliation",
+    "relatedServiceKeys": [
+      "business-intelligence",
+      "data-warehouse-migration",
+      "data-engineering"
+    ]
   }
 ]

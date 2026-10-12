@@ -1,0 +1,80 @@
+<!--meta
+{
+  "name": "Safe AI access to your warehouse",
+  "title": "How Do You Let an AI Assistant Query Your Data Warehouse Safely?",
+  "description": "A step-by-step pattern for giving Claude, GPT or Gemini read-only access to a warehouse: scoped identity, checked SQL, row limits, redaction and provenance.",
+  "kicker": "AI engineering",
+  "ogTitle": "Letting AI assistants query your data warehouse safely",
+  "ogKicker": "Read-only access · Checked SQL · Redaction · Provenance",
+  "published": "2026-10-12",
+  "keywords": [
+    "connect ChatGPT to database safely",
+    "AI agent database access security",
+    "read-only MCP server",
+    "text to SQL governance",
+    "Claude data warehouse access",
+    "AI assistant SQL",
+    "MCP server security"
+  ],
+  "pageTitle": "Letting AI Assistants Query Your Data Warehouse Safely | MV.tech",
+  "relatedArticleRoutes": [
+    "/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/",
+    "/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/",
+    "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/"
+  ]
+}
+-->
+<div class="in-brief">
+  <p class="eyebrow">In brief</p>
+  <ul>
+    <li>Do not give an assistant a database login. Give it a small server that connects as a read-only service identity, exposes approved tables, checks every query before it runs and logs every call.</li>
+    <li>The controls that matter are the ones the model cannot argue with: whitelisted objects, row and cost limits, identity redaction, revocable per-user tokens, and provenance and freshness on every answer.</li>
+    <li>Pilot with one warehouse, one reporting schema and one small group, and test against requests the server must refuse before anyone else connects.</li>
+  </ul>
+</div>
+
+<p>The request usually arrives as a sentence: "Can we connect ChatGPT to the warehouse?" or "Give Claude access to our data." The answer is yes, but not by pasting a connection string into a chat tool. An assistant or agent that runs arbitrary SQL as a shared account will eventually run the wrong SQL, read the wrong rows or quote a number nobody can trace. This guide sets out a read-only pattern a security team can approve and an analyst can use. If you are unsure what an MCP server is, start with <a href="/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/">the explainer</a>.</p>
+
+<h2>Why is a direct database connection the wrong starting point?</h2>
+<p>Because the model cannot be relied on to enforce anything. A direct connection leaves it to the prompt to stop the assistant writing, deleting, scanning a billion-row table or reading a column of email addresses, and prompts can be argued with. The failures are predictable: an unbounded query that costs real money on a warehouse billed by scan, a join that puts customer identities into a chat transcript, a stale figure presented as current, a shared credential nobody can revoke for one person, and no record of what was asked. Each is prevented in a server between the assistant and the warehouse, not in the model.</p>
+
+<h2>What does a safe read-only pattern look like?</h2>
+<p>It is a small service, usually an MCP server, that sits between the assistant and the warehouse and owns every decision the model should not make. The assistant sees a few named tools; the server does the authentication, validation, limiting, redaction and logging. Text-to-SQL governance, in practice, is this: the model proposes a query and the server decides whether it runs.</p>
+<div class="table-wrap" tabindex="0"><table class="data-table"><caption>Controls in a read-only warehouse connector and the failure each prevents</caption><thead><tr><th scope="col">Control</th><th scope="col">What it does</th><th scope="col">Failure it prevents</th></tr></thead><tbody>
+<tr><th scope="row">Scoped service identity</th><td>Read-only role, no write grants</td><td>Writes, deletes, privilege escalation</td></tr>
+<tr><th scope="row">Approved table list</th><td>Whitelist of reporting objects only</td><td>Queries against raw or personal-data tables</td></tr>
+<tr><th scope="row">SQL parsing and checks</th><td>Only a single SELECT over permitted objects runs</td><td>Injection, cross-schema unions, multi-statement tricks</td></tr>
+<tr><th scope="row">Row and cost limits</th><td>Caps on rows and bytes scanned before execution</td><td>Runaway bills, oversized transcripts</td></tr>
+<tr><th scope="row">Identity redaction</th><td>Identifiers masked at the source</td><td>Personal data in chat logs</td></tr>
+<tr><th scope="row">Per-user tokens</th><td>Individual, short-lived, revocable tokens</td><td>Shared credentials nobody can withdraw</td></tr>
+<tr><th scope="row">Provenance and freshness</th><td>Query, tables and last-loaded time on every answer</td><td>Untraceable or stale figures</td></tr>
+<tr><th scope="row">Call logging</th><td>Caller, tool, time, query and outcome recorded</td><td>No audit trail</td></tr>
+</tbody></table></div>
+
+<h2>Step 1: How do you scope what the assistant can see?</h2>
+<p>Create a dedicated read-only identity for the server and grant it a reporting schema only, never raw or staging layers. Then list the allowed tables and views in the server as a whitelist, so anything else fails before SQL is generated. The reporting layer matters as much as the role: curated views with agreed definitions give the assistant those definitions; raw tables make it invent its own, and two people asking the same question get two different numbers.</p>
+
+<h2>Step 2: How is generated SQL checked before it runs?</h2>
+<p>Parse it; do not pattern-match it. The server parses the SQL the model produced into a syntax tree and walks it: exactly one statement, a SELECT, every referenced object on the whitelist, no functions that read files or call out, no comment hiding a second statement. Anything that fails is refused with a message the model can act on, such as "orders_raw is not available; use orders_daily". Then apply limits: a maximum row count added to the query and, on warehouses billed by scan, a dry-run cost estimate with a ceiling. In a previous engagement at RootstockLabs, MV.tech's founder prototyped text-to-SQL over Redshift with schema retrieval and query logging.</p>
+
+<h2>Step 3: How do you keep personal data and shared credentials out of it?</h2>
+<p>Redact identity at the source and authenticate each user separately. The views the server exposes already mask or exclude names, email addresses, phone numbers and free-text fields, so no prompt can request them. Per-user tokens mean the server knows who is asking: each person holds a short-lived credential tied to their own account, and an administrator can revoke one person's access without touching anyone else's. In the same previous engagement at RootstockLabs, the founder built read-only MCP reporting tools for Claude, Codex and Cursor on top of Rootstock BI Studio, with row limits, identity redaction and per-user token revocation, released to staff in September 2026, and in a previous engagement at BCW a read-only Xero MCP server for Gemini Enterprise with per-user bearer tokens and tenant ownership checks, packaged for Cloud Run.</p>
+
+<h2>Step 4: How does an answer show where its numbers came from?</h2>
+<p>By returning metadata with every result, not just rows. The connector attaches the SQL that ran, the tables it touched, the row count and when the tables were last loaded, and the assistant repeats that in its answer: "412,000 from orders_daily, loaded at 06:10 today, 31 rows" rather than "revenue was 412,000". Exact aggregation belongs here too: sums and counts are computed in the warehouse and returned as values, not raw rows for the model to add up. The RootstockLabs tools above carried exact aggregation, freshness and provenance metadata.</p>
+
+<h2>Step 5: How do you log and test it?</h2>
+<p>Log every call and build a refusal test set before launch. Each entry records the caller, tool, time, generated SQL, rows returned and outcome, with secrets and personal data masked; agree who can read the logs and how long they are kept. For the test set, collect the questions pilot users actually ask and add the ones the server must refuse: a raw table, a query carrying a semicolon and a DROP, a prompt asking for "all customer emails", a scan over the cost ceiling, and a call with a revoked token. Run the set in CI so a change to the whitelist or parser cannot quietly widen access, and measure answer correctness, latency and cost before widening the audience.</p>
+
+<h2>What should you pilot first?</h2>
+<p>One warehouse, one reporting schema, one group of users and three or four tools: list the available tables with descriptions, run a checked query, fetch the definition of a metric. Keep writes out entirely. Choose a group that asks similar questions often, such as finance or operations, so the test set is realistic. Weeks rather than months is the right expectation. The first server establishes the authorisation pattern, the logging format and the evaluation set, and every connector added afterwards inherits them.</p>
+
+<h2>Frequently asked questions</h2>
+<div class="faq-list">
+  <details><summary><span>Is a read-only database user enough on its own?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>No. A read-only role stops writes, but it does not cap scan cost, parse SQL, redact identities, tell you who asked, attach provenance or log the call for an auditor. Those controls live in the server.</p></div></details>
+  <details><summary><span>Does this work with Claude, ChatGPT and Gemini?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>Yes. An MCP server can be used by any MCP-compatible client, including the major assistants and coding tools, and the same access layer can be wrapped as a connector for a platform such as Gemini Enterprise. Test against the clients your teams actually use, because each reads tool descriptions slightly differently.</p></div></details>
+  <details><summary><span>What does a read-only warehouse connector cost?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>The main drivers are the number of tools, the authentication model, the state of your reporting layer and how much testing the sensitivity of the data demands. A first server with a handful of tools against an existing reporting schema is a small project; we quote after a scoping call.</p></div></details>
+</div>
+
+<h2>Plan a read-only connector with MV.tech</h2>
+<p>To let an assistant answer from your warehouse without handing it the keys, bring the warehouse, the clients your teams use and the questions they ask to a <a href="/contact/#book-call">scoping call</a>. Our <a href="/services/mcp-and-ai-connectors/">MCP server and AI connector service</a> covers the scoped service identity, SQL validation, token-aware access control, logging and the refusal test set described here.</p>

@@ -1,0 +1,86 @@
+<!--meta
+{
+  "name": "Reconciling Business Central",
+  "title": "Reconciling Dynamics 365 Business Central With Your Data Warehouse",
+  "description": "Why Business Central ledger data drifts from warehouse reports, a reconciliation-first integration method and what to check before trusting a dashboard.",
+  "kicker": "Finance data engineering",
+  "ogTitle": "Reconciling Business Central with your data warehouse",
+  "ogKicker": "Why ledgers drift · Exact decimals · Control totals · A first milestone",
+  "published": "2026-10-12",
+  "keywords": [
+    "Business Central data warehouse integration",
+    "reconcile ERP data with data warehouse",
+    "Dynamics 365 Business Central reporting",
+    "finance data reconciliation pipeline",
+    "general ledger reconciliation",
+    "ERP reporting"
+  ],
+  "pageTitle": "Reconciling Business Central With Your Data Warehouse | MV.tech",
+  "relatedArticleRoutes": [
+    "/insights/data-consultancy-company-for-offshore-team/",
+    "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
+    "/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/"
+  ]
+}
+-->
+<div class="in-brief">
+  <p class="eyebrow">In brief</p>
+  <ul>
+    <li>Business Central and the warehouse usually disagree for five reasons: floating-point amounts, document date used instead of posting date, dimensions read from the current master, reversals handled on one side only, and extracts taken before the period closed.</li>
+    <li>The fix is a method: extract entities instead of reports, store amounts as exact decimals, keep a transaction table and a monthly snapshot that reconcile to each other, and compare control totals per account against the trial balance.</li>
+    <li>Before trusting a finance dashboard, ask for the control-total comparison for the last closed month. If nobody can show it to the penny, the dashboard is an estimate.</li>
+  </ul>
+</div>
+
+<p>Finance teams that report from Microsoft Dynamics 365 Business Central tend to reach the same point: the warehouse dashboard says one number, the trial balance says another, and the gap is small enough to ignore in a meeting and large enough that nobody trusts the dashboard again. This guide explains where the drift comes from, describes an integration that reconciles by design, lists what to check before a finance dashboard is used for decisions, and sets out a first milestone.</p>
+
+<h2>Why does Business Central data drift from warehouse reports?</h2>
+<p>It drifts because the warehouse copy is transformed on the way in, and every transformation is a chance to disagree with the ledger. The ledger itself is rarely wrong; the extract, the data types, the date logic and the timing of the load are where the differences enter.</p>
+<div class="table-wrap" tabindex="0"><table class="data-table"><caption>Five causes of drift between a Business Central ledger and a warehouse report</caption><thead><tr><th scope="col">Cause</th><th scope="col">How it shows up</th><th scope="col">What to check</th></tr></thead><tbody>
+<tr><th scope="row">Decimal handling</th><td>Account totals differ by a few pence, and the gap grows with volume</td><td>Whether amounts pass through a floating-point type between the API and the chart</td></tr>
+<tr><th scope="row">Posting date versus document date</th><td>Month totals disagree, but the year agrees</td><td>Which date field defines the period; Business Central's own reports use posting date</td></tr>
+<tr><th scope="row">Dimension changes</th><td>Historical cost centre figures move after someone edits a dimension value</td><td>Whether the warehouse joins to the posted dimension set or to the current master</td></tr>
+<tr><th scope="row">Deleted or reversed entries</th><td>An invoice finance says was reversed still shows, or a reversal has no original</td><td>Whether reversal pairs are both present, and whether entries changed after extraction are re-read</td></tr>
+<tr><th scope="row">Snapshot timing</th><td>Last month's numbers change on every refresh</td><td>When the extract ran relative to period close, and whether back-dated postings were picked up</td></tr>
+</tbody></table></div>
+<p>Posted ledger entries cannot be deleted, but they are not fully append-only. A reversal flags the original entry, a global dimension change can rewrite fields on existing entries, and date compression can replace detail with summarised rows, so an extract that only asks for entry numbers higher than the last one it saw misses all of that.</p>
+
+<h2>What does a reconciliation-first Business Central integration look like?</h2>
+<p>It extracts the ledger at entity level, stores every amount as an exact decimal, and keeps two tables that are checked against each other and against Business Central before anyone reads a chart from them. The parts are ordinary; the discipline is in refusing to publish a period that fails its check.</p>
+<h3>Entity-level extraction</h3>
+<p>Pull general ledger entries, the chart of accounts, dimension sets and values, and the customer and vendor ledger entries as separate tables, each keyed on its entry number and system identifier. The standard Business Central API exposes general ledger entries, accounts, dimensions and a trial balance. Page by entry number, record the last-modified timestamp, and re-read a trailing window on every run. Load the entries, not a report, and use the trial balance as the check.</p>
+<h3>Exact-decimal types</h3>
+<p>Parse amounts with a decimal parser and store them in an exact type: NUMERIC in BigQuery, NUMBER in Snowflake, DECIMAL in Redshift, numeric in PostgreSQL. Keep the currency's scale, usually two decimal places, and do all arithmetic in SQL on those columns. With exact decimals the right tolerance for an account total is zero, so every mismatch is a real finding.</p>
+<h3>Reconciled transaction and monthly snapshots</h3>
+<p>Keep one transaction table as the only source of truth, and derive a monthly snapshot at account, posting month and dimension grain from it. Reconcile the snapshot to the transaction table, and both to the Business Central balance at date. Once a period is closed and reconciled, version the snapshot; a later rerun creates a new version with a recorded difference rather than overwriting reported figures.</p>
+<h3>Control totals per account</h3>
+<p>For every account and posting month, store the entry count, debit total, credit total, net movement and highest entry number alongside the extract, and compare them with the ledger on every run. A mismatch should block publication of that period, not append a line to a log nobody reads.</p>
+<h3>A documented override path</h3>
+<p>Finance will sometimes need a figure the ledger does not yet reflect, such as a reclassification awaiting posting. Record it in a separate override table with who, when, why, the original value and the replacement, and leave the source rows untouched. The dashboard shows the override as a visible layer, which leaves an audit trail instead of an argument.</p>
+
+<h2>What should you check before trusting a finance dashboard?</h2>
+<p>Ask for the control-total comparison for the most recent closed month, and ask which date field the periods are built on. If the first answer is a shrug and the second is unclear, the dashboard is not ready for decisions.</p>
+<ul>
+  <li><strong>Closed-month totals</strong> for every account match the Business Central trial balance exactly, on a posting-date basis.</li>
+  <li><strong>Entry counts</strong> per account and month match, catching missing rows that net to zero.</li>
+  <li><strong>Reversals</strong> are either both present or both excluded, and the rule is written down.</li>
+  <li><strong>Dimensions</strong> come from the posted dimension set, so history does not move when a code is renamed.</li>
+  <li><strong>Amounts</strong> sit in an exact-decimal column with no floating-point step in between.</li>
+  <li><strong>The last extract time</strong> is visible, with a note on whether the period is closed.</li>
+  <li><strong>Overrides</strong> are listed where a reviewer can see them, with the reason for each.</li>
+</ul>
+
+<h2>What is a sensible first milestone?</h2>
+<p>One company, the general ledger and the trailing thirteen months, reconciled to the trial balance for every closed month. That is small enough to finish in weeks and large enough to expose every cause of drift above.</p>
+<p>It delivers the entity extracts, an exact-decimal transaction table, a monthly snapshot, control totals with a zero-difference result for closed periods, a note on any differences in the open period, and an override table with its process. Subledgers, more companies and the BI layer follow once that holds.</p>
+<p>In a previous engagement at RootstockLabs, MV.tech's founder developed and validated a Microsoft Dynamics 365 Business Central MCP integration covering 229,209 ledger entries and 493 accounts, with exact-decimal financial transforms and reconciled transaction and monthly snapshots. Reconciliation is most of the effort, and far cheaper to build in from the start than to add after finance has stopped trusting the numbers. Scope depends on company count, ledgers, history length and whether dimensions and subledgers are included; we quote after a scoping call.</p>
+
+<h2>Frequently asked questions</h2>
+<div class="faq-list">
+  <details><summary><span>Should we load the trial balance report instead of the ledger entries?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>No. A report is already an aggregation, so it cannot be reconciled below the level it was produced at, and it carries its author's date and dimension logic. Load the entries, derive your own monthly figures, and use the trial balance as the check.</p></div></details>
+  <details><summary><span>Is the standard Business Central API enough, or do we need an extension?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>The standard API covers general ledger entries, accounts, dimensions and a trial balance, enough for most first milestones. Missing fields such as reversal references, or volumes that make paging slow, are the usual reasons to publish a query or add a small API page.</p></div></details>
+  <details><summary><span>What happens when finance needs to adjust a number the ledger does not show yet?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>It goes into the override table with the reason, the author and the original value, and the dashboard shows it as a layer over the reconciled figure. When the posting lands in Business Central the override is retired, and the control totals confirm that ledger and report agree without it.</p></div></details>
+</div>
+
+<h2>Reconcile your Business Central reporting with MV.tech</h2>
+<p>Our <a href="/services/workflow-automation/">workflow automation service</a> covers the scheduled extracts, reconciliation checks, exception handling and override process described here. Book a <a href="/contact/#book-call">scoping call</a> with your company count, the ledgers you report from, your warehouse and the dashboard finance argues about.</p>

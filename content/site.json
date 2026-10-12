@@ -177,6 +177,22 @@
       {
         "label": "Technology recruitment",
         "href": "/services/technology-recruitment/"
+      },
+      {
+        "label": "Hire Data Engineers",
+        "href": "/services/hire-data-engineers/"
+      },
+      {
+        "label": "Snowflake Consulting",
+        "href": "/services/snowflake-consulting/"
+      },
+      {
+        "label": "BigQuery Consulting",
+        "href": "/services/bigquery-consulting/"
+      },
+      {
+        "label": "Power BI Consulting",
+        "href": "/services/power-bi-consulting/"
       }
     ],
     "company": [

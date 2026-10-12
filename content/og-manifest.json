@@ -54,6 +54,18 @@
     "kicker": "Offshore data team · Vendor fit · Timezone overlap"
   },
   {
+    "route": "/insights/letting-ai-assistants-query-your-data-warehouse-safely/",
+    "slug": "insights-letting-ai-assistants-query-your-data-warehouse-safely",
+    "title": "Letting AI assistants query your data warehouse safely",
+    "kicker": "Read-only access · Checked SQL · Redaction · Provenance"
+  },
+  {
+    "route": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
+    "slug": "insights-moving-excel-reporting-into-a-cloud-data-warehouse",
+    "title": "Moving Excel reporting into a cloud data warehouse",
+    "kicker": "Signals · Source discovery · Rules in formulas · Reconciliation"
+  },
+  {
     "route": "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
     "slug": "insights-questions-to-ask-before-hiring-a-remote-data-engineering-consultancy",
     "title": "12 questions to ask before hiring a remote data engineering consultancy",
@@ -66,6 +78,12 @@
     "kicker": "What each does · When each fits · Permissions · Evaluation · Cost"
   },
   {
+    "route": "/insights/reconciling-dynamics-365-business-central-with-your-data-warehouse/",
+    "slug": "insights-reconciling-dynamics-365-business-central-with-your-data-warehouse",
+    "title": "Reconciling Business Central with your data warehouse",
+    "kicker": "Why ledgers drift · Exact decimals · Control totals · A first milestone"
+  },
+  {
     "route": "/insights/staff-augmentation-vs-project-consulting-vs-recruitment/",
     "slug": "insights-staff-augmentation-vs-project-consulting-vs-recruitment",
     "title": "Staff augmentation vs project consulting vs recruitment",
@@ -76,6 +94,12 @@
     "slug": "insights-timezone-overlap-with-an-india-based-engineering-team",
     "title": "Working with an India-based engineering team across timezones",
     "kicker": "Overlap windows · What to agree up front · Async habits that work"
+  },
+  {
+    "route": "/insights/what-a-remote-data-engineering-team-from-india-costs/",
+    "slug": "insights-what-a-remote-data-engineering-team-from-india-costs",
+    "title": "What a remote data engineering team from India costs",
+    "kicker": "Price drivers · Where the saving comes from · Public benchmarks · Hidden costs"
   },
   {
     "route": "/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/",
@@ -108,6 +132,12 @@
     "kicker": "Knowledge assistants · MCP servers · LLM integration · Evaluation"
   },
   {
+    "route": "/services/bigquery-consulting/",
+    "slug": "services-bigquery-consulting",
+    "title": "BigQuery consulting & Google Cloud data engineering",
+    "kicker": "Warehouse design · Partitioning · Cloud Run · Looker Studio · Cost control"
+  },
+  {
     "route": "/services/blockchain-data-analytics/",
     "slug": "services-blockchain-data-analytics",
     "title": "Blockchain & on-chain data analytics",
@@ -138,6 +168,12 @@
     "kicker": "Snowflake · BigQuery · Redshift · Mapping · Reconciliation"
   },
   {
+    "route": "/services/hire-data-engineers/",
+    "slug": "services-hire-data-engineers",
+    "title": "Hire data engineers: named, senior, in your hours",
+    "kicker": "Named engineers · Agreed overlap · Written first milestone · Three ways to hire"
+  },
+  {
     "route": "/services/it-staff-augmentation/",
     "slug": "services-it-staff-augmentation",
     "title": "IT staff augmentation & dedicated remote teams",
@@ -154,6 +190,18 @@
     "slug": "services-offshore-data-engineering-team",
     "title": "Offshore data engineering team from India",
     "kicker": "Dedicated data engineers · Analytics capacity · Timezone overlap"
+  },
+  {
+    "route": "/services/power-bi-consulting/",
+    "slug": "services-power-bi-consulting",
+    "title": "Power BI consulting & semantic models",
+    "kicker": "Semantic models · DAX · Refresh performance · SSAS migration · Reconciliation"
+  },
+  {
+    "route": "/services/snowflake-consulting/",
+    "slug": "services-snowflake-consulting",
+    "title": "Snowflake consulting and migration",
+    "kicker": "Migration · Layered design · Power BI models · Reconciliation · Cost tuning"
   },
   {
     "route": "/services/technology-recruitment/",

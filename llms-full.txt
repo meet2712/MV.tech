@@ -780,7 +780,7 @@ Book a 30-minute call or email us. We respond to every enquiry, usually within o
 
 URL: https://mvtech.solutions/insights/
 Description: Practical guides from MV.tech on working with remote engineering teams across timezones, hiring data consultants, RAG, MCP servers and engagement models.
-Last modified: 2026-09-18
+Last modified: 2026-10-12
 
 Insights
 
@@ -788,6 +788,34 @@ Insights
 
 Written by the people who do the work. Plain answers to the questions teams ask before they hire a remote data, software or AI team.
 
+AI engineering
+
+### How Do You Let an AI Assistant Query Your Data Warehouse Safely?
+
+A step-by-step pattern for giving Claude, GPT or Gemini read-only access to a warehouse: scoped identity, checked SQL, row limits, redaction and provenance.
+
+12 Oct 2026 · 6 min read
+Warehouse migration
+
+### How Do You Move Excel Reporting into a Cloud Data Warehouse?
+
+How to move month-end Excel reporting into Snowflake or BigQuery: finding the sources and rules behind the spreadsheets, the order of work and reconciliation.
+
+12 Oct 2026 · 6 min read
+Finance data engineering
+
+### Reconciling Dynamics 365 Business Central With Your Data Warehouse
+
+Why Business Central ledger data drifts from warehouse reports, a reconciliation-first integration method and what to check before trusting a dashboard.
+
+12 Oct 2026 · 6 min read
+Cost guide
+
+### What Does a Remote Data Engineering Team from India Cost?
+
+What sets the price of a remote data engineering team from India, where the saving really comes from, how to compare quotes and the costs buyers forget.
+
+12 Oct 2026 · 6 min read
 Buyer question
 
 ### Looking for a Data Consultancy Company for an Offshore Team?
@@ -936,6 +964,255 @@ Remote delivery playbook
 Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
 
 6 min read
+About the author
+
+### Meet Vaghasia
+
+Meet Vaghasia is the founder of MV.tech. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+
+About MV.techToptal profileServices
+Your next step
+
+### Want help applying this?
+
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech.
+
+---
+
+# Letting AI Assistants Query Your Data Warehouse Safely | MV.tech
+
+URL: https://mvtech.solutions/insights/letting-ai-assistants-query-your-data-warehouse-safely/
+Description: A step-by-step pattern for giving Claude, GPT or Gemini read-only access to a warehouse: scoped identity, checked SQL, row limits, redaction and provenance.
+Last modified: 2026-10-12
+
+AI engineering
+
+## How Do You Let an AI Assistant Query Your Data Warehouse Safely?
+
+A step-by-step pattern for giving Claude, GPT or Gemini read-only access to a warehouse: scoped identity, checked SQL, row limits, redaction and provenance.
+
+By Meet Vaghasia, Founder & Lead Engineer · Published 12 October 2026 · 6 min read
+
+In brief
+
+- Do not give an assistant a database login. Give it a small server that connects as a read-only service identity, exposes approved tables, checks every query before it runs and logs every call.
+- The controls that matter are the ones the model cannot argue with: whitelisted objects, row and cost limits, identity redaction, revocable per-user tokens, and provenance and freshness on every answer.
+- Pilot with one warehouse, one reporting schema and one small group, and test against requests the server must refuse before anyone else connects.
+The request usually arrives as a sentence: "Can we connect ChatGPT to the warehouse?" or "Give Claude access to our data." The answer is yes, but not by pasting a connection string into a chat tool. An assistant or agent that runs arbitrary SQL as a shared account will eventually run the wrong SQL, read the wrong rows or quote a number nobody can trace. This guide sets out a read-only pattern a security team can approve and an analyst can use. If you are unsure what an MCP server is, start with the explainer.
+
+### Why is a direct database connection the wrong starting point?
+
+Because the model cannot be relied on to enforce anything. A direct connection leaves it to the prompt to stop the assistant writing, deleting, scanning a billion-row table or reading a column of email addresses, and prompts can be argued with. The failures are predictable: an unbounded query that costs real money on a warehouse billed by scan, a join that puts customer identities into a chat transcript, a stale figure presented as current, a shared credential nobody can revoke for one person, and no record of what was asked. Each is prevented in a server between the assistant and the warehouse, not in the model.
+
+### What does a safe read-only pattern look like?
+
+It is a small service, usually an MCP server, that sits between the assistant and the warehouse and owns every decision the model should not make. The assistant sees a few named tools; the server does the authentication, validation, limiting, redaction and logging. Text-to-SQL governance, in practice, is this: the model proposes a query and the server decides whether it runs.
+
+Controls in a read-only warehouse connector and the failure each prevents
+| Control | What it does | Failure it prevents |
+| Scoped service identity | Read-only role, no write grants | Writes, deletes, privilege escalation |
+| Approved table list | Whitelist of reporting objects only | Queries against raw or personal-data tables |
+| SQL parsing and checks | Only a single SELECT over permitted objects runs | Injection, cross-schema unions, multi-statement tricks |
+| Row and cost limits | Caps on rows and bytes scanned before execution | Runaway bills, oversized transcripts |
+| Identity redaction | Identifiers masked at the source | Personal data in chat logs |
+| Per-user tokens | Individual, short-lived, revocable tokens | Shared credentials nobody can withdraw |
+| Provenance and freshness | Query, tables and last-loaded time on every answer | Untraceable or stale figures |
+| Call logging | Caller, tool, time, query and outcome recorded | No audit trail |
+
+### Step 1: How do you scope what the assistant can see?
+
+Create a dedicated read-only identity for the server and grant it a reporting schema only, never raw or staging layers. Then list the allowed tables and views in the server as a whitelist, so anything else fails before SQL is generated. The reporting layer matters as much as the role: curated views with agreed definitions give the assistant those definitions; raw tables make it invent its own, and two people asking the same question get two different numbers.
+
+### Step 2: How is generated SQL checked before it runs?
+
+Parse it; do not pattern-match it. The server parses the SQL the model produced into a syntax tree and walks it: exactly one statement, a SELECT, every referenced object on the whitelist, no functions that read files or call out, no comment hiding a second statement. Anything that fails is refused with a message the model can act on, such as "orders_raw is not available; use orders_daily". Then apply limits: a maximum row count added to the query and, on warehouses billed by scan, a dry-run cost estimate with a ceiling. In a previous engagement at RootstockLabs, MV.tech's founder prototyped text-to-SQL over Redshift with schema retrieval and query logging.
+
+### Step 3: How do you keep personal data and shared credentials out of it?
+
+Redact identity at the source and authenticate each user separately. The views the server exposes already mask or exclude names, email addresses, phone numbers and free-text fields, so no prompt can request them. Per-user tokens mean the server knows who is asking: each person holds a short-lived credential tied to their own account, and an administrator can revoke one person's access without touching anyone else's. In the same previous engagement at RootstockLabs, the founder built read-only MCP reporting tools for Claude, Codex and Cursor on top of Rootstock BI Studio, with row limits, identity redaction and per-user token revocation, released to staff in September 2026, and in a previous engagement at BCW a read-only Xero MCP server for Gemini Enterprise with per-user bearer tokens and tenant ownership checks, packaged for Cloud Run.
+
+### Step 4: How does an answer show where its numbers came from?
+
+By returning metadata with every result, not just rows. The connector attaches the SQL that ran, the tables it touched, the row count and when the tables were last loaded, and the assistant repeats that in its answer: "412,000 from orders_daily, loaded at 06:10 today, 31 rows" rather than "revenue was 412,000". Exact aggregation belongs here too: sums and counts are computed in the warehouse and returned as values, not raw rows for the model to add up. The RootstockLabs tools above carried exact aggregation, freshness and provenance metadata.
+
+### Step 5: How do you log and test it?
+
+Log every call and build a refusal test set before launch. Each entry records the caller, tool, time, generated SQL, rows returned and outcome, with secrets and personal data masked; agree who can read the logs and how long they are kept. For the test set, collect the questions pilot users actually ask and add the ones the server must refuse: a raw table, a query carrying a semicolon and a DROP, a prompt asking for "all customer emails", a scan over the cost ceiling, and a call with a revoked token. Run the set in CI so a change to the whitelist or parser cannot quietly widen access, and measure answer correctness, latency and cost before widening the audience.
+
+### What should you pilot first?
+
+One warehouse, one reporting schema, one group of users and three or four tools: list the available tables with descriptions, run a checked query, fetch the definition of a metric. Keep writes out entirely. Choose a group that asks similar questions often, such as finance or operations, so the test set is realistic. Weeks rather than months is the right expectation. The first server establishes the authorisation pattern, the logging format and the evaluation set, and every connector added afterwards inherits them.
+
+### Frequently asked questions
+
+**Is a read-only database user enough on its own?**
+No. A read-only role stops writes, but it does not cap scan cost, parse SQL, redact identities, tell you who asked, attach provenance or log the call for an auditor. Those controls live in the server.
+
+**Does this work with Claude, ChatGPT and Gemini?**
+Yes. An MCP server can be used by any MCP-compatible client, including the major assistants and coding tools, and the same access layer can be wrapped as a connector for a platform such as Gemini Enterprise. Test against the clients your teams actually use, because each reads tool descriptions slightly differently.
+
+**What does a read-only warehouse connector cost?**
+The main drivers are the number of tools, the authentication model, the state of your reporting layer and how much testing the sensitivity of the data demands. A first server with a handful of tools against an existing reporting schema is a small project; we quote after a scoping call.
+
+### Plan a read-only connector with MV.tech
+
+To let an assistant answer from your warehouse without handing it the keys, bring the warehouse, the clients your teams use and the questions they ask to a scoping call. Our MCP server and AI connector service covers the scoped service identity, SQL validation, token-aware access control, logging and the refusal test set described here.
+
+Related guides
+
+### Keep planning the engagement.
+
+AI engineering
+
+### What Is an MCP Server, and When Should a Business Build One?
+
+A business-level explanation of the Model Context Protocol: what an MCP server exposes, when building one makes sense, the security decisions involved and a first project.
+
+6 min read
+AI engineering
+
+### RAG vs Fine-Tuning: Choosing the Right Approach for an Internal Knowledge Assistant
+
+A plain-language comparison of retrieval-augmented generation and fine-tuning for company knowledge assistants: when each fits, permissions, evaluation and cost.
+
+5 min read
+Buyer's guide
+
+### 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
+
+A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
+
+5 min read
+About the author
+
+### Meet Vaghasia
+
+Meet Vaghasia is the founder of MV.tech. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+
+About MV.techToptal profileServices
+Your next step
+
+### Want help applying this?
+
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech.
+
+---
+
+# Moving Excel Reporting into a Cloud Data Warehouse | MV.tech
+
+URL: https://mvtech.solutions/insights/moving-excel-reporting-into-a-cloud-data-warehouse/
+Description: How to move month-end Excel reporting into Snowflake or BigQuery: finding the sources and rules behind the spreadsheets, the order of work and reconciliation.
+Last modified: 2026-10-12
+
+Warehouse migration
+
+## How Do You Move Excel Reporting into a Cloud Data Warehouse?
+
+How to move month-end Excel reporting into Snowflake or BigQuery: finding the sources and rules behind the spreadsheets, the order of work and reconciliation.
+
+By Meet Vaghasia, Founder & Lead Engineer · Published 12 October 2026 · 6 min read
+
+In brief
+
+- A spreadsheet has become a system of record when its figures cannot be reproduced from the source systems without it. Typed-in adjustments and rules that exist only in formulas are the usual signs.
+- The migration is mostly discovery. Find the sources behind each tab, write the rules down, model them in raw, staging, curated and reporting layers, and reconcile against the last few months of manual figures before any dashboard is repointed.
+- Start with one report, not the whole month-end pack. It proves the design and the reconciliation method on something small enough to correct cheaply.
+Few finance or operations teams decide to run reporting in Excel. It happens one workaround at a time, and by the time anyone asks how to migrate Excel reporting to a data warehouse, the spreadsheet is doing a job it was never designed for. This guide covers how to recognise that point, where the sources and rules are hiding, the order of work and what should stay in a spreadsheet.
+
+### How do you know month-end spreadsheets have become a system of record?
+
+A spreadsheet has become a system of record when a figure in it cannot be rebuilt from the source systems without the spreadsheet. The test is blunt: if the file were deleted, could anyone reproduce last month's numbers from the systems alone?
+
+The usual signals:
+
+- Typed-in adjustments.Someone overwrites a cell each month because the source is known to be wrong, and the correction exists nowhere else.
+- Versioned filenames.A file calledreport_final_v3.xlsxis a change log without the log.
+- Lookups into other spreadsheets.A VLOOKUP into a file on a shared drive is a dependency on an undocumented table.
+- Two numbers for the same thing.The dashboard says one figure, the board pack another, and the spreadsheet is the one people believe.
+Each is a reason to treat the spreadsheet as a legacy system with an undocumented data model.
+
+### Where are the sources and the rules hiding?
+
+The sources are usually a handful of systems behind the export buttons, and the rules are in the formulas, the pivot filters and the adjustments people apply by hand. More of this discovery happens in conversation than in a database catalogue.
+
+- Trace each tab backwards.Who pastes into it, from which system, with which filters and date range.
+- Read the formulas as transformation rules.Nested IFs that map codes to categories, SUMIFS with hard-coded dates. Each needs a name, an owner and a test.
+- Collect the rules in people's heads."We always exclude the intercompany entities." Write them down verbatim, then make them precise.
+- Find the mapping tables hiding in tabs.Cost-centre hierarchies, region lists, owner assignments. These become dimension tables, each with an owner.
+The output is a rule register: one row per rule, where it lives today, what it does, who decides it and a worked example from a recent month. Both sides sign it off before anything is built.
+
+### What order should the work happen in?
+
+One report first, then source discovery, rules written down, warehouse layers, reconciliation against the last months of manual figures, and only then the dashboard repointed. The order matters because each step produces the acceptance test for the next.
+
+The order of work for moving one spreadsheet report into a warehouse
+| Step | What it produces | Finished when |
+| 1. Choose one report | The report a decision-maker actually uses, with tabs, inputs and recipients listed | Everyone agrees which figures on it must match |
+| 2. Source discovery | The systems, exports, filters and refresh timing behind each tab | Every input cell has a named source |
+| 3. Rules written down | A rule register with owners and worked examples | No formula or manual adjustment is unexplained |
+| 4. Warehouse layers | Raw, staging, curated and reporting layers in Snowflake, BigQuery or Redshift | The reporting layer reproduces the report's structure |
+| 5. Reconciliation | Automated comparison with the last three to six months of manual figures | Every difference is fixed or documented as deliberate |
+| 6. Dashboard repointing | Power BI, Tableau or Looker Studio reading the reporting layer | The dashboard matches the signed-off figures, visual by visual |
+Raw holds the exports as they arrived, so you can prove where a number came from; staging conforms types, keys and dates; curated holds the facts and dimensions, where the rule register becomes code; reporting holds the shapes a BI tool reads. When a reconciliation fails, the layers show which step introduced the difference.
+
+Reconciliation is the step teams are tempted to cut, and the step that decides whether anyone trusts the result. Compare row counts, control totals and every reported figure with the spreadsheet versions, and investigate each difference: some will be defects in the new pipeline, some defects in the spreadsheet found for the first time. Dashboards are repointed last, once the semantic model carries the definitions.
+
+### What does a reconciled migration of manual reporting look like in practice?
+
+It looks like a layered warehouse, a written mapping for every object and automated checks against every system that already reports the figures. In a previous engagement at Volvo Cars via Toptal, MV.tech's founder migrated legacy and manual reporting into a Snowflake warehouse with raw, staging, curated and reporting layers, designed fact and dimension models for Power BI with source-to-target mappings, and built validation and reconciliation checks across source systems, Snowflake, Salesforce CRM Analytics and BI reports. Checks of that breadth are what let a manual process be retired on evidence rather than on a date.
+
+### What should stay in a spreadsheet?
+
+Analysis, scenarios and anything one person needs for a week. A spreadsheet is the right tool for a question nobody has asked before and the wrong tool for a figure that has to be the same every month.
+
+Keep in Excel: what-if models built on a governed extract, board-pack commentary written next to figures pulled from the reporting layer, and inputs that genuinely originate with a person, such as budget assumptions, provided they are loaded into the warehouse with a timestamp and an owner. Move into the warehouse: any mapping table more than one report depends on, any adjustment applied every month, and any formula behind a figure reported to the board, the auditors or a regulator. The aim is not to ban Excel but to stop a spreadsheet being the only place a rule exists.
+
+### What is a sensible first milestone?
+
+One report, reproduced from the warehouse, reconciled against the last three months of manual figures and signed off by the person who used to build it. It gives an estimate for the rest of the pack based on your sources and rules rather than a template.
+
+Pick a report with few sources and a clear owner, agree in advance what "matches" means, run both versions in parallel for at least one close, and insist that handover includes the rule register, source mapping, reconciliation results and refresh schedule. We quote after a scoping call, because the cost depends on the number of sources and rules, not on the size of the file.
+
+### Frequently asked questions
+
+**Should we move Excel reporting to Snowflake or to BigQuery?**
+Either works, and so does Amazon Redshift. Choose by where your data already sits: BigQuery if the sources sit in Google Cloud, Snowflake if you want one platform across clouds. The discovery, the rule register and the reconciliation are the same whichever target you pick.
+
+**How long does it take to replace spreadsheets with a data warehouse?**
+Discovery on the first report typically takes weeks, and the time is driven by the number of sources and undocumented rules rather than by data volume. The rest of the pack is scoped once the first report has been reconciled. We quote after a scoping call.
+
+**Will the warehouse figures match the spreadsheet exactly?**
+Not always, and the differences are the useful part. Some turn out to be defects in the spreadsheet, such as a lookup that silently stopped matching. Each difference is investigated and then either fixed or documented as a deliberate change, with the tolerance agreed before reconciliation starts.
+
+### Plan the move with MV.tech
+
+Our data warehouse migration service covers source discovery, the rule register, raw-to-reporting layers, reconciliation and the repointed dashboard, starting with one report. Bring the month-end pack, the list of systems behind it and the person who builds it today to a scoping call. We quote after a scoping call.
+
+Related guides
+
+### Keep planning the engagement.
+
+Buyer's guide
+
+### 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
+
+A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
+
+5 min read
+Buyer question
+
+### Looking for a Data Consultancy Company for an Offshore Team?
+
+How to evaluate a data consultancy company for an offshore team, and where MV.tech fits for data engineering, analytics, BI and AI delivery from India.
+
+3 min read
+Engagement models
+
+### Staff Augmentation vs Project Consulting vs Recruitment: Which Engagement Model Fits?
+
+How to choose between embedding a consultant, commissioning a scoped project and hiring permanently for data, software and AI work: control, cost, speed and risk.
+
+5 min read
 About the author
 
 ### Meet Vaghasia
@@ -1226,6 +1503,139 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 ---
 
+# Reconciling Business Central With Your Data Warehouse | MV.tech
+
+URL: https://mvtech.solutions/insights/reconciling-dynamics-365-business-central-with-your-data-warehouse/
+Description: Why Business Central ledger data drifts from warehouse reports, a reconciliation-first integration method and what to check before trusting a dashboard.
+Last modified: 2026-10-12
+
+Finance data engineering
+
+## Reconciling Dynamics 365 Business Central With Your Data Warehouse
+
+Why Business Central ledger data drifts from warehouse reports, a reconciliation-first integration method and what to check before trusting a dashboard.
+
+By Meet Vaghasia, Founder & Lead Engineer · Published 12 October 2026 · 6 min read
+
+In brief
+
+- Business Central and the warehouse usually disagree for five reasons: floating-point amounts, document date used instead of posting date, dimensions read from the current master, reversals handled on one side only, and extracts taken before the period closed.
+- The fix is a method: extract entities instead of reports, store amounts as exact decimals, keep a transaction table and a monthly snapshot that reconcile to each other, and compare control totals per account against the trial balance.
+- Before trusting a finance dashboard, ask for the control-total comparison for the last closed month. If nobody can show it to the penny, the dashboard is an estimate.
+Finance teams that report from Microsoft Dynamics 365 Business Central tend to reach the same point: the warehouse dashboard says one number, the trial balance says another, and the gap is small enough to ignore in a meeting and large enough that nobody trusts the dashboard again. This guide explains where the drift comes from, describes an integration that reconciles by design, lists what to check before a finance dashboard is used for decisions, and sets out a first milestone.
+
+### Why does Business Central data drift from warehouse reports?
+
+It drifts because the warehouse copy is transformed on the way in, and every transformation is a chance to disagree with the ledger. The ledger itself is rarely wrong; the extract, the data types, the date logic and the timing of the load are where the differences enter.
+
+Five causes of drift between a Business Central ledger and a warehouse report
+| Cause | How it shows up | What to check |
+| Decimal handling | Account totals differ by a few pence, and the gap grows with volume | Whether amounts pass through a floating-point type between the API and the chart |
+| Posting date versus document date | Month totals disagree, but the year agrees | Which date field defines the period; Business Central's own reports use posting date |
+| Dimension changes | Historical cost centre figures move after someone edits a dimension value | Whether the warehouse joins to the posted dimension set or to the current master |
+| Deleted or reversed entries | An invoice finance says was reversed still shows, or a reversal has no original | Whether reversal pairs are both present, and whether entries changed after extraction are re-read |
+| Snapshot timing | Last month's numbers change on every refresh | When the extract ran relative to period close, and whether back-dated postings were picked up |
+Posted ledger entries cannot be deleted, but they are not fully append-only. A reversal flags the original entry, a global dimension change can rewrite fields on existing entries, and date compression can replace detail with summarised rows, so an extract that only asks for entry numbers higher than the last one it saw misses all of that.
+
+### What does a reconciliation-first Business Central integration look like?
+
+It extracts the ledger at entity level, stores every amount as an exact decimal, and keeps two tables that are checked against each other and against Business Central before anyone reads a chart from them. The parts are ordinary; the discipline is in refusing to publish a period that fails its check.
+
+#### Entity-level extraction
+
+Pull general ledger entries, the chart of accounts, dimension sets and values, and the customer and vendor ledger entries as separate tables, each keyed on its entry number and system identifier. The standard Business Central API exposes general ledger entries, accounts, dimensions and a trial balance. Page by entry number, record the last-modified timestamp, and re-read a trailing window on every run. Load the entries, not a report, and use the trial balance as the check.
+
+#### Exact-decimal types
+
+Parse amounts with a decimal parser and store them in an exact type: NUMERIC in BigQuery, NUMBER in Snowflake, DECIMAL in Redshift, numeric in PostgreSQL. Keep the currency's scale, usually two decimal places, and do all arithmetic in SQL on those columns. With exact decimals the right tolerance for an account total is zero, so every mismatch is a real finding.
+
+#### Reconciled transaction and monthly snapshots
+
+Keep one transaction table as the only source of truth, and derive a monthly snapshot at account, posting month and dimension grain from it. Reconcile the snapshot to the transaction table, and both to the Business Central balance at date. Once a period is closed and reconciled, version the snapshot; a later rerun creates a new version with a recorded difference rather than overwriting reported figures.
+
+#### Control totals per account
+
+For every account and posting month, store the entry count, debit total, credit total, net movement and highest entry number alongside the extract, and compare them with the ledger on every run. A mismatch should block publication of that period, not append a line to a log nobody reads.
+
+#### A documented override path
+
+Finance will sometimes need a figure the ledger does not yet reflect, such as a reclassification awaiting posting. Record it in a separate override table with who, when, why, the original value and the replacement, and leave the source rows untouched. The dashboard shows the override as a visible layer, which leaves an audit trail instead of an argument.
+
+### What should you check before trusting a finance dashboard?
+
+Ask for the control-total comparison for the most recent closed month, and ask which date field the periods are built on. If the first answer is a shrug and the second is unclear, the dashboard is not ready for decisions.
+
+- Closed-month totalsfor every account match the Business Central trial balance exactly, on a posting-date basis.
+- Entry countsper account and month match, catching missing rows that net to zero.
+- Reversalsare either both present or both excluded, and the rule is written down.
+- Dimensionscome from the posted dimension set, so history does not move when a code is renamed.
+- Amountssit in an exact-decimal column with no floating-point step in between.
+- The last extract timeis visible, with a note on whether the period is closed.
+- Overridesare listed where a reviewer can see them, with the reason for each.
+
+### What is a sensible first milestone?
+
+One company, the general ledger and the trailing thirteen months, reconciled to the trial balance for every closed month. That is small enough to finish in weeks and large enough to expose every cause of drift above.
+
+It delivers the entity extracts, an exact-decimal transaction table, a monthly snapshot, control totals with a zero-difference result for closed periods, a note on any differences in the open period, and an override table with its process. Subledgers, more companies and the BI layer follow once that holds.
+
+In a previous engagement at RootstockLabs, MV.tech's founder developed and validated a Microsoft Dynamics 365 Business Central MCP integration covering 229,209 ledger entries and 493 accounts, with exact-decimal financial transforms and reconciled transaction and monthly snapshots. Reconciliation is most of the effort, and far cheaper to build in from the start than to add after finance has stopped trusting the numbers. Scope depends on company count, ledgers, history length and whether dimensions and subledgers are included; we quote after a scoping call.
+
+### Frequently asked questions
+
+**Should we load the trial balance report instead of the ledger entries?**
+No. A report is already an aggregation, so it cannot be reconciled below the level it was produced at, and it carries its author's date and dimension logic. Load the entries, derive your own monthly figures, and use the trial balance as the check.
+
+**Is the standard Business Central API enough, or do we need an extension?**
+The standard API covers general ledger entries, accounts, dimensions and a trial balance, enough for most first milestones. Missing fields such as reversal references, or volumes that make paging slow, are the usual reasons to publish a query or add a small API page.
+
+**What happens when finance needs to adjust a number the ledger does not show yet?**
+It goes into the override table with the reason, the author and the original value, and the dashboard shows it as a layer over the reconciled figure. When the posting lands in Business Central the override is retired, and the control totals confirm that ledger and report agree without it.
+
+### Reconcile your Business Central reporting with MV.tech
+
+Our workflow automation service covers the scheduled extracts, reconciliation checks, exception handling and override process described here. Book a scoping call with your company count, the ledgers you report from, your warehouse and the dashboard finance argues about.
+
+Related guides
+
+### Keep planning the engagement.
+
+Buyer question
+
+### Looking for a Data Consultancy Company for an Offshore Team?
+
+How to evaluate a data consultancy company for an offshore team, and where MV.tech fits for data engineering, analytics, BI and AI delivery from India.
+
+3 min read
+Buyer's guide
+
+### 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
+
+A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
+
+5 min read
+AI engineering
+
+### What Is an MCP Server, and When Should a Business Build One?
+
+A business-level explanation of the Model Context Protocol: what an MCP server exposes, when building one makes sense, the security decisions involved and a first project.
+
+6 min read
+About the author
+
+### Meet Vaghasia
+
+Meet Vaghasia is the founder of MV.tech. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+
+About MV.techToptal profileServices
+Your next step
+
+### Want help applying this?
+
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech.
+
+---
+
 # Staff Augmentation vs Project Consulting vs Recruitment | MV.tech
 
 URL: https://mvtech.solutions/insights/staff-augmentation-vs-project-consulting-vs-recruitment/
@@ -1471,6 +1881,141 @@ Engagement models
 ### Staff Augmentation vs Project Consulting vs Recruitment: Which Engagement Model Fits?
 
 How to choose between embedding a consultant, commissioning a scoped project and hiring permanently for data, software and AI work: control, cost, speed and risk.
+
+5 min read
+About the author
+
+### Meet Vaghasia
+
+Meet Vaghasia is the founder of MV.tech. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+
+About MV.techToptal profileServices
+Your next step
+
+### Want help applying this?
+
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech.
+
+---
+
+# What a Remote Data Engineering Team from India Costs | MV.tech
+
+URL: https://mvtech.solutions/insights/what-a-remote-data-engineering-team-from-india-costs/
+Description: What sets the price of a remote data engineering team from India, where the saving really comes from, how to compare quotes and the costs buyers forget.
+Last modified: 2026-10-12
+
+Cost guide
+
+## What Does a Remote Data Engineering Team from India Cost?
+
+What sets the price of a remote data engineering team from India, where the saving really comes from, how to compare quotes and the costs buyers forget.
+
+By Meet Vaghasia, Founder & Lead Engineer · Published 12 October 2026 · 6 min read
+
+In brief
+
+- Five things set the price of a remote data engineering team: seniority, engagement shape, scope, overlap hours and support. Geography adjusts the number; it does not set it.
+- The India cost difference comes mostly from what a lean remote consultancy is not paying for: offices in expensive cities, account-management layers, idle bench capacity and a brand premium. Senior engineers in India are not cheap.
+- Compare quotes on the same scope, seniority and support, then add your own management, onboarding, access and documentation time before deciding which is cheaper.
+Search for the cost of an offshore data team in India and the first answer is usually a single hourly number. It is rarely the price you pay, because it leaves out who does the work and what happens after the build.
+
+### What determines the price of a remote data engineering team?
+
+Five variables set the price: seniority, engagement shape, scope, overlap hours and support. A quote that gives a number without stating all five is a guess with a currency symbol in front of it.
+
+- Seniority.A senior engineer who designs the model, writes the checks and reviews others' work costs more per hour than a mid-level engineer building to a specification, and usually less per finished outcome.
+- Engagement shape.Hourly time, a retainer for a named person, a pod of a lead plus two or three engineers, or a fixed-scope project each price differently. See theengagement-model comparison.
+- Scope.Source count, access complexity, historical volume, transformation rules, freshness requirements and how many dashboards depend on the result.
+- Overlap hours.A standard Indian working day already covers most of the UK and European morning. Covering US mornings means shifting the team's day; a full US afternoon is unrealistic in a normal week. Thetimezone overlap guidegives realistic windows.
+- Support.Build-and-hand-over is one price. Monitoring, maintenance, named out-of-hours response and agreed fix times are another, and should be written down.
+
+### Why is a team in India cheaper, and where does the saving come from?
+
+The difference comes from structure, not cheap labour. A lean remote consultancy is not paying for offices in expensive cities, account-management layers between you and the engineers, idle bench capacity or a brand premium, and it passes that structural difference through to the quote.
+
+Pay does differ by country, and the benchmarks below show how much. But a consultancy's rate is not its engineers' salary: it also covers employer costs, tooling, non-billable review time, the gap between hours worked and hours sold, and margin. A quote that looks like a salary divided by working hours is leaving something out or describing a different level of engineer.
+
+### What do public benchmarks say about data engineering rates?
+
+Published figures put independent US consulting firms at $100 to $325 an hour depending on seniority, nearshore teams at $45 to $95, and senior data engineer pay in India at $19,000 to $37,000 a year against $180,000 or more in the US. Treat them as a sanity check, not a price list.
+
+Public benchmark figures for data engineering rates and pay, all vendor-published and accessed 12 October 2026
+| Benchmark | Published figure (USD) | Source and status |
+| Independent US consulting firms, hourly by seniority | Mid-level $100–175; senior $150–250; principal $200–325 | bdemerson.com; vendor-published, accessed 12 October 2026 |
+| Global consultancies, hourly | $250–450 | bdemerson.com; vendor-published, accessed 12 October 2026 |
+| Nearshore teams, hourly | $45–95 | bdemerson.com; vendor-published, accessed 12 October 2026 |
+| Pod of a lead plus two or three engineers, per month | $40,000–80,000 onshore; $25,000–50,000 blended nearshore | bdemerson.com; vendor-published, accessed 12 October 2026 |
+| Fixed-scope projects | First warehouse builds from about $50,000; enterprise migrations $250,000 to over $1,000,000 | bdemerson.com; vendor-published, accessed 12 October 2026 |
+| Freelance data engineer, hourly, all levels and regions | $73–184 | secondtalent.com; vendor-published, accessed 12 October 2026 |
+| Freelance mid-level data engineer, hourly by region | US $92–145; Western Europe $49–77; Latin America $48–75; Southeast Asia $41–64 | secondtalent.com; vendor-published, accessed 12 October 2026 |
+| India data engineer annual pay, 2026 | Junior $4,000–8,500; mid $8,500–19,000; senior $19,000–37,000 | wisemonk.io; vendor-published, accessed 12 October 2026 |
+| US senior data engineer annual pay | $180,000 or more | wisemonk.io; vendor-published, accessed 12 October 2026 |
+Sources: bdemerson.com, data engineering consulting rates; secondtalent.com, cost to hire a data engineer; wisemonk.io, cost of an offshore data foundation team in India. All three are vendor-published, and none of the figures above is an India consulting rate.
+
+Three different things are measured here: consultancy billing rates, freelance rates and employee salaries, and they are not interchangeable. The India rows are pay, not what a consultancy charges, and the Southeast Asia band is a different region. Seniority moves the number as much as geography does.
+
+### How do you compare offshore, nearshore and onshore quotes like for like?
+
+Put every quote on the same basis: the same written scope, the same named seniority, the same overlap window and the same support terms, then convert each to a monthly cost at the capacity you will actually use. An hourly rate on its own compares nothing.
+
+- Fix the scope in writingand send the same document to every vendor.
+- Ask who, by name and level."A senior engineer" means little until you know whether that person designs the model or only builds to it.
+- State the overlap window in your local timeand ask each vendor to price it. Nearshore may win on overlap and lose on seniority; India may be the reverse.
+- List what is included:testing, reconciliation against today's numbers, documentation, handover, monitoring and post-launch fixes.
+- Convert to a monthly figureat the hours you will use, including minimum commitments, ramp-up and notice terms.
+The twelve questions to ask before hiring a remote data consultancy turn this into a checklist to send with the brief.
+
+### Which costs do buyers forget?
+
+The four costs that rarely appear in a quote are your own management time, onboarding, access and documentation. They exist in every delivery model and are larger when the team is remote, so they belong in the comparison.
+
+- Management time.Someone on your side makes decisions, answers questions and reviews work.
+- Onboarding.The first two to four weeks are slower: environment set-up, reading existing code, learning which numbers people trust.
+- Access.Accounts, VPN, repositories, warehouse roles and SaaS tools take time from your IT and security teams.
+- Documentation.If it is not in the quote, it will either not exist or be written by you. Runbooks, source-to-target mappings and recovery notes are what let you change vendors later.
+
+### How does MV.tech price a remote data engineering team?
+
+Pricing is agreed per engagement, and we quote after a scoping call. The model is lean and remote, which keeps office and management overhead low, so compare the quote on agreed scope, senior delivery time, validation, handover and support. The call covers the problem, the source systems, the target warehouse or BI tools, the timeline and the overlap window; a sanitised example is enough and credentials are not needed for an enquiry.
+
+### Frequently asked questions
+
+**Is an hourly rate or a monthly pod cheaper for data engineering work?**
+It depends on how steady the work is. Hourly suits short or uncertain work and part-time specialists. A monthly pod or retainer usually costs less per hour for continuous work, but commits you to that capacity whether or not the backlog fills it. Convert both to a monthly figure at the hours you will really use.
+
+**Is an offshore team in India cheaper than a nearshore team?**
+Usually, at the same seniority, yes, but none of the figures above is an India consulting rate, so test it against your own quotes. The gap narrows once you add the overlap hours a US client may need. Nearshore teams often win on shared working hours; India-based teams often win on senior engineering cost.
+
+**Why is there no rate card on this page?**
+Because a rate without the seniority, scope, overlap and support attached would mislead more than it informs. We quote after a scoping call so the number reflects the actual work and the named people doing it.
+
+### Scope a remote data team with MV.tech
+
+Read what an offshore data engineering team from India can own, from pipelines and cloud warehouses to BI and migration support, then book a scoping call with the problem, the systems involved and the hours you need. We quote after that call.
+
+Related guides
+
+### Keep planning the engagement.
+
+Engagement models
+
+### Staff Augmentation vs Project Consulting vs Recruitment: Which Engagement Model Fits?
+
+How to choose between embedding a consultant, commissioning a scoped project and hiring permanently for data, software and AI work: control, cost, speed and risk.
+
+5 min read
+Remote delivery playbook
+
+### How to Work with an India-Based Engineering Team Across Timezones
+
+Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
+
+6 min read
+Buyer's guide
+
+### 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
+
+A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
 
 5 min read
 About the author
@@ -1869,7 +2414,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/
 Description: MV.tech's offshore and remote services: data engineering teams, ETL and cloud warehouses, BI, custom software, workflow automation, AI, staffing and hiring.
-Last modified: 2026-10-07
+Last modified: 2026-10-12
 
 Services
 
@@ -1879,7 +2424,7 @@ Build a new system, improve the one you have, add engineering capacity or hire p
 
 Core services
 
-### Eleven services, one senior team.
+### Fifteen services, one senior team.
 
 ### Offshore data engineering team
 
@@ -1924,6 +2469,22 @@ Senior data, software, cloud and AI consultants embedded in your team, in your t
 ### Technology recruitment
 
 Permanent hiring for AI, data, software and cloud roles, with an engineer writing the brief, screening for technical depth and coordinating your interview process.
+
+### Hire Data Engineers
+
+Hire named senior data, analytics, BI and AI engineers from India as embedded capacity or a scoped project that starts with a written first milestone, or use technology recruitment for a permanent hire.
+
+### Snowflake Consulting
+
+Snowflake migration, layered warehouse design, fact and dimension models for Power BI, reconciliation across sources and credit tuning from an independent engineering team.
+
+### BigQuery Consulting
+
+BigQuery warehouse design, partitioning and clustering from real query patterns, Cloud Run ingestion, Looker Studio reporting, cost control and migrations into BigQuery.
+
+### Power BI Consulting
+
+Remote Power BI consulting: semantic models at an explicit grain, DAX, refresh performance, SSAS migration and report figures reconciled to source.
 
 Capabilities within those services
 
@@ -2225,6 +2786,198 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 ---
 
+# BigQuery Consultant & Google Cloud Data Engineering | MV.tech
+
+URL: https://mvtech.solutions/services/bigquery-consulting/
+Description: BigQuery consulting: warehouse design, partitioning and clustering from real queries, Cloud Run ingestion, Looker Studio reporting, cost control and migration.
+Last modified: 2026-10-12
+
+Service · BigQuery consulting
+
+## BigQuery consulting for warehouse design, ingestion, reporting and cost.
+
+BigQuery is quick to start on and easy to run up a bill on. MV.tech designs BigQuery warehouses around the queries that will actually run against them, with partitioning, clustering and layered datasets chosen from the query log rather than from habit, and builds the ingestion, Cloud Run jobs, Looker Studio reporting and cost controls around them. MV.tech's founder holds the Google Cloud Professional Data Engineer credential, an individual certification rather than a Google partnership.
+
+- Remote from Ahmedabad, India
+- Overlap with your timezone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### When should you hire a BigQuery consultant?
+
+- Hire one when the warehouse costs more each month and nobody can say which queries, scheduled jobs or dashboards are responsible.
+- Tables were loaded as they arrived, without partitions or clustering, and every report query scans the full history.
+- Reporting is moving off SQL Server, PostgreSQL, Redshift, Snowflake or spreadsheets into Google Cloud and nothing has been mapped yet.
+- Data comes from APIs, CSV exports, operational databases or blockchain nodes through scripts that run on someone's laptop.
+- Looker Studio reports are slow, disagree with each other or read raw tables directly.
+- The company already runs on Google Workspace or Google Cloud and wants the warehouse to sit next to everything else.
+- There is a data engineer's worth of BigQuery work waiting and nobody on the team has run BigQuery in production.
+What we deliver
+
+### What does a BigQuery consultant deliver?
+
+01
+
+#### Warehouse design and dataset layout
+
+Datasets separated into raw, staging, curated and reporting layers, with naming standards, a named owner per table and access granted at dataset level rather than to individuals. Production and development live in separate projects, so a test query cannot touch the bill or the tables finance reads. The on-demand versus slot-reservation decision is made from measured usage, not at the outset.
+
+02
+
+#### Partitioning and clustering against real query patterns
+
+Read the INFORMATION_SCHEMA job history to see which tables are hit, which columns the queries filter and join on and how many bytes each one bills, then choose the partition column, clustering keys and partition-filter requirement from that evidence. The before-and-after is measured on your own queries, in bytes billed and seconds, not on a benchmark.
+
+03
+
+#### Ingestion from APIs, files, databases and on-chain sources
+
+Python ingestion into Cloud Storage and BigQuery, using load jobs where batch is fine and streaming only where latency justifies the cost. Incremental watermarks, backfills, MERGE-based deduplication and schema changes are handled per source: pagination and rate limits on REST APIs, change tracking on PostgreSQL and other operational databases, and block ranges and reorgs from node RPCs.
+
+04
+
+#### Cloud Run jobs, scheduling and secrets
+
+Each pipeline runs as a containerised job on Cloud Run, triggered on a schedule, with secrets in Secret Manager, logs in Cloud Logging and deployment through GitHub Actions so every change is reviewable. Jobs are written to be rerun safely: the same run twice produces the same tables, not duplicate rows.
+
+05
+
+#### Looker Studio reporting on curated views
+
+Reports connect to curated views with agreed metric definitions, never to raw tables, so a dashboard edit cannot change a number and a slow report cannot scan a year of history. In a previous engagement at BCW, MV.tech's founder led the design and build of a cross-chain inventory ledger in BigQuery for the Immutable gaming ecosystem, consolidating Immutable X, Immutable zkEVM, Ethereum and Bitcoin transactions with FX reference tables, token-level valuation and 22+ wallet- and network-level KPIs, reported in Looker Studio with finance-user override controls and a full audit trail.
+
+06
+
+#### Cost control
+
+A per-project view of who spends what, built from the job and billing metadata BigQuery already keeps. Then the levers in order of effect: partition filters enforced, clustering on the columns reports filter on, maximum-bytes-billed limits and custom quotas per user, materialised views for the queries dashboards repeat, partition expiry on raw data, and a review of scheduled queries nobody reads.
+
+07
+
+#### Migrations into BigQuery
+
+Move a SQL Server, PostgreSQL, Oracle, Redshift or Snowflake estate, or the spreadsheets that stand in for one, with a written source-to-target mapping per object, SQL translated and tested rather than pasted, and record counts, control totals and reported metrics reconciled at each layer before anything is switched off. The full method is on the data warehouse migration page.
+
+08
+
+#### Data quality, documentation and handover
+
+Freshness, row-count and reconciliation checks between layers that fail loudly, column descriptions on every curated table, and a runbook that says how to rerun a job, roll back a load and extend the model. Handover is to your team, with the IAM roles, schedules and ownership written down.
+
+- BigQuery
+- Google Cloud
+- SQL
+- Python
+- Cloud Run
+- Cloud Logging
+- Looker Studio
+- Power BI
+- Parquet
+- REST APIs
+- PostgreSQL
+- Node RPCs
+- Docker
+- GitHub Actions
+A useful first project
+
+### What is a sensible first BigQuery project?
+
+One report people rely on, or the one table that dominates the bill, taken the whole way through. Ingest its sources through a Cloud Run job, land them in raw and curated layers with partitions and clustering chosen from the query log, reconcile the output against the figures people trust today, publish it in Looker Studio and record bytes billed before and after. That is small enough to verify in weeks, and it settles the dataset layout, the scheduling pattern and the validation checks that every later source reuses. We quote after a scoping call, with the estimate for the rest of the warehouse based on your query history rather than on a template.
+
+Working together
+
+### A practical path from scope to delivery.
+
+- 01 — Read the query log first — Profile job history, table sizes, scheduled queries and dashboards to find where the bytes and the risk are before proposing any design.
+- 02 — Build and measure — Load, model and schedule one domain, reconciling against existing numbers and recording bytes billed and run time before and after.
+- 03 — Hand over with controls — Leave quotas, partition rules, alerts, documentation and ownership in place so the warehouse stays cheap after the engagement ends.
+Teams our engineers have worked with
+
+- Google
+- Volvo
+- BCW
+- RootstockLabs
+- Chainlabs
+- Toptal
+- Turing
+Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Before we begin
+
+### Questions people ask before hiring a BigQuery consultant.
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**How much does BigQuery consulting cost?**
+We quote after a scoping call. The estimate depends on the number of sources, the volume of history to load, how much SQL needs translating, the reports in scope and whether you want support after handover. A first project is scoped to be verifiable in weeks, and the quote for anything beyond it is based on your own query history.
+
+**Why is our BigQuery bill so high?**
+Usually because queries read more than they need to. The common causes are tables with no partitioning, dashboards that query raw tables, scheduled queries that rebuild full history every hour and SELECT * in views that other views build on. The fix starts with the job history, which shows exactly which queries bill the most bytes and who runs them, and then applies partition filters, clustering, materialised views and per-user limits in that order.
+
+**Should we partition BigQuery tables by ingestion time or by an event date column?**
+By the column your queries filter on, which is usually an event or transaction date. Ingestion-time partitioning is simpler to load but only helps when reports ask about when data arrived, which they rarely do. Where late-arriving records are common, the load uses MERGE into the correct date partition rather than appending to today's, and a partition-filter requirement stops anyone scanning the full table by accident.
+
+**Can you migrate us to BigQuery from SQL Server, PostgreSQL, Redshift or Snowflake?**
+Yes. The work starts with discovery of what exists and what depends on it, then a source-to-target mapping per object, SQL translated and tested, and reconciliation of counts, totals and reported metrics at each layer before the old platform is switched off. Platform-specific SQL, stored procedures and cross-database joins are the usual blockers, and they are found in discovery rather than at cutover.
+
+**Can a remote team in India run our BigQuery project?**
+Yes. MV.tech works from Ahmedabad, India, and agrees a collaboration window in your timezone before the engagement starts, which typically covers UK and European business hours, US Eastern mornings, Gulf hours or Asia-Pacific afternoons. Access is through your own Google Cloud project with IAM roles you grant and can revoke, logs stay in your project and no credentials are needed for an initial enquiry.
+
+**Is Looker Studio good enough, or do we need Power BI?**
+Looker Studio is reasonable for reporting over BigQuery when the model lives in the warehouse and the reports read curated views. Power BI becomes the better choice when you need a governed semantic layer, row-level security or complex measures, or when the organisation already runs on Microsoft 365. Either way the metric definitions belong in BigQuery, so changing the reporting tool later is a repointing exercise rather than a rebuild.
+
+**Is MV.tech a Google Cloud partner?**
+No. MV.tech is not a Google partner. Its founder holds the Google Cloud Professional Data Engineer credential, which is an individual certification, and has built BigQuery pipelines in previous roles. If partner status matters for your procurement, say so on the first call.
+
+Related services
+
+### Other ways we can help.
+
+#### Data Engineering Consulting
+
+ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
+
+#### Data Warehouse Migration
+
+Legacy databases and manual reporting moved into Snowflake, BigQuery or Redshift, with mapped sources, staged reconciliation and a planned cutover.
+
+#### Business Intelligence & Dashboards
+
+Semantic and dimensional models, Power BI, Tableau and Looker Studio dashboards, governed KPI definitions and refreshes that finish on time.
+
+Related guides
+
+### Reading before you hire a BigQuery consultant.
+
+Service detail
+
+### Data warehouse migration
+
+How a migration into BigQuery is discovered, mapped, reconciled and cut over.
+
+Migration service
+Service detail
+
+### Blockchain and on-chain data analytics
+
+Cross-chain ingestion into BigQuery, event decoding, token valuation and reconciliation.
+
+On-chain data
+Buyer's checklist
+
+### 12 questions to ask before hiring a remote data consultancy
+
+Who does the work, how the first milestone is scoped and how correctness is proven.
+
+Hiring checklist
+Your next step
+
+### Tell us what needs to work better.
+
+Bring your goal, current tools and preferred working hours. We use the first 30-minute conversation to clarify fit and an initial scope, and you leave with a written next step.
+
+---
+
 # Blockchain Data Analytics & On-Chain ETL Services | MV.tech
 
 URL: https://mvtech.solutions/services/blockchain-data-analytics/
@@ -2284,7 +3037,7 @@ Classify activity into the categories the business reports on — transfer, trad
 
 #### Staking-reward reconciliation
 
-Reward ledgers per validator, delegator or wallet, reconciled against on-chain distributions and internal records, with period totals, accrual timing and a discrepancy report. On past engagements a ledger of this kind has removed more than 70% of a manual reconciliation cycle.
+Reward ledgers per validator, delegator or wallet, reconciled against on-chain distributions and internal records, with period totals, accrual timing and a discrepancy report.
 
 06
 
@@ -2370,7 +3123,7 @@ Yes. On-chain data is just another source: it lands in the same layered warehous
 We quote after a scoping call, once the networks, contracts and wallets in scope, the reporting currency and period, and the figures the output has to reconcile against are agreed. A useful first project is a single chain and one business question built the whole way through, from ingestion and decoding to a reconciled output. MV.tech is a remote-first team based in Ahmedabad, India, with working hours planned around your timezone and a lean model that avoids large-consultancy overhead.
 
 **How do you reconcile staking rewards against on-chain and internal records?**
-We build a reward ledger per validator, delegator or wallet and reconcile it against on-chain distributions and internal records, with period totals, accrual timing and a discrepancy report. Base tables hold exactly what the chain reported and are never edited; corrections live in a separate override layer with an author, a timestamp and a reason, so both the original and adjusted figures stay available. On past engagements a ledger of this kind has removed more than 70% of a manual reconciliation cycle.
+We build a reward ledger per validator, delegator or wallet and reconcile it against on-chain distributions and internal records, with period totals, accrual timing and a discrepancy report. Base tables hold exactly what the chain reported and are never edited; corrections live in a separate override layer with an author, a timestamp and a reason, so both the original and adjusted figures stay available.
 
 Related services
 
@@ -2461,7 +3214,7 @@ Write each metric down: the calculation, the filters, the grain, the owner and w
 
 #### Refresh performance and cost
 
-Reduce what a report has to read: partitioning, incremental refresh, aggregation tables, pushing transformation back into the warehouse and removing columns nothing uses. On past work this has reduced query scan sizes by 60–75% and moved refreshes from hours to minutes.
+Reduce what a report has to read: partitioning, incremental refresh, aggregation tables, pushing transformation back into the warehouse and removing columns nothing uses.
 
 07
 
@@ -2787,7 +3540,7 @@ Connect validated datasets to Power BI, Tableau, Looker Studio, Streamlit or dow
 - Snowflake
 - Amazon Redshift
 - PostgreSQL
-- dbt-style modelling
+- layered SQL modelling
 - Azure Data Factory
 - Power BI
 - Tableau
@@ -2949,13 +3702,13 @@ A written mapping per object: source, target table and layer, data types, transf
 
 #### Target design: raw, staging, curated and reporting layers
 
-Design Snowflake, BigQuery or Redshift with separated layers: raw as it arrived, staging conformed, curated facts and dimensions, and reporting shapes that BI tools read. Partitioning, clustering and incremental loads are chosen against real query patterns, which is where the 60–75% reductions in query scan size on past engagements came from.
+Design Snowflake, BigQuery or Redshift with separated layers: raw as it arrived, staging conformed, curated facts and dimensions, and reporting shapes that BI tools read. Partitioning, clustering and incremental loads are chosen against real query patterns rather than copied from the old platform.
 
 05
 
 #### Validation and reconciliation
 
-Automated comparison between old and new at each pipeline stage: record counts, date coverage, nulls, duplicates, control totals and metric-level comparison of the figures people actually report. Differences are explained rather than rounded away — several times they have revealed a defect in the legacy logic. This work has cut manual reconciliation effort by more than 70% on past migrations.
+Automated comparison between old and new at each pipeline stage: record counts, date coverage, nulls, duplicates, control totals and metric-level comparison of the figures people actually report. Differences are explained rather than rounded away — several times they have revealed a defect in the legacy logic.
 
 06
 
@@ -2978,7 +3731,7 @@ Plan the sequence: what runs in parallel and for how long, the freeze window, wh
 - PostgreSQL
 - Azure Synapse
 - Azure Data Factory
-- dbt-style modelling
+- layered SQL modelling
 - Matillion
 - Pentaho
 - Python
@@ -3051,6 +3804,200 @@ Semantic and dimensional models, Power BI, Tableau and Looker Studio dashboards,
 
 Dedicated offshore data engineering and analytics capacity from India for ETL, cloud warehouses, BI, migration and data quality work.
 
+Your next step
+
+### Tell us what needs to work better.
+
+Bring your goal, current tools and preferred working hours. We use the first 30-minute conversation to clarify fit and an initial scope, and you leave with a written next step.
+
+---
+
+# Hire Data Engineers: Senior Remote Engineers from India | MV.tech
+
+URL: https://mvtech.solutions/services/hire-data-engineers/
+Description: Hire senior data, analytics, BI and AI engineers from India: named people you meet first, agreed overlap hours and a written first milestone.
+Last modified: 2026-10-12
+
+Service · Hire data engineers
+
+## Hire data engineers you have met, on a milestone you can check.
+
+Hiring a data engineer through MV.tech means a named senior engineer, not a bench or a profile you never speak to. You brief the work, meet the person who will do it, agree the overlap hours in your local time and start on a written first milestone that is small enough to verify. You can hire through staff augmentation, as a scoped project, or through technology recruitment for a permanent employee in your own organisation.
+
+- Remote from Ahmedabad, India
+- Overlap with your timezone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### When should you hire a data engineer rather than wait for a permanent hire?
+
+- A permanent data engineering role has been open for months and pipelines, dashboards or a migration cannot wait for it.
+- Your analysts spend their week repairing SQL and spreadsheets instead of answering questions, and nobody owns the warehouse.
+- You need a fractional data engineer for a few days a week rather than a full-time salary and the hiring process that comes with it.
+- A warehouse migration or BI rebuild needs a senior person for its discovery, modelling and reconciliation phases, then far less.
+- You have tried an offshore staffing vendor and received a rotating cast of juniors behind an account manager.
+- Your team needs an AI or automation engineer who understands the data behind the model, not only the model.
+- You want to hire a remote data engineer in India with agreed overlap hours and written scope, or a permanent hire found through technology recruitment.
+What we deliver
+
+### What do you actually get when you hire a data engineer from MV.tech?
+
+01
+
+#### A named senior engineer, introduced before anything is signed
+
+You meet the engineer who will do the work, review their experience against your stack and agree the role with them directly. The person you meet is the person who does the work; there is no bench, and you work directly with whoever writes the code.
+
+02
+
+#### Data engineers for pipelines and cloud warehouses
+
+Engineers who build and maintain Python and SQL pipelines from APIs, databases, files and SaaS tools into BigQuery, Snowflake, Amazon Redshift or PostgreSQL, with retries, logging, backfills and data quality checks. In a previous engagement at RootstockLabs, MV.tech's founder migrated HubSpot ingestion from Skyvia to Hevo, cutting the full-data load from 2 hours 45 minutes to 5 minutes.
+
+03
+
+#### Analytics engineers and BI developers
+
+Specialists for raw, staging, curated and reporting layers, fact and dimension models, source-to-target mapping and reconciliation, and dashboards in Power BI, Tableau, Looker Studio or Streamlit. They define KPI ownership and document what each dashboard can and cannot prove.
+
+04
+
+#### AI and automation engineers
+
+Engineers for RAG systems, MCP servers, custom AI connectors and scheduled automation that connect models to your databases, APIs and internal tools. The work starts from the data and permissions involved, which is why these roles sit alongside the data engineers rather than apart from them.
+
+05
+
+#### Cloud data engineers
+
+Engineers who set up and operate data platforms on AWS, Google Cloud or Azure, including Azure Data Factory, scheduled jobs, access control and monitoring. They work in your cloud account and your repositories, agreed before work begins, and hand over runbooks and recovery notes where needed when the engagement ends.
+
+06
+
+#### Agreed seniority and overlap hours
+
+Every engineer is senior enough to shape scope, write acceptance criteria and challenge a brief, not only execute tickets. Overlap hours are written in your local time before the start, for example 9:00 am to 1:00 pm US Eastern or 9:00 am to 3:30 pm in the UK. MV.tech's founder holds the Google Cloud Professional Data Engineer certification.
+
+07
+
+#### A written first milestone with acceptance criteria
+
+Before work begins, the first deliverable, the systems involved, how correctness will be checked and the review date are written down. It is the basis on which you decide to extend, change the role or stop.
+
+08
+
+#### Three ways to hire
+
+Embed an engineer or a small team in your workflow through IT staff augmentation, give MV.tech a scoped project to own, or use technology recruitment to hire a permanent employee into your organisation. The arrangement is reviewed as priorities change; recruitment is a separate engagement with its own scope and commercial terms.
+
+- Python
+- SQL
+- BigQuery
+- Snowflake
+- Amazon Redshift
+- PostgreSQL
+- Power BI
+- Tableau
+- Looker Studio
+- Streamlit
+- Azure Data Factory
+- AWS
+- Google Cloud
+- REST APIs
+- Model Context Protocol (MCP)
+- RAG
+A useful first project
+
+### How does hiring a data engineer through MV.tech start?
+
+It starts with a brief, not a contract. You describe the work, the systems, the timezone and the deadline on a scoping call, and we propose a named engineer and a first milestone small enough to verify: one pipeline, one reporting model, one dashboard set or one migration slice, with written acceptance criteria and a review date. The engineer works in your tools and your agreed overlap hours, posts written updates and ships something checkable by the review date. At the review you decide whether to extend into a longer embedded arrangement, hand over a larger scoped project or begin a permanent search for the same kind of role. The trial milestone is what reduces the risk: you judge the person on delivered work, not on a CV alone, and the decision to continue is yours.
+
+Working together
+
+### A practical path from scope to delivery.
+
+- 01 — Brief and match — Share the workstream, required skills, timezone and duration. We propose a named senior engineer and you meet them before anything is agreed.
+- 02 — Agree the first milestone — Write down the deliverable, acceptance criteria, overlap hours, repositories, access and review date so both sides know what done means.
+- 03 — Deliver, review and decide — The engineer ships the milestone with written validation; you then extend the engagement, change its shape or close it on evidence.
+Teams our engineers have worked with
+
+- Google
+- Volvo
+- BCW
+- RootstockLabs
+- Chainlabs
+- Toptal
+- Turing
+Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Before we begin
+
+### Questions people ask before hiring a data engineer.
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**How much does it cost to hire a data engineer from India?**
+We quote after a scoping call. The figure depends on the role, seniority, allocated capacity, duration and the support expected outside overlap hours, so a number before that conversation would be a guess. MV.tech's remote model keeps office and account-management overhead out of the price, and we ask you to compare proposals on the same scope, seniority and support expectations.
+
+**Can a remote team in India work in our timezone?**
+Yes. India Standard Time overlaps every major business region for part of the day, and we agree the window in your local time before the engineer starts. Typical windows are 9:00 am to 1:00 pm US Eastern, 7:00 to 10:00 am US Pacific, 9:00 am to 3:30 pm in the UK, 9:00 am to 4:00 pm in Central Europe, most of the day in the Gulf and 12:30 to 6:00 pm in eastern Australia. Overlap does not mean round-the-clock support; any out-of-hours coverage is written into the scope separately.
+
+**Can we hire a fractional or part-time data engineer?**
+Yes. A fractional arrangement of a few days a week suits a small team that needs senior judgement on pipelines, warehouse modelling or BI without a full-time hire. The capacity, the days and the overlap hours are agreed up front, and the engineer stays the same person for the duration rather than whoever is free that week.
+
+**Will we get a named engineer or a bench?**
+A named engineer. You meet the person before anything is signed, review their experience against your stack and work with them directly for the duration. If the engagement grows into a team, composition, start dates and availability are confirmed during scoping rather than implied by the website.
+
+**What is the difference between staff augmentation, a scoped project and recruitment?**
+With staff augmentation the engineer works inside your team under your leads' direction for an agreed capacity and duration. With a scoped project MV.tech owns a defined deliverable, its acceptance criteria and handover. With technology recruitment you hire a permanent employee into your own organisation and agree employment terms with them directly. We clarify which arrangement you need before discussing candidates or consultants.
+
+**How does a trial milestone reduce the risk of hiring remotely?**
+Because you judge delivered work rather than an interview. The first milestone is small, written down and checkable: a pipeline that reconciles to the source, a model whose figures match the ones people report, a dashboard with documented definitions. If the result or the working relationship is not right, the engagement ends at the review with the work and its documentation handed over.
+
+**What should we share before asking to hire a data engineer?**
+The workstream or backlog, the source systems and target warehouse or BI tools, the skills you need, the expected duration and capacity, your timezone and the hours that matter, and any constraints around security or access. A sanitised example of the data is enough for the first call; credentials are never needed for an enquiry.
+
+Related services
+
+### Other ways we can help.
+
+#### Offshore Data Engineering Team
+
+Dedicated offshore data engineering and analytics capacity from India for ETL, cloud warehouses, BI, migration and data quality work.
+
+#### IT Staff Augmentation
+
+Senior data, analytics, software, cloud and AI consultants embedded in your team, in your tools and hours, for an agreed capacity.
+
+#### Technology Recruitment
+
+Permanent hiring for AI, data, software and cloud roles, with an engineer shaping the brief and assessing fit.
+
+Related guides
+
+### Three ways to hire, and how to choose between them.
+
+Embedded engineer or team
+
+### IT staff augmentation and dedicated remote teams
+
+Add a named engineer or a small team to your own workflow, in your tools and overlap hours, for an agreed capacity and duration.
+
+Staff augmentation
+Scoped project
+
+### Data engineering and ETL consulting
+
+Hand MV.tech a defined deliverable with acceptance criteria and handover: pipelines, warehouse layers, migrations and data quality.
+
+Project delivery
+Permanent hire
+
+### Technology recruitment for permanent roles
+
+Recruit a data, analytics, BI or AI engineer into your organisation, with an engineer shaping the brief and assessing technical fit.
+
+Permanent recruitment
 Your next step
 
 ### Tell us what needs to work better.
@@ -3492,7 +4439,7 @@ Work in your project tools with visible updates, pull requests or review notes, 
 - AWS
 - Google Cloud
 - REST APIs
-- dbt-style modelling
+- layered SQL modelling
 A useful first project
 
 ### How does an offshore data team engagement start?
@@ -3584,6 +4531,392 @@ Remote delivery
 Realistic overlap windows and habits that keep distributed engineering work moving.
 
 Timezone guide
+Your next step
+
+### Tell us what needs to work better.
+
+Bring your goal, current tools and preferred working hours. We use the first 30-minute conversation to clarify fit and an initial scope, and you leave with a written next step.
+
+---
+
+# Power BI Consultant: Semantic Models, DAX & Refresh | MV.tech
+
+URL: https://mvtech.solutions/services/power-bi-consulting/
+Description: Remote Power BI consulting: semantic models with an explicit grain, DAX, slow refresh fixes, SSAS migrations and KPI definitions reconciled to source.
+Last modified: 2026-10-12
+
+Service · Power BI consulting
+
+## Power BI consulting: semantic models, DAX and refreshes that finish on time.
+
+A Power BI report is only as good as the model underneath it. MV.tech provides remote Power BI consultants and developers who build semantic and dimensional models with an explicit grain, write and review DAX, fix slow refreshes, migrate SSAS and Azure Analysis Services models and reconcile every figure on a report back to its source. We review the model you already have before proposing that anything is rebuilt.
+
+- Remote from Ahmedabad, India
+- Overlap with your timezone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### When does a Power BI consultant make sense?
+
+- A Power BI dashboard refresh is slow or times out, and the workaround so far has been to import less data.
+- The model has grown report by report: no agreed grain, duplicated measures and DAX nobody wants to touch.
+- Two reports answer the same question with different numbers and nobody can say which one is right.
+- An SSAS or Azure Analysis Services model has to move to Power BI and nobody has documented what it contains.
+- Analysts export to Excel because the published dataset cannot answer their follow-up question.
+- A KPI exists in several reports with several definitions and no owner.
+- You need a remote Power BI developer alongside your team for a defined phase rather than a permanent hire.
+What we deliver
+
+### What does a Power BI consultant deliver?
+
+01
+
+#### Semantic and dimensional models with an explicit grain
+
+Star schemas with fact tables at a stated grain, conformed dimensions shared across subject areas, bridge tables where a relationship is genuinely many-to-many and a date table every measure filters through. The grain is written down before the first measure is, because most wrong totals in Power BI trace back to a fact table at the wrong grain rather than to the DAX on top of it.
+
+02
+
+#### DAX measures, calculation groups and Tabular Editor
+
+Measures written once in the model and reused by every report, with calculation groups for time intelligence and currency rather than a copy per visual. Tabular Editor is used for scripted changes, measure organisation and best-practice rules, and DAX Studio for query timings, so a slow visual is traced to a specific measure rather than guessed at.
+
+03
+
+#### Source-to-target mappings
+
+A written mapping per table: the source system and query, the warehouse or dataflow layer it passes through, the Power BI table and column, data types, transformation rules, keys and the check that proves it landed. It is what a reviewer reads to understand where a number came from, and it is what the reconciliation tests are generated from.
+
+04
+
+#### Refresh performance
+
+Profile the model first: storage mode, column cardinality, calculated columns that belong upstream, unused columns and Power Query steps that stopped folding so whole tables are pulled before they are filtered. The usual fixes are incremental refresh with a proper partition policy, aggregation tables, pushing transformation back into the warehouse and removing what nothing reads, with refresh duration measured before and after on your own gateway or capacity.
+
+05
+
+#### SSAS and Azure Analysis Services migration
+
+Document what the tabular model contains — tables, relationships, calculated columns, measures, roles and the reports depending on each — then move it into a Power BI semantic model through the XMLA endpoint, or rebuild it where the old model was itself the problem. Measures are compared old against new on identical filters before any report is repointed.
+
+06
+
+#### Governed KPI definitions
+
+Each metric written down: the calculation, the filters, the grain, the owner and the reports it is allowed to appear on. Definitions live in the model's measure descriptions and in a catalogue your team can read without opening Power BI Desktop, so a KPI cannot quietly diverge between reports.
+
+07
+
+#### Self-service datasets
+
+A shared dataset analysts can slice without writing joins: naming standards, hidden technical columns, a description on every field, row-level security where the data needs it and a clear line between governed measures and someone's own analysis. Thin reports connect live to it instead of each carrying its own copy of the data.
+
+08
+
+#### Reconciliation of report figures to source
+
+Automated comparisons between what a report shows and what the source system holds: record counts, control totals, date coverage and the specific figures people act on, run on every refresh rather than once at sign-off. In a previous engagement at Volvo Cars via Toptal, MV.tech's founder designed fact and dimension models for Power BI with source-to-target mappings, built validation and reconciliation checks across source systems, Snowflake, Salesforce CRM Analytics and BI reports, and delivered a lead-to-sale matchback comparison across about 427K lead-month records for executive review.
+
+- Power BI
+- DAX
+- Tabular Editor
+- DAX Studio
+- SSAS / Azure Analysis Services
+- Semantic models
+- Dimensional modelling
+- SQL
+- Snowflake
+- BigQuery
+- SQL Server
+- Azure Synapse
+- Azure Data Factory
+- Salesforce CRM Analytics
+- Excel
+A useful first project
+
+### Where should a Power BI engagement start?
+
+With one report that someone relies on and nobody fully trusts. We agree the grain, write down the definition of every figure on it, map each table back to its source, repair or rebuild the model behind it and reconcile the result against the numbers the business accepts today, with refresh time measured before and after. It is small enough to correct cheaply, and it leaves behind a semantic model, a measure catalogue and a reconciliation test that the next reports reuse. Wider self-service datasets, an Analysis Services migration or a full workspace review are scoped once the first report is signed off.
+
+Working together
+
+### A practical path from scope to delivery.
+
+- 01 — Review the model — Profile storage mode, relationships, cardinality, DAX and refresh history, and record which figures disagree with source and why.
+- 02 — Model, measure and map — Build or repair the semantic model at an agreed grain, write each measure once, and keep the source-to-target mapping and KPI definitions alongside it.
+- 03 — Reconcile and hand over — Compare report figures with source on every refresh, publish with access rules and documentation, and work with the people who will extend it.
+Teams our engineers have worked with
+
+- Google
+- Volvo
+- BCW
+- RootstockLabs
+- Chainlabs
+- Toptal
+- Turing
+Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Before we begin
+
+### Questions about hiring a Power BI consultant.
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**Why is my Power BI dashboard refresh slow?**
+Usually because the model imports more than it reads, or does work at refresh time that belongs in the warehouse. The common causes are calculated columns over large fact tables, high-cardinality columns such as timestamps or free text, Power Query steps that stop folding so a whole table is pulled before it is filtered, and a full refresh where an incremental policy would do. We profile the model with DAX Studio and the refresh history first, then change the few things that account for most of the time.
+
+**What is a Power BI semantic model?**
+It is the dataset layer between your warehouse and your reports: tables, relationships, measures, hierarchies and security roles. When it exists as one governed model, every report calculates revenue the same way and analysts can build their own views without writing joins. When each report carries its own copy of the data and its own measures, the numbers drift apart.
+
+**Can you fix our existing Power BI model instead of rebuilding it?**
+Usually, and that is the cheaper place to start. The review covers grain, relationships, calculated columns, duplicated measures, storage mode and refresh behaviour, and ends in a written list of what to fix in place and what genuinely needs remodelling. A rebuild is something we have to justify, not a starting assumption.
+
+**Can you migrate our SSAS or Azure Analysis Services model to Power BI?**
+Yes. The first step is documenting what the tabular model contains and which reports depend on each table and measure, because that decides whether it can move largely as-is through the XMLA endpoint or should be remodelled. Measures are compared old against new on identical filters before any report is repointed, and both models run in parallel until the figures are signed off.
+
+**How much does Power BI consulting cost?**
+We quote after a scoping call. The estimate depends on the number of reports and sources, the state of the existing model, whether an Analysis Services migration is involved and how much reconciliation the business needs to see. A review of one existing model is a bounded piece of work and is usually the cheapest way to find out what the rest would involve.
+
+**Can a remote team in India work on our Power BI tenant?**
+Yes. MV.tech works from India Standard Time and agrees an overlap window with your team before the engagement begins, with access through your own tenant, workspaces and gateway rather than through copies of your data. Changes go through deployment pipelines or version-controlled model files, so your team can see what changed and when.
+
+**How do you prove the numbers on a report are right?**
+By reconciling them to source and keeping the check running. Record counts, control totals and date coverage per table, plus the handful of figures people actually act on, are compared against the source system on every refresh. Differences are investigated and either fixed or written down as a deliberate change, which sometimes means the old report was the one that was wrong.
+
+Related services
+
+### Other ways we can help.
+
+#### Business Intelligence & Dashboards
+
+Semantic and dimensional models, Power BI, Tableau and Looker Studio dashboards, governed KPI definitions and refreshes that finish on time.
+
+#### Data Warehouse Migration
+
+Legacy databases and manual reporting moved into Snowflake, BigQuery or Redshift, with mapped sources, staged reconciliation and a planned cutover.
+
+#### Data Engineering Consulting
+
+ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
+
+Related guides
+
+### Resources for planning Power BI work.
+
+Service detail
+
+### Business intelligence and dashboards
+
+Tableau, Looker Studio and Streamlit reporting alongside Power BI, with KPI governance and semantic layers.
+
+BI service
+Related service
+
+### Data warehouse migration
+
+Moving the sources behind your reports into Snowflake, BigQuery or Redshift with staged reconciliation.
+
+Migration service
+Buyer's checklist
+
+### 12 questions to ask before hiring a remote data consultancy
+
+Who does the work, how the first milestone is scoped and how correctness is proven.
+
+Hiring checklist
+Your next step
+
+### Tell us what needs to work better.
+
+Bring your goal, current tools and preferred working hours. We use the first 30-minute conversation to clarify fit and an initial scope, and you leave with a written next step.
+
+---
+
+# Snowflake Consulting, Migration & Power BI Modelling | MV.tech
+
+URL: https://mvtech.solutions/services/snowflake-consulting/
+Description: Independent Snowflake consulting: migrate SQL Server, Oracle and spreadsheets into layered Snowflake, model for Power BI, reconcile sources and tune cost.
+Last modified: 2026-10-12
+
+Service · Snowflake consulting
+
+## Snowflake consulting and migration from an independent engineering team.
+
+Most Snowflake problems are design problems: one schema doing the job of four layers, warehouses sized by guesswork and Power BI figures that no longer match the source. MV.tech is not a Snowflake reseller or partner programme member; it works as an independent engineering team that migrates legacy reporting and SQL Server, Oracle and spreadsheet estates into Snowflake with raw, staging, curated and reporting layers, fact and dimension models for Power BI, and reconciliation at every stage. In a previous engagement at Volvo Cars via Toptal, MV.tech's founder migrated legacy and manual reporting into a Snowflake warehouse with those four layers, built fact and dimension models for Power BI with source-to-target mappings, and delivered a lead-to-sale matchback comparison between Volvo's attribution and an external vendor across about 427K lead-month records.
+
+- Remote from Ahmedabad, India
+- Overlap with your timezone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### When does a Snowflake consultant make sense?
+
+- Reporting still runs on SQL Server, Oracle or a folder of spreadsheets, Snowflake has been chosen as the target, and nobody has mapped what depends on the old estate.
+- Snowflake is already in place, but everything landed in one schema with no raw, staging, curated or reporting separation to build on.
+- Power BI reads Snowflake through hand-written queries rather than fact and dimension tables, so every report calculates its own version of revenue.
+- Monthly credit consumption keeps rising and nobody can say which warehouses, queries or refreshes are responsible.
+- Figures in Snowflake, Salesforce CRM Analytics and the finance system disagree, and reconciling them is a manual job each month.
+- Ingestion through Azure Data Factory or Python jobs works most days, with no validation that would catch the days it does not.
+- A previous migration attempt stalled because the new numbers did not match the old ones and no one could explain why.
+What we deliver
+
+### What does Snowflake consulting from MV.tech include?
+
+01
+
+#### Migration from SQL Server, Oracle and spreadsheets
+
+Catalogue the source estate from the information schema, DDL, query logs and job schedules, then write a source-to-target mapping per object: target table and layer, data types, transformation rules, keys, grain and historical scope. Spreadsheet reporting is handled the same way, with the rules that live in formulas written down before they are modelled. Each load is reconciled against the legacy figures so cutover happens on evidence rather than on a date.
+
+02
+
+#### Raw, staging, curated and reporting layers
+
+Design Snowflake as four separated layers: raw as it arrived, staging typed and conformed, curated facts and dimensions, and reporting views shaped for the tools that read them. Each layer has an owner, a refresh dependency and a check that proves it loaded, which is what keeps the warehouse maintainable after the project ends.
+
+03
+
+#### Fact and dimension models for Power BI
+
+Build fact and dimension tables at an agreed grain, with conformed dimensions, bridge tables for many-to-many relationships and source-load tracking, then the curated views Power BI imports or queries directly. Existing Power BI and DAX models are profiled first, so a rebuild is a justified decision rather than a default.
+
+04
+
+#### Views and curated datasets
+
+Publish curated datasets analysts can query without writing joins: consistent naming, a description on every column, technical fields hidden and governed measures kept apart from someone's own analysis. Secure views and role-based grants control who sees what without copying the data.
+
+05
+
+#### Validation and reconciliation across sources
+
+Automated comparison at each stage: record counts, date coverage, nulls, duplicates, control totals and metric-level comparison of the figures people report, across the source systems, Snowflake and the BI layer. Differences are explained rather than rounded away, and each one ends as a fix or a documented, deliberate change.
+
+06
+
+#### Cost and performance tuning
+
+Reduce what each query reads and what each warehouse costs: clustering keys chosen against real query patterns, warehouse sizes and auto-suspend settings taken from the query history rather than guesswork, incremental loads in place of full refreshes, and materialised results where a report reads the same aggregate every hour. The before-and-after is measured on your own queries and credit consumption.
+
+07
+
+#### Salesforce CRM Analytics and Azure Data Factory ingestion
+
+Where reporting already lives in Salesforce CRM Analytics, handle the datasets, recipes, dataflows and field mapping so Snowflake and CRM Analytics agree on the same figures. Where sources sit in Azure, build Azure Data Factory pipelines through Blob Storage into Snowflake with incremental loads, retries and logging, and Python and SQL ingestion elsewhere.
+
+08
+
+#### Handover and operating documentation
+
+Mappings, ER diagrams, validation results, refresh schedules, the role and grant model, cost monitoring and runbooks, written for the people who will run Snowflake after the engagement. Handover is part of the scope, not an extra.
+
+- Snowflake
+- SQL Server
+- Oracle
+- Azure SQL
+- Azure Data Factory
+- Matillion
+- Salesforce CRM Analytics
+- Power BI
+- DAX
+- Python
+- SQL
+- Parquet
+- Excel
+- Dimensional modelling
+- Semantic models
+A useful first project
+
+### What is a sensible first Snowflake project?
+
+One reporting domain, taken the whole way. Pick finance, sales or operations and cover discovery of its sources, source-to-target mapping, the four Snowflake layers, a fact and dimension model, reconciliation against the figures people trust today and one Power BI report repointed at the result. It is small enough to correct cheaply and complete enough to prove the layer design, the validation approach and the cost profile on your data. The remaining domains are then estimated from what the first one showed rather than from a template, and we quote after a scoping call.
+
+Working together
+
+### A practical path from scope to delivery.
+
+- 01 — Discover and map — Profile the source estate, its dependencies and any existing Snowflake usage, agree the layer design and write the source-to-target mapping and migration sequence.
+- 02 — Build and reconcile — Load and model one domain at a time, comparing each layer with the source on counts, coverage, totals and reported metrics before the next domain begins.
+- 03 — Tune, cut over and hand over — Set clustering, warehouse sizing and refresh schedules from real query history, repoint Power BI on evidence, and hand over mappings, grants and runbooks.
+Teams our engineers have worked with
+
+- Google
+- Volvo
+- BCW
+- RootstockLabs
+- Chainlabs
+- Toptal
+- Turing
+Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Before we begin
+
+### Questions about Snowflake consulting.
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**Is MV.tech a Snowflake consulting partner?**
+No. MV.tech is not a Snowflake reseller or a member of the Snowflake partner programme; it works as an independent engineering team that designs, migrates and tunes Snowflake warehouses on your own Snowflake account. You buy Snowflake from Snowflake and engineering from us, so there is no resale margin in the advice. The founder holds the Google Cloud Professional Data Engineer certification; MV.tech makes no Snowflake certification or partner claims.
+
+**How much does Snowflake consulting cost?**
+For Snowflake work, we quote after a scoping call. The estimate depends on the number of source systems, the volume of historical data, how much logic is hidden in views, stored procedures and spreadsheets, the Power BI models to be repointed and the support expected afterwards. A first domain is scoped as a bounded piece of work so the figure for the rest of the estate rests on your data rather than on a template.
+
+**How do you migrate SQL Server or Oracle to Snowflake without breaking reports?**
+Dependency analysis first, reconciliation throughout. Before anything moves we trace which reports, extracts and semantic models read each object and flag the platform-specific SQL, cross-database joins and hardcoded rules that will not survive the move. Layers are then built and compared with the legacy numbers stage by stage, and dashboards are repointed visual by visual, usually while both platforms run in parallel.
+
+**Should Power BI connect to Snowflake with Import or DirectQuery?**
+Import for most governed reporting, DirectQuery where data must be current to the minute or is too large to hold in memory, and a composite model when one report needs both. The more important decision is upstream: Power BI should read fact and dimension tables and curated views from the reporting layer, not raw tables, so the model stays small and the business logic lives in one place. We profile the existing model before recommending a change.
+
+**Why is our Snowflake bill rising, and can you reduce it?**
+Usually because warehouses stay awake for queries that scan more than they should. The common causes are missing clustering on large tables, full refreshes where incremental loads would do, oversized warehouses with long auto-suspend settings and reports that repeat the same aggregate many times an hour. We measure from the query history, change the few things that account for most of the spend and show the before-and-after on your own credit consumption.
+
+**Can a remote team in India run our Snowflake migration?**
+Yes. MV.tech works from Ahmedabad, India, and agrees a collaboration window in your timezone before work begins: US Eastern mornings, UK and European business hours, Gulf hours or Asia-Pacific afternoons. Snowflake work suits remote delivery because access is role-based and every change can be reviewed as SQL in a pull request. Reconciliation results, decisions and handover notes are written down where your team can read them the next morning.
+
+**Can you reconcile Snowflake with Salesforce CRM Analytics and our finance system?**
+Yes, and it is often the part that earns trust in the warehouse. We compare the same metric across the source systems, Snowflake and the CRM Analytics or BI layer at an agreed grain, then investigate every difference until it is fixed or documented as a deliberate change. That investigation sometimes shows that the legacy figure was the wrong one.
+
+Related services
+
+### Other ways we can help.
+
+#### Data Warehouse Migration
+
+Legacy databases and manual reporting moved into Snowflake, BigQuery or Redshift, with mapped sources, staged reconciliation and a planned cutover.
+
+#### Data Engineering Consulting
+
+ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.
+
+#### Business Intelligence & Dashboards
+
+Semantic and dimensional models, Power BI, Tableau and Looker Studio dashboards, governed KPI definitions and refreshes that finish on time.
+
+Related guides
+
+### Resources for planning a Snowflake project.
+
+Service detail
+
+### Data warehouse migration
+
+The wider migration service: discovery, dependency analysis, source-to-target mapping and cutover for Snowflake, BigQuery or Redshift.
+
+Migration service
+Service detail
+
+### Business intelligence and Power BI
+
+Semantic models, DAX and governed KPI definitions for the reports that will read from Snowflake.
+
+BI service
+Buyer's checklist
+
+### 12 questions to ask before hiring a remote data consultancy
+
+Who does the work, how the first milestone is scoped and how correctness is proven.
+
+Hiring checklist
 Your next step
 
 ### Tell us what needs to work better.
