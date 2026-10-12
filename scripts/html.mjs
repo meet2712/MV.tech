@@ -24,7 +24,7 @@ export function stripTags(html) {
 
 /** Every published HTML page (directories containing index.html), excluding sources and tooling. */
 export async function publicPages(directory = '.') {
-  const excluded = new Set(['node_modules', 'partials', 'scripts', 'tests', 'content', 'docs', 'fonts', 'images', 'css', 'js']);
+  const excluded = new Set(['node_modules', 'partials', 'scripts', 'tests', 'content', 'docs', 'fonts', 'images', 'css', 'js', 'personal-portfolio', 'MVtech Brand Kit', 'MVtech_Outreach_Ready', 'Claude outputs', 'leads']);
   const files = [];
   for (const entry of await readdir(directory, { withFileTypes: true })) {
     if (entry.name.startsWith('.') || excluded.has(entry.name)) continue;

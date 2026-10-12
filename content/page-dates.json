@@ -1,8 +1,8 @@
 {
   "/": {
-    "hash": "0f17cdd4422fe48c",
+    "hash": "d00e551a2d971cb8",
     "published": "2026-01-02",
-    "modified": "2026-10-07"
+    "modified": "2026-10-12"
   },
   "/about/": {
     "hash": "9fa5f01d9a84638c",
@@ -75,9 +75,9 @@
     "modified": "2026-10-07"
   },
   "/remote-consulting/": {
-    "hash": "f070987b6ddad46f",
+    "hash": "2ab846ba3665c7a7",
     "published": "2026-09-10",
-    "modified": "2026-10-07"
+    "modified": "2026-10-12"
   },
   "/services/": {
     "hash": "35d80937197b959e",
@@ -85,59 +85,59 @@
     "modified": "2026-10-07"
   },
   "/services/ai-consulting/": {
-    "hash": "825e79205080344d",
+    "hash": "827bad50d3210b99",
     "published": "2026-09-10",
-    "modified": "2026-10-07"
+    "modified": "2026-10-12"
   },
   "/services/blockchain-data-analytics/": {
-    "hash": "a437ca78c860cc77",
+    "hash": "0617b280765b8c96",
     "published": "2026-09-12",
-    "modified": "2026-10-07"
+    "modified": "2026-10-12"
   },
   "/services/business-intelligence/": {
-    "hash": "2ec40653795e70b7",
+    "hash": "2359fb669e924045",
     "published": "2026-09-12",
-    "modified": "2026-10-07"
+    "modified": "2026-10-12"
   },
   "/services/custom-software/": {
-    "hash": "55999999e5431a6a",
+    "hash": "587f3e517c01bf18",
     "published": "2026-09-10",
-    "modified": "2026-10-07"
+    "modified": "2026-10-12"
   },
   "/services/data-engineering/": {
-    "hash": "cbfec51abe48ab72",
+    "hash": "b692a43a9e8fbd7a",
     "published": "2026-09-10",
-    "modified": "2026-10-07"
+    "modified": "2026-10-12"
   },
   "/services/data-warehouse-migration/": {
-    "hash": "1753a3aca1303747",
+    "hash": "45459b137073105f",
     "published": "2026-09-12",
-    "modified": "2026-10-07"
+    "modified": "2026-10-12"
   },
   "/services/it-staff-augmentation/": {
-    "hash": "0ea95c5e9ec9518c",
+    "hash": "6af17048aec065de",
     "published": "2026-09-10",
-    "modified": "2026-10-07"
+    "modified": "2026-10-12"
   },
   "/services/mcp-and-ai-connectors/": {
-    "hash": "a90516d43c308ede",
+    "hash": "6b306d3c3fcb3ec1",
     "published": "2026-09-12",
-    "modified": "2026-10-07"
+    "modified": "2026-10-12"
   },
   "/services/offshore-data-engineering-team/": {
-    "hash": "a3525dcde41d9ca3",
+    "hash": "da61e276b8baa2e6",
     "published": "2026-09-18",
-    "modified": "2026-10-07"
+    "modified": "2026-10-12"
   },
   "/services/technology-recruitment/": {
-    "hash": "65964ff3ecdebf99",
+    "hash": "89a436b7b2f0d628",
     "published": "2026-09-10",
-    "modified": "2026-10-07"
+    "modified": "2026-10-12"
   },
   "/services/workflow-automation/": {
-    "hash": "739ea37eb1d343d5",
+    "hash": "e9f3bdd89d8b4a2b",
     "published": "2026-09-10",
-    "modified": "2026-10-07"
+    "modified": "2026-10-12"
   },
   "/solutions/": {
     "hash": "4d43c960ff274d0f",

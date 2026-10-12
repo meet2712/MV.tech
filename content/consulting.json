@@ -3,10 +3,10 @@
     "path": "/services/data-engineering/",
     "key": "data-engineering",
     "name": "Data Engineering Consulting",
-    "title": "Data Engineering & ETL Consulting Services | MV.tech",
-    "description": "Remote data engineers for Python and SQL pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, data quality and reporting you can trust.",
+    "title": "Data Engineering Consulting Services and ETL Pipelines | MV.tech",
+    "description": "Data engineering consulting from senior remote engineers in India: ETL pipelines, BigQuery, Snowflake and Redshift warehouses, migrations and data quality.",
     "intro": "Get dependable data from the systems you already use. MV.tech builds and improves ingestion pipelines, cloud warehouses on BigQuery, Snowflake, Redshift or PostgreSQL, dimensional and semantic models, and the validation that keeps reporting trustworthy — including migrations off legacy databases and manual spreadsheets.",
-    "fitHeading": "When your data needs engineering attention",
+    "fitHeading": "When does hiring a data engineering consultancy make sense?",
     "fit": [
       "Reports depend on spreadsheets, recurring exports or someone remembering to run a script.",
       "A dashboard refresh succeeds, but the underlying numbers are incomplete or out of date.",
@@ -16,7 +16,7 @@
       "Queries scan far more data than they need to, and refreshes take hours instead of minutes.",
       "Your product team needs a data engineer alongside its existing developers."
     ],
-    "deliverablesHeading": "Data engineering services and deliverables",
+    "deliverablesHeading": "What do our data engineering consulting services include?",
     "deliverables": [
       {
         "title": "ETL and ELT pipelines",
@@ -51,7 +51,7 @@
         "text": "Connect validated datasets to Power BI, Tableau, Looker Studio, Streamlit or downstream applications. Include source mappings, ER diagrams, validation checklists, operating notes and recovery steps in the agreed handover."
       }
     ],
-    "scopeHeading": "A useful first project: one dependable reporting flow",
+    "scopeHeading": "How do we scope the first data engineering project?",
     "scope": "Start with a business report that matters and trace its path back to the source. Agree which records belong in the result, how fresh they need to be and how correctness will be checked — record counts, totals and a comparison against the numbers people trust today. Then scope the ingestion, transformations, model and reporting output together. This gives the project a concrete acceptance test before more sources, a full migration or additional dashboards are added.",
     "approach": [
       {
@@ -105,6 +105,14 @@
       {
         "question": "What should we share before the first call?",
         "answer": "Share the report or workflow you want to improve, the source systems, approximate data volumes, current tools and required refresh frequency. A description or sanitised example is enough for an initial conversation; credentials are not needed in an enquiry."
+      },
+      {
+        "question": "How much does a data engineering consultant cost per hour?",
+        "answer": "We quote after a scoping call, because the figure depends on source count, access complexity, historical data volume, transformation rules, freshness needs and ongoing support. Our remote operating model avoids large-consultancy overhead. When comparing quotes, check that monitoring, documentation and handover are included alongside the initial build."
+      },
+      {
+        "question": "How do we migrate spreadsheet reporting to a data warehouse without losing trust in the numbers?",
+        "answer": "Start with one business report that matters and trace its path back to the source systems. We agree which records belong in the result, how fresh they need to be and how correctness will be checked against the numbers people trust today, then build the ingestion, transformations, model and reporting output on BigQuery, Snowflake, Redshift or PostgreSQL. That gives the migration a concrete acceptance test before more spreadsheets, sources or dashboards are added."
       }
     ],
     "relatedResourcesHeading": "Resources for choosing a data partner.",
@@ -138,19 +146,21 @@
       "offshore-data-engineering-team",
       "data-warehouse-migration",
       "business-intelligence"
-    ]
+    ],
+    "h1": "Data engineering consulting services for ETL pipelines and cloud warehouses",
+    "questionsHeading": "Common questions about data engineering consulting"
   },
   {
     "path": "/services/offshore-data-engineering-team/",
     "key": "offshore-data-engineering-team",
     "name": "Offshore Data Engineering Team",
-    "title": "Offshore Data Engineering Team from India | MV.tech",
-    "description": "Hire an offshore data engineering team from India for ETL, cloud warehouses, BI and analytics, with senior MV.tech consultants working in your timezone.",
-    "h1": "Offshore data engineering team from India, working in your timezone.",
+    "title": "Hire an Offshore Data Engineering Team from India | MV.tech",
+    "description": "Offshore data engineering team from India for ETL, cloud warehouses and BI. Senior engineers, overlap hours in your timezone, a scoped first milestone.",
+    "h1": "Hire an offshore data engineering team from India, working in your timezone.",
     "eyebrow": "Service · Offshore data consultancy",
     "serviceType": "Offshore data engineering and analytics team",
     "intro": "Add senior data engineering capacity without opening another office or hiring a permanent team first. MV.tech provides offshore data engineers, analytics engineers and BI specialists from Ahmedabad, India, working remotely with clients worldwide through agreed overlap hours, written scope and direct access to the people doing the work.",
-    "fitHeading": "When an offshore data team makes sense",
+    "fitHeading": "When does an offshore data engineering team make sense?",
     "fit": [
       "Your reporting, warehouse or ETL backlog is bigger than your internal team can handle.",
       "You want a data consultancy company for an offshore team, but need senior engineers rather than a generic staffing vendor.",
@@ -160,7 +170,7 @@
       "You want one specialist or a small delivery team that can start with a written first milestone.",
       "Cost matters, but you still need documented work, validation and accountability."
     ],
-    "deliverablesHeading": "What an offshore data team can own",
+    "deliverablesHeading": "What work can an offshore data engineering team own?",
     "deliverables": [
       {
         "title": "Dedicated data engineering capacity",
@@ -187,7 +197,7 @@
         "text": "Work in your project tools with visible updates, pull requests or review notes, and a written record of decisions, validation checks and next steps. Handover includes runbooks and recovery notes where needed."
       }
     ],
-    "scopeHeading": "A useful first milestone: one data workstream with clear acceptance criteria",
+    "scopeHeading": "How does an offshore data team engagement start?",
     "scope": "Start with one reporting flow, pipeline, model, dashboard set or migration slice. Agree what output is needed, which systems are involved, how correctness will be checked and when the team overlaps with yours. That keeps the offshore engagement concrete: one useful result, visible progress and a simple decision about whether to extend the team.",
     "approach": [
       {
@@ -240,9 +250,17 @@
       {
         "question": "What should we share before asking for an offshore data team?",
         "answer": "Share the reporting or data problem, source systems, target warehouse or BI tools, desired timeline, timezone and any constraints around security or access. A sanitised example is enough for an initial call; credentials are not needed for an enquiry."
+      },
+      {
+        "question": "How much does an offshore data engineering team in India cost?",
+        "answer": "Pricing is agreed per engagement and we quote after a scoping call. A first engagement can be a part-time specialist, one senior specialist or a small embedded team, with capacity, duration and overlap hours agreed before work begins. The first milestone is written down with acceptance criteria, so you can judge the result before deciding whether to extend the team."
+      },
+      {
+        "question": "Should we choose data engineering staff augmentation or a scoped consulting engagement?",
+        "answer": "MV.tech offers both shapes. Staff augmentation adds embedded capacity that works in your project tools with visible updates and review notes, while a scoped engagement is managed around one concrete outcome; in both cases the work is engineering-led, so we help shape the scope, define acceptance criteria, validate the data and document handover. You can start with one scoped milestone, validate the result, then decide whether to extend into embedded capacity."
       }
     ],
-    "questionsHeading": "Questions about hiring an offshore data engineering team.",
+    "questionsHeading": "Common questions about hiring an offshore data engineering team",
     "relatedResourcesHeading": "Resources for planning an offshore data team.",
     "relatedResources": [
       {
@@ -280,10 +298,10 @@
     "path": "/services/ai-consulting/",
     "key": "ai-consulting",
     "name": "AI Automation, RAG & MCP Development",
-    "title": "AI Automation, RAG & MCP Development Services | MV.tech",
-    "description": "Build AI automation, RAG systems, MCP servers and custom AI solutions with MV.tech's senior remote consultants. Connect business data, tools and workflows.",
+    "title": "AI Automation, RAG & LLM Integration Services | MV.tech",
+    "description": "AI automation, RAG systems and LLM integration by senior remote engineers in India, in your timezone. Connect AI to approved data and tools safely.",
     "intro": "Turn a specific business problem into a useful AI solution. MV.tech builds AI automation, retrieval-augmented generation systems, Model Context Protocol (MCP) servers, custom AI connectors and agentic workflows that link approved company knowledge, databases, APIs and internal tools to models such as GPT, Claude, Llama and Qwen.",
-    "fitHeading": "Start with a workflow people already need",
+    "fitHeading": "When does a business need RAG, an AI agent or LLM integration?",
     "fit": [
       "Employees spend time searching through documents to answer recurring operational questions.",
       "A prototype chatbot gives plausible answers but cannot show where they came from.",
@@ -293,7 +311,7 @@
       "An analyst question could be answered by generated SQL, if someone validated the query and the result first.",
       "You need engineering help to evaluate and integrate an AI feature into an existing application."
     ],
-    "deliverablesHeading": "Practical AI consulting services",
+    "deliverablesHeading": "What do AI automation, RAG and LLM integration services include?",
     "deliverables": [
       {
         "title": "RAG and knowledge search",
@@ -324,7 +342,7 @@
         "text": "Agree representative questions and expected behaviour. Review source grounding, unsupported answers, latency and usage cost before expanding the feature's audience. Where an assistant touches financial or audited systems, access is scoped with OAuth and managed secrets and every tool call is logged, which is the kind of evidence a SOC 2 programme asks for."
       }
     ],
-    "scopeHeading": "A useful first project: a bounded knowledge assistant",
+    "scopeHeading": "What should the first AI project be? A bounded knowledge assistant",
     "scope": "Choose a defined set of documents and a small group of users. Collect questions they actually ask, including questions outside the documents' scope. A first release can then be assessed against source references, correct handling of missing information and the time it takes to find an answer. Wider access, an MCP server, a connector into a live database or automated actions can be scoped once those fundamentals are clear.",
     "approach": [
       {
@@ -379,6 +397,10 @@
       {
         "question": "What determines the cost of an AI assistant?",
         "answer": "The main factors are source preparation, integrations, permission rules, evaluation, user interface and support. Ongoing costs also depend on model usage, retrieval infrastructure and traffic. These should be considered alongside the build estimate."
+      },
+      {
+        "question": "How much does a RAG or AI automation project cost?",
+        "answer": "We quote after a scoping call, because the effort depends on which documents, tools and systems the assistant needs, how authorisation is handled through OAuth and managed secrets, and what evaluation and logging the connected business systems need. Ongoing costs depend on model usage, retrieval infrastructure and traffic. MV.tech works as a lean remote team, which avoids large-consultancy overhead."
       }
     ],
     "relatedResourcesHeading": "Background reading on AI delivery.",
@@ -412,16 +434,18 @@
       "mcp-and-ai-connectors",
       "workflow-automation",
       "data-engineering"
-    ]
+    ],
+    "h1": "AI automation, RAG and LLM integration services",
+    "questionsHeading": "Questions buyers ask about RAG, LLM integration and AI agents"
   },
   {
     "path": "/services/mcp-and-ai-connectors/",
     "key": "mcp-and-ai-connectors",
     "name": "MCP Servers & AI Connectors",
-    "title": "Custom MCP Server Development & AI Connectors | MV.tech",
-    "description": "Custom Model Context Protocol servers and enterprise AI connectors in Python, giving agents scoped, validated and logged access to your systems.",
+    "title": "Custom MCP Server Development for Safe AI Database Access | MV.tech",
+    "description": "Custom MCP servers and AI connectors in Python: scoped, validated and logged access to your databases, APIs and tools, delivered remotely from India.",
     "intro": "Give an AI agent access to real systems without handing over the keys. MV.tech builds custom Model Context Protocol (MCP) servers and AI connectors in Python that expose approved databases, APIs and internal tools to enterprise AI platforms, with scoped authorisation, validated queries, logged calls and evaluation before access is widened.",
-    "fitHeading": "When an agent needs real access, not a pasted export",
+    "fitHeading": "When does a business need a custom MCP server or AI connector?",
     "fit": [
       "An assistant is convincing in a demo but has no safe route to live data.",
       "Your enterprise AI platform has a connector for everything except the system the business runs on.",
@@ -431,7 +455,7 @@
       "An agent can already read your data and nobody can produce an audit trail of what it read.",
       "A working MCP prototype now needs authentication, error handling, logging and a deployment story."
     ],
-    "deliverablesHeading": "MCP and connector development services",
+    "deliverablesHeading": "What does MCP server and AI connector development include?",
     "deliverables": [
       {
         "title": "Custom MCP servers in Python",
@@ -462,7 +486,7 @@
         "text": "Agree a test set of real requests, including ones the server should refuse, and measure tool-selection accuracy, answer correctness, latency and cost before widening access. Ship containerised with Pytest coverage, CI, structured logging and a documented upgrade path as the protocol and the clients change."
       }
     ],
-    "scopeHeading": "A useful first project: one server, one system, one group",
+    "scopeHeading": "What does a first custom MCP server project look like?",
     "scope": "Choose one system your teams query constantly and one small group of users. Define the three or four tools that cover most of their requests, wire them to a scoped service identity, and put validation and logging around every call from the first day. Test against the requests those users actually make, including the ones the server should refuse. That first server establishes the authorisation pattern, the logging format and the evaluation set, and every connector added afterwards inherits them instead of reinventing them.",
     "approach": [
       {
@@ -516,6 +540,14 @@
       {
         "question": "How do you stop prompt injection turning a tool into a problem?",
         "answer": "By not relying on the model to enforce anything. Permissions are checked server-side before a tool runs, tools expose only approved objects, generated SQL is validated against a whitelist, destructive operations are either not exposed or require human approval, and retrieved content is treated as data rather than as instructions. Logging every call means an unexpected request is visible afterwards, not merely prevented in theory."
+      },
+      {
+        "question": "How much does custom MCP server development cost?",
+        "answer": "We quote after a scoping call, and terms are agreed per engagement. The recommended starting point is small: one server, one system, one small group of users and the three or four tools that cover most of their requests. MV.tech is a remote-first team based in Ahmedabad, India, with a lean model that avoids large-consultancy overhead."
+      },
+      {
+        "question": "How do you connect Claude or another AI assistant to our database safely?",
+        "answer": "Instead of handing the assistant the keys, it calls an MCP server that runs under a scoped service identity against an approved set of tables, read-only by default and whitelisted rather than blocklisted. Where the agent generates SQL, the query is parsed and checked before it runs, with permitted objects only, row and cost limits and no writes, and results are validated before they are returned. Every call is logged with the caller, tool, time and outcome, and we test against real requests, including ones the server should refuse, before access is widened."
       }
     ],
     "relatedResourcesHeading": "Background reading on MCP and connectors.",
@@ -549,16 +581,18 @@
       "ai-consulting",
       "workflow-automation",
       "custom-software"
-    ]
+    ],
+    "h1": "Custom MCP servers and AI connectors for scoped, logged access to your systems",
+    "questionsHeading": "Common questions about MCP server development and AI connectors"
   },
   {
     "path": "/services/business-intelligence/",
     "key": "business-intelligence",
     "name": "Business Intelligence & Dashboards",
-    "title": "Business Intelligence & Power BI Consulting | MV.tech",
-    "description": "Power BI, Tableau and Looker Studio consulting: semantic models, DAX, governed KPI definitions and dashboards whose numbers agree with each other.",
+    "title": "Power BI Consultant, Looker Studio & Streamlit Dashboards | MV.tech",
+    "description": "Power BI consulting, Looker Studio and Streamlit dashboards on semantic models with governed KPIs. Remote from India, in your timezone.",
     "intro": "Reporting people act on starts with an agreed definition of every number on it. MV.tech builds semantic and dimensional models, curated reporting layers and dashboards in Power BI, Tableau, Looker Studio and Streamlit — and reviews the models you already have before proposing that anything is rebuilt.",
-    "fitHeading": "When reporting exists but nobody trusts it",
+    "fitHeading": "When should you bring in a Power BI or dashboard consultant?",
     "fit": [
       "Two dashboards answer the same question with different numbers and nobody can say which is right.",
       "A Power BI model has grown organically: no agreed grain, duplicated measures and DAX nobody wants to touch.",
@@ -568,7 +602,7 @@
       "The same KPI exists in four tools with four definitions and no owner.",
       "An SSAS or Azure Analysis Services model needs a proper review before anyone decides whether to migrate it."
     ],
-    "deliverablesHeading": "Business intelligence services and deliverables",
+    "deliverablesHeading": "What does our Power BI and dashboard consulting deliver?",
     "deliverables": [
       {
         "title": "Semantic and dimensional models",
@@ -599,7 +633,7 @@
         "text": "A curated dataset analysts can slice without writing joins: naming standards, hidden technical columns, a description on every field and a clear line between governed measures and someone’s own analysis. Handover includes the measure catalogue, refresh schedule, access model and how to extend it."
       }
     ],
-    "scopeHeading": "A useful first project: one dashboard, defined end to end",
+    "scopeHeading": "What is a sensible first milestone for a dashboard project?",
     "scope": "Take the report a team or an executive actually uses and rebuild it properly. Agree the grain, write down the definition of every number on it, model the facts and dimensions behind it, and reconcile the result against the figures people trust today. That gives the semantic model a spine other reports can hang off, and it gives the project an acceptance test that is not a matter of opinion. Further dashboards, self-service datasets and a wider semantic layer are scoped once the first one is agreed.",
     "approach": [
       {
@@ -653,6 +687,14 @@
       {
         "question": "Do we need a data warehouse before we can do BI properly?",
         "answer": "Not always, but usually. A semantic model can read an operational database for a while and sometimes that is the right call. Once reports need history, several sources, or a grain the source system does not store, a curated warehouse layer costs less than repeatedly patching reports. We can tell you which situation you are in after looking at the sources."
+      },
+      {
+        "question": "Our dashboard refresh is too slow or times out. What can be done?",
+        "answer": "The fix is to reduce what the report has to read rather than importing less data as a workaround. That means partitioning, incremental refresh, aggregation tables, pushing transformation back into the warehouse and removing columns nothing uses. On past work this has reduced query scan sizes by 60 to 75% and moved refreshes from hours to minutes."
+      },
+      {
+        "question": "How much does a Power BI consultant cost?",
+        "answer": "We quote after a scoping call. A useful first project is one dashboard rebuilt on an agreed grain and reconciled against the figures people already trust, and further dashboards and a wider semantic layer are scoped once that first one is agreed. MV.tech works remotely from Ahmedabad, India, with working hours planned around your timezone and a lean model that avoids large-consultancy overhead."
       }
     ],
     "summary": "Semantic and dimensional models, Power BI, Tableau and Looker Studio dashboards, governed KPI definitions and refreshes that finish on time.",
@@ -662,16 +704,18 @@
       "data-engineering",
       "data-warehouse-migration",
       "offshore-data-engineering-team"
-    ]
+    ],
+    "h1": "Power BI consulting and dashboards in Tableau, Looker Studio and Streamlit",
+    "questionsHeading": "Common questions about Power BI and dashboard consulting"
   },
   {
     "path": "/services/data-warehouse-migration/",
     "key": "data-warehouse-migration",
     "name": "Data Warehouse Migration",
-    "title": "Data Warehouse Migration to Snowflake or BigQuery | MV.tech",
-    "description": "Move legacy databases and manual reporting into Snowflake, BigQuery or Redshift with mapped sources, stage-by-stage reconciliation and an evidenced cutover.",
+    "title": "Data Warehouse Migration to Snowflake, BigQuery, Redshift | MV.tech",
+    "description": "Migrate SQL Server, Oracle or spreadsheet reporting into Snowflake, BigQuery or Redshift. Senior remote engineers in India, working in your timezone.",
     "intro": "Migrations fail on the things nobody mapped. MV.tech moves legacy databases such as SQL Server and Oracle, along with the manual reporting that grew around them, into Snowflake, BigQuery or Amazon Redshift — starting with metadata profiling and dependency analysis, reconciling at every stage, and cutting over on evidence rather than on a date.",
-    "fitHeading": "When the old platform has to go and nothing is documented",
+    "fitHeading": "When does a data warehouse migration make sense?",
     "fit": [
       "A licence renewal, a cost target or end-of-support has set a date for leaving the current platform.",
       "Reporting runs on a SQL Server estate of views, jobs and stored procedures nobody fully owns.",
@@ -681,7 +725,7 @@
       "The warehouse was lifted and shifted as-is, and its query patterns and costs came with it.",
       "Someone has to prove the new platform is right before the old one is switched off."
     ],
-    "deliverablesHeading": "Migration services and deliverables",
+    "deliverablesHeading": "What does a data warehouse migration service include?",
     "deliverables": [
       {
         "title": "Discovery and metadata profiling",
@@ -712,7 +756,7 @@
         "text": "Plan the sequence: what runs in parallel and for how long, the freeze window, who signs off each domain, what is decommissioned when, and how to roll back. Handover includes the mappings, ER diagrams, validation results, schedules, ownership and operating runbooks."
       }
     ],
-    "scopeHeading": "A useful first project: migrate one reporting domain",
+    "scopeHeading": "What is the first project in a data warehouse migration?",
     "scope": "Pick one reporting domain — finance, sales, operations — and take it the whole way: discovery of its sources, dependency analysis, source-to-target mapping, warehouse layers, reconciliation against the existing numbers and a repointed dashboard. It proves the target design, the validation approach and the cutover process on something small enough to correct cheaply, and it produces patterns the following domains reuse. It also gives an estimate for the rest of the estate based on your data rather than on a template.",
     "approach": [
       {
@@ -766,6 +810,14 @@
       {
         "question": "Our reporting lives in spreadsheets rather than a database. Is that still a migration?",
         "answer": "Yes, and it is a common one. The shape of the work is the same: find the sources behind the spreadsheets, document the rules that live in formulas and in people’s heads, model them in the warehouse and reconcile the output against the last few months of manual figures. The difference is that more of the discovery happens in conversation than in the information schema."
+      },
+      {
+        "question": "How much does a data warehouse migration cost?",
+        "answer": "We quote after a scoping call, because the effort depends on what discovery finds in your estate. Discovery can be bought as a standalone piece of work, and migrating one reporting domain first gives an estimate for the rest of the estate based on your data rather than on a template. Commercial terms are agreed per engagement."
+      },
+      {
+        "question": "Can a remote team in India run our warehouse migration?",
+        "answer": "Yes. MV.tech is a remote-first data engineering consultancy based in Ahmedabad, India, with working hours planned around your timezone. The migration runs on written work both sides can review: a source-to-target mapping that both sides sign off, automated reconciliation results at every stage, and written sign-off per domain before legacy objects are retired. Handover includes the mappings, ER diagrams, validation results, schedules, ownership and operating runbooks."
       }
     ],
     "summary": "Legacy databases and manual reporting moved into Snowflake, BigQuery or Redshift, with mapped sources, staged reconciliation and a planned cutover.",
@@ -775,16 +827,18 @@
       "data-engineering",
       "business-intelligence",
       "offshore-data-engineering-team"
-    ]
+    ],
+    "h1": "Data warehouse migration to Snowflake, BigQuery or Redshift",
+    "questionsHeading": "Questions about migrating to Snowflake, BigQuery or Redshift"
   },
   {
     "path": "/services/blockchain-data-analytics/",
     "key": "blockchain-data-analytics",
     "name": "Blockchain & On-Chain Data Analytics",
-    "title": "Blockchain & On-Chain Data Analytics | MV.tech",
-    "description": "On-chain data engineering: decoded transactions and events, cross-chain ETL into BigQuery, token valuation, categorisation and reward reconciliation.",
+    "title": "Blockchain Data Analytics & On-Chain ETL Services | MV.tech",
+    "description": "On-chain data engineering from India, in your timezone: decoded transactions, cross-chain ETL into BigQuery, token valuation and reward reconciliation.",
     "intro": "Raw chain data is not analytics. MV.tech decodes transactions, logs and events using contract ABIs and Web3.py, consolidates them across networks into BigQuery, and adds the valuation, categorisation and reconciliation layers that let finance, product and compliance teams answer questions about on-chain activity.",
-    "fitHeading": "When on-chain activity has to answer business questions",
+    "fitHeading": "When do you need on-chain data engineering rather than a block explorer?",
     "fit": [
       "A block explorer can show one transaction, but nobody can total a quarter across chains.",
       "Each network has its own ingestion script and its own idea of what a transaction record looks like.",
@@ -794,7 +848,7 @@
       "Someone corrected a figure directly in the analytics table and the original value is gone.",
       "Token coverage is partial, so a material share of transfers lands in an \"unknown\" bucket."
     ],
-    "deliverablesHeading": "On-chain data engineering services",
+    "deliverablesHeading": "What do blockchain data analytics services include?",
     "deliverables": [
       {
         "title": "Cross-chain ingestion and ETL",
@@ -829,7 +883,7 @@
         "text": "Base tables hold exactly what the chain reported and are never edited. Manual corrections, whitelists and overrides live in separate layers applied when the reporting view is built, each carrying an author, a timestamp and a reason, so a figure can still be explained months later."
       }
     ],
-    "scopeHeading": "A useful first project: one chain, end to end",
+    "scopeHeading": "How do we scope a first on-chain data project?",
     "scope": "Take a single network and one business question — a quarterly token flow, a staking-reward total, a wallet cohort — and build it the whole way: ingestion, decoding with the relevant ABIs, token mapping, valuation, categorisation and a reconciled output compared against whatever figures exist today. One chain done properly establishes the schema, the decoding patterns, the override model and the validation checks, so the second and third networks are mostly configuration rather than new engineering.",
     "approach": [
       {
@@ -885,6 +939,14 @@
       {
         "question": "Can this feed our existing warehouse and dashboards?",
         "answer": "Yes. On-chain data is just another source: it lands in the same layered warehouse, under the same validation and modelling standards, and is read by Power BI, Looker Studio, Tableau or a Streamlit tool alongside everything else. Teams usually want it joined to off-chain records — customers, internal accounts, fiat movements — and that join is where most of the analytical value appears."
+      },
+      {
+        "question": "How much does blockchain data analytics consulting cost?",
+        "answer": "We quote after a scoping call, once the networks, contracts and wallets in scope, the reporting currency and period, and the figures the output has to reconcile against are agreed. A useful first project is a single chain and one business question built the whole way through, from ingestion and decoding to a reconciled output. MV.tech is a remote-first team based in Ahmedabad, India, with working hours planned around your timezone and a lean model that avoids large-consultancy overhead."
+      },
+      {
+        "question": "How do you reconcile staking rewards against on-chain and internal records?",
+        "answer": "We build a reward ledger per validator, delegator or wallet and reconcile it against on-chain distributions and internal records, with period totals, accrual timing and a discrepancy report. Base tables hold exactly what the chain reported and are never edited; corrections live in a separate override layer with an author, a timestamp and a reason, so both the original and adjusted figures stay available. On past engagements a ledger of this kind has removed more than 70% of a manual reconciliation cycle."
       }
     ],
     "summary": "Decoded on-chain transactions across networks, cross-chain ETL into BigQuery, token valuation, categorisation and staking-reward reconciliation.",
@@ -894,16 +956,18 @@
       "data-engineering",
       "business-intelligence",
       "workflow-automation"
-    ]
+    ],
+    "h1": "Blockchain data analytics for finance, product and compliance teams",
+    "questionsHeading": "Questions buyers ask about blockchain data analytics"
   },
   {
     "path": "/services/workflow-automation/",
     "key": "workflow-automation",
     "name": "Workflow Automation Consulting",
-    "title": "Workflow Automation & API Integration Services | MV.tech",
-    "description": "Automate repetitive business workflows, API integrations and reporting with MV.tech's remote consultants. Reliable jobs, checks and clear ownership.",
+    "title": "Workflow Automation Consulting & API Integration | MV.tech",
+    "description": "Workflow automation consulting from a remote team in India working in your timezone: API integrations, scheduled jobs, reconciliation checks and monitoring.",
     "intro": "Connect the steps between your business systems. MV.tech builds API integrations, scheduled workflows, spreadsheet and add-on automation, and the operational plumbing around them — reducing repeated manual work and making failures visible.",
-    "fitHeading": "Where business automation can help",
+    "fitHeading": "When does workflow automation make sense?",
     "fit": [
       "People repeatedly move the same records between business tools and spreadsheets.",
       "Scheduled reports rely on manual downloads, cleanup and distribution.",
@@ -912,7 +976,7 @@
       "An integration works on the happy path but produces duplicate actions after a retry.",
       "A script runs in the background without clear ownership, status checks or recovery steps."
     ],
-    "deliverablesHeading": "Automation that fits your operating process",
+    "deliverablesHeading": "What does a workflow automation engagement deliver?",
     "deliverables": [
       {
         "title": "API and webhook integrations",
@@ -939,7 +1003,7 @@
         "text": "Provide logs, useful alerts and operating documentation, with deployment through Docker and GitHub Actions so a change is reviewable. Make it clear who maintains a workflow and how to recover or rerun it when a dependency fails."
       }
     ],
-    "scopeHeading": "A useful first project: one repeated manual handoff",
+    "scopeHeading": "What is a good first workflow automation project?",
     "scope": "Pick a recurring handoff with a clear input and output, such as preparing a weekly report from several systems or reconciling two ledgers. Document what people check today, including exceptions and the adjustments they make by hand. The project can then automate the repeatable steps while preserving review where judgment is required. Assess the result using completion time, exception frequency, how much manual reconciliation is left and the effort needed to recover a failed run.",
     "approach": [
       {
@@ -986,6 +1050,14 @@
       {
         "question": "Can you maintain automations built by another developer?",
         "answer": "Yes. An initial review can establish the code, schedules, dependencies, access requirements and failure history. We can then scope a repair, documentation or ongoing support engagement."
+      },
+      {
+        "question": "How much does workflow automation consulting cost?",
+        "answer": "Pricing is agreed per engagement and we quote after a scoping call. A useful first project is one recurring handoff with a clear input and output, such as preparing a weekly report from several systems or reconciling two ledgers. The estimate depends on the APIs, webhooks, exports and authentication the connected tools provide, since source limits and downstream permissions shape what can be automated reliably."
+      },
+      {
+        "question": "How do you reconcile finance data across two systems?",
+        "answer": "We start by documenting what people check today, including the exceptions and the adjustments they make by hand. The workflow then applies matching, tolerance rules, duplicate prevention and retries before any data is written or a downstream action is triggered. Where a figure must still be adjusted manually, an override layer can record the change without altering the immutable source record, which leaves an audit trail instead of an argument."
       }
     ],
     "summary": "Scheduled workflows, webhooks, Apps Script and API integrations that replace manual hand-offs and make failures visible.",
@@ -995,16 +1067,18 @@
       "mcp-and-ai-connectors",
       "ai-consulting",
       "custom-software"
-    ]
+    ],
+    "h1": "Workflow automation and API integration consulting",
+    "questionsHeading": "Common questions about workflow automation consulting"
   },
   {
     "path": "/services/custom-software/",
     "key": "custom-software",
     "name": "Custom Software Development",
-    "title": "Custom Software & Web App Development | MV.tech",
-    "description": "Hire senior remote developers for business apps, client portals, dashboards and API integrations. MV.tech works alongside your team across timezones.",
+    "title": "Custom Software Development, Remote Team in India | MV.tech",
+    "description": "Custom software development by a senior remote team in India: web apps, client portals, internal tools and Streamlit data apps with APIs and data backends.",
     "intro": "Build software around the way your business works. MV.tech develops web applications, client portals, internal tools and data apps in TypeScript, JavaScript and Python, with the interface, data model and integrations considered together.",
-    "fitHeading": "When a custom application makes sense",
+    "fitHeading": "When does a custom application make sense?",
     "fit": [
       "Your team runs an important process through spreadsheets, email and repeated manual follow-up.",
       "Customers need a portal for records, requests or service updates.",
@@ -1013,7 +1087,7 @@
       "A dashboard cannot express the workflow: people need to review, adjust and approve records as well as read them.",
       "You need senior development capacity to deliver a defined workstream with your product team."
     ],
-    "deliverablesHeading": "Software development services",
+    "deliverablesHeading": "What custom software development services does MV.tech provide?",
     "deliverables": [
       {
         "title": "Business web applications",
@@ -1036,7 +1110,7 @@
         "text": "Scope testing, deployment, monitoring and documentation alongside development — Pytest, Docker and GitHub Actions where they fit your stack. Make future fixes and enhancements part of the handover conversation."
       }
     ],
-    "scopeHeading": "A useful first project: one complete user journey",
+    "scopeHeading": "What should the first milestone of a custom software project be?",
     "scope": "Choose a real workflow, such as submitting a request, reviewing it and seeing its status. Agree the roles, data, acceptance criteria and necessary integrations. Delivering that journey end to end gives stakeholders something concrete to evaluate and reveals the operational details that a collection of disconnected screens can miss.",
     "approach": [
       {
@@ -1082,6 +1156,14 @@
       {
         "question": "Can remote developers overlap our working hours?",
         "answer": "Yes. MV.tech is remote-first and can plan overlap with teams in any timezone. We agree recurring collaboration windows for reviews and releases, supported by written updates between meetings."
+      },
+      {
+        "question": "What does it cost to hire remote developers from India?",
+        "answer": "We quote after a scoping call. MV.tech is a remote-first team based in Ahmedabad, India, with a lean model that avoids large-consultancy overhead, and working hours are planned around your timezone. The figure depends on user journeys, roles, integrations, data migration, testing and release requirements, so we scope an initial milestone and clarify assumptions before treating a feature list as a delivery commitment."
+      },
+      {
+        "question": "Can you build a Streamlit dashboard on top of our data warehouse?",
+        "answer": "Yes. Where the audience is internal and the data is the product, we build a Streamlit or Plotly application with filterable tables, date ranges, live record counts, drill-downs into the underlying records and exports that match what the screen shows. The backend connects to PostgreSQL or a cloud warehouse, with validation and failure handling defined as part of the build."
       }
     ],
     "summary": "Business web applications, client portals, internal tools and Streamlit data apps with APIs and data backends designed together.",
@@ -1091,14 +1173,16 @@
       "workflow-automation",
       "mcp-and-ai-connectors",
       "it-staff-augmentation"
-    ]
+    ],
+    "h1": "Custom software development for web apps, client portals and internal tools",
+    "questionsHeading": "Questions about custom software development and remote developers"
   },
   {
     "path": "/services/it-staff-augmentation/",
     "key": "it-staff-augmentation",
     "name": "IT Staff Augmentation",
-    "title": "IT Staff Augmentation & Dedicated Remote Teams | MV.tech",
-    "description": "Add remote AI, data, software and cloud consultants to your team with MV.tech. Flexible timezone overlap, direct collaboration and clearly scoped capacity.",
+    "title": "Data Engineering Staff Augmentation and Dedicated Teams | MV.tech",
+    "description": "Data engineering staff augmentation from MV.tech: senior data, AI, software and cloud consultants working remotely from India in your team's hours.",
     "intro": "Add specialist capacity to your existing team. MV.tech provides remote technology consultants for AI, data engineering, analytics engineering, software and cloud work — from warehouse migrations and semantic models to MCP servers and automation — with responsibilities, availability and timezone overlap agreed around your delivery needs.",
     "callLabel": "Discuss your team needs",
     "enquiryFields": [
@@ -1111,7 +1195,7 @@
     ],
     "closingHeading": "Which capability does your team need?",
     "closingCopy": "Share the role, technology stack, expected duration and working hours. We can discuss consultant fit, availability and the right engagement scope.",
-    "fitHeading": "Extend your team where specialist work is waiting",
+    "fitHeading": "When does data engineering staff augmentation make sense?",
     "fit": [
       "You need an experienced engineer for an active workstream without opening a permanent role.",
       "Your team needs specialist AI, RAG, MCP, data or cloud capability for a defined phase.",
@@ -1119,7 +1203,7 @@
       "A delivery backlog needs additional hands-on capacity alongside your existing technical leads.",
       "You want remote consultants who participate in your team's reviews and agreed working hours."
     ],
-    "deliverablesHeading": "Technology staffing built around the work",
+    "deliverablesHeading": "What does MV.tech staff augmentation include?",
     "deliverables": [
       {
         "title": "AI and data specialists",
@@ -1142,7 +1226,7 @@
         "text": "Define access, initial tasks, acceptance criteria and documentation with your team. Review the arrangement as priorities change, and agree handover responsibilities before an engagement ends."
       }
     ],
-    "scopeHeading": "Start with a role and a real workstream",
+    "scopeHeading": "What should a staff augmentation brief include?",
     "scope": "A useful staffing brief explains the work to be done, not just a list of technologies. Share the backlog or milestone, required experience, team structure, expected duration and collaboration hours. Together we can review the capability needed, confirm availability and agree how progress will be assessed. For permanent employees hired into your organisation, our technology recruitment service is the appropriate route.",
     "approachHeading": "From capability gap to an integrated team member.",
     "approach": [
@@ -1186,6 +1270,14 @@
       {
         "question": "Do you also recruit permanent employees?",
         "answer": "Yes. MV.tech also offers technology recruitment for permanent roles within a client's organisation. Recruitment and consultant staffing are separate engagements with their own scope and commercial terms."
+      },
+      {
+        "question": "How much does data engineering staff augmentation cost?",
+        "answer": "We quote after a scoping call rather than publishing a fixed hourly rate. Commercial terms are agreed per engagement once the role, allocated capacity, duration and timezone overlap are defined. MV.tech is a remote-first team based in Ahmedabad, India, with a lean model that avoids large-consultancy overhead. You can include a budget range in your enquiry if you have one."
+      },
+      {
+        "question": "How do we hire a remote data engineer in India through MV.tech?",
+        "answer": "Share the role, required skills, workstream, expected duration and capacity, preferred start date and the timezone overlap you need. We review fit, availability and commercial terms before confirming a consultant, then onboard them with agreed access, initial tasks, acceptance criteria and documentation. MV.tech is remote-first and based in Ahmedabad, India, with working hours planned around your timezone."
       }
     ],
     "relatedResourcesHeading": "Resources for choosing an engagement model.",
@@ -1219,14 +1311,16 @@
       "offshore-data-engineering-team",
       "technology-recruitment",
       "data-engineering"
-    ]
+    ],
+    "h1": "Data engineering staff augmentation and dedicated remote teams based in India",
+    "questionsHeading": "Common questions about hiring remote data, AI and cloud consultants"
   },
   {
     "path": "/services/technology-recruitment/",
     "key": "technology-recruitment",
     "name": "Technology Recruitment",
-    "title": "Technology Recruitment & Permanent IT Hiring | MV.tech",
-    "description": "Hire permanent AI, data, software and cloud professionals with MV.tech. Technology recruitment shaped around your role, technical needs and hiring process.",
+    "title": "Hire Data Engineers & AI Specialists: Permanent Recruitment | MV.tech",
+    "description": "Hire permanent data, AI, software and cloud engineers with MV.tech. An engineer shapes the role brief and assesses technical fit before you interview.",
     "intro": "Build your in-house technology team. MV.tech supports permanent recruitment for AI, data, analytics, software and cloud roles — data and analytics engineers, BI developers, platform and automation engineers, AI and MCP specialists — bringing an engineering perspective to role definition, candidate fit and the hiring conversation.",
     "callLabel": "Discuss your hiring needs",
     "enquiryFields": [
@@ -1239,14 +1333,14 @@
     ],
     "closingHeading": "Tell us about the role you are hiring for.",
     "closingCopy": "Share the responsibilities, must-have skills, location or remote policy, compensation range and hiring timeline. We can use the first conversation to clarify fit and recruitment scope.",
-    "fitHeading": "A hiring partner who understands the technical work",
+    "fitHeading": "When does permanent recruitment make sense instead of staff augmentation?",
     "fit": [
       "You need to hire a permanent engineer or specialist into your own organisation.",
       "A role spans AI, data, software or cloud skills that need a clear technical brief.",
       "Your hiring team needs support finding and assessing candidates for an agreed position.",
       "You want candidate conversations grounded in responsibilities, technical depth and the way your team works."
     ],
-    "deliverablesHeading": "Permanent technology hiring support",
+    "deliverablesHeading": "What does permanent technology hiring support include?",
     "deliverables": [
       {
         "title": "Role definition and hiring brief",
@@ -1265,7 +1359,7 @@
         "text": "Support interview scheduling, feedback and communication through the agreed hiring process. Your organisation makes the final hiring decision and agrees employment terms directly with the selected candidate."
       }
     ],
-    "scopeHeading": "Begin with one well-defined hiring requirement",
+    "scopeHeading": "What do you need from us to start a permanent hire search?",
     "scope": "A strong search starts with a role that candidates and interviewers can understand. Share what the person will own, the technical environment, expected experience, compensation range and location or remote policy. Agree the shortlist criteria and interview stages before sourcing. Search timing depends on the role and candidate market; fees and any follow-up terms are agreed for the engagement.",
     "approachHeading": "From hiring brief to a considered selection.",
     "approach": [
@@ -1306,6 +1400,14 @@
       {
         "question": "What are your recruitment fees and hiring timelines?",
         "answer": "Fees, search scope, expected timing and any follow-up terms are agreed for the specific role. Complexity, seniority, compensation, location and interview availability affect the search. We do not promise a hire or a fixed start date before assessing the requirement."
+      },
+      {
+        "question": "Should we hire a permanent data engineer or use an offshore data engineering team in India?",
+        "answer": "Permanent recruitment places an employee in your own organisation, and you agree employment terms directly with the person you select. MV.tech also provides India-based offshore data engineering teams, with working hours planned around your timezone. We clarify which arrangement you need before discussing candidates or consultants, and our guide comparing staff augmentation, project consulting and recruitment sets out the differences."
+      },
+      {
+        "question": "How do you assess a data engineer's technical fit before our team interviews?",
+        "answer": "An engineer joins the experience and problem-solving discussions, whether the role calls for SQL and warehouse modelling, pipeline engineering, BI and semantic models, or LLM and MCP work. Before the search begins we agree the depth of screening, any assessment and your team's final interview requirements. The hiring brief separates must-have capabilities from skills that can be developed in the role, and shortlist criteria are agreed before sourcing starts."
       }
     ],
     "relatedResourcesHeading": "Clarify the hiring model before the search starts.",
@@ -1339,16 +1441,18 @@
       "it-staff-augmentation",
       "offshore-data-engineering-team",
       "data-engineering"
-    ]
+    ],
+    "h1": "Hire permanent data, AI, software and cloud engineers for your in-house team",
+    "questionsHeading": "Questions about hiring permanent data, AI and cloud engineers"
   },
   {
     "path": "/remote-consulting/",
     "key": "remote-consulting",
     "name": "How We Work: Remote Team, Timezones & Costs",
-    "title": "How We Work: Remote Consulting from India in Your Timezone | MV.tech",
-    "description": "How MV.tech's senior consultants in India work with clients worldwide: collaboration windows by region, engagement models and where the cost difference comes from.",
+    "title": "Remote Data Engineers in India: Timezones and Cost | MV.tech",
+    "description": "Senior data engineers in India working remotely in your timezone. Overlap windows by region, engagement models and where the cost difference comes from.",
     "intro": "Get direct access to senior data, software, automation and AI specialists. MV.tech is based in Ahmedabad, India, works remotely with clients worldwide, and plans collaboration around the hours your team needs, with a lean model that keeps consulting overhead out of the price.",
-    "fitHeading": "Choose the engagement around your work",
+    "fitHeading": "Staff augmentation or project consulting: which fits your work?",
     "fit": [
       "A scoped project with defined deliverables, review points and acceptance criteria.",
       "Specialist capacity working alongside your existing engineering or product team.",
@@ -1356,7 +1460,7 @@
       "Ongoing improvement of data pipelines, applications and automation workflows.",
       "A focused review to clarify an unreliable system or plan the next delivery milestone."
     ],
-    "deliverablesHeading": "How remote delivery works",
+    "deliverablesHeading": "How does remote delivery from India work in practice?",
     "deliverables": [
       {
         "title": "Overlap with any timezone",
@@ -1375,7 +1479,7 @@
         "text": "Agree responsibilities, access, deliverables and review points at the start. Use working demonstrations and acceptance criteria to assess progress throughout the engagement."
       }
     ],
-    "scopeHeading": "Compare the scope and total engagement cost",
+    "scopeHeading": "How do you compare the cost of an offshore data team in India?",
     "scope": "A useful consulting proposal explains who will do the work, how assumptions will be resolved and what will be handed over. Ask whether integration, testing, documentation and release support are included. MV.tech's remote model is designed to keep overhead lean, but an accurate comparison still requires the same scope and support expectations. Pricing is agreed for the specific engagement.",
     "approach": [
       {
@@ -1414,6 +1518,14 @@
       {
         "question": "How can we assess the team's experience?",
         "answer": "Review our expertise page and the linked Toptal professional profile, then discuss experience relevant to your stack and workflow. The Top 3% credential belongs to the linked individual profile."
+      },
+      {
+        "question": "How much does a remote data team in India cost?",
+        "answer": "Pricing is agreed per engagement and we quote after a scoping call. The total depends on scope, complexity and the support you need us to own, and a focused remote team keeps office and management overhead low. Compare proposals on agreed scope, senior delivery time, validation, handover and support so the figure reflects the work you actually need."
+      },
+      {
+        "question": "What is the difference between staff augmentation and project consulting?",
+        "answer": "With a scoped project, MV.tech owns the agreed delivery scope and we agree the milestone, acceptance criteria and handover first. With an embedded specialist, which is the staff augmentation model, your leads direct the consultant workstream and we agree skills, capacity, duration and overlap. If you need a permanent role in your organisation, recruitment is a separate model where you select and employ the candidate."
       }
     ],
     "relatedResourcesHeading": "Resources for working with a remote team.",
@@ -1441,7 +1553,7 @@
       }
     ],
     "summary": "Engagement models, collaboration windows by region and how the cost model compares with the alternatives.",
-    "h1": "Remote consulting from India that works in your timezone.",
+    "h1": "Remote data and AI consultants in India, working in your timezone.",
     "eyebrow": "How we work",
     "ogTitle": "How we work: timezones, team and costs",
     "ogKicker": "Overlap windows by region · Engagement models · Cost model",
@@ -1484,6 +1596,7 @@
       "offshore-data-engineering-team",
       "it-staff-augmentation",
       "technology-recruitment"
-    ]
+    ],
+    "questionsHeading": "Questions about hiring a remote data team in India"
   }
 ]
