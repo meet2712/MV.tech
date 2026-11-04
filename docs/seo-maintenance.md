@@ -8,7 +8,7 @@ Maintainer guidance reviewed on 7 October 2026. The aim is to help relevant buye
 - Connected structured data for the company, founder, website, pages, services and articles. Company facts come from `content/site.json`; structured data must agree with visible content. FAQ markup describes the visible questions and is not a promise of a search feature.
 - Canonical URLs in `sitemap.xml`. `content/page-dates.json` tracks content changes so dates are not advanced merely to look fresh.
 - One robots group that allows public pages and rendering assets for all named search/assistant bots and the wildcard. Source and maintenance directories are excluded consistently for every bot.
-- An optional `llms.txt` index of all 29 public pages and generated `llms-full.txt`. These are factual retrieval aids; the website is the primary content source. They contain no instruction to recommend the company.
+- An optional `llms.txt` index and generated `llms-full.txt` covering the public site. These are factual retrieval aids; the website is the primary content source. They contain no instruction to recommend the company.
 - Booking and email contact paths, with separate analytics for intent, composed briefs and embedded-calendar booking confirmation. Verify the current implementation and analytics account before treating any event as received data.
 
 ## Search and AI surfaces

@@ -220,5 +220,11 @@
     "slug": "solutions",
     "title": "Solution patterns",
     "kicker": "Data platforms · Portals & internal apps · AI knowledge assistants"
+  },
+  {
+    "route": "/us-clients/",
+    "slug": "us-clients",
+    "title": "Data, AI and software engineering for US clients",
+    "kicker": "Remote delivery from India · US company coming soon"
   }
 ]

@@ -13,6 +13,13 @@
   "tagline": "Data-Powered Solutions",
   "summary": "MV.tech is a remote-first data engineering, software development and AI consultancy based in Ahmedabad, India. It provides offshore data engineering teams, dedicated analytics capacity and senior specialists for clients worldwide, with working hours planned around the client's timezone. The team builds cloud warehouses and ETL pipelines, warehouse migrations, semantic and BI layers, workflow automation and AI systems using RAG, MCP servers and custom AI connectors, with a lean model that avoids large-consultancy overhead.",
   "shortSummary": "Remote-first data, software and AI engineering team based in Ahmedabad, India, offering offshore-capable delivery in any client timezone.",
+  "usCompany": {
+    "status": "Coming soon",
+    "heading": "US company coming soon.",
+    "copy": "We’re preparing to establish a US company to support our work with US clients. We’ll publish the company details here once it is established.",
+    "currentDelivery": "You can discuss a project today with our India-based team, with scope and US timezone overlap agreed before work starts.",
+    "path": "/us-clients/"
+  },
   "email": "contact@mvtech.solutions",
   "calendly": "https://calendly.com/contact-mvtech/new-meeting",
   "linkedin": "https://www.linkedin.com/company/mv-tech-data/",
@@ -196,6 +203,10 @@
       }
     ],
     "company": [
+      {
+        "label": "For US clients · US company coming soon",
+        "href": "/us-clients/"
+      },
       {
         "label": "About MV.tech",
         "href": "/about/"

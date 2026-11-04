@@ -1,13 +1,13 @@
 {
   "/": {
-    "hash": "d00e551a2d971cb8",
+    "hash": "feb3e8fc681094bd",
     "published": "2026-01-02",
-    "modified": "2026-10-12"
+    "modified": "2026-11-04"
   },
   "/about/": {
-    "hash": "9fa5f01d9a84638c",
+    "hash": "9b26193d9154e82f",
     "published": "2026-06-02",
-    "modified": "2026-10-07"
+    "modified": "2026-11-04"
   },
   "/brand/": {
     "hash": "bec15dc4c4016df7",
@@ -20,9 +20,9 @@
     "modified": "2026-10-07"
   },
   "/contact/": {
-    "hash": "df1ac85fb83fe019",
+    "hash": "5edeb804c61feb80",
     "published": "2026-06-02",
-    "modified": "2026-10-07"
+    "modified": "2026-11-04"
   },
   "/expertise/": {
     "hash": "7d765139232f2faa",
@@ -105,14 +105,14 @@
     "modified": "2026-10-12"
   },
   "/services/ai-consulting/": {
-    "hash": "827bad50d3210b99",
+    "hash": "3eb7af287f1f51d6",
     "published": "2026-09-10",
-    "modified": "2026-10-12"
+    "modified": "2026-11-04"
   },
   "/services/bigquery-consulting/": {
-    "hash": "13ca6765fb530fef",
+    "hash": "854361f99f6a3488",
     "published": "2026-10-12",
-    "modified": "2026-10-12"
+    "modified": "2026-11-04"
   },
   "/services/blockchain-data-analytics/": {
     "hash": "48fc11065da6ca1d",
@@ -120,9 +120,9 @@
     "modified": "2026-10-12"
   },
   "/services/business-intelligence/": {
-    "hash": "472ffb3e3a1e9386",
+    "hash": "60fc958e6325c63e",
     "published": "2026-09-12",
-    "modified": "2026-10-12"
+    "modified": "2026-11-04"
   },
   "/services/custom-software/": {
     "hash": "587f3e517c01bf18",
@@ -130,19 +130,19 @@
     "modified": "2026-10-12"
   },
   "/services/data-engineering/": {
-    "hash": "e557bf16c7d37cc5",
+    "hash": "d3505edc30658a75",
     "published": "2026-09-10",
-    "modified": "2026-10-12"
+    "modified": "2026-11-04"
   },
   "/services/data-warehouse-migration/": {
-    "hash": "c3fbd1fd6d897b22",
+    "hash": "3ecd7757a8abd611",
     "published": "2026-09-12",
-    "modified": "2026-10-12"
+    "modified": "2026-11-04"
   },
   "/services/hire-data-engineers/": {
-    "hash": "58de788d35a912cf",
+    "hash": "474c05411f1fdfc5",
     "published": "2026-10-12",
-    "modified": "2026-10-12"
+    "modified": "2026-11-04"
   },
   "/services/it-staff-augmentation/": {
     "hash": "6af17048aec065de",
@@ -150,24 +150,24 @@
     "modified": "2026-10-12"
   },
   "/services/mcp-and-ai-connectors/": {
-    "hash": "6b306d3c3fcb3ec1",
+    "hash": "d000457a41323fb9",
     "published": "2026-09-12",
-    "modified": "2026-10-12"
+    "modified": "2026-11-04"
   },
   "/services/offshore-data-engineering-team/": {
-    "hash": "c907bbbebe2fbfe4",
+    "hash": "782d2c737a49eabb",
     "published": "2026-09-18",
-    "modified": "2026-10-12"
+    "modified": "2026-11-04"
   },
   "/services/power-bi-consulting/": {
-    "hash": "fcddfc0efe501e07",
+    "hash": "96b5d96c3e8a2f40",
     "published": "2026-10-12",
-    "modified": "2026-10-12"
+    "modified": "2026-11-04"
   },
   "/services/snowflake-consulting/": {
-    "hash": "ebc47718785b44dd",
+    "hash": "16d4fae75f7a8172",
     "published": "2026-10-12",
-    "modified": "2026-10-12"
+    "modified": "2026-11-04"
   },
   "/services/technology-recruitment/": {
     "hash": "89a436b7b2f0d628",
@@ -183,5 +183,10 @@
     "hash": "4d43c960ff274d0f",
     "published": "2026-06-02",
     "modified": "2026-10-07"
+  },
+  "/us-clients/": {
+    "hash": "19643fd23eb63613",
+    "published": "2026-11-04",
+    "modified": "2026-11-04"
   }
 }

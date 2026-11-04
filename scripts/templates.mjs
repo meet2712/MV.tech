@@ -22,6 +22,18 @@ export function callButton(site, label = 'Book a 30-minute call', cls = 'button-
   return `<a class="${cls}" href="/contact/#book-call">${h(label)} ${icon('arrow-right')}</a>`;
 }
 
+export function usCompanyNote(site) {
+  const note = site.usCompany;
+  return `<section class="band band-light us-company" id="us-company" aria-labelledby="us-company-heading">
+    <div class="container split">
+      <div><p class="eyebrow">${h(note.status)}</p><h2 id="us-company-heading">${h(note.heading)}</h2></div>
+      <div><p class="body-copy">${h(note.copy)}</p><p class="body-copy">${h(note.currentDelivery)}</p>
+        <div class="action-row"><a class="button-primary" href="/contact/#book-call">Discuss your US project ${icon('arrow-right')}</a><a class="text-link" href="${h(note.path)}">Working with MV.tech from the US ${icon('arrow-right')}</a></div>
+      </div>
+    </div>
+  </section>`;
+}
+
 export function emailLink(site, subject, fields, label = 'Email your brief', cls = 'button-secondary') {
   const body = fields.map((field) => field + ':').join('\n\n') + '\n';
   const href = `mailto:${site.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
