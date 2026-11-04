@@ -2,8 +2,8 @@
   {
     "route": "/",
     "slug": "home",
-    "title": "Senior data, software & AI engineers who work in your timezone",
-    "kicker": "Remote-first consultancy · Ahmedabad, India · Clients worldwide"
+    "title": "Data engineering. Software development. Built around your business.",
+    "kicker": "MV.tech · Engineering from India · Working worldwide"
   },
   {
     "route": "/about/",
@@ -224,7 +224,7 @@
   {
     "route": "/us-clients/",
     "slug": "us-clients",
-    "title": "Data, AI and software engineering for US clients",
-    "kicker": "Remote delivery from India · US company coming soon"
+    "title": "Engineering for clients in the USA",
+    "kicker": "Remote delivery from India · USA company coming soon"
   }
 ]

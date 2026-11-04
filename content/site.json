@@ -15,9 +15,9 @@
   "shortSummary": "Remote-first data, software and AI engineering team based in Ahmedabad, India, offering offshore-capable delivery in any client timezone.",
   "usCompany": {
     "status": "Coming soon",
-    "heading": "US company coming soon.",
-    "copy": "We’re preparing to establish a US company to support our work with US clients. We’ll publish the company details here once it is established.",
-    "currentDelivery": "You can discuss a project today with our India-based team, with scope and US timezone overlap agreed before work starts.",
+    "heading": "USA company coming soon",
+    "copy": "We’re setting up our company in the United States.",
+    "currentDelivery": "Our India team is available for new projects, with working hours planned around your team.",
     "path": "/us-clients/"
   },
   "email": "contact@mvtech.solutions",
@@ -204,7 +204,7 @@
     ],
     "company": [
       {
-        "label": "For US clients · US company coming soon",
+        "label": "USA · Company coming soon",
         "href": "/us-clients/"
       },
       {

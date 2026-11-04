@@ -109,7 +109,7 @@ if (routes.size !== pages.length) throw new Error('Duplicate routes: ' + pages.m
 // ---------------------------------------------------------------------------------------------
 const header = `<header id="main-header" class="site-header">
   <div class="container header-inner">
-    <a href="/" class="brand-link" aria-label="MV.tech home"><img src="/images/logo.svg" alt="MV.tech" width="520" height="167"></a>
+    <a href="/" class="brand-link" aria-label="MV.tech home"><img src="/images/logo-light.svg" alt="MV.tech" width="520" height="167"></a>
     <nav class="desktop-nav" aria-label="Main navigation">${site.nav.map((item) => `<a href="${item.href}" class="site-nav-link">${h(item.label)}</a>`).join('')}</nav>
     <div class="header-actions">${callButton(site, 'Book a call', 'button-primary header-cta')}<button id="mobile-menu-btn" class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">${icon('menu')}</button></div>
   </div>
@@ -122,9 +122,9 @@ const footer = `<footer class="site-footer">
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="/" aria-label="MV.tech home"><img src="/images/logo.svg" alt="MV.tech – Data, AI and digital solutions" width="520" height="167" loading="lazy"></a>
-        <p>${h(site.summary)}</p>
+        <p>Data engineering, software development and AI consulting. Based in Ahmedabad, India. Working with clients worldwide.</p>
         <p class="footer-worked">Our engineers have worked with ${site.workedWith.join(', ')}.</p>
-        <p class="footer-worked"><a href="${h(site.usCompany.path)}">${h(site.usCompany.heading)}</a> ${h(site.usCompany.currentDelivery)}</p>
+        <p class="footer-worked"><a href="${h(site.usCompany.path)}">${h(site.usCompany.heading)} ${icon('arrow-up-right')}</a></p>
       </div>
       <nav aria-label="Services"><h2>Services</h2>${footerLinks(site.footer.services)}</nav>
       <nav aria-label="Company"><h2>Company</h2>${footerLinks(site.footer.company)}</nav>
@@ -227,7 +227,7 @@ ${noindex ? '<meta name="robots" content="noindex, follow">' : '<meta name="robo
 <link rel="canonical" href="${url}">
 ${page.route === '/' ? `<meta name="google-site-verification" content="${site.googleSiteVerification}">${site.bingSiteVerification ? `\n<meta name="msvalidate.01" content="${h(site.bingSiteVerification)}">` : ''}` : ''}
 <meta name="author" content="${h(page.kind === 'article' ? site.founder.name : site.name)}">
-<meta name="theme-color" content="#05060B">
+<meta name="theme-color" content="#ffffff">
 <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/images/favicon.ico" sizes="any">
 <link rel="icon" href="/images/favicon-96.png" sizes="96x96" type="image/png">
@@ -305,7 +305,7 @@ Contact: ${site.email} · Book a call: ${origin}/contact/#book-call
 Founder: ${site.founder.name}, ${site.founder.jobTitle} (${site.founder.sameAs[0]})
 LinkedIn: ${site.linkedin}
 Location: ${site.address.locality}, ${site.address.region}, ${site.address.countryName} · Serves clients worldwide with agreed timezone overlap
-US company: ${site.usCompany.status}. ${site.usCompany.copy} ${site.usCompany.currentDelivery} Details: ${origin}${site.usCompany.path}
+United States (USA) company: ${site.usCompany.status}. ${site.usCompany.copy} ${site.usCompany.currentDelivery} Details: ${origin}${site.usCompany.path}
 Teams our engineers have worked with: ${site.workedWith.join(', ')}. ${site.workedWithNote}
 Last generated: ${latest}. Short summary and answer guidance: ${origin}/llms.txt
 
