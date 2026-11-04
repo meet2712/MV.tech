@@ -3,68 +3,48 @@
     "path": "/services/data-engineering/",
     "key": "data-engineering",
     "name": "Data Engineering Consulting",
-    "title": "Data Engineering Consulting Services and ETL Pipelines | MV.tech",
-    "description": "Data engineering consulting from senior remote engineers in India: ETL pipelines, BigQuery, Snowflake and Redshift warehouses, migrations and data quality.",
-    "intro": "Get dependable data from the systems you already use. MV.tech builds and improves ingestion pipelines, cloud warehouses on BigQuery, Snowflake, Redshift or PostgreSQL, dimensional and semantic models, and the validation that keeps reporting trustworthy — including migrations off legacy databases and manual spreadsheets.",
-    "fitHeading": "When does hiring a data engineering consultancy make sense?",
+    "title": "Data Engineering & ETL Development Services | MV.tech",
+    "description": "Data integration, ETL pipelines, cloud warehouses, modelling and data quality services from MV.tech for reporting, analytics and business applications.",
+    "intro": "Build the data foundation behind reporting, analytics and business applications. MV.tech designs data pipelines, cloud warehouses and transformation layers that bring information from your systems into a consistent, maintainable platform. We also improve existing pipelines, models and reporting workflows.",
+    "fitHeading": "Bring your business data into one working platform.",
     "fit": [
-      "Reports depend on spreadsheets, recurring exports or someone remembering to run a script.",
-      "A dashboard refresh succeeds, but the underlying numbers are incomplete or out of date.",
-      "API changes, duplicate records and failed jobs make every reporting cycle a repair exercise.",
-      "Reporting is moving to a cloud warehouse and nobody has mapped what depends on the old one.",
-      "Two systems disagree on the same number and reconciling them is a monthly manual exercise.",
-      "Queries scan far more data than they need to, and refreshes take hours instead of minutes.",
-      "Your product team needs a data engineer alongside its existing developers."
+      "Connect databases, business applications, APIs and files without relying on recurring manual exports.",
+      "Give finance, operations and analytics teams shared definitions and datasets.",
+      "Make data refreshes, failures and reconciliation checks part of a process your team can operate."
     ],
-    "deliverablesHeading": "What do our data engineering consulting services include?",
+    "deliverablesHeading": "From source integration to analytics-ready data.",
     "deliverables": [
       {
-        "title": "ETL and ELT pipelines",
-        "text": "Bring data from APIs, files and databases into a repeatable ingestion process in Python and SQL. Define incremental loads, retries, scheduled refreshes, automated backfills and duplicate handling around the behaviour of each source."
+        "title": "Data integration and pipelines",
+        "text": "Collect data from APIs, operational databases and files using Python, SQL and cloud ingestion services. The implementation covers incremental loads, historical backfills, duplicate handling and recovery when a source changes or a run fails."
       },
       {
-        "title": "Cloud warehouses and SQL models",
-        "text": "Design BigQuery, Snowflake, Redshift or PostgreSQL tables and transformations across raw, staging, curated and reporting layers. Make business definitions, table ownership and refresh dependencies explicit before expanding the platform."
+        "title": "Cloud warehouses and data models",
+        "text": "Design BigQuery, Snowflake, Redshift or PostgreSQL environments with separate ingestion, transformation and reporting layers. Define table grain, relationships and business rules so the same dataset can support dashboards, analysis and applications."
       },
       {
-        "title": "Warehouse migration and source-to-target mapping",
-        "text": "Move legacy databases, data lakes and manual reporting onto a cloud warehouse. Start with database discovery and metadata profiling — catalogue queries, DDL and information schema — then produce detailed source-to-target mappings, ingestion plans through tools such as Azure Data Factory and Blob Storage, and the upstream and downstream dependency analysis that shows what a change will break."
+        "title": "Data quality and reconciliation",
+        "text": "Check source coverage, refresh dates, duplicates and business totals as data moves between layers. Investigate differences between systems and document the rules behind financial and operational metrics."
       },
       {
-        "title": "Dimensional and semantic modelling",
-        "text": "Build fact and dimension models with an agreed grain, conformed dimensions, bridge tables and source-load tracking, then the curated views and semantic structures that BI tools read. Review existing Power BI, SSAS or Analysis Services models before rebuilding them, and handle Salesforce CRM Analytics datasets, recipes, dataflows and field mapping where reporting already lives there."
-      },
-      {
-        "title": "Data quality, reconciliation and observability",
-        "text": "Check freshness, completeness and reconciliation at meaningful boundaries: record counts, date coverage, nulls, duplicates, totals and metric comparisons between pipeline stages. Add outlier detection, useful logs and failure alerts so a successful job is not mistaken for trustworthy data."
-      },
-      {
-        "title": "Performance and cost tuning",
-        "text": "Reduce what a query has to read. Reusable transformation layers, caching, parallel reads, partitioning and incremental Parquet extracts are the usual levers, with the before-and-after measured on your own queries and refresh windows."
-      },
-      {
-        "title": "Blockchain and on-chain datasets",
-        "text": "Consolidate cross-chain transaction data into a warehouse for teams that need it: raw transactions, logs and events decoded with contract ABIs and Web3.py, FX reference tables, token-level valuation, fee proration and staking-reward reconciliation across networks."
-      },
-      {
-        "title": "Reporting and handover",
-        "text": "Connect validated datasets to Power BI, Tableau, Looker Studio, Streamlit or downstream applications. Include source mappings, ER diagrams, validation checklists, operating notes and recovery steps in the agreed handover."
+        "title": "Production delivery and support",
+        "text": "Set up scheduling, logs, alerts and deployment workflows. Provide source mappings, model documentation and operating instructions, with ongoing improvements and support available under an agreed scope."
       }
     ],
-    "scopeHeading": "How do we scope the first data engineering project?",
-    "scope": "Start with a business report that matters and trace its path back to the source. Agree which records belong in the result, how fresh they need to be and how correctness will be checked — record counts, totals and a comparison against the numbers people trust today. Then scope the ingestion, transformations, model and reporting output together. This gives the project a concrete acceptance test before more sources, a full migration or additional dashboards are added.",
+    "scopeHeading": "An engagement can cover a new platform or a specific data problem.",
+    "scope": "We review the sources, consumers and reporting requirements, then agree the architecture and delivery plan. An initial workstream might connect a business application to the warehouse, rebuild an unreliable pipeline or deliver a reporting model. Larger programmes can include staged migration, additional sources and ongoing platform development.",
     "approach": [
       {
-        "title": "Map sources and definitions",
-        "text": "Profile the databases and APIs involved, review access, limits, volumes and history, and agree the business meaning of each metric."
+        "title": "Assess the data estate",
+        "text": "Review sources, existing pipelines, business definitions, access and the reports that depend on them."
       },
       {
-        "title": "Build and reconcile",
-        "text": "Implement the pipeline and model, then compare output with source records: counts, totals, date coverage, empty periods, updates and retries."
+        "title": "Build the platform and validate it",
+        "text": "Deliver integrations and models in stages, comparing records and business totals with their sources."
       },
       {
-        "title": "Operate and extend",
-        "text": "Document schedules, lineage, ownership and recovery. Agree support and the next useful source, model or reporting layer."
+        "title": "Release and support",
+        "text": "Deploy the schedules and monitoring, document ownership and hand over the operating process."
       }
     ],
     "tools": [
@@ -107,10 +87,6 @@
         "answer": "Share the report or workflow you want to improve, the source systems, approximate data volumes, current tools and required refresh frequency. A description or sanitised example is enough for an initial conversation; credentials are not needed in an enquiry."
       },
       {
-        "question": "How much does a data engineering consultant cost per hour?",
-        "answer": "We quote after a scoping call, because the figure depends on source count, access complexity, historical data volume, transformation rules, freshness needs and ongoing support. Our remote operating model avoids large-consultancy overhead. When comparing quotes, check that monitoring, documentation and handover are included alongside the initial build."
-      },
-      {
         "question": "How do we migrate spreadsheet reporting to a data warehouse without losing trust in the numbers?",
         "answer": "Start with one business report that matters and trace its path back to the source systems. We agree which records belong in the result, how fresh they need to be and how correctness will be checked against the numbers people trust today, then build the ingestion, transformations, model and reporting output on BigQuery, Snowflake, Redshift or PostgreSQL. That gives the migration a concrete acceptance test before more spreadsheets, sources or dashboards are added."
       }
@@ -139,78 +115,85 @@
         "label": "Timezone guide"
       }
     ],
-    "summary": "ETL/ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations, semantic models and reporting your team can trust.",
-    "ogTitle": "Data engineering & ETL consulting",
-    "ogKicker": "Python · SQL · BigQuery · Snowflake · Redshift · Data quality",
+    "summary": "Build the data foundation behind reporting, analytics and business applications.",
+    "ogTitle": "Data Engineering Consulting",
+    "ogKicker": "MV.tech · Consulting · Development · Integration",
     "relatedServiceKeys": [
       "offshore-data-engineering-team",
       "data-warehouse-migration",
       "business-intelligence"
     ],
-    "h1": "Data engineering consulting services for ETL pipelines and cloud warehouses",
-    "questionsHeading": "Common questions about data engineering consulting"
+    "h1": "Data engineering services for connected, usable business data.",
+    "questionsHeading": "Common questions about data engineering consulting",
+    "applications": [
+      {
+        "title": "Management reporting",
+        "text": "Combine sales, finance and operational sources into a shared warehouse that feeds recurring business reports."
+      },
+      {
+        "title": "A growing data platform",
+        "text": "Replace disconnected scripts with managed pipelines, documented models and ownership of each dataset."
+      },
+      {
+        "title": "An existing engineering team",
+        "text": "Add specialists for a migration, a new source integration, data quality work or a defined reporting backlog."
+      }
+    ],
+    "eyebrow": "MV.tech services",
+    "approachHeading": "How we deliver this work.",
+    "applicationsHeading": "Where this service fits.",
+    "closingHeading": "Discuss your data platform.",
+    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
   },
   {
     "path": "/services/offshore-data-engineering-team/",
     "key": "offshore-data-engineering-team",
     "name": "Offshore Data Engineering Team",
-    "title": "Hire an Offshore Data Engineering Team from India | MV.tech",
-    "description": "Offshore data engineering team from India for ETL, cloud warehouses and BI. Senior engineers, overlap hours in your timezone, a scoped first milestone.",
-    "h1": "Hire an offshore data engineering team from India, working in your timezone.",
-    "eyebrow": "Service · Offshore data consultancy",
+    "title": "Dedicated Offshore Data Engineering Teams | MV.tech",
+    "description": "Extend your team with data engineering, analytics and BI specialists from India. Agree roles, capacity, delivery responsibilities and collaboration hours.",
+    "h1": "A dedicated data engineering team for your business.",
+    "eyebrow": "MV.tech services",
     "serviceType": "Offshore data engineering and analytics team",
-    "intro": "Add senior data engineering capacity without opening another office or hiring a permanent team first. MV.tech provides offshore data engineers, analytics engineers and BI specialists from Ahmedabad, India, working remotely with clients worldwide through agreed overlap hours, written scope and direct access to the people doing the work.",
-    "fitHeading": "When does an offshore data engineering team make sense?",
+    "intro": "Extend your delivery capacity with data engineers and analytics specialists from India. MV.tech provides dedicated teams for data integration, cloud warehouses, BI and data quality. Work with a defined team, an agreed backlog and collaboration hours that fit your business.",
+    "fitHeading": "Build capacity around the work you need delivered.",
     "fit": [
-      "Your reporting, warehouse or ETL backlog is bigger than your internal team can handle.",
-      "You want a data consultancy company for an offshore team, but need senior engineers rather than a generic staffing vendor.",
-      "A permanent data hire will take months, while pipelines, dashboards or migration work need attention now.",
-      "You need timezone overlap with the US, UK, Europe, Gulf or Asia-Pacific, not a team that disappears after handoff.",
-      "Your analysts and engineers need help with Python, SQL, BigQuery, Snowflake, Redshift, Power BI or Tableau.",
-      "You want one specialist or a small delivery team that can start with a written first milestone.",
-      "Cost matters, but you still need documented work, validation and accountability."
+      "Develop a data platform while your internal team continues supporting the business.",
+      "Bring engineering, modelling and reporting skills together for a migration or analytics programme.",
+      "Keep ownership of priorities while adding delivery capacity for an agreed duration."
     ],
-    "deliverablesHeading": "What work can an offshore data engineering team own?",
+    "deliverablesHeading": "A team that can work across the data lifecycle.",
     "deliverables": [
       {
-        "title": "Dedicated data engineering capacity",
-        "text": "Add one senior specialist or a small remote team for a defined capacity and duration. Responsibilities, review cadence, tools, repositories and overlap hours are agreed before work begins."
+        "title": "Pipelines and source integrations",
+        "text": "Engineers connect APIs, files and databases to your warehouse and maintain ingestion schedules, transformation logic and recovery procedures."
       },
       {
-        "title": "ETL, ELT and data pipelines",
-        "text": "Build or improve Python and SQL pipelines from APIs, databases, files and SaaS tools into repeatable ingestion and transformation flows with retries, logging, backfills and data quality checks."
+        "title": "Warehousing and analytics engineering",
+        "text": "Build warehouse layers, fact and dimension models, curated SQL views and reusable reporting datasets on the platforms you use."
       },
       {
-        "title": "Cloud warehouses and analytics models",
-        "text": "Design and maintain BigQuery, Snowflake, Redshift or PostgreSQL layers across raw, staging, curated and reporting tables. Define fact grain, dimensions, semantic views and metric ownership."
+        "title": "BI and data quality",
+        "text": "Add dashboard, semantic modelling and reconciliation expertise alongside the engineers building the data platform."
       },
       {
-        "title": "BI, dashboards and reporting support",
-        "text": "Connect validated datasets to Power BI, Tableau, Looker Studio, Streamlit or internal apps. Fix refresh issues, align KPI definitions and document what each dashboard can and cannot prove."
-      },
-      {
-        "title": "Migration and modernisation support",
-        "text": "Support movement from spreadsheets, legacy databases or brittle scripts into a cloud warehouse. The work starts with discovery, dependency mapping, source-to-target mapping and reconciliation before cutover."
-      },
-      {
-        "title": "Operating rhythm and handover",
-        "text": "Work in your project tools with visible updates, pull requests or review notes, and a written record of decisions, validation checks and next steps. Handover includes runbooks and recovery notes where needed."
+        "title": "Team integration and continuity",
+        "text": "Agree roles, capacity, review routines and reporting with your leads. Work in your repositories and collaboration tools, with documentation and handover included in the engagement."
       }
     ],
-    "scopeHeading": "How does an offshore data team engagement start?",
-    "scope": "Start with one reporting flow, pipeline, model, dashboard set or migration slice. Agree what output is needed, which systems are involved, how correctness will be checked and when the team overlaps with yours. That keeps the offshore engagement concrete: one useful result, visible progress and a simple decision about whether to extend the team.",
+    "scopeHeading": "Agree the team structure before committing capacity.",
+    "scope": "Share your roadmap, current platform, required skills and preferred working hours. We discuss the roles needed, availability, responsibilities and engagement duration. You can begin with a defined workstream and review the team arrangement as the workload develops.",
     "approach": [
       {
-        "title": "Choose the first workstream",
-        "text": "Share the business problem, current tools, timezone and deadline. We help pick a first milestone small enough to verify and useful enough to matter."
+        "title": "Define the roles",
+        "text": "Translate the backlog into the engineering, analytics and reporting skills required."
       },
       {
-        "title": "Agree the collaboration model",
-        "text": "Set capacity, responsibilities, repositories, review points, communication channels and overlap hours so your team knows how the offshore team will operate."
+        "title": "Agree the working arrangement",
+        "text": "Confirm available specialists, capacity, tools, collaboration hours and review responsibilities."
       },
       {
-        "title": "Deliver, validate and decide",
-        "text": "Build the agreed output, document validation and open questions, then decide whether to extend into more sources, models, dashboards or embedded capacity."
+        "title": "Deliver and review",
+        "text": "Track work against the agreed backlog, demonstrate progress and review team needs at planned intervals."
       }
     ],
     "tools": [
@@ -285,77 +268,79 @@
         "label": "Timezone guide"
       }
     ],
-    "summary": "Dedicated offshore data engineering and analytics capacity from India for ETL, cloud warehouses, BI, migration and data quality work.",
-    "ogTitle": "Offshore data engineering team from India",
-    "ogKicker": "Dedicated data engineers · Analytics capacity · Timezone overlap",
+    "summary": "Extend your delivery capacity with data engineers and analytics specialists from India.",
+    "ogTitle": "Offshore Data Engineering Team",
+    "ogKicker": "MV.tech · Consulting · Development · Integration",
     "relatedServiceKeys": [
       "data-engineering",
       "it-staff-augmentation",
       "technology-recruitment"
-    ]
+    ],
+    "applications": [
+      {
+        "title": "Warehouse modernisation",
+        "text": "A delivery team for source discovery, migration, model development and report transition."
+      },
+      {
+        "title": "Ongoing data operations",
+        "text": "Capacity to maintain pipelines, onboard new sources and address data quality issues."
+      },
+      {
+        "title": "Reporting expansion",
+        "text": "Engineers and BI specialists working together on a new business domain or reporting programme."
+      }
+    ],
+    "approachHeading": "How we deliver this work.",
+    "applicationsHeading": "Where this service fits.",
+    "closingHeading": "Discuss your data team.",
+    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
   },
   {
     "path": "/services/ai-consulting/",
     "key": "ai-consulting",
     "name": "AI Automation, RAG & MCP Development",
-    "title": "AI Automation, RAG & LLM Integration Services | MV.tech",
-    "description": "AI automation, RAG systems and LLM integration by senior remote engineers in India, in your timezone. Connect AI to approved data and tools safely.",
-    "intro": "Turn a specific business problem into a useful AI solution. MV.tech builds AI automation, retrieval-augmented generation systems, Model Context Protocol (MCP) servers, custom AI connectors and agentic workflows that link approved company knowledge, databases, APIs and internal tools to models such as GPT, Claude, Llama and Qwen.",
-    "fitHeading": "When does a business need RAG, an AI agent or LLM integration?",
+    "title": "AI Consulting & Application Development Services | MV.tech",
+    "description": "AI consulting, knowledge assistants, RAG, document processing and application integration from MV.tech, with use-case planning and evaluation.",
+    "intro": "Turn a useful AI idea into a working business application. MV.tech builds knowledge assistants, document-processing workflows and AI features connected to company data and tools. We help you choose the use case, build the integration and evaluate how it performs before a wider rollout.",
+    "fitHeading": "Put AI to work where it has a clear business purpose.",
     "fit": [
-      "Employees spend time searching through documents to answer recurring operational questions.",
-      "A prototype chatbot gives plausible answers but cannot show where they came from.",
-      "Your product needs an assistant that can use approved business data, APIs or tools through MCP.",
-      "An enterprise AI platform needs a secure, token-aware connector into your database, finance or accounting systems.",
-      "People re-key figures out of documents, portals and emails because no reliable extraction step exists.",
-      "An analyst question could be answered by generated SQL, if someone validated the query and the result first.",
-      "You need engineering help to evaluate and integrate an AI feature into an existing application."
+      "Help employees find answers in approved company documents and business information.",
+      "Extract and organise information from documents that currently need manual review.",
+      "Add an assistant or an AI-driven step to a product, internal application or reporting workflow."
     ],
-    "deliverablesHeading": "What do AI automation, RAG and LLM integration services include?",
+    "deliverablesHeading": "AI services from use-case selection to application integration.",
     "deliverables": [
       {
-        "title": "RAG and knowledge search",
-        "text": "Plan document ingestion, chunking, retrieval and source references around a defined knowledge collection. Account for updates, permissions and questions the available material cannot answer, and put retrieval behind your own access rules."
+        "title": "AI consulting and solution planning",
+        "text": "Assess the workflow, users, available information and expected output. Compare an AI approach with conventional automation, and define the evaluation criteria and integration work before development begins."
       },
       {
-        "title": "AI automation and agentic workflows",
-        "text": "Connect an assistant to a support workflow, internal tool or customer application. Multi-step workflows can retrieve context, generate SQL, validate a result and produce a formatted output, with permitted actions defined and a person in control of approvals and exceptions."
+        "title": "RAG and knowledge assistants",
+        "text": "Build retrieval-augmented generation over an agreed document collection. Include ingestion, search, source references and access rules, with a process for updating the information the assistant uses."
       },
       {
-        "title": "MCP server and tool development",
-        "text": "Build Model Context Protocol servers in Python that expose approved tools and data to compatible AI applications. Define tool inputs, resource access, authorisation through OAuth and managed secrets, and logging around the business systems being connected."
+        "title": "Document processing and workflow automation",
+        "text": "Use models to extract, classify or summarise information from documents and business inputs. Add validation and review steps where incorrect output could affect downstream work."
       },
       {
-        "title": "Custom AI connectors, plugins and skills",
-        "text": "Connect enterprise AI platforms and agents to databases, APIs and internal tools with scoped, token-aware access. Package recurring tasks — retrieval, SQL generation, validation, formatted export — as reusable connectors, plugins and AI skills rather than one-off prompts."
-      },
-      {
-        "title": "Custom AI solutions",
-        "text": "Integrate document processing, classification, extraction or decision support into an existing workflow. LLM-assisted extraction can pull structured records out of documents, APIs and web sources; agree the expected output, validation rules and review path before automating a business action."
-      },
-      {
-        "title": "LLM and API integration",
-        "text": "Bring responses from GPT, Claude, Llama or Qwen into existing business logic and user interfaces. Validate inputs and outputs, handle failures, compare models against your own task, and keep application permissions under server-side control."
-      },
-      {
-        "title": "Evaluation and operating controls",
-        "text": "Agree representative questions and expected behaviour. Review source grounding, unsupported answers, latency and usage cost before expanding the feature's audience. Where an assistant touches financial or audited systems, access is scoped with OAuth and managed secrets and every tool call is logged, which is the kind of evidence a SOC 2 programme asks for."
+        "title": "AI application and model integration",
+        "text": "Connect GPT, Claude, Llama or Qwen to existing interfaces, APIs and business logic. Test representative tasks, monitor usage and failures, and define which actions need a person’s approval."
       }
     ],
-    "scopeHeading": "What should the first AI project be? A bounded knowledge assistant",
-    "scope": "Choose a defined set of documents and a small group of users. Collect questions they actually ask, including questions outside the documents' scope. A first release can then be assessed against source references, correct handling of missing information and the time it takes to find an answer. Wider access, an MCP server, a connector into a live database or automated actions can be scoped once those fundamentals are clear.",
+    "scopeHeading": "Start with a use case you can evaluate.",
+    "scope": "We define the users, information sources and tasks the feature should handle. A first release can focus on one document collection, one processing workflow or a limited set of business questions. Evaluation results then inform broader access, additional integrations and further automation.",
     "approach": [
       {
-        "title": "Define the question and data",
-        "text": "Identify users, approved sources, permissions and the decisions the assistant will support."
+        "title": "Assess the use case",
+        "text": "Review business value, source quality, integration requirements and the cost of incorrect output."
       },
       {
-        "title": "Build and evaluate",
-        "text": "Connect retrieval, model behaviour and the interface. Test with real questions and review failure cases."
+        "title": "Develop and evaluate",
+        "text": "Build the retrieval or workflow, test it against representative inputs and review failures with your team."
       },
       {
-        "title": "Integrate and monitor",
-        "text": "Release within an agreed scope, track answer quality and usage, and document the update process."
+        "title": "Integrate and improve",
+        "text": "Release to the agreed audience, monitor performance and update the application as requirements change."
       }
     ],
     "tools": [
@@ -397,10 +382,6 @@
       {
         "question": "What determines the cost of an AI assistant?",
         "answer": "The main factors are source preparation, integrations, permission rules, evaluation, user interface and support. Ongoing costs also depend on model usage, retrieval infrastructure and traffic. These should be considered alongside the build estimate."
-      },
-      {
-        "question": "How much does a RAG or AI automation project cost?",
-        "answer": "We quote after a scoping call, because the effort depends on which documents, tools and systems the assistant needs, how authorisation is handled through OAuth and managed secrets, and what evaluation and logging the connected business systems need. Ongoing costs depend on model usage, retrieval infrastructure and traffic. MV.tech works as a lean remote team, which avoids large-consultancy overhead."
       }
     ],
     "relatedResourcesHeading": "Background reading on AI delivery.",
@@ -427,79 +408,82 @@
         "label": "AI access guide"
       }
     ],
-    "summary": "Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.",
-    "ogTitle": "AI automation, RAG & MCP development",
-    "ogKicker": "Knowledge assistants · MCP servers · LLM integration · Evaluation",
+    "summary": "Turn a useful AI idea into a working business application.",
+    "ogTitle": "AI Automation, RAG & MCP Development",
+    "ogKicker": "MV.tech · Consulting · Development · Integration",
     "relatedServiceKeys": [
       "mcp-and-ai-connectors",
       "workflow-automation",
       "data-engineering"
     ],
-    "h1": "AI automation, RAG and LLM integration services",
-    "questionsHeading": "Questions buyers ask about RAG, LLM integration and AI agents"
+    "h1": "AI consulting and development for business workflows.",
+    "questionsHeading": "Questions buyers ask about RAG, LLM integration and AI agents",
+    "applications": [
+      {
+        "title": "Internal knowledge search",
+        "text": "An assistant that answers questions from policies, product documentation or operational guides and points users to its sources."
+      },
+      {
+        "title": "Document-led operations",
+        "text": "Extract structured records from recurring documents and route uncertain results for review."
+      },
+      {
+        "title": "AI-enabled reporting",
+        "text": "Let users ask questions about approved datasets through an application with controlled query access."
+      }
+    ],
+    "eyebrow": "MV.tech services",
+    "approachHeading": "How we deliver this work.",
+    "applicationsHeading": "Where this service fits.",
+    "closingHeading": "Discuss your AI project.",
+    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
   },
   {
     "path": "/services/mcp-and-ai-connectors/",
     "key": "mcp-and-ai-connectors",
     "name": "MCP Servers & AI Connectors",
-    "title": "Custom MCP Server Development for Safe AI Database Access | MV.tech",
-    "description": "Custom MCP servers and AI connectors in Python: scoped, validated and logged access to your databases, APIs and tools, delivered remotely from India.",
-    "intro": "Give an AI agent access to real systems without handing over the keys. MV.tech builds custom Model Context Protocol (MCP) servers and AI connectors in Python that expose approved databases, APIs and internal tools to enterprise AI platforms, with scoped authorisation, validated queries, logged calls and evaluation before access is widened.",
-    "fitHeading": "When does a business need a custom MCP server or AI connector?",
+    "title": "MCP Server Development & Custom AI Integrations | MV.tech",
+    "description": "Connect AI assistants to databases, business APIs and internal tools with custom MCP servers and connectors, including permissions, testing and deployment.",
+    "intro": "Connect AI assistants to the systems your business already uses. MV.tech develops Model Context Protocol servers and custom connectors for databases, APIs and internal tools. Your team gets a maintained integration with defined permissions, clear tool behaviour and a record of how it is used.",
+    "fitHeading": "Give assistants a practical route to business systems.",
     "fit": [
-      "An assistant is convincing in a demo but has no safe route to live data.",
-      "Your enterprise AI platform has a connector for everything except the system the business runs on.",
-      "Analysts want questions answered from a governed dataset, with the generated SQL checked before it runs.",
-      "Several teams are each building their own prompt-and-paste workflow against the same internal tools.",
-      "Security will not approve an agent that authenticates as a shared admin account.",
-      "An agent can already read your data and nobody can produce an audit trail of what it read.",
-      "A working MCP prototype now needs authentication, error handling, logging and a deployment story."
+      "Connect an AI platform to an application that has no suitable ready-made connector.",
+      "Replace repeated copying between assistants, databases and internal tools.",
+      "Move an MCP prototype into an integration your engineering team can deploy and maintain."
     ],
-    "deliverablesHeading": "What does MCP server and AI connector development include?",
+    "deliverablesHeading": "Business integrations designed for AI tool use.",
     "deliverables": [
       {
-        "title": "Custom MCP servers in Python",
-        "text": "Model Context Protocol servers built around your systems: tool definitions with typed inputs, explicit failure modes, resources, pagination and sensible limits. Tools are designed around tasks a person would recognise rather than mirroring every API endpoint, because an agent chooses far better from a short, well-named list."
+        "title": "Custom MCP servers",
+        "text": "Develop Python MCP servers around specific business tasks. Define tool inputs, returned data, pagination, error responses and limits so the integration has a clear operating contract."
       },
       {
-        "title": "Connectors and plugins for enterprise AI platforms",
-        "text": "Connectors, plugins and extensions for the AI platforms your organisation has already adopted — including Claude, Gemini Enterprise and Cortex AI environments — so approved data reaches assistants through one maintained integration instead of several ad-hoc ones."
+        "title": "Database and API connectors",
+        "text": "Connect approved warehouse views, operational data, REST APIs and internal applications. Translate source-system behaviour into tools an assistant can use within the agreed scope."
       },
       {
-        "title": "Database, API and internal-tool access",
-        "text": "Connect agents to warehouses, operational databases, REST APIs, ticketing and finance systems. Access runs through a scoped service identity against an approved set of tables or endpoints: read-only by default, whitelists rather than blocklists, and no path to anything outside the agreed surface."
+        "title": "Identity and access integration",
+        "text": "Implement scoped identities, OAuth where appropriate, managed secrets and permission checks. Separate reading from actions that change business records, with approval steps for sensitive operations."
       },
       {
-        "title": "Secure retrieval, SQL generation and validation",
-        "text": "Where an agent generates SQL, it generates it against a governed reporting layer. Queries are parsed and checked before execution — permitted objects only, row and cost limits, no writes — and results are validated and shaped before they are returned. Retrieval respects the permissions the requesting user already has."
-      },
-      {
-        "title": "OAuth, secrets and token-aware access control",
-        "text": "Authorisation designed into the integration: OAuth flows, short-lived tokens, secrets held in a managed store such as Secret Manager, and per-user identity carried through to the data layer. Log the caller, tool, time and outcome; include only approved argument fields, mask secrets and personal data, and agree log access and retention for the audit trail."
-      },
-      {
-        "title": "Reusable AI skills and packaged workflows",
-        "text": "Package the sequences people repeat — retrieve, generate SQL, validate, format, export — as reusable skills and tools rather than prompts copied between teams, so behaviour is versioned, tested and improved in one place."
-      },
-      {
-        "title": "Evaluation, guardrails and deployment",
-        "text": "Agree a test set of real requests, including ones the server should refuse, and measure tool-selection accuracy, answer correctness, latency and cost before widening access. Ship containerised with Pytest coverage, CI, structured logging and a documented upgrade path as the protocol and the clients change."
+        "title": "Deployment, testing and maintenance",
+        "text": "Package the integration for its intended environment. Include tool tests, usage logs, failure handling and documentation for deployment, support and future changes."
       }
     ],
-    "scopeHeading": "What does a first custom MCP server project look like?",
-    "scope": "Choose one system your teams query constantly and one small group of users. Define the three or four tools that cover most of their requests, wire them to a scoped service identity, and put validation and logging around every call from the first day. Test against the requests those users actually make, including the ones the server should refuse. That first server establishes the authorisation pattern, the logging format and the evaluation set, and every connector added afterwards inherits them instead of reinventing them.",
+    "scopeHeading": "Define the business tasks before building the tools.",
+    "scope": "Bring the source system, target AI platform and the actions users need. We agree the initial tools, data boundaries, authentication and deployment requirements, then test the integration against real tasks. Additional tools and write actions can be introduced as separate reviewed changes.",
     "approach": [
       {
-        "title": "Define the tools and the boundary",
-        "text": "Agree which tasks belong to the agent, which systems and objects are in scope, what it must never do, and who approves an exception."
+        "title": "Design the integration",
+        "text": "Map the business tasks to source APIs, identities, permissions and tool definitions."
       },
       {
-        "title": "Build, secure and evaluate",
-        "text": "Implement the server and its authorisation, then test against real requests and refusal cases before anyone outside the pilot group connects."
+        "title": "Build and test",
+        "text": "Implement the server or connector and test successful calls, invalid inputs and access boundaries."
       },
       {
         "title": "Deploy and maintain",
-        "text": "Ship with logging, monitoring and CI, document the tool contract, and agree how tools change as your systems and the protocol evolve."
+        "text": "Release with documentation, logs and operating ownership, then manage source and platform changes."
       }
     ],
     "tools": [
@@ -574,79 +558,82 @@
         "label": "AI access guide"
       }
     ],
-    "summary": "Custom MCP servers and AI connectors in Python that give agents scoped, validated and logged access to your databases, APIs and internal tools.",
-    "ogTitle": "MCP servers & AI connectors",
-    "ogKicker": "Custom MCP servers · Enterprise connectors · Scoped access",
+    "summary": "Connect AI assistants to the systems your business already uses.",
+    "ogTitle": "MCP Servers & AI Connectors",
+    "ogKicker": "MV.tech · Consulting · Development · Integration",
     "relatedServiceKeys": [
       "ai-consulting",
       "workflow-automation",
       "custom-software"
     ],
-    "h1": "Custom MCP servers and AI connectors for scoped, logged access to your systems",
-    "questionsHeading": "Common questions about MCP server development and AI connectors"
+    "h1": "MCP server development and custom AI integrations.",
+    "questionsHeading": "Common questions about MCP server development and AI connectors",
+    "applications": [
+      {
+        "title": "Warehouse access",
+        "text": "Allow an assistant to retrieve approved metrics or run constrained queries against a reporting dataset."
+      },
+      {
+        "title": "Operational tools",
+        "text": "Expose a defined set of actions from an internal application or business API."
+      },
+      {
+        "title": "Enterprise AI platforms",
+        "text": "Build a missing connection between an adopted assistant platform and the information your teams need."
+      }
+    ],
+    "eyebrow": "MV.tech services",
+    "approachHeading": "How we deliver this work.",
+    "applicationsHeading": "Where this service fits.",
+    "closingHeading": "Discuss your AI integration.",
+    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
   },
   {
     "path": "/services/business-intelligence/",
     "key": "business-intelligence",
     "name": "Business Intelligence & Dashboards",
-    "title": "Power BI Consultant, Looker Studio & Streamlit Dashboards | MV.tech",
-    "description": "Power BI consulting, Looker Studio and Streamlit dashboards on semantic models with governed KPIs. Remote from India, in your timezone.",
-    "intro": "Reporting people act on starts with an agreed definition of every number on it. MV.tech builds semantic and dimensional models, curated reporting layers and dashboards in Power BI, Tableau, Looker Studio and Streamlit — and reviews the models you already have before proposing that anything is rebuilt.",
-    "fitHeading": "When should you bring in a Power BI or dashboard consultant?",
+    "title": "Business Intelligence & Dashboard Development | MV.tech",
+    "description": "BI consulting, reporting datasets, semantic models and dashboards in Power BI, Tableau, Looker Studio and Streamlit, with KPI definition and validation.",
+    "intro": "Give business teams a consistent view of performance. MV.tech develops dashboards, reporting datasets and semantic models in Power BI, Tableau, Looker Studio and Streamlit. We work on the definitions and data behind the visuals so your reports answer the questions people use them for.",
+    "fitHeading": "Make reporting useful across the business.",
     "fit": [
-      "Two dashboards answer the same question with different numbers and nobody can say which is right.",
-      "A Power BI model has grown organically: no agreed grain, duplicated measures and DAX nobody wants to touch.",
-      "Refreshes are slow or time out, and the workaround has been to import less data.",
-      "Executives ask for one view and receive a deck assembled by hand every month.",
-      "Analysts export to Excel because the reporting layer cannot answer their follow-up question.",
-      "The same KPI exists in four tools with four definitions and no owner.",
-      "An SSAS or Azure Analysis Services model needs a proper review before anyone decides whether to migrate it."
+      "Replace recurring spreadsheet preparation with refreshable business reports.",
+      "Resolve conflicting KPI definitions across teams and dashboards.",
+      "Give analysts a shared dataset they can explore without rebuilding the data model for every report."
     ],
-    "deliverablesHeading": "What does our Power BI and dashboard consulting deliver?",
+    "deliverablesHeading": "The reporting layer, from business definitions to dashboards.",
     "deliverables": [
       {
-        "title": "Semantic and dimensional models",
-        "text": "Fact and dimension tables at an agreed grain, with conformed dimensions, bridge tables for many-to-many relationships and source-load tracking. The model carries the business logic, so each report reads the same definitions instead of re-implementing them."
+        "title": "Reporting requirements and KPI definitions",
+        "text": "Work with business owners to define calculations, reporting periods, filters and the decisions each report supports. Review existing reports and identify the sources and rules they depend on."
       },
       {
-        "title": "Power BI development and DAX",
-        "text": "Datasets, relationships, calculation groups and measures in DAX, with row-level security where the data needs it. Existing models are profiled first — storage mode, cardinality, unused columns, duplicated measures — so a rebuild becomes a justified decision rather than a default."
+        "title": "Data and semantic modelling",
+        "text": "Build fact and dimension models, curated reporting views and reusable measures. Define relationships and access rules so reports can share a consistent data foundation."
       },
       {
-        "title": "SSAS and Azure Analysis Services review",
-        "text": "Document what a tabular model actually contains: tables, relationships, calculated columns, measures and the reports depending on each one. The output is a written assessment of what to keep, what belongs in the warehouse instead and what can be retired."
+        "title": "Dashboard and report development",
+        "text": "Develop role-specific views for finance, operations, management and analysts. Include the filters, drill-down paths and export requirements that users need in their daily work."
       },
       {
-        "title": "Tableau, Looker Studio and Streamlit reporting",
-        "text": "Dashboards built on curated views rather than ad-hoc extracts, published to Tableau Server, Looker Studio, or a Streamlit and Plotly application where an interactive Python tool fits the job better than a BI licence."
-      },
-      {
-        "title": "KPI definition and metric governance",
-        "text": "Write each metric down: the calculation, the filters, the grain, the owner and where it is allowed to appear. Past engagements have defined 20+ governed KPIs this way and cut reporting inconsistencies by around 40%, mostly by removing definitions that had quietly diverged."
-      },
-      {
-        "title": "Refresh performance and cost",
-        "text": "Reduce what a report has to read: partitioning, incremental refresh, aggregation tables, pushing transformation back into the warehouse and removing columns nothing uses."
-      },
-      {
-        "title": "Self-service layers, documentation and handover",
-        "text": "A curated dataset analysts can slice without writing joins: naming standards, hidden technical columns, a description on every field and a clear line between governed measures and someone’s own analysis. Handover includes the measure catalogue, refresh schedule, access model and how to extend it."
+        "title": "Performance, validation and handover",
+        "text": "Review refreshes, model size and slow queries. Compare report results with source records and provide metric definitions, model documentation and user handover."
       }
     ],
-    "scopeHeading": "What is a sensible first milestone for a dashboard project?",
-    "scope": "Take the report a team or an executive actually uses and rebuild it properly. Agree the grain, write down the definition of every number on it, model the facts and dimensions behind it, and reconcile the result against the figures people trust today. That gives the semantic model a spine other reports can hang off, and it gives the project an acceptance test that is not a matter of opinion. Further dashboards, self-service datasets and a wider semantic layer are scoped once the first one is agreed.",
+    "scopeHeading": "Design reporting around its users and decisions.",
+    "scope": "We review your current reports, source systems and business definitions. The scope may cover a new dashboard, a shared semantic model, a refresh-performance review or a reporting estate with several teams. We agree the measures and validation method before the reports are released.",
     "approach": [
       {
-        "title": "Audit what exists",
-        "text": "Inventory reports, models and measures, profile refresh times and query patterns, and record which numbers disagree and why."
+        "title": "Understand the reporting need",
+        "text": "Identify users, decisions, source systems and the definitions behind existing figures."
       },
       {
-        "title": "Model and define",
-        "text": "Build the semantic model at an agreed grain and write the metric definitions alongside it, reconciling each measure against a trusted source."
+        "title": "Model and develop",
+        "text": "Build the reporting dataset, reusable measures and dashboards with regular user review."
       },
       {
-        "title": "Publish and hand over",
-        "text": "Release with access rules, refresh monitoring and documentation, then work with the people who will extend it."
+        "title": "Validate and publish",
+        "text": "Reconcile key figures, check access and refreshes, and hand over the model and reports."
       }
     ],
     "tools": [
@@ -697,15 +684,15 @@
         "answer": "We quote after a scoping call. A useful first project is one dashboard rebuilt on an agreed grain and reconciled against the figures people already trust, and further dashboards and a wider semantic layer are scoped once that first one is agreed. MV.tech works remotely from Ahmedabad, India, with working hours planned around your timezone and a lean model that avoids large-consultancy overhead."
       }
     ],
-    "summary": "Semantic and dimensional models, Power BI, Tableau and Looker Studio dashboards, governed KPI definitions and refreshes that finish on time.",
-    "ogTitle": "Business intelligence & dashboards",
-    "ogKicker": "Power BI · Tableau · Looker Studio · Semantic models · DAX",
+    "summary": "Give business teams a consistent view of performance.",
+    "ogTitle": "Business Intelligence & Dashboards",
+    "ogKicker": "MV.tech · Consulting · Development · Integration",
     "relatedServiceKeys": [
       "data-engineering",
       "data-warehouse-migration",
       "offshore-data-engineering-team"
     ],
-    "h1": "Power BI consulting and dashboards in Tableau, Looker Studio and Streamlit",
+    "h1": "Business intelligence and dashboard development services.",
     "questionsHeading": "Common questions about Power BI and dashboard consulting",
     "relatedResources": [
       {
@@ -729,70 +716,73 @@
         "text": "Scoped identities, checked SQL, row limits and provenance for assistants connected to business data.",
         "label": "AI access guide"
       }
-    ]
+    ],
+    "applications": [
+      {
+        "title": "Executive reporting",
+        "text": "A shared set of performance measures with consistent definitions across management reports."
+      },
+      {
+        "title": "Finance and operations",
+        "text": "Recurring reports that combine operational activity with financial figures and reconciliation checks."
+      },
+      {
+        "title": "Self-service analytics",
+        "text": "Reusable datasets and measures for analysts who need to explore beyond a fixed dashboard."
+      }
+    ],
+    "eyebrow": "MV.tech services",
+    "approachHeading": "How we deliver this work.",
+    "applicationsHeading": "Where this service fits.",
+    "closingHeading": "Discuss your reporting requirements.",
+    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
   },
   {
     "path": "/services/data-warehouse-migration/",
     "key": "data-warehouse-migration",
     "name": "Data Warehouse Migration",
-    "title": "Data Warehouse Migration to Snowflake, BigQuery, Redshift | MV.tech",
-    "description": "Migrate SQL Server, Oracle or spreadsheet reporting into Snowflake, BigQuery or Redshift. Senior remote engineers in India, working in your timezone.",
-    "intro": "Migrations fail on the things nobody mapped. MV.tech moves legacy databases such as SQL Server and Oracle, along with the manual reporting that grew around them, into Snowflake, BigQuery or Amazon Redshift — starting with metadata profiling and dependency analysis, reconciling at every stage, and cutting over on evidence rather than on a date.",
-    "fitHeading": "When does a data warehouse migration make sense?",
+    "title": "Data Warehouse Migration & Modernisation | MV.tech",
+    "description": "Migrate legacy databases and spreadsheet reporting to Snowflake, BigQuery or Redshift with discovery, source mapping, reconciliation and report transition.",
+    "intro": "Move reporting and analytics to a cloud platform with a planned transition. MV.tech migrates legacy databases, warehouse workloads and spreadsheet-based reporting to Snowflake, BigQuery or Redshift. The work covers discovery, data modelling, reconciliation and the reports that depend on the old system.",
+    "fitHeading": "Modernise the platform without losing track of the business rules.",
     "fit": [
-      "A licence renewal, a cost target or end-of-support has set a date for leaving the current platform.",
-      "Reporting runs on a SQL Server estate of views, jobs and stored procedures nobody fully owns.",
-      "Nobody can say which dashboards, extracts or semantic models depend on a given table.",
-      "Month-end reporting is assembled from spreadsheets that were never meant to be a system of record.",
-      "A previous migration attempt stalled because the new numbers did not match the old ones.",
-      "The warehouse was lifted and shifted as-is, and its query patterns and costs came with it.",
-      "Someone has to prove the new platform is right before the old one is switched off."
+      "Move away from a warehouse that is difficult to maintain, expand or integrate.",
+      "Bring reporting logic out of spreadsheets and undocumented legacy processes.",
+      "Plan a migration with a clear view of source dependencies, validation and report transition."
     ],
-    "deliverablesHeading": "What does a data warehouse migration service include?",
+    "deliverablesHeading": "Migration services across the full transition.",
     "deliverables": [
       {
-        "title": "Discovery and metadata profiling",
-        "text": "Catalogue the current estate from the information schema, DDL, query logs and job schedules: tables, volumes, refresh frequencies, objects nothing reads and the handful that carry the business. Profile the data itself for types, null rates, key uniqueness and history depth, so the target design reflects what is there rather than what the documentation claims."
+        "title": "Discovery and dependency analysis",
+        "text": "Inventory source tables, transformations, jobs, business rules and downstream reports. Identify data ownership, historical requirements and dependencies that affect the migration sequence."
       },
       {
-        "title": "Dependency and impact analysis",
-        "text": "Trace what reads each object — views, stored procedures, scheduled jobs, extracts, semantic models and dashboards — and flag hardcoded rules, cross-database joins and platform-specific SQL that will not survive the move. This is the analysis that decides whether a migration is a planned project or a sequence of surprises."
+        "title": "Target architecture and data mapping",
+        "text": "Design the target warehouse layers and access model. Document source-to-target mappings, keys, data types and transformation rules, including any intentional changes to existing behaviour."
       },
       {
-        "title": "Source-to-target mapping",
-        "text": "A written mapping per object: source, target table and layer, data types, transformation rules, keys, grain, historical scope and the check that proves it landed correctly. It is the document both sides sign off and the basis for every test that follows."
+        "title": "Migration pipelines and validation",
+        "text": "Build repeatable loads for historical and ongoing data. Compare record counts, control totals and business measures between source and target, and resolve differences before report cutover."
       },
       {
-        "title": "Target design: raw, staging, curated and reporting layers",
-        "text": "Design Snowflake, BigQuery or Redshift with separated layers: raw as it arrived, staging conformed, curated facts and dimensions, and reporting shapes that BI tools read. Partitioning, clustering and incremental loads are chosen against real query patterns rather than copied from the old platform."
-      },
-      {
-        "title": "Validation and reconciliation",
-        "text": "Automated comparison between old and new at each pipeline stage: record counts, date coverage, nulls, duplicates, control totals and metric-level comparison of the figures people actually report. Differences are explained rather than rounded away — several times they have revealed a defect in the legacy logic."
-      },
-      {
-        "title": "Dashboard and semantic-model impact",
-        "text": "Repoint Power BI, Tableau, Looker Studio or Analysis Services models at the new layers, or rebuild them where the old model was itself the problem. Report-level differences are reconciled visual by visual before a dashboard is called migrated."
-      },
-      {
-        "title": "Cutover, parallel run and handover",
-        "text": "Plan the sequence: what runs in parallel and for how long, the freeze window, who signs off each domain, what is decommissioned when, and how to roll back. Handover includes the mappings, ER diagrams, validation results, schedules, ownership and operating runbooks."
+        "title": "Report transition and handover",
+        "text": "Repoint dashboards and semantic models, plan parallel checks and agree rollback and acceptance criteria. Provide the documentation and operating procedures needed to support the new platform."
       }
     ],
-    "scopeHeading": "What is the first project in a data warehouse migration?",
-    "scope": "Pick one reporting domain — finance, sales, operations — and take it the whole way: discovery of its sources, dependency analysis, source-to-target mapping, warehouse layers, reconciliation against the existing numbers and a repointed dashboard. It proves the target design, the validation approach and the cutover process on something small enough to correct cheaply, and it produces patterns the following domains reuse. It also gives an estimate for the rest of the estate based on your data rather than on a template.",
+    "scopeHeading": "A migration plan should include the systems around the warehouse.",
+    "scope": "We assess sources, historical data, transformation logic, report dependencies and access requirements. A migration can be phased by business domain or reporting workload, with acceptance criteria at each stage. Decommissioning is planned only after the relevant data and report checks are accepted.",
     "approach": [
       {
-        "title": "Discover and map",
-        "text": "Profile the source estate and its dependencies, agree the target architecture, and write the source-to-target mapping and migration sequence."
+        "title": "Assess and plan",
+        "text": "Map the current estate and agree migration waves, dependencies and acceptance criteria."
       },
       {
-        "title": "Build and reconcile",
-        "text": "Load and model domain by domain, comparing each stage with the legacy system on counts, coverage, totals and reported metrics."
+        "title": "Migrate and compare",
+        "text": "Build the target layers, load data and reconcile the results with the existing system."
       },
       {
-        "title": "Cut over and decommission",
-        "text": "Run in parallel, repoint reporting on evidence, take written sign-off and retire legacy objects in a documented order."
+        "title": "Transition and operate",
+        "text": "Move consumers to the new platform with an agreed cutover plan, documentation and support ownership."
       }
     ],
     "tools": [
@@ -843,15 +833,15 @@
         "answer": "Yes. MV.tech is a remote-first data engineering consultancy based in Ahmedabad, India, with working hours planned around your timezone. The migration runs on written work both sides can review: a source-to-target mapping that both sides sign off, automated reconciliation results at every stage, and written sign-off per domain before legacy objects are retired. Handover includes the mappings, ER diagrams, validation results, schedules, ownership and operating runbooks."
       }
     ],
-    "summary": "Legacy databases and manual reporting moved into Snowflake, BigQuery or Redshift, with mapped sources, staged reconciliation and a planned cutover.",
-    "ogTitle": "Data warehouse migration",
-    "ogKicker": "Snowflake · BigQuery · Redshift · Mapping · Reconciliation",
+    "summary": "Move reporting and analytics to a cloud platform with a planned transition.",
+    "ogTitle": "Data Warehouse Migration",
+    "ogKicker": "MV.tech · Consulting · Development · Integration",
     "relatedServiceKeys": [
       "data-engineering",
       "business-intelligence",
       "offshore-data-engineering-team"
     ],
-    "h1": "Data warehouse migration to Snowflake, BigQuery or Redshift",
+    "h1": "Data warehouse migration and modernisation services.",
     "questionsHeading": "Questions about migrating to Snowflake, BigQuery or Redshift",
     "relatedResources": [
       {
@@ -875,74 +865,73 @@
         "text": "What sets the price, how to compare proposals and which delivery costs to include.",
         "label": "Cost guide"
       }
-    ]
+    ],
+    "applications": [
+      {
+        "title": "Legacy warehouse replacement",
+        "text": "Move SQL Server, Oracle, PostgreSQL or other warehouse workloads into an agreed cloud platform."
+      },
+      {
+        "title": "Spreadsheet reporting migration",
+        "text": "Turn recurring Excel-based reporting into documented transformations and shared reporting datasets."
+      },
+      {
+        "title": "Cloud platform consolidation",
+        "text": "Bring fragmented reporting sources into a common architecture with consistent modelling and ownership."
+      }
+    ],
+    "eyebrow": "MV.tech services",
+    "approachHeading": "How we deliver this work.",
+    "applicationsHeading": "Where this service fits.",
+    "closingHeading": "Discuss your warehouse migration.",
+    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
   },
   {
     "path": "/services/blockchain-data-analytics/",
     "key": "blockchain-data-analytics",
     "name": "Blockchain & On-Chain Data Analytics",
-    "title": "Blockchain Data Analytics & On-Chain ETL Services | MV.tech",
-    "description": "On-chain data engineering from India, in your timezone: decoded transactions, cross-chain ETL into BigQuery, token valuation and reward reconciliation.",
-    "intro": "Raw chain data is not analytics. MV.tech decodes transactions, logs and events using contract ABIs and Web3.py, consolidates them across networks into BigQuery, and adds the valuation, categorisation and reconciliation layers that let finance, product and compliance teams answer questions about on-chain activity.",
-    "fitHeading": "When do you need on-chain data engineering rather than a block explorer?",
+    "title": "Blockchain Data Engineering & On-Chain Analytics | MV.tech",
+    "description": "Multi-chain transaction pipelines, event decoding, wallet analytics and reconciliation datasets for blockchain reporting and business analysis.",
+    "intro": "Turn blockchain activity into data your analysts and finance teams can work with. MV.tech builds pipelines that collect, decode and organise transactions across networks, then connect the results to warehouses, dashboards and reconciliation workflows.",
+    "fitHeading": "Connect on-chain activity to business reporting.",
     "fit": [
-      "A block explorer can show one transaction, but nobody can total a quarter across chains.",
-      "Each network has its own ingestion script and its own idea of what a transaction record looks like.",
-      "Finance needs token movements valued in fiat at the right timestamp, with fees attributed.",
-      "Staking rewards are reconciled by hand and the totals never quite agree.",
-      "A compliance or AML question needs wallet-level history and there is no dataset to query.",
-      "Someone corrected a figure directly in the analytics table and the original value is gone.",
-      "Token coverage is partial, so a material share of transfers lands in an \"unknown\" bucket."
+      "Bring wallet and transaction activity from multiple networks into a common reporting model.",
+      "Explain token movements, fees and rewards using traceable transaction records.",
+      "Combine on-chain datasets with reference data and internal classifications."
     ],
-    "deliverablesHeading": "What do blockchain data analytics services include?",
+    "deliverablesHeading": "From raw transactions to reporting and reconciliation.",
     "deliverables": [
       {
-        "title": "Cross-chain ingestion and ETL",
-        "text": "Pull blocks, transactions, logs and events from node RPCs, indexers and chain APIs into a common schema in BigQuery. Reorg handling, backfills, checkpointing and per-chain rate limits are part of the pipeline rather than an afterthought. Work has covered Ethereum, Bitcoin, Immutable X, Immutable zkEVM, XDC, WEMIX, Tezos and Cardano."
+        "title": "Multi-chain data ingestion",
+        "text": "Collect transactions, logs and events from node RPCs, APIs and available datasets. Define block ranges, incremental loading, backfills and source-specific handling for the networks in scope."
       },
       {
-        "title": "Decoding transactions, logs and events",
-        "text": "Apply contract ABIs with Web3.py to turn opaque input data and topics into named events with typed arguments: transfers, mints, burns, stakes, swaps. That includes proxy contracts, non-standard implementations and the contracts whose interface has to be reconstructed before anything can be read."
+        "title": "Decoding and normalisation",
+        "text": "Decode supported contract events using ABIs and Web3.py. Standardise identifiers, wallet activity and transaction categories while retaining raw records for investigation."
       },
       {
-        "title": "Token identification and valuation",
-        "text": "Maintain token registries and price reference data, and value movements at the relevant block timestamp in the reporting currency, handling decimals, fee proration and FX explicitly. Widening mapping coverage is ordinary, high-value work: on past engagements it moved from 35 tokens to 42 and beyond, pulling material volume out of the unknown bucket."
+        "title": "Valuation and reconciliation datasets",
+        "text": "Combine token and FX reference data with transaction records where suitable sources exist. Model transfers, fees and rewards, document valuation gaps and compare on-chain activity with internal records."
       },
       {
-        "title": "Transaction categorisation",
-        "text": "Classify activity into the categories the business reports on — transfer, trade, fee, reward, bridge, internal movement — using contract, method, counterparty and pattern rules that are written down and reviewable rather than buried inside a query."
-      },
-      {
-        "title": "Staking-reward reconciliation",
-        "text": "Reward ledgers per validator, delegator or wallet, reconciled against on-chain distributions and internal records, with period totals, accrual timing and a discrepancy report."
-      },
-      {
-        "title": "Wallet analytics and attribution",
-        "text": "Wallet-level histories, balances over time, cohort and retention views, and attribution of addresses to known entities or internal accounts, with the labelling maintained as data rather than hardcoded into reports."
-      },
-      {
-        "title": "Compliance and AML investigative datasets",
-        "text": "Queryable datasets for investigation and monitoring: counterparty exposure, flows through addresses of interest, thresholds and time-windowed aggregates. They support an analyst’s judgement and an auditor’s questions; they do not replace either."
-      },
-      {
-        "title": "Immutable base data with an audit trail",
-        "text": "Base tables hold exactly what the chain reported and are never edited. Manual corrections, whitelists and overrides live in separate layers applied when the reporting view is built, each carrying an author, a timestamp and a reason, so a figure can still be explained months later."
+        "title": "Dashboards and auditability",
+        "text": "Publish warehouse tables and reporting views for wallet analysis and finance review. Keep corrections separate from immutable base data so users can trace adjustments back to the original record."
       }
     ],
-    "scopeHeading": "How do we scope a first on-chain data project?",
-    "scope": "Take a single network and one business question — a quarterly token flow, a staking-reward total, a wallet cohort — and build it the whole way: ingestion, decoding with the relevant ABIs, token mapping, valuation, categorisation and a reconciled output compared against whatever figures exist today. One chain done properly establishes the schema, the decoding patterns, the override model and the validation checks, so the second and third networks are mostly configuration rather than new engineering.",
+    "scopeHeading": "Agree the networks, wallets and reporting rules.",
+    "scope": "An engagement starts with the business questions, networks and wallet or contract coverage. We review source availability, transaction types and valuation requirements, then define the data model and reconciliation approach. Ambiguous transactions and missing reference prices are recorded for review.",
     "approach": [
       {
-        "title": "Agree the question and the chains",
-        "text": "Identify the networks, contracts and wallets in scope, the reporting currency and period, and the figures the output has to reconcile against."
+        "title": "Define the reporting scope",
+        "text": "Agree networks, wallets, contracts, history and the financial or analytical questions to answer."
       },
       {
-        "title": "Ingest, decode and value",
-        "text": "Build the pipeline and decoding layer, map tokens, apply valuation and categorisation, and check coverage and gaps block by block."
+        "title": "Ingest and model",
+        "text": "Build the collection and decoding pipeline, retaining raw transactions and traceable transformations."
       },
       {
-        "title": "Reconcile and operate",
-        "text": "Compare against on-chain and internal sources, document the override path, then schedule, monitor and hand over with the mapping rules."
+        "title": "Reconcile and publish",
+        "text": "Compare the results with available records and release documented datasets, reports and correction procedures."
       }
     ],
     "tools": [
@@ -995,74 +984,82 @@
         "answer": "We build a reward ledger per validator, delegator or wallet and reconcile it against on-chain distributions and internal records, with period totals, accrual timing and a discrepancy report. Base tables hold exactly what the chain reported and are never edited; corrections live in a separate override layer with an author, a timestamp and a reason, so both the original and adjusted figures stay available."
       }
     ],
-    "summary": "Decoded on-chain transactions across networks, cross-chain ETL into BigQuery, token valuation, categorisation and staking-reward reconciliation.",
-    "ogTitle": "Blockchain & on-chain data analytics",
-    "ogKicker": "Cross-chain ETL · ABI decoding · Valuation · Reconciliation",
+    "summary": "Turn blockchain activity into data your analysts and finance teams can work with.",
+    "ogTitle": "Blockchain & On-Chain Data Analytics",
+    "ogKicker": "MV.tech · Consulting · Development · Integration",
     "relatedServiceKeys": [
       "data-engineering",
       "business-intelligence",
       "workflow-automation"
     ],
-    "h1": "Blockchain data analytics for finance, product and compliance teams",
-    "questionsHeading": "Questions buyers ask about blockchain data analytics"
+    "h1": "Blockchain data engineering and on-chain analytics.",
+    "questionsHeading": "Questions buyers ask about blockchain data analytics",
+    "applications": [
+      {
+        "title": "Treasury and wallet reporting",
+        "text": "Consolidated activity across wallets and networks, with transaction-level drill-down."
+      },
+      {
+        "title": "Token and reward reconciliation",
+        "text": "Datasets for comparing transfers, staking rewards and fees with internal reporting records."
+      },
+      {
+        "title": "Blockchain product analytics",
+        "text": "Data pipelines and reporting layers for teams building or operating on-chain products."
+      }
+    ],
+    "eyebrow": "MV.tech services",
+    "approachHeading": "How we deliver this work.",
+    "applicationsHeading": "Where this service fits.",
+    "closingHeading": "Discuss your blockchain data requirements.",
+    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
   },
   {
     "path": "/services/workflow-automation/",
     "key": "workflow-automation",
     "name": "Workflow Automation Consulting",
-    "title": "Workflow Automation Consulting & API Integration | MV.tech",
-    "description": "Workflow automation consulting from a remote team in India working in your timezone: API integrations, scheduled jobs, reconciliation checks and monitoring.",
-    "intro": "Connect the steps between your business systems. MV.tech builds API integrations, scheduled workflows, spreadsheet and add-on automation, and the operational plumbing around them — reducing repeated manual work and making failures visible.",
-    "fitHeading": "When does workflow automation make sense?",
+    "title": "Workflow Automation & Business System Integration | MV.tech",
+    "description": "Automate recurring work across applications, APIs, databases and spreadsheets. MV.tech builds integrations, validation, scheduling and exception handling.",
+    "intro": "Reduce the manual work between your business systems. MV.tech connects applications, APIs, databases and spreadsheets to automate recurring tasks, reporting and approvals. We build the checks, exception handling and operating instructions alongside the workflow.",
+    "fitHeading": "Automate the hand-offs that slow your team down.",
     "fit": [
-      "People repeatedly move the same records between business tools and spreadsheets.",
-      "Scheduled reports rely on manual downloads, cleanup and distribution.",
-      "Finance or operations reconcile two systems by hand every month and the differences are never documented.",
-      "A spreadsheet has quietly become a business system, with formulas and scripts nobody owns.",
-      "An integration works on the happy path but produces duplicate actions after a retry.",
-      "A script runs in the background without clear ownership, status checks or recovery steps."
+      "Stop entering or moving the same information across several applications.",
+      "Replace recurring report preparation and file handling with scheduled workflows.",
+      "Make failed integrations and records needing review visible to the people responsible."
     ],
-    "deliverablesHeading": "What does a workflow automation engagement deliver?",
+    "deliverablesHeading": "Automation that fits the process you already run.",
     "deliverables": [
       {
-        "title": "API and webhook integrations",
-        "text": "Connect approved business systems using their supported interfaces: REST APIs, webhooks, OAuth flows and blockchain RPCs. Handle pagination, rate limits, authentication and changes in source records."
+        "title": "Workflow assessment and design",
+        "text": "Map inputs, rules, ownership and exceptions with the people doing the work. Define which steps can be automated and where review or approval remains necessary."
       },
       {
-        "title": "Scheduled business workflows",
-        "text": "Automate recurring data pulls, report preparation, exports and status checks in Python and SQL. Define the schedule, inputs and expected output for each step, and run them somewhere accountable — Cloud Run, a container or scheduled CI, rather than a laptop."
+        "title": "API and application integration",
+        "text": "Connect REST APIs, webhooks, databases and business applications. Handle authentication, source limits, field mapping and the transformations needed between systems."
       },
       {
-        "title": "Spreadsheet and add-on automation",
-        "text": "Where the process genuinely lives in Google Sheets or Excel, automate it there: Google Apps Script jobs, Sheets add-ons, controlled exports and usage logging. Keep the calculation in a governed source and let the spreadsheet be the interface."
+        "title": "Spreadsheet and reporting automation",
+        "text": "Build Google Apps Script workflows, Sheets integrations and Python jobs for processes that depend on spreadsheets, exports and recurring reports."
       },
       {
-        "title": "Reconciliation and exception handling",
-        "text": "Add checks before data is written or a downstream action is triggered: matching, tolerance rules, duplicate prevention and retries. Where a figure must be adjusted by hand, an override layer can record the change without altering the immutable source record, which leaves an audit trail instead of an argument."
-      },
-      {
-        "title": "Web and document data extraction",
-        "text": "Collect data that has no API. Maintainable Python scraping of dynamic pages and authenticated portals, respecting source terms and rate limits, plus LLM-assisted extraction from documents where the layout keeps changing."
-      },
-      {
-        "title": "Monitoring, deployment and ownership",
-        "text": "Provide logs, useful alerts and operating documentation, with deployment through Docker and GitHub Actions so a change is reviewable. Make it clear who maintains a workflow and how to recover or rerun it when a dependency fails."
+        "title": "Scheduling and operational controls",
+        "text": "Add validation, retries, duplicate prevention and failure alerts. Document how to rerun a job, handle exceptions and update the workflow when a source system changes."
       }
     ],
-    "scopeHeading": "What is a good first workflow automation project?",
-    "scope": "Pick a recurring handoff with a clear input and output, such as preparing a weekly report from several systems or reconciling two ledgers. Document what people check today, including exceptions and the adjustments they make by hand. The project can then automate the repeatable steps while preserving review where judgment is required. Assess the result using completion time, exception frequency, how much manual reconciliation is left and the effort needed to recover a failed run.",
+    "scopeHeading": "Begin with a workflow whose inputs and rules are understood.",
+    "scope": "We review the current process, its systems and the cases that need manual intervention. The proposal defines the steps to automate, expected volumes, validation rules and ownership of exceptions. AI can be included when it is useful for interpreting variable documents or text.",
     "approach": [
       {
-        "title": "Observe the current workflow",
-        "text": "Map triggers, source tools, manual checks, exceptions and who receives the result."
+        "title": "Map the process",
+        "text": "Follow a real transaction or report through the current steps and document the rules and exceptions."
       },
       {
-        "title": "Connect and validate",
-        "text": "Implement the integrations and test retries, missing data and downstream failures as well as a successful run."
+        "title": "Build the integration",
+        "text": "Connect the systems and test ordinary records, errors, retries and duplicate handling."
       },
       {
-        "title": "Schedule and hand over",
-        "text": "Agree operating hours, alert recipients, access ownership and a recovery procedure."
+        "title": "Deploy and maintain",
+        "text": "Agree schedules, alerts and operating ownership, then document the workflow for future changes."
       }
     ],
     "tools": [
@@ -1106,70 +1103,82 @@
         "answer": "We start by documenting what people check today, including the exceptions and the adjustments they make by hand. The workflow then applies matching, tolerance rules, duplicate prevention and retries before any data is written or a downstream action is triggered. Where a figure must still be adjusted manually, an override layer can record the change without altering the immutable source record, which leaves an audit trail instead of an argument."
       }
     ],
-    "summary": "Scheduled workflows, webhooks, Apps Script and API integrations that replace manual hand-offs and make failures visible.",
-    "ogTitle": "Workflow automation & API integration",
-    "ogKicker": "Scheduled workflows · Webhooks · Validation · Monitoring",
+    "summary": "Reduce the manual work between your business systems.",
+    "ogTitle": "Workflow Automation Consulting",
+    "ogKicker": "MV.tech · Consulting · Development · Integration",
     "relatedServiceKeys": [
       "mcp-and-ai-connectors",
       "ai-consulting",
       "custom-software"
     ],
-    "h1": "Workflow automation and API integration consulting",
-    "questionsHeading": "Common questions about workflow automation consulting"
+    "h1": "Workflow automation and business system integration.",
+    "questionsHeading": "Common questions about workflow automation consulting",
+    "applications": [
+      {
+        "title": "Business data synchronisation",
+        "text": "Move approved records between operational applications and reporting systems."
+      },
+      {
+        "title": "Recurring reports",
+        "text": "Collect source information, validate it and produce a repeatable reporting output."
+      },
+      {
+        "title": "Document and approval workflows",
+        "text": "Route information between processing steps, with a person reviewing exceptions or approving business actions."
+      }
+    ],
+    "eyebrow": "MV.tech services",
+    "approachHeading": "How we deliver this work.",
+    "applicationsHeading": "Where this service fits.",
+    "closingHeading": "Discuss your workflow.",
+    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
   },
   {
     "path": "/services/custom-software/",
     "key": "custom-software",
     "name": "Custom Software Development",
-    "title": "Custom Software Development, Remote Team in India | MV.tech",
-    "description": "Custom software development by a senior remote team in India: web apps, client portals, internal tools and Streamlit data apps with APIs and data backends.",
-    "intro": "Build software around the way your business works. MV.tech develops web applications, client portals, internal tools and data apps in TypeScript, JavaScript and Python, with the interface, data model and integrations considered together.",
-    "fitHeading": "When does a custom application make sense?",
+    "title": "Custom Software & Web Application Development | MV.tech",
+    "description": "Custom web applications, customer portals, internal tools and data apps from MV.tech, covering interfaces, backends, integrations, testing and deployment.",
+    "intro": "Build software around the way your business operates. MV.tech develops web applications, customer portals, internal tools and data applications, connecting the interface, backend and integrations in one delivery scope. We can build a new application or extend an existing product.",
+    "fitHeading": "Software for the workflows that off-the-shelf tools leave unfinished.",
     "fit": [
-      "Your team runs an important process through spreadsheets, email and repeated manual follow-up.",
-      "Customers need a portal for records, requests or service updates.",
-      "An existing application needs a better interface, a new integration or more reliable reporting.",
-      "Analysts need a filterable interface over warehouse data, not another static export.",
-      "A dashboard cannot express the workflow: people need to review, adjust and approve records as well as read them.",
-      "You need senior development capacity to deliver a defined workstream with your product team."
+      "Give customers or partners a portal for the information and tasks they need.",
+      "Replace shared spreadsheets and manual hand-offs with a business application.",
+      "Add features, integrations or reporting to an existing software product."
     ],
-    "deliverablesHeading": "What custom software development services does MV.tech provide?",
+    "deliverablesHeading": "Application development from requirements to release.",
     "deliverables": [
       {
-        "title": "Business web applications",
-        "text": "Build responsive interfaces around actual user tasks, data views and permissions. Include loading, empty and error states in the workflow."
+        "title": "Product discovery and technical planning",
+        "text": "Define users, workflows, business rules and release priorities. Review existing systems and agree the architecture, integrations and acceptance criteria for the application."
       },
       {
-        "title": "Client portals and internal tools",
-        "text": "Implement role-based access, forms, operational dashboards and approval flows. Agree which actions each user can take and enforce those rules in the application."
+        "title": "Web applications and user interfaces",
+        "text": "Develop responsive interfaces for customer-facing portals, admin panels and internal tools. Build forms, search, reporting and role-specific workflows around the tasks users need to complete."
       },
       {
-        "title": "APIs and data backends",
-        "text": "Connect the product to PostgreSQL, a cloud warehouse, business systems and reporting workflows. Define validation, failure handling and how records stay consistent across services."
+        "title": "Backends, databases and integrations",
+        "text": "Implement application logic, data storage and REST APIs using the agreed JavaScript, TypeScript, Python and SQL stack. Integrate business systems with authentication and clear handling of failures."
       },
       {
-        "title": "Internal data apps and dashboards",
-        "text": "Where the audience is internal and the data is the product, a Streamlit or Plotly application is often the right answer: filterable tables with date ranges and live record counts, drill-downs into the underlying records, and exports that match what the screen shows."
-      },
-      {
-        "title": "Release and maintainability",
-        "text": "Scope testing, deployment, monitoring and documentation alongside development — Pytest, Docker and GitHub Actions where they fit your stack. Make future fixes and enhancements part of the handover conversation."
+        "title": "Testing, deployment and application support",
+        "text": "Test the agreed user journeys, permissions and integration behaviour. Set up reviewable deployments, document the application and agree its maintenance and support requirements."
       }
     ],
-    "scopeHeading": "What should the first milestone of a custom software project be?",
-    "scope": "Choose a real workflow, such as submitting a request, reviewing it and seeing its status. Agree the roles, data, acceptance criteria and necessary integrations. Delivering that journey end to end gives stakeholders something concrete to evaluate and reveals the operational details that a collection of disconnected screens can miss.",
+    "scopeHeading": "Plan the application around users and release priorities.",
+    "scope": "We turn the requirement into workflows, features and integration needs, then agree a release plan. A first phase can cover the core user journey, access roles and essential business systems. Subsequent releases can add functionality based on user feedback and the agreed roadmap.",
     "approach": [
       {
-        "title": "Agree the workflow",
-        "text": "Define users, actions, permissions, existing systems and what a successful release needs to do."
+        "title": "Discover and design",
+        "text": "Clarify the users, workflows and business rules, and review the systems the application must connect to."
       },
       {
-        "title": "Build in reviewable increments",
-        "text": "Connect interface and backend behaviour, review with stakeholders and test important edge cases."
+        "title": "Develop and review",
+        "text": "Build features in increments and review working screens and integrations with your team."
       },
       {
-        "title": "Release and support",
-        "text": "Validate deployment, document ownership and agree how feedback and maintenance will be handled."
+        "title": "Launch and maintain",
+        "text": "Complete acceptance checks, deploy the application and hand over code, documentation and support arrangements."
       }
     ],
     "tools": [
@@ -1212,24 +1221,43 @@
         "answer": "Yes. Where the audience is internal and the data is the product, we build a Streamlit or Plotly application with filterable tables, date ranges, live record counts, drill-downs into the underlying records and exports that match what the screen shows. The backend connects to PostgreSQL or a cloud warehouse, with validation and failure handling defined as part of the build."
       }
     ],
-    "summary": "Business web applications, client portals, internal tools and Streamlit data apps with APIs and data backends designed together.",
-    "ogTitle": "Custom software & web app development",
-    "ogKicker": "Business apps · Client portals · Dashboards · APIs",
+    "summary": "Build software around the way your business operates.",
+    "ogTitle": "Custom Software Development",
+    "ogKicker": "MV.tech · Consulting · Development · Integration",
     "relatedServiceKeys": [
       "workflow-automation",
       "mcp-and-ai-connectors",
       "it-staff-augmentation"
     ],
-    "h1": "Custom software development for web apps, client portals and internal tools",
-    "questionsHeading": "Questions about custom software development and remote developers"
+    "h1": "Custom software development for your business.",
+    "questionsHeading": "Questions about custom software development and remote developers",
+    "applications": [
+      {
+        "title": "Customer and partner portals",
+        "text": "A shared place for users to access records, submit information and follow the status of their requests."
+      },
+      {
+        "title": "Internal business applications",
+        "text": "Tools for operational data, approvals, exception handling and reporting."
+      },
+      {
+        "title": "Data applications",
+        "text": "Streamlit or custom web interfaces for teams that need to search, analyse and act on warehouse data."
+      }
+    ],
+    "eyebrow": "MV.tech services",
+    "approachHeading": "How we deliver this work.",
+    "applicationsHeading": "Where this service fits.",
+    "closingHeading": "Discuss your software project.",
+    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
   },
   {
     "path": "/services/it-staff-augmentation/",
     "key": "it-staff-augmentation",
     "name": "IT Staff Augmentation",
-    "title": "Data Engineering Staff Augmentation and Dedicated Teams | MV.tech",
-    "description": "Data engineering staff augmentation from MV.tech: senior data, AI, software and cloud consultants working remotely from India in your team's hours.",
-    "intro": "Add specialist capacity to your existing team. MV.tech provides remote technology consultants for AI, data engineering, analytics engineering, software and cloud work — from warehouse migrations and semantic models to MCP servers and automation — with responsibilities, availability and timezone overlap agreed around your delivery needs.",
+    "title": "IT Staff Augmentation & Dedicated Engineering Teams | MV.tech",
+    "description": "Add data, software, AI and cloud specialists to your delivery team. Discuss assigned roles, capacity, responsibilities, duration and timezone collaboration.",
+    "intro": "Add the technical skills your team needs without opening every role as a permanent hire. MV.tech provides data, software, AI and cloud specialists who work within your delivery process. Agree the responsibilities, capacity and duration, then collaborate directly with the people assigned to the work.",
     "callLabel": "Discuss your team needs",
     "enquiryFields": [
       "Role and required skills",
@@ -1239,54 +1267,48 @@
       "Timezone and required overlap",
       "Budget range (optional)"
     ],
-    "closingHeading": "Which capability does your team need?",
-    "closingCopy": "Share the role, technology stack, expected duration and working hours. We can discuss consultant fit, availability and the right engagement scope.",
-    "fitHeading": "When does data engineering staff augmentation make sense?",
+    "closingHeading": "Discuss the skills your team needs.",
+    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include.",
+    "fitHeading": "Bring specialist capacity into your existing team.",
     "fit": [
-      "You need an experienced engineer for an active workstream without opening a permanent role.",
-      "Your team needs specialist AI, RAG, MCP, data or cloud capability for a defined phase.",
-      "A warehouse migration or BI rebuild needs a specialist for its discovery, modelling and reconciliation phases.",
-      "A delivery backlog needs additional hands-on capacity alongside your existing technical leads.",
-      "You want remote consultants who participate in your team's reviews and agreed working hours."
+      "Cover a specific skill gap or a delivery phase that needs additional engineering capacity.",
+      "Keep your team in control of priorities, architecture and release decisions.",
+      "Add an individual consultant or discuss a dedicated team for an ongoing workstream."
     ],
-    "deliverablesHeading": "What does MV.tech staff augmentation include?",
+    "deliverablesHeading": "Skills and collaboration matched to your delivery needs.",
     "deliverables": [
       {
-        "title": "AI and data specialists",
-        "text": "Discuss consultants for AI automation, RAG systems, MCP servers and custom connectors, Python, SQL, ETL and cloud data platforms including BigQuery, Snowflake, Redshift and PostgreSQL. Match the required skills to the actual workstream and level of ownership."
+        "title": "Data and analytics specialists",
+        "text": "Data engineers, analytics engineers, BI developers and semantic modelling specialists for pipelines, warehouses, reporting and reconciliation work."
       },
       {
-        "title": "Analytics engineering and BI specialists",
-        "text": "Capacity for dimensional and semantic modelling, curated warehouse layers, source-to-target mapping, reconciliation and dashboard work in Power BI, Tableau, Looker Studio or Streamlit, including review of existing SSAS and Analysis Services models."
+        "title": "Software, AI and integration engineers",
+        "text": "Developers for web applications, business APIs, automation, RAG assistants and MCP integrations, selected against the work and technology requirements."
       },
       {
-        "title": "Software and cloud consultants",
-        "text": "Add capacity for business applications, APIs, integrations and cloud implementation across AWS, Google Cloud and Azure. Review technical fit, existing codebase conventions and deployment responsibilities before the engagement begins."
+        "title": "A defined engagement model",
+        "text": "Confirm the assigned people, responsibilities, allocated capacity, duration, collaboration hours and review process before onboarding."
       },
       {
-        "title": "Dedicated remote collaboration",
-        "text": "Agree the consultant's allocated capacity, collaboration windows and reporting relationship. Work through your team's planning, reviews and communication tools with clear expectations for availability."
-      },
-      {
-        "title": "Onboarding and continuity",
-        "text": "Define access, initial tasks, acceptance criteria and documentation with your team. Review the arrangement as priorities change, and agree handover responsibilities before an engagement ends."
+        "title": "Onboarding and delivery continuity",
+        "text": "Work in your repositories, ticketing systems and communication tools. Document implementation decisions and agree handover responsibilities as workstreams or team arrangements change."
       }
     ],
-    "scopeHeading": "What should a staff augmentation brief include?",
-    "scope": "A useful staffing brief explains the work to be done, not just a list of technologies. Share the backlog or milestone, required experience, team structure, expected duration and collaboration hours. Together we can review the capability needed, confirm availability and agree how progress will be assessed. For permanent employees hired into your organisation, our technology recruitment service is the appropriate route.",
-    "approachHeading": "From capability gap to an integrated team member.",
+    "scopeHeading": "Match the role to the backlog.",
+    "scope": "Share the responsibilities, stack, seniority, required capacity and working hours. We discuss fit and availability, introduce suitable specialists and agree the engagement terms. Your team can review how the arrangement is working at planned checkpoints.",
+    "approachHeading": "How we deliver this work.",
     "approach": [
       {
-        "title": "Define the role and working model",
-        "text": "Clarify the skills, responsibilities, expected capacity, duration, budget and timezone overlap."
+        "title": "Define the requirement",
+        "text": "Agree the responsibilities, technical skills and delivery context for the role or team."
       },
       {
-        "title": "Review fit and agree the engagement",
-        "text": "Discuss relevant experience, technical expectations, availability and commercial terms before confirming a consultant."
+        "title": "Review fit and availability",
+        "text": "Meet suitable specialists and confirm capacity, duration and collaboration arrangements."
       },
       {
-        "title": "Onboard and review progress",
-        "text": "Provide agreed access, introduce the workstream and establish delivery reviews and handover expectations."
+        "title": "Onboard and work together",
+        "text": "Provide agreed access, establish review routines and track progress against your priorities."
       }
     ],
     "tools": [
@@ -1350,24 +1372,40 @@
         "label": "Hiring checklist"
       }
     ],
-    "summary": "Senior data, analytics, software, cloud and AI consultants embedded in your team, in your tools and hours, for an agreed capacity.",
-    "ogTitle": "IT staff augmentation & dedicated remote teams",
-    "ogKicker": "Senior consultants in your team · Agreed capacity · Your hours",
+    "summary": "Add the technical skills your team needs without opening every role as a permanent hire.",
+    "ogTitle": "IT Staff Augmentation",
+    "ogKicker": "MV.tech · Specialist capacity · Dedicated teams",
     "relatedServiceKeys": [
       "offshore-data-engineering-team",
       "technology-recruitment",
       "data-engineering"
     ],
-    "h1": "Data engineering staff augmentation and dedicated remote teams based in India",
-    "questionsHeading": "Common questions about hiring remote data, AI and cloud consultants"
+    "h1": "IT staff augmentation and dedicated engineering teams.",
+    "questionsHeading": "Common questions about hiring remote data, AI and cloud consultants",
+    "applications": [
+      {
+        "title": "Additional delivery capacity",
+        "text": "Engineers working alongside your developers on an agreed backlog or programme."
+      },
+      {
+        "title": "A specialist project phase",
+        "text": "Extra expertise for a migration, model review, integration or release."
+      },
+      {
+        "title": "A dedicated workstream",
+        "text": "A small team responsible for a defined area while your leads retain overall delivery direction."
+      }
+    ],
+    "eyebrow": "MV.tech services",
+    "applicationsHeading": "Where this service fits."
   },
   {
     "path": "/services/technology-recruitment/",
     "key": "technology-recruitment",
     "name": "Technology Recruitment",
-    "title": "Hire Data Engineers & AI Specialists: Permanent Recruitment | MV.tech",
-    "description": "Hire permanent data, AI, software and cloud engineers with MV.tech. An engineer shapes the role brief and assesses technical fit before you interview.",
-    "intro": "Build your in-house technology team. MV.tech supports permanent recruitment for AI, data, analytics, software and cloud roles — data and analytics engineers, BI developers, platform and automation engineers, AI and MCP specialists — bringing an engineering perspective to role definition, candidate fit and the hiring conversation.",
+    "title": "Technology Recruitment for Data, Software & AI | MV.tech",
+    "description": "Permanent recruitment for data, software, AI, cloud and analytics roles, with role definition, candidate screening and engineering-led technical assessment.",
+    "intro": "Hire the technical people your business needs for the long term. MV.tech supports permanent recruitment for data engineering, software development, AI, cloud and analytics roles. Our engineering background helps translate the vacancy into a practical brief and a relevant technical assessment.",
     "callLabel": "Discuss your hiring needs",
     "enquiryFields": [
       "Role title and required skills",
@@ -1377,49 +1415,48 @@
       "Compensation range",
       "Interview process and hiring contact"
     ],
-    "closingHeading": "Tell us about the role you are hiring for.",
-    "closingCopy": "Share the responsibilities, must-have skills, location or remote policy, compensation range and hiring timeline. We can use the first conversation to clarify fit and recruitment scope.",
-    "fitHeading": "When does permanent recruitment make sense instead of staff augmentation?",
+    "closingHeading": "Discuss your next technology hire.",
+    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include.",
+    "fitHeading": "Make the role and the technical assessment clear.",
     "fit": [
-      "You need to hire a permanent engineer or specialist into your own organisation.",
-      "A role spans AI, data, software or cloud skills that need a clear technical brief.",
-      "Your hiring team needs support finding and assessing candidates for an agreed position.",
-      "You want candidate conversations grounded in responsibilities, technical depth and the way your team works."
+      "Define a role that reflects the work the new employee will actually own.",
+      "Assess candidates against relevant technical responsibilities and your team’s expectations.",
+      "Coordinate a hiring process across sourcing, screening, interviews and feedback."
     ],
-    "deliverablesHeading": "What does permanent technology hiring support include?",
+    "deliverablesHeading": "Recruitment support from role definition to hiring decision.",
     "deliverables": [
       {
-        "title": "Role definition and hiring brief",
-        "text": "Clarify the responsibilities, essential skills, experience level, compensation range and working model. Separate must-have capabilities from skills that can be developed in the role."
+        "title": "Role definition",
+        "text": "Agree responsibilities, required experience, must-have skills, compensation range and location or remote-working requirements with the hiring team."
       },
       {
-        "title": "Candidate sourcing and shortlisting",
-        "text": "Scope a search around the agreed profile and discuss relevant candidates with your hiring team. Confirm candidate interest, working preferences and availability as part of the process."
+        "title": "Candidate sourcing and initial screening",
+        "text": "Identify and screen candidates against the agreed brief, including their relevant experience and interest in the working arrangement."
       },
       {
-        "title": "Technical fit discussions",
-        "text": "Bring an engineering perspective to experience and problem-solving discussions, whether the role calls for SQL and warehouse modelling, pipeline engineering, BI and semantic models, or LLM and MCP work. Agree the depth of screening, any assessment and your team's final interview requirements before the search begins."
+        "title": "Technical assessment",
+        "text": "Use engineering-led discussions and role-relevant assessment to evaluate technical fit. Present the evidence and open questions for your hiring team to review."
       },
       {
-        "title": "Interview and selection coordination",
-        "text": "Support interview scheduling, feedback and communication through the agreed hiring process. Your organisation makes the final hiring decision and agrees employment terms directly with the selected candidate."
+        "title": "Interview coordination and decision support",
+        "text": "Coordinate interviews and feedback, clarify candidate questions and support the offer process. Your organisation makes the selection and employs the successful candidate."
       }
     ],
-    "scopeHeading": "What do you need from us to start a permanent hire search?",
-    "scope": "A strong search starts with a role that candidates and interviewers can understand. Share what the person will own, the technical environment, expected experience, compensation range and location or remote policy. Agree the shortlist criteria and interview stages before sourcing. Search timing depends on the role and candidate market; fees and any follow-up terms are agreed for the engagement.",
-    "approachHeading": "From hiring brief to a considered selection.",
+    "scopeHeading": "Agree the search around the role you need to fill.",
+    "scope": "We review the responsibilities, team setup, hiring timeline and compensation range. The search scope, screening process and recruitment fees are agreed before work begins. If the requirement is temporary capacity, we can discuss staff augmentation instead.",
+    "approachHeading": "How we deliver this work.",
     "approach": [
       {
-        "title": "Align on the role",
-        "text": "Review the responsibilities, required skills, compensation, working model and selection process with the hiring manager."
+        "title": "Align the hiring brief",
+        "text": "Confirm the role, employment arrangement, required skills and interview process."
       },
       {
-        "title": "Source and assess fit",
-        "text": "Identify candidates against the agreed brief, discuss relevant experience and coordinate your team's assessment."
+        "title": "Source and assess",
+        "text": "Screen candidates and record the technical evidence relevant to your vacancy."
       },
       {
-        "title": "Support the hiring decision",
-        "text": "Coordinate feedback and candidate communication while your organisation owns the final selection and employment offer."
+        "title": "Support the decision",
+        "text": "Coordinate interviews, feedback and the next steps with your hiring team."
       }
     ],
     "tools": [
@@ -1480,65 +1517,79 @@
         "label": "Timezone playbook"
       }
     ],
-    "summary": "Permanent hiring for AI, data, software and cloud roles, with an engineer shaping the brief and assessing fit.",
-    "ogTitle": "Technology recruitment",
-    "ogKicker": "Permanent AI, data, software & cloud hires · Engineer-led",
+    "summary": "Hire the technical people your business needs for the long term.",
+    "ogTitle": "Technology Recruitment",
+    "ogKicker": "MV.tech · Permanent hiring · Technical assessment",
     "relatedServiceKeys": [
       "it-staff-augmentation",
       "offshore-data-engineering-team",
       "data-engineering"
     ],
-    "h1": "Hire permanent data, AI, software and cloud engineers for your in-house team",
-    "questionsHeading": "Questions about hiring permanent data, AI and cloud engineers"
+    "h1": "Technology recruitment for data, software and AI teams.",
+    "questionsHeading": "Questions about hiring permanent data, AI and cloud engineers",
+    "applications": [
+      {
+        "title": "Data and analytics hiring",
+        "text": "Recruit data engineers, analytics engineers and BI specialists to own your data and reporting platforms."
+      },
+      {
+        "title": "Software and cloud hiring",
+        "text": "Find engineers for business applications, backend integrations and cloud delivery responsibilities."
+      },
+      {
+        "title": "AI engineering hiring",
+        "text": "Assess candidates for AI application, RAG, integration and related development work."
+      }
+    ],
+    "eyebrow": "MV.tech services",
+    "applicationsHeading": "Where this service fits."
   },
   {
     "path": "/remote-consulting/",
     "key": "remote-consulting",
     "name": "How We Work: Remote Team, Timezones & Costs",
-    "title": "Remote Data Engineers in India: Timezones and Cost | MV.tech",
-    "description": "Senior data engineers in India working remotely in your timezone. Overlap windows by region, engagement models and where the cost difference comes from.",
-    "intro": "Get direct access to senior data, software, automation and AI specialists. MV.tech is based in Ahmedabad, India, works remotely with clients worldwide, and plans collaboration around the hours your team needs, with a lean model that keeps consulting overhead out of the price.",
-    "fitHeading": "Staff augmentation or project consulting: which fits your work?",
+    "title": "Remote Engineering Services & Engagement Models | MV.tech",
+    "description": "Work with MV.tech from India through project delivery, dedicated engineers or specialist capacity, with responsibilities and collaboration hours agreed.",
+    "intro": "Work with MV.tech on a defined project, a dedicated engineering team or a specialist role. Our team is based in Ahmedabad, India, and collaborates with clients worldwide. We agree the working model, responsibilities and timezone overlap before delivery begins.",
+    "fitHeading": "Choose how the work fits into your organisation.",
     "fit": [
-      "A scoped project with defined deliverables, review points and acceptance criteria.",
-      "Specialist capacity working alongside your existing engineering or product team.",
-      "A warehouse migration, BI rebuild or AI automation programme that needs senior hands for a defined phase.",
-      "Ongoing improvement of data pipelines, applications and automation workflows.",
-      "A focused review to clarify an unreliable system or plan the next delivery milestone."
+      "Assign an agreed project scope to a delivery team.",
+      "Add a specialist to your existing engineering and business teams.",
+      "Build an ongoing remote relationship for platform development and support."
     ],
-    "deliverablesHeading": "How does remote delivery from India work in practice?",
+    "deliverablesHeading": "A working arrangement with clear responsibilities.",
     "deliverables": [
       {
-        "title": "Overlap with any timezone",
-        "text": "Share your timezone and the hours that matter for collaboration. We agree recurring windows for discovery, reviews and releases, then use written updates and documented decisions between meetings."
+        "title": "Project delivery",
+        "text": "MV.tech delivers an agreed set of software, data or AI requirements, with milestones, review points and acceptance criteria."
       },
       {
-        "title": "Direct access to specialists",
-        "text": "Work with the people responsible for the implementation. The team covers pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and BI layers for Power BI, Tableau, Looker Studio and Streamlit, application and API development, and AI automation with RAG, MCP servers and custom connectors — including Toptal-vetted talent and consultants with GCP and IBM credentials."
+        "title": "Dedicated capacity",
+        "text": "An assigned engineer or team works within your tools and delivery process for the agreed capacity and duration."
       },
       {
-        "title": "A lean cost structure",
-        "text": "A focused remote team keeps office and management overhead low. Compare proposals on agreed scope, senior delivery time, validation, handover and support so the cost reflects the work you actually need."
+        "title": "Planned collaboration",
+        "text": "Set recurring hours for technical discussions, planning and reviews. Record decisions and progress so work can continue between meetings."
       },
       {
-        "title": "Clear ownership and progress",
-        "text": "Agree responsibilities, access, deliverables and review points at the start. Use working demonstrations and acceptance criteria to assess progress throughout the engagement."
+        "title": "Documentation and operating handover",
+        "text": "Keep implementation decisions, setup instructions and ownership clear. Agree deployment, handover and any ongoing support as part of the engagement."
       }
     ],
-    "scopeHeading": "How do you compare the cost of an offshore data team in India?",
-    "scope": "A useful consulting proposal explains who will do the work, how assumptions will be resolved and what will be handed over. Ask whether integration, testing, documentation and release support are included. MV.tech's remote model is designed to keep overhead lean, but an accurate comparison still requires the same scope and support expectations. Pricing is agreed for the specific engagement.",
+    "scopeHeading": "Confirm the working model before the project starts.",
+    "scope": "We discuss the business requirements, current systems, team setup and preferred working hours. The proposal sets out scope or capacity, responsibilities, review points and commercial terms. Meeting overlap and support coverage are agreed separately; timezone overlap does not mean round-the-clock availability.",
     "approach": [
       {
-        "title": "Share the goal and timezone",
-        "text": "Describe the business problem, existing tools, target date and the hours your team needs us to overlap."
+        "title": "Discuss the work",
+        "text": "Clarify the requirement, team structure, systems and collaboration needs."
       },
       {
-        "title": "Agree scope and responsibilities",
-        "text": "Choose the initial milestone, deliverables, review process and access requirements together."
+        "title": "Agree the engagement",
+        "text": "Confirm the delivery model, assigned capacity, hours and commercial terms."
       },
       {
-        "title": "Work directly with the team",
-        "text": "Review working progress, record decisions and plan the next milestone against your priorities."
+        "title": "Deliver and review",
+        "text": "Work in agreed review cycles, document decisions and assess priorities as the engagement progresses."
       }
     ],
     "tools": [
@@ -1598,11 +1649,11 @@
         "label": "Offshore guide"
       }
     ],
-    "summary": "Engagement models, collaboration windows by region and how the cost model compares with the alternatives.",
-    "h1": "Remote data and AI consultants in India, working in your timezone.",
-    "eyebrow": "How we work",
-    "ogTitle": "How we work: timezones, team and costs",
-    "ogKicker": "Overlap windows by region · Engagement models · Cost model",
+    "summary": "Work with MV.tech on a defined project, a dedicated engineering team or a specialist role.",
+    "h1": "Remote engineering services from India, working with your team.",
+    "eyebrow": "Remote engineering services",
+    "ogTitle": "How We Work: Remote Team, Timezones & Costs",
+    "ogKicker": "MV.tech · Project delivery · Dedicated capacity",
     "comparison": {
       "heading": "Choose the delivery model that fits your team.",
       "intro": "Our remote model keeps the engagement focused on engineering time and agreed deliverables. Compare proposals on scope, seniority, validation, documentation and support. Pricing depends on the work and responsibilities you need us to own.",
@@ -1643,77 +1694,75 @@
       "it-staff-augmentation",
       "technology-recruitment"
     ],
-    "questionsHeading": "Questions about hiring a remote data team in India"
+    "questionsHeading": "Questions about hiring a remote data team in India",
+    "applications": [
+      {
+        "title": "A new business system",
+        "text": "A delivery engagement for an application, warehouse, dashboard or AI integration."
+      },
+      {
+        "title": "A growing engineering team",
+        "text": "Additional specialists for your existing roadmap and delivery process."
+      },
+      {
+        "title": "An established platform",
+        "text": "An ongoing workstream for improvements, integrations, reporting and maintenance."
+      }
+    ],
+    "approachHeading": "How we deliver this work.",
+    "applicationsHeading": "Where this service fits.",
+    "closingHeading": "Discuss your engineering requirements.",
+    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
   },
   {
     "path": "/services/hire-data-engineers/",
     "key": "hire-data-engineers",
     "name": "Hire Data Engineers",
-    "title": "Hire Data Engineers: Senior Remote Engineers from India | MV.tech",
-    "description": "Hire senior data, analytics, BI and AI engineers from India: named people you meet first, agreed overlap hours and a written first milestone.",
-    "h1": "Hire data engineers you have met, on a milestone you can check.",
-    "eyebrow": "Service · Hire data engineers",
+    "title": "Hire Data Engineers for Pipelines & Warehouses | MV.tech",
+    "description": "Engage data engineers for integration, warehouses, analytics and data quality through embedded capacity, project delivery or permanent recruitment.",
+    "h1": "Hire data engineers for pipelines, warehouses and analytics.",
+    "eyebrow": "MV.tech services",
     "serviceType": "Data engineer hiring: embedded, project or permanent",
-    "intro": "Hiring a data engineer through MV.tech means a named senior engineer, not a bench or a profile you never speak to. You brief the work, meet the person who will do it, agree the overlap hours in your local time and start on a written first milestone that is small enough to verify. You can hire through staff augmentation, as a scoped project, or through technology recruitment for a permanent employee in your own organisation.",
-    "fitHeading": "When should you hire a data engineer rather than wait for a permanent hire?",
+    "intro": "Bring data engineering expertise into your team or put a defined data project in experienced hands. MV.tech helps businesses engage engineers for integration, cloud warehouses, modelling and reporting. Choose embedded capacity, project delivery or recruitment for a permanent role.",
+    "fitHeading": "Find the right model for the data work ahead.",
     "fit": [
-      "A permanent data engineering role has been open for months and pipelines, dashboards or a migration cannot wait for it.",
-      "Your analysts spend their week repairing SQL and spreadsheets instead of answering questions, and nobody owns the warehouse.",
-      "You need a fractional data engineer for a few days a week rather than a full-time salary and the hiring process that comes with it.",
-      "A warehouse migration or BI rebuild needs a senior person for its discovery, modelling and reconciliation phases, then far less.",
-      "You have tried an offshore staffing vendor and received a rotating cast of juniors behind an account manager.",
-      "Your team needs an AI or automation engineer who understands the data behind the model, not only the model.",
-      "You want to hire a remote data engineer in India with agreed overlap hours and written scope, or a permanent hire found through technology recruitment."
+      "Add a data engineer to your existing backlog and delivery process.",
+      "Assign responsibility for a defined pipeline, warehouse or reporting project.",
+      "Recruit a permanent data professional into your organisation."
     ],
-    "deliverablesHeading": "What do you actually get when you hire a data engineer from MV.tech?",
+    "deliverablesHeading": "Data engineering skills matched to your requirement.",
     "deliverables": [
       {
-        "title": "A named senior engineer, introduced before anything is signed",
-        "text": "You meet the engineer who will do the work, review their experience against your stack and agree the role with them directly. The person you meet is the person who does the work; there is no bench, and you work directly with whoever writes the code."
+        "title": "Pipeline and integration engineering",
+        "text": "Python and SQL development for APIs, operational databases, files and cloud ingestion, including incremental loads and historical data."
       },
       {
-        "title": "Data engineers for pipelines and cloud warehouses",
-        "text": "Engineers who build and maintain Python and SQL pipelines from APIs, databases, files and SaaS tools into BigQuery, Snowflake, Amazon Redshift or PostgreSQL, with retries, logging, backfills and data quality checks. In a previous engagement at RootstockLabs, MV.tech's founder migrated HubSpot ingestion from Skyvia to Hevo, cutting the full-data load from 2 hours 45 minutes to 5 minutes."
+        "title": "Warehouse and analytics engineering",
+        "text": "Cloud warehouse architecture, transformations, dimensional models and curated datasets for BI and business applications."
       },
       {
-        "title": "Analytics engineers and BI developers",
-        "text": "Specialists for raw, staging, curated and reporting layers, fact and dimension models, source-to-target mapping and reconciliation, and dashboards in Power BI, Tableau, Looker Studio or Streamlit. They define KPI ownership and document what each dashboard can and cannot prove."
+        "title": "Data quality and reporting support",
+        "text": "Validation, reconciliation, refresh-performance work and the reporting layers that sit between warehouse data and business users."
       },
       {
-        "title": "AI and automation engineers",
-        "text": "Engineers for RAG systems, MCP servers, custom AI connectors and scheduled automation that connect models to your databases, APIs and internal tools. The work starts from the data and permissions involved, which is why these roles sit alongside the data engineers rather than apart from them."
-      },
-      {
-        "title": "Cloud data engineers",
-        "text": "Engineers who set up and operate data platforms on AWS, Google Cloud or Azure, including Azure Data Factory, scheduled jobs, access control and monitoring. They work in your cloud account and your repositories, agreed before work begins, and hand over runbooks and recovery notes where needed when the engagement ends."
-      },
-      {
-        "title": "Agreed seniority and overlap hours",
-        "text": "Every engineer is senior enough to shape scope, write acceptance criteria and challenge a brief, not only execute tickets. Overlap hours are written in your local time before the start, for example 9:00 am to 1:00 pm US Eastern or 9:00 am to 3:30 pm in the UK. MV.tech's founder holds the Google Cloud Professional Data Engineer certification."
-      },
-      {
-        "title": "A written first milestone with acceptance criteria",
-        "text": "Before work begins, the first deliverable, the systems involved, how correctness will be checked and the review date are written down. It is the basis on which you decide to extend, change the role or stop."
-      },
-      {
-        "title": "Three ways to hire",
-        "text": "Embed an engineer or a small team in your workflow through IT staff augmentation, give MV.tech a scoped project to own, or use technology recruitment to hire a permanent employee into your organisation. The arrangement is reviewed as priorities change; recruitment is a separate engagement with its own scope and commercial terms."
+        "title": "A clear engagement arrangement",
+        "text": "Confirm the responsibilities, named specialists, capacity, duration and collaboration hours. For permanent hiring, agree the recruitment brief and assessment process."
       }
     ],
-    "scopeHeading": "How does hiring a data engineer through MV.tech start?",
-    "scope": "It starts with a brief, not a contract. You describe the work, the systems, the timezone and the deadline on a scoping call, and we propose a named engineer and a first milestone small enough to verify: one pipeline, one reporting model, one dashboard set or one migration slice, with written acceptance criteria and a review date. The engineer works in your tools and your agreed overlap hours, posts written updates and ships something checkable by the review date. At the review you decide whether to extend into a longer embedded arrangement, hand over a larger scoped project or begin a permanent search for the same kind of role. The trial milestone is what reduces the risk: you judge the person on delivered work, not on a CV alone, and the decision to continue is yours.",
+    "scopeHeading": "Share the responsibilities the engineer will own.",
+    "scope": "Tell us about the platform, source systems, backlog and team structure. We discuss the skills required and whether embedded capacity, a project engagement or permanent recruitment is the best fit. Availability and commercial terms are confirmed after reviewing the requirement.",
     "approach": [
       {
-        "title": "Brief and match",
-        "text": "Share the workstream, required skills, timezone and duration. We propose a named senior engineer and you meet them before anything is agreed."
+        "title": "Review the requirement",
+        "text": "Define the work, platform, skills and expected collaboration with your team."
       },
       {
-        "title": "Agree the first milestone",
-        "text": "Write down the deliverable, acceptance criteria, overlap hours, repositories, access and review date so both sides know what done means."
+        "title": "Agree the people and model",
+        "text": "Review fit, availability, capacity and the responsibilities of the engagement."
       },
       {
-        "title": "Deliver, review and decide",
-        "text": "The engineer ships the milestone with written validation; you then extend the engagement, change its shape or close it on evidence."
+        "title": "Onboard and deliver",
+        "text": "Set up access and review routines, then track delivery against the agreed work."
       }
     ],
     "tools": [
@@ -1789,84 +1838,82 @@
         "label": "Cost guide"
       }
     ],
-    "summary": "Hire named senior data, analytics, BI and AI engineers from India as embedded capacity or a scoped project that starts with a written first milestone, or use technology recruitment for a permanent hire.",
-    "ogTitle": "Hire data engineers: named, senior, in your hours",
-    "ogKicker": "Named engineers · Agreed overlap · Written first milestone · Three ways to hire",
+    "summary": "Bring data engineering expertise into your team or put a defined data project in experienced hands.",
+    "ogTitle": "Hire Data Engineers",
+    "ogKicker": "MV.tech · Embedded engineers · Projects · Recruitment",
     "relatedServiceKeys": [
       "offshore-data-engineering-team",
       "it-staff-augmentation",
       "technology-recruitment"
-    ]
+    ],
+    "applications": [
+      {
+        "title": "Embedded data engineer",
+        "text": "A specialist works with your team on its backlog and review process."
+      },
+      {
+        "title": "Managed data workstream",
+        "text": "MV.tech delivers an agreed integration, warehouse or analytics scope."
+      },
+      {
+        "title": "Permanent recruitment",
+        "text": "Your business hires the engineer, with MV.tech supporting the search and technical assessment."
+      }
+    ],
+    "approachHeading": "How we deliver this work.",
+    "applicationsHeading": "Where this service fits.",
+    "closingHeading": "Discuss your data engineering requirements.",
+    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
   },
   {
     "path": "/services/snowflake-consulting/",
     "key": "snowflake-consulting",
     "name": "Snowflake Consulting",
-    "title": "Snowflake Consulting, Migration & Power BI Modelling | MV.tech",
-    "description": "Independent Snowflake consulting: migrate SQL Server, Oracle and spreadsheets into layered Snowflake, model for Power BI, reconcile sources and tune cost.",
-    "h1": "Snowflake consulting and migration from an independent engineering team.",
-    "eyebrow": "Service · Snowflake consulting",
+    "title": "Snowflake Consulting, Migration & Data Modelling | MV.tech",
+    "description": "Snowflake development and consulting for warehouse migration, pipelines, data models, BI integration, reconciliation and performance review.",
+    "h1": "Snowflake consulting for migration, modelling and reporting.",
+    "eyebrow": "MV.tech services",
     "serviceType": "Snowflake consulting and migration",
-    "intro": "Most Snowflake problems are design problems: one schema doing the job of four layers, warehouses sized by guesswork and Power BI figures that no longer match the source. MV.tech is not a Snowflake reseller or partner programme member; it works as an independent engineering team that migrates legacy reporting and SQL Server, Oracle and spreadsheet estates into Snowflake with raw, staging, curated and reporting layers, fact and dimension models for Power BI, and reconciliation at every stage. In a previous engagement at Volvo Cars via Toptal, MV.tech's founder migrated legacy and manual reporting into a Snowflake warehouse with those four layers, built fact and dimension models for Power BI with source-to-target mappings, and delivered a lead-to-sale matchback comparison between Volvo's attribution and an external vendor across about 427K lead-month records.",
-    "fitHeading": "When does a Snowflake consultant make sense?",
+    "intro": "Build or improve the Snowflake platform behind your business reporting. MV.tech supports warehouse migration, ingestion pipelines, data modelling and performance review, with the BI and reconciliation work needed to make the warehouse useful to your teams.",
+    "fitHeading": "Develop Snowflake around your data and reporting requirements.",
     "fit": [
-      "Reporting still runs on SQL Server, Oracle or a folder of spreadsheets, Snowflake has been chosen as the target, and nobody has mapped what depends on the old estate.",
-      "Snowflake is already in place, but everything landed in one schema with no raw, staging, curated or reporting separation to build on.",
-      "Power BI reads Snowflake through hand-written queries rather than fact and dimension tables, so every report calculates its own version of revenue.",
-      "Monthly credit consumption keeps rising and nobody can say which warehouses, queries or refreshes are responsible.",
-      "Figures in Snowflake, Salesforce CRM Analytics and the finance system disagree, and reconciling them is a manual job each month.",
-      "Ingestion through Azure Data Factory or Python jobs works most days, with no validation that would catch the days it does not.",
-      "A previous migration attempt stalled because the new numbers did not match the old ones and no one could explain why."
+      "Move legacy reporting workloads to Snowflake with a staged migration plan.",
+      "Create shared warehouse layers and models for Power BI and other analytics tools.",
+      "Understand growing warehouse costs, slow workloads or differences between reports."
     ],
-    "deliverablesHeading": "What does Snowflake consulting from MV.tech include?",
+    "deliverablesHeading": "Snowflake services across the warehouse lifecycle.",
     "deliverables": [
       {
-        "title": "Migration from SQL Server, Oracle and spreadsheets",
-        "text": "Catalogue the source estate from the information schema, DDL, query logs and job schedules, then write a source-to-target mapping per object: target table and layer, data types, transformation rules, keys, grain and historical scope. Spreadsheet reporting is handled the same way, with the rules that live in formulas written down before they are modelled. Each load is reconciled against the legacy figures so cutover happens on evidence rather than on a date."
+        "title": "Migration and architecture",
+        "text": "Assess source systems and downstream reports, design warehouse layers and document mappings. Plan the data transition and reporting cutover together."
       },
       {
-        "title": "Raw, staging, curated and reporting layers",
-        "text": "Design Snowflake as four separated layers: raw as it arrived, staging typed and conformed, curated facts and dimensions, and reporting views shaped for the tools that read them. Each layer has an owner, a refresh dependency and a check that proves it loaded, which is what keeps the warehouse maintainable after the project ends."
+        "title": "Ingestion and transformation",
+        "text": "Develop data loads from business systems, files and APIs using the agreed ingestion tools, Python and SQL. Include incremental loading, backfills and recovery handling."
       },
       {
-        "title": "Fact and dimension models for Power BI",
-        "text": "Build fact and dimension tables at an agreed grain, with conformed dimensions, bridge tables for many-to-many relationships and source-load tracking, then the curated views Power BI imports or queries directly. Existing Power BI and DAX models are profiled first, so a rebuild is a justified decision rather than a default."
+        "title": "Data models and BI integration",
+        "text": "Build fact and dimension models, curated reporting views and semantic layers. Connect Power BI or existing analytics tools to datasets with agreed metric definitions."
       },
       {
-        "title": "Views and curated datasets",
-        "text": "Publish curated datasets analysts can query without writing joins: consistent naming, a description on every column, technical fields hidden and governed measures kept apart from someone's own analysis. Secure views and role-based grants control who sees what without copying the data."
-      },
-      {
-        "title": "Validation and reconciliation across sources",
-        "text": "Automated comparison at each stage: record counts, date coverage, nulls, duplicates, control totals and metric-level comparison of the figures people report, across the source systems, Snowflake and the BI layer. Differences are explained rather than rounded away, and each one ends as a fix or a documented, deliberate change."
-      },
-      {
-        "title": "Cost and performance tuning",
-        "text": "Reduce what each query reads and what each warehouse costs: clustering keys chosen against real query patterns, warehouse sizes and auto-suspend settings taken from the query history rather than guesswork, incremental loads in place of full refreshes, and materialised results where a report reads the same aggregate every hour. The before-and-after is measured on your own queries and credit consumption."
-      },
-      {
-        "title": "Salesforce CRM Analytics and Azure Data Factory ingestion",
-        "text": "Where reporting already lives in Salesforce CRM Analytics, handle the datasets, recipes, dataflows and field mapping so Snowflake and CRM Analytics agree on the same figures. Where sources sit in Azure, build Azure Data Factory pipelines through Blob Storage into Snowflake with incremental loads, retries and logging, and Python and SQL ingestion elsewhere."
-      },
-      {
-        "title": "Handover and operating documentation",
-        "text": "Mappings, ER diagrams, validation results, refresh schedules, the role and grant model, cost monitoring and runbooks, written for the people who will run Snowflake after the engagement. Handover is part of the scope, not an extra."
+        "title": "Reconciliation, performance and operations",
+        "text": "Compare source and warehouse outputs, review query history and warehouse settings, and document refresh schedules, access and operating responsibilities."
       }
     ],
-    "scopeHeading": "What is a sensible first Snowflake project?",
-    "scope": "One reporting domain, taken the whole way. Pick finance, sales or operations and cover discovery of its sources, source-to-target mapping, the four Snowflake layers, a fact and dimension model, reconciliation against the figures people trust today and one Power BI report repointed at the result. It is small enough to correct cheaply and complete enough to prove the layer design, the validation approach and the cost profile on your data. The remaining domains are then estimated from what the first one showed rather than from a template, and we quote after a scoping call.",
+    "scopeHeading": "Review the workload before choosing the changes.",
+    "scope": "We assess the sources, warehouse design, transformations and reporting consumers involved. The engagement can focus on a migration, a business domain, a cost and performance review or ongoing warehouse development. Validation and handover are included in the agreed delivery scope.",
     "approach": [
       {
-        "title": "Discover and map",
-        "text": "Profile the source estate, its dependencies and any existing Snowflake usage, agree the layer design and write the source-to-target mapping and migration sequence."
+        "title": "Assess the estate",
+        "text": "Review sources, warehouse objects, workloads and the reports affected by the work."
       },
       {
-        "title": "Build and reconcile",
-        "text": "Load and model one domain at a time, comparing each layer with the source on counts, coverage, totals and reported metrics before the next domain begins."
+        "title": "Build and validate",
+        "text": "Implement the migration or improvements and reconcile the output with source figures."
       },
       {
-        "title": "Tune, cut over and hand over",
-        "text": "Set clustering, warehouse sizing and refresh schedules from real query history, repoint Power BI on evidence, and hand over mappings, grants and runbooks."
+        "title": "Release and operate",
+        "text": "Complete the report transition, document operating controls and agree support ownership."
       }
     ],
     "tools": [
@@ -1941,84 +1988,82 @@
         "label": "Migration guide"
       }
     ],
-    "summary": "Snowflake migration, layered warehouse design, fact and dimension models for Power BI, reconciliation across sources and credit tuning from an independent engineering team.",
-    "ogTitle": "Snowflake consulting and migration",
-    "ogKicker": "Migration · Layered design · Power BI models · Reconciliation · Cost tuning",
+    "summary": "Build or improve the Snowflake platform behind your business reporting.",
+    "ogTitle": "Snowflake Consulting",
+    "ogKicker": "MV.tech · Consulting · Development · Integration",
     "relatedServiceKeys": [
       "data-warehouse-migration",
       "data-engineering",
       "business-intelligence"
-    ]
+    ],
+    "applications": [
+      {
+        "title": "Legacy reporting migration",
+        "text": "Move a reporting domain from SQL Server, Oracle or spreadsheets into Snowflake."
+      },
+      {
+        "title": "Shared reporting foundation",
+        "text": "Build warehouse models that several dashboards and business teams can reuse."
+      },
+      {
+        "title": "Platform review",
+        "text": "Investigate credit usage, query performance, refresh delays or inconsistent reporting totals."
+      }
+    ],
+    "approachHeading": "How we deliver this work.",
+    "applicationsHeading": "Where this service fits.",
+    "closingHeading": "Discuss your Snowflake requirements.",
+    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
   },
   {
     "path": "/services/bigquery-consulting/",
     "key": "bigquery-consulting",
     "name": "BigQuery Consulting",
-    "title": "BigQuery Consultant & Google Cloud Data Engineering | MV.tech",
-    "description": "BigQuery consulting: warehouse design, partitioning and clustering from real queries, Cloud Run ingestion, Looker Studio reporting, cost control and migration.",
-    "h1": "BigQuery consulting for warehouse design, ingestion, reporting and cost.",
-    "eyebrow": "Service · BigQuery consulting",
+    "title": "BigQuery Consulting & Google Cloud Data Engineering | MV.tech",
+    "description": "BigQuery warehouse design, cloud ingestion, reporting integration, migration and workload optimisation from MV.tech’s data engineering team.",
+    "h1": "BigQuery consulting and Google Cloud data engineering.",
+    "eyebrow": "MV.tech services",
     "serviceType": "BigQuery consulting and Google Cloud data engineering",
-    "intro": "BigQuery is quick to start on and easy to run up a bill on. MV.tech designs BigQuery warehouses around the queries that will actually run against them, with partitioning, clustering and layered datasets chosen from the query log rather than from habit, and builds the ingestion, Cloud Run jobs, Looker Studio reporting and cost controls around them. MV.tech's founder holds the Google Cloud Professional Data Engineer credential, an individual certification rather than a Google partnership.",
-    "fitHeading": "When should you hire a BigQuery consultant?",
+    "intro": "Build a BigQuery warehouse that supports your reporting and growth. MV.tech develops ingestion pipelines, warehouse models and analytics integrations on Google Cloud, and reviews the queries and workloads driving performance and cost. Our founder holds the Google Cloud Professional Data Engineer certification.",
+    "fitHeading": "Connect BigQuery to the way your business uses data.",
     "fit": [
-      "Hire one when the warehouse costs more each month and nobody can say which queries, scheduled jobs or dashboards are responsible.",
-      "Tables were loaded as they arrived, without partitions or clustering, and every report query scans the full history.",
-      "Reporting is moving off SQL Server, PostgreSQL, Redshift, Snowflake or spreadsheets into Google Cloud and nothing has been mapped yet.",
-      "Data comes from APIs, CSV exports, operational databases or blockchain nodes through scripts that run on someone's laptop.",
-      "Looker Studio reports are slow, disagree with each other or read raw tables directly.",
-      "The company already runs on Google Workspace or Google Cloud and wants the warehouse to sit next to everything else.",
-      "There is a data engineer's worth of BigQuery work waiting and nobody on the team has run BigQuery in production."
+      "Bring APIs, application databases and recurring files into a managed warehouse.",
+      "Improve slow reporting or understand the workloads behind a rising bill.",
+      "Migrate existing reporting to Google Cloud and give analysts shared datasets."
     ],
-    "deliverablesHeading": "What does a BigQuery consultant deliver?",
+    "deliverablesHeading": "BigQuery development, migration and optimisation.",
     "deliverables": [
       {
-        "title": "Warehouse design and dataset layout",
-        "text": "Datasets separated into raw, staging, curated and reporting layers, with naming standards, a named owner per table and access granted at dataset level rather than to individuals. Production and development live in separate projects, so a test query cannot touch the bill or the tables finance reads. The on-demand versus slot-reservation decision is made from measured usage, not at the outset."
+        "title": "Warehouse architecture and modelling",
+        "text": "Design datasets, warehouse layers and reporting tables around source behaviour and business definitions. Agree partitioning, clustering and access requirements based on the workloads."
       },
       {
-        "title": "Partitioning and clustering against real query patterns",
-        "text": "Read the INFORMATION_SCHEMA job history to see which tables are hit, which columns the queries filter and join on and how many bytes each one bills, then choose the partition column, clustering keys and partition-filter requirement from that evidence. The before-and-after is measured on your own queries, in bytes billed and seconds, not on a benchmark."
+        "title": "Data ingestion and cloud jobs",
+        "text": "Build Python and SQL pipelines for APIs, databases and files. Use Cloud Run, Cloud Storage and scheduling where appropriate, with managed secrets, logs and rerun procedures."
       },
       {
-        "title": "Ingestion from APIs, files, databases and on-chain sources",
-        "text": "Python ingestion into Cloud Storage and BigQuery, using load jobs where batch is fine and streaming only where latency justifies the cost. Incremental watermarks, backfills, MERGE-based deduplication and schema changes are handled per source: pagination and rate limits on REST APIs, change tracking on PostgreSQL and other operational databases, and block ranges and reorgs from node RPCs."
+        "title": "Analytics and reporting integration",
+        "text": "Create curated views and models for Looker Studio, Power BI and downstream applications. Reconcile important metrics and document their definitions."
       },
       {
-        "title": "Cloud Run jobs, scheduling and secrets",
-        "text": "Each pipeline runs as a containerised job on Cloud Run, triggered on a schedule, with secrets in Secret Manager, logs in Cloud Logging and deployment through GitHub Actions so every change is reviewable. Jobs are written to be rerun safely: the same run twice produces the same tables, not duplicate rows."
-      },
-      {
-        "title": "Looker Studio reporting on curated views",
-        "text": "Reports connect to curated views with agreed metric definitions, never to raw tables, so a dashboard edit cannot change a number and a slow report cannot scan a year of history. In a previous engagement at BCW, MV.tech's founder led the design and build of a cross-chain inventory ledger in BigQuery for the Immutable gaming ecosystem, consolidating Immutable X, Immutable zkEVM, Ethereum and Bitcoin transactions with FX reference tables, token-level valuation and 22+ wallet- and network-level KPIs, reported in Looker Studio with finance-user override controls and a full audit trail."
-      },
-      {
-        "title": "Cost control",
-        "text": "A per-project view of who spends what, built from the job and billing metadata BigQuery already keeps. Then the levers in order of effect: partition filters enforced, clustering on the columns reports filter on, maximum-bytes-billed limits and custom quotas per user, materialised views for the queries dashboards repeat, partition expiry on raw data, and a review of scheduled queries nobody reads."
-      },
-      {
-        "title": "Migrations into BigQuery",
-        "text": "Move a SQL Server, PostgreSQL, Oracle, Redshift or Snowflake estate, or the spreadsheets that stand in for one, with a written source-to-target mapping per object, SQL translated and tested rather than pasted, and record counts, control totals and reported metrics reconciled at each layer before anything is switched off. The full method is on the data warehouse migration page."
-      },
-      {
-        "title": "Data quality, documentation and handover",
-        "text": "Freshness, row-count and reconciliation checks between layers that fail loudly, column descriptions on every curated table, and a runbook that says how to rerun a job, roll back a load and extend the model. Handover is to your team, with the IAM roles, schedules and ownership written down."
+        "title": "Migration, cost and performance review",
+        "text": "Map source workloads into BigQuery and validate the transition. Review job history, bytes processed and scheduled activity, then measure changes on the queries your team runs."
       }
     ],
-    "scopeHeading": "What is a sensible first BigQuery project?",
-    "scope": "One report people rely on, or the one table that dominates the bill, taken the whole way through. Ingest its sources through a Cloud Run job, land them in raw and curated layers with partitions and clustering chosen from the query log, reconcile the output against the figures people trust today, publish it in Looker Studio and record bytes billed before and after. That is small enough to verify in weeks, and it settles the dataset layout, the scheduling pattern and the validation checks that every later source reuses. We quote after a scoping call, with the estimate for the rest of the warehouse based on your query history rather than on a template.",
+    "scopeHeading": "Use your sources and workloads to plan the engagement.",
+    "scope": "We review the current data flows, reporting requirements and available query history. Work can cover a new platform, a migration, a specific pipeline or a performance and cost assessment. The proposal defines the datasets, integrations, checks and operating handover included.",
     "approach": [
       {
-        "title": "Read the query log first",
-        "text": "Profile job history, table sizes, scheduled queries and dashboards to find where the bytes and the risk are before proposing any design."
+        "title": "Assess data and usage",
+        "text": "Review the source systems, reporting requirements and any existing query history."
       },
       {
-        "title": "Build and measure",
-        "text": "Load, model and schedule one domain, reconciling against existing numbers and recording bytes billed and run time before and after."
+        "title": "Develop and measure",
+        "text": "Build pipelines and models, then validate records, business totals and workload behaviour."
       },
       {
-        "title": "Hand over with controls",
-        "text": "Leave quotas, partition rules, alerts, documentation and ownership in place so the warehouse stays cheap after the engagement ends."
+        "title": "Release and document",
+        "text": "Deploy jobs and reports with monitoring, access definitions and operating instructions."
       }
     ],
     "tools": [
@@ -2092,84 +2137,82 @@
         "label": "Migration guide"
       }
     ],
-    "summary": "BigQuery warehouse design, partitioning and clustering from real query patterns, Cloud Run ingestion, Looker Studio reporting, cost control and migrations into BigQuery.",
-    "ogTitle": "BigQuery consulting & Google Cloud data engineering",
-    "ogKicker": "Warehouse design · Partitioning · Cloud Run · Looker Studio · Cost control",
+    "summary": "Build a BigQuery warehouse that supports your reporting and growth.",
+    "ogTitle": "BigQuery Consulting",
+    "ogKicker": "MV.tech · Consulting · Development · Integration",
     "relatedServiceKeys": [
       "data-engineering",
       "data-warehouse-migration",
       "business-intelligence"
-    ]
+    ],
+    "applications": [
+      {
+        "title": "A Google Cloud data platform",
+        "text": "A shared warehouse connected to the applications and data sources your business uses."
+      },
+      {
+        "title": "Reporting modernisation",
+        "text": "Move spreadsheet or legacy database reporting into managed datasets and refreshable dashboards."
+      },
+      {
+        "title": "A warehouse cost review",
+        "text": "Trace expensive workloads and assess partitioning, query design, schedules and consumption controls."
+      }
+    ],
+    "approachHeading": "How we deliver this work.",
+    "applicationsHeading": "Where this service fits.",
+    "closingHeading": "Discuss your BigQuery requirements.",
+    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
   },
   {
     "path": "/services/power-bi-consulting/",
     "key": "power-bi-consulting",
     "name": "Power BI Consulting",
-    "title": "Power BI Consultant: Semantic Models, DAX & Refresh | MV.tech",
-    "description": "Remote Power BI consulting: semantic models with an explicit grain, DAX, slow refresh fixes, SSAS migrations and KPI definitions reconciled to source.",
-    "h1": "Power BI consulting: semantic models, DAX and refreshes that finish on time.",
-    "eyebrow": "Service · Power BI consulting",
+    "title": "Power BI Consulting & Dashboard Development | MV.tech",
+    "description": "Power BI models, DAX measures, dashboards, refresh-performance reviews and SSAS migrations, with reporting requirements and source reconciliation.",
+    "h1": "Power BI consulting, dashboard development and data modelling.",
+    "eyebrow": "MV.tech services",
     "serviceType": "Power BI consulting and semantic model development",
-    "intro": "A Power BI report is only as good as the model underneath it. MV.tech provides remote Power BI consultants and developers who build semantic and dimensional models with an explicit grain, write and review DAX, fix slow refreshes, migrate SSAS and Azure Analysis Services models and reconcile every figure on a report back to its source. We review the model you already have before proposing that anything is rebuilt.",
-    "fitHeading": "When does a Power BI consultant make sense?",
+    "intro": "Develop Power BI reports that give business teams a consistent view of performance. MV.tech builds semantic models, DAX measures and dashboards, improves refresh performance and supports migrations from SSAS or Azure Analysis Services. We review existing models as well as delivering new reporting solutions.",
+    "fitHeading": "Make Power BI a shared reporting platform.",
     "fit": [
-      "A Power BI dashboard refresh is slow or times out, and the workaround so far has been to import less data.",
-      "The model has grown report by report: no agreed grain, duplicated measures and DAX nobody wants to touch.",
-      "Two reports answer the same question with different numbers and nobody can say which one is right.",
-      "An SSAS or Azure Analysis Services model has to move to Power BI and nobody has documented what it contains.",
-      "Analysts export to Excel because the published dataset cannot answer their follow-up question.",
-      "A KPI exists in several reports with several definitions and no owner.",
-      "You need a remote Power BI developer alongside your team for a defined phase rather than a permanent hire."
+      "Give business users consistent measures across reports and departments.",
+      "Improve models that are slow to refresh, difficult to extend or hard to reconcile.",
+      "Move reporting from spreadsheets or legacy tabular models into a maintainable Power BI setup."
     ],
-    "deliverablesHeading": "What does a Power BI consultant deliver?",
+    "deliverablesHeading": "Power BI services from modelling to report delivery.",
     "deliverables": [
       {
-        "title": "Semantic and dimensional models with an explicit grain",
-        "text": "Star schemas with fact tables at a stated grain, conformed dimensions shared across subject areas, bridge tables where a relationship is genuinely many-to-many and a date table every measure filters through. The grain is written down before the first measure is, because most wrong totals in Power BI trace back to a fact table at the wrong grain rather than to the DAX on top of it."
+        "title": "Requirements and semantic modelling",
+        "text": "Define the reporting questions, metric calculations and data grain. Build fact and dimension relationships, reusable measures and a model that supports the intended users."
       },
       {
-        "title": "DAX measures, calculation groups and Tabular Editor",
-        "text": "Measures written once in the model and reused by every report, with calculation groups for time intelligence and currency rather than a copy per visual. Tabular Editor is used for scripted changes, measure organisation and best-practice rules, and DAX Studio for query timings, so a slow visual is traced to a specific measure rather than guessed at."
+        "title": "DAX and dashboard development",
+        "text": "Develop and review measures, calculation logic and report pages. Design filters, drill-down paths and presentation around the way each audience reviews the business."
       },
       {
-        "title": "Source-to-target mappings",
-        "text": "A written mapping per table: the source system and query, the warehouse or dataflow layer it passes through, the Power BI table and column, data types, transformation rules, keys and the check that proves it landed. It is what a reviewer reads to understand where a number came from, and it is what the reconciliation tests are generated from."
+        "title": "Refresh and model performance",
+        "text": "Review storage modes, query folding, model size and refresh behaviour. Investigate slow measures and agree changes to transformations, partitions or upstream datasets."
       },
       {
-        "title": "Refresh performance",
-        "text": "Profile the model first: storage mode, column cardinality, calculated columns that belong upstream, unused columns and Power Query steps that stopped folding so whole tables are pulled before they are filtered. The usual fixes are incremental refresh with a proper partition policy, aggregation tables, pushing transformation back into the warehouse and removing what nothing reads, with refresh duration measured before and after on your own gateway or capacity."
-      },
-      {
-        "title": "SSAS and Azure Analysis Services migration",
-        "text": "Document what the tabular model contains — tables, relationships, calculated columns, measures, roles and the reports depending on each — then move it into a Power BI semantic model through the XMLA endpoint, or rebuild it where the old model was itself the problem. Measures are compared old against new on identical filters before any report is repointed."
-      },
-      {
-        "title": "Governed KPI definitions",
-        "text": "Each metric written down: the calculation, the filters, the grain, the owner and the reports it is allowed to appear on. Definitions live in the model's measure descriptions and in a catalogue your team can read without opening Power BI Desktop, so a KPI cannot quietly diverge between reports."
-      },
-      {
-        "title": "Self-service datasets",
-        "text": "A shared dataset analysts can slice without writing joins: naming standards, hidden technical columns, a description on every field, row-level security where the data needs it and a clear line between governed measures and someone's own analysis. Thin reports connect live to it instead of each carrying its own copy of the data."
-      },
-      {
-        "title": "Reconciliation of report figures to source",
-        "text": "Automated comparisons between what a report shows and what the source system holds: record counts, control totals, date coverage and the specific figures people act on, run on every refresh rather than once at sign-off. In a previous engagement at Volvo Cars via Toptal, MV.tech's founder designed fact and dimension models for Power BI with source-to-target mappings, built validation and reconciliation checks across source systems, Snowflake, Salesforce CRM Analytics and BI reports, and delivered a lead-to-sale matchback comparison across about 427K lead-month records for executive review."
+        "title": "Migration, reconciliation and handover",
+        "text": "Assess existing SSAS or Analysis Services models, map dependencies and compare results before report transition. Document sources, measures, roles and refresh ownership."
       }
     ],
-    "scopeHeading": "Where should a Power BI engagement start?",
-    "scope": "With one report that someone relies on and nobody fully trusts. We agree the grain, write down the definition of every figure on it, map each table back to its source, repair or rebuild the model behind it and reconcile the result against the numbers the business accepts today, with refresh time measured before and after. It is small enough to correct cheaply, and it leaves behind a semantic model, a measure catalogue and a reconciliation test that the next reports reuse. Wider self-service datasets, an Analysis Services migration or a full workspace review are scoped once the first report is signed off.",
+    "scopeHeading": "Plan the reporting model as well as the visuals.",
+    "scope": "We review the source systems, existing models and reports, the users and the calculations they rely on. A project may cover a new dashboard, a semantic model, a performance review or a reporting migration. Important measures are reconciled to source before acceptance.",
     "approach": [
       {
-        "title": "Review the model",
-        "text": "Profile storage mode, relationships, cardinality, DAX and refresh history, and record which figures disagree with source and why."
+        "title": "Review the reporting estate",
+        "text": "Identify users, source data, model structure, measures and performance issues."
       },
       {
-        "title": "Model, measure and map",
-        "text": "Build or repair the semantic model at an agreed grain, write each measure once, and keep the source-to-target mapping and KPI definitions alongside it."
+        "title": "Develop the model and reports",
+        "text": "Build or improve the semantic layer and dashboards with regular business review."
       },
       {
-        "title": "Reconcile and hand over",
-        "text": "Compare report figures with source on every refresh, publish with access rules and documentation, and work with the people who will extend it."
+        "title": "Validate and hand over",
+        "text": "Reconcile results, check access and refresh behaviour, and document the operating setup."
       }
     ],
     "tools": [
@@ -2244,13 +2287,31 @@
         "label": "Reconciliation guide"
       }
     ],
-    "summary": "Remote Power BI consulting: semantic models at an explicit grain, DAX, refresh performance, SSAS migration and report figures reconciled to source.",
-    "ogTitle": "Power BI consulting & semantic models",
-    "ogKicker": "Semantic models · DAX · Refresh performance · SSAS migration · Reconciliation",
+    "summary": "Develop Power BI reports that give business teams a consistent view of performance.",
+    "ogTitle": "Power BI Consulting",
+    "ogKicker": "MV.tech · Consulting · Development · Integration",
     "relatedServiceKeys": [
       "business-intelligence",
       "data-warehouse-migration",
       "data-engineering"
-    ]
+    ],
+    "applications": [
+      {
+        "title": "Management and operational dashboards",
+        "text": "Reports with agreed definitions for the measures leaders and teams review regularly."
+      },
+      {
+        "title": "Shared self-service datasets",
+        "text": "Semantic models analysts can reuse across several reports without duplicating business logic."
+      },
+      {
+        "title": "Existing reporting improvement",
+        "text": "A review of conflicting totals, complex DAX, slow refreshes or a legacy model migration."
+      }
+    ],
+    "approachHeading": "How we deliver this work.",
+    "applicationsHeading": "Where this service fits.",
+    "closingHeading": "Discuss your Power BI requirements.",
+    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
   }
 ]
