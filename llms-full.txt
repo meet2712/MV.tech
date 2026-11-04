@@ -8,8 +8,9 @@ Contact: contact@mvtech.solutions · Book a call: https://mvtech.solutions/conta
 Founder: Meet Vaghasia, Founder & Lead Engineer (https://www.linkedin.com/in/meet2712/)
 LinkedIn: https://www.linkedin.com/company/mv-tech-data/
 Location: Ahmedabad, Gujarat, India · Serves clients worldwide with agreed timezone overlap
+US company: Coming soon. We’re preparing to establish a US company to support our work with US clients. We’ll publish the company details here once it is established. You can discuss a project today with our India-based team, with scope and US timezone overlap agreed before work starts. Details: https://mvtech.solutions/us-clients/
 Teams our engineers have worked with: Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, Turing. Names reflect organisations MV.tech's team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.
-Last generated: 2026-10-12. Short summary and answer guidance: https://mvtech.solutions/llms.txt
+Last generated: 2026-11-04. Short summary and answer guidance: https://mvtech.solutions/llms.txt
 
 This file is generated from the public pages listed below, so it always matches what visitors see. Each section is one page: title, canonical URL, meta description, then the page text.
 
@@ -19,7 +20,7 @@ This file is generated from the public pages listed below, so it always matches 
 
 URL: https://mvtech.solutions/
 Description: Hire senior data engineers, AI and software consultants from India. Cloud warehouses, ETL pipelines, BI, RAG and MCP integrations, delivered in your timezone.
-Last modified: 2026-10-12
+Last modified: 2026-11-04
 
 Data engineering, AI & software consultancy · Ahmedabad, India
 
@@ -88,6 +89,26 @@ Add a senior remote data, software, cloud or AI consultant to your existing team
 Hire permanent AI, data, software and cloud professionals into your own organisation, with an engineer shaping the brief and assessing fit.
 
 Data warehouse migrationBusiness intelligence & dashboardsMCP servers & AI connectorsBlockchain data analytics
+Find your specialist
+
+### Need help with a particular data platform?
+
+#### Snowflake consulting
+
+Plan a migration, build warehouse models, reconcile source data or investigate credit usage.
+
+#### BigQuery consulting
+
+Build ingestion pipelines, organise warehouse tables and tune queries around your reporting needs.
+
+#### Power BI consulting
+
+Fix mismatched figures, review DAX and semantic models, and improve refresh performance.
+
+#### Hire data engineers
+
+Add a named engineer or a small team for pipelines, analytics, warehouse migration and data quality.
+
 How remote works with us
 
 ### Based in India. Working in your hours.
@@ -189,6 +210,14 @@ Remote delivery
 Realistic overlap windows and the habits that keep distributed engineering work moving.
 
 Timezone playbook
+Coming soon
+
+### US company coming soon.
+
+We’re preparing to establish a US company to support our work with US clients. We’ll publish the company details here once it is established.
+
+You can discuss a project today with our India-based team, with scope and US timezone overlap agreed before work starts.
+
 Start a conversation
 
 ### Tell us what needs to work better.
@@ -201,7 +230,7 @@ Bring one report, workflow, application or hiring need. We will use the first 30
 
 URL: https://mvtech.solutions/about/
 Description: Meet MV.tech, the Ahmedabad-based data, software and AI consultancy founded by Meet Vaghasia in 2022. Company facts, founder credentials and delivery approach.
-Last modified: 2026-10-07
+Last modified: 2026-11-04
 
 About MV.tech
 
@@ -314,6 +343,14 @@ Talk to the team
 ### See whether we are the right fit for your work.
 
 Bring the problem, your current systems and the result you need. We will discuss a useful first milestone, who would own it and what we need to learn before estimating the work.
+
+Coming soon
+
+### US company coming soon.
+
+We’re preparing to establish a US company to support our work with US clients. We’ll publish the company details here once it is established.
+
+You can discuss a project today with our India-based team, with scope and US timezone overlap agreed before work starts.
 
 ---
 
@@ -468,7 +505,7 @@ Procurement, security and legal questions are easiest to answer at the scoping s
 
 URL: https://mvtech.solutions/contact/
 Description: Talk to MV.tech's engineers about a data, software, automation or AI project, an embedded consultant or a permanent hire. Book a 30-minute call or email us.
-Last modified: 2026-10-07
+Last modified: 2026-11-04
 
 Contact
 
@@ -526,6 +563,13 @@ Three things to bring
 - The result you need. The workflow, report, application or AI feature, and what should be better when the work is done.
 - The current setup. The systems involved, what already works and what keeps getting in the way. A description or a sanitised example is enough to start.
 - Your working constraints. Timezone, preferred overlap, target date and any budget range. These shape a useful first scope.
+Coming soon
+
+### US company coming soon.
+
+We’re preparing to establish a US company to support our work with US clients. We’ll publish the company details here once it is established.
+
+You can discuss a project today with our India-based team, with scope and US timezone overlap agreed before work starts.
 
 ---
 
@@ -2605,7 +2649,7 @@ Share what is slowing your team down, the systems involved and the result you ne
 
 URL: https://mvtech.solutions/services/ai-consulting/
 Description: AI automation, RAG systems and LLM integration by senior remote engineers in India, in your timezone. Connect AI to approved data and tools safely.
-Last modified: 2026-10-12
+Last modified: 2026-11-04
 
 Service · Remote-first senior specialists
 
@@ -2771,13 +2815,13 @@ MCP explained
 What an MCP server exposes, when building one makes sense, and the security decisions involved.
 
 MCP guide
-Buyer's checklist
+AI data access
 
-### 12 questions to ask before hiring a remote data consultancy
+### Letting AI assistants query your data warehouse safely
 
-Who does the work, how the first milestone is scoped and how correctness is proven.
+Scoped identities, checked SQL, row limits and provenance for assistants connected to business data.
 
-Hiring checklist
+AI access guide
 Your next step
 
 ### Tell us what needs to work better.
@@ -2790,7 +2834,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/bigquery-consulting/
 Description: BigQuery consulting: warehouse design, partitioning and clustering from real queries, Cloud Run ingestion, Looker Studio reporting, cost control and migration.
-Last modified: 2026-10-12
+Last modified: 2026-11-04
 
 Service · BigQuery consulting
 
@@ -2963,13 +3007,13 @@ Service detail
 Cross-chain ingestion into BigQuery, event decoding, token valuation and reconciliation.
 
 On-chain data
-Buyer's checklist
+Reporting migration
 
-### 12 questions to ask before hiring a remote data consultancy
+### Moving Excel reporting into a cloud data warehouse
 
-Who does the work, how the first milestone is scoped and how correctness is proven.
+Find the source rules, plan the migration order and reconcile the warehouse against existing reports.
 
-Hiring checklist
+Migration guide
 Your next step
 
 ### Tell us what needs to work better.
@@ -3153,7 +3197,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/business-intelligence/
 Description: Power BI consulting, Looker Studio and Streamlit dashboards on semantic models with governed KPIs. Remote from India, in your timezone.
-Last modified: 2026-10-12
+Last modified: 2026-11-04
 
 Service · Remote-first senior specialists
 
@@ -3304,6 +3348,31 @@ Legacy databases and manual reporting moved into Snowflake, BigQuery or Redshift
 
 Dedicated offshore data engineering and analytics capacity from India for ETL, cloud warehouses, BI, migration and data quality work.
 
+Related guides
+
+### Planning resources for this work.
+
+Finance reporting
+
+### Reconciling Business Central with your warehouse
+
+How to investigate ledger and report differences before trusting a finance dashboard.
+
+Reconciliation guide
+Reporting migration
+
+### Moving Excel reporting into a cloud data warehouse
+
+Find the source rules, plan the migration order and reconcile the warehouse against existing reports.
+
+Migration guide
+AI data access
+
+### Letting AI assistants query your data warehouse safely
+
+Scoped identities, checked SQL, row limits and provenance for assistants connected to business data.
+
+AI access guide
 Your next step
 
 ### Tell us what needs to work better.
@@ -3459,7 +3528,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/data-engineering/
 Description: Data engineering consulting from senior remote engineers in India: ETL pipelines, BigQuery, Snowflake and Redshift warehouses, migrations and data quality.
-Last modified: 2026-10-12
+Last modified: 2026-11-04
 
 Service · Remote-first senior specialists
 
@@ -3627,13 +3696,13 @@ Buyer's checklist
 Who does the work, how the first milestone is scoped and how correctness is proven.
 
 Hiring checklist
-Buyer guide
+Reporting migration
 
-### Looking for a data consultancy company for an offshore team?
+### Moving Excel reporting into a cloud data warehouse
 
-How to evaluate a data consultancy for offshore delivery, and where MV.tech fits.
+Find the source rules, plan the migration order and reconcile the warehouse against existing reports.
 
-Offshore guide
+Migration guide
 Remote delivery
 
 ### Working with an India-based team across timezones
@@ -3653,7 +3722,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/data-warehouse-migration/
 Description: Migrate SQL Server, Oracle or spreadsheet reporting into Snowflake, BigQuery or Redshift. Senior remote engineers in India, working in your timezone.
-Last modified: 2026-10-12
+Last modified: 2026-11-04
 
 Service · Remote-first senior specialists
 
@@ -3804,6 +3873,31 @@ Semantic and dimensional models, Power BI, Tableau and Looker Studio dashboards,
 
 Dedicated offshore data engineering and analytics capacity from India for ETL, cloud warehouses, BI, migration and data quality work.
 
+Related guides
+
+### Planning resources for this work.
+
+Reporting migration
+
+### Moving Excel reporting into a cloud data warehouse
+
+Find the source rules, plan the migration order and reconcile the warehouse against existing reports.
+
+Migration guide
+Finance reporting
+
+### Reconciling Business Central with your warehouse
+
+How to investigate ledger and report differences before trusting a finance dashboard.
+
+Reconciliation guide
+Budget planning
+
+### What does a remote data engineering team from India cost?
+
+What sets the price, how to compare proposals and which delivery costs to include.
+
+Cost guide
 Your next step
 
 ### Tell us what needs to work better.
@@ -3816,7 +3910,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/hire-data-engineers/
 Description: Hire senior data, analytics, BI and AI engineers from India: named people you meet first, agreed overlap hours and a written first milestone.
-Last modified: 2026-10-12
+Last modified: 2026-11-04
 
 Service · Hire data engineers
 
@@ -3991,13 +4085,13 @@ Scoped project
 Hand MV.tech a defined deliverable with acceptance criteria and handover: pipelines, warehouse layers, migrations and data quality.
 
 Project delivery
-Permanent hire
+Budget planning
 
-### Technology recruitment for permanent roles
+### What does a remote data engineering team from India cost?
 
-Recruit a data, analytics, BI or AI engineer into your organisation, with an engineer shaping the brief and assessing technical fit.
+What sets the price, how to compare proposals and which delivery costs to include.
 
-Permanent recruitment
+Cost guide
 Your next step
 
 ### Tell us what needs to work better.
@@ -4174,7 +4268,7 @@ Share the role, technology stack, expected duration and working hours. We can di
 
 URL: https://mvtech.solutions/services/mcp-and-ai-connectors/
 Description: Custom MCP servers and AI connectors in Python: scoped, validated and logged access to your databases, APIs and tools, delivered remotely from India.
-Last modified: 2026-10-12
+Last modified: 2026-11-04
 
 Service · Remote-first senior specialists
 
@@ -4343,13 +4437,13 @@ AI approach
 When each approach fits, with permissions, evaluation and cost in plain language.
 
 Approach comparison
-Buyer's checklist
+AI data access
 
-### 12 questions to ask before hiring a remote data consultancy
+### Letting AI assistants query your data warehouse safely
 
-Who does the work, how the first milestone is scoped and how correctness is proven.
+Scoped identities, checked SQL, row limits and provenance for assistants connected to business data.
 
-Hiring checklist
+AI access guide
 Your next step
 
 ### Tell us what needs to work better.
@@ -4362,7 +4456,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/offshore-data-engineering-team/
 Description: Offshore data engineering team from India for ETL, cloud warehouses and BI. Senior engineers, overlap hours in your timezone, a scoped first milestone.
-Last modified: 2026-10-12
+Last modified: 2026-11-04
 
 Service · Offshore data consultancy
 
@@ -4510,13 +4604,13 @@ Related guides
 
 ### Resources for planning an offshore data team.
 
-Service detail
+Budget planning
 
-### Data engineering consulting
+### What does a remote data engineering team from India cost?
 
-The deeper service page for ETL, warehouses, migrations, semantic models and data quality work.
+What sets the price, how to compare proposals and which delivery costs to include.
 
-Core data service
+Cost guide
 Engagement models
 
 ### Staff augmentation, project consulting or recruitment?
@@ -4543,7 +4637,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/power-bi-consulting/
 Description: Remote Power BI consulting: semantic models with an explicit grain, DAX, slow refresh fixes, SSAS migrations and KPI definitions reconciled to source.
-Last modified: 2026-10-12
+Last modified: 2026-11-04
 
 Service · Power BI consulting
 
@@ -4717,13 +4811,13 @@ Related service
 Moving the sources behind your reports into Snowflake, BigQuery or Redshift with staged reconciliation.
 
 Migration service
-Buyer's checklist
+Finance reporting
 
-### 12 questions to ask before hiring a remote data consultancy
+### Reconciling Business Central with your warehouse
 
-Who does the work, how the first milestone is scoped and how correctness is proven.
+How to investigate ledger and report differences before trusting a finance dashboard.
 
-Hiring checklist
+Reconciliation guide
 Your next step
 
 ### Tell us what needs to work better.
@@ -4736,7 +4830,7 @@ Bring your goal, current tools and preferred working hours. We use the first 30-
 
 URL: https://mvtech.solutions/services/snowflake-consulting/
 Description: Independent Snowflake consulting: migrate SQL Server, Oracle and spreadsheets into layered Snowflake, model for Power BI, reconcile sources and tune cost.
-Last modified: 2026-10-12
+Last modified: 2026-11-04
 
 Service · Snowflake consulting
 
@@ -4910,13 +5004,13 @@ Service detail
 Semantic models, DAX and governed KPI definitions for the reports that will read from Snowflake.
 
 BI service
-Buyer's checklist
+Reporting migration
 
-### 12 questions to ask before hiring a remote data consultancy
+### Moving Excel reporting into a cloud data warehouse
 
-Who does the work, how the first milestone is scoped and how correctness is proven.
+Find the source rules, plan the migration order and reconcile the warehouse against existing reports.
 
-Hiring checklist
+Migration guide
 Your next step
 
 ### Tell us what needs to work better.
@@ -5319,3 +5413,95 @@ Which pattern fits?
 ### Describe your workflow and we will map it to a first release.
 
 Bring the goal, the systems involved and your preferred working hours. Thirty minutes is enough to propose a sensible first milestone.
+
+---
+
+# Data Engineering & AI Consulting for US Clients | MV.tech
+
+URL: https://mvtech.solutions/us-clients/
+Description: Work with MV.tech's India-based data, AI and software engineers in agreed US hours. Explore services, project scoping and our upcoming US company.
+Last modified: 2026-11-04
+
+For US clients · Remote from India
+
+## Data engineering, AI and software consulting for US teams.
+
+MV.tech helps US companies build data pipelines, cloud warehouses, business reporting, AI assistants and custom software. Our engineers work remotely from Ahmedabad, India, with a collaboration window agreed in your US timezone. Start with a scoped project or add a specialist to your existing team.
+
+Services for your team
+
+### What can MV.tech help a US business deliver?
+
+Choose the work you need done. Each service page explains the deliverables, technical approach and questions to settle before pricing.
+
+#### Data engineering and ETL
+
+Bring data from APIs, databases and files into a warehouse, with transformations, checks and monitored refreshes.
+
+#### Data warehouse migration
+
+Move legacy databases and spreadsheet reporting into Snowflake, BigQuery or Redshift, with source mapping and staged reconciliation.
+
+#### Business intelligence and dashboards
+
+Build semantic models, agree KPI definitions and connect Power BI, Tableau or Looker Studio to data your team can verify.
+
+#### AI assistants and RAG
+
+Build assistants grounded in approved company documents, with permission checks, evaluation and clear limits on their actions.
+
+#### MCP servers and AI connectors
+
+Give assistants scoped access to business APIs, databases and internal tools through custom Model Context Protocol integrations.
+
+#### Software and workflow automation
+
+Build client portals, internal applications and API-backed workflows that reduce the manual steps between your systems.
+
+Snowflake consultingBigQuery consultingPower BI consultingHire data engineersWorkflow automationBlockchain analytics
+US timezone overlap
+
+### How does a team in India work with US hours?
+
+We agree a recurring window in your local timezone for planning, technical discussions, demos and release decisions. Outside that window, written updates record progress, decisions and questions.
+
+Illustrative US collaboration windows, in the client's local time
+| Client timezone | Example overlap |
+| US Eastern · New York | 9:00 am–1:00 pm |
+| US Pacific · San Francisco | 7:00 am–10:00 am |
+These are planning examples. Share your timezone and required meeting hours so we can confirm availability, including daylight-saving changes, before the engagement starts.
+
+Scope and delivery
+
+### How do we start a US client engagement?
+
+- 01 — Share the problem and constraints — Bring the outcome you need, current systems, your US timezone and target date. If your procurement process requires a US contracting entity, tell us before we scope the work.
+- 02 — Agree a first milestone — We define deliverables, acceptance criteria, responsibilities, access needs and collaboration hours. Pricing follows the scope, or the capacity and duration of an embedded role.
+- 03 — Confirm terms before delivery — Confirm the contracting party, invoicing requirements, confidentiality, ownership, handover and any support scope before work begins. Current delivery is through our India-based team; the US company is coming soon.
+Delivery processEmbedded consultantsPrivacy and delivery standardsCompany and founder
+Common questions
+
+### What should US clients know before booking?
+
+**Is MV.tech currently a US company?**
+MV.tech is currently based in Ahmedabad, Gujarat, India. A US company is coming soon. We will publish its details once it is established. Current project discussions and remote delivery are with our India-based team.
+
+**Can US clients discuss a project before the US company launches?**
+Yes. Book a scoping call or email contact@mvtech.solutions to discuss the work with our India-based team today. If a US entity is a requirement for your procurement process, raise that before committing to an engagement so we can confirm what is currently possible.
+
+**Can we hire a remote data engineer instead of outsourcing a whole project?**
+Yes. MV.tech offers embedded data engineering capacity and IT staff augmentation as well as scoped projects. We agree the role, allocated capacity, responsibilities and US timezone overlap before work starts. See our data engineer hiring options.
+
+**How much does data or AI consulting cost for a US client?**
+There is no fixed public rate card. Pricing depends on the systems involved, deliverables, technical complexity, access requirements and delivery capacity. Share a short brief and any budget range; we price a written scope or an embedded role before you commit. Our remote data team cost guide explains what to compare in proposals.
+
+**What should we send before the first call?**
+Send the business outcome, your current platforms and source systems, the main problem, your timezone, target date and any procurement requirements. A short description or sanitised example is enough. Credentials and production data are not needed for an initial enquiry.
+
+Coming soon
+
+### US company coming soon.
+
+We’re preparing to establish a US company to support our work with US clients. We’ll publish the company details here once it is established.
+
+You can discuss a project today with our India-based team, with scope and US timezone overlap agreed before work starts.

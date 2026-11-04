@@ -11,7 +11,7 @@ import { createHash } from 'node:crypto';
 import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { attr, escapeHtml as h, fileFor, htmlToText, parseFragment, slugFor, stripTags, textContent, walk } from './html.mjs';
-import { articlePage, callButton, icon, insightsIndex, servicePage } from './templates.mjs';
+import { articlePage, callButton, icon, insightsIndex, servicePage, usCompanyNote } from './templates.mjs';
 
 const site = JSON.parse(await readFile('content/site.json', 'utf8'));
 const origin = site.origin;
@@ -37,7 +37,8 @@ const pages = [];
 
 for (const name of (await readdir('content/pages')).filter((f) => f.endsWith('.html')).sort()) {
   const file = `content/pages/${name}`;
-  const { meta, body } = parseMetaFile(await readFile(file, 'utf8'), file);
+  const { meta, body: sourceBody } = parseMetaFile(await readFile(file, 'utf8'), file);
+  const body = sourceBody.replace('<!--us-company-note-->', () => usCompanyNote(site));
   pages.push({ ...meta, body, kind: meta.kind ?? 'page', source: file, hashSource: hash(JSON.stringify(meta) + body) });
 }
 
@@ -123,6 +124,7 @@ const footer = `<footer class="site-footer">
         <a href="/" aria-label="MV.tech home"><img src="/images/logo.svg" alt="MV.tech – Data, AI and digital solutions" width="520" height="167" loading="lazy"></a>
         <p>${h(site.summary)}</p>
         <p class="footer-worked">Our engineers have worked with ${site.workedWith.join(', ')}.</p>
+        <p class="footer-worked"><a href="${h(site.usCompany.path)}">${h(site.usCompany.heading)}</a> ${h(site.usCompany.currentDelivery)}</p>
       </div>
       <nav aria-label="Services"><h2>Services</h2>${footerLinks(site.footer.services)}</nav>
       <nav aria-label="Company"><h2>Company</h2>${footerLinks(site.footer.company)}</nav>
@@ -169,7 +171,7 @@ function schemaGraph(page) {
     address: { '@type': 'PostalAddress', addressLocality: site.address.locality, addressRegion: site.address.region, postalCode: site.address.postalCode, addressCountry: site.address.country },
     areaServed: 'Worldwide', founder: { '@id': `${origin}/#founder` }, sameAs: [site.linkedin, site.crunchbase], knowsAbout: site.knowsAbout,
     contactPoint: { '@type': 'ContactPoint', contactType: 'sales', email: site.email, telephone: site.phone, url: `${origin}/contact/`, areaServed: 'Worldwide', availableLanguage: ['English', 'Hindi', 'Gujarati'] },
-    makesOffer: consulting.filter((p) => p.path.startsWith('/services/')).map((p) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: p.name, url: origin + p.path } })),
+    makesOffer: consulting.filter((p) => p.path.startsWith('/services/')).map((p) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', '@id': `${origin}${p.path}#service`, name: p.name, url: origin + p.path } })),
   };
   const founder = { '@type': 'Person', '@id': `${origin}/#founder`, name: site.founder.name, jobTitle: site.founder.jobTitle, description: site.founder.description, url: `${origin}/about/`, worksFor: { '@id': `${origin}/#organization` }, sameAs: site.founder.sameAs, knowsAbout: site.knowsAbout, hasCredential: site.credentials.map((c) => ({ '@type': 'EducationalOccupationalCredential', name: c.name, credentialCategory: c.category, recognizedBy: { '@type': 'Organization', name: c.issuer } })) };
   const website = { '@type': 'WebSite', '@id': `${origin}/#website`, name: site.name, alternateName: site.alternateNames.slice(0, 3), url: `${origin}/`, description: site.shortSummary, publisher: { '@id': `${origin}/#organization` }, inLanguage: 'en' };
@@ -182,9 +184,9 @@ function schemaGraph(page) {
     ...(crumbs ? { breadcrumb: { '@id': `${url}#breadcrumb` } } : {}),
   };
   const graph = [organization, founder, website, webpage];
-  if (page.route === '/about/') {
+  if (page.route === '/' || page.route === '/about/') {
     webpage.mainEntity = { '@id': organization['@id'] };
-    organization.mainEntityOfPage = { '@id': webpage['@id'] };
+    if (page.route === '/about/') organization.mainEntityOfPage = { '@id': webpage['@id'] };
   }
   if (crumbs) graph.push({ '@type': 'BreadcrumbList', '@id': `${url}#breadcrumb`, itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: c.url })) });
   if (page.kind === 'service') {
@@ -195,7 +197,10 @@ function schemaGraph(page) {
     webpage.mainEntity = { '@id': `${url}#article` };
     graph.push({ '@type': 'Article', '@id': `${url}#article`, headline: page.title, description: page.description, image: ogImage, datePublished: page.published, dateModified: page.modified, author: { '@id': `${origin}/#founder` }, publisher: { '@id': `${origin}/#organization` }, mainEntityOfPage: { '@id': `${url}#webpage` }, wordCount: page.words, keywords: page.keywords ?? [], inLanguage: 'en', isAccessibleForFree: true });
   }
-  if (page.itemList) graph.push({ '@type': 'ItemList', '@id': `${url}#list`, itemListElement: page.itemList.map((item, i) => ({ '@type': 'ListItem', position: i + 1, name: item.name, url: item.url })) });
+  if (page.itemList) {
+    webpage.mainEntity = { '@id': `${url}#list` };
+    graph.push({ '@type': 'ItemList', '@id': `${url}#list`, itemListElement: page.itemList.map((item, i) => ({ '@type': 'ListItem', position: i + 1, name: item.name, url: item.url })) });
+  }
   if (faq.length) {
     const questions = faq.map((item) => ({ '@type': 'Question', name: item.question, acceptedAnswer: { '@type': 'Answer', text: item.answer } }));
     if (page.route === '/faq/') webpage.mainEntity = questions;
@@ -300,6 +305,7 @@ Contact: ${site.email} · Book a call: ${origin}/contact/#book-call
 Founder: ${site.founder.name}, ${site.founder.jobTitle} (${site.founder.sameAs[0]})
 LinkedIn: ${site.linkedin}
 Location: ${site.address.locality}, ${site.address.region}, ${site.address.countryName} · Serves clients worldwide with agreed timezone overlap
+US company: ${site.usCompany.status}. ${site.usCompany.copy} ${site.usCompany.currentDelivery} Details: ${origin}${site.usCompany.path}
 Teams our engineers have worked with: ${site.workedWith.join(', ')}. ${site.workedWithNote}
 Last generated: ${latest}. Short summary and answer guidance: ${origin}/llms.txt
 

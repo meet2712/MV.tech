@@ -125,11 +125,11 @@
         "label": "Hiring checklist"
       },
       {
-        "href": "/insights/data-consultancy-company-for-offshore-team/",
-        "kicker": "Buyer guide",
-        "title": "Looking for a data consultancy company for an offshore team?",
-        "text": "How to evaluate a data consultancy for offshore delivery, and where MV.tech fits.",
-        "label": "Offshore guide"
+        "href": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
+        "kicker": "Reporting migration",
+        "title": "Moving Excel reporting into a cloud data warehouse",
+        "text": "Find the source rules, plan the migration order and reconcile the warehouse against existing reports.",
+        "label": "Migration guide"
       },
       {
         "href": "/insights/timezone-overlap-with-an-india-based-engineering-team/",
@@ -264,11 +264,11 @@
     "relatedResourcesHeading": "Resources for planning an offshore data team.",
     "relatedResources": [
       {
-        "href": "/services/data-engineering/",
-        "kicker": "Service detail",
-        "title": "Data engineering consulting",
-        "text": "The deeper service page for ETL, warehouses, migrations, semantic models and data quality work.",
-        "label": "Core data service"
+        "href": "/insights/what-a-remote-data-engineering-team-from-india-costs/",
+        "kicker": "Budget planning",
+        "title": "What does a remote data engineering team from India cost?",
+        "text": "What sets the price, how to compare proposals and which delivery costs to include.",
+        "label": "Cost guide"
       },
       {
         "href": "/insights/staff-augmentation-vs-project-consulting-vs-recruitment/",
@@ -420,11 +420,11 @@
         "label": "MCP guide"
       },
       {
-        "href": "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
-        "kicker": "Buyer's checklist",
-        "title": "12 questions to ask before hiring a remote data consultancy",
-        "text": "Who does the work, how the first milestone is scoped and how correctness is proven.",
-        "label": "Hiring checklist"
+        "href": "/insights/letting-ai-assistants-query-your-data-warehouse-safely/",
+        "kicker": "AI data access",
+        "title": "Letting AI assistants query your data warehouse safely",
+        "text": "Scoped identities, checked SQL, row limits and provenance for assistants connected to business data.",
+        "label": "AI access guide"
       }
     ],
     "summary": "Knowledge assistants grounded in your documents, MCP servers and custom connectors exposing approved tools, and LLM features with evaluation built in.",
@@ -567,11 +567,11 @@
         "label": "Approach comparison"
       },
       {
-        "href": "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
-        "kicker": "Buyer's checklist",
-        "title": "12 questions to ask before hiring a remote data consultancy",
-        "text": "Who does the work, how the first milestone is scoped and how correctness is proven.",
-        "label": "Hiring checklist"
+        "href": "/insights/letting-ai-assistants-query-your-data-warehouse-safely/",
+        "kicker": "AI data access",
+        "title": "Letting AI assistants query your data warehouse safely",
+        "text": "Scoped identities, checked SQL, row limits and provenance for assistants connected to business data.",
+        "label": "AI access guide"
       }
     ],
     "summary": "Custom MCP servers and AI connectors in Python that give agents scoped, validated and logged access to your databases, APIs and internal tools.",
@@ -706,7 +706,30 @@
       "offshore-data-engineering-team"
     ],
     "h1": "Power BI consulting and dashboards in Tableau, Looker Studio and Streamlit",
-    "questionsHeading": "Common questions about Power BI and dashboard consulting"
+    "questionsHeading": "Common questions about Power BI and dashboard consulting",
+    "relatedResources": [
+      {
+        "href": "/insights/reconciling-dynamics-365-business-central-with-your-data-warehouse/",
+        "kicker": "Finance reporting",
+        "title": "Reconciling Business Central with your warehouse",
+        "text": "How to investigate ledger and report differences before trusting a finance dashboard.",
+        "label": "Reconciliation guide"
+      },
+      {
+        "href": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
+        "kicker": "Reporting migration",
+        "title": "Moving Excel reporting into a cloud data warehouse",
+        "text": "Find the source rules, plan the migration order and reconcile the warehouse against existing reports.",
+        "label": "Migration guide"
+      },
+      {
+        "href": "/insights/letting-ai-assistants-query-your-data-warehouse-safely/",
+        "kicker": "AI data access",
+        "title": "Letting AI assistants query your data warehouse safely",
+        "text": "Scoped identities, checked SQL, row limits and provenance for assistants connected to business data.",
+        "label": "AI access guide"
+      }
+    ]
   },
   {
     "path": "/services/data-warehouse-migration/",
@@ -829,7 +852,30 @@
       "offshore-data-engineering-team"
     ],
     "h1": "Data warehouse migration to Snowflake, BigQuery or Redshift",
-    "questionsHeading": "Questions about migrating to Snowflake, BigQuery or Redshift"
+    "questionsHeading": "Questions about migrating to Snowflake, BigQuery or Redshift",
+    "relatedResources": [
+      {
+        "href": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
+        "kicker": "Reporting migration",
+        "title": "Moving Excel reporting into a cloud data warehouse",
+        "text": "Find the source rules, plan the migration order and reconcile the warehouse against existing reports.",
+        "label": "Migration guide"
+      },
+      {
+        "href": "/insights/reconciling-dynamics-365-business-central-with-your-data-warehouse/",
+        "kicker": "Finance reporting",
+        "title": "Reconciling Business Central with your warehouse",
+        "text": "How to investigate ledger and report differences before trusting a finance dashboard.",
+        "label": "Reconciliation guide"
+      },
+      {
+        "href": "/insights/what-a-remote-data-engineering-team-from-india-costs/",
+        "kicker": "Budget planning",
+        "title": "What does a remote data engineering team from India cost?",
+        "text": "What sets the price, how to compare proposals and which delivery costs to include.",
+        "label": "Cost guide"
+      }
+    ]
   },
   {
     "path": "/services/blockchain-data-analytics/",
@@ -1736,11 +1782,11 @@
         "label": "Project delivery"
       },
       {
-        "href": "/services/technology-recruitment/",
-        "kicker": "Permanent hire",
-        "title": "Technology recruitment for permanent roles",
-        "text": "Recruit a data, analytics, BI or AI engineer into your organisation, with an engineer shaping the brief and assessing technical fit.",
-        "label": "Permanent recruitment"
+        "href": "/insights/what-a-remote-data-engineering-team-from-india-costs/",
+        "kicker": "Budget planning",
+        "title": "What does a remote data engineering team from India cost?",
+        "text": "What sets the price, how to compare proposals and which delivery costs to include.",
+        "label": "Cost guide"
       }
     ],
     "summary": "Hire named senior data, analytics, BI and AI engineers from India as embedded capacity or a scoped project that starts with a written first milestone, or use technology recruitment for a permanent hire.",
@@ -1888,11 +1934,11 @@
         "label": "BI service"
       },
       {
-        "href": "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
-        "kicker": "Buyer's checklist",
-        "title": "12 questions to ask before hiring a remote data consultancy",
-        "text": "Who does the work, how the first milestone is scoped and how correctness is proven.",
-        "label": "Hiring checklist"
+        "href": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
+        "kicker": "Reporting migration",
+        "title": "Moving Excel reporting into a cloud data warehouse",
+        "text": "Find the source rules, plan the migration order and reconcile the warehouse against existing reports.",
+        "label": "Migration guide"
       }
     ],
     "summary": "Snowflake migration, layered warehouse design, fact and dimension models for Power BI, reconciliation across sources and credit tuning from an independent engineering team.",
@@ -2039,11 +2085,11 @@
         "label": "On-chain data"
       },
       {
-        "href": "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
-        "kicker": "Buyer's checklist",
-        "title": "12 questions to ask before hiring a remote data consultancy",
-        "text": "Who does the work, how the first milestone is scoped and how correctness is proven.",
-        "label": "Hiring checklist"
+        "href": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
+        "kicker": "Reporting migration",
+        "title": "Moving Excel reporting into a cloud data warehouse",
+        "text": "Find the source rules, plan the migration order and reconcile the warehouse against existing reports.",
+        "label": "Migration guide"
       }
     ],
     "summary": "BigQuery warehouse design, partitioning and clustering from real query patterns, Cloud Run ingestion, Looker Studio reporting, cost control and migrations into BigQuery.",
@@ -2191,11 +2237,11 @@
         "label": "Migration service"
       },
       {
-        "href": "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
-        "kicker": "Buyer's checklist",
-        "title": "12 questions to ask before hiring a remote data consultancy",
-        "text": "Who does the work, how the first milestone is scoped and how correctness is proven.",
-        "label": "Hiring checklist"
+        "href": "/insights/reconciling-dynamics-365-business-central-with-your-data-warehouse/",
+        "kicker": "Finance reporting",
+        "title": "Reconciling Business Central with your warehouse",
+        "text": "How to investigate ledger and report differences before trusting a finance dashboard.",
+        "label": "Reconciliation guide"
       }
     ],
     "summary": "Remote Power BI consulting: semantic models at an explicit grain, DAX, refresh performance, SSAS migration and report figures reconciled to source.",

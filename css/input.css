@@ -184,6 +184,7 @@ strong { color: var(--text); font-weight: 650; }
 .section-heading .eyebrow { margin-bottom: 14px; }
 .section-heading h2 { max-width: 760px; }
 .split { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.25fr); gap: clamp(32px, 6vw, 96px); align-items: start; }
+.split > * { min-width: 0; }
 .split > div > .eyebrow { margin-bottom: 14px; }
 .split .body-copy + .text-link { margin-top: 22px; }
 .split .body-copy { font-size: 18px; line-height: 1.7; }

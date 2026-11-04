@@ -17,6 +17,8 @@ Static site for [mvtech.solutions](https://mvtech.solutions/), published from `m
 
 FAQ blocks are plain `<details><summary>` markup; the build turns them into `FAQPage` structured data automatically and the tests fail if the two ever disagree.
 
+The `<!--us-company-note-->` marker in page source renders the shared US-company announcement from `content/site.json` (`usCompany`). Keep its status as coming soon until establishment is confirmed. `/us-clients/` describes current remote delivery from India; the announcement does not create a US office, address or entity in structured data. Update that page, the shared facts and `llms.txt` together when the status changes.
+
 ## Build, test, publish
 
 ```sh
