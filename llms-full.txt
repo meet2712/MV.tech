@@ -8,7 +8,7 @@ Contact: contact@mvtech.solutions · Book a call: https://mvtech.solutions/conta
 Founder: Meet Vaghasia, Founder & Lead Engineer (https://www.linkedin.com/in/meet2712/)
 LinkedIn: https://www.linkedin.com/company/mv-tech-data/
 Location: Ahmedabad, Gujarat, India · Serves clients worldwide with agreed timezone overlap
-US company: Coming soon. We’re preparing to establish a US company to support our work with US clients. We’ll publish the company details here once it is established. You can discuss a project today with our India-based team, with scope and US timezone overlap agreed before work starts. Details: https://mvtech.solutions/us-clients/
+United States (USA) company: Coming soon. We’re setting up our company in the United States. Our India team is available for new projects, with working hours planned around your team. Details: https://mvtech.solutions/us-clients/
 Teams our engineers have worked with: Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, Turing. Names reflect organisations MV.tech's team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.
 Last generated: 2026-11-04. Short summary and answer guidance: https://mvtech.solutions/llms.txt
 
@@ -16,22 +16,21 @@ This file is generated from the public pages listed below, so it always matches 
 
 ---
 
-# Data Engineering, AI & Software Consulting from India | MV.tech
+# Data Engineering, Software Development & AI | MV.tech
 
 URL: https://mvtech.solutions/
-Description: Hire senior data engineers, AI and software consultants from India. Cloud warehouses, ETL pipelines, BI, RAG and MCP integrations, delivered in your timezone.
+Description: MV.tech builds data platforms, business software and AI systems. Work directly with our India-based engineers on projects or dedicated team engagements.
 Last modified: 2026-11-04
 
-Data engineering, AI & software consultancy · Ahmedabad, India
+Data engineering · Software development · AI consulting
 
-## Data engineering, AI and software consulting that works in your timezone.
+## Data engineering.Software development.Built around your business.
 
-MV.tech is a remote-first consultancy based in Ahmedabad, India. We help companies make reporting reliable, automate manual work and build business applications and AI systems. Work with us on a defined project or add senior specialists to your team, with direct access to the engineers and collaboration hours agreed in your timezone.
+We build data platforms, business applications and AI tools. Work directly with our engineers, from the first discussion through delivery and support.
 
-- Overlap agreed for US, UK, EU, Gulf & APAC hours
-- Founder is Toptal-vetted and Google Cloud certified
-- Written scope before any work starts
-Our engineers have worked with
+Engineering from India. Working with clients worldwide.
+
+Organisations our engineershave worked with
 
 - Google
 - Volvo
@@ -40,120 +39,114 @@ Our engineers have worked with
 - Chainlabs
 - Toptal
 - Turing
-Directly or through vetted talent platforms. Names are experience, not endorsements.
+Experience includes work delivered directly and through talent platforms. Names do not imply endorsements or current partnerships.
 
-What we do
+About MV.tech
 
-### Build a system, improve a workflow or strengthen your team.
+### A technology partner who understands the work.
 
-01 / Offshore data team
+2022Year founded
+10–15Team specialists
+MV.tech is a data engineering, software development and AI consultancy based in Ahmedabad, India. We help businesses bring their data together, improve reporting and build the applications their teams need.
 
-#### Offshore data engineering team
+Founded by Meet Vaghasia, a Google Cloud certified data engineer and Toptal-vetted developer, our team works directly with your business and technical leads. You speak to the engineers doing the work, with scope, responsibilities and working hours agreed from the start.
 
-Dedicated data engineering and analytics capacity from India for ETL, warehouses, BI, migration and data quality work, with overlap hours agreed around your timezone.
+Our services
 
-02 / Data
+### Engineering for your business.
 
-#### Data engineering consulting
+#### Data engineering & analytics
 
-ETL and ELT pipelines, BigQuery, Snowflake and Redshift warehouses, migrations off legacy reporting, semantic models and data quality checks. Python and SQL done properly.
+Data pipelines, cloud warehouses and reporting layers that bring your business data together.
 
-03 / Software
+Data engineering Warehouse migration Snowflake consulting Business intelligence
 
-#### Custom software development
+#### Software development
 
-Business web applications, client portals, dashboards and internal tools, with the interface, integrations and data backend designed together.
+Business applications, client portals and internal tools, built around the way your team works.
 
-04 / AI
+Custom software development Workflow & API integration
 
-#### AI automation, RAG & MCP development
+#### AI development & integration
 
-Knowledge assistants grounded in your documents, Model Context Protocol servers that expose approved tools, and LLM features integrated into existing products.
+Knowledge assistants, RAG systems and AI features connected to your documents, data and business tools.
 
-05 / Automation
+AI consulting & development MCP servers & AI connectors
 
-#### Workflow automation & API integration
+#### Business reporting & BI
 
-Connect the systems your team moves data between by hand. Scheduled jobs, webhooks, validation and monitoring with clear ownership.
+Clear metric definitions, semantic models and dashboards, with figures reconciled to the source.
 
-06 / Team
+Power BI consulting BigQuery consulting Blockchain data analytics
 
-#### IT staff augmentation
+#### Dedicated engineering teams
 
-Add a senior remote data, software, cloud or AI consultant to your existing team, with capacity, responsibilities and overlap hours agreed up front.
+Add data, software or AI specialists to your team, with capacity and collaboration hours agreed in advance.
 
-07 / Hiring
+Offshore data engineering team IT staff augmentation Hire data engineers
 
 #### Technology recruitment
 
-Hire permanent AI, data, software and cloud professionals into your own organisation, with an engineer shaping the brief and assessing fit.
+Hire data, software, cloud and AI professionals into your organisation, with engineers involved in technical screening.
 
-Data warehouse migrationBusiness intelligence & dashboardsMCP servers & AI connectorsBlockchain data analytics
-Find your specialist
+Technology recruitment Our expertise
+Common projects
 
-### Need help with a particular data platform?
+### Start with the problem you need to solve.
 
-#### Snowflake consulting
+01
 
-Plan a migration, build warehouse models, reconcile source data or investigate credit usage.
+#### Move reporting into a cloud warehouse.
 
-#### BigQuery consulting
+Map your source systems, move the transformations and reconcile the figures before switching existing dashboards over.
 
-Build ingestion pipelines, organise warehouse tables and tune queries around your reporting needs.
+02
 
-#### Power BI consulting
+#### Connect AI to your business knowledge.
 
-Fix mismatched figures, review DAX and semantic models, and improve refresh performance.
+Build an assistant over approved documents or give it controlled access to databases and APIs, with evaluation and permissions included in the scope.
 
-#### Hire data engineers
+03
 
-Add a named engineer or a small team for pipelines, analytics, warehouse migration and data quality.
+#### Replace a manual workflow.
 
-How remote works with us
+Connect the systems your team updates by hand. Build in validation, retries and alerts so the process is easier to run and support.
 
-### Based in India. Working in your hours.
+Working together
 
-India Standard Time sits between the Asia-Pacific and American working days, which lets a team in Ahmedabad share a real working window with almost any client. Before an engagement starts we agree when we overlap, how decisions get recorded and how you see progress between calls.
+### A project, a team or your next hire.
 
-- Agreed collaboration hours — A recurring window in your timezone for standups, reviews and releases. Share the hours your team needs; we confirm coverage and account for daylight-saving changes before starting.
-- Written progress you can forward — Decisions, demos and open questions are documented in your tools, so your stakeholders stay informed without another meeting.
-- The people you meet do the work — No account managers or hand-offs to a junior bench. Scope, estimates and delivery come from the same senior engineers.
-Engagement models
+- PROJECT DELIVERY — A defined piece of work. — Agree the deliverables, milestones and acceptance criteria. Our engineers build, review and hand over the system.
+- DEDICATED CAPACITY — An extension of your team. — Bring a specialist or small team into your tools and delivery process, with agreed responsibilities and timezone overlap.
+- PERMANENT RECRUITMENT — People for the long term. — Hire into your own organisation. We help define the role, assess technical fit and coordinate your interview process.
+Insights
 
-### Choose the working model that fits the work.
+### Practical guidance from our engineers.
 
-#### Scoped project
+Project planning
 
-A defined outcome with milestones, acceptance criteria and handover. Best for a first data pipeline, an application, an automation or an AI assistant with a clear boundary.
+#### What does a remote data engineering team cost?
 
-#### Embedded consultant or team
+What changes the price, how to compare proposals and which costs to include in your budget.
 
-Senior specialists working inside your team, in your tools and your hours, for an agreed capacity and duration. Best when you need depth and pace without a permanent hire.
+Read the guide
+Data migration
 
-#### Permanent recruitment
+#### Moving Excel reporting into a data warehouse.
 
-Hire into your own organisation with an engineering-led search: a clear role brief, agreed screening and candidates for your team to assess. Best when the role is long-term.
+Find the rules behind your spreadsheets and plan the migration without losing trust in the numbers.
 
-Choose between a project, embedded capacity and a permanent hire
-| Consideration | Scoped project | Staff augmentation | Technology recruitment |
-| What you need | A defined system or improvement delivered | Specialist capacity within an existing team | A permanent employee in your organisation |
-| Who directs the work | MV.tech owns the agreed delivery scope | Your leads direct the agreed consultant workstream | Your organisation selects and employs the candidate |
-| What we agree first | First milestone, acceptance criteria and handover | Role, capacity, duration and overlap hours | Hiring brief, screening, search scope and fees |
-| What to bring to the first call | Current systems and the outcome you need | Backlog, required skills and team setup | Responsibilities, compensation and hiring timeline |
-Who you work with
+Read the guide
+AI integration
 
-### A focused senior team, led by an engineer.
+#### Giving an AI assistant safe access to your data.
 
-MV.tech was founded by Meet Vaghasia, a senior data and AI engineer whose hands-on work spans BigQuery, Snowflake and Redshift warehouses, semantic and BI layers for Power BI, Tableau and Looker Studio, and AI automation with RAG, MCP servers and custom connectors. The team is deliberately small: specialists in data, software, cloud and AI who have shipped in enterprise and start-up environments and prefer doing the work to managing it.
+Scoped permissions, checked SQL and source references for assistants connected to a warehouse.
 
-About MV.techMeet Vaghasia on ToptalExpertise and credentials
-Since 2022MV.tech's founding year; the team's engineering experience predates the company
-Top 3%Toptal-vetted engineering talent behind the delivery (founder profile)
-GCP · IBMGoogle Cloud Professional Data Engineer and IBM Mastery Awards held by the founder
-Any timezoneAgreed overlap with clients in North America, Europe, the Gulf and Asia-Pacific
-Common questions
+Read the guide
+Before we start
 
-### What people ask before they book a call.
+### Frequently asked questions.
 
 More detail is in the full FAQ and on how we work.
 
@@ -178,51 +171,31 @@ Yes. Through IT staff augmentation our consultants join your team in your reposi
 **How can I identify the official MV.tech company?**
 Our official brand is MV.tech and our website is mvtech.solutions. We are the consultancy founded by Meet Vaghasia in Ahmedabad, Gujarat, India. If you find similarly named companies while searching for MV Tech or MVTech, check the domain, founder and official LinkedIn profile.
 
-Planning guides
+Our presence
 
-### Useful reading before you hire a remote engineering partner.
+### Based in India. Expanding to the USA.
 
-Buyer question
+Our India team is available for new projects, with working hours planned around your team.
 
-### Looking for a data consultancy company for an offshore team?
+Delivery base
 
-How to evaluate offshore data partners and where MV.tech fits for data engineering, analytics, BI and AI delivery.
+#### India
 
-Offshore team guide
-Buyer's guide
+Ahmedabad, Gujarat
 
-### 12 questions before hiring a data consultancy
-
-How to compare vendors on people, scope, correctness, ownership and proof before price clouds the decision.
-
-Vendor checklist
-Engagement models
-
-### Staff augmentation, project consulting or recruitment?
-
-A practical split between embedded capacity, scoped delivery and permanent hiring.
-
-Model comparison
-Remote delivery
-
-### Working with an India-based team across timezones
-
-Realistic overlap windows and the habits that keep distributed engineering work moving.
-
-Timezone playbook
+Contact our team
 Coming soon
 
-### US company coming soon.
+#### USA
 
-We’re preparing to establish a US company to support our work with US clients. We’ll publish the company details here once it is established.
+We’re setting up our company in the United States.
 
-You can discuss a project today with our India-based team, with scope and US timezone overlap agreed before work starts.
+Services for clients in the USA
+Let's talk
 
-Start a conversation
+### Tell us about your project.
 
-### Tell us what needs to work better.
-
-Bring one report, workflow, application or hiring need. We will use the first 30-minute conversation to assess fit, clarify the unknowns and discuss a useful first step. A short brief is enough to start.
+Share what you want to build or improve. We'll discuss the scope, the team you need and a practical place to start.
 
 ---
 
@@ -344,13 +317,26 @@ Talk to the team
 
 Bring the problem, your current systems and the result you need. We will discuss a useful first milestone, who would own it and what we need to learn before estimating the work.
 
+Our presence
+
+### Based in India. Expanding to the USA.
+
+Our India team is available for new projects, with working hours planned around your team.
+
+Delivery base
+
+#### India
+
+Ahmedabad, Gujarat
+
+Contact our team
 Coming soon
 
-### US company coming soon.
+#### USA
 
-We’re preparing to establish a US company to support our work with US clients. We’ll publish the company details here once it is established.
+We’re setting up our company in the United States.
 
-You can discuss a project today with our India-based team, with scope and US timezone overlap agreed before work starts.
+Services for clients in the USA
 
 ---
 
@@ -563,13 +549,26 @@ Three things to bring
 - The result you need. The workflow, report, application or AI feature, and what should be better when the work is done.
 - The current setup. The systems involved, what already works and what keeps getting in the way. A description or a sanitised example is enough to start.
 - Your working constraints. Timezone, preferred overlap, target date and any budget range. These shape a useful first scope.
+Our presence
+
+### Based in India. Expanding to the USA.
+
+Our India team is available for new projects, with working hours planned around your team.
+
+Delivery base
+
+#### India
+
+Ahmedabad, Gujarat
+
+Contact our team
 Coming soon
 
-### US company coming soon.
+#### USA
 
-We’re preparing to establish a US company to support our work with US clients. We’ll publish the company details here once it is established.
+We’re setting up our company in the United States.
 
-You can discuss a project today with our India-based team, with scope and US timezone overlap agreed before work starts.
+Services for clients in the USA
 
 ---
 
@@ -5416,21 +5415,21 @@ Bring the goal, the systems involved and your preferred working hours. Thirty mi
 
 ---
 
-# Data Engineering & AI Consulting for US Clients | MV.tech
+# Data & Software Engineering for Clients in the USA | MV.tech
 
 URL: https://mvtech.solutions/us-clients/
-Description: Work with MV.tech's India-based data, AI and software engineers in agreed US hours. Explore services, project scoping and our upcoming US company.
+Description: Data engineering, software development and AI consulting for businesses in the USA. Work with our India team while our USA company is being set up.
 Last modified: 2026-11-04
 
-For US clients · Remote from India
+Clients in the USA · Remote from India
 
-## Data engineering, AI and software consulting for US teams.
+## Data, software and AI engineering for your team in the USA.
 
-MV.tech helps US companies build data pipelines, cloud warehouses, business reporting, AI assistants and custom software. Our engineers work remotely from Ahmedabad, India, with a collaboration window agreed in your US timezone. Start with a scoped project or add a specialist to your existing team.
+MV.tech helps businesses in the USA build data pipelines, cloud warehouses, business reporting, AI assistants and custom software. Our engineers work remotely from Ahmedabad, India, with a collaboration window agreed in your local timezone. Start with a scoped project or add a specialist to your existing team.
 
 Services for your team
 
-### What can MV.tech help a US business deliver?
+### What can MV.tech help your business deliver?
 
 Choose the work you need done. Each service page explains the deliverables, technical approach and questions to settle before pricing.
 
@@ -5459,49 +5458,62 @@ Give assistants scoped access to business APIs, databases and internal tools thr
 Build client portals, internal applications and API-backed workflows that reduce the manual steps between your systems.
 
 Snowflake consultingBigQuery consultingPower BI consultingHire data engineersWorkflow automationBlockchain analytics
-US timezone overlap
+USA working hours
 
-### How does a team in India work with US hours?
+### Working across timezones.
 
 We agree a recurring window in your local timezone for planning, technical discussions, demos and release decisions. Outside that window, written updates record progress, decisions and questions.
 
-Illustrative US collaboration windows, in the client's local time
+Illustrative USA collaboration windows, in the client's local time
 | Client timezone | Example overlap |
-| US Eastern · New York | 9:00 am–1:00 pm |
-| US Pacific · San Francisco | 7:00 am–10:00 am |
+| Eastern Time · New York | 9:00 am–1:00 pm |
+| Pacific Time · San Francisco | 7:00 am–10:00 am |
 These are planning examples. Share your timezone and required meeting hours so we can confirm availability, including daylight-saving changes, before the engagement starts.
 
 Scope and delivery
 
-### How do we start a US client engagement?
+### Starting a project with MV.tech.
 
-- 01 — Share the problem and constraints — Bring the outcome you need, current systems, your US timezone and target date. If your procurement process requires a US contracting entity, tell us before we scope the work.
+- 01 — Share the problem and constraints — Bring the outcome you need, current systems, your local timezone and target date. If your procurement process requires a company registered in the USA, let us know before we scope the work.
 - 02 — Agree a first milestone — We define deliverables, acceptance criteria, responsibilities, access needs and collaboration hours. Pricing follows the scope, or the capacity and duration of an embedded role.
-- 03 — Confirm terms before delivery — Confirm the contracting party, invoicing requirements, confidentiality, ownership, handover and any support scope before work begins. Current delivery is through our India-based team; the US company is coming soon.
+- 03 — Confirm terms before delivery — Confirm the contracting party, invoicing requirements, confidentiality, ownership, handover and any support scope before work begins. Current delivery is through our India-based team; the company in the USA is coming soon.
 Delivery processEmbedded consultantsPrivacy and delivery standardsCompany and founder
 Common questions
 
-### What should US clients know before booking?
+### Questions from clients in the USA.
 
-**Is MV.tech currently a US company?**
-MV.tech is currently based in Ahmedabad, Gujarat, India. A US company is coming soon. We will publish its details once it is established. Current project discussions and remote delivery are with our India-based team.
+**Is MV.tech registered in the USA?**
+MV.tech is based in Ahmedabad, India. We are setting up a company in the United States and will publish its details here once established. Our India team is available for project discussions now.
 
-**Can US clients discuss a project before the US company launches?**
-Yes. Book a scoping call or email contact@mvtech.solutions to discuss the work with our India-based team today. If a US entity is a requirement for your procurement process, raise that before committing to an engagement so we can confirm what is currently possible.
+**Can we discuss a project now?**
+Yes. Book a scoping call or email contact@mvtech.solutions to discuss the work with our India-based team today. Tell us about any contracting requirements at the start so we can confirm what is currently possible.
 
 **Can we hire a remote data engineer instead of outsourcing a whole project?**
-Yes. MV.tech offers embedded data engineering capacity and IT staff augmentation as well as scoped projects. We agree the role, allocated capacity, responsibilities and US timezone overlap before work starts. See our data engineer hiring options.
+Yes. MV.tech offers embedded data engineering capacity and IT staff augmentation as well as scoped projects. We agree the role, allocated capacity, responsibilities and USA working hours before work starts. See our data engineer hiring options.
 
-**How much does data or AI consulting cost for a US client?**
+**How is the work priced?**
 There is no fixed public rate card. Pricing depends on the systems involved, deliverables, technical complexity, access requirements and delivery capacity. Share a short brief and any budget range; we price a written scope or an embedded role before you commit. Our remote data team cost guide explains what to compare in proposals.
 
 **What should we send before the first call?**
 Send the business outcome, your current platforms and source systems, the main problem, your timezone, target date and any procurement requirements. A short description or sanitised example is enough. Credentials and production data are not needed for an initial enquiry.
 
+Our presence
+
+### Based in India. Expanding to the USA.
+
+Our India team is available for new projects, with working hours planned around your team.
+
+Delivery base
+
+#### India
+
+Ahmedabad, Gujarat
+
+Contact our team
 Coming soon
 
-### US company coming soon.
+#### USA
 
-We’re preparing to establish a US company to support our work with US clients. We’ll publish the company details here once it is established.
+We’re setting up our company in the United States.
 
-You can discuss a project today with our India-based team, with scope and US timezone overlap agreed before work starts.
+Services for clients in the USA

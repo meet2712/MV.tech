@@ -24,11 +24,12 @@ export function callButton(site, label = 'Book a 30-minute call', cls = 'button-
 
 export function usCompanyNote(site) {
   const note = site.usCompany;
-  return `<section class="band band-light us-company" id="us-company" aria-labelledby="us-company-heading">
-    <div class="container split">
-      <div><p class="eyebrow">${h(note.status)}</p><h2 id="us-company-heading">${h(note.heading)}</h2></div>
-      <div><p class="body-copy">${h(note.copy)}</p><p class="body-copy">${h(note.currentDelivery)}</p>
-        <div class="action-row"><a class="button-primary" href="/contact/#book-call">Discuss your US project ${icon('arrow-right')}</a><a class="text-link" href="${h(note.path)}">Working with MV.tech from the US ${icon('arrow-right')}</a></div>
+  return `<section class="band locations-section" id="us-company" aria-labelledby="us-company-heading">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">Our presence</p><h2 id="us-company-heading">Based in India. Expanding to the USA.</h2></div><p class="location-intro">${h(note.currentDelivery)}</p></div>
+      <div class="locations-grid">
+        <article class="location-entry"><span class="location-flag" aria-hidden="true">🇮🇳</span><div><p class="location-status">Delivery base</p><h3>India</h3><p>Ahmedabad, Gujarat</p><a href="/contact/">Contact our team ${icon('arrow-right')}</a></div></article>
+        <article class="location-entry"><span class="location-flag" aria-hidden="true">🇺🇸</span><div><p class="location-status">${h(note.status)}</p><h3>USA</h3><p>${h(note.copy)}</p><a href="${h(note.path)}">Services for clients in the USA ${icon('arrow-right')}</a></div></article>
       </div>
     </div>
   </section>`;
