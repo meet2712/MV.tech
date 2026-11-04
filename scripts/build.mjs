@@ -122,7 +122,7 @@ const footer = `<footer class="site-footer">
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="/" aria-label="MV.tech home"><img src="/images/logo.svg" alt="MV.tech – Data, AI and digital solutions" width="520" height="167" loading="lazy"></a>
-        <p>Data engineering, software development and AI consulting. Based in Ahmedabad, India. Working with clients worldwide.</p>
+        <p>Software, data and AI engineering for businesses. Project delivery, dedicated teams and technology recruitment. Ahmedabad, India · Working worldwide.</p>
         <p class="footer-worked">Our engineers have worked with ${site.workedWith.join(', ')}.</p>
         <p class="footer-worked"><a href="${h(site.usCompany.path)}">${h(site.usCompany.heading)} ${icon('arrow-up-right')}</a></p>
       </div>
@@ -165,7 +165,7 @@ function schemaGraph(page) {
   const organization = {
     '@type': ['Organization', 'ProfessionalService'], '@id': `${origin}/#organization`, name: site.name, legalName: site.legalName, alternateName: site.alternateNames,
     url: `${origin}/`, logo: { '@type': 'ImageObject', url: `${origin}/images/logo.png`, width: 1200, height: 384 }, image: `${origin}/images/og/home.jpg`,
-    description: site.summary, slogan: 'Senior engineering in your timezone, without large-consultancy overhead', email: site.email, telephone: site.phone,
+    description: site.summary, slogan: 'Software, data and AI engineering for business', email: site.email, telephone: site.phone,
     foundingDate: String(site.foundingYear), taxID: site.gstin,
     numberOfEmployees: { '@type': 'QuantitativeValue', minValue: site.teamSize.min, maxValue: site.teamSize.max },
     address: { '@type': 'PostalAddress', addressLocality: site.address.locality, addressRegion: site.address.region, postalCode: site.address.postalCode, addressCountry: site.address.country },

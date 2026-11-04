@@ -2,14 +2,14 @@
   {
     "route": "/",
     "slug": "home",
-    "title": "Data engineering. Software development. Built around your business.",
-    "kicker": "MV.tech · Engineering from India · Working worldwide"
+    "title": "Software development, data engineering and AI services",
+    "kicker": "MV.tech · Software · Data · AI · Remote engineering services"
   },
   {
     "route": "/about/",
     "slug": "about",
-    "title": "About MV.tech",
-    "kicker": "Remote-first · Founded by an engineer · Ahmedabad, India"
+    "title": "About MV.tech: company, services and engineering approach",
+    "kicker": "MV.tech · Software · Data · AI · Remote engineering services"
   },
   {
     "route": "/brand/",
@@ -26,20 +26,20 @@
   {
     "route": "/contact/",
     "slug": "contact",
-    "title": "Book a 30-minute scoping call",
-    "kicker": "Remote from Ahmedabad, India · Overlap with any timezone · No obligation"
+    "title": "Discuss your project or team requirement",
+    "kicker": "Software · Data · AI · Dedicated teams · Recruitment"
   },
   {
     "route": "/expertise/",
     "slug": "expertise",
-    "title": "Expertise & credentials",
-    "kicker": "Python · SQL · BigQuery · Snowflake · Power BI · AWS · GCP · Azure · RAG · MCP"
+    "title": "Engineering capabilities and professional experience",
+    "kicker": "MV.tech · Software · Data · AI · Remote engineering services"
   },
   {
     "route": "/faq/",
     "slug": "faq",
-    "title": "Frequently asked questions",
-    "kicker": "Timezones · Costs · Services · Team · Security · Getting started"
+    "title": "Questions about services and working with MV.tech",
+    "kicker": "MV.tech · Software · Data · AI · Remote engineering services"
   },
   {
     "route": "/insights/",
@@ -110,121 +110,121 @@
   {
     "route": "/process/",
     "slug": "process",
-    "title": "How we deliver",
-    "kicker": "Scope · Build in increments · Review in your hours · Hand over with documentation"
+    "title": "From requirements to production delivery",
+    "kicker": "MV.tech · Software · Data · AI · Remote engineering services"
   },
   {
     "route": "/remote-consulting/",
     "slug": "remote-consulting",
-    "title": "How we work: timezones, team and costs",
-    "kicker": "Overlap windows by region · Engagement models · Cost model"
+    "title": "How We Work: Remote Team, Timezones & Costs",
+    "kicker": "MV.tech · Project delivery · Dedicated capacity"
   },
   {
     "route": "/services/",
     "slug": "services",
-    "title": "Services",
-    "kicker": "Data · Software · AI · Automation · Staffing · Recruitment"
+    "title": "Engineering services for software, data and AI",
+    "kicker": "MV.tech · Software · Data · AI · Remote engineering services"
   },
   {
     "route": "/services/ai-consulting/",
     "slug": "services-ai-consulting",
-    "title": "AI automation, RAG & MCP development",
-    "kicker": "Knowledge assistants · MCP servers · LLM integration · Evaluation"
+    "title": "AI Automation, RAG & MCP Development",
+    "kicker": "MV.tech · Consulting · Development · Integration"
   },
   {
     "route": "/services/bigquery-consulting/",
     "slug": "services-bigquery-consulting",
-    "title": "BigQuery consulting & Google Cloud data engineering",
-    "kicker": "Warehouse design · Partitioning · Cloud Run · Looker Studio · Cost control"
+    "title": "BigQuery Consulting",
+    "kicker": "MV.tech · Consulting · Development · Integration"
   },
   {
     "route": "/services/blockchain-data-analytics/",
     "slug": "services-blockchain-data-analytics",
-    "title": "Blockchain & on-chain data analytics",
-    "kicker": "Cross-chain ETL · ABI decoding · Valuation · Reconciliation"
+    "title": "Blockchain & On-Chain Data Analytics",
+    "kicker": "MV.tech · Consulting · Development · Integration"
   },
   {
     "route": "/services/business-intelligence/",
     "slug": "services-business-intelligence",
-    "title": "Business intelligence & dashboards",
-    "kicker": "Power BI · Tableau · Looker Studio · Semantic models · DAX"
+    "title": "Business Intelligence & Dashboards",
+    "kicker": "MV.tech · Consulting · Development · Integration"
   },
   {
     "route": "/services/custom-software/",
     "slug": "services-custom-software",
-    "title": "Custom software & web app development",
-    "kicker": "Business apps · Client portals · Dashboards · APIs"
+    "title": "Custom Software Development",
+    "kicker": "MV.tech · Consulting · Development · Integration"
   },
   {
     "route": "/services/data-engineering/",
     "slug": "services-data-engineering",
-    "title": "Data engineering & ETL consulting",
-    "kicker": "Python · SQL · BigQuery · Snowflake · Redshift · Data quality"
+    "title": "Data Engineering Consulting",
+    "kicker": "MV.tech · Consulting · Development · Integration"
   },
   {
     "route": "/services/data-warehouse-migration/",
     "slug": "services-data-warehouse-migration",
-    "title": "Data warehouse migration",
-    "kicker": "Snowflake · BigQuery · Redshift · Mapping · Reconciliation"
+    "title": "Data Warehouse Migration",
+    "kicker": "MV.tech · Consulting · Development · Integration"
   },
   {
     "route": "/services/hire-data-engineers/",
     "slug": "services-hire-data-engineers",
-    "title": "Hire data engineers: named, senior, in your hours",
-    "kicker": "Named engineers · Agreed overlap · Written first milestone · Three ways to hire"
+    "title": "Hire Data Engineers",
+    "kicker": "MV.tech · Embedded engineers · Projects · Recruitment"
   },
   {
     "route": "/services/it-staff-augmentation/",
     "slug": "services-it-staff-augmentation",
-    "title": "IT staff augmentation & dedicated remote teams",
-    "kicker": "Senior consultants in your team · Agreed capacity · Your hours"
+    "title": "IT Staff Augmentation",
+    "kicker": "MV.tech · Specialist capacity · Dedicated teams"
   },
   {
     "route": "/services/mcp-and-ai-connectors/",
     "slug": "services-mcp-and-ai-connectors",
-    "title": "MCP servers & AI connectors",
-    "kicker": "Custom MCP servers · Enterprise connectors · Scoped access"
+    "title": "MCP Servers & AI Connectors",
+    "kicker": "MV.tech · Consulting · Development · Integration"
   },
   {
     "route": "/services/offshore-data-engineering-team/",
     "slug": "services-offshore-data-engineering-team",
-    "title": "Offshore data engineering team from India",
-    "kicker": "Dedicated data engineers · Analytics capacity · Timezone overlap"
+    "title": "Offshore Data Engineering Team",
+    "kicker": "MV.tech · Consulting · Development · Integration"
   },
   {
     "route": "/services/power-bi-consulting/",
     "slug": "services-power-bi-consulting",
-    "title": "Power BI consulting & semantic models",
-    "kicker": "Semantic models · DAX · Refresh performance · SSAS migration · Reconciliation"
+    "title": "Power BI Consulting",
+    "kicker": "MV.tech · Consulting · Development · Integration"
   },
   {
     "route": "/services/snowflake-consulting/",
     "slug": "services-snowflake-consulting",
-    "title": "Snowflake consulting and migration",
-    "kicker": "Migration · Layered design · Power BI models · Reconciliation · Cost tuning"
+    "title": "Snowflake Consulting",
+    "kicker": "MV.tech · Consulting · Development · Integration"
   },
   {
     "route": "/services/technology-recruitment/",
     "slug": "services-technology-recruitment",
-    "title": "Technology recruitment",
-    "kicker": "Permanent AI, data, software & cloud hires · Engineer-led"
+    "title": "Technology Recruitment",
+    "kicker": "MV.tech · Permanent hiring · Technical assessment"
   },
   {
     "route": "/services/workflow-automation/",
     "slug": "services-workflow-automation",
-    "title": "Workflow automation & API integration",
-    "kicker": "Scheduled workflows · Webhooks · Validation · Monitoring"
+    "title": "Workflow Automation Consulting",
+    "kicker": "MV.tech · Consulting · Development · Integration"
   },
   {
     "route": "/solutions/",
     "slug": "solutions",
-    "title": "Solution patterns",
-    "kicker": "Data platforms · Portals & internal apps · AI knowledge assistants"
+    "title": "Business solutions across reporting, operations and products",
+    "kicker": "MV.tech · Software · Data · AI · Remote engineering services"
   },
   {
     "route": "/us-clients/",
     "slug": "us-clients",
-    "title": "Engineering for clients in the USA",
-    "kicker": "Remote delivery from India · USA company coming soon"
+    "title": "Engineering services for businesses in the USA",
+    "kicker": "MV.tech · Software · Data · AI · Remote engineering services"
   }
 ]

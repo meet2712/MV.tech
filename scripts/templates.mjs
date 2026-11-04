@@ -139,9 +139,15 @@ export function servicePage(page, site, allPages) {
       ${comparisonTable(page.comparison)}
     </div>
   </section>` : ''}
+  <section class="band band-light" id="business-applications">
+    <div class="container split">
+      <div><p class="eyebrow">Business applications</p><h2>${h(page.applicationsHeading)}</h2></div>
+      <ul class="check-list">${page.applications.map((item) => `<li>${icon('check')}<span><strong>${h(item.title)}.</strong> ${h(item.text)}</span></li>`).join('')}</ul>
+    </div>
+  </section>
   <section class="band ${remote ? 'band-light' : 'band-light'}">
     <div class="container split">
-      <div><p class="eyebrow">A useful first project</p><h2>${h(page.scopeHeading)}</h2></div>
+      <div><p class="eyebrow">Engagement scope</p><h2>${h(page.scopeHeading)}</h2></div>
       <div><p class="body-copy">${h(page.scope)}</p><a class="text-link" href="/process/">See our delivery process ${icon('arrow-right')}</a></div>
     </div>
   </section>

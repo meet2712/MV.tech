@@ -1,11 +1,11 @@
 {
   "/": {
-    "hash": "2ffbad2e111442a1",
+    "hash": "511427c82f4fa469",
     "published": "2026-01-02",
     "modified": "2026-11-04"
   },
   "/about/": {
-    "hash": "416f21285821a51f",
+    "hash": "f0cc317b7bb8c062",
     "published": "2026-06-02",
     "modified": "2026-11-04"
   },
@@ -20,19 +20,19 @@
     "modified": "2026-10-07"
   },
   "/contact/": {
-    "hash": "0147d1088834a2ce",
+    "hash": "069e5a3bbaa9e1a3",
     "published": "2026-06-02",
     "modified": "2026-11-04"
   },
   "/expertise/": {
-    "hash": "7d765139232f2faa",
+    "hash": "e2a1b57cc38ee124",
     "published": "2026-06-02",
-    "modified": "2026-10-07"
+    "modified": "2026-11-04"
   },
   "/faq/": {
-    "hash": "a0ffd9738048e75b",
+    "hash": "344eec91c0f81e57",
     "published": "2026-06-02",
-    "modified": "2026-10-07"
+    "modified": "2026-11-04"
   },
   "/insights/": {
     "hash": "a8cf6ced819a71e7",
@@ -90,102 +90,102 @@
     "modified": "2026-10-07"
   },
   "/process/": {
-    "hash": "00447051be6a2251",
+    "hash": "f4a06a6c01e33df0",
     "published": "2026-06-02",
-    "modified": "2026-10-07"
+    "modified": "2026-11-04"
   },
   "/remote-consulting/": {
-    "hash": "2ab846ba3665c7a7",
+    "hash": "52029d7249f61cb7",
     "published": "2026-09-10",
-    "modified": "2026-10-12"
+    "modified": "2026-11-04"
   },
   "/services/": {
-    "hash": "a31c111d284432e0",
+    "hash": "afa34f7c761c6521",
     "published": "2026-06-02",
-    "modified": "2026-10-12"
+    "modified": "2026-11-04"
   },
   "/services/ai-consulting/": {
-    "hash": "3eb7af287f1f51d6",
+    "hash": "3620883b28db0fe1",
     "published": "2026-09-10",
     "modified": "2026-11-04"
   },
   "/services/bigquery-consulting/": {
-    "hash": "854361f99f6a3488",
+    "hash": "c0e834a1ac23a989",
     "published": "2026-10-12",
     "modified": "2026-11-04"
   },
   "/services/blockchain-data-analytics/": {
-    "hash": "48fc11065da6ca1d",
+    "hash": "c8b9e323fd2338f7",
     "published": "2026-09-12",
-    "modified": "2026-10-12"
+    "modified": "2026-11-04"
   },
   "/services/business-intelligence/": {
-    "hash": "60fc958e6325c63e",
+    "hash": "90a3cc2225c4147a",
     "published": "2026-09-12",
     "modified": "2026-11-04"
   },
   "/services/custom-software/": {
-    "hash": "587f3e517c01bf18",
+    "hash": "2f5cc15bc11d06a5",
     "published": "2026-09-10",
-    "modified": "2026-10-12"
+    "modified": "2026-11-04"
   },
   "/services/data-engineering/": {
-    "hash": "d3505edc30658a75",
+    "hash": "3449c195fc0a7060",
     "published": "2026-09-10",
     "modified": "2026-11-04"
   },
   "/services/data-warehouse-migration/": {
-    "hash": "3ecd7757a8abd611",
+    "hash": "b8a49f462a9f4dbc",
     "published": "2026-09-12",
     "modified": "2026-11-04"
   },
   "/services/hire-data-engineers/": {
-    "hash": "474c05411f1fdfc5",
+    "hash": "cfbee6124e6562f1",
     "published": "2026-10-12",
     "modified": "2026-11-04"
   },
   "/services/it-staff-augmentation/": {
-    "hash": "6af17048aec065de",
+    "hash": "06a4bb3164c8cd14",
     "published": "2026-09-10",
-    "modified": "2026-10-12"
+    "modified": "2026-11-04"
   },
   "/services/mcp-and-ai-connectors/": {
-    "hash": "d000457a41323fb9",
+    "hash": "6d66691b478cff73",
     "published": "2026-09-12",
     "modified": "2026-11-04"
   },
   "/services/offshore-data-engineering-team/": {
-    "hash": "782d2c737a49eabb",
+    "hash": "d7f0eaced1c7e31f",
     "published": "2026-09-18",
     "modified": "2026-11-04"
   },
   "/services/power-bi-consulting/": {
-    "hash": "96b5d96c3e8a2f40",
+    "hash": "d3b1015596876a08",
     "published": "2026-10-12",
     "modified": "2026-11-04"
   },
   "/services/snowflake-consulting/": {
-    "hash": "16d4fae75f7a8172",
+    "hash": "966a6cd3660f3564",
     "published": "2026-10-12",
     "modified": "2026-11-04"
   },
   "/services/technology-recruitment/": {
-    "hash": "89a436b7b2f0d628",
+    "hash": "852c0cab7512a420",
     "published": "2026-09-10",
-    "modified": "2026-10-12"
+    "modified": "2026-11-04"
   },
   "/services/workflow-automation/": {
-    "hash": "e9f3bdd89d8b4a2b",
+    "hash": "2fb0c64d3f553d94",
     "published": "2026-09-10",
-    "modified": "2026-10-12"
+    "modified": "2026-11-04"
   },
   "/solutions/": {
-    "hash": "4d43c960ff274d0f",
+    "hash": "cbfdea0a0babb1fa",
     "published": "2026-06-02",
-    "modified": "2026-10-07"
+    "modified": "2026-11-04"
   },
   "/us-clients/": {
-    "hash": "d26f58512004dcf9",
+    "hash": "19ac510849999143",
     "published": "2026-11-04",
     "modified": "2026-11-04"
   }
