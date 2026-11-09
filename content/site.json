@@ -142,43 +142,23 @@
   "footer": {
     "services": [
       {
-        "label": "Offshore data engineering team",
-        "href": "/services/offshore-data-engineering-team/"
-      },
-      {
-        "label": "Data engineering consulting",
+        "label": "Data engineering",
         "href": "/services/data-engineering/"
       },
       {
-        "label": "Data warehouse migration",
-        "href": "/services/data-warehouse-migration/"
-      },
-      {
-        "label": "Business intelligence & dashboards",
+        "label": "Business intelligence",
         "href": "/services/business-intelligence/"
       },
       {
-        "label": "Custom software development",
+        "label": "Custom software",
         "href": "/services/custom-software/"
       },
       {
-        "label": "AI automation, RAG & MCP",
+        "label": "AI & automation",
         "href": "/services/ai-consulting/"
       },
       {
-        "label": "MCP servers & AI connectors",
-        "href": "/services/mcp-and-ai-connectors/"
-      },
-      {
-        "label": "Blockchain & on-chain analytics",
-        "href": "/services/blockchain-data-analytics/"
-      },
-      {
-        "label": "Workflow automation",
-        "href": "/services/workflow-automation/"
-      },
-      {
-        "label": "IT staff augmentation",
+        "label": "Dedicated teams",
         "href": "/services/it-staff-augmentation/"
       },
       {
@@ -186,27 +166,11 @@
         "href": "/services/technology-recruitment/"
       },
       {
-        "label": "Hire Data Engineers",
-        "href": "/services/hire-data-engineers/"
-      },
-      {
-        "label": "Snowflake Consulting",
-        "href": "/services/snowflake-consulting/"
-      },
-      {
-        "label": "BigQuery Consulting",
-        "href": "/services/bigquery-consulting/"
-      },
-      {
-        "label": "Power BI Consulting",
-        "href": "/services/power-bi-consulting/"
+        "label": "All services",
+        "href": "/services/"
       }
     ],
     "company": [
-      {
-        "label": "USA · Company coming soon",
-        "href": "/us-clients/"
-      },
       {
         "label": "About MV.tech",
         "href": "/about/"
@@ -230,10 +194,6 @@
       {
         "label": "Insights",
         "href": "/insights/"
-      },
-      {
-        "label": "Brand kit",
-        "href": "/brand/"
       }
     ],
     "connect": [
@@ -244,10 +204,6 @@
       {
         "label": "contact@mvtech.solutions",
         "href": "mailto:contact@mvtech.solutions"
-      },
-      {
-        "label": "+91 9409299016",
-        "href": "tel:+919409299016"
       },
       {
         "label": "LinkedIn",
@@ -330,7 +286,6 @@
       }
     ]
   },
-  "phone": "+919409299016",
   "foundingYear": 2022,
   "teamSize": {
     "min": 10,

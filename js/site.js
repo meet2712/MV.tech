@@ -15,6 +15,7 @@
   if (button && menu) {
     const setMenu = (open) => {
       menu.hidden = !open;
+      document.body.classList.toggle('menu-open', open);
       button.setAttribute('aria-expanded', String(open));
       button.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
       const icon = document.createElement('i');
@@ -28,13 +29,21 @@
     document.addEventListener('keydown', (event) => {
       if (event.key === 'Escape' && !menu.hidden) { setMenu(false); button.focus(); }
     });
+    document.addEventListener('click', (event) => {
+      if (!menu.hidden && !event.composedPath().includes(document.getElementById('main-header'))) setMenu(false);
+    });
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 900 && !menu.hidden) setMenu(false);
+    });
   }
 
   // ---- Sticky mobile call-to-action (appears after the first screen) -------------------------
   const sticky = document.getElementById('sticky-cta');
   if (sticky && !document.querySelector('main.is-contact')) {
     const toggle = () => {
-      const active = window.scrollY > window.innerHeight * 0.9 && window.innerWidth <= 640;
+      const footer = document.querySelector('.site-footer');
+      const footerVisible = footer && footer.getBoundingClientRect().top < window.innerHeight;
+      const active = window.scrollY > window.innerHeight * 0.9 && window.innerWidth <= 640 && !footerVisible;
       sticky.hidden = !active;
       sticky.classList.toggle('is-active', active);
       document.body.classList.toggle('has-sticky-cta', active);
@@ -52,7 +61,6 @@
     const url = new URL(link.getAttribute('href'), window.location.origin);
     let method;
     if (url.protocol === 'mailto:') method = 'email';
-    if (url.protocol === 'tel:') method = 'phone';
     if (url.hostname === 'calendly.com') method = 'calendar';
     if (url.origin === window.location.origin && url.pathname === '/contact/' && url.hash === '#book-call') method = 'calendar';
     if (method) track('contact_intent', { method });
@@ -99,6 +107,7 @@
   const brief = document.getElementById('brief-form');
   if (brief) {
     const preview = document.getElementById('brief-preview');
+    const status = document.getElementById('brief-status');
     const email = brief.dataset.email;
     const compose = () => {
       const data = new FormData(brief);
@@ -118,13 +127,23 @@
       track('brief_compose', { method: 'email' });
       window.location.href = href;
     });
-    brief.querySelector('[data-copy-brief]')?.addEventListener('click', async (btn) => {
-      const copyButton = btn.currentTarget;
+    brief.querySelector('[data-copy-brief]')?.addEventListener('click', async () => {
       const { subject, body } = compose();
       const text = `To: ${email}\nSubject: ${subject}\n\n${body}`;
-      try { await navigator.clipboard.writeText(text); copyButton.textContent = 'Copied — paste it into your email'; }
-      catch { if (preview) { preview.textContent = text; preview.classList.add('is-visible'); } }
+      try {
+        await navigator.clipboard.writeText(text);
+        if (status) status.textContent = 'Brief copied. Paste it into an email to ' + email + '.';
+        if (preview) preview.classList.remove('is-visible');
+      }
+      catch {
+        if (preview) { preview.textContent = text; preview.classList.add('is-visible'); }
+        if (status) status.textContent = 'Copy the draft below and paste it into your email.';
+      }
       track('brief_compose', { method: 'copy' });
+    });
+    brief.addEventListener('input', () => {
+      if (status) status.textContent = '';
+      if (preview) preview.classList.remove('is-visible');
     });
   }
 })();
