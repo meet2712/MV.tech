@@ -56,7 +56,6 @@ test('contact routes are intent events without enquiry content', () => {
     ['/contact/#book-call', 'calendar'],
     ['https://calendly.com/contact-mvtech/new-meeting', 'calendar'],
     ['mailto:contact@mvtech.solutions?body=private-example', 'email'],
-    ['tel:+919409299016', 'phone'],
   ]) {
     page.documentEvents.click({ target: { closest: () => ({ getAttribute: () => href }) } });
     const [kind, name, params] = page.events.at(-1);

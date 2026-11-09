@@ -10,7 +10,7 @@ LinkedIn: https://www.linkedin.com/company/mv-tech-data/
 Location: Ahmedabad, Gujarat, India · Serves clients worldwide with agreed timezone overlap
 United States (USA) company: Coming soon. We’re setting up our company in the United States. Our India team is available for new projects, with working hours planned around your team. Details: https://mvtech.solutions/us-clients/
 Teams our engineers have worked with: Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, Turing. Names reflect organisations MV.tech's team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.
-Last generated: 2026-11-04. Short summary and answer guidance: https://mvtech.solutions/llms.txt
+Last generated: 2026-11-09. Short summary and answer guidance: https://mvtech.solutions/llms.txt
 
 This file is generated from the public pages listed below, so it always matches what visitors see. Each section is one page: title, canonical URL, meta description, then the page text.
 
@@ -20,17 +20,17 @@ This file is generated from the public pages listed below, so it always matches 
 
 URL: https://mvtech.solutions/
 Description: MV.tech provides custom software, data engineering, BI, AI development, automation and dedicated engineering teams from India for businesses worldwide.
-Last modified: 2026-11-04
+Last modified: 2026-11-09
 
-Software development · Data engineering · AI services
+Your partner for software, data & AI engineering
 
-## Software development.Data engineering.AI solutions for business.
+## Software, dataand AI.Built for your business.
 
-MV.tech helps businesses build custom software, connect their data and put AI into everyday work. From a reporting platform to a customer portal or a dedicated engineering team, we bring the technical work into one delivery plan.
+Build the application you need. Bring your data together. Put AI to work. MV.tech connects the engineering behind your next step.
 
-Ahmedabad, India · Remote delivery worldwide
+Ahmedabad, India / Remote delivery worldwide
 
-Organisations our engineershave worked with
+Our engineers’ experience
 
 - Google
 - Volvo
@@ -41,116 +41,113 @@ Organisations our engineershave worked with
 - Turing
 Experience includes work delivered directly and through talent platforms. Names do not imply endorsements or current partnerships.
 
-About MV.tech
-
-### One engineering partner across software, data and AI.
-
-Business applications, analytics and AI often rely on the same data and integrations. MV.tech works across those layers, helping your team move from a business requirement to the software, pipelines and reporting needed to support it.
-
-Founded in 2022 in Ahmedabad, India, we work with product businesses, internal technology teams and business functions that need hands-on engineering. Our services include new development, improvements to existing systems, dedicated delivery capacity and permanent technology recruitment.
-
 Our services
 
-### What can MV.tech deliver for your business?
+### The engineering your next step needs.
+
+Start with one workstream or bring us the whole project. We work across the applications, data and integrations behind it.
 
 #### Data engineering & warehousing
 
-Connect your business systems to a shared data platform. We develop pipelines, warehouse models and data quality checks, and migrate reporting from legacy databases and spreadsheets.
+Bring data from your business systems into a reliable warehouse, with pipelines, clear models and checks against the source.
 
-Data engineering Warehouse migration Snowflake consulting BigQuery consulting Blockchain analytics
+Explore data engineering
 
 #### Business intelligence & analytics
 
-Give finance, operations and management teams consistent reporting. We define KPIs, build semantic models and develop dashboards in Power BI, Tableau, Looker Studio and Streamlit.
+Give finance and operations a consistent view of the business, with defined KPIs, semantic models and dashboards.
 
-BI & dashboard development Power BI consulting
+Explore business intelligence
 
 #### Custom software & integrations
 
-Build customer portals, internal applications and data tools around your workflows. We develop the user interface, backend, database and business system integrations together.
+Build customer portals, internal tools and applications that fit your workflows and connect to the systems you already use.
 
-Custom software development Workflow automation & APIs
+Explore software development
 
 #### AI consulting & development
 
-Add AI to a business process or product. Our work covers knowledge assistants, document processing, RAG systems and connections between AI platforms, company data and internal tools.
+Connect AI to useful work: knowledge search, document processing and assistants that work with your company’s data and tools.
 
-AI consulting & development MCP servers & AI connectors
+Explore AI services
 
 #### Dedicated engineering teams
 
-Extend your team with data, software, cloud and AI specialists. Agree the people, responsibilities and capacity, with collaboration hours planned around your delivery process.
+Add data, software, cloud or AI specialists to your delivery team, with agreed responsibilities and working hours.
 
-Offshore data engineering teams IT staff augmentation Hire data engineers
+Explore dedicated teams
 
 #### Technology recruitment
 
-Hire permanent data, software, cloud and AI professionals. We help define the role, screen candidates and assess technical fit before your team makes the hiring decision.
+Find permanent technology hires with support for role definition, sourcing and technical assessment. Your team makes the hiring decision.
 
-Technology recruitment
-Business solutions
-
-### Technology for the work your teams need to do.
-
-#### Finance and management reporting
-
-Connect financial and operational sources, agree KPI definitions and build reporting that can be traced back to its data. Reporting and finance solutions
-
-#### Operations and business workflows
-
-Build internal applications and integrations for records, approvals, recurring reports and exceptions that currently move between systems by hand. Operations solutions
-
-#### Product and engineering teams
-
-Develop customer portals, application features and AI integrations, or add specialists to an existing development team. Product development solutions
-
-#### Blockchain and Web3 teams
-
-Turn multi-chain activity into warehouse datasets, wallet reporting and transaction-level reconciliation. Blockchain data solutions
-
-Why work with MV.tech
-
-### Technical delivery with a clear business purpose.
-
-We connect the engineering decisions to the workflow, users and reporting needs behind them.
-
-- Direct technical collaboration. Speak with the engineers responsible for the work. Requirements, implementation choices and review feedback stay in the same conversation.
-- Connected implementation. Data sources, backend logic, interfaces, reporting and AI integrations can be planned as one system, with ownership defined across the work.
-- Maintainable delivery. Testing, deployment instructions, data definitions and operating documentation are included in the agreed scope.
-- Flexible engagement. Choose project delivery, dedicated capacity or recruitment according to the responsibility you want to retain.
-Engagement options
-
-### Choose how MV.tech works with your team.
-
-#### Project delivery
-
-An agreed scope delivered by MV.tech, with milestones, technical reviews, acceptance checks and handover. Suitable for a new application, a warehouse migration, reporting development or a defined integration.
-
-#### Dedicated engineers or team
-
-Assigned specialists work within your tools and delivery process for the agreed capacity and duration. Suitable when your leads need additional skills or ongoing engineering capacity.
-
-#### Permanent recruitment
-
-Your organisation hires and employs the candidate. MV.tech supports the role brief, sourcing and assessment for a long-term technology position.
-
+Explore recruitment
 Engineering experience
 
-### Experience behind the services.
+### Built on hands-on work.
 
-Our founder’s published work history covers data platforms, analytics and AI engineering. Explore the relevant project areas and individual credentials before discussing the team for your engagement.
+Selected work from founder Meet Vaghasia’s individual engagements, including through talent platforms. These are examples of his experience.
+
+RootstockLabs
+
+#### Data platforms & AI reporting
+
+Redshift warehousing, ETL pipelines and RAG integration for analytics and business reporting.
+
+Redshift · Python · RAG
+BCW Group
+
+#### Multi-chain data & finance analytics
+
+On-chain activity consolidated in BigQuery, with Looker reporting for wallet activity and finance analysis.
+
+BigQuery · Looker · Web3
+Turing
+
+#### AI evaluation & data preparation
+
+Gemini model evaluation and data preparation for a Google project delivered through Turing.
+
+Gemini · AI evaluation
+Engagement options
+
+### A project, an extra pair of hands or your next hire.
+
+01 / Project delivery
+
+#### A defined outcome.
+
+An agreed scope delivered by MV.tech, with milestones, technical reviews, acceptance checks and handover. How project delivery works
+
+02 / Dedicated team
+
+#### Capacity in your team.
+
+Assigned specialists work within your tools and delivery process for the agreed capacity and duration. How dedicated teams work
+
+03 / Recruitment
+
+#### A long-term hire.
+
+Your organisation hires and employs the candidate. MV.tech supports the role brief, sourcing and assessment for a long-term technology position. How recruitment works
 
 Delivery
 
 ### From requirements to a system your team can use.
 
+01
+
 #### Understand and plan
 
 Review users, current systems and business requirements. Agree the scope, dependencies, architecture and acceptance criteria.
 
+02
+
 #### Develop and validate
 
 Build in reviewable stages. Test workflows and integrations, reconcile important data and involve the people who will use the result.
+
+03
 
 #### Deploy and support
 
@@ -194,9 +191,9 @@ We’re setting up our company in the United States.
 Services for clients in the USA
 Contact MV.tech
 
-### Discuss your next project with MV.tech.
+### Let’s work on what comes next.
 
-Tell us what you want to build, improve or connect. We’ll discuss the requirements, the delivery options and the people the work needs.
+A new idea, a system that needs attention or a team that needs support. Tell us where you are, and we’ll work through the next step with you.
 
 ---
 
@@ -452,35 +449,33 @@ Procurement, security and legal questions are easiest to answer at the scoping s
 
 URL: https://mvtech.solutions/contact/
 Description: Discuss software, data, BI, AI or automation requirements with MV.tech. Book a consultation or send a brief for project delivery, dedicated teams or hiring.
-Last modified: 2026-11-04
+Last modified: 2026-11-09
 
 Contact
 
-## Tell us about your project or team requirement.
+## What would you like to build?
 
-Discuss a new application, data platform, reporting project, AI integration or the specialists your team needs. Book a 30-minute call or send a brief by email. We’ll review the requirement with you and explain the delivery options before proposing an engagement.
+Bring us a project, a system that needs improving or a role you need to fill. We’ll talk through the requirements and suggest a practical way forward.
 
 - contact@mvtech.solutions
-- +91 9409299016
-- Ahmedabad, Gujarat, India, 380061 · remote worldwide
-- Collaboration hours agreed in your timezone
-Option 1
+- Ahmedabad, India · Working worldwide
+Let’s talk
 
-### Pick a time that suits your timezone
+### Find a time to meet.
 
 A 30-minute video call. Choose any slot shown in your local time; the calendar adjusts automatically.
 
-The booking calendar loads here.
+Choose a time for a 30-minute introduction.
 
-Or open it in a new tab: calendly.com/contact-mvtech/new-meeting
+Open Calendly in a new tab ↗
 
 Calendar unavailable? Open the booking page in a new tab.
 
-Option 2
+Prefer to write?
 
-### Prefer email? Start with a short brief
+### Start with a short brief.
 
-Fill in what you know and leave the rest blank. This opens a draft in your mail app; you review and send it there. Nothing is submitted through this website.
+Share what you know. All fields are optional. You can review the draft in your email app before sending it.
 
 What do you need? Help choosing a serviceOffshore data engineering teamData engineering and ETLData warehouse migrationBusiness intelligence and dashboardsCustom softwareWorkflow automation and API integrationAI and RAG developmentMCP servers and AI connectorsBlockchain data analyticsConsultant in our team (staff augmentation)Permanent hire (recruitment)Snowflake consultingBigQuery consultingPower BI consultingSomething else
 What needs to improve, and what would success look like?

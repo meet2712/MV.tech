@@ -122,8 +122,7 @@ const footer = `<footer class="site-footer">
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="/" aria-label="MV.tech home"><img src="/images/logo.svg" alt="MV.tech – Data, AI and digital solutions" width="520" height="167" loading="lazy"></a>
-        <p>Software, data and AI engineering for businesses. Project delivery, dedicated teams and technology recruitment. Ahmedabad, India · Working worldwide.</p>
-        <p class="footer-worked">Our engineers have worked with ${site.workedWith.join(', ')}.</p>
+        <p>Software, data and AI engineering.<br>Based in Ahmedabad, India.<br>Working with teams worldwide.</p>
         <p class="footer-worked"><a href="${h(site.usCompany.path)}">${h(site.usCompany.heading)} ${icon('arrow-up-right')}</a></p>
       </div>
       <nav aria-label="Services"><h2>Services</h2>${footerLinks(site.footer.services)}</nav>
@@ -165,12 +164,12 @@ function schemaGraph(page) {
   const organization = {
     '@type': ['Organization', 'ProfessionalService'], '@id': `${origin}/#organization`, name: site.name, legalName: site.legalName, alternateName: site.alternateNames,
     url: `${origin}/`, logo: { '@type': 'ImageObject', url: `${origin}/images/logo.png`, width: 1200, height: 384 }, image: `${origin}/images/og/home.jpg`,
-    description: site.summary, slogan: 'Software, data and AI engineering for business', email: site.email, telephone: site.phone,
+    description: site.summary, slogan: 'Software, data and AI engineering for business', email: site.email,
     foundingDate: String(site.foundingYear), taxID: site.gstin,
     numberOfEmployees: { '@type': 'QuantitativeValue', minValue: site.teamSize.min, maxValue: site.teamSize.max },
     address: { '@type': 'PostalAddress', addressLocality: site.address.locality, addressRegion: site.address.region, postalCode: site.address.postalCode, addressCountry: site.address.country },
     areaServed: 'Worldwide', founder: { '@id': `${origin}/#founder` }, sameAs: [site.linkedin, site.crunchbase], knowsAbout: site.knowsAbout,
-    contactPoint: { '@type': 'ContactPoint', contactType: 'sales', email: site.email, telephone: site.phone, url: `${origin}/contact/`, areaServed: 'Worldwide', availableLanguage: ['English', 'Hindi', 'Gujarati'] },
+    contactPoint: { '@type': 'ContactPoint', contactType: 'sales', email: site.email, url: `${origin}/contact/`, areaServed: 'Worldwide', availableLanguage: ['English', 'Hindi', 'Gujarati'] },
     makesOffer: consulting.filter((p) => p.path.startsWith('/services/')).map((p) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', '@id': `${origin}${p.path}#service`, name: p.name, url: origin + p.path } })),
   };
   const founder = { '@type': 'Person', '@id': `${origin}/#founder`, name: site.founder.name, jobTitle: site.founder.jobTitle, description: site.founder.description, url: `${origin}/about/`, worksFor: { '@id': `${origin}/#organization` }, sameAs: site.founder.sameAs, knowsAbout: site.knowsAbout, hasCredential: site.credentials.map((c) => ({ '@type': 'EducationalOccupationalCredential', name: c.name, credentialCategory: c.category, recognizedBy: { '@type': 'Organization', name: c.issuer } })) };
