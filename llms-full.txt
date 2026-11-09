@@ -201,7 +201,7 @@ A new idea, a system that needs attention or a team that needs support. Tell us 
 
 URL: https://mvtech.solutions/about/
 Description: Meet MV.tech, an Ahmedabad-based engineering company founded in 2022. Explore our services, delivery models, founder and company information.
-Last modified: 2026-11-04
+Last modified: 2026-11-09
 
 About MV.tech
 
@@ -270,6 +270,8 @@ Company information
   Coming soon
 - Contact
   contact@mvtech.solutions
+- Mobile
+  +91 94092 99016
 Our presence
 
 ### Based in India. Expanding to the USA.
@@ -458,6 +460,7 @@ Contact
 Bring us a project, a system that needs improving or a role you need to fill. We’ll talk through the requirements and suggest a practical way forward.
 
 - contact@mvtech.solutions
+- Mobile: +91 94092 99016
 - Ahmedabad, India · Working worldwide
 Let’s talk
 

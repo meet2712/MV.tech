@@ -43,7 +43,7 @@ Commit the generated output together with the source change; GitHub Pages serves
 
 ## Measurement
 
-GA4 (`G-YRM2SJ2EMP`) runs only on the public website hosts, keeping local previews out of production traffic. It records `contact_intent` for email and booking link clicks (`method`, `service`, `page_path`), `book_call` when the actual embedded Calendly iframe confirms a booking, and `brief_compose` when a visitor builds an email brief. Booking buttons lead to `/contact/#book-call`; an external Calendly fallback remains on the contact page. Only `book_call` confirms a booking; register it as a key event in GA4. External bookings and received emails require separate reconciliation.
+GA4 (`G-YRM2SJ2EMP`) runs only on the public website hosts, keeping local previews out of production traffic. It records `contact_intent` for email, phone and booking link clicks (`method`, `service`, `page_path`), `book_call` when the actual embedded Calendly iframe confirms a booking, and `brief_compose` when a visitor builds an email brief. Booking buttons lead to `/contact/#book-call`; an external Calendly fallback remains on the contact page. Only `book_call` confirms a booking; register it as a key event in GA4. External bookings and received emails require separate reconciliation.
 
 Service pages declare three relevant `relatedServiceKeys` in `content/consulting.json`; articles declare `relatedArticleRoutes` in their meta header. These links are validated during the build so discovery follows the topic rather than file order. `npm test` also checks production-only analytics, contact intent, booking message validation and calendar load failures.
 
