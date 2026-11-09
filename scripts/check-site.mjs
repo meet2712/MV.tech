@@ -29,8 +29,6 @@ const routes = new Set(files.map(routeFor));
 const registry = JSON.parse(await readFile('content/page-dates.json', 'utf8'));
 const llmsFull = await readFile('llms-full.txt', 'utf8');
 const llms = await readFile('llms.txt', 'utf8');
-assert(!Object.hasOwn(site, 'phone'), 'Personal phone must not be published in company facts');
-assert(!/tel:|^\s*-\s*Telephone:/im.test(llms + '\n' + llmsFull), 'Phone contact remains in AI-readable files');
 const titles = new Set();
 const descriptions = new Set();
 const warnings = [];
@@ -42,7 +40,6 @@ const exists = (file) => access(file).then(() => true, () => false);
 
 for (const file of files) {
   const html = await readFile(file, 'utf8');
-  assert(!/href=["']tel:|"telephone"\s*:/i.test(html), `${file}: phone contact must not be published`);
   const nodes = walk(parse(html));
   const one = (tag, key, value) => nodes.find((node) => node.tagName === tag && (!key || attr(node, key) === value));
   const all = (tag, key, value) => nodes.filter((node) => node.tagName === tag && (!key || attr(node, key) === value));

@@ -61,6 +61,7 @@
     const url = new URL(link.getAttribute('href'), window.location.origin);
     let method;
     if (url.protocol === 'mailto:') method = 'email';
+    if (url.protocol === 'tel:') method = 'phone';
     if (url.hostname === 'calendly.com') method = 'calendar';
     if (url.origin === window.location.origin && url.pathname === '/contact/' && url.hash === '#book-call') method = 'calendar';
     if (method) track('contact_intent', { method });
