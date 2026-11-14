@@ -30,7 +30,7 @@ h1{font-size:${title.length > 60 ? 52 : title.length > 40 ? 60 : 68}px;line-heig
 </style></head><body><div class="frame">
 <div class="logo">${logo.replace('<svg ', '<svg aria-hidden="true" ')}</div>
 <div><div class="kicker">${escape(kicker)}</div><h1>${escape(title)}</h1></div>
-<div class="foot"><span><strong>mvtech.solutions</strong> · Remote-first data, software &amp; AI engineering</span><span>Ahmedabad, India · Clients worldwide</span></div>
+<div class="foot"><span><strong>${escape(site.name)}</strong> · mvtech.solutions</span><span>${escape(site.offices.map((office) => office.label).join(' · '))}</span></div>
 </div><div class="bar"></div></body></html>`;
 
 const launch = async () => {

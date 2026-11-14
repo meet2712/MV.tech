@@ -1,192 +1,192 @@
 {
   "/": {
-    "hash": "94865b7c4e51c11d",
+    "hash": "cdaf7f6fbb10e6c2",
     "published": "2026-01-02",
-    "modified": "2026-11-09"
+    "modified": "2026-11-14"
   },
   "/about/": {
-    "hash": "6ee14ba2253209d5",
+    "hash": "135d086d45457363",
     "published": "2026-06-02",
-    "modified": "2026-11-09"
+    "modified": "2026-11-14"
   },
   "/brand/": {
-    "hash": "bec15dc4c4016df7",
+    "hash": "ef94d9db7b7813c8",
     "published": "2026-09-12",
-    "modified": "2026-09-12"
+    "modified": "2026-11-14"
   },
   "/compliance/": {
-    "hash": "cf87aedd4b90a3c6",
+    "hash": "6843574acbf3b558",
     "published": "2026-06-02",
-    "modified": "2026-10-07"
+    "modified": "2026-11-14"
   },
   "/contact/": {
-    "hash": "111dc10a09a22c8b",
+    "hash": "29964cc3d2d7b600",
     "published": "2026-06-02",
-    "modified": "2026-11-09"
+    "modified": "2026-11-14"
   },
   "/expertise/": {
-    "hash": "e2a1b57cc38ee124",
+    "hash": "68eb73156e0e906a",
     "published": "2026-06-02",
-    "modified": "2026-11-04"
+    "modified": "2026-11-14"
   },
   "/faq/": {
-    "hash": "344eec91c0f81e57",
+    "hash": "75c8131cf9a40383",
     "published": "2026-06-02",
-    "modified": "2026-11-04"
+    "modified": "2026-11-14"
   },
   "/insights/": {
-    "hash": "a8cf6ced819a71e7",
+    "hash": "db0d37704c3a098d",
     "published": "2026-09-10",
-    "modified": "2026-10-12"
+    "modified": "2026-11-14"
   },
   "/insights/data-consultancy-company-for-offshore-team/": {
-    "hash": "fe16c9703b906434",
+    "hash": "e08031a532397376",
     "published": "2026-09-18",
-    "modified": "2026-10-07"
+    "modified": "2026-11-14"
   },
   "/insights/letting-ai-assistants-query-your-data-warehouse-safely/": {
-    "hash": "c85df268410eed71",
+    "hash": "ab221f6e24d44b28",
     "published": "2026-10-12",
-    "modified": "2026-10-12"
+    "modified": "2026-11-14"
   },
   "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/": {
-    "hash": "fc0371076f1bb09f",
+    "hash": "5cb6f9dc11b8c1f5",
     "published": "2026-10-12",
-    "modified": "2026-10-12"
+    "modified": "2026-11-14"
   },
   "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/": {
-    "hash": "7a4ea18c2463ed84",
+    "hash": "9e0985491622394e",
     "published": "2026-09-10",
-    "modified": "2026-10-07"
+    "modified": "2026-11-14"
   },
   "/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/": {
-    "hash": "c61731f34ebd02a7",
+    "hash": "e843850349e51627",
     "published": "2026-09-10",
-    "modified": "2026-10-07"
+    "modified": "2026-11-14"
   },
   "/insights/reconciling-dynamics-365-business-central-with-your-data-warehouse/": {
-    "hash": "5cdb7f9544e42f87",
+    "hash": "29699a491e5b729f",
     "published": "2026-10-12",
-    "modified": "2026-10-12"
+    "modified": "2026-11-14"
   },
   "/insights/staff-augmentation-vs-project-consulting-vs-recruitment/": {
-    "hash": "77ae040f5bdc7949",
+    "hash": "84ba9d7b0c138d4b",
     "published": "2026-09-10",
-    "modified": "2026-10-07"
+    "modified": "2026-11-14"
   },
   "/insights/timezone-overlap-with-an-india-based-engineering-team/": {
-    "hash": "1cee03caa2fd5767",
+    "hash": "c4f1ebc0a1e96c86",
     "published": "2026-09-10",
-    "modified": "2026-10-07"
+    "modified": "2026-11-14"
   },
   "/insights/what-a-remote-data-engineering-team-from-india-costs/": {
-    "hash": "815440afacb9ea87",
+    "hash": "bfb8ffdddcf0dd08",
     "published": "2026-10-12",
-    "modified": "2026-10-12"
+    "modified": "2026-11-14"
   },
   "/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/": {
-    "hash": "407d8162cc28c2ae",
+    "hash": "2c8764304ed1f60f",
     "published": "2026-09-10",
-    "modified": "2026-10-07"
+    "modified": "2026-11-14"
   },
   "/process/": {
-    "hash": "f4a06a6c01e33df0",
+    "hash": "195a85c6e5214e43",
     "published": "2026-06-02",
-    "modified": "2026-11-04"
+    "modified": "2026-11-14"
   },
   "/remote-consulting/": {
-    "hash": "52029d7249f61cb7",
+    "hash": "e5603816b3374366",
     "published": "2026-09-10",
-    "modified": "2026-11-04"
+    "modified": "2026-11-14"
   },
   "/services/": {
-    "hash": "afa34f7c761c6521",
+    "hash": "93c0bee8560ff2b8",
     "published": "2026-06-02",
-    "modified": "2026-11-04"
+    "modified": "2026-11-14"
   },
   "/services/ai-consulting/": {
-    "hash": "3620883b28db0fe1",
+    "hash": "1d4ff02958a0d238",
     "published": "2026-09-10",
-    "modified": "2026-11-04"
+    "modified": "2026-11-14"
   },
   "/services/bigquery-consulting/": {
-    "hash": "c0e834a1ac23a989",
+    "hash": "365cdec504afbea7",
     "published": "2026-10-12",
-    "modified": "2026-11-04"
+    "modified": "2026-11-14"
   },
   "/services/blockchain-data-analytics/": {
-    "hash": "c8b9e323fd2338f7",
+    "hash": "eaa00ae2685678a9",
     "published": "2026-09-12",
-    "modified": "2026-11-04"
+    "modified": "2026-11-14"
   },
   "/services/business-intelligence/": {
-    "hash": "90a3cc2225c4147a",
+    "hash": "f12c003baf1abffe",
     "published": "2026-09-12",
-    "modified": "2026-11-04"
+    "modified": "2026-11-14"
   },
   "/services/custom-software/": {
-    "hash": "2f5cc15bc11d06a5",
+    "hash": "f2d64f88cda123bd",
     "published": "2026-09-10",
-    "modified": "2026-11-04"
+    "modified": "2026-11-14"
   },
   "/services/data-engineering/": {
-    "hash": "3449c195fc0a7060",
+    "hash": "20f17ad12a8cdae0",
     "published": "2026-09-10",
-    "modified": "2026-11-04"
+    "modified": "2026-11-14"
   },
   "/services/data-warehouse-migration/": {
-    "hash": "b8a49f462a9f4dbc",
+    "hash": "fdef0e061108a352",
     "published": "2026-09-12",
-    "modified": "2026-11-04"
+    "modified": "2026-11-14"
   },
   "/services/hire-data-engineers/": {
-    "hash": "cfbee6124e6562f1",
+    "hash": "e4b2730abc521f0f",
     "published": "2026-10-12",
-    "modified": "2026-11-04"
+    "modified": "2026-11-14"
   },
   "/services/it-staff-augmentation/": {
-    "hash": "06a4bb3164c8cd14",
+    "hash": "7d4c3cd65fb66590",
     "published": "2026-09-10",
-    "modified": "2026-11-04"
+    "modified": "2026-11-14"
   },
   "/services/mcp-and-ai-connectors/": {
-    "hash": "6d66691b478cff73",
+    "hash": "41755eed0f737af2",
     "published": "2026-09-12",
-    "modified": "2026-11-04"
+    "modified": "2026-11-14"
   },
   "/services/offshore-data-engineering-team/": {
-    "hash": "d7f0eaced1c7e31f",
+    "hash": "7e929aade9dc60ed",
     "published": "2026-09-18",
-    "modified": "2026-11-04"
+    "modified": "2026-11-14"
   },
   "/services/power-bi-consulting/": {
-    "hash": "d3b1015596876a08",
+    "hash": "8926d5443ab66340",
     "published": "2026-10-12",
-    "modified": "2026-11-04"
+    "modified": "2026-11-14"
   },
   "/services/snowflake-consulting/": {
-    "hash": "966a6cd3660f3564",
+    "hash": "197266d43c36e544",
     "published": "2026-10-12",
-    "modified": "2026-11-04"
+    "modified": "2026-11-14"
   },
   "/services/technology-recruitment/": {
-    "hash": "852c0cab7512a420",
+    "hash": "1e8abfb1488d7f1d",
     "published": "2026-09-10",
-    "modified": "2026-11-04"
+    "modified": "2026-11-14"
   },
   "/services/workflow-automation/": {
-    "hash": "2fb0c64d3f553d94",
+    "hash": "41f89865d0004069",
     "published": "2026-09-10",
-    "modified": "2026-11-04"
+    "modified": "2026-11-14"
   },
   "/solutions/": {
-    "hash": "cbfdea0a0babb1fa",
+    "hash": "cadb876bff59389c",
     "published": "2026-06-02",
-    "modified": "2026-11-04"
+    "modified": "2026-11-14"
   },
   "/us-clients/": {
-    "hash": "19ac510849999143",
+    "hash": "09b659ff215cd54b",
     "published": "2026-11-04",
-    "modified": "2026-11-04"
+    "modified": "2026-11-14"
   }
 }

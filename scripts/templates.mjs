@@ -5,6 +5,31 @@ import { escapeHtml as h } from './html.mjs';
 export const icon = (name) => `<i data-lucide="${name}" aria-hidden="true"></i>`;
 
 /**
+ * Company-name facts, all derived from content/site.json so the legal entity is spelled in exactly one place.
+ * site.name is the company name and is written in full everywhere. site.shortName is only what the logo artwork reads.
+ * site.legalEntity is the corporation behind the name; it is shown only where a legal party is needed.
+ */
+export const legalLine = (site) => `${site.name} is a registered assumed name (DBA) of ${site.legalEntity.name}, a ${site.legalEntity.form}.`;
+export const contractingParty = (site) => `${site.legalEntity.name}, doing business as ${site.name}`;
+/** Values for the {{legal.*}} / {{company.*}} tokens allowed in page sources and llms-style text. */
+export const factTokens = (site) => ({
+  'company.name': site.name,
+  'company.short': site.shortName,
+  'legal.name': site.legalEntity.name,
+  'legal.form': site.legalEntity.form,
+  'legal.line': legalLine(site),
+  'legal.party': contractingParty(site),
+});
+/** Replace {{token}} placeholders. Pass an escape function for HTML bodies; omit it for plain-text metadata. */
+export function fillFacts(text, site, escape = (value) => value) {
+  const tokens = factTokens(site);
+  return text.replace(/\{\{([a-z.]+)\}\}/g, (match, key) => {
+    if (!(key in tokens)) throw new Error(`Unknown fact token ${match}`);
+    return escape(tokens[key]);
+  });
+}
+
+/**
  * Lower-case a service name for use mid-sentence, keeping acronyms (AI, RAG, MCP, IT) capitalised.
  * "AI Automation, RAG & MCP Development" -> "AI automation, RAG & MCP development".
  */
@@ -22,14 +47,16 @@ export function callButton(site, label = 'Book a 30-minute call', cls = 'button-
   return `<a class="${cls}" href="/contact/#book-call">${h(label)} ${icon('arrow-right')}</a>`;
 }
 
-export function usCompanyNote(site) {
+export function usCompanyNote(site, route) {
   const note = site.usCompany;
+  // On the USA page itself the card points at the company details instead of linking to the page it is on.
+  const usLink = route === note.path ? `<a href="/about/">Company information ${icon('arrow-right')}</a>` : `<a href="${h(note.path)}">Services for clients in the USA ${icon('arrow-right')}</a>`;
   return `<section class="band locations-section" id="us-company" aria-labelledby="us-company-heading">
     <div class="container">
-      <div class="section-heading"><div><p class="eyebrow">Our presence</p><h2 id="us-company-heading">Based in India. Expanding to the USA.</h2></div><p class="location-intro">${h(note.currentDelivery)}</p></div>
+      <div class="section-heading"><div><p class="eyebrow">${h(note.eyebrow)}</p><h2 id="us-company-heading">${h(note.locationsHeading)}</h2></div><p class="location-intro">${h(note.intro)}</p></div>
       <div class="locations-grid">
-        <article class="location-entry"><span class="location-flag" aria-hidden="true">🇮🇳</span><div><p class="location-status">Delivery base</p><h3>India</h3><p>Ahmedabad, Gujarat</p><a href="/contact/">Contact our team ${icon('arrow-right')}</a></div></article>
-        <article class="location-entry"><span class="location-flag" aria-hidden="true">🇺🇸</span><div><p class="location-status">${h(note.status)}</p><h3>USA</h3><p>${h(note.copy)}</p><a href="${h(note.path)}">Services for clients in the USA ${icon('arrow-right')}</a></div></article>
+        <article class="location-entry"><span class="location-flag" aria-hidden="true">🇺🇸</span><div><p class="location-status">${h(note.status)}</p><h3>${h(note.usTitle)}</h3><p>${h(note.usCopy)}</p>${usLink}</div></article>
+        <article class="location-entry"><span class="location-flag" aria-hidden="true">🇮🇳</span><div><p class="location-status">${h(note.indiaStatus)}</p><h3>${h(note.indiaTitle)}</h3><p>${h(note.indiaCopy)}</p><a href="/contact/">Contact our team ${icon('arrow-right')}</a></div></article>
       </div>
     </div>
   </section>`;
@@ -62,16 +89,16 @@ export function overlapGraphic(site) {
 </figure>`;
 }
 
-export function comparisonTable(comparison) {
-  return `<div class="table-wrap" tabindex="0"><table class="data-table compare-table"><caption>Choose how to engage MV.tech</caption><thead><tr><th scope="col"><span class="sr-only">Consideration</span></th>${comparison.columns.map((label) => `<th scope="col">${h(label)}</th>`).join('')}</tr></thead><tbody>${comparison.rows.map(([label, ...cells]) => `<tr><th scope="row">${h(label)}</th>${cells.map((cell) => `<td>${h(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+export function comparisonTable(comparison, site) {
+  return `<div class="table-wrap" tabindex="0"><table class="data-table compare-table"><caption>Choose how to engage ${h(site.name)}</caption><thead><tr><th scope="col"><span class="sr-only">Consideration</span></th>${comparison.columns.map((label) => `<th scope="col">${h(label)}</th>`).join('')}</tr></thead><tbody>${comparison.rows.map(([label, ...cells]) => `<tr><th scope="row">${h(label)}</th>${cells.map((cell) => `<td>${h(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
 }
 
 export function faqList(items) {
   return `<div class="faq-list">${items.map((item) => `<details><summary><span>${h(item.question)}</span>${icon('chevron-down')}</summary><div class="faq-answer"><p>${h(item.answer)}</p></div></details>`).join('')}</div>`;
 }
 
-export function ctaBand(site, { heading = 'Tell us what needs to work better.', copy = 'Bring the goal, the systems involved and your preferred working hours. The first call is a 30-minute scoping conversation, and you leave with a written next step.', subject = 'Project enquiry for MV.tech', fields = ['Project goal', 'Current systems', 'Target date', 'Timezone and preferred overlap', 'Budget range (optional)'], callLabel = 'Book a 30-minute call' } = {}) {
-  return `<section class="band cta-band"><div class="container cta-grid"><div><p class="eyebrow">Your next step</p><h2>${h(heading)}</h2><p class="lead">${h(copy)}</p></div><div class="cta-actions">${callButton(site, callLabel)}${emailLink(site, subject, fields, 'Email your brief', 'button-secondary')}<a class="cta-email" href="mailto:${site.email}">${h(site.email)}</a><p class="cta-note">Remote from Ahmedabad, India · Overlap with any timezone · No obligation</p></div></div></section>`;
+export function ctaBand(site, { heading = 'Tell us what needs to work better.', copy = 'Bring the goal, the systems involved and your preferred working hours. The first call is a 30-minute scoping conversation, and you leave with a written next step.', subject = 'Project enquiry for MV.tech Solutions', fields = ['Project goal', 'Current systems', 'Target date', 'Timezone and preferred overlap', 'Budget range (optional)'], callLabel = 'Book a 30-minute call' } = {}) {
+  return `<section class="band cta-band"><div class="container cta-grid"><div><p class="eyebrow">Your next step</p><h2>${h(heading)}</h2><p class="lead">${h(copy)}</p></div><div class="cta-actions">${callButton(site, callLabel)}${emailLink(site, subject, fields, 'Email your brief', 'button-secondary')}<a class="cta-email" href="mailto:${site.email}">${h(site.email)}</a><p class="cta-note">Offices in New York and Ahmedabad · Overlap with your timezone · No obligation</p></div></div></section>`;
 }
 
 export function relatedServices(pages, currentKey, site) {
@@ -109,7 +136,7 @@ export function servicePage(page, site, allPages) {
       <h1>${h(page.h1 ?? page.name)}</h1>
       <p class="lead">${h(page.intro)}</p>
       <div class="action-row">${callButton(site, page.callLabel ?? 'Discuss your project')}${emailLink(site, subject, fields)}</div>
-      <ul class="fact-row" aria-label="Engagement facts"><li>${icon('map-pin')}Remote from Ahmedabad, India</li><li>${icon('clock-3')}Overlap with your timezone</li><li>${icon('users-round')}Senior specialists, direct access</li><li>${icon('file-check-2')}Scope agreed in writing</li></ul>
+      <ul class="fact-row" aria-label="Engagement facts"><li>${icon('map-pin')}Offices in New York and Ahmedabad</li><li>${icon('clock-3')}Overlap with your timezone</li><li>${icon('users-round')}Senior specialists, direct access</li><li>${icon('file-check-2')}Scope agreed in writing</li></ul>
     </div>
   </section>
   <section class="band band-light">
@@ -136,7 +163,7 @@ export function servicePage(page, site, allPages) {
     <div class="container">
       <div class="section-heading"><div><p class="eyebrow">Compare the model</p><h2>${h(page.comparison.heading)}</h2></div></div>
       <p class="lead measure">${h(page.comparison.intro)}</p>
-      ${comparisonTable(page.comparison)}
+      ${comparisonTable(page.comparison, site)}
     </div>
   </section>` : ''}
   <section class="band band-light" id="business-applications">
@@ -198,11 +225,11 @@ export function articlePage(article, site) {
     <div class="band">
       <div class="container narrow author-box">
         <div class="author-mark" aria-hidden="true">MV</div>
-        <div><p class="eyebrow">About the author</p><h2>${h(site.founder.name)}</h2><p>${h(site.founder.description)}</p><div class="proof-links"><a href="/about/">About MV.tech</a><a href="${site.toptal}" target="_blank" rel="noopener">Toptal profile</a><a href="/services/">Services</a></div></div>
+        <div><p class="eyebrow">About the author</p><h2>${h(site.founder.name)}</h2><p>${h(site.founder.description)}</p><div class="proof-links"><a href="/about/">About ${h(site.name)}</a><a href="${site.toptal}" target="_blank" rel="noopener">Toptal profile</a><a href="/services/">Services</a></div></div>
       </div>
     </div>
   </article>
-  ${ctaBand(site, { heading: 'Want help applying this?', copy: 'Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech.' })}
+  ${ctaBand(site, { heading: 'Want help applying this?', copy: 'Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech Solutions.' })}
 </main>`;
 }
 

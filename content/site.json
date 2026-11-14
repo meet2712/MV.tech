@@ -1,23 +1,57 @@
 {
-  "name": "MV.tech",
-  "legalName": "MV.tech",
+  "name": "MV.tech Solutions",
+  "shortName": "MV.tech",
+  "legalEntity": {
+    "name": "BB & KV Inc.",
+    "form": "New York corporation",
+    "jurisdiction": "New York, USA",
+    "region": "NY",
+    "regionName": "New York",
+    "country": "US",
+    "countryName": "USA"
+  },
   "alternateNames": [
+    "MV.tech",
+    "MV Tech Solutions",
+    "MVTech Solutions",
     "MV Tech",
     "MVTech",
     "M V Tech",
-    "MV Tech Solutions",
     "MV Tech Data Solutions",
     "MV Tech Ahmedabad"
   ],
   "origin": "https://mvtech.solutions",
   "tagline": "Data-Powered Solutions",
-  "summary": "MV.tech is a software development, data engineering and AI services company based in Ahmedabad, India. Founded in 2022, it builds business applications, data platforms, reporting systems, AI integrations and automated workflows. Services include project delivery, dedicated engineering teams, IT staff augmentation and technology recruitment for clients worldwide, with collaboration hours agreed per engagement.",
-  "shortSummary": "Software development, data engineering, BI and AI services from India, with project delivery, dedicated teams and technology recruitment.",
+  "summary": "MV.tech Solutions is a software development, data engineering and AI services company with offices in New York, USA, and Ahmedabad, India. Founded in 2022, it builds business applications, data platforms, reporting systems, AI integrations and automated workflows. Services include project delivery, dedicated engineering teams, IT staff augmentation and technology recruitment for clients in the USA and worldwide, with collaboration hours agreed per engagement.",
+  "shortSummary": "Software development, data engineering, BI and AI services, with offices in New York, USA, and Ahmedabad, India.",
+  "disambiguation": "The software, data and AI engineering company at mvtech.solutions, founded by Meet Vaghasia in 2022. Not affiliated with other businesses that use the name MV Tech.",
+  "offices": [
+    {
+      "name": "New York office",
+      "label": "New York, USA",
+      "locality": "New York",
+      "region": "NY",
+      "country": "US"
+    },
+    {
+      "name": "Ahmedabad office",
+      "label": "Ahmedabad, India",
+      "locality": "Ahmedabad",
+      "region": "Gujarat",
+      "postalCode": "380061",
+      "country": "IN"
+    }
+  ],
   "usCompany": {
-    "status": "Coming soon",
-    "heading": "USA company coming soon",
-    "copy": "We’re setting up our company in the United States.",
-    "currentDelivery": "Our India team is available for new projects, with working hours planned around your team.",
+    "eyebrow": "Our offices",
+    "locationsHeading": "Offices in New York and Ahmedabad.",
+    "intro": "Work with our New York office and our engineering team in Ahmedabad, with working hours planned around yours.",
+    "status": "USA",
+    "usTitle": "New York",
+    "usCopy": "Our US office, for clients and contracts in the United States.",
+    "indiaStatus": "India",
+    "indiaTitle": "Ahmedabad",
+    "indiaCopy": "Our engineering office in Gujarat. The delivery team works from here, in hours agreed with your team.",
     "path": "/us-clients/"
   },
   "email": "contact@mvtech.solutions",
@@ -40,7 +74,7 @@
   "founder": {
     "name": "Meet Vaghasia",
     "jobTitle": "Founder & Lead Engineer",
-    "description": "Meet Vaghasia is the founder of MV.tech. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.",
+    "description": "Meet Vaghasia is the founder of MV.tech Solutions. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.",
     "sameAs": [
       "https://www.linkedin.com/in/meet2712/",
       "https://www.toptal.com/developers/resume/meet-vaghasia",
@@ -74,7 +108,7 @@
     "Toptal",
     "Turing"
   ],
-  "workedWithNote": "Names reflect organisations MV.tech's team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.",
+  "workedWithNote": "Names reflect organisations the MV.tech Solutions team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.",
   "knowsAbout": [
     "Data engineering and ETL/ELT pipeline development in Python and SQL",
     "Offshore data engineering teams from India for companies that need senior remote delivery",
@@ -172,7 +206,7 @@
     ],
     "company": [
       {
-        "label": "About MV.tech",
+        "label": "About MV.tech Solutions",
         "href": "/about/"
       },
       {

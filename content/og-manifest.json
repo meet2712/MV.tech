@@ -3,18 +3,18 @@
     "route": "/",
     "slug": "home",
     "title": "Software development, data engineering and AI services",
-    "kicker": "MV.tech · Software · Data · AI · Remote engineering services"
+    "kicker": "MV.tech Solutions · Software · Data · AI engineering"
   },
   {
     "route": "/about/",
     "slug": "about",
-    "title": "About MV.tech: company, services and engineering approach",
-    "kicker": "MV.tech · Software · Data · AI · Remote engineering services"
+    "title": "About MV.tech Solutions: company, services and approach",
+    "kicker": "MV.tech Solutions · Offices in New York and Ahmedabad"
   },
   {
     "route": "/brand/",
     "slug": "brand",
-    "title": "MV.tech brand kit — logos, colours, type and guidelines",
+    "title": "MV.tech Solutions brand kit — logos, colours, type and guidelines",
     "kicker": "Vector masters · Design tokens · Guidelines · Free download"
   },
   {
@@ -33,19 +33,19 @@
     "route": "/expertise/",
     "slug": "expertise",
     "title": "Engineering capabilities and professional experience",
-    "kicker": "MV.tech · Software · Data · AI · Remote engineering services"
+    "kicker": "MV.tech Solutions · Software · Data · AI engineering"
   },
   {
     "route": "/faq/",
     "slug": "faq",
-    "title": "Questions about services and working with MV.tech",
-    "kicker": "MV.tech · Software · Data · AI · Remote engineering services"
+    "title": "Questions about working with MV.tech Solutions",
+    "kicker": "MV.tech Solutions · Company · Services · Delivery · Pricing"
   },
   {
     "route": "/insights/",
     "slug": "insights",
     "title": "Insights",
-    "kicker": "Guides from the MV.tech engineering team"
+    "kicker": "Guides from the MV.tech Solutions engineering team"
   },
   {
     "route": "/insights/data-consultancy-company-for-offshore-team/",
@@ -111,120 +111,120 @@
     "route": "/process/",
     "slug": "process",
     "title": "From requirements to production delivery",
-    "kicker": "MV.tech · Software · Data · AI · Remote engineering services"
+    "kicker": "MV.tech Solutions · Software · Data · AI engineering"
   },
   {
     "route": "/remote-consulting/",
     "slug": "remote-consulting",
     "title": "How We Work: Remote Team, Timezones & Costs",
-    "kicker": "MV.tech · Project delivery · Dedicated capacity"
+    "kicker": "MV.tech Solutions · Project delivery · Dedicated capacity"
   },
   {
     "route": "/services/",
     "slug": "services",
     "title": "Engineering services for software, data and AI",
-    "kicker": "MV.tech · Software · Data · AI · Remote engineering services"
+    "kicker": "MV.tech Solutions · Software · Data · AI engineering"
   },
   {
     "route": "/services/ai-consulting/",
     "slug": "services-ai-consulting",
     "title": "AI Automation, RAG & MCP Development",
-    "kicker": "MV.tech · Consulting · Development · Integration"
+    "kicker": "MV.tech Solutions · Consulting · Development · Integration"
   },
   {
     "route": "/services/bigquery-consulting/",
     "slug": "services-bigquery-consulting",
     "title": "BigQuery Consulting",
-    "kicker": "MV.tech · Consulting · Development · Integration"
+    "kicker": "MV.tech Solutions · Consulting · Development · Integration"
   },
   {
     "route": "/services/blockchain-data-analytics/",
     "slug": "services-blockchain-data-analytics",
     "title": "Blockchain & On-Chain Data Analytics",
-    "kicker": "MV.tech · Consulting · Development · Integration"
+    "kicker": "MV.tech Solutions · Consulting · Development · Integration"
   },
   {
     "route": "/services/business-intelligence/",
     "slug": "services-business-intelligence",
     "title": "Business Intelligence & Dashboards",
-    "kicker": "MV.tech · Consulting · Development · Integration"
+    "kicker": "MV.tech Solutions · Consulting · Development · Integration"
   },
   {
     "route": "/services/custom-software/",
     "slug": "services-custom-software",
     "title": "Custom Software Development",
-    "kicker": "MV.tech · Consulting · Development · Integration"
+    "kicker": "MV.tech Solutions · Consulting · Development · Integration"
   },
   {
     "route": "/services/data-engineering/",
     "slug": "services-data-engineering",
     "title": "Data Engineering Consulting",
-    "kicker": "MV.tech · Consulting · Development · Integration"
+    "kicker": "MV.tech Solutions · Consulting · Development · Integration"
   },
   {
     "route": "/services/data-warehouse-migration/",
     "slug": "services-data-warehouse-migration",
     "title": "Data Warehouse Migration",
-    "kicker": "MV.tech · Consulting · Development · Integration"
+    "kicker": "MV.tech Solutions · Consulting · Development · Integration"
   },
   {
     "route": "/services/hire-data-engineers/",
     "slug": "services-hire-data-engineers",
     "title": "Hire Data Engineers",
-    "kicker": "MV.tech · Embedded engineers · Projects · Recruitment"
+    "kicker": "MV.tech Solutions · Embedded engineers · Projects · Recruitment"
   },
   {
     "route": "/services/it-staff-augmentation/",
     "slug": "services-it-staff-augmentation",
     "title": "IT Staff Augmentation",
-    "kicker": "MV.tech · Specialist capacity · Dedicated teams"
+    "kicker": "MV.tech Solutions · Specialist capacity · Dedicated teams"
   },
   {
     "route": "/services/mcp-and-ai-connectors/",
     "slug": "services-mcp-and-ai-connectors",
     "title": "MCP Servers & AI Connectors",
-    "kicker": "MV.tech · Consulting · Development · Integration"
+    "kicker": "MV.tech Solutions · Consulting · Development · Integration"
   },
   {
     "route": "/services/offshore-data-engineering-team/",
     "slug": "services-offshore-data-engineering-team",
     "title": "Offshore Data Engineering Team",
-    "kicker": "MV.tech · Consulting · Development · Integration"
+    "kicker": "MV.tech Solutions · Consulting · Development · Integration"
   },
   {
     "route": "/services/power-bi-consulting/",
     "slug": "services-power-bi-consulting",
     "title": "Power BI Consulting",
-    "kicker": "MV.tech · Consulting · Development · Integration"
+    "kicker": "MV.tech Solutions · Consulting · Development · Integration"
   },
   {
     "route": "/services/snowflake-consulting/",
     "slug": "services-snowflake-consulting",
     "title": "Snowflake Consulting",
-    "kicker": "MV.tech · Consulting · Development · Integration"
+    "kicker": "MV.tech Solutions · Consulting · Development · Integration"
   },
   {
     "route": "/services/technology-recruitment/",
     "slug": "services-technology-recruitment",
     "title": "Technology Recruitment",
-    "kicker": "MV.tech · Permanent hiring · Technical assessment"
+    "kicker": "MV.tech Solutions · Permanent hiring · Technical assessment"
   },
   {
     "route": "/services/workflow-automation/",
     "slug": "services-workflow-automation",
     "title": "Workflow Automation Consulting",
-    "kicker": "MV.tech · Consulting · Development · Integration"
+    "kicker": "MV.tech Solutions · Consulting · Development · Integration"
   },
   {
     "route": "/solutions/",
     "slug": "solutions",
     "title": "Business solutions across reporting, operations and products",
-    "kicker": "MV.tech · Software · Data · AI · Remote engineering services"
+    "kicker": "MV.tech Solutions · Software · Data · AI engineering"
   },
   {
     "route": "/us-clients/",
     "slug": "us-clients",
     "title": "Engineering services for businesses in the USA",
-    "kicker": "MV.tech · Software · Data · AI · Remote engineering services"
+    "kicker": "MV.tech Solutions · New York office · Engineering team in India"
   }
 ]

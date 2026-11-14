@@ -11,7 +11,7 @@ import { createHash } from 'node:crypto';
 import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { attr, escapeHtml as h, fileFor, htmlToText, parseFragment, slugFor, stripTags, textContent, walk } from './html.mjs';
-import { articlePage, callButton, icon, insightsIndex, servicePage, usCompanyNote } from './templates.mjs';
+import { articlePage, callButton, contractingParty, fillFacts, icon, insightsIndex, legalLine, servicePage, usCompanyNote } from './templates.mjs';
 
 const site = JSON.parse(await readFile('content/site.json', 'utf8'));
 const origin = site.origin;
@@ -29,8 +29,9 @@ function parseMetaFile(source, file) {
   const match = source.match(/^\s*<!--meta\s*([\s\S]*?)-->\s*([\s\S]*)$/);
   if (!match) throw new Error(`${file}: missing <!--meta {…}--> header`);
   let meta;
-  try { meta = JSON.parse(match[1]); } catch (error) { throw new Error(`${file}: invalid meta JSON (${error.message})`); }
-  return { meta, body: match[2].trim() };
+  // {{legal.*}} and {{company.*}} tokens come from content/site.json, so the legal entity is never retyped in a page.
+  try { meta = JSON.parse(fillFacts(match[1], site, (value) => JSON.stringify(value).slice(1, -1))); } catch (error) { throw new Error(`${file}: invalid meta JSON (${error.message})`); }
+  return { meta, body: fillFacts(match[2].trim(), site, h) };
 }
 
 const pages = [];
@@ -38,7 +39,7 @@ const pages = [];
 for (const name of (await readdir('content/pages')).filter((f) => f.endsWith('.html')).sort()) {
   const file = `content/pages/${name}`;
   const { meta, body: sourceBody } = parseMetaFile(await readFile(file, 'utf8'), file);
-  const body = sourceBody.replace('<!--us-company-note-->', () => usCompanyNote(site));
+  const body = sourceBody.replace('<!--us-company-note-->', () => usCompanyNote(site, meta.route));
   pages.push({ ...meta, body, kind: meta.kind ?? 'page', source: file, hashSource: hash(JSON.stringify(meta) + body) });
 }
 
@@ -84,9 +85,9 @@ for (const article of articles) {
 {
   const indexPage = {
     route: '/insights/', name: 'Insights', kind: 'collection',
-    title: 'Insights on Remote Engineering, Data & AI | MV.tech',
-    description: 'Practical guides from MV.tech on working with remote engineering teams across timezones, hiring data consultants, RAG, MCP servers and engagement models.',
-    ogTitle: 'Insights', ogKicker: 'Guides from the MV.tech engineering team',
+    title: 'Insights on Remote Engineering, Data & AI | MV.tech Solutions',
+    description: 'Practical guides from MV.tech Solutions on working with remote engineering teams across timezones, hiring data consultants, RAG, MCP servers and engagement models.',
+    ogTitle: 'Insights', ogKicker: 'Guides from the MV.tech Solutions engineering team',
     body: insightsIndex(articles, site), source: 'content/insights', hashSource: hash(articles.map((a) => a.route + a.title + a.description)),
     itemList: articles.map((a) => ({ name: a.title, url: origin + a.route })),
   };
@@ -109,7 +110,7 @@ if (routes.size !== pages.length) throw new Error('Duplicate routes: ' + pages.m
 // ---------------------------------------------------------------------------------------------
 const header = `<header id="main-header" class="site-header">
   <div class="container header-inner">
-    <a href="/" class="brand-link" aria-label="MV.tech home"><img src="/images/logo-light.svg" alt="MV.tech" width="520" height="167"></a>
+    <a href="/" class="brand-link" aria-label="${h(site.name)} home"><img src="/images/logo-light.svg" alt="${h(site.name)}" width="520" height="167"></a>
     <nav class="desktop-nav" aria-label="Main navigation">${site.nav.map((item) => `<a href="${item.href}" class="site-nav-link">${h(item.label)}</a>`).join('')}</nav>
     <div class="header-actions">${callButton(site, 'Book a call', 'button-primary header-cta')}<button id="mobile-menu-btn" class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">${icon('menu')}</button></div>
   </div>
@@ -121,15 +122,15 @@ const footer = `<footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="/" aria-label="MV.tech home"><img src="/images/logo.svg" alt="MV.tech – Data, AI and digital solutions" width="520" height="167" loading="lazy"></a>
-        <p>Software, data and AI engineering.<br>Based in Ahmedabad, India.<br>Working with teams worldwide.</p>
-        <p class="footer-worked"><a href="${h(site.usCompany.path)}">${h(site.usCompany.heading)} ${icon('arrow-up-right')}</a></p>
+        <a href="/" aria-label="${h(site.name)} home"><img src="/images/logo.svg" alt="${h(site.name)} – software, data and AI engineering" width="520" height="167" loading="lazy"></a>
+        <p>Software, data and AI engineering.<br>Offices in ${h(site.offices[0].label)},<br>and ${h(site.offices[1].label)}.</p>
+        <p class="footer-worked"><a href="${h(site.usCompany.path)}">Services for clients in the USA ${icon('arrow-up-right')}</a></p>
       </div>
       <nav aria-label="Services"><h2>Services</h2>${footerLinks(site.footer.services)}</nav>
       <nav aria-label="Company"><h2>Company</h2>${footerLinks(site.footer.company)}</nav>
       <nav aria-label="Contact"><h2>Contact</h2>${footerLinks(site.footer.connect)}</nav>
     </div>
-    <div class="footer-bottom"><p>&copy; ${latest.slice(0, 4)} ${h(site.name)}. All rights reserved.</p><p>${h(site.address.locality)}, ${h(site.address.region)}, ${h(site.address.countryName)} · GSTIN ${h(site.gstin)}</p><p><a href="/llms.txt">llms.txt</a> · <a href="/sitemap.xml">Sitemap</a></p></div>
+    <div class="footer-bottom"><p>&copy; ${latest.slice(0, 4)} ${h(site.name)}. All rights reserved.</p><p class="footer-offices">${h(site.offices.map((office) => office.label).join(' · '))} · India GSTIN ${h(site.gstin)}</p><p><a href="/llms.txt">llms.txt</a> · <a href="/sitemap.xml">Sitemap</a></p></div>
   </div>
 </footer>
 <div class="sticky-cta" id="sticky-cta" hidden><a class="button-primary" href="/contact/#book-call">Book a call</a><a class="button-secondary" href="mailto:${site.email}">Email us</a></div>`;
@@ -162,14 +163,17 @@ function schemaGraph(page) {
   const url = origin + page.route;
   const ogImage = `${origin}/images/og/${page.ogSlug ?? slugFor(page.route)}.jpg`;
   const organization = {
-    '@type': ['Organization', 'ProfessionalService'], '@id': `${origin}/#organization`, name: site.name, legalName: site.legalName, alternateName: site.alternateNames,
+    '@type': ['Organization', 'ProfessionalService'], '@id': `${origin}/#organization`, name: site.name, legalName: site.legalEntity.name, alternateName: site.alternateNames,
     url: `${origin}/`, logo: { '@type': 'ImageObject', url: `${origin}/images/logo.png`, width: 1200, height: 384 }, image: `${origin}/images/og/home.jpg`,
-    description: site.summary, slogan: 'Software, data and AI engineering for business', email: site.email,
-    foundingDate: String(site.foundingYear), taxID: site.gstin,
+    description: site.summary, disambiguatingDescription: site.disambiguation, slogan: 'Software, data and AI engineering for business', email: site.email,
+    foundingDate: String(site.foundingYear),
+    // The GSTIN belongs to the India delivery operation, so it is a labelled identifier rather than the US corporation's taxID.
+    identifier: { '@type': 'PropertyValue', propertyID: 'GSTIN', name: 'India GSTIN', value: site.gstin },
     numberOfEmployees: { '@type': 'QuantitativeValue', minValue: site.teamSize.min, maxValue: site.teamSize.max },
-    address: { '@type': 'PostalAddress', addressLocality: site.address.locality, addressRegion: site.address.region, postalCode: site.address.postalCode, addressCountry: site.address.country },
-    areaServed: 'Worldwide', founder: { '@id': `${origin}/#founder` }, sameAs: [site.linkedin, site.crunchbase], knowsAbout: site.knowsAbout,
-    contactPoint: { '@type': 'ContactPoint', contactType: 'sales', email: site.email, url: `${origin}/contact/`, areaServed: 'Worldwide', availableLanguage: ['English', 'Hindi', 'Gujarati'] },
+    // The two offices, New York first. City level only: no street address is published for either.
+    address: site.offices.map((office) => ({ '@type': 'PostalAddress', name: office.name, addressLocality: office.locality, addressRegion: office.region, ...(office.postalCode ? { postalCode: office.postalCode } : {}), addressCountry: office.country })),
+    areaServed: [{ '@type': 'Country', name: 'United States' }, 'Worldwide'], founder: { '@id': `${origin}/#founder` }, sameAs: [site.linkedin, site.crunchbase], knowsAbout: site.knowsAbout,
+    contactPoint: { '@type': 'ContactPoint', contactType: 'sales', email: site.email, url: `${origin}/contact/`, areaServed: ['US', 'Worldwide'], availableLanguage: ['English', 'Hindi', 'Gujarati'] },
     makesOffer: consulting.filter((p) => p.path.startsWith('/services/')).map((p) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', '@id': `${origin}${p.path}#service`, name: p.name, url: origin + p.path } })),
   };
   const founder = { '@type': 'Person', '@id': `${origin}/#founder`, name: site.founder.name, jobTitle: site.founder.jobTitle, description: site.founder.description, url: `${origin}/about/`, worksFor: { '@id': `${origin}/#organization` }, sameAs: site.founder.sameAs, knowsAbout: site.knowsAbout, hasCredential: site.credentials.map((c) => ({ '@type': 'EducationalOccupationalCredential', name: c.name, credentialCategory: c.category, recognizedBy: { '@type': 'Organization', name: c.issuer } })) };
@@ -249,13 +253,13 @@ ${page.route === '/' ? `<meta name="google-site-verification" content="${site.go
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="${h(page.ogTitle ?? page.name)} – MV.tech">
+<meta property="og:image:alt" content="${h(page.ogTitle ?? page.name)} – ${h(site.name)}">
 ${page.kind === 'article' ? `<meta property="article:published_time" content="${page.published}">\n<meta property="article:modified_time" content="${page.modified}">\n<meta property="article:author" content="${h(site.founder.name)}">` : ''}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${h(page.pageTitle ?? page.title)}">
 <meta name="twitter:description" content="${h(page.description)}">
 <meta name="twitter:image" content="${ogImage}">
-<meta name="twitter:image:alt" content="${h(page.ogTitle ?? page.name)} – MV.tech">
+<meta name="twitter:image:alt" content="${h(page.ogTitle ?? page.name)} – ${h(site.name)}">
 <link rel="preload" href="/fonts/inter-latin-site.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/css/site.css">
 <script src="/js/icons.js" defer></script>
@@ -284,9 +288,9 @@ for (const page of pages) {
 
 // 404 page (GitHub Pages serves /404.html for unknown routes).
 await writeFile('404.html', layout({
-  route: '/404.html', kind: 'page', name: 'Page not found', title: 'Page not found | MV.tech', description: 'The page you requested does not exist. Find MV.tech services, insights and contact details.',
+  route: '/404.html', kind: 'page', name: 'Page not found', title: 'Page not found | MV.tech Solutions', description: 'The page you requested does not exist. Find MV.tech Solutions services, insights and contact details.',
   published: latest, modified: latest, ogTitle: 'Page not found', ogSlug: 'home',
-  body: `<main id="main-content"><section class="page-hero"><div class="container"><p class="eyebrow">404</p><h1>That page is not here.</h1><p class="lead">The address may have changed. These links cover most of what people look for.</p><div class="action-row"><a class="button-primary" href="/">Go to the homepage ${icon('arrow-right')}</a><a class="button-secondary" href="/services/">Browse services</a></div><div class="proof-links"><a href="/remote-consulting/">How we work across timezones</a><a href="/insights/">Insights</a><a href="/about/">About MV.tech</a><a href="/contact/">Contact</a></div></div></section></main>`,
+  body: `<main id="main-content"><section class="page-hero"><div class="container"><p class="eyebrow">404</p><h1>That page is not here.</h1><p class="lead">The address may have changed. These links cover most of what people look for.</p><div class="action-row"><a class="button-primary" href="/">Go to the homepage ${icon('arrow-right')}</a><a class="button-secondary" href="/services/">Browse services</a></div><div class="proof-links"><a href="/remote-consulting/">How we work across timezones</a><a href="/insights/">Insights</a><a href="/about/">About ${h(site.name)}</a><a href="/contact/">Contact</a></div></div></section></main>`,
 }, { noindex: true }).replace(`<link rel="canonical" href="${origin}/404.html">\n`, ''));
 
 // Sitemap with accurate modification dates.
@@ -294,17 +298,17 @@ const ordered = [...pages].sort((a, b) => (a.route === '/' ? -1 : b.route === '/
 await writeFile('sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + ordered.map((p) => `  <url><loc>${origin}${p.route}</loc><lastmod>${p.modified}</lastmod></url>`).join('\n') + '\n</urlset>\n');
 
 // Machine-readable full-site text for AI crawlers, generated from the same HTML people see.
-const llmsHeader = `# MV.tech — full site context for AI assistants and crawlers
+const llmsHeader = `# ${site.name} — full site context for AI assistants and crawlers
 
 > ${site.summary}
 
 Official website: ${origin}/
-Brand name: ${site.name} (also searched as ${site.alternateNames.join(', ')})
+Company name: ${site.name}, written in full wherever the company is named. The logo artwork reads "${site.shortName}"; both refer to the same company. Also searched as ${site.alternateNames.slice(1).join(', ')}.
+Legal entity: ${legalLine(site)} Where the US company is the contracting party, agreements name it as "${contractingParty(site)}". ${site.name} is a trade name, not a separate corporation or LLC, so do not write "${site.name} Inc." or "${site.name} LLC".
 Contact: ${site.email} · Book a call: ${origin}/contact/#book-call
 Founder: ${site.founder.name}, ${site.founder.jobTitle} (${site.founder.sameAs[0]})
 LinkedIn: ${site.linkedin}
-Location: ${site.address.locality}, ${site.address.region}, ${site.address.countryName} · Serves clients worldwide with agreed timezone overlap
-United States (USA) company: ${site.usCompany.status}. ${site.usCompany.copy} ${site.usCompany.currentDelivery} Details: ${origin}${site.usCompany.path}
+Offices: ${site.offices[0].label}, and ${site.address.locality}, ${site.address.region}, ${site.address.countryName}. The engineering team works from the Ahmedabad office (India GSTIN ${site.gstin}). Serves clients in the USA and worldwide with agreed timezone overlap. Details: ${origin}${site.usCompany.path}
 Teams our engineers have worked with: ${site.workedWith.join(', ')}. ${site.workedWithNote}
 Last generated: ${latest}. Short summary and answer guidance: ${origin}/llms.txt
 
