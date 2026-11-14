@@ -1,11 +1,11 @@
 {
   "/": {
-    "hash": "8b731c158b89ba85",
+    "hash": "b5f05aa90e7c9f38",
     "published": "2026-01-02",
     "modified": "2026-11-14"
   },
   "/about/": {
-    "hash": "bada045c78b0c3fa",
+    "hash": "4becbe2fa6953cc2",
     "published": "2026-06-02",
     "modified": "2026-11-14"
   },
@@ -25,7 +25,7 @@
     "modified": "2026-11-14"
   },
   "/contact/": {
-    "hash": "e036dfcdb8eaf9b1",
+    "hash": "ed770e62e1e571d0",
     "published": "2026-06-02",
     "modified": "2026-11-14"
   },
@@ -35,17 +35,17 @@
     "modified": "2026-11-14"
   },
   "/faq/": {
-    "hash": "26348c81d58bdcfd",
+    "hash": "0fc0ee10c38fa8b3",
     "published": "2026-06-02",
     "modified": "2026-11-14"
   },
   "/insights/": {
-    "hash": "5121d06f13de59af",
+    "hash": "f2136bbf38989c90",
     "published": "2026-09-10",
     "modified": "2026-11-14"
   },
   "/insights/data-consultancy-company-for-offshore-team/": {
-    "hash": "349b0f39295ff48b",
+    "hash": "accfdf1bd4bcb13d",
     "published": "2026-09-18",
     "modified": "2026-11-14"
   },
@@ -80,7 +80,7 @@
     "modified": "2026-11-14"
   },
   "/insights/timezone-overlap-with-an-india-based-engineering-team/": {
-    "hash": "b4fdc48c648521cd",
+    "hash": "12ea66663209e9de",
     "published": "2026-09-10",
     "modified": "2026-11-14"
   },
@@ -105,7 +105,7 @@
     "modified": "2026-11-14"
   },
   "/remote-consulting/": {
-    "hash": "5b136e7c221060f4",
+    "hash": "4c87b2b8f6c0ae83",
     "published": "2026-09-10",
     "modified": "2026-11-14"
   },
@@ -120,27 +120,27 @@
     "modified": "2026-11-14"
   },
   "/services/application-development/": {
-    "hash": "c19d914326b5e866",
+    "hash": "f78701dc0c7f0698",
     "published": "2026-11-14",
     "modified": "2026-11-14"
   },
   "/services/bigquery-consulting/": {
-    "hash": "69d9c9f00594db36",
+    "hash": "ef19a657b27c0465",
     "published": "2026-10-12",
     "modified": "2026-11-14"
   },
   "/services/blockchain-data-analytics/": {
-    "hash": "a74f1596f91e372c",
+    "hash": "d4254799d297857e",
     "published": "2026-09-12",
     "modified": "2026-11-14"
   },
   "/services/business-intelligence/": {
-    "hash": "e791370dfd4a2487",
+    "hash": "fbe3a614f8d3a550",
     "published": "2026-09-12",
     "modified": "2026-11-14"
   },
   "/services/custom-software/": {
-    "hash": "b2cfc56f7a46cb45",
+    "hash": "90c409589ad4c1cf",
     "published": "2026-09-10",
     "modified": "2026-11-14"
   },
@@ -150,7 +150,7 @@
     "modified": "2026-11-14"
   },
   "/services/data-warehouse-migration/": {
-    "hash": "47e2b4128e6acb4c",
+    "hash": "96f90a2e1179e4be",
     "published": "2026-09-12",
     "modified": "2026-11-14"
   },
@@ -160,12 +160,12 @@
     "modified": "2026-11-14"
   },
   "/services/it-staff-augmentation/": {
-    "hash": "a25d2fdb6fd4dbb4",
+    "hash": "e2738839d444e9a5",
     "published": "2026-09-10",
     "modified": "2026-11-14"
   },
   "/services/mcp-and-ai-connectors/": {
-    "hash": "b03c174d5dad692b",
+    "hash": "70bbd894a297a75e",
     "published": "2026-09-12",
     "modified": "2026-11-14"
   },
@@ -180,7 +180,7 @@
     "modified": "2026-11-14"
   },
   "/services/snowflake-consulting/": {
-    "hash": "06f8d8dce9fda7c7",
+    "hash": "87849b9626cba336",
     "published": "2026-10-12",
     "modified": "2026-11-14"
   },
@@ -190,7 +190,7 @@
     "modified": "2026-11-14"
   },
   "/services/web-development/": {
-    "hash": "339a45bb16ef38d4",
+    "hash": "ead9187ccc57cfe2",
     "published": "2026-11-14",
     "modified": "2026-11-14"
   },

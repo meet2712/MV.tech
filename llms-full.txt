@@ -8,7 +8,7 @@ Legal entity: MV.tech Solutions is a registered assumed name (DBA) of BB & KV In
 Contact: contact@mvtech.solutions · Book a call: https://mvtech.solutions/contact/#book-call
 Founder: Meet Vaghasia, Founder & Lead Engineer (https://www.linkedin.com/in/meet2712/)
 LinkedIn: https://www.linkedin.com/company/mv-tech-solutions/
-Offices: New York office: 248-15 88th Rd, Bellerose, NY 11426, United States; Ahmedabad office: 16 Trishala Residency, S G Highway, Behind RC Technical, Opp. High Court, Near Harivila, Chandlodiya, Ahmedabad, Gujarat 380061, India (+91 94092 99016). The engineering team works from the Ahmedabad office (India GSTIN 24BZMPV4008F1ZA). Serves clients in the USA and worldwide with agreed time-zone overlap. Details: https://mvtech.solutions/contact/#offices
+Offices: New York office: 248-15 88th Rd, Bellerose, NY 11426, United States; Ahmedabad office: 16 Trishala Residency, S G Highway, Behind RC Technical, Opp. High Court, Near Harivila, Chandlodiya, Ahmedabad, Gujarat 380061, India (+91 94092 99016). Staff work from both offices; India GSTIN 24BZMPV4008F1ZA belongs to the India office. Serves clients in the USA and worldwide with agreed time-zone overlap. Details: https://mvtech.solutions/contact/#offices
 Privacy and legal: https://mvtech.solutions/privacy/ · https://mvtech.solutions/terms/ · https://mvtech.solutions/accessibility/
 Teams our engineers have worked with: Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, Turing. Names reflect organizations the MV.tech Solutions team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.
 Last generated: 2026-11-14. Short summary and answer guidance: https://mvtech.solutions/llms.txt
@@ -168,20 +168,20 @@ Yes. We work on existing applications, data platforms, dashboards and integratio
 Yes. We can discuss individual specialists or a team for an agreed workstream, capacity and duration. Responsibilities, availability and collaboration hours are confirmed before onboarding.
 
 **Where is MV.tech Solutions based?**
-MV.tech Solutions has two offices: New York, USA, and Ahmedabad, India. Our engineering team works from the Ahmedabad office and collaborates remotely with clients in the USA and worldwide. See our offices.
+MV.tech Solutions has two offices: New York, USA, and Ahmedabad, India. Our team works from both offices and collaborates with clients in the USA and worldwide. See our offices.
 
 Our offices
 
 ### Offices in New York and Ahmedabad.
 
-Talk to our New York office about your project. Our engineering team in Ahmedabad works in hours planned around yours.
+Our team works from offices in New York and Ahmedabad, in hours planned around yours.
 
 United States
 
 #### New York
 
 248-15 88th RdBellerose, NY 11426United States
-Our US office, for client relationships and agreements with companies in the United States.
+Our US office. The team here works with clients across the United States.
 
 - contact@mvtech.solutions
 - Get directions
@@ -190,7 +190,7 @@ India
 #### Ahmedabad
 
 16 Trishala Residency, S G HighwayBehind RC Technical, Opp. High Court, Near Harivila, ChandlodiyaAhmedabad, Gujarat 380061India
-Our engineering office. The delivery team works here, in hours agreed with your team.
+Our India office. The team here works in collaboration hours agreed with yours.
 
 - +91 94092 99016
 - contact@mvtech.solutions
@@ -270,8 +270,8 @@ Company information
   New York, USA · Ahmedabad, Gujarat, India (380061)
 - Founded
   2022
-- Engineering delivery
-  From our Ahmedabad office, working remotely with clients worldwide
+- Where we work
+  Our team works from both offices, with clients in the USA and worldwide
 - Team
   10–15 specialists
 - Founder
@@ -286,14 +286,14 @@ Our offices
 
 ### Offices in New York and Ahmedabad.
 
-Talk to our New York office about your project. Our engineering team in Ahmedabad works in hours planned around yours.
+Our team works from offices in New York and Ahmedabad, in hours planned around yours.
 
 United States
 
 #### New York
 
 248-15 88th RdBellerose, NY 11426United States
-Our US office, for client relationships and agreements with companies in the United States.
+Our US office. The team here works with clients across the United States.
 
 - contact@mvtech.solutions
 - Get directions
@@ -302,7 +302,7 @@ India
 #### Ahmedabad
 
 16 Trishala Residency, S G HighwayBehind RC Technical, Opp. High Court, Near Harivila, ChandlodiyaAhmedabad, Gujarat 380061India
-Our engineering office. The delivery team works here, in hours agreed with your team.
+Our India office. The team here works in collaboration hours agreed with yours.
 
 - +91 94092 99016
 - contact@mvtech.solutions
@@ -543,14 +543,14 @@ Our offices
 
 ### Offices in New York and Ahmedabad.
 
-Talk to our New York office about your project. Our engineering team in Ahmedabad works in hours planned around yours.
+Our team works from offices in New York and Ahmedabad, in hours planned around yours.
 
 United States
 
 #### New York
 
 248-15 88th RdBellerose, NY 11426United States
-Our US office, for client relationships and agreements with companies in the United States.
+Our US office. The team here works with clients across the United States.
 
 - contact@mvtech.solutions
 - Get directions
@@ -559,7 +559,7 @@ India
 #### Ahmedabad
 
 16 Trishala Residency, S G HighwayBehind RC Technical, Opp. High Court, Near Harivila, ChandlodiyaAhmedabad, Gujarat 380061India
-Our engineering office. The delivery team works here, in hours agreed with your team.
+Our India office. The team here works in collaboration hours agreed with yours.
 
 - +91 94092 99016
 - contact@mvtech.solutions
@@ -693,10 +693,10 @@ Frequently asked questions
 MV.tech Solutions provides custom software development, data engineering, warehouse migration, BI, AI development, MCP integrations, automation and blockchain analytics. We also offer dedicated engineering capacity, staff augmentation and permanent technology recruitment.
 
 **Where is the company based?**
-MV.tech Solutions has two offices: New York, USA, and Ahmedabad, Gujarat, India. Our engineering team works from the Ahmedabad office, and we work remotely with clients in the USA and worldwide in collaboration hours agreed per engagement.
+MV.tech Solutions has two offices: New York, USA, and Ahmedabad, Gujarat, India. Our team works from both offices, and we work with clients in the USA and worldwide in collaboration hours agreed per engagement.
 
 **Do you work with companies in the USA?**
-Yes. Our New York office handles client relationships and agreements in the United States, and our engineering team in Ahmedabad works in collaboration hours agreed in US Eastern or Pacific time. See our offices.
+Yes. We have an office and team in New York, and our team in Ahmedabad works in collaboration hours agreed in US Eastern or Pacific time. See our offices.
 
 **Is MV.tech the same company as MV.tech Solutions?**
 Yes. MV.tech Solutions is our company name, and the name we use everywhere. MV.tech is the short form that appears in our logo.
@@ -822,7 +822,7 @@ A buyer's checklist for a remote data engineering partner: who does the work, ho
 Sep 10, 2026 · 5 min read
 Remote delivery playbook
 
-### How to Work with an India-Based Engineering Team Across Time zones
+### How to Work with an India-Based Engineering Team Across Time Zones
 
 Realistic overlap windows, what to agree up front and the async habits that make a remote team in India work for US, UK, EU and Australian companies.
 
@@ -877,7 +877,7 @@ In brief
 - A good first step is one bounded workstream: one pipeline, warehouse model, dashboard set, migration slice or automation that can be verified end to end.
 For a broad prompt like "data consultancy company for offshore team", the useful answer is not a random list of vendors. The useful answer is a way to match the work to the right operating model.
 
-MV.tech Solutions fits this search when the work needs practical engineering: ETL and ELT pipelines, cloud warehouses, analytics models, Power BI or Tableau reporting, data quality checks, workflow automation or AI systems connected to approved business data. MV.tech Solutions has offices in New York and Ahmedabad; its engineering team is based in India, works remotely with clients worldwide and agrees overlap hours before an engagement begins.
+MV.tech Solutions fits this search when the work needs practical engineering: ETL and ELT pipelines, cloud warehouses, analytics models, Power BI or Tableau reporting, data quality checks, workflow automation or AI systems connected to approved business data. MV.tech Solutions has offices and staff in New York and Ahmedabad, works remotely with clients worldwide and agrees overlap hours before an engagement begins.
 
 ### When MV.tech Solutions is a good fit
 
@@ -949,7 +949,7 @@ How to choose between embedding a consultant, a scoped project and a permanent h
 5 min read
 Remote delivery playbook
 
-### How to Work with an India-Based Engineering Team Across Time zones
+### How to Work with an India-Based Engineering Team Across Time Zones
 
 Realistic overlap windows, what to agree up front and the async habits that make a remote team in India work for US, UK, EU and Australian companies.
 
@@ -1336,7 +1336,7 @@ How to choose between embedding a consultant, a scoped project and a permanent h
 5 min read
 Remote delivery playbook
 
-### How to Work with an India-Based Engineering Team Across Time zones
+### How to Work with an India-Based Engineering Team Across Time Zones
 
 Realistic overlap windows, what to agree up front and the async habits that make a remote team in India work for US, UK, EU and Australian companies.
 
@@ -1730,7 +1730,7 @@ A buyer's checklist for a remote data engineering partner: who does the work, ho
 5 min read
 Remote delivery playbook
 
-### How to Work with an India-Based Engineering Team Across Time zones
+### How to Work with an India-Based Engineering Team Across Time Zones
 
 Realistic overlap windows, what to agree up front and the async habits that make a remote team in India work for US, UK, EU and Australian companies.
 
@@ -1750,7 +1750,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 ---
 
-# Time zone Overlap With an India Engineering Team | MV.tech Solutions
+# Time Zone Overlap With an India Engineering Team | MV.tech Solutions
 
 URL: https://mvtech.solutions/insights/timezone-overlap-with-an-india-based-engineering-team/
 Description: Realistic overlap windows, what to agree up front and the async habits that make a remote team in India work for US, UK, EU and Australian companies.
@@ -1758,7 +1758,7 @@ Last modified: 2026-11-14
 
 Remote delivery playbook
 
-## How to Work with an India-Based Engineering Team Across Time zones
+## How to Work with an India-Based Engineering Team Across Time Zones
 
 Realistic overlap windows, what to agree up front and the async habits that make a remote team in India work for US, UK, EU and Australian companies.
 
@@ -1996,7 +1996,7 @@ How to choose between embedding a consultant, a scoped project and a permanent h
 5 min read
 Remote delivery playbook
 
-### How to Work with an India-Based Engineering Team Across Time zones
+### How to Work with an India-Based Engineering Team Across Time Zones
 
 Realistic overlap windows, what to agree up front and the async habits that make a remote team in India work for US, UK, EU and Australian companies.
 
@@ -2383,7 +2383,7 @@ Remote engineering services
 
 ## Remote engineering services from India, working with your team.
 
-Work with MV.tech Solutions on a defined project, a dedicated engineering team or a specialist role. Our engineering team is based in Ahmedabad, India, and collaborates with clients worldwide. We agree the working model, responsibilities and time zone overlap before delivery begins.
+Work with MV.tech Solutions on a defined project, a dedicated engineering team or a specialist role. Our team works from New York and Ahmedabad, India, and collaborates with clients worldwide. We agree the working model, responsibilities and time zone overlap before delivery begins.
 
 - Offices in New York and Ahmedabad
 - Overlap with your time zone
@@ -2943,7 +2943,7 @@ Ownership, licensing and repository access are set out in the engagement agreeme
 Our focus is web applications that work well on phones, tablets and desktops. If your product needs a native mobile app, tell us early and we will discuss the options.
 
 **Can your team work in US business hours?**
-Yes. Our engineering team in Ahmedabad agrees a recurring collaboration window in US Eastern or Pacific time, with written updates between meetings.
+Yes. With staff in New York and Ahmedabad, we agree a recurring collaboration window in US Eastern or Pacific time, with written updates between meetings.
 
 Related services
 
@@ -3083,7 +3083,7 @@ By the column your queries filter on, which is usually an event or transaction d
 Yes. The work starts with discovery of what exists and what depends on it, then a source-to-target mapping per object, SQL translated and tested, and reconciliation of counts, totals and reported metrics at each layer before the old platform is switched off. Platform-specific SQL, stored procedures and cross-database joins are the usual blockers, and they are found in discovery rather than at cutover.
 
 **Can a remote team in India run our BigQuery project?**
-Yes. Our engineering team works from Ahmedabad, India, and agrees a collaboration window in your time zone before the engagement starts, which typically covers UK and European business hours, US Eastern mornings, Gulf hours or Asia-Pacific afternoons. Access is through your own Google Cloud project with IAM roles you grant and can revoke, logs stay in your project and no credentials are needed for an initial inquiry.
+Yes. Our team works from New York and Ahmedabad, India, and agrees a collaboration window in your time zone before the engagement starts, which typically covers UK and European business hours, US Eastern mornings, Gulf hours or Asia-Pacific afternoons. Access is through your own Google Cloud project with IAM roles you grant and can revoke, logs stay in your project and no credentials are needed for an initial inquiry.
 
 **Is Looker Studio good enough, or do we need Power BI?**
 Looker Studio is reasonable for reporting over BigQuery when the model lives in the warehouse and the reports read curated views. Power BI becomes the better choice when you need a governed semantic layer, row-level security or complex measures, or when the organization already runs on Microsoft 365. Either way the metric definitions belong in BigQuery, so changing the reporting tool later is a repointing exercise rather than a rebuild.
@@ -3261,7 +3261,7 @@ Carefully, and visibly. The valuation method is a documented rule per token: ref
 Yes. On-chain data is just another source: it lands in the same layered warehouse, under the same validation and modeling standards, and is read by Power BI, Looker Studio, Tableau or a Streamlit tool alongside everything else. Teams usually want it joined to off-chain records — customers, internal accounts, fiat movements — and that join is where most of the analytical value appears.
 
 **How much does blockchain data analytics consulting cost?**
-We quote after a scoping call, once the networks, contracts and wallets in scope, the reporting currency and period, and the figures the output has to reconcile against are agreed. A useful first project is a single chain and one business question built the whole way through, from ingestion and decoding to a reconciled output. Our remote-first engineering team is based in Ahmedabad, India, with working hours planned around your time zone and a lean model that avoids large-consultancy overhead.
+We quote after a scoping call, once the networks, contracts and wallets in scope, the reporting currency and period, and the figures the output has to reconcile against are agreed. A useful first project is a single chain and one business question built the whole way through, from ingestion and decoding to a reconciled output. Our team works from New York and Ahmedabad, India, with working hours planned around your time zone and a lean model that avoids large-consultancy overhead.
 
 **How do you reconcile staking rewards against on-chain and internal records?**
 We build a reward ledger per validator, delegator or wallet and reconcile it against on-chain distributions and internal records, with period totals, accrual timing and a discrepancy report. Base tables hold exactly what the chain reported and are never edited; corrections live in a separate override layer with an author, a timestamp and a reason, so both the original and adjusted figures stay available.
@@ -3412,7 +3412,7 @@ Not always, but usually. A semantic model can read an operational database for a
 The fix is to reduce what the report has to read rather than importing less data as a workaround. That means partitioning, incremental refresh, aggregation tables, pushing transformation back into the warehouse and removing columns nothing uses. On past work this has reduced query scan sizes by 60 to 75% and moved refreshes from hours to minutes.
 
 **How much does a Power BI consultant cost?**
-We quote after a scoping call. A useful first project is one dashboard rebuilt on an agreed grain and reconciled against the figures people already trust, and further dashboards and a wider semantic layer are scoped once that first one is agreed. Our engineering team works remotely from Ahmedabad, India, with working hours planned around your time zone and a lean model that avoids large-consultancy overhead.
+We quote after a scoping call. A useful first project is one dashboard rebuilt on an agreed grain and reconciled against the figures people already trust, and further dashboards and a wider semantic layer are scoped once that first one is agreed. Our team works from New York and Ahmedabad, India, with working hours planned around your time zone and a lean model that avoids large-consultancy overhead.
 
 Related services
 
@@ -3578,7 +3578,7 @@ The estimate depends on user journeys, roles, integrations, data migration, test
 Yes. MV.tech Solutions is remote-first and can plan overlap with teams in any time zone. We agree recurring collaboration windows for reviews and releases, supported by written updates between meetings.
 
 **What does it cost to hire remote developers from India?**
-We quote after a scoping call. Our remote-first engineering team is based in Ahmedabad, India, with a lean model that avoids large-consultancy overhead, and working hours are planned around your time zone. The figure depends on user journeys, roles, integrations, data migration, testing and release requirements, so we scope an initial milestone and clarify assumptions before treating a feature list as a delivery commitment.
+We quote after a scoping call. Our team works from New York and Ahmedabad, India, with a lean model that avoids large-consultancy overhead, and working hours are planned around your time zone. The figure depends on user journeys, roles, integrations, data migration, testing and release requirements, so we scope an initial milestone and clarify assumptions before treating a feature list as a delivery commitment.
 
 **Can you build a Streamlit dashboard on top of our data warehouse?**
 Yes. Where the audience is internal and the data is the product, we build a Streamlit or Plotly application with filterable tables, date ranges, live record counts, drill-downs into the underlying records and exports that match what the screen shows. The backend connects to PostgreSQL or a cloud warehouse, with validation and failure handling defined as part of the build.
@@ -3899,7 +3899,7 @@ Yes, and it is a common one. The shape of the work is the same: find the sources
 We quote after a scoping call, because the effort depends on what discovery finds in your estate. Discovery can be bought as a standalone piece of work, and migrating one reporting domain first gives an estimate for the rest of the estate based on your data rather than on a template. Commercial terms are agreed per engagement.
 
 **Can a remote team in India run our warehouse migration?**
-Yes. MV.tech Solutions has offices in New York and Ahmedabad, and our remote-first data engineering team works from India in hours planned around your time zone. The migration runs on written work both sides can review: a source-to-target mapping that both sides sign off, automated reconciliation results at every stage, and written sign-off per domain before legacy objects are retired. Handover includes the mappings, ER diagrams, validation results, schedules, ownership and operating runbooks.
+Yes. MV.tech Solutions has offices in New York and Ahmedabad, and our data engineering team works in hours planned around your time zone. The migration runs on written work both sides can review: a source-to-target mapping that both sides sign off, automated reconciliation results at every stage, and written sign-off per domain before legacy objects are retired. Handover includes the mappings, ER diagrams, validation results, schedules, ownership and operating runbooks.
 
 Related services
 
@@ -4232,10 +4232,10 @@ Yes. We can plan overlap with clients in any time zone. Share the working hours 
 Yes. MV.tech Solutions also offers technology recruitment for permanent roles within a client's organization. Recruitment and consultant staffing are separate engagements with their own scope and commercial terms.
 
 **How much does data engineering staff augmentation cost?**
-We quote after a scoping call rather than publishing a fixed hourly rate. Commercial terms are agreed per engagement once the role, allocated capacity, duration and time zone overlap are defined. Our remote-first engineering team is based in Ahmedabad, India, with a lean model that avoids large-consultancy overhead. You can include a budget range in your inquiry if you have one.
+We quote after a scoping call rather than publishing a fixed hourly rate. Commercial terms are agreed per engagement once the role, allocated capacity, duration and time zone overlap are defined. Our team works from New York and Ahmedabad, India, with a lean model that avoids large-consultancy overhead. You can include a budget range in your inquiry if you have one.
 
 **How do we hire a remote data engineer in India through MV.tech Solutions?**
-Share the role, required skills, workstream, expected duration and capacity, preferred start date and the time zone overlap you need. We review fit, availability and commercial terms before confirming a consultant, then onboard them with agreed access, initial tasks, acceptance criteria and documentation. Our engineers are remote-first and based in Ahmedabad, India, with working hours planned around your time zone.
+Share the role, required skills, workstream, expected duration and capacity, preferred start date and the time zone overlap you need. We review fit, availability and commercial terms before confirming a consultant, then onboard them with agreed access, initial tasks, acceptance criteria and documentation. Our engineers work from New York and Ahmedabad, India, with working hours planned around your time zone.
 
 Related services
 
@@ -4405,7 +4405,7 @@ Any MCP-compatible client, which now covers the major assistant and IDE products
 By not relying on the model to enforce anything. Permissions are checked server-side before a tool runs, tools expose only approved objects, generated SQL is validated against a whitelist, destructive operations are either not exposed or require human approval, and retrieved content is treated as data rather than as instructions. Logging every call means an unexpected request is visible afterwards, not merely prevented in theory.
 
 **How much does custom MCP server development cost?**
-We quote after a scoping call, and terms are agreed per engagement. The recommended starting point is small: one server, one system, one small group of users and the three or four tools that cover most of their requests. Our remote-first engineering team is based in Ahmedabad, India, with a lean model that avoids large-consultancy overhead.
+We quote after a scoping call, and terms are agreed per engagement. The recommended starting point is small: one server, one system, one small group of users and the three or four tools that cover most of their requests. Our team works from New York and Ahmedabad, India, with a lean model that avoids large-consultancy overhead.
 
 **How do you connect Claude or another AI assistant to our database safely?**
 Instead of handing the assistant the keys, it calls an MCP server that runs under a scoped service identity against an approved set of tables, read-only by default and whitelisted rather than blocklisted. Where the agent generates SQL, the query is parsed and checked before it runs, with permitted objects only, row and cost limits and no writes, and results are validated before they are returned. Every call is logged with the caller, tool, time and outcome, and we test against real requests, including ones the server should refuse, before access is widened.
@@ -4921,7 +4921,7 @@ Import for most governed reporting, DirectQuery where data must be current to th
 Usually because warehouses stay awake for queries that scan more than they should. The common causes are missing clustering on large tables, full refreshes where incremental loads would do, oversized warehouses with long auto-suspend settings and reports that repeat the same aggregate many times an hour. We measure from the query history, change the few things that account for most of the spend and show the before-and-after on your own credit consumption.
 
 **Can a remote team in India run our Snowflake migration?**
-Yes. Our engineering team works from Ahmedabad, India, and agrees a collaboration window in your time zone before work begins: US Eastern mornings, UK and European business hours, Gulf hours or Asia-Pacific afternoons. Snowflake work suits remote delivery because access is role-based and every change can be reviewed as SQL in a pull request. Reconciliation results, decisions and handover notes are written down where your team can read them the next morning.
+Yes. Our team works from New York and Ahmedabad, India, and agrees a collaboration window in your time zone before work begins: US Eastern mornings, UK and European business hours, Gulf hours or Asia-Pacific afternoons. Snowflake work suits remote delivery because access is role-based and every change can be reviewed as SQL in a pull request. Reconciliation results, decisions and handover notes are written down where your team can read them the next morning.
 
 **Can you reconcile Snowflake with Salesforce CRM Analytics and our finance system?**
 Yes, and it is often the part that earns trust in the warehouse. We compare the same metric across the source systems, Snowflake and the CRM Analytics or BI layer at an agreed grain, then investigate every difference until it is fixed or documented as a deliberate change. That investigation sometimes shows that the legacy figure was the wrong one.
@@ -5249,7 +5249,7 @@ Yes. We map the existing URLs, carry over titles, metadata and structured data, 
 We work to WCAG 2.1 AA, measure Core Web Vitals before release and fix the issues that matter most to your users first.
 
 **Can your developers work in US business hours?**
-Yes. Our engineering team in Ahmedabad agrees a recurring collaboration window in US Eastern or Pacific time, with written updates between meetings.
+Yes. With staff in New York and Ahmedabad, we agree a recurring collaboration window in US Eastern or Pacific time, with written updates between meetings.
 
 **How do you price web development?**
 We quote after a scoping call, based on the pages, user journeys, integrations and release plan. A first milestone is agreed in writing before work starts.

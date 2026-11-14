@@ -339,7 +339,7 @@ Legal entity: ${legalLine(site)} Where the US company is the contracting party, 
 Contact: ${site.email} · Book a call: ${origin}/contact/#book-call
 Founder: ${site.founder.name}, ${site.founder.jobTitle} (${site.founder.sameAs[0]})
 LinkedIn: ${site.linkedin}
-Offices: ${site.offices.map((office) => `${office.name}: ${officeAddressLines(office).join(', ')}${office.telephone ? ` (${office.telephoneDisplay})` : ''}`).join('; ')}. The engineering team works from the Ahmedabad office (India GSTIN ${site.gstin}). Serves clients in the USA and worldwide with agreed time-zone overlap. Details: ${origin}/contact/#offices
+Offices: ${site.offices.map((office) => `${office.name}: ${officeAddressLines(office).join(', ')}${office.telephone ? ` (${office.telephoneDisplay})` : ''}`).join('; ')}. Staff work from both offices; India GSTIN ${site.gstin} belongs to the India office. Serves clients in the USA and worldwide with agreed time-zone overlap. Details: ${origin}/contact/#offices
 Privacy and legal: ${origin}/privacy/ · ${origin}/terms/ · ${origin}/accessibility/
 Teams our engineers have worked with: ${site.workedWith.join(', ')}. ${site.workedWithNote}
 Last generated: ${latest}. Short summary and answer guidance: ${origin}/llms.txt
