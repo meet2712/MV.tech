@@ -8,7 +8,7 @@ Legal entity: MV.tech Solutions is a registered assumed name (DBA) of BB & KV In
 Contact: contact@mvtech.solutions · Book a call: https://mvtech.solutions/contact/#book-call
 Founder: Meet Vaghasia, Founder & Lead Engineer (https://www.linkedin.com/in/meet2712/)
 LinkedIn: https://www.linkedin.com/company/mv-tech-data/
-Offices: New York office: 248-15 88th Rd, Jamaica, NY 11426, United States; Ahmedabad office: 16 Trishala Residency, S G Highway, Behind RC Technical, Opp. High Court, Near Harivila, Chandlodiya, Ahmedabad, Gujarat 380061, India (+91 94092 99016). The engineering team works from the Ahmedabad office (India GSTIN 24BZMPV4008F1ZA). Serves clients in the USA and worldwide with agreed time-zone overlap. Details: https://mvtech.solutions/contact/#offices
+Offices: New York office: 248-15 88th Rd, Bellerose, NY 11426, United States; Ahmedabad office: 16 Trishala Residency, S G Highway, Behind RC Technical, Opp. High Court, Near Harivila, Chandlodiya, Ahmedabad, Gujarat 380061, India (+91 94092 99016). The engineering team works from the Ahmedabad office (India GSTIN 24BZMPV4008F1ZA). Serves clients in the USA and worldwide with agreed time-zone overlap. Details: https://mvtech.solutions/contact/#offices
 Privacy and legal: https://mvtech.solutions/privacy/ · https://mvtech.solutions/terms/ · https://mvtech.solutions/accessibility/
 Teams our engineers have worked with: Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, Turing. Names reflect organizations the MV.tech Solutions team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.
 Last generated: 2026-11-14. Short summary and answer guidance: https://mvtech.solutions/llms.txt
@@ -180,7 +180,7 @@ United States
 
 #### New York
 
-248-15 88th RdJamaica, NY 11426United States
+248-15 88th RdBellerose, NY 11426United States
 Our US office, for client relationships and agreements with companies in the United States.
 
 - contact@mvtech.solutions
@@ -292,7 +292,7 @@ United States
 
 #### New York
 
-248-15 88th RdJamaica, NY 11426United States
+248-15 88th RdBellerose, NY 11426United States
 Our US office, for client relationships and agreements with companies in the United States.
 
 - contact@mvtech.solutions
@@ -549,7 +549,7 @@ United States
 
 #### New York
 
-248-15 88th RdJamaica, NY 11426United States
+248-15 88th RdBellerose, NY 11426United States
 Our US office, for client relationships and agreements with companies in the United States.
 
 - contact@mvtech.solutions
