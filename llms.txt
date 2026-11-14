@@ -37,6 +37,8 @@ This is a factual index of the company's public website. The linked pages contai
 
 - [AI Automation, RAG & MCP Development](https://mvtech.solutions/services/ai-consulting/): AI consulting, knowledge assistants, RAG, document processing and application integration from MV.tech Solutions, with use-case planning and evaluation.
 - [MCP Servers & AI Connectors](https://mvtech.solutions/services/mcp-and-ai-connectors/): Connect AI assistants to databases, business APIs and internal tools with custom MCP servers and connectors, including permissions, testing and deployment.
+- [Web Development](https://mvtech.solutions/services/web-development/): Web development with React, Next.js, Node.js and Python from MV.tech Solutions: fast, accessible websites and web apps, with APIs, testing and deployment.
+- [Application Development](https://mvtech.solutions/services/application-development/): Web application, SaaS and MVP development from MV.tech Solutions: portals, dashboards and internal tools built with React, Next.js, Node.js and Python.
 - [Custom Software Development](https://mvtech.solutions/services/custom-software/): Custom web applications, customer portals, internal tools and data apps from MV.tech Solutions: interfaces, backends, integrations, testing and deployment.
 - [Workflow Automation Consulting](https://mvtech.solutions/services/workflow-automation/): Automate recurring work across applications, APIs, databases and spreadsheets. MV.tech Solutions builds integrations, validation and exception handling.
 
@@ -51,7 +53,7 @@ This is a factual index of the company's public website. The linked pages contai
 
 - [Home](https://mvtech.solutions/): MV.tech Solutions builds custom software, data platforms, BI and AI systems, and provides dedicated engineering teams. Offices in New York and Ahmedabad.
 - [About MV.tech Solutions](https://mvtech.solutions/about/): MV.tech Solutions is a software, data and AI engineering company with offices in New York, USA, and Ahmedabad, India. Meet the company and its founder.
-- [Services](https://mvtech.solutions/services/): Explore MV.tech Solutions services: custom software, data engineering, BI, AI and MCP integrations, automation, dedicated teams and technology recruitment.
+- [Services](https://mvtech.solutions/services/): MV.tech Solutions services: web and application development, custom software, data engineering, BI, AI and MCP, automation and dedicated teams.
 - [Business solutions](https://mvtech.solutions/solutions/): Business solutions for finance reporting, operational workflows, customer portals, AI applications and blockchain analytics from MV.tech Solutions.
 - [Expertise](https://mvtech.solutions/expertise/): Explore MV.tech Solutions capabilities in software, data platforms, BI, AI and cloud delivery, with founder experience and professional credentials.
 - [Delivery process](https://mvtech.solutions/process/): How MV.tech Solutions plans and delivers engineering work: discovery, architecture, development, testing, deployment, documentation and agreed ongoing support.

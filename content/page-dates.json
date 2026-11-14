@@ -1,6 +1,6 @@
 {
   "/": {
-    "hash": "4d3eb83d4af908d3",
+    "hash": "8b731c158b89ba85",
     "published": "2026-01-02",
     "modified": "2026-11-14"
   },
@@ -25,12 +25,12 @@
     "modified": "2026-11-14"
   },
   "/contact/": {
-    "hash": "e23f5c1f82f09c37",
+    "hash": "e036dfcdb8eaf9b1",
     "published": "2026-06-02",
     "modified": "2026-11-14"
   },
   "/expertise/": {
-    "hash": "68eb73156e0e906a",
+    "hash": "1c647ddd45640fc6",
     "published": "2026-06-02",
     "modified": "2026-11-14"
   },
@@ -110,13 +110,18 @@
     "modified": "2026-11-14"
   },
   "/services/": {
-    "hash": "48558c40de9a370e",
+    "hash": "da670ad4b4eeb6f4",
     "published": "2026-06-02",
     "modified": "2026-11-14"
   },
   "/services/ai-consulting/": {
     "hash": "053b7befa7197103",
     "published": "2026-09-10",
+    "modified": "2026-11-14"
+  },
+  "/services/application-development/": {
+    "hash": "c19d914326b5e866",
+    "published": "2026-11-14",
     "modified": "2026-11-14"
   },
   "/services/bigquery-consulting/": {
@@ -135,7 +140,7 @@
     "modified": "2026-11-14"
   },
   "/services/custom-software/": {
-    "hash": "597072baf51e75ed",
+    "hash": "b2cfc56f7a46cb45",
     "published": "2026-09-10",
     "modified": "2026-11-14"
   },
@@ -182,6 +187,11 @@
   "/services/technology-recruitment/": {
     "hash": "74506c1d42a6b301",
     "published": "2026-09-10",
+    "modified": "2026-11-14"
+  },
+  "/services/web-development/": {
+    "hash": "339a45bb16ef38d4",
+    "published": "2026-11-14",
     "modified": "2026-11-14"
   },
   "/services/workflow-automation/": {
