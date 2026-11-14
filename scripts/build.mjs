@@ -89,7 +89,7 @@ for (const article of articles) {
   const indexPage = {
     route: '/insights/', name: 'Insights', kind: 'collection',
     title: 'Insights on Remote Engineering, Data & AI | MV.tech Solutions',
-    description: 'Practical guides from MV.tech Solutions on working with remote engineering teams across time zones, hiring data consultants, RAG, MCP servers and engagement models.',
+    description: 'Practical guides from MV.tech Solutions on remote engineering teams across time zones, hiring data consultants, RAG, MCP servers and engagement models.',
     ogTitle: 'Insights', ogKicker: 'Guides from the MV.tech Solutions engineering team',
     body: insightsIndex(articles, site), source: 'content/insights', hashSource: hash(articles.map((a) => a.route + a.title + a.description)),
     itemList: articles.map((a) => ({ name: a.title, url: origin + a.route })),
