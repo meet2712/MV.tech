@@ -3,10 +3,13 @@
 import assert from 'node:assert/strict';
 import { access, readdir, readFile } from 'node:fs/promises';
 import { attr, parse, publicPages, routeFor, slugFor, textContent, walk } from './html.mjs';
+import { contractingParty, legalLine } from './templates.mjs';
 
 const site = JSON.parse(await readFile('content/site.json', 'utf8'));
 const origin = site.origin;
 const files = await publicPages();
+// Company-name facts every page and every machine-readable file must agree on (see content/site.json).
+const legal = legalLine(site);
 
 
 // A root-level <name>.html shadows the clean route /<name>/ on GitHub Pages, which resolves
@@ -68,6 +71,23 @@ for (const file of files) {
   assert(one('link', 'rel', 'icon'), `${file}: favicon missing`);
   if (route !== '/') assert(one('nav', 'aria-label', 'Breadcrumb'), `${file}: breadcrumb navigation missing`);
 
+  // Company name: written in full everywhere, both offices in every footer, no unfilled tokens, no stale pre-registration wording
+  const footerOffices = textContent(one('p', 'class', 'footer-offices') ?? {});
+  for (const office of site.offices) assert(footerOffices.includes(office.label), `${file}: footer must name the ${office.name}`);
+  assert(footerOffices.indexOf(site.offices[0].label) < footerOffices.indexOf(site.offices[1].label), `${file}: offices are listed New York first`);
+  // The short form is what the logo artwork reads, not a name for running text. Only the pages that explain that may print it.
+  if (!['/brand/', '/faq/'].includes(route)) {
+    const visible = html.replace(/<script[\s\S]*?<\/script>/g, '');
+    const bare = visible.match(new RegExp(`.{0,40}${site.shortName.replace('.', '\\.')}(?!(?: |%20)Solutions).{0,20}`));
+    assert(!bare, `${file}: write the company name in full (${site.name}), found "${bare?.[0]}"`);
+  }
+  // The legal entity is named only where a legal party is needed, never in the shared page chrome.
+  if (!['/about/', '/us-clients/', '/compliance/', '/faq/'].includes(route)) assert(!textContent(one('main', 'id', 'main-content') ?? {}).includes(site.legalEntity.name) && !textContent(one('footer') ?? {}).includes(site.legalEntity.name), `${file}: ${site.legalEntity.name} belongs on the company, USA, privacy and FAQ pages only`);
+  assert.equal(attr(one('meta', 'property', 'og:site_name'), 'content'), site.name, `${file}: og:site_name must be the company name`);
+  assert(!html.includes('{{'), `${file}: unfilled {{fact}} token`);
+  assert(!/coming soon/i.test(html), `${file}: stale "coming soon" wording about the USA company`);
+  assert(!new RegExp(`${site.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')},? (Inc|LLC|Ltd|Corp)\\b`).test(html), `${file}: ${site.name} is a trade name and must not carry Inc/LLC`);
+
   // Social image exists on disk and matches the page slug
   const ogImage = attr(one('meta', 'property', 'og:image'), 'content');
   assert.equal(ogImage, `${origin}/images/og/${slugFor(route)}.jpg`, `${file}: og:image should be the per-page image`);
@@ -83,6 +103,13 @@ for (const file of files) {
     const types = graph.map((n) => n['@type']).flat();
     assert(types.includes('Organization'), `${file}: Organization node missing from JSON-LD`);
     assert(types.includes('Person'), `${file}: founder Person node missing from JSON-LD`);
+    const organization = graph.find((n) => n['@id'] === `${origin}/#organization`);
+    assert.equal(organization.name, site.name, `${file}: Organization name must be the company name`);
+    assert.equal(organization.legalName, site.legalEntity.name, `${file}: Organization legalName must be the legal entity`);
+    assert(organization.alternateName.includes(site.shortName), `${file}: Organization alternateName must include the short brand`);
+    assert(!organization.taxID, `${file}: the India GSTIN must not be published as the US entity's taxID`);
+    const website = graph.find((n) => n['@id'] === `${origin}/#website`);
+    assert.equal(website.name, site.name, `${file}: WebSite name must be the company name`);
     const webpage = graph.find((n) => n['@id'] === `${url}#webpage`);
     assert(webpage, `${file}: WebPage node with @id ${url}#webpage missing`);
     assert(/^\d{4}-\d{2}-\d{2}$/.test(webpage.dateModified) && /^\d{4}-\d{2}-\d{2}$/.test(webpage.datePublished), `${file}: WebPage dates missing`);
@@ -117,6 +144,13 @@ for (const file of files) {
   assert(!html.includes('cdn.tailwindcss.com'), `${file}: runtime CSS compiler remains`);
   assert(!/\bclass="[^"]*\b(bg-slate|text-cyan|rounded-3xl|edge-card|glass)\b/.test(html), `${file}: legacy design-system classes remain`);
 
+  // Responsive image candidates resolve (srcset is not covered by the href/src check below)
+  for (const node of nodes.filter((item) => attr(item, 'srcset'))) {
+    for (const candidate of attr(node, 'srcset').split(',').map((part) => part.trim().split(/\s+/)[0])) {
+      assert(candidate.startsWith('/') && await exists(candidate.slice(1)), `${file}: srcset image missing (${candidate})`);
+    }
+  }
+
   // Internal references resolve
   for (const node of nodes.filter((item) => ['a', 'script', 'link', 'img', 'source'].includes(item.tagName))) {
     const href = attr(node, 'href') || attr(node, 'src');
@@ -143,7 +177,18 @@ const robots = await readFile('robots.txt', 'utf8');
 assert(robots.includes(`Sitemap: ${origin}/sitemap.xml`), 'robots.txt must reference the sitemap');
 for (const bot of ['GPTBot', 'OAI-SearchBot', 'ClaudeBot', 'Claude-SearchBot', 'PerplexityBot', 'Googlebot', 'bingbot']) assert(robots.includes(bot), `robots.txt should explicitly welcome ${bot}`);
 for (const route of routes) if (!route.startsWith('/insights/') || route === '/insights/') assert(llms.includes(origin + route), `llms.txt should link to ${route}`);
+// The legal entity is disclosed once on the company page, exactly as content/site.json spells it.
+assert((await readFile('about/index.html', 'utf8')).includes(site.legalEntity.name.replace(/&/g, '&amp;')), 'The About page must name the legal entity');
+for (const [name, text] of [['llms.txt', llms], ['llms-full.txt', llmsFull]]) {
+  assert(text.startsWith(`# ${site.name}`), `${name} must open with the company name`);
+  assert(text.includes(legal), `${name} must state the legal entity exactly as content/site.json does`);
+  for (const office of site.offices) assert(text.includes(office.locality), `${name} must name the ${office.name}`);
+  assert(text.includes(contractingParty(site)), `${name} must state the contracting party`);
+  assert(!/coming soon/i.test(text), `${name}: stale "coming soon" wording about the USA company`);
+}
 const manifest = JSON.parse(await readFile('site.webmanifest', 'utf8'));
+assert.equal(manifest.name, site.name, 'site.webmanifest name must be the company name');
+assert.equal(manifest.short_name, site.shortName, 'site.webmanifest short_name must be the short brand');
 for (const icon of manifest.icons) assert(await exists(icon.src.slice(1)), `manifest icon missing: ${icon.src}`);
 assert(await exists('404.html'), '404.html must exist');
 const notFound = await readFile('404.html', 'utf8');

@@ -1,4 +1,4 @@
-# MV.tech website
+# MV.tech Solutions website
 
 Static site for [mvtech.solutions](https://mvtech.solutions/), published from `main` by GitHub Pages. Every page is generated from `content/` by a small Node build so that metadata, structured data, breadcrumbs, dates and the AI-readable text files never drift apart.
 
@@ -17,7 +17,21 @@ Static site for [mvtech.solutions](https://mvtech.solutions/), published from `m
 
 FAQ blocks are plain `<details><summary>` markup; the build turns them into `FAQPage` structured data automatically and the tests fail if the two ever disagree.
 
-The `<!--us-company-note-->` marker in page source renders the shared USA-company announcement from `content/site.json` (`usCompany`). Keep its status as coming soon until establishment is confirmed. `/us-clients/` describes current remote delivery from India; the announcement does not create a US office, address or entity in structured data. Update that page, the shared facts and `llms.txt` together when the status changes.
+## Company name and legal entity
+
+Three names, each with one job, all set in `content/site.json`:
+
+| Field | Value | Used for |
+| --- | --- | --- |
+| `name` | MV.tech Solutions | The company name, written in full everywhere the company is named: copy, page titles, footer, copyright, `og:site_name`, structured-data `name` |
+| `shortName` | MV.tech | Only what the logo artwork reads. It is an alternate name in structured data and the home-screen label in the web manifest, never a name for running text |
+| `legalEntity.name` | BB & KV Inc. | The New York corporation behind the name, shown only where a legal party is needed: structured-data `legalName`, the About company information, the USA vendor details and contract FAQ, the privacy notice and `llms.txt` |
+
+MV.tech Solutions is a registered assumed name (DBA), not a separate corporation, so it never carries Inc. or LLC. `npm test` fails if a page says otherwise, if a page uses the short form as the company name (only `/brand/` and `/faq/` may print it, to explain the logo), or if the legal entity appears outside the pages listed above. The legal entity is spelled in `content/site.json` only. Page sources use tokens instead of retyping it: `{{legal.name}}`, `{{legal.form}}`, `{{legal.line}}` (the full sentence), `{{legal.party}}` (the contracting-party form), `{{company.name}}` and `{{company.short}}`. The build fills them and fails on an unknown token. `llms.txt` is hand-maintained, so `npm test` checks that it states the same legal line.
+
+The company has two offices, always listed New York first: New York, USA, and Ahmedabad, India (`offices` in `content/site.json`, which feeds the footer, the social images and the structured-data addresses). The `<!--us-company-note-->` marker renders the shared "Our offices" block from `usCompany`. Both offices are published at city level only. No New York street address or US phone number has been supplied, so none is published, in visible text or structured data; add them to `offices`, `/contact/`, `/about/`, `/us-clients/` and `llms.txt` together when they are. The engineering team works from the Ahmedabad office. The India GSTIN belongs to the India operation and is published as a labelled identifier, never as the US entity's tax ID.
+
+The name, the legal entity and the offices went live together on 14 November 2026. When any of them changes again, update `content/site.json`, the pages listed above and `llms.txt` in one release, then work through the listings checklist in `docs/seo-maintenance.md` so the same facts appear everywhere search and AI engines read them.
 
 ## Build, test, publish
 

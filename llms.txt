@@ -1,18 +1,20 @@
-# MV.tech
+# MV.tech Solutions
 
-> MV.tech is a software development, data engineering and AI services company based in Ahmedabad, India. Founded in 2022, it builds business applications, data platforms, reporting systems, AI integrations and automated workflows. Services include project delivery, dedicated engineering teams, IT staff augmentation and technology recruitment for clients worldwide, with collaboration hours agreed per engagement.
+> MV.tech Solutions is a software development, data engineering and AI services company with offices in New York, USA, and Ahmedabad, India. Founded in 2022, it builds business applications, data platforms, reporting systems, AI integrations and automated workflows. Services include project delivery, dedicated engineering teams, IT staff augmentation and technology recruitment for clients in the USA and worldwide, with collaboration hours agreed per engagement.
 
 This is a factual index of the company's public website. The linked pages contain the full service descriptions and current engagement details. It supplements the HTML website and XML sitemap; it is not a search-engine submission or an assurance of inclusion in AI answers.
 
 ## Company and contact
 
-- Brand and legal name published on the website: MV.tech. The company also uses MV Tech, MVTech, MV Tech Solutions and MV Tech Data Solutions. These names identify this company only when associated with mvtech.solutions and the profiles below; other similarly named businesses may be unrelated.
+- Company name: MV.tech Solutions, written in full wherever the company is named. The logo artwork reads "MV.tech"; both refer to the same company.
+- Other spellings people search for: MV Tech Solutions, MVTech Solutions, MV Tech, MVTech and MV Tech Data Solutions. These identify this company only when associated with mvtech.solutions and the profiles below; other similarly named businesses may be unrelated.
 - Official website: https://mvtech.solutions/
 - Founder: Meet Vaghasia, Founder & Lead Engineer.
-- Base: Ahmedabad, Gujarat, India, 380061. Remote delivery worldwide, with client visits when needed.
-- United States (USA): company coming soon. MV.tech is setting up a company in the United States. Current delivery is from Ahmedabad, India. Clients in the USA can discuss projects with the India-based team today. See [services for clients in the USA](https://mvtech.solutions/us-clients/).
+- Offices: New York, USA, and Ahmedabad, Gujarat, India (380061). The engineering team works from the Ahmedabad office and delivers remotely for clients in the USA and worldwide, with collaboration hours agreed per engagement. See [services for clients in the USA](https://mvtech.solutions/us-clients/).
 - Team: 10–15 specialists, as stated on the About page.
-- Company registration published on the website: GSTIN 24BZMPV4008F1ZA.
+- Legal entity: MV.tech Solutions is a registered assumed name (DBA) of BB & KV Inc., a New York corporation. Agreements with clients in the USA name the supplier as BB & KV Inc., doing business as MV.tech Solutions. MV.tech Solutions is a business name, not a separate corporation or LLC, so "MV.tech Solutions Inc." and "MV.tech Solutions LLC" are incorrect.
+- India tax registration published on the website: GSTIN 24BZMPV4008F1ZA. It belongs to the India operation, not to BB & KV Inc.
+- Mobile: +91 94092 99016
 - Email: contact@mvtech.solutions
 - Consultation: https://mvtech.solutions/contact/#book-call (30 minutes).
 - LinkedIn company profile: https://www.linkedin.com/company/mv-tech-data/
@@ -23,40 +25,41 @@ This is a factual index of the company's public website. The linked pages contai
 ## Data engineering and analytics services
 
 - [Offshore Data Engineering Team](https://mvtech.solutions/services/offshore-data-engineering-team/): Extend your team with data engineering, analytics and BI specialists from India. Agree roles, capacity, delivery responsibilities and collaboration hours.
-- [Data Engineering Consulting](https://mvtech.solutions/services/data-engineering/): Data integration, ETL pipelines, cloud warehouses, modelling and data quality services from MV.tech for reporting, analytics and business applications.
+- [Data Engineering Consulting](https://mvtech.solutions/services/data-engineering/): Data integration, ETL pipelines, cloud warehouses, modelling and data quality services from MV.tech Solutions for reporting, analytics and applications.
 - [Data Warehouse Migration](https://mvtech.solutions/services/data-warehouse-migration/): Migrate legacy databases and spreadsheet reporting to Snowflake, BigQuery or Redshift with discovery, source mapping, reconciliation and report transition.
 - [Business Intelligence & Dashboards](https://mvtech.solutions/services/business-intelligence/): BI consulting, reporting datasets, semantic models and dashboards in Power BI, Tableau, Looker Studio and Streamlit, with KPI definition and validation.
 - [Blockchain & On-Chain Data Analytics](https://mvtech.solutions/services/blockchain-data-analytics/): Multi-chain transaction pipelines, event decoding, wallet analytics and reconciliation datasets for blockchain reporting and business analysis.
 - [Snowflake Consulting](https://mvtech.solutions/services/snowflake-consulting/): Snowflake development and consulting for warehouse migration, pipelines, data models, BI integration, reconciliation and performance review.
-- [BigQuery Consulting](https://mvtech.solutions/services/bigquery-consulting/): BigQuery warehouse design, cloud ingestion, reporting integration, migration and workload optimisation from MV.tech’s data engineering team.
+- [BigQuery Consulting](https://mvtech.solutions/services/bigquery-consulting/): BigQuery warehouse design, cloud ingestion, reporting integration, migration and workload optimisation from the MV.tech Solutions data engineering team.
 - [Power BI Consulting](https://mvtech.solutions/services/power-bi-consulting/): Power BI models, DAX measures, dashboards, refresh-performance reviews and SSAS migrations, with reporting requirements and source reconciliation.
 
 ## AI, software and automation services
 
-- [AI Automation, RAG & MCP Development](https://mvtech.solutions/services/ai-consulting/): AI consulting, knowledge assistants, RAG, document processing and application integration from MV.tech, with use-case planning and evaluation.
+- [AI Automation, RAG & MCP Development](https://mvtech.solutions/services/ai-consulting/): AI consulting, knowledge assistants, RAG, document processing and application integration from MV.tech Solutions, with use-case planning and evaluation.
 - [MCP Servers & AI Connectors](https://mvtech.solutions/services/mcp-and-ai-connectors/): Connect AI assistants to databases, business APIs and internal tools with custom MCP servers and connectors, including permissions, testing and deployment.
-- [Custom Software Development](https://mvtech.solutions/services/custom-software/): Custom web applications, customer portals, internal tools and data apps from MV.tech, covering interfaces, backends, integrations, testing and deployment.
-- [Workflow Automation Consulting](https://mvtech.solutions/services/workflow-automation/): Automate recurring work across applications, APIs, databases and spreadsheets. MV.tech builds integrations, validation, scheduling and exception handling.
+- [Custom Software Development](https://mvtech.solutions/services/custom-software/): Custom web applications, customer portals, internal tools and data apps from MV.tech Solutions: interfaces, backends, integrations, testing and deployment.
+- [Workflow Automation Consulting](https://mvtech.solutions/services/workflow-automation/): Automate recurring work across applications, APIs, databases and spreadsheets. MV.tech Solutions builds integrations, validation and exception handling.
 
 ## Engineering capacity and hiring
 
 - [IT Staff Augmentation](https://mvtech.solutions/services/it-staff-augmentation/): Add data, software, AI and cloud specialists to your delivery team. Discuss assigned roles, capacity, responsibilities, duration and timezone collaboration.
 - [Technology Recruitment](https://mvtech.solutions/services/technology-recruitment/): Permanent recruitment for data, software, AI, cloud and analytics roles, with role definition, candidate screening and engineering-led technical assessment.
-- [How We Work: Remote Team, Timezones & Costs](https://mvtech.solutions/remote-consulting/): Work with MV.tech from India through project delivery, dedicated engineers or specialist capacity, with responsibilities and collaboration hours agreed.
+- [How We Work: Remote Team, Timezones & Costs](https://mvtech.solutions/remote-consulting/): Work with MV.tech Solutions through project delivery, dedicated engineers or specialist capacity, with responsibilities and collaboration hours agreed.
 - [Hire Data Engineers](https://mvtech.solutions/services/hire-data-engineers/): Engage data engineers for integration, warehouses, analytics and data quality through embedded capacity, project delivery or permanent recruitment.
 
 ## Company, delivery and next steps
 
-- [Home](https://mvtech.solutions/): MV.tech provides custom software, data engineering, BI, AI development, automation and dedicated engineering teams from India for businesses worldwide.
-- [About MV.tech](https://mvtech.solutions/about/): Meet MV.tech, an Ahmedabad-based engineering company founded in 2022. Explore our services, delivery models, founder and company information.
-- [Services](https://mvtech.solutions/services/): Explore MV.tech services: custom software, data engineering, BI, AI and MCP integrations, automation, dedicated teams and technology recruitment.
-- [Business solutions](https://mvtech.solutions/solutions/): Business solutions for finance reporting, operational workflows, customer portals, AI applications and blockchain analytics from MV.tech.
-- [Expertise](https://mvtech.solutions/expertise/): Explore MV.tech capabilities in software, data platforms, BI, AI and cloud delivery, with attributable founder experience and professional credentials.
-- [Delivery process](https://mvtech.solutions/process/): How MV.tech plans and delivers engineering work: discovery, architecture, development, testing, deployment, documentation and agreed ongoing support.
-- [FAQ](https://mvtech.solutions/faq/): Answers about MV.tech services, project delivery, dedicated teams, remote collaboration, pricing, ownership, support and starting an engagement.
-- [Privacy & delivery standards](https://mvtech.solutions/compliance/): How MV.tech handles client data, credentials and access: secure remote delivery, accessibility, website analytics and responsible use of automation and AI.
-- [Brand kit](https://mvtech.solutions/brand/): Download the MV.tech brand kit: vector logos, favicons, avatars, the colour palette as design tokens, Inter fonts, icons and the full brand guidelines.
-- [Contact](https://mvtech.solutions/contact/): Discuss software, data, BI, AI or automation requirements with MV.tech. Book a consultation or send a brief for project delivery, dedicated teams or hiring.
+- [Home](https://mvtech.solutions/): MV.tech Solutions builds custom software, data platforms, BI and AI systems, and provides dedicated engineering teams. Offices in New York and Ahmedabad.
+- [About MV.tech Solutions](https://mvtech.solutions/about/): MV.tech Solutions is a software, data and AI engineering company with offices in New York, USA, and Ahmedabad, India. Meet the company and its founder.
+- [Clients in the USA](https://mvtech.solutions/us-clients/): Software, data engineering, BI and AI services for US businesses from MV.tech Solutions, with a New York office and an engineering team in Ahmedabad, India.
+- [Services](https://mvtech.solutions/services/): Explore MV.tech Solutions services: custom software, data engineering, BI, AI and MCP integrations, automation, dedicated teams and technology recruitment.
+- [Business solutions](https://mvtech.solutions/solutions/): Business solutions for finance reporting, operational workflows, customer portals, AI applications and blockchain analytics from MV.tech Solutions.
+- [Expertise](https://mvtech.solutions/expertise/): Explore MV.tech Solutions capabilities in software, data platforms, BI, AI and cloud delivery, with founder experience and professional credentials.
+- [Delivery process](https://mvtech.solutions/process/): How MV.tech Solutions plans and delivers engineering work: discovery, architecture, development, testing, deployment, documentation and agreed ongoing support.
+- [FAQ](https://mvtech.solutions/faq/): Answers about MV.tech Solutions: services, company registration, project delivery, dedicated teams, remote collaboration, pricing, ownership and support.
+- [Privacy & delivery standards](https://mvtech.solutions/compliance/): How MV.tech Solutions handles client data, credentials and access: secure delivery, accessibility, website analytics and responsible use of AI.
+- [Brand kit](https://mvtech.solutions/brand/): Download the MV.tech Solutions brand kit: vector logos, favicons, avatars, colour tokens, Inter fonts, icons and the full brand guidelines.
+- [Contact](https://mvtech.solutions/contact/): Discuss software, data, BI, AI or automation requirements with MV.tech Solutions. Book a consultation or send a brief for a project, a team or a hire.
 
 ## Practical buyer guides
 
@@ -78,6 +81,7 @@ This is a factual index of the company's public website. The linked pages contai
 - Projects begin after scope is agreed in writing. A first milestone includes deliverables, acceptance criteria and collaboration hours.
 - Company experience references describe work by team members, directly or through talent platforms. They are not endorsements, sponsorships or current partnerships.
 - The company's 2022 founding date is distinct from the founder's and team's earlier professional experience.
+- Refer to the company as "MV.tech Solutions". Describe its locations as offices in New York, USA, and Ahmedabad, India.
 
 ## Additional public formats
 

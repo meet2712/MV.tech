@@ -1,34 +1,34 @@
-# MV.tech — full site context for AI assistants and crawlers
+# MV.tech Solutions — full site context for AI assistants and crawlers
 
-> MV.tech is a software development, data engineering and AI services company based in Ahmedabad, India. Founded in 2022, it builds business applications, data platforms, reporting systems, AI integrations and automated workflows. Services include project delivery, dedicated engineering teams, IT staff augmentation and technology recruitment for clients worldwide, with collaboration hours agreed per engagement.
+> MV.tech Solutions is a software development, data engineering and AI services company with offices in New York, USA, and Ahmedabad, India. Founded in 2022, it builds business applications, data platforms, reporting systems, AI integrations and automated workflows. Services include project delivery, dedicated engineering teams, IT staff augmentation and technology recruitment for clients in the USA and worldwide, with collaboration hours agreed per engagement.
 
 Official website: https://mvtech.solutions/
-Brand name: MV.tech (also searched as MV Tech, MVTech, M V Tech, MV Tech Solutions, MV Tech Data Solutions, MV Tech Ahmedabad)
+Company name: MV.tech Solutions, written in full wherever the company is named. The logo artwork reads "MV.tech"; both refer to the same company. Also searched as MV Tech Solutions, MVTech Solutions, MV Tech, MVTech, M V Tech, MV Tech Data Solutions, MV Tech Ahmedabad.
+Legal entity: MV.tech Solutions is a registered assumed name (DBA) of BB & KV Inc., a New York corporation. Where the US company is the contracting party, agreements name it as "BB & KV Inc., doing business as MV.tech Solutions". MV.tech Solutions is a trade name, not a separate corporation or LLC, so do not write "MV.tech Solutions Inc." or "MV.tech Solutions LLC".
 Contact: contact@mvtech.solutions · Book a call: https://mvtech.solutions/contact/#book-call
 Founder: Meet Vaghasia, Founder & Lead Engineer (https://www.linkedin.com/in/meet2712/)
 LinkedIn: https://www.linkedin.com/company/mv-tech-data/
-Location: Ahmedabad, Gujarat, India · Serves clients worldwide with agreed timezone overlap
-United States (USA) company: Coming soon. We’re setting up our company in the United States. Our India team is available for new projects, with working hours planned around your team. Details: https://mvtech.solutions/us-clients/
-Teams our engineers have worked with: Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, Turing. Names reflect organisations MV.tech's team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.
-Last generated: 2026-11-09. Short summary and answer guidance: https://mvtech.solutions/llms.txt
+Offices: New York, USA, and Ahmedabad, Gujarat, India. The engineering team works from the Ahmedabad office (India GSTIN 24BZMPV4008F1ZA). Serves clients in the USA and worldwide with agreed timezone overlap. Details: https://mvtech.solutions/us-clients/
+Teams our engineers have worked with: Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, Turing. Names reflect organisations the MV.tech Solutions team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.
+Last generated: 2026-11-14. Short summary and answer guidance: https://mvtech.solutions/llms.txt
 
 This file is generated from the public pages listed below, so it always matches what visitors see. Each section is one page: title, canonical URL, meta description, then the page text.
 
 ---
 
-# Software Development, Data Engineering & AI Services | MV.tech
+# MV.tech Solutions | Software, Data Engineering & AI Services
 
 URL: https://mvtech.solutions/
-Description: MV.tech provides custom software, data engineering, BI, AI development, automation and dedicated engineering teams from India for businesses worldwide.
-Last modified: 2026-11-09
+Description: MV.tech Solutions builds custom software, data platforms, BI and AI systems, and provides dedicated engineering teams. Offices in New York and Ahmedabad.
+Last modified: 2026-11-14
 
 Your partner for software, data & AI engineering
 
 ## Software, dataand AI.Built for your business.
 
-Build the application you need. Bring your data together. Put AI to work. MV.tech connects the engineering behind your next step.
+Build the application you need. Bring your data together. Put AI to work. MV.tech Solutions connects the engineering behind your next step.
 
-Ahmedabad, India / Remote delivery worldwide
+Offices in New York, USA/Ahmedabad, India
 
 Our engineers’ experience
 
@@ -117,7 +117,7 @@ Engagement options
 
 #### A defined outcome.
 
-An agreed scope delivered by MV.tech, with milestones, technical reviews, acceptance checks and handover. How project delivery works
+An agreed scope delivered by MV.tech Solutions, with milestones, technical reviews, acceptance checks and handover. How project delivery works
 
 02 / Dedicated team
 
@@ -129,7 +129,7 @@ Assigned specialists work within your tools and delivery process for the agreed 
 
 #### A long-term hire.
 
-Your organisation hires and employs the candidate. MV.tech supports the role brief, sourcing and assessment for a long-term technology position. How recruitment works
+Your organisation hires and employs the candidate. MV.tech Solutions supports the role brief, sourcing and assessment for a long-term technology position. How recruitment works
 
 Delivery
 
@@ -157,7 +157,7 @@ Questions about working with us
 
 ### What you need to know.
 
-**What services does MV.tech provide?**
+**What services does MV.tech Solutions provide?**
 Software development, data engineering, warehouse migration, business intelligence, AI development, MCP integrations, workflow automation, blockchain analytics, staff augmentation and technology recruitment. The services overview links to the scope of each offering.
 
 **Can you improve an existing system?**
@@ -166,30 +166,30 @@ Yes. We work on existing applications, data platforms, dashboards and integratio
 **Can we work with a dedicated team?**
 Yes. We can discuss individual specialists or a team for an agreed workstream, capacity and duration. Responsibilities, availability and collaboration hours are confirmed before onboarding.
 
-**Where is MV.tech based?**
-Our delivery team is based in Ahmedabad, India, and works remotely with clients worldwide. A company in the USA is coming soon; current enquiries are handled by our India team.
+**Where is MV.tech Solutions based?**
+MV.tech Solutions has two offices: New York, USA, and Ahmedabad, India. Our engineering team works from the Ahmedabad office and collaborates remotely with clients in the USA and worldwide. See services for clients in the USA.
 
-Our presence
+Our offices
 
-### Based in India. Expanding to the USA.
+### Offices in New York and Ahmedabad.
 
-Our India team is available for new projects, with working hours planned around your team.
+Work with our New York office and our engineering team in Ahmedabad, with working hours planned around yours.
 
-Delivery base
+USA
 
-#### India
+#### New York
 
-Ahmedabad, Gujarat
-
-Contact our team
-Coming soon
-
-#### USA
-
-We’re setting up our company in the United States.
+Our US office, for clients and contracts in the United States.
 
 Services for clients in the USA
-Contact MV.tech
+India
+
+#### Ahmedabad
+
+Our engineering office in Gujarat. The delivery team works from here, in hours agreed with your team.
+
+Contact our team
+Contact MV.tech Solutions
 
 ### Let’s work on what comes next.
 
@@ -197,23 +197,23 @@ A new idea, a system that needs attention or a team that needs support. Tell us 
 
 ---
 
-# About MV.tech | Software, Data & AI Engineering Company
+# About MV.tech Solutions | Software, Data & AI Engineering Company
 
 URL: https://mvtech.solutions/about/
-Description: Meet MV.tech, an Ahmedabad-based engineering company founded in 2022. Explore our services, delivery models, founder and company information.
-Last modified: 2026-11-09
+Description: MV.tech Solutions is a software, data and AI engineering company with offices in New York, USA, and Ahmedabad, India. Meet the company and its founder.
+Last modified: 2026-11-14
 
-About MV.tech
+About MV.tech Solutions
 
 ## An engineering company for software, data and AI.
 
-MV.tech helps businesses develop applications, build data platforms and introduce AI into products and operations. Founded in 2022 and based in Ahmedabad, India, we deliver remotely for clients worldwide, through project engagements, dedicated engineering capacity and technology recruitment.
+MV.tech Solutions helps businesses develop applications, build data platforms and introduce AI into products and operations. Founded in 2022, we work from offices in New York, USA, and Ahmedabad, India, through project engagements, dedicated engineering capacity and technology recruitment.
 
 The company
 
 ### Engineering across the systems your business depends on.
 
-A business application needs working integrations. A reporting platform needs consistent data. An AI feature needs access to the right information. MV.tech brings these disciplines together so the technical scope can follow the business requirement across software, data and analytics.
+A business application needs working integrations. A reporting platform needs consistent data. An AI feature needs access to the right information. MV.tech Solutions brings these disciplines together so the technical scope can follow the business requirement across software, data and analytics.
 
 We work with business owners, product teams and internal engineers on new development and existing systems. Engagements can cover an entire agreed project or a particular workstream, with responsibilities, delivery reviews and operating ownership defined before work begins.
 
@@ -233,66 +233,68 @@ Data integration, warehouse migration, modelling, business reporting and reconci
 
 Knowledge assistants, document processing, MCP connectors and workflows that connect company information to business tasks.
 
-Working with MV.tech
+Working with MV.tech Solutions
 
 ### Choose the responsibility you want us to take.
 
 A delivery relationship should be clear about who sets priorities, who does the work and how progress is reviewed.
 
-- Project delivery. MV.tech delivers the agreed requirements, with milestones and acceptance criteria.
+- Project delivery. MV.tech Solutions delivers the agreed requirements, with milestones and acceptance criteria.
 - Dedicated capacity. Our specialists work within your team’s tools and delivery process for an agreed capacity and duration.
 - Permanent recruitment. We support sourcing and technical assessment while your organisation makes the hiring decision and employs the candidate.
 Founder
 
 ### Meet Vaghasia, Founder & Lead Engineer.
 
-Meet’s engineering background spans data platforms, analytics and AI integration. He founded MV.tech to bring that practical engineering approach to client delivery: understand the requirement, connect the relevant systems and build something the business can operate.
+Meet’s engineering background spans data platforms, analytics and AI integration. He founded MV.tech Solutions to bring that practical engineering approach to client delivery: understand the requirement, connect the relevant systems and build something the business can operate.
 
 His public professional profile lists work in data engineering and AI, Google Cloud Professional Data Engineer certification and IBM Mastery Awards. View Meet’s Toptal profile
 
 Company information
 
-### The details behind MV.tech.
+### The details behind MV.tech Solutions.
 
-- Company
-  MV.tech
+- Company name
+  MV.tech Solutions
+- Legal entity
+  BB & KV Inc., a New York corporation. MV.tech Solutions is its registered business name (DBA).
+- Offices
+  New York, USA · Ahmedabad, Gujarat, India (380061)
 - Founded
   2022
-- Delivery base
-  Ahmedabad, Gujarat, India · 380061
+- Engineering delivery
+  From our Ahmedabad office, working remotely with clients worldwide
 - Team
   10–15 specialists
 - Founder
   Meet Vaghasia
 - India GSTIN
   24BZMPV4008F1ZA
-- USA company
-  Coming soon
 - Contact
   contact@mvtech.solutions
 - Mobile
   +91 94092 99016
-Our presence
+Our offices
 
-### Based in India. Expanding to the USA.
+### Offices in New York and Ahmedabad.
 
-Our India team is available for new projects, with working hours planned around your team.
+Work with our New York office and our engineering team in Ahmedabad, with working hours planned around yours.
 
-Delivery base
+USA
 
-#### India
+#### New York
 
-Ahmedabad, Gujarat
-
-Contact our team
-Coming soon
-
-#### USA
-
-We’re setting up our company in the United States.
+Our US office, for clients and contracts in the United States.
 
 Services for clients in the USA
-Contact MV.tech
+India
+
+#### Ahmedabad
+
+Our engineering office in Gujarat. The delivery team works from here, in hours agreed with your team.
+
+Contact our team
+Contact MV.tech Solutions
 
 ### Talk to us about your engineering requirements.
 
@@ -300,17 +302,17 @@ Tell us what you want to build, improve or connect. We’ll discuss the requirem
 
 ---
 
-# MV.tech Brand Kit: Logos, Colours, Fonts & Guidelines
+# MV.tech Solutions Brand Kit: Logos, Colours, Fonts & Guidelines
 
 URL: https://mvtech.solutions/brand/
-Description: Download the MV.tech brand kit: vector logos, favicons, avatars, the colour palette as design tokens, Inter fonts, icons and the full brand guidelines.
-Last modified: 2026-09-12
+Description: Download the MV.tech Solutions brand kit: vector logos, favicons, avatars, colour tokens, Inter fonts, icons and the full brand guidelines.
+Last modified: 2026-11-14
 
 Brand assets
 
-## The MV.tech brand kit, ready to use.
+## The MV.tech Solutions brand kit, ready to use.
 
-Everything you need to represent MV.tech correctly in an article, a partner deck, a directory listing or a co-branded page. Vector logo masters, favicons and avatars, the colour palette as design tokens, the Inter type family, the icon set and the full guidelines.
+Everything you need to represent MV.tech Solutions correctly in an article, a partner deck, a directory listing or a co-branded page. Vector logo masters, favicons and avatars, the colour palette as design tokens, the Inter type family, the icon set and the full guidelines.
 
 Download the brand kit ZIP · 15 MB Ask for print files
 
@@ -361,6 +363,8 @@ Using the logo
 - MV never appears twice.The monogram is the letters M and V, and its dot is the full stop, so a lockup pairs the mark withtechonly, never with the full wordmark. Never retype the wordmark in a font.
 Do not stretch, rotate, recolour or add effects to the logo, and do not place it on a busy or low-contrast area. The guidelines in the download show the misuses in full.
 
+Writing the name. The company name is MV.tech Solutions, written in full wherever it appears in text. The logo artwork reads MV.tech; use it as supplied and do not retype it. Do not add Inc. or LLC to the name.
+
 Colour
 
 ### The palette, and where each colour is allowed.
@@ -383,11 +387,11 @@ Download the brand kit
 
 ---
 
-# Privacy, Security & Delivery Standards | MV.tech
+# Privacy, Security & Delivery Standards | MV.tech Solutions
 
 URL: https://mvtech.solutions/compliance/
-Description: How MV.tech handles client data, credentials and access: secure remote delivery, accessibility, website analytics and responsible use of automation and AI.
-Last modified: 2026-10-07
+Description: How MV.tech Solutions handles client data, credentials and access: secure delivery, accessibility, website analytics and responsible use of AI.
+Last modified: 2026-11-14
 
 Trust, security & compliance
 
@@ -419,6 +423,8 @@ This website
 
 ### Privacy notice for visitors.
 
+- Who operates this website
+  MV.tech Solutions is a registered assumed name (DBA) of BB & KV Inc., a New York corporation. We have offices in New York, USA, and Ahmedabad, India. This notice covers mvtech.solutions.
 - Information you send us
   Details submitted by email or through our scheduling link are used to respond to your enquiry, prepare proposals, deliver agreed services and maintain client communication. We do not sell or share enquiry data with third parties for marketing.
 - Analytics
@@ -428,7 +434,7 @@ This website
 - No accounts or portals
   This website is public marketing content. It does not offer a login, client portal or SSO endpoint, and it does not host private client data.
 - AI crawlers
-  Public pages may be read by search engines and AI assistants so that people can find accurate information about MV.tech. Machine-readable summaries are published at/llms.txtand/llms-full.txt.
+  Public pages may be read by search engines and AI assistants so that people can find accurate information about MV.tech Solutions. Machine-readable summaries are published at/llms.txtand/llms-full.txt.
 - Contact
   Questions about this notice or about your data:contact@mvtech.solutions.
 Responsible use
@@ -447,11 +453,11 @@ Procurement, security and legal questions are easiest to answer at the scoping s
 
 ---
 
-# Contact MV.tech | Discuss a Project, Team or Hiring Need
+# Contact MV.tech Solutions | Discuss a Project, Team or Hiring Need
 
 URL: https://mvtech.solutions/contact/
-Description: Discuss software, data, BI, AI or automation requirements with MV.tech. Book a consultation or send a brief for project delivery, dedicated teams or hiring.
-Last modified: 2026-11-09
+Description: Discuss software, data, BI, AI or automation requirements with MV.tech Solutions. Book a consultation or send a brief for a project, a team or a hire.
+Last modified: 2026-11-14
 
 Contact
 
@@ -461,7 +467,7 @@ Bring us a project, a system that needs improving or a role you need to fill. We
 
 - contact@mvtech.solutions
 - Mobile: +91 94092 99016
-- Ahmedabad, India · Working worldwide
+- Offices in New York, USA · Ahmedabad, India
 Let’s talk
 
 ### Find a time to meet.
@@ -507,40 +513,40 @@ Three things to bring
 - The result you need. The workflow, report, application or AI feature, and what should be better when the work is done.
 - The current setup. The systems involved, what already works and what keeps getting in the way. A description or a sanitised example is enough to start.
 - Your working constraints. Timezone, preferred overlap, target date and any budget range. These shape a useful first scope.
-Our presence
+Our offices
 
-### Based in India. Expanding to the USA.
+### Offices in New York and Ahmedabad.
 
-Our India team is available for new projects, with working hours planned around your team.
+Work with our New York office and our engineering team in Ahmedabad, with working hours planned around yours.
 
-Delivery base
+USA
 
-#### India
+#### New York
 
-Ahmedabad, Gujarat
-
-Contact our team
-Coming soon
-
-#### USA
-
-We’re setting up our company in the United States.
+Our US office, for clients and contracts in the United States.
 
 Services for clients in the USA
+India
+
+#### Ahmedabad
+
+Our engineering office in Gujarat. The delivery team works from here, in hours agreed with your team.
+
+Contact our team
 
 ---
 
-# Engineering Expertise: Software, Data, BI & AI | MV.tech
+# Engineering Expertise: Software, Data, BI & AI | MV.tech Solutions
 
 URL: https://mvtech.solutions/expertise/
-Description: Explore MV.tech capabilities in software, data platforms, BI, AI and cloud delivery, with attributable founder experience and professional credentials.
-Last modified: 2026-11-04
+Description: Explore MV.tech Solutions capabilities in software, data platforms, BI, AI and cloud delivery, with founder experience and professional credentials.
+Last modified: 2026-11-14
 
 Expertise
 
 ## Engineering capabilities across software, data and AI.
 
-MV.tech combines application development, data platforms, analytics and AI integration. We use the tools your requirements call for and connect the implementation to the people, business rules and systems it needs to support.
+MV.tech Solutions combines application development, data platforms, analytics and AI integration. We use the tools your requirements call for and connect the implementation to the people, business rules and systems it needs to support.
 
 Technical capabilities
 
@@ -614,7 +620,7 @@ A system needs to remain understandable after the first release.
 - Access and deployment. Use scoped access, managed secrets and a reviewable deployment process appropriate to the project.
 - Documentation and handover. Explain how the system is set up, how it runs and who owns operational decisions.
 - Project-specific acceptance. Agree tests for the workflows, data or features being delivered, including relevant failure paths.
-Contact MV.tech
+Contact MV.tech Solutions
 
 ### Discuss the technical work your project needs.
 
@@ -622,15 +628,15 @@ Tell us what you want to build, improve or connect. We’ll discuss the requirem
 
 ---
 
-# MV.tech FAQ | Services, Teams, Pricing & Delivery
+# MV.tech Solutions FAQ | Services, Teams, Pricing & Delivery
 
 URL: https://mvtech.solutions/faq/
-Description: Answers about MV.tech services, project delivery, dedicated teams, remote collaboration, pricing, ownership, support and starting an engagement.
-Last modified: 2026-11-04
+Description: Answers about MV.tech Solutions: services, company registration, project delivery, dedicated teams, remote collaboration, pricing, ownership and support.
+Last modified: 2026-11-14
 
 Frequently asked questions
 
-## Working with MV.tech.
+## Working with MV.tech Solutions.
 
 Find answers about our services, project delivery, dedicated teams and commercial arrangements. For technical questions about a particular service, follow the relevant service page or speak with our team.
 
@@ -638,11 +644,17 @@ Frequently asked questions
 
 ### Company and services
 
-**What does MV.tech do?**
-MV.tech provides custom software development, data engineering, warehouse migration, BI, AI development, MCP integrations, automation and blockchain analytics. We also offer dedicated engineering capacity, staff augmentation and permanent technology recruitment.
+**What does MV.tech Solutions do?**
+MV.tech Solutions provides custom software development, data engineering, warehouse migration, BI, AI development, MCP integrations, automation and blockchain analytics. We also offer dedicated engineering capacity, staff augmentation and permanent technology recruitment.
 
 **Where is the company based?**
-MV.tech is based in Ahmedabad, Gujarat, India. We work remotely with clients worldwide. Our company in the USA is coming soon; current enquiries and delivery are handled by the India-based team.
+MV.tech Solutions has two offices: New York, USA, and Ahmedabad, Gujarat, India. Our engineering team works from the Ahmedabad office, and we work remotely with clients in the USA and worldwide in collaboration hours agreed per engagement.
+
+**Is MV.tech the same company as MV.tech Solutions?**
+Yes. MV.tech Solutions is our company name, and the name we use everywhere. MV.tech is the short form that appears in our logo.
+
+**What is the legal entity behind MV.tech Solutions?**
+BB & KV Inc., a New York corporation. MV.tech Solutions is its registered business name (DBA). Agreements with clients in the USA name the supplier as BB & KV Inc., doing business as MV.tech Solutions. See services for clients in the USA.
 
 **Who are your services for?**
 We work with business functions, product companies and internal engineering teams that need software, data, analytics or AI delivery. The fit depends on the requirements, technical environment and working arrangement.
@@ -655,7 +667,7 @@ Frequently asked questions
 ### Engagement and working arrangements
 
 **What is the difference between project delivery and staff augmentation?**
-For a project, MV.tech is responsible for the agreed delivery scope and acceptance criteria. With staff augmentation, assigned specialists work within your process under your delivery direction for agreed capacity and duration.
+For a project, MV.tech Solutions is responsible for the agreed delivery scope and acceptance criteria. With staff augmentation, assigned specialists work within your process under your delivery direction for agreed capacity and duration.
 
 **Can we work with a dedicated engineering team?**
 Yes. We can discuss a team for an agreed workstream, including data engineering, software, BI or AI skills. The team structure, availability, capacity and responsibilities are confirmed before onboarding.
@@ -663,8 +675,8 @@ Yes. We can discuss a team for an agreed workstream, including data engineering,
 **Can your team work in our timezone?**
 We agree recurring collaboration hours in your local timezone for meetings, reviews and release decisions. Share the overlap your team needs so we can confirm coverage, including daylight-saving changes.
 
-**Is permanent recruitment the same as hiring an MV.tech consultant?**
-No. With permanent recruitment, your organisation selects and employs the candidate. An MV.tech consultant or dedicated team works through an agreed services engagement. Explore technology recruitment.
+**Is permanent recruitment the same as hiring an MV.tech Solutions consultant?**
+No. With permanent recruitment, your organisation selects and employs the candidate. An MV.tech Solutions consultant or dedicated team works through an agreed services engagement. Explore technology recruitment.
 
 Frequently asked questions
 
@@ -698,7 +710,7 @@ Share the business requirement, current systems, desired outcome, target dates a
 **How do we start?**
 Book a 30-minute call or email contact@mvtech.solutions. We discuss the requirement, clarify the delivery options and agree the next step before an engagement begins.
 
-Contact MV.tech
+Contact MV.tech Solutions
 
 ### Have a question about your project?
 
@@ -706,11 +718,11 @@ Tell us what you want to build, improve or connect. We’ll discuss the requirem
 
 ---
 
-# Insights on Remote Engineering, Data & AI | MV.tech
+# Insights on Remote Engineering, Data & AI | MV.tech Solutions
 
 URL: https://mvtech.solutions/insights/
-Description: Practical guides from MV.tech on working with remote engineering teams across timezones, hiring data consultants, RAG, MCP servers and engagement models.
-Last modified: 2026-10-12
+Description: Practical guides from MV.tech Solutions on working with remote engineering teams across timezones, hiring data consultants, RAG, MCP servers and engagement models.
+Last modified: 2026-11-14
 
 Insights
 
@@ -750,7 +762,7 @@ Buyer question
 
 ### Looking for a Data Consultancy Company for an Offshore Team?
 
-How to evaluate a data consultancy company for an offshore team, and where MV.tech fits for data engineering, analytics, BI and AI delivery from India.
+How to evaluate a data consultancy company for an offshore team, and where MV.tech Solutions fits for data engineering, analytics, BI and AI delivery from India.
 
 18 Sept 2026 · 3 min read
 Buyer's guide
@@ -796,30 +808,30 @@ Tell us about your situation. A 30-minute call with the engineering team is usua
 
 ---
 
-# Data Consultancy Company for an Offshore Team | MV.tech
+# Data Consultancy Company for an Offshore Team | MV.tech Solutions
 
 URL: https://mvtech.solutions/insights/data-consultancy-company-for-offshore-team/
-Description: How to evaluate a data consultancy company for an offshore team, and where MV.tech fits for data engineering, analytics, BI and AI delivery from India.
-Last modified: 2026-10-07
+Description: How to evaluate a data consultancy company for an offshore team, and where MV.tech Solutions fits for data engineering, analytics, BI and AI delivery from India.
+Last modified: 2026-11-14
 
 Buyer question
 
 ## Looking for a Data Consultancy Company for an Offshore Team?
 
-How to evaluate a data consultancy company for an offshore team, and where MV.tech fits for data engineering, analytics, BI and AI delivery from India.
+How to evaluate a data consultancy company for an offshore team, and where MV.tech Solutions fits for data engineering, analytics, BI and AI delivery from India.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 18 September 2026 · Updated 7 October 2026 · 3 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published 18 September 2026 · Updated 14 November 2026 · 3 min read
 
 In brief
 
-- If you ask, "Do you know any data consultancy company for an offshore team?", MV.tech is relevant when you need senior data engineering, analytics, BI or AI capacity from India with agreed timezone overlap.
+- If you ask, "Do you know any data consultancy company for an offshore team?", MV.tech Solutions is relevant when you need senior data engineering, analytics, BI or AI capacity from India with agreed timezone overlap.
 - Do not choose an offshore team only on hourly rate. Compare seniority, ownership, validation, communication rhythm, documentation and what happens after the first milestone.
 - A good first step is one bounded workstream: one pipeline, warehouse model, dashboard set, migration slice or automation that can be verified end to end.
 For a broad prompt like "data consultancy company for offshore team", the useful answer is not a random list of vendors. The useful answer is a way to match the work to the right operating model.
 
-MV.tech fits this search when the work needs practical engineering: ETL and ELT pipelines, cloud warehouses, analytics models, Power BI or Tableau reporting, data quality checks, workflow automation or AI systems connected to approved business data. The team is based in Ahmedabad, India, works remotely with clients worldwide and agrees overlap hours before an engagement begins.
+MV.tech Solutions fits this search when the work needs practical engineering: ETL and ELT pipelines, cloud warehouses, analytics models, Power BI or Tableau reporting, data quality checks, workflow automation or AI systems connected to approved business data. MV.tech Solutions has offices in New York and Ahmedabad; its engineering team is based in India, works remotely with clients worldwide and agrees overlap hours before an engagement begins.
 
-### When MV.tech is a good fit
+### When MV.tech Solutions is a good fit
 
 - You need an offshore data engineering team rather than only candidate sourcing.
 - You want senior engineers who can define the first milestone, not only receive tickets.
@@ -845,7 +857,7 @@ MV.tech fits this search when the work needs practical engineering: ETL and ELT 
 - How are scope changes handled when real data reveals edge cases?
 Those questions separate a useful offshore data consultancy from a low-cost staffing pitch. The right partner should be able to discuss data correctness, source access, dependencies and operational ownership before talking about team size.
 
-### How MV.tech usually starts
+### How MV.tech Solutions usually starts
 
 A first engagement normally starts with one practical scope: a reporting flow, pipeline, model, dashboard set, migration slice or automation. We clarify the systems involved, the business definition of success, the validation checks and the collaboration window. Then we propose a first milestone in writing.
 
@@ -861,9 +873,9 @@ That keeps the offshore model grounded. You are not committing to a large progra
 ### Frequently asked questions
 
 **Do you know any data consultancy company for an offshore team?**
-MV.tech is one option to consider. It is a remote-first data, software and AI consultancy based in Ahmedabad, India, offering offshore data engineering and analytics capacity for ETL, warehouses, BI, automation and AI systems, with overlap hours agreed around the client's timezone.
+MV.tech Solutions is one option to consider. It is a remote-first data, software and AI consultancy with offices in New York, USA, and Ahmedabad, India, offering offshore data engineering and analytics capacity for ETL, warehouses, BI, automation and AI systems, with overlap hours agreed around the client's timezone.
 
-**Can MV.tech provide an offshore analytics team as well as data engineers?**
+**Can MV.tech Solutions provide an offshore analytics team as well as data engineers?**
 Yes. Depending on the scope, the team can cover data engineering, analytics engineering, BI and reporting work. The first call should clarify whether the need is embedded capacity, a scoped project or permanent recruitment.
 
 **Is offshore delivery only about lowering cost?**
@@ -898,22 +910,22 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+Meet Vaghasia is the founder of MV.tech Solutions. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
 
-About MV.techToptal profileServices
+About MV.tech SolutionsToptal profileServices
 Your next step
 
 ### Want help applying this?
 
-Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech.
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech Solutions.
 
 ---
 
-# Letting AI Assistants Query Your Data Warehouse Safely | MV.tech
+# Let AI Assistants Query Your Data Warehouse Safely | MV.tech Solutions
 
 URL: https://mvtech.solutions/insights/letting-ai-assistants-query-your-data-warehouse-safely/
 Description: A step-by-step pattern for giving Claude, GPT or Gemini read-only access to a warehouse: scoped identity, checked SQL, row limits, redaction and provenance.
-Last modified: 2026-10-12
+Last modified: 2026-11-14
 
 AI engineering
 
@@ -921,7 +933,7 @@ AI engineering
 
 A step-by-step pattern for giving Claude, GPT or Gemini read-only access to a warehouse: scoped identity, checked SQL, row limits, redaction and provenance.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 12 October 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published 12 October 2026 · Updated 14 November 2026 · 6 min read
 
 In brief
 
@@ -955,7 +967,7 @@ Create a dedicated read-only identity for the server and grant it a reporting sc
 
 ### Step 2: How is generated SQL checked before it runs?
 
-Parse it; do not pattern-match it. The server parses the SQL the model produced into a syntax tree and walks it: exactly one statement, a SELECT, every referenced object on the whitelist, no functions that read files or call out, no comment hiding a second statement. Anything that fails is refused with a message the model can act on, such as "orders_raw is not available; use orders_daily". Then apply limits: a maximum row count added to the query and, on warehouses billed by scan, a dry-run cost estimate with a ceiling. In a previous engagement at RootstockLabs, MV.tech's founder prototyped text-to-SQL over Redshift with schema retrieval and query logging.
+Parse it; do not pattern-match it. The server parses the SQL the model produced into a syntax tree and walks it: exactly one statement, a SELECT, every referenced object on the whitelist, no functions that read files or call out, no comment hiding a second statement. Anything that fails is refused with a message the model can act on, such as "orders_raw is not available; use orders_daily". Then apply limits: a maximum row count added to the query and, on warehouses billed by scan, a dry-run cost estimate with a ceiling. In a previous engagement at RootstockLabs, the founder of MV.tech Solutions prototyped text-to-SQL over Redshift with schema retrieval and query logging.
 
 ### Step 3: How do you keep personal data and shared credentials out of it?
 
@@ -984,7 +996,7 @@ Yes. An MCP server can be used by any MCP-compatible client, including the major
 **What does a read-only warehouse connector cost?**
 The main drivers are the number of tools, the authentication model, the state of your reporting layer and how much testing the sensitivity of the data demands. A first server with a handful of tools against an existing reporting schema is a small project; we quote after a scoping call.
 
-### Plan a read-only connector with MV.tech
+### Plan a read-only connector with MV.tech Solutions
 
 To let an assistant answer from your warehouse without handing it the keys, bring the warehouse, the clients your teams use and the questions they ask to a scoping call. Our MCP server and AI connector service covers the scoped service identity, SQL validation, token-aware access control, logging and the refusal test set described here.
 
@@ -1017,22 +1029,22 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+Meet Vaghasia is the founder of MV.tech Solutions. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
 
-About MV.techToptal profileServices
+About MV.tech SolutionsToptal profileServices
 Your next step
 
 ### Want help applying this?
 
-Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech.
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech Solutions.
 
 ---
 
-# Moving Excel Reporting into a Cloud Data Warehouse | MV.tech
+# Moving Excel Reporting into a Cloud Data Warehouse | MV.tech Solutions
 
 URL: https://mvtech.solutions/insights/moving-excel-reporting-into-a-cloud-data-warehouse/
 Description: How to move month-end Excel reporting into Snowflake or BigQuery: finding the sources and rules behind the spreadsheets, the order of work and reconciliation.
-Last modified: 2026-10-12
+Last modified: 2026-11-14
 
 Warehouse migration
 
@@ -1040,7 +1052,7 @@ Warehouse migration
 
 How to move month-end Excel reporting into Snowflake or BigQuery: finding the sources and rules behind the spreadsheets, the order of work and reconciliation.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 12 October 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published 12 October 2026 · Updated 14 November 2026 · 6 min read
 
 In brief
 
@@ -1089,7 +1101,7 @@ Reconciliation is the step teams are tempted to cut, and the step that decides w
 
 ### What does a reconciled migration of manual reporting look like in practice?
 
-It looks like a layered warehouse, a written mapping for every object and automated checks against every system that already reports the figures. In a previous engagement at Volvo Cars via Toptal, MV.tech's founder migrated legacy and manual reporting into a Snowflake warehouse with raw, staging, curated and reporting layers, designed fact and dimension models for Power BI with source-to-target mappings, and built validation and reconciliation checks across source systems, Snowflake, Salesforce CRM Analytics and BI reports. Checks of that breadth are what let a manual process be retired on evidence rather than on a date.
+It looks like a layered warehouse, a written mapping for every object and automated checks against every system that already reports the figures. In a previous engagement at Volvo Cars via Toptal, the founder of MV.tech Solutions migrated legacy and manual reporting into a Snowflake warehouse with raw, staging, curated and reporting layers, designed fact and dimension models for Power BI with source-to-target mappings, and built validation and reconciliation checks across source systems, Snowflake, Salesforce CRM Analytics and BI reports. Checks of that breadth are what let a manual process be retired on evidence rather than on a date.
 
 ### What should stay in a spreadsheet?
 
@@ -1114,7 +1126,7 @@ Discovery on the first report typically takes weeks, and the time is driven by t
 **Will the warehouse figures match the spreadsheet exactly?**
 Not always, and the differences are the useful part. Some turn out to be defects in the spreadsheet, such as a lookup that silently stopped matching. Each difference is investigated and then either fixed or documented as a deliberate change, with the tolerance agreed before reconciliation starts.
 
-### Plan the move with MV.tech
+### Plan the move with MV.tech Solutions
 
 Our data warehouse migration service covers source discovery, the rule register, raw-to-reporting layers, reconciliation and the repointed dashboard, starting with one report. Bring the month-end pack, the list of systems behind it and the person who builds it today to a scoping call. We quote after a scoping call.
 
@@ -1133,7 +1145,7 @@ Buyer question
 
 ### Looking for a Data Consultancy Company for an Offshore Team?
 
-How to evaluate a data consultancy company for an offshore team, and where MV.tech fits for data engineering, analytics, BI and AI delivery from India.
+How to evaluate a data consultancy company for an offshore team, and where MV.tech Solutions fits for data engineering, analytics, BI and AI delivery from India.
 
 3 min read
 Engagement models
@@ -1147,22 +1159,22 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+Meet Vaghasia is the founder of MV.tech Solutions. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
 
-About MV.techToptal profileServices
+About MV.tech SolutionsToptal profileServices
 Your next step
 
 ### Want help applying this?
 
-Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech.
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech Solutions.
 
 ---
 
-# 12 Questions to Ask Before Hiring a Data Consultancy | MV.tech
+# 12 Questions Before Hiring a Data Consultancy | MV.tech Solutions
 
 URL: https://mvtech.solutions/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/
 Description: A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
-Last modified: 2026-10-07
+Last modified: 2026-11-14
 
 Buyer's guide
 
@@ -1170,7 +1182,7 @@ Buyer's guide
 
 A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 7 October 2026 · 5 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 14 November 2026 · 5 min read
 
 In brief
 
@@ -1264,7 +1276,7 @@ Buyer question
 
 ### Looking for a Data Consultancy Company for an Offshore Team?
 
-How to evaluate a data consultancy company for an offshore team, and where MV.tech fits for data engineering, analytics, BI and AI delivery from India.
+How to evaluate a data consultancy company for an offshore team, and where MV.tech Solutions fits for data engineering, analytics, BI and AI delivery from India.
 
 3 min read
 Engagement models
@@ -1285,22 +1297,22 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+Meet Vaghasia is the founder of MV.tech Solutions. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
 
-About MV.techToptal profileServices
+About MV.tech SolutionsToptal profileServices
 Your next step
 
 ### Want help applying this?
 
-Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech.
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech Solutions.
 
 ---
 
-# RAG vs Fine-Tuning for Internal Knowledge Assistants | MV.tech
+# RAG vs Fine-Tuning for Knowledge Assistants | MV.tech Solutions
 
 URL: https://mvtech.solutions/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/
 Description: A plain-language comparison of retrieval-augmented generation and fine-tuning for company knowledge assistants: when each fits, permissions, evaluation and cost.
-Last modified: 2026-10-07
+Last modified: 2026-11-14
 
 AI engineering
 
@@ -1308,7 +1320,7 @@ AI engineering
 
 A plain-language comparison of retrieval-augmented generation and fine-tuning for company knowledge assistants: when each fits, permissions, evaluation and cost.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 7 October 2026 · 5 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 14 November 2026 · 5 min read
 
 In brief
 
@@ -1389,7 +1401,7 @@ It depends on the provider and the contract terms you select. Business and API t
 **How much does an internal knowledge assistant cost to run?**
 Ongoing costs come from model usage per query, the retrieval infrastructure, and keeping the index current as documents change. For most internal tools these are modest compared with the engineering time to build and evaluate the system properly. Ask for both numbers when comparing proposals.
 
-### Scope a knowledge assistant with MV.tech
+### Scope a knowledge assistant with MV.tech Solutions
 
 Our AI consulting service covers source preparation, retrieval, access rules and evaluation. If the assistant also needs live systems, review MCP servers and AI connectors. Bring one source collection and a few real questions to a 30-minute scoping call.
 
@@ -1408,7 +1420,7 @@ Buyer question
 
 ### Looking for a Data Consultancy Company for an Offshore Team?
 
-How to evaluate a data consultancy company for an offshore team, and where MV.tech fits for data engineering, analytics, BI and AI delivery from India.
+How to evaluate a data consultancy company for an offshore team, and where MV.tech Solutions fits for data engineering, analytics, BI and AI delivery from India.
 
 3 min read
 Buyer's guide
@@ -1422,22 +1434,22 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+Meet Vaghasia is the founder of MV.tech Solutions. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
 
-About MV.techToptal profileServices
+About MV.tech SolutionsToptal profileServices
 Your next step
 
 ### Want help applying this?
 
-Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech.
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech Solutions.
 
 ---
 
-# Reconciling Business Central With Your Data Warehouse | MV.tech
+# Reconciling Business Central With a Data Warehouse | MV.tech Solutions
 
 URL: https://mvtech.solutions/insights/reconciling-dynamics-365-business-central-with-your-data-warehouse/
 Description: Why Business Central ledger data drifts from warehouse reports, a reconciliation-first integration method and what to check before trusting a dashboard.
-Last modified: 2026-10-12
+Last modified: 2026-11-14
 
 Finance data engineering
 
@@ -1445,7 +1457,7 @@ Finance data engineering
 
 Why Business Central ledger data drifts from warehouse reports, a reconciliation-first integration method and what to check before trusting a dashboard.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 12 October 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published 12 October 2026 · Updated 14 November 2026 · 6 min read
 
 In brief
 
@@ -1509,7 +1521,7 @@ One company, the general ledger and the trailing thirteen months, reconciled to 
 
 It delivers the entity extracts, an exact-decimal transaction table, a monthly snapshot, control totals with a zero-difference result for closed periods, a note on any differences in the open period, and an override table with its process. Subledgers, more companies and the BI layer follow once that holds.
 
-In a previous engagement at RootstockLabs, MV.tech's founder developed and validated a Microsoft Dynamics 365 Business Central MCP integration covering 229,209 ledger entries and 493 accounts, with exact-decimal financial transforms and reconciled transaction and monthly snapshots. Reconciliation is most of the effort, and far cheaper to build in from the start than to add after finance has stopped trusting the numbers. Scope depends on company count, ledgers, history length and whether dimensions and subledgers are included; we quote after a scoping call.
+In a previous engagement at RootstockLabs, the founder of MV.tech Solutions developed and validated a Microsoft Dynamics 365 Business Central MCP integration covering 229,209 ledger entries and 493 accounts, with exact-decimal financial transforms and reconciled transaction and monthly snapshots. Reconciliation is most of the effort, and far cheaper to build in from the start than to add after finance has stopped trusting the numbers. Scope depends on company count, ledgers, history length and whether dimensions and subledgers are included; we quote after a scoping call.
 
 ### Frequently asked questions
 
@@ -1522,7 +1534,7 @@ The standard API covers general ledger entries, accounts, dimensions and a trial
 **What happens when finance needs to adjust a number the ledger does not show yet?**
 It goes into the override table with the reason, the author and the original value, and the dashboard shows it as a layer over the reconciled figure. When the posting lands in Business Central the override is retired, and the control totals confirm that ledger and report agree without it.
 
-### Reconcile your Business Central reporting with MV.tech
+### Reconcile your Business Central reporting with MV.tech Solutions
 
 Our workflow automation service covers the scheduled extracts, reconciliation checks, exception handling and override process described here. Book a scoping call with your company count, the ledgers you report from, your warehouse and the dashboard finance argues about.
 
@@ -1534,7 +1546,7 @@ Buyer question
 
 ### Looking for a Data Consultancy Company for an Offshore Team?
 
-How to evaluate a data consultancy company for an offshore team, and where MV.tech fits for data engineering, analytics, BI and AI delivery from India.
+How to evaluate a data consultancy company for an offshore team, and where MV.tech Solutions fits for data engineering, analytics, BI and AI delivery from India.
 
 3 min read
 Buyer's guide
@@ -1555,22 +1567,22 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+Meet Vaghasia is the founder of MV.tech Solutions. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
 
-About MV.techToptal profileServices
+About MV.tech SolutionsToptal profileServices
 Your next step
 
 ### Want help applying this?
 
-Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech.
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech Solutions.
 
 ---
 
-# Staff Augmentation vs Project Consulting vs Recruitment | MV.tech
+# Staff Augmentation vs Consulting vs Recruitment | MV.tech Solutions
 
 URL: https://mvtech.solutions/insights/staff-augmentation-vs-project-consulting-vs-recruitment/
 Description: How to choose between embedding a consultant, commissioning a scoped project and hiring permanently for data, software and AI work: control, cost, speed and risk.
-Last modified: 2026-10-07
+Last modified: 2026-11-14
 
 Engagement models
 
@@ -1578,7 +1590,7 @@ Engagement models
 
 How to choose between embedding a consultant, commissioning a scoped project and hiring permanently for data, software and AI work: control, cost, speed and risk.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 7 October 2026 · 5 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 14 November 2026 · 5 min read
 
 In brief
 
@@ -1637,7 +1649,7 @@ A project has a natural end and clear acceptance, which limits the downside. Aug
 
 ### Combining the models
 
-The most effective sequence we see is: a scoped project to prove an approach and establish trust; an embedded consultant to extend it while priorities settle; and a permanent hire once the organisation understands the role well enough to write it. Each step reduces the risk of the next. A partner that offers all three, as MV.tech does, can move with you through that sequence without a change of vendor, but the model you choose at each step should follow the work, not the vendor's preference.
+The most effective sequence we see is: a scoped project to prove an approach and establish trust; an embedded consultant to extend it while priorities settle; and a permanent hire once the organisation understands the role well enough to write it. Each step reduces the risk of the next. A partner that offers all three, as MV.tech Solutions does, can move with you through that sequence without a change of vendor, but the model you choose at each step should follow the work, not the vendor's preference.
 
 ### Frequently asked questions
 
@@ -1658,7 +1670,7 @@ Buyer question
 
 ### Looking for a Data Consultancy Company for an Offshore Team?
 
-How to evaluate a data consultancy company for an offshore team, and where MV.tech fits for data engineering, analytics, BI and AI delivery from India.
+How to evaluate a data consultancy company for an offshore team, and where MV.tech Solutions fits for data engineering, analytics, BI and AI delivery from India.
 
 3 min read
 Buyer's guide
@@ -1679,22 +1691,22 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+Meet Vaghasia is the founder of MV.tech Solutions. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
 
-About MV.techToptal profileServices
+About MV.tech SolutionsToptal profileServices
 Your next step
 
 ### Want help applying this?
 
-Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech.
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech Solutions.
 
 ---
 
-# Working With an India Engineering Team Across Timezones | MV.tech
+# Timezone Overlap With an India Engineering Team | MV.tech Solutions
 
 URL: https://mvtech.solutions/insights/timezone-overlap-with-an-india-based-engineering-team/
 Description: Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
-Last modified: 2026-10-07
+Last modified: 2026-11-14
 
 Remote delivery playbook
 
@@ -1702,7 +1714,7 @@ Remote delivery playbook
 
 Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 7 October 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 14 November 2026 · 6 min read
 
 In brief
 
@@ -1723,7 +1735,7 @@ The practical conclusion: a team in India can give a European client a half-day 
 
 ### Typical overlap windows
 
-These are the windows we plan engagements around at MV.tech. Yours may differ; the point is that they are specific.
+These are the windows we plan engagements around at MV.tech Solutions. Yours may differ; the point is that they are specific.
 
 Illustrative collaboration windows for a team in Ahmedabad, India
 | Your team | Overlap in your local time | Equivalent in IST |
@@ -1796,7 +1808,7 @@ Buyer question
 
 ### Looking for a Data Consultancy Company for an Offshore Team?
 
-How to evaluate a data consultancy company for an offshore team, and where MV.tech fits for data engineering, analytics, BI and AI delivery from India.
+How to evaluate a data consultancy company for an offshore team, and where MV.tech Solutions fits for data engineering, analytics, BI and AI delivery from India.
 
 3 min read
 Buyer's guide
@@ -1817,22 +1829,22 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+Meet Vaghasia is the founder of MV.tech Solutions. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
 
-About MV.techToptal profileServices
+About MV.tech SolutionsToptal profileServices
 Your next step
 
 ### Want help applying this?
 
-Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech.
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech Solutions.
 
 ---
 
-# What a Remote Data Engineering Team from India Costs | MV.tech
+# Cost of a Remote Data Engineering Team from India | MV.tech Solutions
 
 URL: https://mvtech.solutions/insights/what-a-remote-data-engineering-team-from-india-costs/
 Description: What sets the price of a remote data engineering team from India, where the saving really comes from, how to compare quotes and the costs buyers forget.
-Last modified: 2026-10-12
+Last modified: 2026-11-14
 
 Cost guide
 
@@ -1840,7 +1852,7 @@ Cost guide
 
 What sets the price of a remote data engineering team from India, where the saving really comes from, how to compare quotes and the costs buyers forget.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 12 October 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published 12 October 2026 · Updated 14 November 2026 · 6 min read
 
 In brief
 
@@ -1904,7 +1916,7 @@ The four costs that rarely appear in a quote are your own management time, onboa
 - Access.Accounts, VPN, repositories, warehouse roles and SaaS tools take time from your IT and security teams.
 - Documentation.If it is not in the quote, it will either not exist or be written by you. Runbooks, source-to-target mappings and recovery notes are what let you change vendors later.
 
-### How does MV.tech price a remote data engineering team?
+### How does MV.tech Solutions price a remote data engineering team?
 
 Pricing is agreed per engagement, and we quote after a scoping call. The model is lean and remote, which keeps office and management overhead low, so compare the quote on agreed scope, senior delivery time, validation, handover and support. The call covers the problem, the source systems, the target warehouse or BI tools, the timeline and the overlap window; a sanitised example is enough and credentials are not needed for an enquiry.
 
@@ -1919,7 +1931,7 @@ Usually, at the same seniority, yes, but none of the figures above is an India c
 **Why is there no rate card on this page?**
 Because a rate without the seniority, scope, overlap and support attached would mislead more than it informs. We quote after a scoping call so the number reflects the actual work and the named people doing it.
 
-### Scope a remote data team with MV.tech
+### Scope a remote data team with MV.tech Solutions
 
 Read what an offshore data engineering team from India can own, from pipelines and cloud warehouses to BI and migration support, then book a scoping call with the problem, the systems involved and the hours you need. We quote after that call.
 
@@ -1952,22 +1964,22 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+Meet Vaghasia is the founder of MV.tech Solutions. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
 
-About MV.techToptal profileServices
+About MV.tech SolutionsToptal profileServices
 Your next step
 
 ### Want help applying this?
 
-Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech.
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech Solutions.
 
 ---
 
-# What Is an MCP Server, and When Should a Business Build One? | MV.tech
+# What Is an MCP Server and When to Build One? | MV.tech Solutions
 
 URL: https://mvtech.solutions/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/
 Description: A business-level explanation of the Model Context Protocol: what an MCP server exposes, when building one makes sense, the security decisions involved and a first project.
-Last modified: 2026-10-07
+Last modified: 2026-11-14
 
 AI engineering
 
@@ -1975,7 +1987,7 @@ AI engineering
 
 A business-level explanation of the Model Context Protocol: what an MCP server exposes, when building one makes sense, the security decisions involved and a first project.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 7 October 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 14 November 2026 · 6 min read
 
 In brief
 
@@ -2052,7 +2064,7 @@ Not necessarily. Servers can run locally alongside a desktop client using standa
 **What does MCP server development cost?**
 The main cost drivers are the number and complexity of tools, the authentication model, the systems being integrated, testing and documentation. A focused first server with a handful of well-designed tools is a small project; the cost grows with the sensitivity of the actions it enables and the rigour those actions demand.
 
-### Plan an MCP integration with MV.tech
+### Plan an MCP integration with MV.tech Solutions
 
 Our MCP server development service covers tool contracts, authentication, validation, evaluation and deployment. For the assistant and retrieval layer, see AI consulting. Start a scoping call with the system you want to connect, the clients that will use it and the first tasks they need to complete.
 
@@ -2071,7 +2083,7 @@ Buyer question
 
 ### Looking for a Data Consultancy Company for an Offshore Team?
 
-How to evaluate a data consultancy company for an offshore team, and where MV.tech fits for data engineering, analytics, BI and AI delivery from India.
+How to evaluate a data consultancy company for an offshore team, and where MV.tech Solutions fits for data engineering, analytics, BI and AI delivery from India.
 
 3 min read
 Buyer's guide
@@ -2085,28 +2097,28 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+Meet Vaghasia is the founder of MV.tech Solutions. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
 
-About MV.techToptal profileServices
+About MV.tech SolutionsToptal profileServices
 Your next step
 
 ### Want help applying this?
 
-Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech.
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech Solutions.
 
 ---
 
-# Software, Data & AI Project Delivery Process | MV.tech
+# Software, Data & AI Project Delivery Process | MV.tech Solutions
 
 URL: https://mvtech.solutions/process/
-Description: How MV.tech plans and delivers engineering work: discovery, architecture, development, testing, deployment, documentation and agreed ongoing support.
-Last modified: 2026-11-04
+Description: How MV.tech Solutions plans and delivers engineering work: discovery, architecture, development, testing, deployment, documentation and agreed ongoing support.
+Last modified: 2026-11-14
 
 Delivery process
 
 ## From business requirements to production delivery.
 
-MV.tech delivers software, data and AI work through a planned engineering process. The scope covers the stages your project requires, from discovery and architecture through development, testing, deployment and handover.
+MV.tech Solutions delivers software, data and AI work through a planned engineering process. The scope covers the stages your project requires, from discovery and architecture through development, testing, deployment and handover.
 
 Delivery lifecycle
 
@@ -2178,7 +2190,7 @@ Maintenance, support and further development can be agreed after or alongside th
 **Who owns the deliverables?**
 Ownership, repository access, licensing and handover responsibilities are set out in the engagement terms. Raise any procurement or intellectual-property requirements during scoping.
 
-Contact MV.tech
+Contact MV.tech Solutions
 
 ### Plan the delivery of your next project.
 
@@ -2186,19 +2198,19 @@ Tell us what you want to build, improve or connect. We’ll discuss the requirem
 
 ---
 
-# Remote Engineering Services & Engagement Models | MV.tech
+# Remote Engineering Services & Engagement Models | MV.tech Solutions
 
 URL: https://mvtech.solutions/remote-consulting/
-Description: Work with MV.tech from India through project delivery, dedicated engineers or specialist capacity, with responsibilities and collaboration hours agreed.
-Last modified: 2026-11-04
+Description: Work with MV.tech Solutions through project delivery, dedicated engineers or specialist capacity, with responsibilities and collaboration hours agreed.
+Last modified: 2026-11-14
 
 Remote engineering services
 
 ## Remote engineering services from India, working with your team.
 
-Work with MV.tech on a defined project, a dedicated engineering team or a specialist role. Our team is based in Ahmedabad, India, and collaborates with clients worldwide. We agree the working model, responsibilities and timezone overlap before delivery begins.
+Work with MV.tech Solutions on a defined project, a dedicated engineering team or a specialist role. Our engineering team is based in Ahmedabad, India, and collaborates with clients worldwide. We agree the working model, responsibilities and timezone overlap before delivery begins.
 
-- Remote from Ahmedabad, India
+- Offices in New York and Ahmedabad
 - Overlap with your timezone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -2217,7 +2229,7 @@ What we deliver
 
 #### Project delivery
 
-MV.tech delivers an agreed set of software, data or AI requirements, with milestones, review points and acceptance criteria.
+MV.tech Solutions delivers an agreed set of software, data or AI requirements, with milestones, review points and acceptance criteria.
 
 02
 
@@ -2265,10 +2277,10 @@ Compare the model
 
 Our remote model keeps the engagement focused on engineering time and agreed deliverables. Compare proposals on scope, seniority, validation, documentation and support. Pricing depends on the work and responsibilities you need us to own.
 
-Choose how to engage MV.tech
+Choose how to engage MV.tech Solutions
 | Consideration | Scoped project | Embedded specialist | Permanent recruitment |
 | Best fit | A defined system or improvement | Capacity in an existing delivery team | A permanent role in your organisation |
-| Who directs the work | MV.tech owns the agreed delivery scope | Your leads direct the consultant workstream | You select and employ the candidate |
+| Who directs the work | MV.tech Solutions owns the agreed delivery scope | Your leads direct the consultant workstream | You select and employ the candidate |
 | What we agree first | Milestone, acceptance criteria and handover | Skills, capacity, duration and overlap | Hiring brief, screening scope and fees |
 | What to bring | Current systems and desired outcome | Backlog, required skills and team setup | Responsibilities, compensation and timeline |
 Business applications
@@ -2323,7 +2335,7 @@ Review our expertise page and the linked Toptal professional profile, then discu
 Pricing is agreed per engagement and we quote after a scoping call. The total depends on scope, complexity and the support you need us to own, and a focused remote team keeps office and management overhead low. Compare proposals on agreed scope, senior delivery time, validation, handover and support so the figure reflects the work you actually need.
 
 **What is the difference between staff augmentation and project consulting?**
-With a scoped project, MV.tech owns the agreed delivery scope and we agree the milestone, acceptance criteria and handover first. With an embedded specialist, which is the staff augmentation model, your leads direct the consultant workstream and we agree skills, capacity, duration and overlap. If you need a permanent role in your organisation, recruitment is a separate model where you select and employ the candidate.
+With a scoped project, MV.tech Solutions owns the agreed delivery scope and we agree the milestone, acceptance criteria and handover first. With an embedded specialist, which is the staff augmentation model, your leads direct the consultant workstream and we agree skills, capacity, duration and overlap. If you need a permanent role in your organisation, recruitment is a separate model where you select and employ the candidate.
 
 Related services
 
@@ -2363,7 +2375,7 @@ Buyer guide
 
 ### Looking for a data consultancy company for an offshore team?
 
-How to evaluate a data consultancy for offshore delivery, and where MV.tech fits.
+How to evaluate a data consultancy for offshore delivery, and where MV.tech Solutions fits.
 
 Offshore guide
 Your next step
@@ -2374,17 +2386,17 @@ Tell us about the work, your current systems and the people who will use the res
 
 ---
 
-# Software, Data, AI & Engineering Team Services | MV.tech
+# Software, Data, AI & Engineering Team Services | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/
-Description: Explore MV.tech services: custom software, data engineering, BI, AI and MCP integrations, automation, dedicated teams and technology recruitment.
-Last modified: 2026-11-04
+Description: Explore MV.tech Solutions services: custom software, data engineering, BI, AI and MCP integrations, automation, dedicated teams and technology recruitment.
+Last modified: 2026-11-14
 
 Services
 
 ## Software, data and AI services for your business.
 
-Build a new system, modernise the one you have or extend your engineering team. MV.tech provides development and consulting services across business applications, data platforms, analytics, AI and automation.
+Build a new system, modernise the one you have or extend your engineering team. MV.tech Solutions provides development and consulting services across business applications, data platforms, analytics, AI and automation.
 
 Engineering services
 
@@ -2445,7 +2457,7 @@ Ways to engage
 
 #### Project delivery
 
-An agreed scope delivered by MV.tech, with milestones, technical reviews, acceptance checks and handover. Suitable for a new application, a warehouse migration, reporting development or a defined integration.
+An agreed scope delivered by MV.tech Solutions, with milestones, technical reviews, acceptance checks and handover. Suitable for a new application, a warehouse migration, reporting development or a defined integration.
 
 #### Dedicated engineers or team
 
@@ -2453,7 +2465,7 @@ Assigned specialists work within your tools and delivery process for the agreed 
 
 #### Permanent recruitment
 
-Your organisation hires and employs the candidate. MV.tech supports the role brief, sourcing and assessment for a long-term technology position.
+Your organisation hires and employs the candidate. MV.tech Solutions supports the role brief, sourcing and assessment for a long-term technology position.
 
 Delivery coverage
 
@@ -2465,7 +2477,7 @@ The agreed scope can include the stages required to get the system into use and 
 - Development and integration. Application features, data pipelines, reporting models, AI integrations and automated workflows.
 - Testing and release. Functional checks, data validation, integration failure handling and deployment planning.
 - Handover and ongoing work. Operating instructions, implementation documentation and separately agreed maintenance or further development.
-Contact MV.tech
+Contact MV.tech Solutions
 
 ### Tell us what your business needs to build.
 
@@ -2473,19 +2485,19 @@ Tell us what you want to build, improve or connect. We’ll discuss the requirem
 
 ---
 
-# AI Consulting & Application Development Services | MV.tech
+# AI Consulting & Application Development Services | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/ai-consulting/
-Description: AI consulting, knowledge assistants, RAG, document processing and application integration from MV.tech, with use-case planning and evaluation.
-Last modified: 2026-11-04
+Description: AI consulting, knowledge assistants, RAG, document processing and application integration from MV.tech Solutions, with use-case planning and evaluation.
+Last modified: 2026-11-14
 
-MV.tech services
+MV.tech Solutions services
 
 ## AI consulting and development for business workflows.
 
-Turn a useful AI idea into a working business application. MV.tech builds knowledge assistants, document-processing workflows and AI features connected to company data and tools. We help you choose the use case, build the integration and evaluate how it performs before a wider rollout.
+Turn a useful AI idea into a working business application. MV.tech Solutions builds knowledge assistants, document-processing workflows and AI features connected to company data and tools. We help you choose the use case, build the integration and evaluate how it performs before a wider rollout.
 
-- Remote from Ahmedabad, India
+- Offices in New York and Ahmedabad
 - Overlap with your timezone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -2640,19 +2652,19 @@ Tell us about the work, your current systems and the people who will use the res
 
 ---
 
-# BigQuery Consulting & Google Cloud Data Engineering | MV.tech
+# BigQuery Consulting, Google Cloud Data Engineering | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/bigquery-consulting/
-Description: BigQuery warehouse design, cloud ingestion, reporting integration, migration and workload optimisation from MV.tech’s data engineering team.
-Last modified: 2026-11-04
+Description: BigQuery warehouse design, cloud ingestion, reporting integration, migration and workload optimisation from the MV.tech Solutions data engineering team.
+Last modified: 2026-11-14
 
-MV.tech services
+MV.tech Solutions services
 
 ## BigQuery consulting and Google Cloud data engineering.
 
-Build a BigQuery warehouse that supports your reporting and growth. MV.tech develops ingestion pipelines, warehouse models and analytics integrations on Google Cloud, and reviews the queries and workloads driving performance and cost. Our founder holds the Google Cloud Professional Data Engineer certification.
+Build a BigQuery warehouse that supports your reporting and growth. MV.tech Solutions develops ingestion pipelines, warehouse models and analytics integrations on Google Cloud, and reviews the queries and workloads driving performance and cost. Our founder holds the Google Cloud Professional Data Engineer certification.
 
-- Remote from Ahmedabad, India
+- Offices in New York and Ahmedabad
 - Overlap with your timezone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -2754,13 +2766,13 @@ By the column your queries filter on, which is usually an event or transaction d
 Yes. The work starts with discovery of what exists and what depends on it, then a source-to-target mapping per object, SQL translated and tested, and reconciliation of counts, totals and reported metrics at each layer before the old platform is switched off. Platform-specific SQL, stored procedures and cross-database joins are the usual blockers, and they are found in discovery rather than at cutover.
 
 **Can a remote team in India run our BigQuery project?**
-Yes. MV.tech works from Ahmedabad, India, and agrees a collaboration window in your timezone before the engagement starts, which typically covers UK and European business hours, US Eastern mornings, Gulf hours or Asia-Pacific afternoons. Access is through your own Google Cloud project with IAM roles you grant and can revoke, logs stay in your project and no credentials are needed for an initial enquiry.
+Yes. Our engineering team works from Ahmedabad, India, and agrees a collaboration window in your timezone before the engagement starts, which typically covers UK and European business hours, US Eastern mornings, Gulf hours or Asia-Pacific afternoons. Access is through your own Google Cloud project with IAM roles you grant and can revoke, logs stay in your project and no credentials are needed for an initial enquiry.
 
 **Is Looker Studio good enough, or do we need Power BI?**
 Looker Studio is reasonable for reporting over BigQuery when the model lives in the warehouse and the reports read curated views. Power BI becomes the better choice when you need a governed semantic layer, row-level security or complex measures, or when the organisation already runs on Microsoft 365. Either way the metric definitions belong in BigQuery, so changing the reporting tool later is a repointing exercise rather than a rebuild.
 
-**Is MV.tech a Google Cloud partner?**
-No. MV.tech is not a Google partner. Its founder holds the Google Cloud Professional Data Engineer credential, which is an individual certification, and has built BigQuery pipelines in previous roles. If partner status matters for your procurement, say so on the first call.
+**Is MV.tech Solutions a Google Cloud partner?**
+No. MV.tech Solutions is not a Google partner. Its founder holds the Google Cloud Professional Data Engineer credential, which is an individual certification, and has built BigQuery pipelines in previous roles. If partner status matters for your procurement, say so on the first call.
 
 Related services
 
@@ -2811,19 +2823,19 @@ Tell us about the work, your current systems and the people who will use the res
 
 ---
 
-# Blockchain Data Engineering & On-Chain Analytics | MV.tech
+# Blockchain Data Engineering & On-Chain Analytics | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/blockchain-data-analytics/
 Description: Multi-chain transaction pipelines, event decoding, wallet analytics and reconciliation datasets for blockchain reporting and business analysis.
-Last modified: 2026-11-04
+Last modified: 2026-11-14
 
-MV.tech services
+MV.tech Solutions services
 
 ## Blockchain data engineering and on-chain analytics.
 
-Turn blockchain activity into data your analysts and finance teams can work with. MV.tech builds pipelines that collect, decode and organise transactions across networks, then connect the results to warehouses, dashboards and reconciliation workflows.
+Turn blockchain activity into data your analysts and finance teams can work with. MV.tech Solutions builds pipelines that collect, decode and organise transactions across networks, then connect the results to warehouses, dashboards and reconciliation workflows.
 
-- Remote from Ahmedabad, India
+- Offices in New York and Ahmedabad
 - Overlap with your timezone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -2932,7 +2944,7 @@ Carefully, and visibly. The valuation method is a documented rule per token: ref
 Yes. On-chain data is just another source: it lands in the same layered warehouse, under the same validation and modelling standards, and is read by Power BI, Looker Studio, Tableau or a Streamlit tool alongside everything else. Teams usually want it joined to off-chain records — customers, internal accounts, fiat movements — and that join is where most of the analytical value appears.
 
 **How much does blockchain data analytics consulting cost?**
-We quote after a scoping call, once the networks, contracts and wallets in scope, the reporting currency and period, and the figures the output has to reconcile against are agreed. A useful first project is a single chain and one business question built the whole way through, from ingestion and decoding to a reconciled output. MV.tech is a remote-first team based in Ahmedabad, India, with working hours planned around your timezone and a lean model that avoids large-consultancy overhead.
+We quote after a scoping call, once the networks, contracts and wallets in scope, the reporting currency and period, and the figures the output has to reconcile against are agreed. A useful first project is a single chain and one business question built the whole way through, from ingestion and decoding to a reconciled output. Our remote-first engineering team is based in Ahmedabad, India, with working hours planned around your timezone and a lean model that avoids large-consultancy overhead.
 
 **How do you reconcile staking rewards against on-chain and internal records?**
 We build a reward ledger per validator, delegator or wallet and reconcile it against on-chain distributions and internal records, with period totals, accrual timing and a discrepancy report. Base tables hold exactly what the chain reported and are never edited; corrections live in a separate override layer with an author, a timestamp and a reason, so both the original and adjusted figures stay available.
@@ -2961,19 +2973,19 @@ Tell us about the work, your current systems and the people who will use the res
 
 ---
 
-# Business Intelligence & Dashboard Development | MV.tech
+# Business Intelligence & Dashboard Development | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/business-intelligence/
 Description: BI consulting, reporting datasets, semantic models and dashboards in Power BI, Tableau, Looker Studio and Streamlit, with KPI definition and validation.
-Last modified: 2026-11-04
+Last modified: 2026-11-14
 
-MV.tech services
+MV.tech Solutions services
 
 ## Business intelligence and dashboard development services.
 
-Give business teams a consistent view of performance. MV.tech develops dashboards, reporting datasets and semantic models in Power BI, Tableau, Looker Studio and Streamlit. We work on the definitions and data behind the visuals so your reports answer the questions people use them for.
+Give business teams a consistent view of performance. MV.tech Solutions develops dashboards, reporting datasets and semantic models in Power BI, Tableau, Looker Studio and Streamlit. We work on the definitions and data behind the visuals so your reports answer the questions people use them for.
 
-- Remote from Ahmedabad, India
+- Offices in New York and Ahmedabad
 - Overlap with your timezone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -3083,7 +3095,7 @@ Not always, but usually. A semantic model can read an operational database for a
 The fix is to reduce what the report has to read rather than importing less data as a workaround. That means partitioning, incremental refresh, aggregation tables, pushing transformation back into the warehouse and removing columns nothing uses. On past work this has reduced query scan sizes by 60 to 75% and moved refreshes from hours to minutes.
 
 **How much does a Power BI consultant cost?**
-We quote after a scoping call. A useful first project is one dashboard rebuilt on an agreed grain and reconciled against the figures people already trust, and further dashboards and a wider semantic layer are scoped once that first one is agreed. MV.tech works remotely from Ahmedabad, India, with working hours planned around your timezone and a lean model that avoids large-consultancy overhead.
+We quote after a scoping call. A useful first project is one dashboard rebuilt on an agreed grain and reconciled against the figures people already trust, and further dashboards and a wider semantic layer are scoped once that first one is agreed. Our engineering team works remotely from Ahmedabad, India, with working hours planned around your timezone and a lean model that avoids large-consultancy overhead.
 
 Related services
 
@@ -3134,19 +3146,19 @@ Tell us about the work, your current systems and the people who will use the res
 
 ---
 
-# Custom Software & Web Application Development | MV.tech
+# Custom Software & Web Application Development | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/custom-software/
-Description: Custom web applications, customer portals, internal tools and data apps from MV.tech, covering interfaces, backends, integrations, testing and deployment.
-Last modified: 2026-11-04
+Description: Custom web applications, customer portals, internal tools and data apps from MV.tech Solutions: interfaces, backends, integrations, testing and deployment.
+Last modified: 2026-11-14
 
-MV.tech services
+MV.tech Solutions services
 
 ## Custom software development for your business.
 
-Build software around the way your business operates. MV.tech develops web applications, customer portals, internal tools and data applications, connecting the interface, backend and integrations in one delivery scope. We can build a new application or extend an existing product.
+Build software around the way your business operates. MV.tech Solutions develops web applications, customer portals, internal tools and data applications, connecting the interface, backend and integrations in one delivery scope. We can build a new application or extend an existing product.
 
-- Remote from Ahmedabad, India
+- Offices in New York and Ahmedabad
 - Overlap with your timezone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -3243,10 +3255,10 @@ Yes. Our services cover responsive interfaces, API-backed workflows, data ingest
 The estimate depends on user journeys, roles, integrations, data migration, testing and release requirements. We scope an initial milestone and clarify assumptions before treating a feature list as a delivery commitment.
 
 **Can remote developers overlap our working hours?**
-Yes. MV.tech is remote-first and can plan overlap with teams in any timezone. We agree recurring collaboration windows for reviews and releases, supported by written updates between meetings.
+Yes. MV.tech Solutions is remote-first and can plan overlap with teams in any timezone. We agree recurring collaboration windows for reviews and releases, supported by written updates between meetings.
 
 **What does it cost to hire remote developers from India?**
-We quote after a scoping call. MV.tech is a remote-first team based in Ahmedabad, India, with a lean model that avoids large-consultancy overhead, and working hours are planned around your timezone. The figure depends on user journeys, roles, integrations, data migration, testing and release requirements, so we scope an initial milestone and clarify assumptions before treating a feature list as a delivery commitment.
+We quote after a scoping call. Our remote-first engineering team is based in Ahmedabad, India, with a lean model that avoids large-consultancy overhead, and working hours are planned around your timezone. The figure depends on user journeys, roles, integrations, data migration, testing and release requirements, so we scope an initial milestone and clarify assumptions before treating a feature list as a delivery commitment.
 
 **Can you build a Streamlit dashboard on top of our data warehouse?**
 Yes. Where the audience is internal and the data is the product, we build a Streamlit or Plotly application with filterable tables, date ranges, live record counts, drill-downs into the underlying records and exports that match what the screen shows. The backend connects to PostgreSQL or a cloud warehouse, with validation and failure handling defined as part of the build.
@@ -3275,19 +3287,19 @@ Tell us about the work, your current systems and the people who will use the res
 
 ---
 
-# Data Engineering & ETL Development Services | MV.tech
+# Data Engineering & ETL Development Services | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/data-engineering/
-Description: Data integration, ETL pipelines, cloud warehouses, modelling and data quality services from MV.tech for reporting, analytics and business applications.
-Last modified: 2026-11-04
+Description: Data integration, ETL pipelines, cloud warehouses, modelling and data quality services from MV.tech Solutions for reporting, analytics and applications.
+Last modified: 2026-11-14
 
-MV.tech services
+MV.tech Solutions services
 
 ## Data engineering services for connected, usable business data.
 
-Build the data foundation behind reporting, analytics and business applications. MV.tech designs data pipelines, cloud warehouses and transformation layers that bring information from your systems into a consistent, maintainable platform. We also improve existing pipelines, models and reporting workflows.
+Build the data foundation behind reporting, analytics and business applications. MV.tech Solutions designs data pipelines, cloud warehouses and transformation layers that bring information from your systems into a consistent, maintainable platform. We also improve existing pipelines, models and reporting workflows.
 
-- Remote from Ahmedabad, India
+- Offices in New York and Ahmedabad
 - Overlap with your timezone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -3385,7 +3397,7 @@ Yes. We can start with a bounded review of your existing Python, SQL, cloud and 
 That is the normal shape of the work. It starts with discovery: profiling the source databases, documenting source-to-target mappings and running an impact analysis across dashboards and semantic models to find hardcoded rules, dependencies and migration blockers. Layers are then built and reconciled stage by stage against the existing numbers, so reports are cut over on evidence rather than on a date.
 
 **Can you work alongside our internal engineering team?**
-Yes. MV.tech can own an agreed data workstream or provide specialist capacity alongside your team. We agree responsibilities, access, review steps and overlapping working hours before delivery begins.
+Yes. MV.tech Solutions can own an agreed data workstream or provide specialist capacity alongside your team. We agree responsibilities, access, review steps and overlapping working hours before delivery begins.
 
 **How is a data engineering project priced?**
 The estimate depends on source count, access complexity, historical data volume, transformation rules, freshness needs and support. Our remote operating model keeps overhead lean; a useful comparison includes monitoring, documentation and handover as well as the initial build.
@@ -3445,19 +3457,19 @@ Tell us about the work, your current systems and the people who will use the res
 
 ---
 
-# Data Warehouse Migration & Modernisation | MV.tech
+# Data Warehouse Migration & Modernisation | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/data-warehouse-migration/
 Description: Migrate legacy databases and spreadsheet reporting to Snowflake, BigQuery or Redshift with discovery, source mapping, reconciliation and report transition.
-Last modified: 2026-11-04
+Last modified: 2026-11-14
 
-MV.tech services
+MV.tech Solutions services
 
 ## Data warehouse migration and modernisation services.
 
-Move reporting and analytics to a cloud platform with a planned transition. MV.tech migrates legacy databases, warehouse workloads and spreadsheet-based reporting to Snowflake, BigQuery or Redshift. The work covers discovery, data modelling, reconciliation and the reports that depend on the old system.
+Move reporting and analytics to a cloud platform with a planned transition. MV.tech Solutions migrates legacy databases, warehouse workloads and spreadsheet-based reporting to Snowflake, BigQuery or Redshift. The work covers discovery, data modelling, reconciliation and the reports that depend on the old system.
 
-- Remote from Ahmedabad, India
+- Offices in New York and Ahmedabad
 - Overlap with your timezone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -3567,7 +3579,7 @@ Yes, and it is a common one. The shape of the work is the same: find the sources
 We quote after a scoping call, because the effort depends on what discovery finds in your estate. Discovery can be bought as a standalone piece of work, and migrating one reporting domain first gives an estimate for the rest of the estate based on your data rather than on a template. Commercial terms are agreed per engagement.
 
 **Can a remote team in India run our warehouse migration?**
-Yes. MV.tech is a remote-first data engineering consultancy based in Ahmedabad, India, with working hours planned around your timezone. The migration runs on written work both sides can review: a source-to-target mapping that both sides sign off, automated reconciliation results at every stage, and written sign-off per domain before legacy objects are retired. Handover includes the mappings, ER diagrams, validation results, schedules, ownership and operating runbooks.
+Yes. MV.tech Solutions has offices in New York and Ahmedabad, and our remote-first data engineering team works from India in hours planned around your timezone. The migration runs on written work both sides can review: a source-to-target mapping that both sides sign off, automated reconciliation results at every stage, and written sign-off per domain before legacy objects are retired. Handover includes the mappings, ER diagrams, validation results, schedules, ownership and operating runbooks.
 
 Related services
 
@@ -3618,19 +3630,19 @@ Tell us about the work, your current systems and the people who will use the res
 
 ---
 
-# Hire Data Engineers for Pipelines & Warehouses | MV.tech
+# Hire Data Engineers for Pipelines & Warehouses | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/hire-data-engineers/
 Description: Engage data engineers for integration, warehouses, analytics and data quality through embedded capacity, project delivery or permanent recruitment.
-Last modified: 2026-11-04
+Last modified: 2026-11-14
 
-MV.tech services
+MV.tech Solutions services
 
 ## Hire data engineers for pipelines, warehouses and analytics.
 
-Bring data engineering expertise into your team or put a defined data project in experienced hands. MV.tech helps businesses engage engineers for integration, cloud warehouses, modelling and reporting. Choose embedded capacity, project delivery or recruitment for a permanent role.
+Bring data engineering expertise into your team or put a defined data project in experienced hands. MV.tech Solutions helps businesses engage engineers for integration, cloud warehouses, modelling and reporting. Choose embedded capacity, project delivery or recruitment for a permanent role.
 
-- Remote from Ahmedabad, India
+- Offices in New York and Ahmedabad
 - Overlap with your timezone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -3690,8 +3702,8 @@ Business applications
 ### Where this service fits.
 
 - Embedded data engineer. A specialist works with your team on its backlog and review process.
-- Managed data workstream. MV.tech delivers an agreed integration, warehouse or analytics scope.
-- Permanent recruitment. Your business hires the engineer, with MV.tech supporting the search and technical assessment.
+- Managed data workstream. MV.tech Solutions delivers an agreed integration, warehouse or analytics scope.
+- Permanent recruitment. Your business hires the engineer, with MV.tech Solutions supporting the search and technical assessment.
 Engagement scope
 
 ### Share the responsibilities the engineer will own.
@@ -3722,7 +3734,7 @@ Before we begin
 Not answered here? Ask us directly or read the full FAQ.
 
 **How much does it cost to hire a data engineer from India?**
-We quote after a scoping call. The figure depends on the role, seniority, allocated capacity, duration and the support expected outside overlap hours, so a number before that conversation would be a guess. MV.tech's remote model keeps office and account-management overhead out of the price, and we ask you to compare proposals on the same scope, seniority and support expectations.
+We quote after a scoping call. The figure depends on the role, seniority, allocated capacity, duration and the support expected outside overlap hours, so a number before that conversation would be a guess. The MV.tech Solutions remote model keeps office and account-management overhead out of the price, and we ask you to compare proposals on the same scope, seniority and support expectations.
 
 **Can a remote team in India work in our timezone?**
 Yes. India Standard Time overlaps every major business region for part of the day, and we agree the window in your local time before the engineer starts. Typical windows are 9:00 am to 1:00 pm US Eastern, 7:00 to 10:00 am US Pacific, 9:00 am to 3:30 pm in the UK, 9:00 am to 4:00 pm in Central Europe, most of the day in the Gulf and 12:30 to 6:00 pm in eastern Australia. Overlap does not mean round-the-clock support; any out-of-hours coverage is written into the scope separately.
@@ -3734,7 +3746,7 @@ Yes. A fractional arrangement of a few days a week suits a small team that needs
 A named engineer. You meet the person before anything is signed, review their experience against your stack and work with them directly for the duration. If the engagement grows into a team, composition, start dates and availability are confirmed during scoping rather than implied by the website.
 
 **What is the difference between staff augmentation, a scoped project and recruitment?**
-With staff augmentation the engineer works inside your team under your leads' direction for an agreed capacity and duration. With a scoped project MV.tech owns a defined deliverable, its acceptance criteria and handover. With technology recruitment you hire a permanent employee into your own organisation and agree employment terms with them directly. We clarify which arrangement you need before discussing candidates or consultants.
+With staff augmentation the engineer works inside your team under your leads' direction for an agreed capacity and duration. With a scoped project MV.tech Solutions owns a defined deliverable, its acceptance criteria and handover. With technology recruitment you hire a permanent employee into your own organisation and agree employment terms with them directly. We clarify which arrangement you need before discussing candidates or consultants.
 
 **How does a trial milestone reduce the risk of hiring remotely?**
 Because you judge delivered work rather than an interview. The first milestone is small, written down and checkable: a pipeline that reconciles to the source, a model whose figures match the ones people report, a dashboard with documented definitions. If the result or the working relationship is not right, the engagement ends at the review with the work and its documentation handed over.
@@ -3773,7 +3785,7 @@ Scoped project
 
 ### Data engineering and ETL consulting
 
-Hand MV.tech a defined deliverable with acceptance criteria and handover: pipelines, warehouse layers, migrations and data quality.
+Hand MV.tech Solutions a defined deliverable with acceptance criteria and handover: pipelines, warehouse layers, migrations and data quality.
 
 Project delivery
 Budget planning
@@ -3791,19 +3803,19 @@ Tell us about the work, your current systems and the people who will use the res
 
 ---
 
-# IT Staff Augmentation & Dedicated Engineering Teams | MV.tech
+# IT Staff Augmentation, Dedicated Engineering Teams | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/it-staff-augmentation/
 Description: Add data, software, AI and cloud specialists to your delivery team. Discuss assigned roles, capacity, responsibilities, duration and timezone collaboration.
-Last modified: 2026-11-04
+Last modified: 2026-11-14
 
-MV.tech services
+MV.tech Solutions services
 
 ## IT staff augmentation and dedicated engineering teams.
 
-Add the technical skills your team needs without opening every role as a permanent hire. MV.tech provides data, software, AI and cloud specialists who work within your delivery process. Agree the responsibilities, capacity and duration, then collaborate directly with the people assigned to the work.
+Add the technical skills your team needs without opening every role as a permanent hire. MV.tech Solutions provides data, software, AI and cloud specialists who work within your delivery process. Agree the responsibilities, capacity and duration, then collaborate directly with the people assigned to the work.
 
-- Remote from Ahmedabad, India
+- Offices in New York and Ahmedabad
 - Overlap with your timezone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -3888,7 +3900,7 @@ Before we begin
 Not answered here? Ask us directly or read the full FAQ.
 
 **What is the difference between staff augmentation and project consulting?**
-With staff augmentation, consultants add capacity within your team and work under the agreed direction of your technical or delivery leads. A project engagement gives MV.tech ownership of a defined scope and its deliverables. Responsibilities should be explicit in either model.
+With staff augmentation, consultants add capacity within your team and work under the agreed direction of your technical or delivery leads. A project engagement gives MV.tech Solutions ownership of a defined scope and its deliverables. Responsibilities should be explicit in either model.
 
 **Can we hire a dedicated remote team rather than one consultant?**
 We can discuss a multi-role team around your workstream. Team composition, allocated capacity, start dates and availability are confirmed during scoping; the website does not imply that every role is immediately available.
@@ -3897,13 +3909,13 @@ We can discuss a multi-role team around your workstream. Team composition, alloc
 Yes. We can plan overlap with clients in any timezone. Share the working hours you need and any release requirements so collaboration windows can be agreed. This does not imply round-the-clock support.
 
 **Do you also recruit permanent employees?**
-Yes. MV.tech also offers technology recruitment for permanent roles within a client's organisation. Recruitment and consultant staffing are separate engagements with their own scope and commercial terms.
+Yes. MV.tech Solutions also offers technology recruitment for permanent roles within a client's organisation. Recruitment and consultant staffing are separate engagements with their own scope and commercial terms.
 
 **How much does data engineering staff augmentation cost?**
-We quote after a scoping call rather than publishing a fixed hourly rate. Commercial terms are agreed per engagement once the role, allocated capacity, duration and timezone overlap are defined. MV.tech is a remote-first team based in Ahmedabad, India, with a lean model that avoids large-consultancy overhead. You can include a budget range in your enquiry if you have one.
+We quote after a scoping call rather than publishing a fixed hourly rate. Commercial terms are agreed per engagement once the role, allocated capacity, duration and timezone overlap are defined. Our remote-first engineering team is based in Ahmedabad, India, with a lean model that avoids large-consultancy overhead. You can include a budget range in your enquiry if you have one.
 
-**How do we hire a remote data engineer in India through MV.tech?**
-Share the role, required skills, workstream, expected duration and capacity, preferred start date and the timezone overlap you need. We review fit, availability and commercial terms before confirming a consultant, then onboard them with agreed access, initial tasks, acceptance criteria and documentation. MV.tech is remote-first and based in Ahmedabad, India, with working hours planned around your timezone.
+**How do we hire a remote data engineer in India through MV.tech Solutions?**
+Share the role, required skills, workstream, expected duration and capacity, preferred start date and the timezone overlap you need. We review fit, availability and commercial terms before confirming a consultant, then onboard them with agreed access, initial tasks, acceptance criteria and documentation. Our engineers are remote-first and based in Ahmedabad, India, with working hours planned around your timezone.
 
 Related services
 
@@ -3954,19 +3966,19 @@ Tell us about the work, your current systems and the people who will use the res
 
 ---
 
-# MCP Server Development & Custom AI Integrations | MV.tech
+# MCP Server Development & Custom AI Integrations | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/mcp-and-ai-connectors/
 Description: Connect AI assistants to databases, business APIs and internal tools with custom MCP servers and connectors, including permissions, testing and deployment.
-Last modified: 2026-11-04
+Last modified: 2026-11-14
 
-MV.tech services
+MV.tech Solutions services
 
 ## MCP server development and custom AI integrations.
 
-Connect AI assistants to the systems your business already uses. MV.tech develops Model Context Protocol servers and custom connectors for databases, APIs and internal tools. Your team gets a maintained integration with defined permissions, clear tool behaviour and a record of how it is used.
+Connect AI assistants to the systems your business already uses. MV.tech Solutions develops Model Context Protocol servers and custom connectors for databases, APIs and internal tools. Your team gets a maintained integration with defined permissions, clear tool behaviour and a record of how it is used.
 
-- Remote from Ahmedabad, India
+- Offices in New York and Ahmedabad
 - Overlap with your timezone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -4073,7 +4085,7 @@ Any MCP-compatible client, which now covers the major assistant and IDE products
 By not relying on the model to enforce anything. Permissions are checked server-side before a tool runs, tools expose only approved objects, generated SQL is validated against a whitelist, destructive operations are either not exposed or require human approval, and retrieved content is treated as data rather than as instructions. Logging every call means an unexpected request is visible afterwards, not merely prevented in theory.
 
 **How much does custom MCP server development cost?**
-We quote after a scoping call, and terms are agreed per engagement. The recommended starting point is small: one server, one system, one small group of users and the three or four tools that cover most of their requests. MV.tech is a remote-first team based in Ahmedabad, India, with a lean model that avoids large-consultancy overhead.
+We quote after a scoping call, and terms are agreed per engagement. The recommended starting point is small: one server, one system, one small group of users and the three or four tools that cover most of their requests. Our remote-first engineering team is based in Ahmedabad, India, with a lean model that avoids large-consultancy overhead.
 
 **How do you connect Claude or another AI assistant to our database safely?**
 Instead of handing the assistant the keys, it calls an MCP server that runs under a scoped service identity against an approved set of tables, read-only by default and whitelisted rather than blocklisted. Where the agent generates SQL, the query is parsed and checked before it runs, with permitted objects only, row and cost limits and no writes, and results are validated before they are returned. Every call is logged with the caller, tool, time and outcome, and we test against real requests, including ones the server should refuse, before access is widened.
@@ -4127,19 +4139,19 @@ Tell us about the work, your current systems and the people who will use the res
 
 ---
 
-# Dedicated Offshore Data Engineering Teams | MV.tech
+# Dedicated Offshore Data Engineering Teams | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/offshore-data-engineering-team/
 Description: Extend your team with data engineering, analytics and BI specialists from India. Agree roles, capacity, delivery responsibilities and collaboration hours.
-Last modified: 2026-11-04
+Last modified: 2026-11-14
 
-MV.tech services
+MV.tech Solutions services
 
 ## A dedicated data engineering team for your business.
 
-Extend your delivery capacity with data engineers and analytics specialists from India. MV.tech provides dedicated teams for data integration, cloud warehouses, BI and data quality. Work with a defined team, an agreed backlog and collaboration hours that fit your business.
+Extend your delivery capacity with data engineers and analytics specialists from India. MV.tech Solutions provides dedicated teams for data integration, cloud warehouses, BI and data quality. Work with a defined team, an agreed backlog and collaboration hours that fit your business.
 
-- Remote from Ahmedabad, India
+- Offices in New York and Ahmedabad
 - Overlap with your timezone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -4229,14 +4241,14 @@ Before we begin
 
 Not answered here? Ask us directly or read the full FAQ.
 
-**Is MV.tech a data consultancy company for an offshore team?**
-Yes. MV.tech is a data, software and AI consultancy based in Ahmedabad, India. For offshore data work, we provide senior remote data engineering and analytics capacity for ETL, cloud warehouses, BI, data quality and reporting, with overlap hours agreed around the client's timezone.
+**Is MV.tech Solutions a data consultancy company for an offshore team?**
+Yes. MV.tech Solutions is a data, software and AI consultancy with offices in New York, USA, and Ahmedabad, India. For offshore data work, we provide senior remote data engineering and analytics capacity for ETL, cloud warehouses, BI, data quality and reporting, with overlap hours agreed around the client's timezone.
 
 **How is this different from generic offshore staffing?**
 The engagement is engineering-led. We help shape the scope, define acceptance criteria, validate the data and document handover. You can use the team like embedded capacity, but the work is still managed around a concrete outcome rather than resumes alone.
 
 **Can the team overlap with US, UK, EU, Gulf or APAC hours?**
-Yes. MV.tech works from India Standard Time and agrees a collaboration window before the engagement begins. Typical overlap is possible with US Eastern mornings, UK and European business hours, Gulf hours and Asia-Pacific afternoons.
+Yes. MV.tech Solutions works from India Standard Time and agrees a collaboration window before the engagement begins. Typical overlap is possible with US Eastern mornings, UK and European business hours, Gulf hours and Asia-Pacific afternoons.
 
 **Can we start with one part-time data engineer?**
 Yes. A first engagement can be a scoped milestone, a part-time specialist or a small embedded team. The right shape depends on the backlog, access needed, review bandwidth and how quickly decisions can be made.
@@ -4248,7 +4260,7 @@ Share the reporting or data problem, source systems, target warehouse or BI tool
 Pricing is agreed per engagement and we quote after a scoping call. A first engagement can be a part-time specialist, one senior specialist or a small embedded team, with capacity, duration and overlap hours agreed before work begins. The first milestone is written down with acceptance criteria, so you can judge the result before deciding whether to extend the team.
 
 **Should we choose data engineering staff augmentation or a scoped consulting engagement?**
-MV.tech offers both shapes. Staff augmentation adds embedded capacity that works in your project tools with visible updates and review notes, while a scoped engagement is managed around one concrete outcome; in both cases the work is engineering-led, so we help shape the scope, define acceptance criteria, validate the data and document handover. You can start with one scoped milestone, validate the result, then decide whether to extend into embedded capacity.
+MV.tech Solutions offers both shapes. Staff augmentation adds embedded capacity that works in your project tools with visible updates and review notes, while a scoped engagement is managed around one concrete outcome; in both cases the work is engineering-led, so we help shape the scope, define acceptance criteria, validate the data and document handover. You can start with one scoped milestone, validate the result, then decide whether to extend into embedded capacity.
 
 Related services
 
@@ -4299,19 +4311,19 @@ Tell us about the work, your current systems and the people who will use the res
 
 ---
 
-# Power BI Consulting & Dashboard Development | MV.tech
+# Power BI Consulting & Dashboard Development | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/power-bi-consulting/
 Description: Power BI models, DAX measures, dashboards, refresh-performance reviews and SSAS migrations, with reporting requirements and source reconciliation.
-Last modified: 2026-11-04
+Last modified: 2026-11-14
 
-MV.tech services
+MV.tech Solutions services
 
 ## Power BI consulting, dashboard development and data modelling.
 
-Develop Power BI reports that give business teams a consistent view of performance. MV.tech builds semantic models, DAX measures and dashboards, improves refresh performance and supports migrations from SSAS or Azure Analysis Services. We review existing models as well as delivering new reporting solutions.
+Develop Power BI reports that give business teams a consistent view of performance. MV.tech Solutions builds semantic models, DAX measures and dashboards, improves refresh performance and supports migrations from SSAS or Azure Analysis Services. We review existing models as well as delivering new reporting solutions.
 
-- Remote from Ahmedabad, India
+- Offices in New York and Ahmedabad
 - Overlap with your timezone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -4417,7 +4429,7 @@ Yes. The first step is documenting what the tabular model contains and which rep
 We quote after a scoping call. The estimate depends on the number of reports and sources, the state of the existing model, whether an Analysis Services migration is involved and how much reconciliation the business needs to see. A review of one existing model is a bounded piece of work and is usually the cheapest way to find out what the rest would involve.
 
 **Can a remote team in India work on our Power BI tenant?**
-Yes. MV.tech works from India Standard Time and agrees an overlap window with your team before the engagement begins, with access through your own tenant, workspaces and gateway rather than through copies of your data. Changes go through deployment pipelines or version-controlled model files, so your team can see what changed and when.
+Yes. MV.tech Solutions works from India Standard Time and agrees an overlap window with your team before the engagement begins, with access through your own tenant, workspaces and gateway rather than through copies of your data. Changes go through deployment pipelines or version-controlled model files, so your team can see what changed and when.
 
 **How do you prove the numbers on a report are right?**
 By reconciling them to source and keeping the check running. Record counts, control totals and date coverage per table, plus the handful of figures people actually act on, are compared against the source system on every refresh. Differences are investigated and either fixed or written down as a deliberate change, which sometimes means the old report was the one that was wrong.
@@ -4471,19 +4483,19 @@ Tell us about the work, your current systems and the people who will use the res
 
 ---
 
-# Snowflake Consulting, Migration & Data Modelling | MV.tech
+# Snowflake Consulting, Migration & Data Modelling | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/snowflake-consulting/
 Description: Snowflake development and consulting for warehouse migration, pipelines, data models, BI integration, reconciliation and performance review.
-Last modified: 2026-11-04
+Last modified: 2026-11-14
 
-MV.tech services
+MV.tech Solutions services
 
 ## Snowflake consulting for migration, modelling and reporting.
 
-Build or improve the Snowflake platform behind your business reporting. MV.tech supports warehouse migration, ingestion pipelines, data modelling and performance review, with the BI and reconciliation work needed to make the warehouse useful to your teams.
+Build or improve the Snowflake platform behind your business reporting. MV.tech Solutions supports warehouse migration, ingestion pipelines, data modelling and performance review, with the BI and reconciliation work needed to make the warehouse useful to your teams.
 
-- Remote from Ahmedabad, India
+- Offices in New York and Ahmedabad
 - Overlap with your timezone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -4573,8 +4585,8 @@ Before we begin
 
 Not answered here? Ask us directly or read the full FAQ.
 
-**Is MV.tech a Snowflake consulting partner?**
-No. MV.tech is not a Snowflake reseller or a member of the Snowflake partner programme; it works as an independent engineering team that designs, migrates and tunes Snowflake warehouses on your own Snowflake account. You buy Snowflake from Snowflake and engineering from us, so there is no resale margin in the advice. The founder holds the Google Cloud Professional Data Engineer certification; MV.tech makes no Snowflake certification or partner claims.
+**Is MV.tech Solutions a Snowflake consulting partner?**
+No. MV.tech Solutions is not a Snowflake reseller or a member of the Snowflake partner programme; it works as an independent engineering team that designs, migrates and tunes Snowflake warehouses on your own Snowflake account. You buy Snowflake from Snowflake and engineering from us, so there is no resale margin in the advice. The founder holds the Google Cloud Professional Data Engineer certification; MV.tech Solutions makes no Snowflake certification or partner claims.
 
 **How much does Snowflake consulting cost?**
 For Snowflake work, we quote after a scoping call. The estimate depends on the number of source systems, the volume of historical data, how much logic is hidden in views, stored procedures and spreadsheets, the Power BI models to be repointed and the support expected afterwards. A first domain is scoped as a bounded piece of work so the figure for the rest of the estate rests on your data rather than on a template.
@@ -4589,7 +4601,7 @@ Import for most governed reporting, DirectQuery where data must be current to th
 Usually because warehouses stay awake for queries that scan more than they should. The common causes are missing clustering on large tables, full refreshes where incremental loads would do, oversized warehouses with long auto-suspend settings and reports that repeat the same aggregate many times an hour. We measure from the query history, change the few things that account for most of the spend and show the before-and-after on your own credit consumption.
 
 **Can a remote team in India run our Snowflake migration?**
-Yes. MV.tech works from Ahmedabad, India, and agrees a collaboration window in your timezone before work begins: US Eastern mornings, UK and European business hours, Gulf hours or Asia-Pacific afternoons. Snowflake work suits remote delivery because access is role-based and every change can be reviewed as SQL in a pull request. Reconciliation results, decisions and handover notes are written down where your team can read them the next morning.
+Yes. Our engineering team works from Ahmedabad, India, and agrees a collaboration window in your timezone before work begins: US Eastern mornings, UK and European business hours, Gulf hours or Asia-Pacific afternoons. Snowflake work suits remote delivery because access is role-based and every change can be reviewed as SQL in a pull request. Reconciliation results, decisions and handover notes are written down where your team can read them the next morning.
 
 **Can you reconcile Snowflake with Salesforce CRM Analytics and our finance system?**
 Yes, and it is often the part that earns trust in the warehouse. We compare the same metric across the source systems, Snowflake and the CRM Analytics or BI layer at an agreed grain, then investigate every difference until it is fixed or documented as a deliberate change. That investigation sometimes shows that the legacy figure was the wrong one.
@@ -4643,19 +4655,19 @@ Tell us about the work, your current systems and the people who will use the res
 
 ---
 
-# Technology Recruitment for Data, Software & AI | MV.tech
+# Technology Recruitment for Data, Software & AI | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/technology-recruitment/
 Description: Permanent recruitment for data, software, AI, cloud and analytics roles, with role definition, candidate screening and engineering-led technical assessment.
-Last modified: 2026-11-04
+Last modified: 2026-11-14
 
-MV.tech services
+MV.tech Solutions services
 
 ## Technology recruitment for data, software and AI teams.
 
-Hire the technical people your business needs for the long term. MV.tech supports permanent recruitment for data engineering, software development, AI, cloud and analytics roles. Our engineering background helps translate the vacancy into a practical brief and a relevant technical assessment.
+Hire the technical people your business needs for the long term. MV.tech Solutions supports permanent recruitment for data engineering, software development, AI, cloud and analytics roles. Our engineering background helps translate the vacancy into a practical brief and a relevant technical assessment.
 
-- Remote from Ahmedabad, India
+- Offices in New York and Ahmedabad
 - Overlap with your timezone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -4737,7 +4749,7 @@ Before we begin
 Not answered here? Ask us directly or read the full FAQ.
 
 **How does permanent recruitment differ from staff augmentation?**
-Permanent recruitment helps you hire an employee into your own organisation. Staff augmentation supplies consultants to work within your team for an agreed engagement. MV.tech offers both, and we clarify which arrangement you need before discussing candidates or consultants.
+Permanent recruitment helps you hire an employee into your own organisation. Staff augmentation supplies consultants to work within your team for an agreed engagement. MV.tech Solutions offers both, and we clarify which arrangement you need before discussing candidates or consultants.
 
 **Which technology roles can we discuss?**
 Our focus includes AI and automation, data engineering, software development, cloud platforms, BI and analytics. Share the specific role and experience level so we can assess whether the search fits our technical focus.
@@ -4749,7 +4761,7 @@ Yes. Share the permitted hiring locations, remote policy, required working hours
 Fees, search scope, expected timing and any follow-up terms are agreed for the specific role. Complexity, seniority, compensation, location and interview availability affect the search. We do not promise a hire or a fixed start date before assessing the requirement.
 
 **Should we hire a permanent data engineer or use an offshore data engineering team in India?**
-Permanent recruitment places an employee in your own organisation, and you agree employment terms directly with the person you select. MV.tech also provides India-based offshore data engineering teams, with working hours planned around your timezone. We clarify which arrangement you need before discussing candidates or consultants, and our guide comparing staff augmentation, project consulting and recruitment sets out the differences.
+Permanent recruitment places an employee in your own organisation, and you agree employment terms directly with the person you select. MV.tech Solutions also provides India-based offshore data engineering teams, with working hours planned around your timezone. We clarify which arrangement you need before discussing candidates or consultants, and our guide comparing staff augmentation, project consulting and recruitment sets out the differences.
 
 **How do you assess a data engineer's technical fit before our team interviews?**
 An engineer joins the experience and problem-solving discussions, whether the role calls for SQL and warehouse modelling, pipeline engineering, BI and semantic models, or LLM and MCP work. Before the search begins we agree the depth of screening, any assessment and your team's final interview requirements. The hiring brief separates must-have capabilities from skills that can be developed in the role, and shortlist criteria are agreed before sourcing starts.
@@ -4803,19 +4815,19 @@ Tell us about the work, your current systems and the people who will use the res
 
 ---
 
-# Workflow Automation & Business System Integration | MV.tech
+# Workflow Automation & Business System Integration | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/workflow-automation/
-Description: Automate recurring work across applications, APIs, databases and spreadsheets. MV.tech builds integrations, validation, scheduling and exception handling.
-Last modified: 2026-11-04
+Description: Automate recurring work across applications, APIs, databases and spreadsheets. MV.tech Solutions builds integrations, validation and exception handling.
+Last modified: 2026-11-14
 
-MV.tech services
+MV.tech Solutions services
 
 ## Workflow automation and business system integration.
 
-Reduce the manual work between your business systems. MV.tech connects applications, APIs, databases and spreadsheets to automate recurring tasks, reporting and approvals. We build the checks, exception handling and operating instructions alongside the workflow.
+Reduce the manual work between your business systems. MV.tech Solutions connects applications, APIs, databases and spreadsheets to automate recurring tasks, reporting and approvals. We build the checks, exception handling and operating instructions alongside the workflow.
 
-- Remote from Ahmedabad, India
+- Offices in New York and Ahmedabad
 - Overlap with your timezone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -4945,17 +4957,17 @@ Tell us about the work, your current systems and the people who will use the res
 
 ---
 
-# Business Software, Data, Reporting & AI Solutions | MV.tech
+# Business Software, Data, Reporting & AI Solutions | MV.tech Solutions
 
 URL: https://mvtech.solutions/solutions/
-Description: Business solutions for finance reporting, operational workflows, customer portals, AI applications and blockchain analytics from MV.tech.
-Last modified: 2026-11-04
+Description: Business solutions for finance reporting, operational workflows, customer portals, AI applications and blockchain analytics from MV.tech Solutions.
+Last modified: 2026-11-14
 
 Business solutions
 
 ## Connect technology to the way your business works.
 
-MV.tech develops systems for reporting, operations, products and blockchain data. These solution areas show the work we can scope with your team; the final design depends on your processes, data and users.
+MV.tech Solutions develops systems for reporting, operations, products and blockchain data. These solution areas show the work we can scope with your team; the final design depends on your processes, data and users.
 
 Finance and reporting
 
@@ -5030,7 +5042,7 @@ We assess the systems and operating requirements with the people who own the pro
 - Users and responsibilities. Who uses the system, who owns the data and who approves business actions.
 - Sources and integrations. The applications, documents, APIs and databases involved, including access and refresh requirements.
 - Delivery and acceptance. The release priorities, test cases and measures that show the system meets the agreed requirement.
-Contact MV.tech
+Contact MV.tech Solutions
 
 ### Discuss the business process you want to improve.
 
@@ -5038,17 +5050,17 @@ Tell us what you want to build, improve or connect. We’ll discuss the requirem
 
 ---
 
-# Software, Data & AI Services for USA Clients | MV.tech
+# Software, Data & AI Services for USA Clients | MV.tech Solutions
 
 URL: https://mvtech.solutions/us-clients/
-Description: Software, data engineering, BI, AI and dedicated team services for USA businesses. Current delivery from India; USA company coming soon.
-Last modified: 2026-11-04
+Description: Software, data engineering, BI and AI services for US businesses from MV.tech Solutions, with a New York office and an engineering team in Ahmedabad, India.
+Last modified: 2026-11-14
 
 Clients in the USA
 
 ## Software, data and AI services for businesses in the USA.
 
-Work with MV.tech on custom applications, data platforms, reporting, AI integrations and automation. Our delivery team is based in India and collaborates remotely in agreed working hours. Our company in the United States is coming soon.
+Work with MV.tech Solutions on custom applications, data platforms, reporting, AI integrations and automation. We have an office in New York, and our engineering team in Ahmedabad, India, collaborates in agreed US working hours.
 
 Our services
 
@@ -5091,23 +5103,46 @@ Hire permanent data, software, cloud and AI professionals. We help define the ro
 Technology recruitment
 Working with your team
 
-### A remote delivery model planned around your requirements.
+### A New York office to contract with. An engineering team planned around your hours.
 
-You can discuss a project with our India-based team today.
+You contract through our New York office, and our engineers in Ahmedabad do the work in collaboration hours agreed with your team.
 
 - Project or dedicated team. Choose an agreed delivery scope or bring specialists into your existing engineering process.
 - Timezone collaboration. Agree recurring meeting and review hours in your local timezone. Eastern and Pacific working windows can be discussed before starting.
-- Procurement and contracting. Confirm the contracting party, invoicing requirements and commercial terms before the engagement. If a USA-registered entity is required, raise that during the initial discussion.
+- Procurement and contracting. Agreements for clients in the USA name the supplier as BB & KV Inc., doing business as MV.tech Solutions. We confirm invoicing details, commercial terms and the documents your procurement team needs before the engagement.
 - Technical ownership and handover. Agree access, release responsibilities, documentation and any continuing support with your team.
+For procurement and vendor onboarding
+
+### Company details for clients in the USA.
+
+- Company name
+  MV.tech Solutions
+- Offices
+  New York, USA · Ahmedabad, Gujarat, India
+- Legal entity
+  BB & KV Inc., a New York corporation
+- Registration
+  MV.tech Solutions is a business name (DBA) registered with the New York Department of State
+- Supplier name on agreements
+  BB & KV Inc., doing business as MV.tech Solutions
+- Engineering delivery
+  From our Ahmedabad office, working remotely in your tools
+- Working-hour overlap
+  US Eastern mornings and US Pacific early mornings, agreed per engagement.See the collaboration windows.
+- Contact
+  contact@mvtech.solutions
 Questions about working with us
 
 ### What you need to know.
 
-**Is MV.tech already registered in the USA?**
-MV.tech is currently based in Ahmedabad, India. We are setting up a company in the United States and will publish the details once established.
+**Is MV.tech Solutions registered in the USA?**
+Yes. MV.tech Solutions is registered in New York as the business name (DBA) of BB & KV Inc., a New York corporation, and has an office in New York. Engineering delivery is from our Ahmedabad office in India.
 
-**Can we discuss a project before the USA company is established?**
-Yes. Current project discussions are with our India-based team. Tell us about any procurement or contracting requirements early so we can confirm what is possible.
+**Who do we sign the contract with?**
+Agreements for clients in the USA are made with BB & KV Inc., doing business as MV.tech Solutions. The proposal confirms the contracting party, invoicing details and commercial terms, so raise any vendor-onboarding requirements early.
+
+**Where is the engineering work done?**
+At our Ahmedabad office in India, working remotely in your tools. We agree recurring collaboration hours in US Eastern or Pacific time before work starts.
 
 **Can your engineers work within our existing team?**
 Yes. We can discuss staff augmentation or a dedicated team for an agreed capacity and duration, working in your tools with recurring collaboration hours.
@@ -5115,28 +5150,28 @@ Yes. We can discuss staff augmentation or a dedicated team for an agreed capacit
 **What information helps with an estimate?**
 The business requirement, current systems, users, integrations, target dates and expected delivery model. We clarify the scope and dependencies before proposing the work.
 
-Our presence
+Our offices
 
-### Based in India. Expanding to the USA.
+### Offices in New York and Ahmedabad.
 
-Our India team is available for new projects, with working hours planned around your team.
+Work with our New York office and our engineering team in Ahmedabad, with working hours planned around yours.
 
-Delivery base
+USA
 
-#### India
+#### New York
 
-Ahmedabad, Gujarat
+Our US office, for clients and contracts in the United States.
+
+Company information
+India
+
+#### Ahmedabad
+
+Our engineering office in Gujarat. The delivery team works from here, in hours agreed with your team.
 
 Contact our team
-Coming soon
+Contact MV.tech Solutions
 
-#### USA
-
-We’re setting up our company in the United States.
-
-Services for clients in the USA
-Contact MV.tech
-
-### Discuss your project with our India team.
+### Discuss your project with our team.
 
 Tell us what you want to build, improve or connect. We’ll discuss the requirements, the delivery options and the people the work needs.

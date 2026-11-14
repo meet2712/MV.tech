@@ -118,7 +118,7 @@
         lines.push(`${label}: ${String(value).trim() || '-'}`);
       }
       const need = (data.get('need') || 'Project').toString();
-      const subject = `${need} enquiry for MV.tech`;
+      const subject = `${need} enquiry for MV.tech Solutions`;
       const body = lines.join('\n\n') + '\n';
       return { subject, body, href: `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}` };
     };
