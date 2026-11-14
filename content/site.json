@@ -145,6 +145,9 @@
     "LLM-assisted extraction of structured data from documents, APIs and web sources",
     "Dynamic SQL generation and natural-language querying over governed datasets",
     "Custom software, web applications, client portals and internal tools",
+    "Web development with React, Next.js, Node.js and TypeScript",
+    "Python web backends with Django, Flask and FastAPI",
+    "SaaS product and MVP development with accounts, roles and tenant-aware data models",
     "REST API design, webhooks, OAuth flows and third-party system integration",
     "Workflow automation, scheduled jobs, alerting and exception handling",
     "Google Apps Script automation and Google Sheets add-on development",
@@ -189,6 +192,14 @@
       {
         "label": "Business intelligence",
         "href": "/services/business-intelligence/"
+      },
+      {
+        "label": "Web development",
+        "href": "/services/web-development/"
+      },
+      {
+        "label": "Application development",
+        "href": "/services/application-development/"
       },
       {
         "label": "Custom software",

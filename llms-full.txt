@@ -60,11 +60,11 @@ Give finance and operations a consistent view of the business, with defined KPIs
 
 Explore business intelligence
 
-#### Custom software & integrations
+#### Web & application development
 
-Build customer portals, internal tools and applications that fit your workflows and connect to the systems you already use.
+Build websites, web apps, SaaS products and internal tools in React, Next.js, Node.js and Python, connected to the systems you already use.
 
-Explore software development
+Web development Application development Custom software
 
 #### AI consulting & development
 
@@ -526,7 +526,7 @@ Prefer to write?
 
 Share what you know. All fields are optional. You can review the draft in your email app before sending it.
 
-What do you need? Help choosing a serviceOffshore data engineering teamData engineering and ETLData warehouse migrationBusiness intelligence and dashboardsCustom softwareWorkflow automation and API integrationAI and RAG developmentMCP servers and AI connectorsBlockchain data analyticsConsultant in our team (staff augmentation)Permanent hire (recruitment)Snowflake consultingBigQuery consultingPower BI consultingSomething else
+What do you need? Help choosing a serviceOffshore data engineering teamData engineering and ETLData warehouse migrationBusiness intelligence and dashboardsWeb development (React, Next.js, Node.js)Application development (web apps, SaaS, MVPs)Custom softwareWorkflow automation and API integrationAI and RAG developmentMCP servers and AI connectorsBlockchain data analyticsConsultant in our team (staff augmentation)Permanent hire (recruitment)Snowflake consultingBigQuery consultingPower BI consultingSomething else
 What needs to improve, and what would success look like?
 Current systems and tools
 Time zone and preferred overlap hours
@@ -605,9 +605,9 @@ Python, SQL, BigQuery, Snowflake, Amazon Redshift and PostgreSQL. Pipelines, lay
 
 Power BI, DAX, Tableau, Looker Studio, Streamlit and Plotly. Semantic models, reusable measures, dashboards and reconciliation.
 
-#### Software and API development
+#### Web and application development
 
-TypeScript, JavaScript, Python, SQL and REST APIs. Business applications, customer portals, internal tools and system integrations.
+React, Next.js, Node.js, TypeScript and Python (Django, Flask, FastAPI), with PostgreSQL and REST APIs. Websites, web applications, SaaS products, customer portals, internal tools and system integrations.
 
 #### AI applications and connectors
 
@@ -2564,7 +2564,7 @@ Tell us about the work, your current systems and the people who will use the res
 # Software, Data, AI & Engineering Team Services | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/
-Description: Explore MV.tech Solutions services: custom software, data engineering, BI, AI and MCP integrations, automation, dedicated teams and technology recruitment.
+Description: MV.tech Solutions services: web and application development, custom software, data engineering, BI, AI and MCP, automation and dedicated teams.
 Last modified: 2026-11-14
 
 Services
@@ -2589,11 +2589,11 @@ Give finance, operations and management teams consistent reporting. We define KP
 
 BI & dashboard development Power BI consulting
 
-#### Custom software & integrations
+#### Web, application & software development
 
-Build customer portals, internal applications and data tools around your workflows. We develop the user interface, backend, database and business system integrations together.
+Build websites, web applications, SaaS products, customer portals and internal tools in React, Next.js, Node.js and Python. We develop the user interface, backend, database and business system integrations together.
 
-Custom software development Workflow automation & APIs
+Web development Application development Custom software development Workflow automation & APIs
 
 #### AI consulting & development
 
@@ -2621,6 +2621,8 @@ Find a service by the work you need done
 | Bring business data together | Data engineering |
 | Replace a legacy reporting platform | Warehouse migration |
 | Resolve reporting and KPI inconsistencies | Business intelligence |
+| Build or rebuild a website or web app | Web development |
+| Launch a SaaS product or MVP | Application development |
 | Build a customer portal or internal app | Custom software |
 | Connect AI to documents or business systems | AI consulting |
 | Automate recurring work between applications | Workflow automation |
@@ -2822,6 +2824,146 @@ AI access guide
 Your next step
 
 ### Discuss your AI project.
+
+Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include.
+
+---
+
+# Web Application, SaaS & MVP Development | MV.tech Solutions
+
+URL: https://mvtech.solutions/services/application-development/
+Description: Web application, SaaS and MVP development from MV.tech Solutions: portals, dashboards and internal tools built with React, Next.js, Node.js and Python.
+Last modified: 2026-11-14
+
+MV.tech Solutions services
+
+## Web application, SaaS and MVP development.
+
+Turn a business process or product idea into a working application. MV.tech Solutions builds customer portals, dashboards, internal tools, SaaS products and MVPs, from the first release through the features that follow.
+
+- Offices in New York and Ahmedabad
+- Overlap with your time zone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### From an idea or a manual process to an application people use.
+
+- Launch a first version of a product and test it with real users.
+- Replace spreadsheets and email hand-offs with an application your team and customers use.
+- Turn an internal tool into a product other companies can sign up for.
+What we deliver
+
+### Application development from first release to growth.
+
+01
+
+#### MVP scoping and first release
+
+Define the smallest version that proves the idea: the core user journey, roles and data. Build it, release it to real users and plan the next iteration from what they do.
+
+02
+
+#### SaaS foundations
+
+Accounts and organizations, sign-in and user roles, tenant-aware data models and audit trails, designed so the product can grow without a rewrite.
+
+03
+
+#### Portals, dashboards and internal tools
+
+Customer and partner portals, admin panels, reporting dashboards and approval workflows, connected to the systems and data your business already uses.
+
+04
+
+#### Integrations, testing and operations
+
+Connect CRM, ERP, email and other third-party services through their APIs. Automated tests, CI/CD, monitoring and an agreed support arrangement after launch.
+
+- React
+- Next.js
+- TypeScript
+- Node.js
+- Python
+- Django
+- FastAPI
+- PostgreSQL
+- REST APIs
+- OAuth
+- Docker
+- GitHub Actions
+- AWS
+- Google Cloud
+Business applications
+
+### Where this service fits.
+
+- SaaS products. Subscription software for other businesses, built with accounts, roles and separated customer data from the start.
+- Customer and partner portals. Self-service access to orders, documents, requests and status updates.
+- Internal tools and dashboards. Approvals, operations data, exception handling and reporting in one application instead of spreadsheets.
+Engagement scope
+
+### Start with the release that proves the idea.
+
+We start with the users, the core journey and the data the application owns. The first release covers what proves the product or replaces the manual process; later releases follow the roadmap and what users actually do.
+
+Working together
+
+### How we deliver this work.
+
+- 01 — Scope the first release — Agree users, roles, the core journey, integrations and acceptance criteria for a first milestone.
+- 02 — Build in short increments — Ship working features to a review environment and adjust priorities with your team as you go.
+- 03 — Launch, measure and extend — Release to real users, watch how the application is used and plan the next features from that evidence.
+Teams our engineers have worked with
+
+- Google
+- Volvo
+- BCW
+- RootstockLabs
+- Chainlabs
+- Toptal
+- Turing
+Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+Before we begin
+
+### Questions about application development
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**How long does an MVP take?**
+It depends on the core journey, roles and integrations. We scope the smallest release that proves the idea and agree its milestones in writing before work starts, rather than estimating from a full feature list.
+
+**Can you build a multi-tenant SaaS product?**
+Yes. We design accounts, organizations, roles and tenant-aware data models from the start, so each customer’s data stays separate and the product can add plans and features later.
+
+**Who owns the code?**
+Ownership, licensing and repository access are set out in the engagement agreement. We work in repositories you control wherever possible and hand over code and documentation at each milestone.
+
+**Do you build mobile apps?**
+Our focus is web applications that work well on phones, tablets and desktops. If your product needs a native mobile app, tell us early and we will discuss the options.
+
+**Can your team work in US business hours?**
+Yes. Our engineering team in Ahmedabad agrees a recurring collaboration window in US Eastern or Pacific time, with written updates between meetings.
+
+Related services
+
+### Other ways we can help.
+
+#### Web Development
+
+Fast, accessible websites and web apps built with React, Next.js, Node.js and Python.
+
+#### Custom Software Development
+
+Build software around the way your business operates.
+
+#### AI Automation, RAG & MCP Development
+
+Turn a useful AI idea into a working business application.
+
+Your next step
+
+### Discuss your application or product.
 
 Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include.
 
@@ -3321,7 +3463,7 @@ Tell us about the work, your current systems and the people who will use the res
 
 ---
 
-# Custom Software & Web Application Development | MV.tech Solutions
+# Custom Software Development Services | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/custom-software/
 Description: Custom web applications, customer portals, internal tools and data apps from MV.tech Solutions: interfaces, backends, integrations, testing and deployment.
@@ -3372,6 +3514,9 @@ Implement application logic, data storage and REST APIs using the agreed JavaScr
 
 Test the agreed user journeys, permissions and integration behavior. Set up reviewable deployments, document the application and agree its maintenance and support requirements.
 
+- React
+- Next.js
+- Node.js
 - TypeScript
 - JavaScript
 - Python
@@ -3442,17 +3587,17 @@ Related services
 
 ### Other ways we can help.
 
+#### Web Development
+
+Fast, accessible websites and web apps built with React, Next.js, Node.js and Python.
+
+#### Application Development
+
+Portals, dashboards, internal tools, SaaS products and MVPs, from first release onward.
+
 #### Workflow Automation Consulting
 
 Reduce the manual work between your business systems.
-
-#### MCP Servers & AI Connectors
-
-Connect AI assistants to the systems your business already uses.
-
-#### IT Staff Augmentation
-
-Add the technical skills your team needs without opening every role as a permanent hire.
 
 Your next step
 
@@ -4985,6 +5130,149 @@ Time zone playbook
 Your next step
 
 ### Discuss your next technology hire.
+
+Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include.
+
+---
+
+# Web Development Services: React, Next.js & Node.js | MV.tech Solutions
+
+URL: https://mvtech.solutions/services/web-development/
+Description: Web development with React, Next.js, Node.js and Python from MV.tech Solutions: fast, accessible websites and web apps, with APIs, testing and deployment.
+Last modified: 2026-11-14
+
+MV.tech Solutions services
+
+## Web development with React, Next.js and Node.js.
+
+Build fast, accessible websites and web applications on a modern stack. MV.tech Solutions develops front ends in React and Next.js and backends in Node.js, TypeScript and Python, with APIs, sign-in, testing and deployment in one delivery scope.
+
+- Offices in New York and Ahmedabad
+- Overlap with your time zone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### When your website or web app needs real engineering.
+
+- Rebuild a slow or hard-to-change website on React and Next.js.
+- Add sign-in, forms, search and data-driven pages to an existing site.
+- Extend a web product with developers who work in your time zone.
+What we deliver
+
+### Web development from design to deployment.
+
+01
+
+#### Front ends in React and Next.js
+
+Responsive, accessible interfaces built from reusable components, with server-side rendering or static generation where pages need to load fast and be found in search.
+
+02
+
+#### APIs and backends
+
+REST APIs and application logic in Node.js and TypeScript (Express or NestJS) or Python (Django, Flask or FastAPI), backed by PostgreSQL and the hosting you choose.
+
+03
+
+#### Performance, accessibility and search
+
+Core Web Vitals, semantic HTML with WCAG 2.1 AA as the working target, and metadata and structured data, so pages are fast, usable and readable by search engines and AI assistants.
+
+04
+
+#### Testing, deployment and handover
+
+Automated tests for key user journeys, CI/CD pipelines and reviewable deployments to your cloud, with documentation and agreed support after launch.
+
+- React
+- Next.js
+- TypeScript
+- JavaScript
+- Node.js
+- Express
+- NestJS
+- Python
+- Django
+- FastAPI
+- Flask
+- PostgreSQL
+- REST APIs
+- Docker
+- GitHub Actions
+- AWS
+- Google Cloud
+Business applications
+
+### Where this service fits.
+
+- Company and product websites. Sites that load fast, work on every screen size and are built to be found in search.
+- Web portals and dashboards. Signed-in areas where customers, partners or staff view records, submit information and track progress.
+- Front ends for existing products. New or rebuilt interfaces for a product, developed against the APIs you already run.
+Engagement scope
+
+### Agree the pages, journeys and integrations first.
+
+We start from the pages and user journeys that matter most, the systems the site must connect to and how it will be hosted. A first release covers those journeys end to end; further pages and features follow the agreed roadmap.
+
+Working together
+
+### How we deliver this work.
+
+- 01 — Plan and design — Agree the pages, journeys, content structure and integrations, and the performance and accessibility targets.
+- 02 — Build and review — Develop in increments on a preview environment your team can click through and comment on.
+- 03 — Launch and support — Run acceptance checks, deploy, carry over redirects and metadata, and hand over code and documentation.
+Teams our engineers have worked with
+
+- Google
+- Volvo
+- BCW
+- RootstockLabs
+- Chainlabs
+- Toptal
+- Turing
+Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+Before we begin
+
+### Questions about web development
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**Which web technologies do you use?**
+React and Next.js for front ends; Node.js and TypeScript (Express or NestJS) or Python (Django, Flask or FastAPI) for backends; PostgreSQL for data. We can also work in your existing stack after reviewing it.
+
+**Can you rebuild our website without losing search rankings?**
+Yes. We map the existing URLs, carry over titles, metadata and structured data, and redirect anything that moves, so search engines can follow the change.
+
+**Will the new site be fast and accessible?**
+We work to WCAG 2.1 AA, measure Core Web Vitals before release and fix the issues that matter most to your users first.
+
+**Can your developers work in US business hours?**
+Yes. Our engineering team in Ahmedabad agrees a recurring collaboration window in US Eastern or Pacific time, with written updates between meetings.
+
+**How do you price web development?**
+We quote after a scoping call, based on the pages, user journeys, integrations and release plan. A first milestone is agreed in writing before work starts.
+
+Related services
+
+### Other ways we can help.
+
+#### Application Development
+
+Portals, dashboards, internal tools, SaaS products and MVPs, from first release onward.
+
+#### Custom Software Development
+
+Build software around the way your business operates.
+
+#### IT Staff Augmentation
+
+Add the technical skills your team needs without opening every role as a permanent hire.
+
+Your next step
+
+### Discuss your website or web app.
 
 Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include.
 

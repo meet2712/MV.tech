@@ -144,6 +144,12 @@
     "kicker": "MV.tech Solutions · Consulting · Development · Integration"
   },
   {
+    "route": "/services/application-development/",
+    "slug": "services-application-development",
+    "title": "Application Development",
+    "kicker": "MV.tech Solutions · Web apps · SaaS · MVPs"
+  },
+  {
     "route": "/services/bigquery-consulting/",
     "slug": "services-bigquery-consulting",
     "title": "BigQuery Consulting",
@@ -220,6 +226,12 @@
     "slug": "services-technology-recruitment",
     "title": "Technology Recruitment",
     "kicker": "MV.tech Solutions · Permanent hiring · Technical assessment"
+  },
+  {
+    "route": "/services/web-development/",
+    "slug": "services-web-development",
+    "title": "Web Development",
+    "kicker": "MV.tech Solutions · React · Next.js · Node.js · Python"
   },
   {
     "route": "/services/workflow-automation/",

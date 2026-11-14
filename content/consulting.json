@@ -1137,7 +1137,7 @@
     "path": "/services/custom-software/",
     "key": "custom-software",
     "name": "Custom Software Development",
-    "title": "Custom Software & Web Application Development | MV.tech Solutions",
+    "title": "Custom Software Development Services | MV.tech Solutions",
     "description": "Custom web applications, customer portals, internal tools and data apps from MV.tech Solutions: interfaces, backends, integrations, testing and deployment.",
     "intro": "Build software around the way your business operates. MV.tech Solutions develops web applications, customer portals, internal tools and data applications, connecting the interface, backend and integrations in one delivery scope. We can build a new application or extend an existing product.",
     "fitHeading": "Software for the workflows that off-the-shelf tools leave unfinished.",
@@ -1182,6 +1182,9 @@
       }
     ],
     "tools": [
+      "React",
+      "Next.js",
+      "Node.js",
       "TypeScript",
       "JavaScript",
       "Python",
@@ -1225,9 +1228,9 @@
     "ogTitle": "Custom Software Development",
     "ogKicker": "MV.tech Solutions · Consulting · Development · Integration",
     "relatedServiceKeys": [
-      "workflow-automation",
-      "mcp-and-ai-connectors",
-      "it-staff-augmentation"
+      "web-development",
+      "application-development",
+      "workflow-automation"
     ],
     "h1": "Custom software development for your business.",
     "questionsHeading": "Questions about custom software development and remote developers",
@@ -1249,6 +1252,243 @@
     "approachHeading": "How we deliver this work.",
     "applicationsHeading": "Where this service fits.",
     "closingHeading": "Discuss your software project.",
+    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
+  },
+  {
+    "path": "/services/web-development/",
+    "key": "web-development",
+    "name": "Web Development",
+    "title": "Web Development Services: React, Next.js & Node.js | MV.tech Solutions",
+    "description": "Web development with React, Next.js, Node.js and Python from MV.tech Solutions: fast, accessible websites and web apps, with APIs, testing and deployment.",
+    "h1": "Web development with React, Next.js and Node.js.",
+    "eyebrow": "MV.tech Solutions services",
+    "serviceType": "Web development",
+    "intro": "Build fast, accessible websites and web applications on a modern stack. MV.tech Solutions develops front ends in React and Next.js and backends in Node.js, TypeScript and Python, with APIs, sign-in, testing and deployment in one delivery scope.",
+    "summary": "Fast, accessible websites and web apps built with React, Next.js, Node.js and Python.",
+    "fitHeading": "When your website or web app needs real engineering.",
+    "fit": [
+      "Rebuild a slow or hard-to-change website on React and Next.js.",
+      "Add sign-in, forms, search and data-driven pages to an existing site.",
+      "Extend a web product with developers who work in your time zone."
+    ],
+    "deliverablesHeading": "Web development from design to deployment.",
+    "deliverables": [
+      {
+        "title": "Front ends in React and Next.js",
+        "text": "Responsive, accessible interfaces built from reusable components, with server-side rendering or static generation where pages need to load fast and be found in search."
+      },
+      {
+        "title": "APIs and backends",
+        "text": "REST APIs and application logic in Node.js and TypeScript (Express or NestJS) or Python (Django, Flask or FastAPI), backed by PostgreSQL and the hosting you choose."
+      },
+      {
+        "title": "Performance, accessibility and search",
+        "text": "Core Web Vitals, semantic HTML with WCAG 2.1 AA as the working target, and metadata and structured data, so pages are fast, usable and readable by search engines and AI assistants."
+      },
+      {
+        "title": "Testing, deployment and handover",
+        "text": "Automated tests for key user journeys, CI/CD pipelines and reviewable deployments to your cloud, with documentation and agreed support after launch."
+      }
+    ],
+    "tools": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "JavaScript",
+      "Node.js",
+      "Express",
+      "NestJS",
+      "Python",
+      "Django",
+      "FastAPI",
+      "Flask",
+      "PostgreSQL",
+      "REST APIs",
+      "Docker",
+      "GitHub Actions",
+      "AWS",
+      "Google Cloud"
+    ],
+    "applicationsHeading": "Where this service fits.",
+    "applications": [
+      {
+        "title": "Company and product websites",
+        "text": "Sites that load fast, work on every screen size and are built to be found in search."
+      },
+      {
+        "title": "Web portals and dashboards",
+        "text": "Signed-in areas where customers, partners or staff view records, submit information and track progress."
+      },
+      {
+        "title": "Front ends for existing products",
+        "text": "New or rebuilt interfaces for a product, developed against the APIs you already run."
+      }
+    ],
+    "scopeHeading": "Agree the pages, journeys and integrations first.",
+    "scope": "We start from the pages and user journeys that matter most, the systems the site must connect to and how it will be hosted. A first release covers those journeys end to end; further pages and features follow the agreed roadmap.",
+    "approachHeading": "How we deliver this work.",
+    "approach": [
+      {
+        "title": "Plan and design",
+        "text": "Agree the pages, journeys, content structure and integrations, and the performance and accessibility targets."
+      },
+      {
+        "title": "Build and review",
+        "text": "Develop in increments on a preview environment your team can click through and comment on."
+      },
+      {
+        "title": "Launch and support",
+        "text": "Run acceptance checks, deploy, carry over redirects and metadata, and hand over code and documentation."
+      }
+    ],
+    "questionsHeading": "Questions about web development",
+    "questions": [
+      {
+        "question": "Which web technologies do you use?",
+        "answer": "React and Next.js for front ends; Node.js and TypeScript (Express or NestJS) or Python (Django, Flask or FastAPI) for backends; PostgreSQL for data. We can also work in your existing stack after reviewing it."
+      },
+      {
+        "question": "Can you rebuild our website without losing search rankings?",
+        "answer": "Yes. We map the existing URLs, carry over titles, metadata and structured data, and redirect anything that moves, so search engines can follow the change."
+      },
+      {
+        "question": "Will the new site be fast and accessible?",
+        "answer": "We work to WCAG 2.1 AA, measure Core Web Vitals before release and fix the issues that matter most to your users first."
+      },
+      {
+        "question": "Can your developers work in US business hours?",
+        "answer": "Yes. Our engineering team in Ahmedabad agrees a recurring collaboration window in US Eastern or Pacific time, with written updates between meetings."
+      },
+      {
+        "question": "How do you price web development?",
+        "answer": "We quote after a scoping call, based on the pages, user journeys, integrations and release plan. A first milestone is agreed in writing before work starts."
+      }
+    ],
+    "ogTitle": "Web Development",
+    "ogKicker": "MV.tech Solutions · React · Next.js · Node.js · Python",
+    "relatedServiceKeys": [
+      "application-development",
+      "custom-software",
+      "it-staff-augmentation"
+    ],
+    "closingHeading": "Discuss your website or web app.",
+    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
+  },
+  {
+    "path": "/services/application-development/",
+    "key": "application-development",
+    "name": "Application Development",
+    "title": "Web Application, SaaS & MVP Development | MV.tech Solutions",
+    "description": "Web application, SaaS and MVP development from MV.tech Solutions: portals, dashboards and internal tools built with React, Next.js, Node.js and Python.",
+    "h1": "Web application, SaaS and MVP development.",
+    "eyebrow": "MV.tech Solutions services",
+    "serviceType": "Application development",
+    "intro": "Turn a business process or product idea into a working application. MV.tech Solutions builds customer portals, dashboards, internal tools, SaaS products and MVPs, from the first release through the features that follow.",
+    "summary": "Portals, dashboards, internal tools, SaaS products and MVPs, from first release onward.",
+    "fitHeading": "From an idea or a manual process to an application people use.",
+    "fit": [
+      "Launch a first version of a product and test it with real users.",
+      "Replace spreadsheets and email hand-offs with an application your team and customers use.",
+      "Turn an internal tool into a product other companies can sign up for."
+    ],
+    "deliverablesHeading": "Application development from first release to growth.",
+    "deliverables": [
+      {
+        "title": "MVP scoping and first release",
+        "text": "Define the smallest version that proves the idea: the core user journey, roles and data. Build it, release it to real users and plan the next iteration from what they do."
+      },
+      {
+        "title": "SaaS foundations",
+        "text": "Accounts and organizations, sign-in and user roles, tenant-aware data models and audit trails, designed so the product can grow without a rewrite."
+      },
+      {
+        "title": "Portals, dashboards and internal tools",
+        "text": "Customer and partner portals, admin panels, reporting dashboards and approval workflows, connected to the systems and data your business already uses."
+      },
+      {
+        "title": "Integrations, testing and operations",
+        "text": "Connect CRM, ERP, email and other third-party services through their APIs. Automated tests, CI/CD, monitoring and an agreed support arrangement after launch."
+      }
+    ],
+    "tools": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "Python",
+      "Django",
+      "FastAPI",
+      "PostgreSQL",
+      "REST APIs",
+      "OAuth",
+      "Docker",
+      "GitHub Actions",
+      "AWS",
+      "Google Cloud"
+    ],
+    "applicationsHeading": "Where this service fits.",
+    "applications": [
+      {
+        "title": "SaaS products",
+        "text": "Subscription software for other businesses, built with accounts, roles and separated customer data from the start."
+      },
+      {
+        "title": "Customer and partner portals",
+        "text": "Self-service access to orders, documents, requests and status updates."
+      },
+      {
+        "title": "Internal tools and dashboards",
+        "text": "Approvals, operations data, exception handling and reporting in one application instead of spreadsheets."
+      }
+    ],
+    "scopeHeading": "Start with the release that proves the idea.",
+    "scope": "We start with the users, the core journey and the data the application owns. The first release covers what proves the product or replaces the manual process; later releases follow the roadmap and what users actually do.",
+    "approachHeading": "How we deliver this work.",
+    "approach": [
+      {
+        "title": "Scope the first release",
+        "text": "Agree users, roles, the core journey, integrations and acceptance criteria for a first milestone."
+      },
+      {
+        "title": "Build in short increments",
+        "text": "Ship working features to a review environment and adjust priorities with your team as you go."
+      },
+      {
+        "title": "Launch, measure and extend",
+        "text": "Release to real users, watch how the application is used and plan the next features from that evidence."
+      }
+    ],
+    "questionsHeading": "Questions about application development",
+    "questions": [
+      {
+        "question": "How long does an MVP take?",
+        "answer": "It depends on the core journey, roles and integrations. We scope the smallest release that proves the idea and agree its milestones in writing before work starts, rather than estimating from a full feature list."
+      },
+      {
+        "question": "Can you build a multi-tenant SaaS product?",
+        "answer": "Yes. We design accounts, organizations, roles and tenant-aware data models from the start, so each customer’s data stays separate and the product can add plans and features later."
+      },
+      {
+        "question": "Who owns the code?",
+        "answer": "Ownership, licensing and repository access are set out in the engagement agreement. We work in repositories you control wherever possible and hand over code and documentation at each milestone."
+      },
+      {
+        "question": "Do you build mobile apps?",
+        "answer": "Our focus is web applications that work well on phones, tablets and desktops. If your product needs a native mobile app, tell us early and we will discuss the options."
+      },
+      {
+        "question": "Can your team work in US business hours?",
+        "answer": "Yes. Our engineering team in Ahmedabad agrees a recurring collaboration window in US Eastern or Pacific time, with written updates between meetings."
+      }
+    ],
+    "ogTitle": "Application Development",
+    "ogKicker": "MV.tech Solutions · Web apps · SaaS · MVPs",
+    "relatedServiceKeys": [
+      "web-development",
+      "custom-software",
+      "ai-consulting"
+    ],
+    "closingHeading": "Discuss your application or product.",
     "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
   },
   {
