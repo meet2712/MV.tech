@@ -527,7 +527,7 @@
       },
       {
         "question": "How much does custom MCP server development cost?",
-        "answer": "We quote after a scoping call, and terms are agreed per engagement. The recommended starting point is small: one server, one system, one small group of users and the three or four tools that cover most of their requests. Our remote-first engineering team is based in Ahmedabad, India, with a lean model that avoids large-consultancy overhead."
+        "answer": "We quote after a scoping call, and terms are agreed per engagement. The recommended starting point is small: one server, one system, one small group of users and the three or four tools that cover most of their requests. Our team works from New York and Ahmedabad, India, with a lean model that avoids large-consultancy overhead."
       },
       {
         "question": "How do you connect Claude or another AI assistant to our database safely?",
@@ -681,7 +681,7 @@
       },
       {
         "question": "How much does a Power BI consultant cost?",
-        "answer": "We quote after a scoping call. A useful first project is one dashboard rebuilt on an agreed grain and reconciled against the figures people already trust, and further dashboards and a wider semantic layer are scoped once that first one is agreed. Our engineering team works remotely from Ahmedabad, India, with working hours planned around your time zone and a lean model that avoids large-consultancy overhead."
+        "answer": "We quote after a scoping call. A useful first project is one dashboard rebuilt on an agreed grain and reconciled against the figures people already trust, and further dashboards and a wider semantic layer are scoped once that first one is agreed. Our team works from New York and Ahmedabad, India, with working hours planned around your time zone and a lean model that avoids large-consultancy overhead."
       }
     ],
     "summary": "Give business teams a consistent view of performance.",
@@ -830,7 +830,7 @@
       },
       {
         "question": "Can a remote team in India run our warehouse migration?",
-        "answer": "Yes. MV.tech Solutions has offices in New York and Ahmedabad, and our remote-first data engineering team works from India in hours planned around your time zone. The migration runs on written work both sides can review: a source-to-target mapping that both sides sign off, automated reconciliation results at every stage, and written sign-off per domain before legacy objects are retired. Handover includes the mappings, ER diagrams, validation results, schedules, ownership and operating runbooks."
+        "answer": "Yes. MV.tech Solutions has offices in New York and Ahmedabad, and our data engineering team works in hours planned around your time zone. The migration runs on written work both sides can review: a source-to-target mapping that both sides sign off, automated reconciliation results at every stage, and written sign-off per domain before legacy objects are retired. Handover includes the mappings, ER diagrams, validation results, schedules, ownership and operating runbooks."
       }
     ],
     "summary": "Move reporting and analytics to a cloud platform with a planned transition.",
@@ -977,7 +977,7 @@
       },
       {
         "question": "How much does blockchain data analytics consulting cost?",
-        "answer": "We quote after a scoping call, once the networks, contracts and wallets in scope, the reporting currency and period, and the figures the output has to reconcile against are agreed. A useful first project is a single chain and one business question built the whole way through, from ingestion and decoding to a reconciled output. Our remote-first engineering team is based in Ahmedabad, India, with working hours planned around your time zone and a lean model that avoids large-consultancy overhead."
+        "answer": "We quote after a scoping call, once the networks, contracts and wallets in scope, the reporting currency and period, and the figures the output has to reconcile against are agreed. A useful first project is a single chain and one business question built the whole way through, from ingestion and decoding to a reconciled output. Our team works from New York and Ahmedabad, India, with working hours planned around your time zone and a lean model that avoids large-consultancy overhead."
       },
       {
         "question": "How do you reconcile staking rewards against on-chain and internal records?",
@@ -1217,7 +1217,7 @@
       },
       {
         "question": "What does it cost to hire remote developers from India?",
-        "answer": "We quote after a scoping call. Our remote-first engineering team is based in Ahmedabad, India, with a lean model that avoids large-consultancy overhead, and working hours are planned around your time zone. The figure depends on user journeys, roles, integrations, data migration, testing and release requirements, so we scope an initial milestone and clarify assumptions before treating a feature list as a delivery commitment."
+        "answer": "We quote after a scoping call. Our team works from New York and Ahmedabad, India, with a lean model that avoids large-consultancy overhead, and working hours are planned around your time zone. The figure depends on user journeys, roles, integrations, data migration, testing and release requirements, so we scope an initial milestone and clarify assumptions before treating a feature list as a delivery commitment."
       },
       {
         "question": "Can you build a Streamlit dashboard on top of our data warehouse?",
@@ -1357,7 +1357,7 @@
       },
       {
         "question": "Can your developers work in US business hours?",
-        "answer": "Yes. Our engineering team in Ahmedabad agrees a recurring collaboration window in US Eastern or Pacific time, with written updates between meetings."
+        "answer": "Yes. With staff in New York and Ahmedabad, we agree a recurring collaboration window in US Eastern or Pacific time, with written updates between meetings."
       },
       {
         "question": "How do you price web development?",
@@ -1478,7 +1478,7 @@
       },
       {
         "question": "Can your team work in US business hours?",
-        "answer": "Yes. Our engineering team in Ahmedabad agrees a recurring collaboration window in US Eastern or Pacific time, with written updates between meetings."
+        "answer": "Yes. With staff in New York and Ahmedabad, we agree a recurring collaboration window in US Eastern or Pacific time, with written updates between meetings."
       }
     ],
     "ogTitle": "Application Development",
@@ -1581,11 +1581,11 @@
       },
       {
         "question": "How much does data engineering staff augmentation cost?",
-        "answer": "We quote after a scoping call rather than publishing a fixed hourly rate. Commercial terms are agreed per engagement once the role, allocated capacity, duration and time zone overlap are defined. Our remote-first engineering team is based in Ahmedabad, India, with a lean model that avoids large-consultancy overhead. You can include a budget range in your inquiry if you have one."
+        "answer": "We quote after a scoping call rather than publishing a fixed hourly rate. Commercial terms are agreed per engagement once the role, allocated capacity, duration and time zone overlap are defined. Our team works from New York and Ahmedabad, India, with a lean model that avoids large-consultancy overhead. You can include a budget range in your inquiry if you have one."
       },
       {
         "question": "How do we hire a remote data engineer in India through MV.tech Solutions?",
-        "answer": "Share the role, required skills, workstream, expected duration and capacity, preferred start date and the time zone overlap you need. We review fit, availability and commercial terms before confirming a consultant, then onboard them with agreed access, initial tasks, acceptance criteria and documentation. Our engineers are remote-first and based in Ahmedabad, India, with working hours planned around your time zone."
+        "answer": "Share the role, required skills, workstream, expected duration and capacity, preferred start date and the time zone overlap you need. We review fit, availability and commercial terms before confirming a consultant, then onboard them with agreed access, initial tasks, acceptance criteria and documentation. Our engineers work from New York and Ahmedabad, India, with working hours planned around your time zone."
       }
     ],
     "relatedResourcesHeading": "Resources for choosing an engagement model.",
@@ -1787,10 +1787,10 @@
   {
     "path": "/remote-consulting/",
     "key": "remote-consulting",
-    "name": "How We Work: Remote Team, Time zones & Costs",
+    "name": "How We Work: Remote Team, Time Zones & Costs",
     "title": "Remote Engineering Services & Engagement Models | MV.tech Solutions",
     "description": "Work with MV.tech Solutions through project delivery, dedicated engineers or specialist capacity, with responsibilities and collaboration hours agreed.",
-    "intro": "Work with MV.tech Solutions on a defined project, a dedicated engineering team or a specialist role. Our engineering team is based in Ahmedabad, India, and collaborates with clients worldwide. We agree the working model, responsibilities and time zone overlap before delivery begins.",
+    "intro": "Work with MV.tech Solutions on a defined project, a dedicated engineering team or a specialist role. Our team works from New York and Ahmedabad, India, and collaborates with clients worldwide. We agree the working model, responsibilities and time zone overlap before delivery begins.",
     "fitHeading": "Choose how the work fits into your organization.",
     "fit": [
       "Assign an agreed project scope to a delivery team.",
@@ -1892,7 +1892,7 @@
     "summary": "Work with MV.tech Solutions on a defined project, a dedicated engineering team or a specialist role.",
     "h1": "Remote engineering services from India, working with your team.",
     "eyebrow": "Remote engineering services",
-    "ogTitle": "How We Work: Remote Team, Time zones & Costs",
+    "ogTitle": "How We Work: Remote Team, Time Zones & Costs",
     "ogKicker": "MV.tech Solutions · Project delivery · Dedicated capacity",
     "comparison": {
       "heading": "Choose the delivery model that fits your team.",
@@ -2197,7 +2197,7 @@
       },
       {
         "question": "Can a remote team in India run our Snowflake migration?",
-        "answer": "Yes. Our engineering team works from Ahmedabad, India, and agrees a collaboration window in your time zone before work begins: US Eastern mornings, UK and European business hours, Gulf hours or Asia-Pacific afternoons. Snowflake work suits remote delivery because access is role-based and every change can be reviewed as SQL in a pull request. Reconciliation results, decisions and handover notes are written down where your team can read them the next morning."
+        "answer": "Yes. Our team works from New York and Ahmedabad, India, and agrees a collaboration window in your time zone before work begins: US Eastern mornings, UK and European business hours, Gulf hours or Asia-Pacific afternoons. Snowflake work suits remote delivery because access is role-based and every change can be reviewed as SQL in a pull request. Reconciliation results, decisions and handover notes are written down where your team can read them the next morning."
       },
       {
         "question": "Can you reconcile Snowflake with Salesforce CRM Analytics and our finance system?",
@@ -2342,7 +2342,7 @@
       },
       {
         "question": "Can a remote team in India run our BigQuery project?",
-        "answer": "Yes. Our engineering team works from Ahmedabad, India, and agrees a collaboration window in your time zone before the engagement starts, which typically covers UK and European business hours, US Eastern mornings, Gulf hours or Asia-Pacific afternoons. Access is through your own Google Cloud project with IAM roles you grant and can revoke, logs stay in your project and no credentials are needed for an initial inquiry."
+        "answer": "Yes. Our team works from New York and Ahmedabad, India, and agrees a collaboration window in your time zone before the engagement starts, which typically covers UK and European business hours, US Eastern mornings, Gulf hours or Asia-Pacific afternoons. Access is through your own Google Cloud project with IAM roles you grant and can revoke, logs stay in your project and no credentials are needed for an initial inquiry."
       },
       {
         "question": "Is Looker Studio good enough, or do we need Power BI?",
