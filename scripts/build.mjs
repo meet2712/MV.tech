@@ -11,7 +11,7 @@ import { createHash } from 'node:crypto';
 import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { attr, escapeHtml as h, fileFor, htmlToText, parseFragment, slugFor, stripTags, textContent, walk } from './html.mjs';
-import { articlePage, callButton, contractingParty, fillFacts, icon, insightsIndex, legalLine, servicePage, usCompanyNote } from './templates.mjs';
+import { articlePage, callButton, contractingParty, fillFacts, icon, insightsIndex, legalLine, officeAddressLines, officeMapUrl, officesBlock, servicePage } from './templates.mjs';
 
 const site = JSON.parse(await readFile('content/site.json', 'utf8'));
 const origin = site.origin;
@@ -21,6 +21,7 @@ const registry = JSON.parse(await readFile(registryFile, 'utf8').catch(() => '{}
 const articleTemplateRevision = '2026-09-18-offshore-guide';
 const hash = (value) => createHash('sha256').update(typeof value === 'string' ? value : JSON.stringify(value)).digest('hex').slice(0, 16);
 const jsonLd = (value) => JSON.stringify(value).replace(/</g, '\\u003c');
+const usDate = (iso) => new Date(iso + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
 
 // ---------------------------------------------------------------------------------------------
 // Collect pages
@@ -39,7 +40,7 @@ const pages = [];
 for (const name of (await readdir('content/pages')).filter((f) => f.endsWith('.html')).sort()) {
   const file = `content/pages/${name}`;
   const { meta, body: sourceBody } = parseMetaFile(await readFile(file, 'utf8'), file);
-  const body = sourceBody.replace('<!--us-company-note-->', () => usCompanyNote(site, meta.route));
+  const body = sourceBody.replace('<!--offices-->', () => officesBlock(site));
   pages.push({ ...meta, body, kind: meta.kind ?? 'page', source: file, hashSource: hash(JSON.stringify(meta) + body) });
 }
 
@@ -69,6 +70,8 @@ function dates(page) {
   return registry[page.route];
 }
 for (const page of pages) Object.assign(page, dates(page));
+// Legal pages print their own "last updated" date; it comes from the registry, so it moves only when the text changes.
+for (const page of pages) page.body = page.body.replace('<!--last-updated-->', () => usDate(page.modified));
 for (const article of articles) {
   Object.assign(article, dates(article));
 }
@@ -86,7 +89,7 @@ for (const article of articles) {
   const indexPage = {
     route: '/insights/', name: 'Insights', kind: 'collection',
     title: 'Insights on Remote Engineering, Data & AI | MV.tech Solutions',
-    description: 'Practical guides from MV.tech Solutions on working with remote engineering teams across timezones, hiring data consultants, RAG, MCP servers and engagement models.',
+    description: 'Practical guides from MV.tech Solutions on working with remote engineering teams across time zones, hiring data consultants, RAG, MCP servers and engagement models.',
     ogTitle: 'Insights', ogKicker: 'Guides from the MV.tech Solutions engineering team',
     body: insightsIndex(articles, site), source: 'content/insights', hashSource: hash(articles.map((a) => a.route + a.title + a.description)),
     itemList: articles.map((a) => ({ name: a.title, url: origin + a.route })),
@@ -118,29 +121,32 @@ const header = `<header id="main-header" class="site-header">
 </header>`;
 
 const footerLinks = (items) => items.map((item) => `<a href="${item.href}"${item.external ? ' target="_blank" rel="noopener"' : ''}>${h(item.label)}</a>`).join('');
+const officeAddress = (office) => `<address class="footer-office"><span class="footer-office-flag" aria-hidden="true">${office.flag}</span><span><strong>${h(office.name)}</strong><br>${officeAddressLines(office).map(h).join('<br>')}${office.telephone ? `<br><a href="tel:${h(office.telephone)}">${h(office.telephoneDisplay)}</a>` : ''}</span></address>`;
 const footer = `<footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="/" aria-label="${h(site.name)} home"><img src="/images/logo.svg" alt="${h(site.name)} – software, data and AI engineering" width="520" height="167" loading="lazy"></a>
-        <p>Software, data and AI engineering.<br>Offices in ${h(site.offices[0].label)},<br>and ${h(site.offices[1].label)}.</p>
-        <p class="footer-worked"><a href="${h(site.usCompany.path)}">Services for clients in the USA ${icon('arrow-up-right')}</a></p>
+        <p>Software, data and AI engineering for businesses in the USA and worldwide.</p>
       </div>
       <nav aria-label="Services"><h2>Services</h2>${footerLinks(site.footer.services)}</nav>
       <nav aria-label="Company"><h2>Company</h2>${footerLinks(site.footer.company)}</nav>
       <nav aria-label="Contact"><h2>Contact</h2>${footerLinks(site.footer.connect)}</nav>
     </div>
-    <div class="footer-bottom"><p>&copy; ${latest.slice(0, 4)} ${h(site.name)}. All rights reserved.</p><p class="footer-offices">${h(site.offices.map((office) => office.label).join(' · '))} · India GSTIN ${h(site.gstin)}</p><p><a href="/llms.txt">llms.txt</a> · <a href="/sitemap.xml">Sitemap</a></p></div>
+    <div class="footer-offices" aria-label="Office addresses">${site.offices.map(officeAddress).join('')}</div>
+    <div class="footer-bottom"><p>&copy; ${latest.slice(0, 4)} ${h(site.name)}. All rights reserved.</p><p>India GSTIN ${h(site.gstin)}</p><p class="footer-legal-links">${[...site.legalLinks, { label: 'llms.txt', href: '/llms.txt' }, { label: 'Sitemap', href: '/sitemap.xml' }].map((item) => `<a href="${item.href}">${h(item.label)}</a>`).join(' · ')}</p></div>
   </div>
 </footer>
 <div class="sticky-cta" id="sticky-cta" hidden><a class="button-primary" href="/contact/#book-call">Book a call</a><a class="button-secondary" href="mailto:${site.email}">Email us</a></div>`;
 
 // Keep local previews and automated checks out of the production property.
 const analytics = `<script>
-if (${JSON.stringify([new URL(origin).hostname, 'www.' + new URL(origin).hostname])}.includes(window.location.hostname)) {
+// Analytics stays off when the browser sends Global Privacy Control or Do Not Track (see /privacy/).
+var privacySignal=typeof navigator!=='undefined'&&(navigator.globalPrivacyControl===true||navigator.doNotTrack==='1'||window.doNotTrack==='1');
+if (${JSON.stringify([new URL(origin).hostname, 'www.' + new URL(origin).hostname])}.includes(window.location.hostname)&&!privacySignal) {
   window.dataLayer=window.dataLayer||[];
   window.gtag=function(){window.dataLayer.push(arguments);};
-  gtag('js',new Date());gtag('config','${site.analyticsId}');
+  gtag('js',new Date());gtag('config','${site.analyticsId}',{allow_google_signals:false,allow_ad_personalization_signals:false});
   var analyticsScript=document.createElement('script');
   analyticsScript.async=true;analyticsScript.src='https://www.googletagmanager.com/gtag/js?id=${site.analyticsId}';
   document.head.appendChild(analyticsScript);
@@ -159,6 +165,8 @@ function extractFaq(body) {
   }).filter((item) => item.question && item.answer);
 }
 
+const postalAddress = (office) => ({ '@type': 'PostalAddress', ...(office.streetAddress ? { streetAddress: [office.streetAddress, office.streetAddress2].filter(Boolean).join(', ') } : {}), addressLocality: office.locality, addressRegion: office.region, ...(office.postalCode ? { postalCode: office.postalCode } : {}), addressCountry: office.countryCode });
+
 function schemaGraph(page) {
   const url = origin + page.route;
   const ogImage = `${origin}/images/og/${page.ogSlug ?? slugFor(page.route)}.jpg`;
@@ -170,20 +178,24 @@ function schemaGraph(page) {
     // The GSTIN belongs to the India delivery operation, so it is a labelled identifier rather than the US corporation's taxID.
     identifier: { '@type': 'PropertyValue', propertyID: 'GSTIN', name: 'India GSTIN', value: site.gstin },
     numberOfEmployees: { '@type': 'QuantitativeValue', minValue: site.teamSize.min, maxValue: site.teamSize.max },
-    // The two offices, New York first. City level only: no street address is published for either.
-    address: site.offices.map((office) => ({ '@type': 'PostalAddress', name: office.name, addressLocality: office.locality, addressRegion: office.region, ...(office.postalCode ? { postalCode: office.postalCode } : {}), addressCountry: office.country })),
+    // The two offices, New York first. Street, ZIP and phone are included as soon as content/site.json has them.
+    address: site.offices.map(postalAddress),
+    location: site.offices.map((office) => ({ '@type': 'Place', '@id': `${origin}/#office-${office.id}`, name: `${site.name} – ${office.name}`, address: postalAddress(office), ...(office.telephone ? { telephone: office.telephone } : {}), ...(officeMapUrl(office) ? { hasMap: officeMapUrl(office) } : {}) })),
     areaServed: [{ '@type': 'Country', name: 'United States' }, 'Worldwide'], founder: { '@id': `${origin}/#founder` }, sameAs: [site.linkedin, site.crunchbase], knowsAbout: site.knowsAbout,
-    contactPoint: { '@type': 'ContactPoint', contactType: 'sales', email: site.email, url: `${origin}/contact/`, areaServed: ['US', 'Worldwide'], availableLanguage: ['English', 'Hindi', 'Gujarati'] },
+    contactPoint: [
+      { '@type': 'ContactPoint', contactType: 'sales', email: site.email, url: `${origin}/contact/`, areaServed: ['US', 'Worldwide'], availableLanguage: ['English', 'Hindi', 'Gujarati'] },
+      ...site.offices.filter((office) => office.telephone).map((office) => ({ '@type': 'ContactPoint', contactType: 'sales', telephone: office.telephone, areaServed: office.countryCode === 'US' ? 'US' : ['IN', 'Worldwide'], availableLanguage: 'English' })),
+    ],
     makesOffer: consulting.filter((p) => p.path.startsWith('/services/')).map((p) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', '@id': `${origin}${p.path}#service`, name: p.name, url: origin + p.path } })),
   };
   const founder = { '@type': 'Person', '@id': `${origin}/#founder`, name: site.founder.name, jobTitle: site.founder.jobTitle, description: site.founder.description, url: `${origin}/about/`, worksFor: { '@id': `${origin}/#organization` }, sameAs: site.founder.sameAs, knowsAbout: site.knowsAbout, hasCredential: site.credentials.map((c) => ({ '@type': 'EducationalOccupationalCredential', name: c.name, credentialCategory: c.category, recognizedBy: { '@type': 'Organization', name: c.issuer } })) };
-  const website = { '@type': 'WebSite', '@id': `${origin}/#website`, name: site.name, alternateName: site.alternateNames.slice(0, 3), url: `${origin}/`, description: site.shortSummary, publisher: { '@id': `${origin}/#organization` }, inLanguage: 'en' };
+  const website = { '@type': 'WebSite', '@id': `${origin}/#website`, name: site.name, alternateName: site.alternateNames.slice(0, 3), url: `${origin}/`, description: site.shortSummary, publisher: { '@id': `${origin}/#organization` }, inLanguage: 'en-US' };
   const crumbs = page.route === '/' ? null : [{ name: 'Home', url: origin + '/' }, ...(page.route.startsWith('/services/') && page.route !== '/services/' ? [{ name: 'Services', url: origin + '/services/' }] : []), ...(page.kind === 'article' ? [{ name: 'Insights', url: origin + '/insights/' }] : []), { name: page.name, url }];
   const types = { '/': 'WebPage', '/about/': 'AboutPage', '/contact/': 'ContactPage', '/services/': 'CollectionPage', '/insights/': 'CollectionPage', '/faq/': 'FAQPage' };
   const faq = extractFaq(page.body);
   const webpage = {
     '@type': types[page.route] ?? 'WebPage', '@id': `${url}#webpage`, url, name: page.pageTitle ?? page.title, description: page.description, isPartOf: { '@id': `${origin}/#website` }, about: { '@id': `${origin}/#organization` },
-    primaryImageOfPage: { '@type': 'ImageObject', url: ogImage, width: 1200, height: 630 }, inLanguage: 'en', datePublished: page.published, dateModified: page.modified,
+    primaryImageOfPage: { '@type': 'ImageObject', url: ogImage, width: 1200, height: 630 }, inLanguage: 'en-US', datePublished: page.published, dateModified: page.modified,
     ...(crumbs ? { breadcrumb: { '@id': `${url}#breadcrumb` } } : {}),
   };
   const graph = [organization, founder, website, webpage];
@@ -198,7 +210,7 @@ function schemaGraph(page) {
   }
   if (page.kind === 'article') {
     webpage.mainEntity = { '@id': `${url}#article` };
-    graph.push({ '@type': 'Article', '@id': `${url}#article`, headline: page.title, description: page.description, image: ogImage, datePublished: page.published, dateModified: page.modified, author: { '@id': `${origin}/#founder` }, publisher: { '@id': `${origin}/#organization` }, mainEntityOfPage: { '@id': `${url}#webpage` }, wordCount: page.words, keywords: page.keywords ?? [], inLanguage: 'en', isAccessibleForFree: true });
+    graph.push({ '@type': 'Article', '@id': `${url}#article`, headline: page.title, description: page.description, image: ogImage, datePublished: page.published, dateModified: page.modified, author: { '@id': `${origin}/#founder` }, publisher: { '@id': `${origin}/#organization` }, mainEntityOfPage: { '@id': `${url}#webpage` }, wordCount: page.words, keywords: page.keywords ?? [], inLanguage: 'en-US', isAccessibleForFree: true });
   }
   if (page.itemList) {
     webpage.mainEntity = { '@id': `${url}#list` };
@@ -220,7 +232,7 @@ function layout(page, { noindex = false } = {}) {
   const ogImage = `${origin}/images/og/${page.ogSlug ?? slugFor(page.route)}.jpg`;
   const bodyClass = ['site-body', page.kind === 'article' ? 'is-article' : '', page.route === '/' ? 'is-home' : ''].filter(Boolean).join(' ');
   return `<!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -290,8 +302,27 @@ for (const page of pages) {
 await writeFile('404.html', layout({
   route: '/404.html', kind: 'page', name: 'Page not found', title: 'Page not found | MV.tech Solutions', description: 'The page you requested does not exist. Find MV.tech Solutions services, insights and contact details.',
   published: latest, modified: latest, ogTitle: 'Page not found', ogSlug: 'home',
-  body: `<main id="main-content"><section class="page-hero"><div class="container"><p class="eyebrow">404</p><h1>That page is not here.</h1><p class="lead">The address may have changed. These links cover most of what people look for.</p><div class="action-row"><a class="button-primary" href="/">Go to the homepage ${icon('arrow-right')}</a><a class="button-secondary" href="/services/">Browse services</a></div><div class="proof-links"><a href="/remote-consulting/">How we work across timezones</a><a href="/insights/">Insights</a><a href="/about/">About ${h(site.name)}</a><a href="/contact/">Contact</a></div></div></section></main>`,
+  body: `<main id="main-content"><section class="page-hero"><div class="container"><p class="eyebrow">404</p><h1>That page is not here.</h1><p class="lead">The address may have changed. These links cover most of what people look for.</p><div class="action-row"><a class="button-primary" href="/">Go to the homepage ${icon('arrow-right')}</a><a class="button-secondary" href="/services/">Browse services</a></div><div class="proof-links"><a href="/remote-consulting/">How we work across time zones</a><a href="/insights/">Insights</a><a href="/about/">About ${h(site.name)}</a><a href="/contact/">Contact</a></div></div></section></main>`,
 }, { noindex: true }).replace(`<link rel="canonical" href="${origin}/404.html">\n`, ''));
+
+// Retired routes become small redirect pages, kept out of the sitemap and llms-full.txt.
+for (const [from, to] of Object.entries(site.redirects ?? {})) {
+  if (routes.has(from)) throw new Error(`Redirect source ${from} is still a page`);
+  if (!routes.has(to.split('#')[0])) throw new Error(`Redirect target ${to} for ${from} does not exist`);
+  await mkdir(path.dirname(fileFor(from)), { recursive: true });
+  await writeFile(fileFor(from), `<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>This page has moved | ${h(site.name)}</title>
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="${origin}${to}">
+<meta http-equiv="refresh" content="0; url=${to}">
+</head>
+<body><p>This page has moved to <a href="${to}">${origin}${to}</a>.</p></body>
+</html>
+`);
+}
 
 // Sitemap with accurate modification dates.
 const ordered = [...pages].sort((a, b) => (a.route === '/' ? -1 : b.route === '/' ? 1 : a.route.localeCompare(b.route)));
@@ -308,7 +339,8 @@ Legal entity: ${legalLine(site)} Where the US company is the contracting party, 
 Contact: ${site.email} · Book a call: ${origin}/contact/#book-call
 Founder: ${site.founder.name}, ${site.founder.jobTitle} (${site.founder.sameAs[0]})
 LinkedIn: ${site.linkedin}
-Offices: ${site.offices[0].label}, and ${site.address.locality}, ${site.address.region}, ${site.address.countryName}. The engineering team works from the Ahmedabad office (India GSTIN ${site.gstin}). Serves clients in the USA and worldwide with agreed timezone overlap. Details: ${origin}${site.usCompany.path}
+Offices: ${site.offices.map((office) => `${office.name}: ${officeAddressLines(office).join(', ')}${office.telephone ? ` (${office.telephoneDisplay})` : ''}`).join('; ')}. The engineering team works from the Ahmedabad office (India GSTIN ${site.gstin}). Serves clients in the USA and worldwide with agreed time-zone overlap. Details: ${origin}/contact/#offices
+Privacy and legal: ${origin}/privacy/ · ${origin}/terms/ · ${origin}/accessibility/
 Teams our engineers have worked with: ${site.workedWith.join(', ')}. ${site.workedWithNote}
 Last generated: ${latest}. Short summary and answer guidance: ${origin}/llms.txt
 

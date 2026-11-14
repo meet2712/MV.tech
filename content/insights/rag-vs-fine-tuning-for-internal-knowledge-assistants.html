@@ -26,7 +26,7 @@
 <div class="in-brief">
   <p class="eyebrow">In brief</p>
   <ul>
-    <li>Retrieval-augmented generation (RAG) supplies passages from your documents at question time. Fine-tuning changes the model's weights using examples to improve a measured task or behaviour.</li>
+    <li>Retrieval-augmented generation (RAG) supplies passages from your documents at question time. Fine-tuning changes the model's weights using examples to improve a measured task or behavior.</li>
     <li>Retrieval is a useful starting point when answers need current company knowledge, source references and permission checks. Those features need to be built and tested. Fine-tuning can help with a stable format or repetitive task.</li>
     <li>Whichever you choose, the deciding work is retrieval quality, access control and evaluation against real questions, including the ones the documents cannot answer.</li>
   </ul>
@@ -45,7 +45,7 @@
 <tr><th scope="row">Keeping up with changing content</th><td>Refresh the index, then check that updated passages are retrieved; timing depends on the ingestion schedule</td><td>Updating facts learned in weights requires another training and deployment cycle; a fine-tuned model can also use retrieval</td></tr>
 <tr><th scope="row">Citing sources</th><td>Retrieved passages can support citations, which still need to be checked against the answer</td><td>Fine-tuning alone does not provide source provenance; retrieval or another evidence layer can add it</td></tr>
 <tr><th scope="row">Respecting user permissions</th><td>Enforce source permissions before retrieval and test isolation between users</td><td>Model weights do not enforce document permissions; keep restricted knowledge in an access-controlled retrieval layer</td></tr>
-<tr><th scope="row">Handling questions outside the material</th><td>Test retrieval confidence and a refusal path; retrieval alone does not prevent unsupported answers</td><td>Train and evaluate refusal behaviour; fine-tuning alone does not establish that an answer is supported</td></tr>
+<tr><th scope="row">Handling questions outside the material</th><td>Test retrieval confidence and a refusal path; retrieval alone does not prevent unsupported answers</td><td>Train and evaluate refusal behavior; fine-tuning alone does not establish that an answer is supported</td></tr>
 <tr><th scope="row">Teaching format, tone or a narrow task</th><td>Possible through prompting, with limits</td><td>Strong: this is what fine-tuning is for</td></tr>
 <tr><th scope="row">Upfront cost</th><td>Engineering time for ingestion, retrieval and evaluation</td><td>Preparing representative training and evaluation examples, plus training runs; the amount depends on the task and model</td></tr>
 <tr><th scope="row">Ongoing cost</th><td>Longer prompts per query; index maintenance</td><td>Hosting or serving a custom model; periodic retraining</td></tr>
@@ -56,17 +56,17 @@
   <li>The assistant must answer from documents, policies, tickets or records that change over time.</li>
   <li>Users need to see where an answer came from before they trust it.</li>
   <li>Different users are allowed to see different things, so permissions must be enforced at retrieval time.</li>
-  <li>The content is too large or too varied to summarise into training examples.</li>
+  <li>The content is too large or too varied to summarize into training examples.</li>
 </ul>
 <p>These requirements arise in HR and policy questions, engineering runbooks, customer-support knowledge, and contract and procedure lookups.</p>
 
 <h2>When fine-tuning earns its place</h2>
 <ul>
   <li>A narrow, repetitive task with a stable format: classifying tickets, extracting fields from a known document type, writing in a strict house style.</li>
-  <li>Prompting has been tried and measured, and the remaining error rate is about behaviour rather than missing information.</li>
-  <li>Latency or cost per request matters enough that a smaller, specialised model is worth the maintenance.</li>
+  <li>Prompting has been tried and measured, and the remaining error rate is about behavior rather than missing information.</li>
+  <li>Latency or cost per request matters enough that a smaller, specialized model is worth the maintenance.</li>
 </ul>
-<p>Fine-tuning and RAG are not mutually exclusive. A common mature design uses retrieval for knowledge and a lightly fine-tuned or carefully prompted model for consistent behaviour. Start with retrieval and good prompting; add fine-tuning when you can name the metric it will improve.</p>
+<p>Fine-tuning and RAG are not mutually exclusive. A common mature design uses retrieval for knowledge and a lightly fine-tuned or carefully prompted model for consistent behavior. Start with retrieval and good prompting; add fine-tuning when you can name the metric it will improve.</p>
 
 <h2>The work that actually decides success</h2>
 <h3>Retrieval quality</h3>
@@ -74,7 +74,7 @@
 <h3>Access control</h3>
 <p>Permissions must be enforced in the application before retrieval, using the user's identity and the source system's rules. Instructions written into a prompt are not access control; a determined user can talk a model out of them. This is a design requirement, not a feature to add later.</p>
 <h3>Evaluation with real questions</h3>
-<p>Collect the questions people actually ask, including ones the documents cannot answer, and review the assistant's behaviour on them before widening the audience. Score groundedness (is the answer supported by the retrieved passages?), correctness, and how the assistant behaves when it should decline. Keep the set and re-run it after every change to the index, prompt or model.</p>
+<p>Collect the questions people actually ask, including ones the documents cannot answer, and review the assistant's behavior on them before widening the audience. Score groundedness (is the answer supported by the retrieved passages?), correctness, and how the assistant behaves when it should decline. Keep the set and re-run it after every change to the index, prompt or model.</p>
 <h3>Unanswerable questions</h3>
 <p>A good assistant says "I could not find this in the approved sources" and points to a human. A bad one improvises. Build the decline path deliberately, test it, and make it easy for users to report wrong answers.</p>
 
@@ -84,7 +84,7 @@
 <p>For the underlying approach, see the original <a href="https://arxiv.org/abs/2005.11401" target="_blank" rel="noopener">RAG research paper</a> and <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html" target="_blank" rel="noopener">AWS's guide to retrieval and source citations</a>. Implementation choices still need testing against your own sources and users.</p>
 <h2>Frequently asked questions</h2>
 <div class="faq-list">
-  <details><summary><span>Does fine-tuning make a model "know" our documents?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>A model may learn information during fine-tuning, but reliable recall, updates and source citations are separate requirements. For answers about current documents, retrieval supplies the passages that can support the answer. Fine-tuning can be combined with that retrieval when a measured behaviour or format requirement justifies it.</p></div></details>
+  <details><summary><span>Does fine-tuning make a model "know" our documents?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>A model may learn information during fine-tuning, but reliable recall, updates and source citations are separate requirements. For answers about current documents, retrieval supplies the passages that can support the answer. Fine-tuning can be combined with that retrieval when a measured behavior or format requirement justifies it.</p></div></details>
   <details><summary><span>Will our data be used to train someone else's model?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>It depends on the provider and the contract terms you select. Business and API tiers of the major model providers generally state that customer data is not used for training, but this should be confirmed in writing and reflected in your architecture, including where indexes and logs are stored.</p></div></details>
   <details><summary><span>How much does an internal knowledge assistant cost to run?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>Ongoing costs come from model usage per query, the retrieval infrastructure, and keeping the index current as documents change. For most internal tools these are modest compared with the engineering time to build and evaluate the system properly. Ask for both numbers when comparing proposals.</p></div></details>
 </div>

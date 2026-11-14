@@ -25,11 +25,21 @@ Three names, each with one job, all set in `content/site.json`:
 | --- | --- | --- |
 | `name` | MV.tech Solutions | The company name, written in full everywhere the company is named: copy, page titles, footer, copyright, `og:site_name`, structured-data `name` |
 | `shortName` | MV.tech | Only what the logo artwork reads. It is an alternate name in structured data and the home-screen label in the web manifest, never a name for running text |
-| `legalEntity.name` | BB & KV Inc. | The New York corporation behind the name, shown only where a legal party is needed: structured-data `legalName`, the About company information, the USA vendor details and contract FAQ, the privacy notice and `llms.txt` |
+| `legalEntity.name` | BB & KV Inc. | The New York corporation behind the name, shown only where a legal party is needed: structured-data `legalName`, the About company information, the FAQ, the Privacy Policy, the Terms of Use and `llms.txt` |
 
 MV.tech Solutions is a registered assumed name (DBA), not a separate corporation, so it never carries Inc. or LLC. `npm test` fails if a page says otherwise, if a page uses the short form as the company name (only `/brand/` and `/faq/` may print it, to explain the logo), or if the legal entity appears outside the pages listed above. The legal entity is spelled in `content/site.json` only. Page sources use tokens instead of retyping it: `{{legal.name}}`, `{{legal.form}}`, `{{legal.line}}` (the full sentence), `{{legal.party}}` (the contracting-party form), `{{company.name}}` and `{{company.short}}`. The build fills them and fails on an unknown token. `llms.txt` is hand-maintained, so `npm test` checks that it states the same legal line.
 
-The company has two offices, always listed New York first: New York, USA, and Ahmedabad, India (`offices` in `content/site.json`, which feeds the footer, the social images and the structured-data addresses). The `<!--us-company-note-->` marker renders the shared "Our offices" block from `usCompany`. Both offices are published at city level only. No New York street address or US phone number has been supplied, so none is published, in visible text or structured data; add them to `offices`, `/contact/`, `/about/`, `/us-clients/` and `llms.txt` together when they are. The engineering team works from the Ahmedabad office. The India GSTIN belongs to the India operation and is published as a labelled identifier, never as the US entity's tax ID.
+### Offices
+
+The company has two offices, always listed New York first (`offices` in `content/site.json`). Each office has `streetAddress`, `locality`, `region`, `postalCode`, `country`, `countryCode`, `telephone` and `telephoneDisplay`. Those fields feed the footer address row, the `<!--offices-->` block (on the home, About and Contact pages, with heading and intro from `officesBlock`), the social images, and the structured-data `address`, `location` and `contactPoint`. A street address, ZIP code, phone number and "Get directions" link appear as soon as the fields are filled; until then the office shows city, state and country only. Update the Offices line in `llms.txt` at the same time. The engineering team works from the Ahmedabad office. The India GSTIN belongs to the India operation and is published as a labelled identifier, never as the US entity's tax ID.
+
+### US website basics
+
+`/privacy/` (Privacy Policy), `/terms/` (Terms of Use) and `/accessibility/` (Accessibility statement) are linked from every footer through `legalLinks` in `content/site.json`, and `npm test` fails if one is missing. Each prints a "Last updated" date from `content/page-dates.json` through the `<!--last-updated-->` marker, so the date moves only when the text changes. The Privacy Policy states that Global Privacy Control and Do Not Track signals turn analytics off, and that Google signals and ad personalization are disabled; the analytics loader in `scripts/build.mjs` does both, and `npm test` checks it. Change the code and the policy together. The site is written in US English.
+
+### Retired pages
+
+GitHub Pages cannot send server redirects. A route listed in `redirects` in `content/site.json` (for example `/us-clients/` → `/about/`) is written as a small `noindex` page with an instant refresh and a canonical to the target, which search engines treat as a permanent move. It stays out of the sitemap and `llms-full.txt`.
 
 The name, the legal entity and the offices went live together on 14 November 2026. When any of them changes again, update `content/site.json`, the pages listed above and `llms.txt` in one release, then work through the listings checklist in `docs/seo-maintenance.md` so the same facts appear everywhere search and AI engines read them.
 

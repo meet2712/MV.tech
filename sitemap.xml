@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://mvtech.solutions/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://mvtech.solutions/about/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://mvtech.solutions/accessibility/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://mvtech.solutions/brand/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://mvtech.solutions/compliance/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://mvtech.solutions/contact/</loc><lastmod>2026-11-14</lastmod></url>
@@ -18,6 +19,7 @@
   <url><loc>https://mvtech.solutions/insights/timezone-overlap-with-an-india-based-engineering-team/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://mvtech.solutions/insights/what-a-remote-data-engineering-team-from-india-costs/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://mvtech.solutions/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://mvtech.solutions/privacy/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://mvtech.solutions/process/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://mvtech.solutions/remote-consulting/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://mvtech.solutions/services/</loc><lastmod>2026-11-14</lastmod></url>
@@ -37,5 +39,5 @@
   <url><loc>https://mvtech.solutions/services/technology-recruitment/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://mvtech.solutions/services/workflow-automation/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://mvtech.solutions/solutions/</loc><lastmod>2026-11-14</lastmod></url>
-  <url><loc>https://mvtech.solutions/us-clients/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://mvtech.solutions/terms/</loc><lastmod>2026-11-14</lastmod></url>
 </urlset>

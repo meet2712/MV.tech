@@ -7,7 +7,9 @@ import { contractingParty, legalLine } from './templates.mjs';
 
 const site = JSON.parse(await readFile('content/site.json', 'utf8'));
 const origin = site.origin;
-const files = await publicPages();
+// Retired routes are redirect stubs (content/site.json -> redirects): checked separately, never treated as pages.
+const redirects = site.redirects ?? {};
+const files = (await publicPages()).filter((file) => !(routeFor(file) in redirects));
 // Company-name facts every page and every machine-readable file must agree on (see content/site.json).
 const legal = legalLine(site);
 
@@ -50,7 +52,7 @@ for (const file of files) {
   const url = origin + route;
 
   // Document basics
-  assert.equal(attr(one('html'), 'lang'), 'en', `${file}: html lang must be "en"`);
+  assert.equal(attr(one('html'), 'lang'), 'en-US', `${file}: html lang must be "en-US"`);
   const title = textContent(one('title')).trim();
   const description = attr(one('meta', 'name', 'description'), 'content');
   assert(title && !titles.has(title), `${file}: missing or duplicate <title>`);
@@ -72,9 +74,11 @@ for (const file of files) {
   if (route !== '/') assert(one('nav', 'aria-label', 'Breadcrumb'), `${file}: breadcrumb navigation missing`);
 
   // Company name: written in full everywhere, both offices in every footer, no unfilled tokens, no stale pre-registration wording
-  const footerOffices = textContent(one('p', 'class', 'footer-offices') ?? {});
-  for (const office of site.offices) assert(footerOffices.includes(office.label), `${file}: footer must name the ${office.name}`);
-  assert(footerOffices.indexOf(site.offices[0].label) < footerOffices.indexOf(site.offices[1].label), `${file}: offices are listed New York first`);
+  const footerOffices = textContent(nodes.find((node) => attr(node, 'class') === 'footer-offices') ?? {});
+  for (const office of site.offices) assert(footerOffices.includes(office.name) && footerOffices.includes(office.locality), `${file}: footer must give the ${office.name} address`);
+  assert(footerOffices.indexOf(site.offices[0].name) < footerOffices.indexOf(site.offices[1].name), `${file}: offices are listed New York first`);
+  const footerHrefs = all('a').filter((a) => nodes.some((n) => n.tagName === 'footer' && walk(n).includes(a))).map((a) => attr(a, 'href'));
+  for (const item of site.legalLinks) assert(footerHrefs.includes(item.href), `${file}: footer must link to ${item.label} (${item.href})`);
   // The short form is what the logo artwork reads, not a name for running text. Only the pages that explain that may print it.
   if (!['/brand/', '/faq/'].includes(route)) {
     const visible = html.replace(/<script[\s\S]*?<\/script>/g, '');
@@ -82,9 +86,9 @@ for (const file of files) {
     assert(!bare, `${file}: write the company name in full (${site.name}), found "${bare?.[0]}"`);
   }
   // The legal entity is named only where a legal party is needed, never in the shared page chrome.
-  if (!['/about/', '/us-clients/', '/compliance/', '/faq/'].includes(route)) assert(!textContent(one('main', 'id', 'main-content') ?? {}).includes(site.legalEntity.name) && !textContent(one('footer') ?? {}).includes(site.legalEntity.name), `${file}: ${site.legalEntity.name} belongs on the company, USA, privacy and FAQ pages only`);
+  if (!['/about/', '/faq/', '/privacy/', '/terms/'].includes(route)) assert(!textContent(one('main', 'id', 'main-content') ?? {}).includes(site.legalEntity.name) && !textContent(one('footer') ?? {}).includes(site.legalEntity.name), `${file}: ${site.legalEntity.name} belongs on the company, USA, privacy and FAQ pages only`);
   assert.equal(attr(one('meta', 'property', 'og:site_name'), 'content'), site.name, `${file}: og:site_name must be the company name`);
-  assert(!html.includes('{{'), `${file}: unfilled {{fact}} token`);
+  assert(!html.includes('{{') && !html.includes('<!--last-updated-->'), `${file}: unfilled {{fact}} token or last-updated marker`);
   assert(!/coming soon/i.test(html), `${file}: stale "coming soon" wording about the USA company`);
   assert(!new RegExp(`${site.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')},? (Inc|LLC|Ltd|Corp)\\b`).test(html), `${file}: ${site.name} is a trade name and must not carry Inc/LLC`);
 
@@ -177,6 +181,20 @@ const robots = await readFile('robots.txt', 'utf8');
 assert(robots.includes(`Sitemap: ${origin}/sitemap.xml`), 'robots.txt must reference the sitemap');
 for (const bot of ['GPTBot', 'OAI-SearchBot', 'ClaudeBot', 'Claude-SearchBot', 'PerplexityBot', 'Googlebot', 'bingbot']) assert(robots.includes(bot), `robots.txt should explicitly welcome ${bot}`);
 for (const route of routes) if (!route.startsWith('/insights/') || route === '/insights/') assert(llms.includes(origin + route), `llms.txt should link to ${route}`);
+// US website basics: a privacy policy, website terms and an accessibility statement, each linked from every footer.
+for (const item of site.legalLinks) assert(routes.has(item.href), `Missing legal page ${item.href}`);
+const privacy = await readFile('privacy/index.html', 'utf8');
+for (const phrase of ['Global Privacy Control', 'Do Not Track', 'do not sell personal information', 'Children', 'Changes to this policy', 'Last updated:']) {
+  assert(privacy.includes(phrase), `Privacy Policy must cover "${phrase}"`);
+}
+// Retired routes: each redirect stub points at a live page, is noindex and carries a canonical to its target.
+for (const [from, to] of Object.entries(redirects)) {
+  const stub = await readFile(from.slice(1) + 'index.html', 'utf8');
+  assert(!routes.has(from), `${from} is both a page and a redirect`);
+  assert(routes.has(to.split('#')[0]), `${from} redirects to a missing page ${to}`);
+  assert(stub.includes(`http-equiv="refresh" content="0; url=${to}"`) && stub.includes(`<link rel="canonical" href="${origin}${to}">`) && stub.includes('noindex'), `${from}: redirect stub is incomplete`);
+  assert(!sitemap.includes(`${origin}${from}<`), `${from}: redirect must not be in the sitemap`);
+}
 // The legal entity is disclosed once on the company page, exactly as content/site.json spells it.
 assert((await readFile('about/index.html', 'utf8')).includes(site.legalEntity.name.replace(/&/g, '&amp;')), 'The About page must name the legal entity');
 for (const [name, text] of [['llms.txt', llms], ['llms-full.txt', llmsFull]]) {
