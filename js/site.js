@@ -53,7 +53,7 @@
     toggle();
   }
 
-  // ---- Measurement: intent clicks, not confirmed enquiries -----------------------------------
+  // ---- Measurement: intent clicks, not confirmed inquiries -----------------------------------
   const track = (name, params) => { if (typeof window.gtag === 'function') window.gtag('event', name, { ...params, page_path: window.location.pathname, service: document.body.dataset.service || 'general', transport_type: 'beacon' }); };
   document.addEventListener('click', (event) => {
     const link = event.target.closest('a[href]');
@@ -82,8 +82,8 @@
         calendly.querySelector('.calendly-fallback')?.remove();
         const widget = document.createElement('div');
         widget.className = 'calendly-inline-widget';
-        // Calendly renders on white, so the brand colour here is Teal Ink (the only teal that
-        // passes AA on white) and the text colour is Navy. Signal Teal would be unreadable.
+        // Calendly renders on white, so the brand color here is Teal Ink (the only teal that
+        // passes AA on white) and the text color is Navy. Signal Teal would be unreadable.
         widget.dataset.url = calendly.dataset.url + '?hide_gdpr_banner=1&background_color=ffffff&text_color=071118&primary_color=007e7b';
         widget.style.minWidth = '0';
         widget.style.width = '100%';
@@ -118,7 +118,7 @@
         lines.push(`${label}: ${String(value).trim() || '-'}`);
       }
       const need = (data.get('need') || 'Project').toString();
-      const subject = `${need} enquiry for MV.tech Solutions`;
+      const subject = `${need} inquiry for MV.tech Solutions`;
       const body = lines.join('\n\n') + '\n';
       return { subject, body, href: `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}` };
     };

@@ -20,7 +20,22 @@ test('production analytics runs only on the public website hosts', () => {
     if (production) {
       assert.equal(context.dataLayer[1][0], 'config');
       assert.equal(context.dataLayer[1][1], 'G-YRM2SJ2EMP');
+      // The Privacy Policy says Google signals and ad personalization are off; keep the code honest.
+      assert.equal(context.dataLayer[1][2]?.allow_google_signals, false);
+      assert.equal(context.dataLayer[1][2]?.allow_ad_personalization_signals, false);
     }
+  }
+});
+
+test('Global Privacy Control and Do Not Track keep analytics off', () => {
+  for (const navigator of [{ globalPrivacyControl: true }, { doNotTrack: '1' }, { globalPrivacyControl: false, doNotTrack: '0' }]) {
+    const scripts = [];
+    const context = { navigator, location: { hostname: 'mvtech.solutions' }, document: { createElement: () => ({}), head: { appendChild: (script) => scripts.push(script) } } };
+    context.window = context;
+    vm.runInNewContext(analytics, context);
+    const optedOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';
+    assert.equal(scripts.length, optedOut ? 0 : 1, JSON.stringify(navigator));
+    assert.equal(typeof context.gtag, optedOut ? 'undefined' : 'function', JSON.stringify(navigator));
   }
 });
 

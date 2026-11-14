@@ -4,7 +4,7 @@
     "key": "data-engineering",
     "name": "Data Engineering Consulting",
     "title": "Data Engineering & ETL Development Services | MV.tech Solutions",
-    "description": "Data integration, ETL pipelines, cloud warehouses, modelling and data quality services from MV.tech Solutions for reporting, analytics and applications.",
+    "description": "Data integration, ETL pipelines, cloud warehouses, modeling and data quality services from MV.tech Solutions for reporting, analytics and applications.",
     "intro": "Build the data foundation behind reporting, analytics and business applications. MV.tech Solutions designs data pipelines, cloud warehouses and transformation layers that bring information from your systems into a consistent, maintainable platform. We also improve existing pipelines, models and reporting workflows.",
     "fitHeading": "Bring your business data into one working platform.",
     "fit": [
@@ -32,7 +32,7 @@
       }
     ],
     "scopeHeading": "An engagement can cover a new platform or a specific data problem.",
-    "scope": "We review the sources, consumers and reporting requirements, then agree the architecture and delivery plan. An initial workstream might connect a business application to the warehouse, rebuild an unreliable pipeline or deliver a reporting model. Larger programmes can include staged migration, additional sources and ongoing platform development.",
+    "scope": "We review the sources, consumers and reporting requirements, then agree the architecture and delivery plan. An initial workstream might connect a business application to the warehouse, rebuild an unreliable pipeline or deliver a reporting model. Larger programs can include staged migration, additional sources and ongoing platform development.",
     "approach": [
       {
         "title": "Assess the data estate",
@@ -54,7 +54,7 @@
       "Snowflake",
       "Amazon Redshift",
       "PostgreSQL",
-      "layered SQL modelling",
+      "layered SQL modeling",
       "Azure Data Factory",
       "Power BI",
       "Tableau",
@@ -84,7 +84,7 @@
       },
       {
         "question": "What should we share before the first call?",
-        "answer": "Share the report or workflow you want to improve, the source systems, approximate data volumes, current tools and required refresh frequency. A description or sanitised example is enough for an initial conversation; credentials are not needed in an enquiry."
+        "answer": "Share the report or workflow you want to improve, the source systems, approximate data volumes, current tools and required refresh frequency. A description or sanitized example is enough for an initial conversation; credentials are not needed in an inquiry."
       },
       {
         "question": "How do we migrate spreadsheet reporting to a data warehouse without losing trust in the numbers?",
@@ -110,9 +110,9 @@
       {
         "href": "/insights/timezone-overlap-with-an-india-based-engineering-team/",
         "kicker": "Remote delivery",
-        "title": "Working with an India-based team across timezones",
+        "title": "Working with an India-based team across time zones",
         "text": "Realistic overlap windows and the async habits that keep distributed work moving.",
-        "label": "Timezone guide"
+        "label": "Time zone guide"
       }
     ],
     "summary": "Build the data foundation behind reporting, analytics and business applications.",
@@ -158,7 +158,7 @@
     "fitHeading": "Build capacity around the work you need delivered.",
     "fit": [
       "Develop a data platform while your internal team continues supporting the business.",
-      "Bring engineering, modelling and reporting skills together for a migration or analytics programme.",
+      "Bring engineering, modeling and reporting skills together for a migration or analytics program.",
       "Keep ownership of priorities while adding delivery capacity for an agreed duration."
     ],
     "deliverablesHeading": "A team that can work across the data lifecycle.",
@@ -173,7 +173,7 @@
       },
       {
         "title": "BI and data quality",
-        "text": "Add dashboard, semantic modelling and reconciliation expertise alongside the engineers building the data platform."
+        "text": "Add dashboard, semantic modeling and reconciliation expertise alongside the engineers building the data platform."
       },
       {
         "title": "Team integration and continuity",
@@ -211,12 +211,12 @@
       "AWS",
       "Google Cloud",
       "REST APIs",
-      "layered SQL modelling"
+      "layered SQL modeling"
     ],
     "questions": [
       {
         "question": "Is MV.tech Solutions a data consultancy company for an offshore team?",
-        "answer": "Yes. MV.tech Solutions is a data, software and AI consultancy with offices in New York, USA, and Ahmedabad, India. For offshore data work, we provide senior remote data engineering and analytics capacity for ETL, cloud warehouses, BI, data quality and reporting, with overlap hours agreed around the client's timezone."
+        "answer": "Yes. MV.tech Solutions is a data, software and AI consultancy with offices in New York, USA, and Ahmedabad, India. For offshore data work, we provide senior remote data engineering and analytics capacity for ETL, cloud warehouses, BI, data quality and reporting, with overlap hours agreed around the client's time zone."
       },
       {
         "question": "How is this different from generic offshore staffing?",
@@ -232,7 +232,7 @@
       },
       {
         "question": "What should we share before asking for an offshore data team?",
-        "answer": "Share the reporting or data problem, source systems, target warehouse or BI tools, desired timeline, timezone and any constraints around security or access. A sanitised example is enough for an initial call; credentials are not needed for an enquiry."
+        "answer": "Share the reporting or data problem, source systems, target warehouse or BI tools, desired timeline, time zone and any constraints around security or access. A sanitized example is enough for an initial call; credentials are not needed for an inquiry."
       },
       {
         "question": "How much does an offshore data engineering team in India cost?",
@@ -263,9 +263,9 @@
       {
         "href": "/insights/timezone-overlap-with-an-india-based-engineering-team/",
         "kicker": "Remote delivery",
-        "title": "Working with an India-based team across timezones",
+        "title": "Working with an India-based team across time zones",
         "text": "Realistic overlap windows and habits that keep distributed engineering work moving.",
-        "label": "Timezone guide"
+        "label": "Time zone guide"
       }
     ],
     "summary": "Extend your delivery capacity with data engineers and analytics specialists from India.",
@@ -278,7 +278,7 @@
     ],
     "applications": [
       {
-        "title": "Warehouse modernisation",
+        "title": "Warehouse modernization",
         "text": "A delivery team for source discovery, migration, model development and report transition."
       },
       {
@@ -287,7 +287,7 @@
       },
       {
         "title": "Reporting expansion",
-        "text": "Engineers and BI specialists working together on a new business domain or reporting programme."
+        "text": "Engineers and BI specialists working together on a new business domain or reporting program."
       }
     ],
     "approachHeading": "How we deliver this work.",
@@ -305,7 +305,7 @@
     "fitHeading": "Put AI to work where it has a clear business purpose.",
     "fit": [
       "Help employees find answers in approved company documents and business information.",
-      "Extract and organise information from documents that currently need manual review.",
+      "Extract and organize information from documents that currently need manual review.",
       "Add an assistant or an AI-driven step to a product, internal application or reporting workflow."
     ],
     "deliverablesHeading": "AI services from use-case selection to application integration.",
@@ -320,7 +320,7 @@
       },
       {
         "title": "Document processing and workflow automation",
-        "text": "Use models to extract, classify or summarise information from documents and business inputs. Add validation and review steps where incorrect output could affect downstream work."
+        "text": "Use models to extract, classify or summarize information from documents and business inputs. Add validation and review steps where incorrect output could affect downstream work."
       },
       {
         "title": "AI application and model integration",
@@ -365,7 +365,7 @@
       },
       {
         "question": "What is MCP development?",
-        "answer": "Model Context Protocol (MCP) provides a shared interface for AI applications to connect to tools and data. We build MCP servers in Python around your approved APIs or systems, define the tools and resources they expose, handle authorisation with OAuth and managed secrets, and test them with the intended compatible clients. Access permissions and approval requirements remain part of the application design."
+        "answer": "Model Context Protocol (MCP) provides a shared interface for AI applications to connect to tools and data. We build MCP servers in Python around your approved APIs or systems, define the tools and resources they expose, handle authorization with OAuth and managed secrets, and test them with the intended compatible clients. Access permissions and approval requirements remain part of the application design."
       },
       {
         "question": "Can an AI agent query our databases safely?",
@@ -377,7 +377,7 @@
       },
       {
         "question": "Can the assistant respect different user permissions?",
-        "answer": "Role-aware access can be part of the scope. The design must enforce authorisation before protected data is retrieved or an action is performed; instructions written into a prompt are not a substitute for application access controls."
+        "answer": "Role-aware access can be part of the scope. The design must enforce authorization before protected data is retrieved or an action is performed; instructions written into a prompt are not a substitute for application access controls."
       },
       {
         "question": "What determines the cost of an AI assistant?",
@@ -444,7 +444,7 @@
     "name": "MCP Servers & AI Connectors",
     "title": "MCP Server Development & Custom AI Integrations | MV.tech Solutions",
     "description": "Connect AI assistants to databases, business APIs and internal tools with custom MCP servers and connectors, including permissions, testing and deployment.",
-    "intro": "Connect AI assistants to the systems your business already uses. MV.tech Solutions develops Model Context Protocol servers and custom connectors for databases, APIs and internal tools. Your team gets a maintained integration with defined permissions, clear tool behaviour and a record of how it is used.",
+    "intro": "Connect AI assistants to the systems your business already uses. MV.tech Solutions develops Model Context Protocol servers and custom connectors for databases, APIs and internal tools. Your team gets a maintained integration with defined permissions, clear tool behavior and a record of how it is used.",
     "fitHeading": "Give assistants a practical route to business systems.",
     "fit": [
       "Connect an AI platform to an application that has no suitable ready-made connector.",
@@ -459,7 +459,7 @@
       },
       {
         "title": "Database and API connectors",
-        "text": "Connect approved warehouse views, operational data, REST APIs and internal applications. Translate source-system behaviour into tools an assistant can use within the agreed scope."
+        "text": "Connect approved warehouse views, operational data, REST APIs and internal applications. Translate source-system behavior into tools an assistant can use within the agreed scope."
       },
       {
         "title": "Identity and access integration",
@@ -511,7 +511,7 @@
       },
       {
         "question": "How is this different from your AI automation and RAG service?",
-        "answer": "The AI automation, RAG and MCP development page covers the assistant itself: knowledge sources, retrieval, model behaviour and the user-facing workflow. This page covers the layer underneath it — the servers and connectors that give agents governed access to live systems. Many projects need both and they are often scoped together. If you are not sure which one you are asking for, describe the workflow and we will say."
+        "answer": "The AI automation, RAG and MCP development page covers the assistant itself: knowledge sources, retrieval, model behavior and the user-facing workflow. This page covers the layer underneath it — the servers and connectors that give agents governed access to live systems. Many projects need both and they are often scoped together. If you are not sure which one you are asking for, describe the workflow and we will say."
       },
       {
         "question": "Can an agent be allowed to write data, not just read it?",
@@ -519,7 +519,7 @@
       },
       {
         "question": "Which AI platforms can use what you build?",
-        "answer": "Any MCP-compatible client, which now covers the major assistant and IDE products, plus platform-specific connectors and plugins where an organisation has standardised on one vendor. We test against the clients you actually use, because a tool description that works well in one client can be read differently in another."
+        "answer": "Any MCP-compatible client, which now covers the major assistant and IDE products, plus platform-specific connectors and plugins where an organization has standardized on one vendor. We test against the clients you actually use, because a tool description that works well in one client can be read differently in another."
       },
       {
         "question": "How do you stop prompt injection turning a tool into a problem?",
@@ -608,7 +608,7 @@
         "text": "Work with business owners to define calculations, reporting periods, filters and the decisions each report supports. Review existing reports and identify the sources and rules they depend on."
       },
       {
-        "title": "Data and semantic modelling",
+        "title": "Data and semantic modeling",
         "text": "Build fact and dimension models, curated reporting views and reusable measures. Define relationships and access rules so reports can share a consistent data foundation."
       },
       {
@@ -646,7 +646,7 @@
       "Tabular Editor",
       "DAX Studio",
       "Salesforce CRM Analytics",
-      "Dimensional modelling",
+      "Dimensional modeling",
       "Semantic models",
       "SQL",
       "BigQuery",
@@ -657,7 +657,7 @@
     "questions": [
       {
         "question": "Can you work with our existing Power BI model instead of rebuilding it?",
-        "answer": "Usually yes, and that is where we prefer to start. A review covers grain, relationships, calculated columns, duplicated measures, storage mode and refresh behaviour, and produces a written list of what to fix in place and what genuinely needs rebuilding. A rebuild is something we have to justify, not a starting assumption."
+        "answer": "Usually yes, and that is where we prefer to start. A review covers grain, relationships, calculated columns, duplicated measures, storage mode and refresh behavior, and produces a written list of what to fix in place and what genuinely needs rebuilding. A rebuild is something we have to justify, not a starting assumption."
       },
       {
         "question": "What is a semantic model and why does it matter?",
@@ -669,7 +669,7 @@
       },
       {
         "question": "Which BI tool should we use?",
-        "answer": "Whichever one your team will maintain. Power BI suits organisations already in Microsoft 365 that need a governed semantic layer; Tableau suits heavy visual exploration; Looker Studio is reasonable for lighter reporting over Google Cloud data; Streamlit fits when the output is really an interactive Python tool. We would rather improve the tool you have than sell you a migration."
+        "answer": "Whichever one your team will maintain. Power BI suits organizations already in Microsoft 365 that need a governed semantic layer; Tableau suits heavy visual exploration; Looker Studio is reasonable for lighter reporting over Google Cloud data; Streamlit fits when the output is really an interactive Python tool. We would rather improve the tool you have than sell you a migration."
       },
       {
         "question": "Do we need a data warehouse before we can do BI properly?",
@@ -681,7 +681,7 @@
       },
       {
         "question": "How much does a Power BI consultant cost?",
-        "answer": "We quote after a scoping call. A useful first project is one dashboard rebuilt on an agreed grain and reconciled against the figures people already trust, and further dashboards and a wider semantic layer are scoped once that first one is agreed. Our engineering team works remotely from Ahmedabad, India, with working hours planned around your timezone and a lean model that avoids large-consultancy overhead."
+        "answer": "We quote after a scoping call. A useful first project is one dashboard rebuilt on an agreed grain and reconciled against the figures people already trust, and further dashboards and a wider semantic layer are scoped once that first one is agreed. Our engineering team works remotely from Ahmedabad, India, with working hours planned around your time zone and a lean model that avoids large-consultancy overhead."
       }
     ],
     "summary": "Give business teams a consistent view of performance.",
@@ -741,10 +741,10 @@
     "path": "/services/data-warehouse-migration/",
     "key": "data-warehouse-migration",
     "name": "Data Warehouse Migration",
-    "title": "Data Warehouse Migration & Modernisation | MV.tech Solutions",
+    "title": "Data Warehouse Migration & Modernization | MV.tech Solutions",
     "description": "Migrate legacy databases and spreadsheet reporting to Snowflake, BigQuery or Redshift with discovery, source mapping, reconciliation and report transition.",
-    "intro": "Move reporting and analytics to a cloud platform with a planned transition. MV.tech Solutions migrates legacy databases, warehouse workloads and spreadsheet-based reporting to Snowflake, BigQuery or Redshift. The work covers discovery, data modelling, reconciliation and the reports that depend on the old system.",
-    "fitHeading": "Modernise the platform without losing track of the business rules.",
+    "intro": "Move reporting and analytics to a cloud platform with a planned transition. MV.tech Solutions migrates legacy databases, warehouse workloads and spreadsheet-based reporting to Snowflake, BigQuery or Redshift. The work covers discovery, data modeling, reconciliation and the reports that depend on the old system.",
+    "fitHeading": "Modernize the platform without losing track of the business rules.",
     "fit": [
       "Move away from a warehouse that is difficult to maintain, expand or integrate.",
       "Bring reporting logic out of spreadsheets and undocumented legacy processes.",
@@ -758,7 +758,7 @@
       },
       {
         "title": "Target architecture and data mapping",
-        "text": "Design the target warehouse layers and access model. Document source-to-target mappings, keys, data types and transformation rules, including any intentional changes to existing behaviour."
+        "text": "Design the target warehouse layers and access model. Document source-to-target mappings, keys, data types and transformation rules, including any intentional changes to existing behavior."
       },
       {
         "title": "Migration pipelines and validation",
@@ -795,7 +795,7 @@
       "PostgreSQL",
       "Azure Synapse",
       "Azure Data Factory",
-      "layered SQL modelling",
+      "layered SQL modeling",
       "Matillion",
       "Pentaho",
       "Python",
@@ -818,7 +818,7 @@
       },
       {
         "question": "Should we lift and shift, or redesign?",
-        "answer": "Usually a mix, decided per domain. Lifting and shifting is faster and keeps reconciliation simple, but it carries forward the modelling problems and often the cost profile. Redesigning is right where the grain is wrong, where legacy logic is unmaintainable, or where query patterns will change on the new platform. Discovery is what tells you which objects belong in which category."
+        "answer": "Usually a mix, decided per domain. Lifting and shifting is faster and keeps reconciliation simple, but it carries forward the modeling problems and often the cost profile. Redesigning is right where the grain is wrong, where legacy logic is unmaintainable, or where query patterns will change on the new platform. Discovery is what tells you which objects belong in which category."
       },
       {
         "question": "Our reporting lives in spreadsheets rather than a database. Is that still a migration?",
@@ -830,7 +830,7 @@
       },
       {
         "question": "Can a remote team in India run our warehouse migration?",
-        "answer": "Yes. MV.tech Solutions has offices in New York and Ahmedabad, and our remote-first data engineering team works from India in hours planned around your timezone. The migration runs on written work both sides can review: a source-to-target mapping that both sides sign off, automated reconciliation results at every stage, and written sign-off per domain before legacy objects are retired. Handover includes the mappings, ER diagrams, validation results, schedules, ownership and operating runbooks."
+        "answer": "Yes. MV.tech Solutions has offices in New York and Ahmedabad, and our remote-first data engineering team works from India in hours planned around your time zone. The migration runs on written work both sides can review: a source-to-target mapping that both sides sign off, automated reconciliation results at every stage, and written sign-off per domain before legacy objects are retired. Handover includes the mappings, ER diagrams, validation results, schedules, ownership and operating runbooks."
       }
     ],
     "summary": "Move reporting and analytics to a cloud platform with a planned transition.",
@@ -841,7 +841,7 @@
       "business-intelligence",
       "offshore-data-engineering-team"
     ],
-    "h1": "Data warehouse migration and modernisation services.",
+    "h1": "Data warehouse migration and modernization services.",
     "questionsHeading": "Questions about migrating to Snowflake, BigQuery or Redshift",
     "relatedResources": [
       {
@@ -877,7 +877,7 @@
       },
       {
         "title": "Cloud platform consolidation",
-        "text": "Bring fragmented reporting sources into a common architecture with consistent modelling and ownership."
+        "text": "Bring fragmented reporting sources into a common architecture with consistent modeling and ownership."
       }
     ],
     "eyebrow": "MV.tech Solutions services",
@@ -892,7 +892,7 @@
     "name": "Blockchain & On-Chain Data Analytics",
     "title": "Blockchain Data Engineering & On-Chain Analytics | MV.tech Solutions",
     "description": "Multi-chain transaction pipelines, event decoding, wallet analytics and reconciliation datasets for blockchain reporting and business analysis.",
-    "intro": "Turn blockchain activity into data your analysts and finance teams can work with. MV.tech Solutions builds pipelines that collect, decode and organise transactions across networks, then connect the results to warehouses, dashboards and reconciliation workflows.",
+    "intro": "Turn blockchain activity into data your analysts and finance teams can work with. MV.tech Solutions builds pipelines that collect, decode and organize transactions across networks, then connect the results to warehouses, dashboards and reconciliation workflows.",
     "fitHeading": "Connect on-chain activity to business reporting.",
     "fit": [
       "Bring wallet and transaction activity from multiple networks into a common reporting model.",
@@ -906,8 +906,8 @@
         "text": "Collect transactions, logs and events from node RPCs, APIs and available datasets. Define block ranges, incremental loading, backfills and source-specific handling for the networks in scope."
       },
       {
-        "title": "Decoding and normalisation",
-        "text": "Decode supported contract events using ABIs and Web3.py. Standardise identifiers, wallet activity and transaction categories while retaining raw records for investigation."
+        "title": "Decoding and normalization",
+        "text": "Decode supported contract events using ABIs and Web3.py. Standardize identifiers, wallet activity and transaction categories while retaining raw records for investigation."
       },
       {
         "title": "Valuation and reconciliation datasets",
@@ -957,7 +957,7 @@
     "questions": [
       {
         "question": "Why not just use a public chain dataset?",
-        "answer": "Public datasets are a reasonable starting point for common chains and standard token transfers. They tend to fall short on newer or smaller networks, on contracts whose events are not standard, and on the business layer: your token registry, your categorisation rules, your reporting currency and your reconciliation against internal records. We use public datasets where they fit and build ingestion where they do not."
+        "answer": "Public datasets are a reasonable starting point for common chains and standard token transfers. They tend to fall short on newer or smaller networks, on contracts whose events are not standard, and on the business layer: your token registry, your categorization rules, your reporting currency and your reconciliation against internal records. We use public datasets where they fit and build ingestion where they do not."
       },
       {
         "question": "How do you handle a contract with no published ABI?",
@@ -973,11 +973,11 @@
       },
       {
         "question": "Can this feed our existing warehouse and dashboards?",
-        "answer": "Yes. On-chain data is just another source: it lands in the same layered warehouse, under the same validation and modelling standards, and is read by Power BI, Looker Studio, Tableau or a Streamlit tool alongside everything else. Teams usually want it joined to off-chain records — customers, internal accounts, fiat movements — and that join is where most of the analytical value appears."
+        "answer": "Yes. On-chain data is just another source: it lands in the same layered warehouse, under the same validation and modeling standards, and is read by Power BI, Looker Studio, Tableau or a Streamlit tool alongside everything else. Teams usually want it joined to off-chain records — customers, internal accounts, fiat movements — and that join is where most of the analytical value appears."
       },
       {
         "question": "How much does blockchain data analytics consulting cost?",
-        "answer": "We quote after a scoping call, once the networks, contracts and wallets in scope, the reporting currency and period, and the figures the output has to reconcile against are agreed. A useful first project is a single chain and one business question built the whole way through, from ingestion and decoding to a reconciled output. Our remote-first engineering team is based in Ahmedabad, India, with working hours planned around your timezone and a lean model that avoids large-consultancy overhead."
+        "answer": "We quote after a scoping call, once the networks, contracts and wallets in scope, the reporting currency and period, and the figures the output has to reconcile against are agreed. A useful first project is a single chain and one business question built the whole way through, from ingestion and decoding to a reconciled output. Our remote-first engineering team is based in Ahmedabad, India, with working hours planned around your time zone and a lean model that avoids large-consultancy overhead."
       },
       {
         "question": "How do you reconcile staking rewards against on-chain and internal records?",
@@ -1080,7 +1080,7 @@
     "questions": [
       {
         "question": "Can you automate a workflow across several tools?",
-        "answer": "Yes, when the tools provide suitable authorised access. We review available APIs, webhooks, exports and authentication before estimating the integration. Source limits and downstream permissions shape what can be automated reliably."
+        "answer": "Yes, when the tools provide suitable authorized access. We review available APIs, webhooks, exports and authentication before estimating the integration. Source limits and downstream permissions shape what can be automated reliably."
       },
       {
         "question": "Does every automation need AI?",
@@ -1115,7 +1115,7 @@
     "questionsHeading": "Common questions about workflow automation consulting",
     "applications": [
       {
-        "title": "Business data synchronisation",
+        "title": "Business data synchronization",
         "text": "Move approved records between operational applications and reporting systems."
       },
       {
@@ -1162,7 +1162,7 @@
       },
       {
         "title": "Testing, deployment and application support",
-        "text": "Test the agreed user journeys, permissions and integration behaviour. Set up reviewable deployments, document the application and agree its maintenance and support requirements."
+        "text": "Test the agreed user journeys, permissions and integration behavior. Set up reviewable deployments, document the application and agree its maintenance and support requirements."
       }
     ],
     "scopeHeading": "Plan the application around users and release priorities.",
@@ -1210,11 +1210,11 @@
       },
       {
         "question": "Can remote developers overlap our working hours?",
-        "answer": "Yes. MV.tech Solutions is remote-first and can plan overlap with teams in any timezone. We agree recurring collaboration windows for reviews and releases, supported by written updates between meetings."
+        "answer": "Yes. MV.tech Solutions is remote-first and can plan overlap with teams in any time zone. We agree recurring collaboration windows for reviews and releases, supported by written updates between meetings."
       },
       {
         "question": "What does it cost to hire remote developers from India?",
-        "answer": "We quote after a scoping call. Our remote-first engineering team is based in Ahmedabad, India, with a lean model that avoids large-consultancy overhead, and working hours are planned around your timezone. The figure depends on user journeys, roles, integrations, data migration, testing and release requirements, so we scope an initial milestone and clarify assumptions before treating a feature list as a delivery commitment."
+        "answer": "We quote after a scoping call. Our remote-first engineering team is based in Ahmedabad, India, with a lean model that avoids large-consultancy overhead, and working hours are planned around your time zone. The figure depends on user journeys, roles, integrations, data migration, testing and release requirements, so we scope an initial milestone and clarify assumptions before treating a feature list as a delivery commitment."
       },
       {
         "question": "Can you build a Streamlit dashboard on top of our data warehouse?",
@@ -1242,7 +1242,7 @@
       },
       {
         "title": "Data applications",
-        "text": "Streamlit or custom web interfaces for teams that need to search, analyse and act on warehouse data."
+        "text": "Streamlit or custom web interfaces for teams that need to search, analyze and act on warehouse data."
       }
     ],
     "eyebrow": "MV.tech Solutions services",
@@ -1256,7 +1256,7 @@
     "key": "it-staff-augmentation",
     "name": "IT Staff Augmentation",
     "title": "IT Staff Augmentation, Dedicated Engineering Teams | MV.tech Solutions",
-    "description": "Add data, software, AI and cloud specialists to your delivery team. Discuss assigned roles, capacity, responsibilities, duration and timezone collaboration.",
+    "description": "Add data, software, AI and cloud specialists to your delivery team. Discuss assigned roles, capacity, responsibilities, duration and time zone collaboration.",
     "intro": "Add the technical skills your team needs without opening every role as a permanent hire. MV.tech Solutions provides data, software, AI and cloud specialists who work within your delivery process. Agree the responsibilities, capacity and duration, then collaborate directly with the people assigned to the work.",
     "callLabel": "Discuss your team needs",
     "enquiryFields": [
@@ -1264,7 +1264,7 @@
       "Workstream or project",
       "Expected duration and capacity",
       "Preferred start date",
-      "Timezone and required overlap",
+      "Time zone and required overlap",
       "Budget range (optional)"
     ],
     "closingHeading": "Discuss the skills your team needs.",
@@ -1279,7 +1279,7 @@
     "deliverables": [
       {
         "title": "Data and analytics specialists",
-        "text": "Data engineers, analytics engineers, BI developers and semantic modelling specialists for pipelines, warehouses, reporting and reconciliation work."
+        "text": "Data engineers, analytics engineers, BI developers and semantic modeling specialists for pipelines, warehouses, reporting and reconciliation work."
       },
       {
         "title": "Software, AI and integration engineers",
@@ -1315,7 +1315,7 @@
       "AI and MCP developers",
       "Data engineers",
       "Analytics engineers",
-      "BI and semantic modelling specialists",
+      "BI and semantic modeling specialists",
       "Software developers",
       "Cloud consultants",
       "Automation specialists",
@@ -1332,20 +1332,20 @@
         "answer": "We can discuss a multi-role team around your workstream. Team composition, allocated capacity, start dates and availability are confirmed during scoping; the website does not imply that every role is immediately available."
       },
       {
-        "question": "Can consultants overlap our timezone?",
-        "answer": "Yes. We can plan overlap with clients in any timezone. Share the working hours you need and any release requirements so collaboration windows can be agreed. This does not imply round-the-clock support."
+        "question": "Can consultants overlap our time zone?",
+        "answer": "Yes. We can plan overlap with clients in any time zone. Share the working hours you need and any release requirements so collaboration windows can be agreed. This does not imply round-the-clock support."
       },
       {
         "question": "Do you also recruit permanent employees?",
-        "answer": "Yes. MV.tech Solutions also offers technology recruitment for permanent roles within a client's organisation. Recruitment and consultant staffing are separate engagements with their own scope and commercial terms."
+        "answer": "Yes. MV.tech Solutions also offers technology recruitment for permanent roles within a client's organization. Recruitment and consultant staffing are separate engagements with their own scope and commercial terms."
       },
       {
         "question": "How much does data engineering staff augmentation cost?",
-        "answer": "We quote after a scoping call rather than publishing a fixed hourly rate. Commercial terms are agreed per engagement once the role, allocated capacity, duration and timezone overlap are defined. Our remote-first engineering team is based in Ahmedabad, India, with a lean model that avoids large-consultancy overhead. You can include a budget range in your enquiry if you have one."
+        "answer": "We quote after a scoping call rather than publishing a fixed hourly rate. Commercial terms are agreed per engagement once the role, allocated capacity, duration and time zone overlap are defined. Our remote-first engineering team is based in Ahmedabad, India, with a lean model that avoids large-consultancy overhead. You can include a budget range in your inquiry if you have one."
       },
       {
         "question": "How do we hire a remote data engineer in India through MV.tech Solutions?",
-        "answer": "Share the role, required skills, workstream, expected duration and capacity, preferred start date and the timezone overlap you need. We review fit, availability and commercial terms before confirming a consultant, then onboard them with agreed access, initial tasks, acceptance criteria and documentation. Our engineers are remote-first and based in Ahmedabad, India, with working hours planned around your timezone."
+        "answer": "Share the role, required skills, workstream, expected duration and capacity, preferred start date and the time zone overlap you need. We review fit, availability and commercial terms before confirming a consultant, then onboard them with agreed access, initial tasks, acceptance criteria and documentation. Our engineers are remote-first and based in Ahmedabad, India, with working hours planned around your time zone."
       }
     ],
     "relatedResourcesHeading": "Resources for choosing an engagement model.",
@@ -1360,9 +1360,9 @@
       {
         "href": "/insights/timezone-overlap-with-an-india-based-engineering-team/",
         "kicker": "Remote delivery",
-        "title": "Working with an India-based team across timezones",
+        "title": "Working with an India-based team across time zones",
         "text": "Realistic overlap windows and the async habits that keep distributed work moving.",
-        "label": "Timezone guide"
+        "label": "Time zone guide"
       },
       {
         "href": "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
@@ -1385,7 +1385,7 @@
     "applications": [
       {
         "title": "Additional delivery capacity",
-        "text": "Engineers working alongside your developers on an agreed backlog or programme."
+        "text": "Engineers working alongside your developers on an agreed backlog or program."
       },
       {
         "title": "A specialist project phase",
@@ -1439,7 +1439,7 @@
       },
       {
         "title": "Interview coordination and decision support",
-        "text": "Coordinate interviews and feedback, clarify candidate questions and support the offer process. Your organisation makes the selection and employs the successful candidate."
+        "text": "Coordinate interviews and feedback, clarify candidate questions and support the offer process. Your organization makes the selection and employs the successful candidate."
       }
     ],
     "scopeHeading": "Agree the search around the role you need to fill.",
@@ -1470,7 +1470,7 @@
     "questions": [
       {
         "question": "How does permanent recruitment differ from staff augmentation?",
-        "answer": "Permanent recruitment helps you hire an employee into your own organisation. Staff augmentation supplies consultants to work within your team for an agreed engagement. MV.tech Solutions offers both, and we clarify which arrangement you need before discussing candidates or consultants."
+        "answer": "Permanent recruitment helps you hire an employee into your own organization. Staff augmentation supplies consultants to work within your team for an agreed engagement. MV.tech Solutions offers both, and we clarify which arrangement you need before discussing candidates or consultants."
       },
       {
         "question": "Which technology roles can we discuss?",
@@ -1486,11 +1486,11 @@
       },
       {
         "question": "Should we hire a permanent data engineer or use an offshore data engineering team in India?",
-        "answer": "Permanent recruitment places an employee in your own organisation, and you agree employment terms directly with the person you select. MV.tech Solutions also provides India-based offshore data engineering teams, with working hours planned around your timezone. We clarify which arrangement you need before discussing candidates or consultants, and our guide comparing staff augmentation, project consulting and recruitment sets out the differences."
+        "answer": "Permanent recruitment places an employee in your own organization, and you agree employment terms directly with the person you select. MV.tech Solutions also provides India-based offshore data engineering teams, with working hours planned around your time zone. We clarify which arrangement you need before discussing candidates or consultants, and our guide comparing staff augmentation, project consulting and recruitment sets out the differences."
       },
       {
         "question": "How do you assess a data engineer's technical fit before our team interviews?",
-        "answer": "An engineer joins the experience and problem-solving discussions, whether the role calls for SQL and warehouse modelling, pipeline engineering, BI and semantic models, or LLM and MCP work. Before the search begins we agree the depth of screening, any assessment and your team's final interview requirements. The hiring brief separates must-have capabilities from skills that can be developed in the role, and shortlist criteria are agreed before sourcing starts."
+        "answer": "An engineer joins the experience and problem-solving discussions, whether the role calls for SQL and warehouse modeling, pipeline engineering, BI and semantic models, or LLM and MCP work. Before the search begins we agree the depth of screening, any assessment and your team's final interview requirements. The hiring brief separates must-have capabilities from skills that can be developed in the role, and shortlist criteria are agreed before sourcing starts."
       }
     ],
     "relatedResourcesHeading": "Clarify the hiring model before the search starts.",
@@ -1512,9 +1512,9 @@
       {
         "href": "/insights/timezone-overlap-with-an-india-based-engineering-team/",
         "kicker": "Remote delivery",
-        "title": "Working with an India-based team across timezones",
+        "title": "Working with an India-based team across time zones",
         "text": "Overlap windows and async practices to define before adding remote capacity or hiring remotely.",
-        "label": "Timezone playbook"
+        "label": "Time zone playbook"
       }
     ],
     "summary": "Hire the technical people your business needs for the long term.",
@@ -1547,11 +1547,11 @@
   {
     "path": "/remote-consulting/",
     "key": "remote-consulting",
-    "name": "How We Work: Remote Team, Timezones & Costs",
+    "name": "How We Work: Remote Team, Time zones & Costs",
     "title": "Remote Engineering Services & Engagement Models | MV.tech Solutions",
     "description": "Work with MV.tech Solutions through project delivery, dedicated engineers or specialist capacity, with responsibilities and collaboration hours agreed.",
-    "intro": "Work with MV.tech Solutions on a defined project, a dedicated engineering team or a specialist role. Our engineering team is based in Ahmedabad, India, and collaborates with clients worldwide. We agree the working model, responsibilities and timezone overlap before delivery begins.",
-    "fitHeading": "Choose how the work fits into your organisation.",
+    "intro": "Work with MV.tech Solutions on a defined project, a dedicated engineering team or a specialist role. Our engineering team is based in Ahmedabad, India, and collaborates with clients worldwide. We agree the working model, responsibilities and time zone overlap before delivery begins.",
+    "fitHeading": "Choose how the work fits into your organization.",
     "fit": [
       "Assign an agreed project scope to a delivery team.",
       "Add a specialist to your existing engineering and business teams.",
@@ -1577,7 +1577,7 @@
       }
     ],
     "scopeHeading": "Confirm the working model before the project starts.",
-    "scope": "We discuss the business requirements, current systems, team setup and preferred working hours. The proposal sets out scope or capacity, responsibilities, review points and commercial terms. Meeting overlap and support coverage are agreed separately; timezone overlap does not mean round-the-clock availability.",
+    "scope": "We discuss the business requirements, current systems, team setup and preferred working hours. The proposal sets out scope or capacity, responsibilities, review points and commercial terms. Meeting overlap and support coverage are agreed separately; time zone overlap does not mean round-the-clock availability.",
     "approach": [
       {
         "title": "Discuss the work",
@@ -1595,7 +1595,7 @@
     "tools": [
       "Worldwide clients",
       "Ahmedabad, India",
-      "Flexible timezone overlap",
+      "Flexible time zone overlap",
       "Senior specialists",
       "Scoped delivery"
     ],
@@ -1605,7 +1605,7 @@
         "answer": "Yes. India Standard Time (UTC+5:30) overlaps every major business region for part of the day. We typically plan 9:00 am to 1:00 pm US Eastern, 7:00 to 10:00 am US Pacific, 9:00 am to 3:30 pm in the UK, 9:00 am to 4:00 pm in Central Europe, most of the business day in the Gulf, and 12:30 to 6:00 pm in eastern Australia. Share your city and required hours and we agree the exact window for the engagement."
       },
       {
-        "question": "Does timezone overlap mean 24/7 support?",
+        "question": "Does time zone overlap mean 24/7 support?",
         "answer": "No. Overlap means agreed working hours for collaboration. Any support coverage, response expectations or release windows need to be defined in the engagement scope."
       },
       {
@@ -1622,7 +1622,7 @@
       },
       {
         "question": "What is the difference between staff augmentation and project consulting?",
-        "answer": "With a scoped project, MV.tech Solutions owns the agreed delivery scope and we agree the milestone, acceptance criteria and handover first. With an embedded specialist, which is the staff augmentation model, your leads direct the consultant workstream and we agree skills, capacity, duration and overlap. If you need a permanent role in your organisation, recruitment is a separate model where you select and employ the candidate."
+        "answer": "With a scoped project, MV.tech Solutions owns the agreed delivery scope and we agree the milestone, acceptance criteria and handover first. With an embedded specialist, which is the staff augmentation model, your leads direct the consultant workstream and we agree skills, capacity, duration and overlap. If you need a permanent role in your organization, recruitment is a separate model where you select and employ the candidate."
       }
     ],
     "relatedResourcesHeading": "Resources for working with a remote team.",
@@ -1630,9 +1630,9 @@
       {
         "href": "/insights/timezone-overlap-with-an-india-based-engineering-team/",
         "kicker": "Remote delivery",
-        "title": "Working with an India-based team across timezones",
+        "title": "Working with an India-based team across time zones",
         "text": "Realistic overlap windows and the async habits that keep distributed work moving.",
-        "label": "Timezone guide"
+        "label": "Time zone guide"
       },
       {
         "href": "/insights/staff-augmentation-vs-project-consulting-vs-recruitment/",
@@ -1652,7 +1652,7 @@
     "summary": "Work with MV.tech Solutions on a defined project, a dedicated engineering team or a specialist role.",
     "h1": "Remote engineering services from India, working with your team.",
     "eyebrow": "Remote engineering services",
-    "ogTitle": "How We Work: Remote Team, Timezones & Costs",
+    "ogTitle": "How We Work: Remote Team, Time zones & Costs",
     "ogKicker": "MV.tech Solutions · Project delivery · Dedicated capacity",
     "comparison": {
       "heading": "Choose the delivery model that fits your team.",
@@ -1667,7 +1667,7 @@
           "Best fit",
           "A defined system or improvement",
           "Capacity in an existing delivery team",
-          "A permanent role in your organisation"
+          "A permanent role in your organization"
         ],
         [
           "Who directs the work",
@@ -1723,12 +1723,12 @@
     "h1": "Hire data engineers for pipelines, warehouses and analytics.",
     "eyebrow": "MV.tech Solutions services",
     "serviceType": "Data engineer hiring: embedded, project or permanent",
-    "intro": "Bring data engineering expertise into your team or put a defined data project in experienced hands. MV.tech Solutions helps businesses engage engineers for integration, cloud warehouses, modelling and reporting. Choose embedded capacity, project delivery or recruitment for a permanent role.",
+    "intro": "Bring data engineering expertise into your team or put a defined data project in experienced hands. MV.tech Solutions helps businesses engage engineers for integration, cloud warehouses, modeling and reporting. Choose embedded capacity, project delivery or recruitment for a permanent role.",
     "fitHeading": "Find the right model for the data work ahead.",
     "fit": [
       "Add a data engineer to your existing backlog and delivery process.",
       "Assign responsibility for a defined pipeline, warehouse or reporting project.",
-      "Recruit a permanent data professional into your organisation."
+      "Recruit a permanent data professional into your organization."
     ],
     "deliverablesHeading": "Data engineering skills matched to your requirement.",
     "deliverables": [
@@ -1790,12 +1790,12 @@
         "answer": "We quote after a scoping call. The figure depends on the role, seniority, allocated capacity, duration and the support expected outside overlap hours, so a number before that conversation would be a guess. The MV.tech Solutions remote model keeps office and account-management overhead out of the price, and we ask you to compare proposals on the same scope, seniority and support expectations."
       },
       {
-        "question": "Can a remote team in India work in our timezone?",
+        "question": "Can a remote team in India work in our time zone?",
         "answer": "Yes. India Standard Time overlaps every major business region for part of the day, and we agree the window in your local time before the engineer starts. Typical windows are 9:00 am to 1:00 pm US Eastern, 7:00 to 10:00 am US Pacific, 9:00 am to 3:30 pm in the UK, 9:00 am to 4:00 pm in Central Europe, most of the day in the Gulf and 12:30 to 6:00 pm in eastern Australia. Overlap does not mean round-the-clock support; any out-of-hours coverage is written into the scope separately."
       },
       {
         "question": "Can we hire a fractional or part-time data engineer?",
-        "answer": "Yes. A fractional arrangement of a few days a week suits a small team that needs senior judgement on pipelines, warehouse modelling or BI without a full-time hire. The capacity, the days and the overlap hours are agreed up front, and the engineer stays the same person for the duration rather than whoever is free that week."
+        "answer": "Yes. A fractional arrangement of a few days a week suits a small team that needs senior judgment on pipelines, warehouse modeling or BI without a full-time hire. The capacity, the days and the overlap hours are agreed up front, and the engineer stays the same person for the duration rather than whoever is free that week."
       },
       {
         "question": "Will we get a named engineer or a bench?",
@@ -1803,7 +1803,7 @@
       },
       {
         "question": "What is the difference between staff augmentation, a scoped project and recruitment?",
-        "answer": "With staff augmentation the engineer works inside your team under your leads' direction for an agreed capacity and duration. With a scoped project MV.tech Solutions owns a defined deliverable, its acceptance criteria and handover. With technology recruitment you hire a permanent employee into your own organisation and agree employment terms with them directly. We clarify which arrangement you need before discussing candidates or consultants."
+        "answer": "With staff augmentation the engineer works inside your team under your leads' direction for an agreed capacity and duration. With a scoped project MV.tech Solutions owns a defined deliverable, its acceptance criteria and handover. With technology recruitment you hire a permanent employee into your own organization and agree employment terms with them directly. We clarify which arrangement you need before discussing candidates or consultants."
       },
       {
         "question": "How does a trial milestone reduce the risk of hiring remotely?",
@@ -1811,7 +1811,7 @@
       },
       {
         "question": "What should we share before asking to hire a data engineer?",
-        "answer": "The workstream or backlog, the source systems and target warehouse or BI tools, the skills you need, the expected duration and capacity, your timezone and the hours that matter, and any constraints around security or access. A sanitised example of the data is enough for the first call; credentials are never needed for an enquiry."
+        "answer": "The workstream or backlog, the source systems and target warehouse or BI tools, the skills you need, the expected duration and capacity, your time zone and the hours that matter, and any constraints around security or access. A sanitized example of the data is enough for the first call; credentials are never needed for an inquiry."
       }
     ],
     "relatedResourcesHeading": "Three ways to hire, and how to choose between them.",
@@ -1869,12 +1869,12 @@
     "path": "/services/snowflake-consulting/",
     "key": "snowflake-consulting",
     "name": "Snowflake Consulting",
-    "title": "Snowflake Consulting, Migration & Data Modelling | MV.tech Solutions",
+    "title": "Snowflake Consulting, Migration & Data Modeling | MV.tech Solutions",
     "description": "Snowflake development and consulting for warehouse migration, pipelines, data models, BI integration, reconciliation and performance review.",
-    "h1": "Snowflake consulting for migration, modelling and reporting.",
+    "h1": "Snowflake consulting for migration, modeling and reporting.",
     "eyebrow": "MV.tech Solutions services",
     "serviceType": "Snowflake consulting and migration",
-    "intro": "Build or improve the Snowflake platform behind your business reporting. MV.tech Solutions supports warehouse migration, ingestion pipelines, data modelling and performance review, with the BI and reconciliation work needed to make the warehouse useful to your teams.",
+    "intro": "Build or improve the Snowflake platform behind your business reporting. MV.tech Solutions supports warehouse migration, ingestion pipelines, data modeling and performance review, with the BI and reconciliation work needed to make the warehouse useful to your teams.",
     "fitHeading": "Develop Snowflake around your data and reporting requirements.",
     "fit": [
       "Move legacy reporting workloads to Snowflake with a staged migration plan.",
@@ -1930,14 +1930,14 @@
       "SQL",
       "Parquet",
       "Excel",
-      "Dimensional modelling",
+      "Dimensional modeling",
       "Semantic models"
     ],
     "questionsHeading": "Questions about Snowflake consulting.",
     "questions": [
       {
         "question": "Is MV.tech Solutions a Snowflake consulting partner?",
-        "answer": "No. MV.tech Solutions is not a Snowflake reseller or a member of the Snowflake partner programme; it works as an independent engineering team that designs, migrates and tunes Snowflake warehouses on your own Snowflake account. You buy Snowflake from Snowflake and engineering from us, so there is no resale margin in the advice. The founder holds the Google Cloud Professional Data Engineer certification; MV.tech Solutions makes no Snowflake certification or partner claims."
+        "answer": "No. MV.tech Solutions is not a Snowflake reseller or a member of the Snowflake partner program; it works as an independent engineering team that designs, migrates and tunes Snowflake warehouses on your own Snowflake account. You buy Snowflake from Snowflake and engineering from us, so there is no resale margin in the advice. The founder holds the Google Cloud Professional Data Engineer certification; MV.tech Solutions makes no Snowflake certification or partner claims."
       },
       {
         "question": "How much does Snowflake consulting cost?",
@@ -1957,7 +1957,7 @@
       },
       {
         "question": "Can a remote team in India run our Snowflake migration?",
-        "answer": "Yes. Our engineering team works from Ahmedabad, India, and agrees a collaboration window in your timezone before work begins: US Eastern mornings, UK and European business hours, Gulf hours or Asia-Pacific afternoons. Snowflake work suits remote delivery because access is role-based and every change can be reviewed as SQL in a pull request. Reconciliation results, decisions and handover notes are written down where your team can read them the next morning."
+        "answer": "Yes. Our engineering team works from Ahmedabad, India, and agrees a collaboration window in your time zone before work begins: US Eastern mornings, UK and European business hours, Gulf hours or Asia-Pacific afternoons. Snowflake work suits remote delivery because access is role-based and every change can be reviewed as SQL in a pull request. Reconciliation results, decisions and handover notes are written down where your team can read them the next morning."
       },
       {
         "question": "Can you reconcile Snowflake with Salesforce CRM Analytics and our finance system?",
@@ -2020,7 +2020,7 @@
     "key": "bigquery-consulting",
     "name": "BigQuery Consulting",
     "title": "BigQuery Consulting, Google Cloud Data Engineering | MV.tech Solutions",
-    "description": "BigQuery warehouse design, cloud ingestion, reporting integration, migration and workload optimisation from the MV.tech Solutions data engineering team.",
+    "description": "BigQuery warehouse design, cloud ingestion, reporting integration, migration and workload optimization from the MV.tech Solutions data engineering team.",
     "h1": "BigQuery consulting and Google Cloud data engineering.",
     "eyebrow": "MV.tech Solutions services",
     "serviceType": "BigQuery consulting and Google Cloud data engineering",
@@ -2031,11 +2031,11 @@
       "Improve slow reporting or understand the workloads behind a rising bill.",
       "Migrate existing reporting to Google Cloud and give analysts shared datasets."
     ],
-    "deliverablesHeading": "BigQuery development, migration and optimisation.",
+    "deliverablesHeading": "BigQuery development, migration and optimization.",
     "deliverables": [
       {
-        "title": "Warehouse architecture and modelling",
-        "text": "Design datasets, warehouse layers and reporting tables around source behaviour and business definitions. Agree partitioning, clustering and access requirements based on the workloads."
+        "title": "Warehouse architecture and modeling",
+        "text": "Design datasets, warehouse layers and reporting tables around source behavior and business definitions. Agree partitioning, clustering and access requirements based on the workloads."
       },
       {
         "title": "Data ingestion and cloud jobs",
@@ -2059,7 +2059,7 @@
       },
       {
         "title": "Develop and measure",
-        "text": "Build pipelines and models, then validate records, business totals and workload behaviour."
+        "text": "Build pipelines and models, then validate records, business totals and workload behavior."
       },
       {
         "title": "Release and document",
@@ -2102,11 +2102,11 @@
       },
       {
         "question": "Can a remote team in India run our BigQuery project?",
-        "answer": "Yes. Our engineering team works from Ahmedabad, India, and agrees a collaboration window in your timezone before the engagement starts, which typically covers UK and European business hours, US Eastern mornings, Gulf hours or Asia-Pacific afternoons. Access is through your own Google Cloud project with IAM roles you grant and can revoke, logs stay in your project and no credentials are needed for an initial enquiry."
+        "answer": "Yes. Our engineering team works from Ahmedabad, India, and agrees a collaboration window in your time zone before the engagement starts, which typically covers UK and European business hours, US Eastern mornings, Gulf hours or Asia-Pacific afternoons. Access is through your own Google Cloud project with IAM roles you grant and can revoke, logs stay in your project and no credentials are needed for an initial inquiry."
       },
       {
         "question": "Is Looker Studio good enough, or do we need Power BI?",
-        "answer": "Looker Studio is reasonable for reporting over BigQuery when the model lives in the warehouse and the reports read curated views. Power BI becomes the better choice when you need a governed semantic layer, row-level security or complex measures, or when the organisation already runs on Microsoft 365. Either way the metric definitions belong in BigQuery, so changing the reporting tool later is a repointing exercise rather than a rebuild."
+        "answer": "Looker Studio is reasonable for reporting over BigQuery when the model lives in the warehouse and the reports read curated views. Power BI becomes the better choice when you need a governed semantic layer, row-level security or complex measures, or when the organization already runs on Microsoft 365. Either way the metric definitions belong in BigQuery, so changing the reporting tool later is a repointing exercise rather than a rebuild."
       },
       {
         "question": "Is MV.tech Solutions a Google Cloud partner?",
@@ -2151,7 +2151,7 @@
         "text": "A shared warehouse connected to the applications and data sources your business uses."
       },
       {
-        "title": "Reporting modernisation",
+        "title": "Reporting modernization",
         "text": "Move spreadsheet or legacy database reporting into managed datasets and refreshable dashboards."
       },
       {
@@ -2170,7 +2170,7 @@
     "name": "Power BI Consulting",
     "title": "Power BI Consulting & Dashboard Development | MV.tech Solutions",
     "description": "Power BI models, DAX measures, dashboards, refresh-performance reviews and SSAS migrations, with reporting requirements and source reconciliation.",
-    "h1": "Power BI consulting, dashboard development and data modelling.",
+    "h1": "Power BI consulting, dashboard development and data modeling.",
     "eyebrow": "MV.tech Solutions services",
     "serviceType": "Power BI consulting and semantic model development",
     "intro": "Develop Power BI reports that give business teams a consistent view of performance. MV.tech Solutions builds semantic models, DAX measures and dashboards, improves refresh performance and supports migrations from SSAS or Azure Analysis Services. We review existing models as well as delivering new reporting solutions.",
@@ -2180,10 +2180,10 @@
       "Improve models that are slow to refresh, difficult to extend or hard to reconcile.",
       "Move reporting from spreadsheets or legacy tabular models into a maintainable Power BI setup."
     ],
-    "deliverablesHeading": "Power BI services from modelling to report delivery.",
+    "deliverablesHeading": "Power BI services from modeling to report delivery.",
     "deliverables": [
       {
-        "title": "Requirements and semantic modelling",
+        "title": "Requirements and semantic modeling",
         "text": "Define the reporting questions, metric calculations and data grain. Build fact and dimension relationships, reusable measures and a model that supports the intended users."
       },
       {
@@ -2192,7 +2192,7 @@
       },
       {
         "title": "Refresh and model performance",
-        "text": "Review storage modes, query folding, model size and refresh behaviour. Investigate slow measures and agree changes to transformations, partitions or upstream datasets."
+        "text": "Review storage modes, query folding, model size and refresh behavior. Investigate slow measures and agree changes to transformations, partitions or upstream datasets."
       },
       {
         "title": "Migration, reconciliation and handover",
@@ -2212,7 +2212,7 @@
       },
       {
         "title": "Validate and hand over",
-        "text": "Reconcile results, check access and refresh behaviour, and document the operating setup."
+        "text": "Reconcile results, check access and refresh behavior, and document the operating setup."
       }
     ],
     "tools": [
@@ -2222,7 +2222,7 @@
       "DAX Studio",
       "SSAS / Azure Analysis Services",
       "Semantic models",
-      "Dimensional modelling",
+      "Dimensional modeling",
       "SQL",
       "Snowflake",
       "BigQuery",
@@ -2244,7 +2244,7 @@
       },
       {
         "question": "Can you fix our existing Power BI model instead of rebuilding it?",
-        "answer": "Usually, and that is the cheaper place to start. The review covers grain, relationships, calculated columns, duplicated measures, storage mode and refresh behaviour, and ends in a written list of what to fix in place and what genuinely needs remodelling. A rebuild is something we have to justify, not a starting assumption."
+        "answer": "Usually, and that is the cheaper place to start. The review covers grain, relationships, calculated columns, duplicated measures, storage mode and refresh behavior, and ends in a written list of what to fix in place and what genuinely needs remodelling. A rebuild is something we have to justify, not a starting assumption."
       },
       {
         "question": "Can you migrate our SSAS or Azure Analysis Services model to Power BI?",

@@ -16,7 +16,7 @@
       <h1>What would you like to build?</h1>
       <p class="lead">Bring us a project, a system that needs improving or a role you need to fill. We’ll talk through the requirements and suggest a practical way forward.</p>
       <div class="action-row"><a class="button-primary" href="#book-call">Book a 30-minute call <i data-lucide="calendar" aria-hidden="true"></i></a><a class="button-secondary" href="#brief-form">Write a project brief <i data-lucide="arrow-right" aria-hidden="true"></i></a></div>
-      <ul class="fact-row" aria-label="Contact facts"><li><i data-lucide="mail" aria-hidden="true"></i><a href="mailto:contact@mvtech.solutions">contact@mvtech.solutions</a></li><li><i data-lucide="smartphone" aria-hidden="true"></i><a href="tel:+919409299016">Mobile: +91 94092 99016</a></li><li><i data-lucide="map-pin" aria-hidden="true"></i>Offices in New York, USA · Ahmedabad, India</li></ul>
+      <ul class="fact-row" aria-label="Contact facts"><li><i data-lucide="mail" aria-hidden="true"></i><a href="mailto:contact@mvtech.solutions">contact@mvtech.solutions</a></li><li><i data-lucide="smartphone" aria-hidden="true"></i><a href="tel:+919409299016">Mobile: +91 94092 99016</a></li><li><i data-lucide="map-pin" aria-hidden="true"></i><a href="#offices">Offices in New York, USA · Ahmedabad, India</a></li></ul>
     </div>
   </section>
 
@@ -48,7 +48,7 @@
                 </select></label>
               <label><span>What needs to improve, and what would success look like?</span><textarea name="goal" placeholder="e.g. Our weekly revenue report takes two days to assemble from HubSpot and spreadsheets. We need a daily report with figures we can reconcile to the source."></textarea></label>
               <label><span>Current systems and tools</span><input name="systems" type="text" placeholder="e.g. Postgres, HubSpot, Google Sheets, Tableau"></label>
-              <label><span>Timezone and preferred overlap hours</span><input name="timezone" type="text" placeholder="e.g. US Eastern, mornings"></label>
+              <label><span>Time zone and preferred overlap hours</span><input name="time zone" type="text" placeholder="e.g. US Eastern, mornings"></label>
               <label><span>Target date</span><input name="date" type="text" placeholder="e.g. first version by end of next quarter"></label>
               <label><span>Budget range (optional)</span><input name="budget" type="text" placeholder="Helps us discuss the delivery options"></label>
               <label><span>Your name and company</span><input name="from" type="text" autocomplete="name" placeholder="So we know who we are writing back to"></label>
@@ -56,7 +56,7 @@
                 <button type="submit" class="button-primary">Open in my email app <i data-lucide="send" aria-hidden="true"></i></button>
                 <button type="button" class="button-secondary" data-copy-brief>Copy the brief instead <i data-lucide="copy" aria-hidden="true"></i></button>
               </div>
-              <p class="brief-note">No mail app? Copy the brief and paste it into any email to <a href="mailto:contact@mvtech.solutions" style="text-decoration:underline">contact@mvtech.solutions</a>. Please do not include credentials; they are never needed for an enquiry.</p>
+              <p class="brief-note">No mail app? Copy the brief and paste it into any email to <a href="mailto:contact@mvtech.solutions" style="text-decoration:underline">contact@mvtech.solutions</a>. Please do not include credentials; they are never needed for an inquiry.</p>
               <p id="brief-status" class="brief-note" role="status"></p>
               <pre id="brief-preview" class="brief-preview" aria-live="polite"></pre>
             </form>
@@ -64,16 +64,17 @@
           <ul class="contact-facts">
             <li><i data-lucide="users-round" aria-hidden="true"></i><span>Need a consultant in your team? Share the role, stack, duration and hours; see <a href="/services/it-staff-augmentation/" style="text-decoration:underline">staff augmentation</a>.</span></li>
             <li><i data-lucide="briefcase-business" aria-hidden="true"></i><span>Hiring permanently? Share the role, location or remote policy and timeline; see <a href="/services/technology-recruitment/" style="text-decoration:underline">technology recruitment</a>.</span></li>
-            <li><i data-lucide="shield-check" aria-hidden="true"></i><span>Happy to sign a mutual NDA before detailed discussions. Enquiry details are used only to respond to you; see our <a href="/compliance/" style="text-decoration:underline">privacy notice</a>.</span></li>
+            <li><i data-lucide="shield-check" aria-hidden="true"></i><span>Happy to sign a mutual NDA before detailed discussions. Inquiry details are used only to respond to you; see our <a href="/compliance/" style="text-decoration:underline">privacy notice</a>.</span></li>
           </ul>
         </div>
       </div>
     </div>
   </section>
+  <!--offices-->
 
   <section class="band">
     <div class="container">
-      <div class="section-heading"><div><p class="eyebrow">What happens next</p><h2>From your enquiry to an agreed engagement.</h2></div></div>
+      <div class="section-heading"><div><p class="eyebrow">What happens next</p><h2>From your inquiry to an agreed engagement.</h2></div></div>
       <ol class="steps">
         <li><span class="item-number">01</span><h3>Discuss the requirement</h3><p>We review the business requirement, current systems, delivery goals and team setup. If the work needs further discovery, we explain what that would involve.</p></li>
         <li><span class="item-number">02</span><h3>Review the delivery proposal</h3><p>The proposal sets out the scope or allocated capacity, delivery plan, responsibilities, dependencies and commercial terms. We clarify open questions with your team before you decide.</p></li>
@@ -87,10 +88,9 @@
       <div><p class="eyebrow">Three things to bring</p><h2>Help us understand the requirement.</h2></div>
       <ul class="check-list">
         <li><i data-lucide="check" aria-hidden="true"></i><span><strong>The result you need.</strong> The workflow, report, application or AI feature, and what should be better when the work is done.</span></li>
-        <li><i data-lucide="check" aria-hidden="true"></i><span><strong>The current setup.</strong> The systems involved, what already works and what keeps getting in the way. A description or a sanitised example is enough to start.</span></li>
-        <li><i data-lucide="check" aria-hidden="true"></i><span><strong>Your working constraints.</strong> Timezone, preferred overlap, target date and any budget range. These shape a useful first scope.</span></li>
+        <li><i data-lucide="check" aria-hidden="true"></i><span><strong>The current setup.</strong> The systems involved, what already works and what keeps getting in the way. A description or a sanitized example is enough to start.</span></li>
+        <li><i data-lucide="check" aria-hidden="true"></i><span><strong>Your working constraints.</strong> Time zone, preferred overlap, target date and any budget range. These shape a useful first scope.</span></li>
       </ul>
     </div>
   </section>
-  <!--us-company-note-->
 </main>

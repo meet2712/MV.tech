@@ -27,32 +27,46 @@
   "disambiguation": "The software, data and AI engineering company at mvtech.solutions, founded by Meet Vaghasia in 2022. Not affiliated with other businesses that use the name MV Tech.",
   "offices": [
     {
+      "id": "new-york",
       "name": "New York office",
       "label": "New York, USA",
-      "locality": "New York",
+      "flag": "🇺🇸",
+      "role": "United States",
+      "city": "New York",
+      "description": "Our US office, for client relationships and agreements with companies in the United States.",
+      "streetAddress": "248-15 88th Rd",
+      "streetAddress2": "",
+      "locality": "Jamaica",
       "region": "NY",
-      "country": "US"
+      "postalCode": "11426",
+      "country": "United States",
+      "countryCode": "US",
+      "telephone": "",
+      "telephoneDisplay": ""
     },
     {
+      "id": "ahmedabad",
       "name": "Ahmedabad office",
       "label": "Ahmedabad, India",
+      "flag": "🇮🇳",
+      "role": "India",
+      "city": "Ahmedabad",
+      "description": "Our engineering office. The delivery team works here, in hours agreed with your team.",
+      "streetAddress": "16 Trishala Residency, S G Highway",
+      "streetAddress2": "Behind RC Technical, Opp. High Court, Near Harivila, Chandlodiya",
       "locality": "Ahmedabad",
       "region": "Gujarat",
       "postalCode": "380061",
-      "country": "IN"
+      "country": "India",
+      "countryCode": "IN",
+      "telephone": "+919409299016",
+      "telephoneDisplay": "+91 94092 99016"
     }
   ],
-  "usCompany": {
+  "officesBlock": {
     "eyebrow": "Our offices",
-    "locationsHeading": "Offices in New York and Ahmedabad.",
-    "intro": "Work with our New York office and our engineering team in Ahmedabad, with working hours planned around yours.",
-    "status": "USA",
-    "usTitle": "New York",
-    "usCopy": "Our US office, for clients and contracts in the United States.",
-    "indiaStatus": "India",
-    "indiaTitle": "Ahmedabad",
-    "indiaCopy": "Our engineering office in Gujarat. The delivery team works from here, in hours agreed with your team.",
-    "path": "/us-clients/"
+    "heading": "Offices in New York and Ahmedabad.",
+    "intro": "Talk to our New York office about your project. Our engineering team in Ahmedabad works in hours planned around yours."
   },
   "email": "contact@mvtech.solutions",
   "calendly": "https://calendly.com/contact-mvtech/new-meeting",
@@ -64,13 +78,6 @@
   "analyticsId": "G-YRM2SJ2EMP",
   "googleSiteVerification": "jHv9z-tx17troA76X9oZKxtdUyA2kZ3ucxekWu2IKNo",
   "bingSiteVerification": "4E92ACAA62E846680D0B517AC0F64C69",
-  "address": {
-    "locality": "Ahmedabad",
-    "region": "Gujarat",
-    "country": "IN",
-    "countryName": "India",
-    "postalCode": "380061"
-  },
   "founder": {
     "name": "Meet Vaghasia",
     "jobTitle": "Founder & Lead Engineer",
@@ -108,7 +115,7 @@
     "Toptal",
     "Turing"
   ],
-  "workedWithNote": "Names reflect organisations the MV.tech Solutions team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.",
+  "workedWithNote": "Names reflect organizations the MV.tech Solutions team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.",
   "knowsAbout": [
     "Data engineering and ETL/ELT pipeline development in Python and SQL",
     "Offshore data engineering teams from India for companies that need senior remote delivery",
@@ -116,7 +123,7 @@
     "Cloud data warehouse design on BigQuery, Snowflake, Amazon Redshift and PostgreSQL",
     "Data warehouse migration from legacy databases such as SQL Server, and from manual reporting, with source-to-target mapping",
     "Raw, staging, curated and reporting layer design in a cloud warehouse",
-    "Dimensional modelling with fact grain, conformed dimensions and bridge tables",
+    "Dimensional modeling with fact grain, conformed dimensions and bridge tables",
     "Semantic models and curated SQL views for self-service analytics",
     "dbt-style SQL transformation layers, incremental loads and automated backfills",
     "Data quality, validation and reconciliation frameworks covering record counts, nulls, duplicates and totals",
@@ -129,7 +136,7 @@
     "Power BI and SSAS or Azure Analysis Services semantic model review",
     "Salesforce CRM Analytics datasets, recipes, dataflows and field mapping",
     "KPI definition, metric governance and executive reporting layers",
-    "Python analytics and visualisation with Pandas, Plotly and Streamlit",
+    "Python analytics and visualization with Pandas, Plotly and Streamlit",
     "AI automation with large language models including GPT, Claude, Llama and Qwen",
     "Retrieval-augmented generation (RAG) and internal knowledge assistants",
     "Model Context Protocol (MCP) server and tool development in Python",
@@ -142,12 +149,12 @@
     "Workflow automation, scheduled jobs, alerting and exception handling",
     "Google Apps Script automation and Google Sheets add-on development",
     "Web scraping and data extraction from dynamic and authenticated sources",
-    "Containerised delivery with Docker, automated testing with Pytest, and GitHub Actions CI/CD pipelines",
+    "Containerized delivery with Docker, automated testing with Pytest, and GitHub Actions CI/CD pipelines",
     "Immutable base datasets with manual-override and whitelist layers that preserve an audit trail",
     "Blockchain and on-chain analytics across Ethereum, Bitcoin, Immutable X, Immutable zkEVM, XDC, WEMIX, Tezos and Cardano",
     "Decoding on-chain transactions, logs and events with contract ABIs and Web3.py",
-    "Token valuation, transaction categorisation and staking-reward reconciliation ledgers",
-    "Access control, OAuth and secret management supporting SOC 2 compliance programmes",
+    "Token valuation, transaction categorization and staking-reward reconciliation ledgers",
+    "Access control, OAuth and secret management supporting SOC 2 compliance programs",
     "IT staff augmentation and dedicated remote engineering teams",
     "Technology recruitment for AI, data, software and cloud roles"
   ],
@@ -210,7 +217,7 @@
         "href": "/about/"
       },
       {
-        "label": "How we work & timezones",
+        "label": "How we work & time zones",
         "href": "/remote-consulting/"
       },
       {
@@ -240,7 +247,7 @@
         "href": "mailto:contact@mvtech.solutions"
       },
       {
-        "label": "Mobile: +91 94092 99016",
+        "label": "India: +91 94092 99016",
         "href": "tel:+919409299016"
       },
       {
@@ -258,7 +265,7 @@
         "href": "/faq/"
       },
       {
-        "label": "Privacy & delivery standards",
+        "label": "Security & delivery standards",
         "href": "/compliance/"
       }
     ]
@@ -328,5 +335,22 @@
   "teamSize": {
     "min": 10,
     "max": 15
+  },
+  "legalLinks": [
+    {
+      "label": "Privacy Policy",
+      "href": "/privacy/"
+    },
+    {
+      "label": "Terms of Use",
+      "href": "/terms/"
+    },
+    {
+      "label": "Accessibility",
+      "href": "/accessibility/"
+    }
+  ],
+  "redirects": {
+    "/us-clients/": "/about/"
   }
 }

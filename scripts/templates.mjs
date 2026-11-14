@@ -47,17 +47,32 @@ export function callButton(site, label = 'Book a 30-minute call', cls = 'button-
   return `<a class="${cls}" href="/contact/#book-call">${h(label)} ${icon('arrow-right')}</a>`;
 }
 
-export function usCompanyNote(site, route) {
-  const note = site.usCompany;
-  // On the USA page itself the card points at the company details instead of linking to the page it is on.
-  const usLink = route === note.path ? `<a href="/about/">Company information ${icon('arrow-right')}</a>` : `<a href="${h(note.path)}">Services for clients in the USA ${icon('arrow-right')}</a>`;
-  return `<section class="band locations-section" id="us-company" aria-labelledby="us-company-heading">
+/** Postal lines for an office, US style: street, "City, ST ZIP", country. Street and ZIP appear only once supplied. */
+export function officeAddressLines(office) {
+  return [office.streetAddress, office.streetAddress2, `${office.locality}, ${office.region}${office.postalCode ? ' ' + office.postalCode : ''}`, office.country].filter(Boolean);
+}
+
+/** A Google Maps search link, only for an office with a street address (a city-only link would be misleading). */
+export function officeMapUrl(office) {
+  return office.streetAddress ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(officeAddressLines(office).join(', '))}` : '';
+}
+
+/** The shared "Our offices" block: both offices with address, phone and email, New York first. */
+export function officesBlock(site) {
+  const block = site.officesBlock;
+  const card = (office) => {
+    const map = officeMapUrl(office);
+    const contact = [
+      office.telephone ? `<li>${icon('phone')}<a href="tel:${h(office.telephone)}">${h(office.telephoneDisplay)}</a></li>` : '',
+      `<li>${icon('mail')}<a href="mailto:${h(site.email)}">${h(site.email)}</a></li>`,
+      map ? `<li>${icon('map-pin')}<a href="${h(map)}" target="_blank" rel="noopener">Get directions</a></li>` : '',
+    ].join('');
+    return `<article class="location-entry" id="office-${h(office.id)}"><span class="location-flag" aria-hidden="true">${office.flag}</span><div><p class="location-status">${h(office.role)}</p><h3>${h(office.city)}</h3><address class="location-address">${officeAddressLines(office).map(h).join('<br>')}</address><p>${h(office.description)}</p><ul class="location-contact">${contact}</ul></div></article>`;
+  };
+  return `<section class="band locations-section" id="offices" aria-labelledby="offices-heading">
     <div class="container">
-      <div class="section-heading"><div><p class="eyebrow">${h(note.eyebrow)}</p><h2 id="us-company-heading">${h(note.locationsHeading)}</h2></div><p class="location-intro">${h(note.intro)}</p></div>
-      <div class="locations-grid">
-        <article class="location-entry"><span class="location-flag" aria-hidden="true">🇺🇸</span><div><p class="location-status">${h(note.status)}</p><h3>${h(note.usTitle)}</h3><p>${h(note.usCopy)}</p>${usLink}</div></article>
-        <article class="location-entry"><span class="location-flag" aria-hidden="true">🇮🇳</span><div><p class="location-status">${h(note.indiaStatus)}</p><h3>${h(note.indiaTitle)}</h3><p>${h(note.indiaCopy)}</p><a href="/contact/">Contact our team ${icon('arrow-right')}</a></div></article>
-      </div>
+      <div class="section-heading"><div><p class="eyebrow">${h(block.eyebrow)}</p><h2 id="offices-heading">${h(block.heading)}</h2></div><p class="location-intro">${h(block.intro)}</p></div>
+      <div class="locations-grid">${site.offices.map(card).join('')}</div>
     </div>
   </section>`;
 }
@@ -72,7 +87,7 @@ export function workedWith(site, heading = 'Teams our engineers have worked with
   return `<div class="logo-strip" aria-label="${h(heading)}"><p class="logo-strip-label">${h(heading)}</p><ul class="logo-strip-list">${site.workedWith.map((name) => `<li>${h(name)}</li>`).join('')}</ul></div>`;
 }
 
-export function overlapTable(site, { caption = 'Typical collaboration windows by client timezone', compact = false } = {}) {
+export function overlapTable(site, { caption = 'Typical collaboration windows by client time zone', compact = false } = {}) {
   const rows = site.overlap.zones.filter((z) => !compact || ['New York', 'London', 'Berlin', 'Sydney'].includes(z.city));
   return `<div class="table-wrap" tabindex="0"><table class="data-table" id="timezone-overlap"><caption>${h(caption)}</caption><thead><tr><th scope="col">Your team</th><th scope="col">Overlap in your local time</th><th scope="col">Our hours (IST, UTC+5:30)</th></tr></thead><tbody>${rows.map((z) => `<tr><th scope="row">${h(z.city)} <span class="muted">${h(z.zone)}</span></th><td>${h(z.window)}</td><td>${h(z.ist)}</td></tr>`).join('')}</tbody></table></div><p class="table-note">${h(site.overlap.note)}</p>`;
 }
@@ -97,8 +112,8 @@ export function faqList(items) {
   return `<div class="faq-list">${items.map((item) => `<details><summary><span>${h(item.question)}</span>${icon('chevron-down')}</summary><div class="faq-answer"><p>${h(item.answer)}</p></div></details>`).join('')}</div>`;
 }
 
-export function ctaBand(site, { heading = 'Tell us what needs to work better.', copy = 'Bring the goal, the systems involved and your preferred working hours. The first call is a 30-minute scoping conversation, and you leave with a written next step.', subject = 'Project enquiry for MV.tech Solutions', fields = ['Project goal', 'Current systems', 'Target date', 'Timezone and preferred overlap', 'Budget range (optional)'], callLabel = 'Book a 30-minute call' } = {}) {
-  return `<section class="band cta-band"><div class="container cta-grid"><div><p class="eyebrow">Your next step</p><h2>${h(heading)}</h2><p class="lead">${h(copy)}</p></div><div class="cta-actions">${callButton(site, callLabel)}${emailLink(site, subject, fields, 'Email your brief', 'button-secondary')}<a class="cta-email" href="mailto:${site.email}">${h(site.email)}</a><p class="cta-note">Offices in New York and Ahmedabad · Overlap with your timezone · No obligation</p></div></div></section>`;
+export function ctaBand(site, { heading = 'Tell us what needs to work better.', copy = 'Bring the goal, the systems involved and your preferred working hours. The first call is a 30-minute scoping conversation, and you leave with a written next step.', subject = 'Project inquiry for MV.tech Solutions', fields = ['Project goal', 'Current systems', 'Target date', 'Time zone and preferred overlap', 'Budget range (optional)'], callLabel = 'Book a 30-minute call' } = {}) {
+  return `<section class="band cta-band"><div class="container cta-grid"><div><p class="eyebrow">Your next step</p><h2>${h(heading)}</h2><p class="lead">${h(copy)}</p></div><div class="cta-actions">${callButton(site, callLabel)}${emailLink(site, subject, fields, 'Email your brief', 'button-secondary')}<a class="cta-email" href="mailto:${site.email}">${h(site.email)}</a><p class="cta-note">Offices in New York and Ahmedabad · Overlap with your time zone · No obligation</p></div></div></section>`;
 }
 
 export function relatedServices(pages, currentKey, site) {
@@ -125,8 +140,8 @@ export function relatedResources(page) {
 export function servicePage(page, site, allPages) {
   const servicePage = page.path.startsWith('/services/');
   const crumbs = [{ name: 'Home', url: '/' }, ...(servicePage ? [{ name: 'Services', url: '/services/' }] : []), { name: page.name, url: page.path }];
-  const fields = page.enquiryFields ?? ['Project goal', 'Current systems', 'Target date', 'Timezone and preferred overlap', 'Budget range (optional)'];
-  const subject = `${page.name} enquiry`;
+  const fields = page.enquiryFields ?? ['Project goal', 'Current systems', 'Target date', 'Time zone and preferred overlap', 'Budget range (optional)'];
+  const subject = `${page.name} inquiry`;
   const remote = page.key === 'remote-consulting';
   return `<main id="main-content">
   <section class="page-hero">
@@ -136,7 +151,7 @@ export function servicePage(page, site, allPages) {
       <h1>${h(page.h1 ?? page.name)}</h1>
       <p class="lead">${h(page.intro)}</p>
       <div class="action-row">${callButton(site, page.callLabel ?? 'Discuss your project')}${emailLink(site, subject, fields)}</div>
-      <ul class="fact-row" aria-label="Engagement facts"><li>${icon('map-pin')}Offices in New York and Ahmedabad</li><li>${icon('clock-3')}Overlap with your timezone</li><li>${icon('users-round')}Senior specialists, direct access</li><li>${icon('file-check-2')}Scope agreed in writing</li></ul>
+      <ul class="fact-row" aria-label="Engagement facts"><li>${icon('map-pin')}Offices in New York and Ahmedabad</li><li>${icon('clock-3')}Overlap with your time zone</li><li>${icon('users-round')}Senior specialists, direct access</li><li>${icon('file-check-2')}Scope agreed in writing</li></ul>
     </div>
   </section>
   <section class="band band-light">
@@ -154,7 +169,7 @@ export function servicePage(page, site, allPages) {
   </section>
   ${remote ? `<section class="band band-light" id="timezones">
     <div class="container">
-      <div class="section-heading"><div><p class="eyebrow">Timezone overlap</p><h2>Working hours planned around yours.</h2></div></div>
+      <div class="section-heading"><div><p class="eyebrow">Time-zone overlap</p><h2>Working hours planned around yours.</h2></div></div>
       <p class="lead measure">India Standard Time (UTC+5:30) sits between Asia-Pacific mornings and American mornings, so a remote team in Ahmedabad can share a substantial working window with almost any client. We agree the collaboration window before the engagement starts and keep written updates flowing outside it.</p>
       ${overlapTable(site)}
     </div>
@@ -182,7 +197,7 @@ export function servicePage(page, site, allPages) {
     <div class="container">
       <div class="section-heading"><div><p class="eyebrow">Working together</p><h2>${h(page.approachHeading ?? 'A practical path from scope to delivery.')}</h2></div></div>
       <ol class="steps">${page.approach.map((step, i) => `<li><span class="item-number">0${i + 1}</span><h3>${h(step.title)}</h3><p>${h(step.text)}</p></li>`).join('')}</ol>
-      <div class="proof-row">${workedWith(site)}<div class="proof-links"><a href="/expertise/">Explore our expertise</a><a href="${site.toptal}" target="_blank" rel="noopener">Meet Vaghasia on Toptal</a>${servicePage ? '<a href="/remote-consulting/">Timezones, team and engagement costs</a>' : '<a href="/services/">All services</a>'}</div></div>
+      <div class="proof-row">${workedWith(site)}<div class="proof-links"><a href="/expertise/">Explore our expertise</a><a href="${site.toptal}" target="_blank" rel="noopener">Meet Vaghasia on Toptal</a>${servicePage ? '<a href="/remote-consulting/">Time zones, team and engagement costs</a>' : '<a href="/services/">All services</a>'}</div></div>
     </div>
   </section>
   <section class="band band-light">
@@ -198,7 +213,7 @@ export function servicePage(page, site, allPages) {
 
 export function articlePage(article, site) {
   const crumbs = [{ name: 'Home', url: '/' }, { name: 'Insights', url: '/insights/' }, { name: article.name, url: article.route }];
-  const fmt = (iso) => new Date(iso + 'T00:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+  const fmt = (iso) => new Date(iso + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
   const related = article.relatedArticles?.length ? `<div class="band">
       <div class="container narrow">
         <div class="section-heading"><div><p class="eyebrow">Related guides</p><h2>Keep planning the engagement.</h2></div><a class="text-link" href="/insights/">All insights ${icon('arrow-right')}</a></div>
@@ -234,7 +249,7 @@ export function articlePage(article, site) {
 }
 
 export function insightsIndex(articles, site) {
-  const fmt = (iso) => new Date(iso + 'T00:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
+  const fmt = (iso) => new Date(iso + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
   return `<main id="main-content">
   <section class="page-hero">
     <div class="container">

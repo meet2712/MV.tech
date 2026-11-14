@@ -8,8 +8,9 @@ Legal entity: MV.tech Solutions is a registered assumed name (DBA) of BB & KV In
 Contact: contact@mvtech.solutions · Book a call: https://mvtech.solutions/contact/#book-call
 Founder: Meet Vaghasia, Founder & Lead Engineer (https://www.linkedin.com/in/meet2712/)
 LinkedIn: https://www.linkedin.com/company/mv-tech-data/
-Offices: New York, USA, and Ahmedabad, Gujarat, India. The engineering team works from the Ahmedabad office (India GSTIN 24BZMPV4008F1ZA). Serves clients in the USA and worldwide with agreed timezone overlap. Details: https://mvtech.solutions/us-clients/
-Teams our engineers have worked with: Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, Turing. Names reflect organisations the MV.tech Solutions team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.
+Offices: New York office: 248-15 88th Rd, Jamaica, NY 11426, United States; Ahmedabad office: 16 Trishala Residency, S G Highway, Behind RC Technical, Opp. High Court, Near Harivila, Chandlodiya, Ahmedabad, Gujarat 380061, India (+91 94092 99016). The engineering team works from the Ahmedabad office (India GSTIN 24BZMPV4008F1ZA). Serves clients in the USA and worldwide with agreed time-zone overlap. Details: https://mvtech.solutions/contact/#offices
+Privacy and legal: https://mvtech.solutions/privacy/ · https://mvtech.solutions/terms/ · https://mvtech.solutions/accessibility/
+Teams our engineers have worked with: Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, Turing. Names reflect organizations the MV.tech Solutions team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.
 Last generated: 2026-11-14. Short summary and answer guidance: https://mvtech.solutions/llms.txt
 
 This file is generated from the public pages listed below, so it always matches what visitors see. Each section is one page: title, canonical URL, meta description, then the page text.
@@ -129,7 +130,7 @@ Assigned specialists work within your tools and delivery process for the agreed 
 
 #### A long-term hire.
 
-Your organisation hires and employs the candidate. MV.tech Solutions supports the role brief, sourcing and assessment for a long-term technology position. How recruitment works
+Your organization hires and employs the candidate. MV.tech Solutions supports the role brief, sourcing and assessment for a long-term technology position. How recruitment works
 
 Delivery
 
@@ -167,28 +168,33 @@ Yes. We work on existing applications, data platforms, dashboards and integratio
 Yes. We can discuss individual specialists or a team for an agreed workstream, capacity and duration. Responsibilities, availability and collaboration hours are confirmed before onboarding.
 
 **Where is MV.tech Solutions based?**
-MV.tech Solutions has two offices: New York, USA, and Ahmedabad, India. Our engineering team works from the Ahmedabad office and collaborates remotely with clients in the USA and worldwide. See services for clients in the USA.
+MV.tech Solutions has two offices: New York, USA, and Ahmedabad, India. Our engineering team works from the Ahmedabad office and collaborates remotely with clients in the USA and worldwide. See our offices.
 
 Our offices
 
 ### Offices in New York and Ahmedabad.
 
-Work with our New York office and our engineering team in Ahmedabad, with working hours planned around yours.
+Talk to our New York office about your project. Our engineering team in Ahmedabad works in hours planned around yours.
 
-USA
+United States
 
 #### New York
 
-Our US office, for clients and contracts in the United States.
+248-15 88th RdJamaica, NY 11426United States
+Our US office, for client relationships and agreements with companies in the United States.
 
-Services for clients in the USA
+- contact@mvtech.solutions
+- Get directions
 India
 
 #### Ahmedabad
 
-Our engineering office in Gujarat. The delivery team works from here, in hours agreed with your team.
+16 Trishala Residency, S G HighwayBehind RC Technical, Opp. High Court, Near Harivila, ChandlodiyaAhmedabad, Gujarat 380061India
+Our engineering office. The delivery team works here, in hours agreed with your team.
 
-Contact our team
+- +91 94092 99016
+- contact@mvtech.solutions
+- Get directions
 Contact MV.tech Solutions
 
 ### Let’s work on what comes next.
@@ -227,7 +233,7 @@ Web applications, customer portals, internal tools and APIs that support the way
 
 #### Data platforms and analytics
 
-Data integration, warehouse migration, modelling, business reporting and reconciliation across systems.
+Data integration, warehouse migration, modeling, business reporting and reconciliation across systems.
 
 #### AI and automation
 
@@ -241,7 +247,7 @@ A delivery relationship should be clear about who sets priorities, who does the 
 
 - Project delivery. MV.tech Solutions delivers the agreed requirements, with milestones and acceptance criteria.
 - Dedicated capacity. Our specialists work within your team’s tools and delivery process for an agreed capacity and duration.
-- Permanent recruitment. We support sourcing and technical assessment while your organisation makes the hiring decision and employs the candidate.
+- Permanent recruitment. We support sourcing and technical assessment while your organization makes the hiring decision and employs the candidate.
 Founder
 
 ### Meet Vaghasia, Founder & Lead Engineer.
@@ -258,6 +264,8 @@ Company information
   MV.tech Solutions
 - Legal entity
   BB & KV Inc., a New York corporation. MV.tech Solutions is its registered business name (DBA).
+- Contracting party for clients in the USA
+  BB & KV Inc., doing business as MV.tech Solutions
 - Offices
   New York, USA · Ahmedabad, Gujarat, India (380061)
 - Founded
@@ -278,22 +286,27 @@ Our offices
 
 ### Offices in New York and Ahmedabad.
 
-Work with our New York office and our engineering team in Ahmedabad, with working hours planned around yours.
+Talk to our New York office about your project. Our engineering team in Ahmedabad works in hours planned around yours.
 
-USA
+United States
 
 #### New York
 
-Our US office, for clients and contracts in the United States.
+248-15 88th RdJamaica, NY 11426United States
+Our US office, for client relationships and agreements with companies in the United States.
 
-Services for clients in the USA
+- contact@mvtech.solutions
+- Get directions
 India
 
 #### Ahmedabad
 
-Our engineering office in Gujarat. The delivery team works from here, in hours agreed with your team.
+16 Trishala Residency, S G HighwayBehind RC Technical, Opp. High Court, Near Harivila, ChandlodiyaAhmedabad, Gujarat 380061India
+Our engineering office. The delivery team works here, in hours agreed with your team.
 
-Contact our team
+- +91 94092 99016
+- contact@mvtech.solutions
+- Get directions
 Contact MV.tech Solutions
 
 ### Talk to us about your engineering requirements.
@@ -302,17 +315,56 @@ Tell us what you want to build, improve or connect. We’ll discuss the requirem
 
 ---
 
-# MV.tech Solutions Brand Kit: Logos, Colours, Fonts & Guidelines
+# Accessibility Statement | MV.tech Solutions
+
+URL: https://mvtech.solutions/accessibility/
+Description: MV.tech Solutions aims to make mvtech.solutions usable by everyone, following WCAG 2.1 Level AA. How we build for access and how to report a barrier.
+Last modified: 2026-11-14
+
+Legal
+
+## Accessibility statement
+
+We want everyone to be able to use mvtech.solutions, including people who rely on a keyboard, a screen reader, magnification or other assistive technology.
+
+Last reviewed: November 14, 2026
+
+### Our standard
+
+We aim for this website to conform to the Web Content Accessibility Guidelines (WCAG) 2.1 at Level AA, the standard most often used to judge website accessibility in the United States.
+
+### How we build for access
+
+- Pages use semantic HTML with landmarks, one main heading and a logical heading order.
+- A “Skip to content” link is the first item on every page, and every control works with a keyboard and shows a visible focus outline.
+- Images that carry meaning have text alternatives; decorative images are hidden from screen readers.
+- Text and controls use a color palette chosen for readable contrast.
+- Animation is reduced when your device asks for reduced motion.
+- All page content is in the HTML, so it can be read without JavaScript.
+- Automated checks run on every release and fail the build if a page is missing its language, has more than one main heading, has an image without a text alternative, repeats an element ID or opens a new window unsafely.
+
+### Known limitations
+
+- The booking calendar is provided by Calendly, a third party. If it is hard to use, email us and we will arrange a time directly.
+- Some PDF files in the downloadable brand kit may not be fully tagged for screen readers. We can send the same information in another format.
+
+### Report a barrier
+
+If something on this website is hard to use, tell us. Email contact@mvtech.solutions with “Accessibility” in the subject line, the page address and what happened. We will reply, provide the information you need in another way and work on a fix.
+
+---
+
+# MV.tech Solutions Brand Kit: Logos, Colors, Fonts & Guidelines
 
 URL: https://mvtech.solutions/brand/
-Description: Download the MV.tech Solutions brand kit: vector logos, favicons, avatars, colour tokens, Inter fonts, icons and the full brand guidelines.
+Description: Download the MV.tech Solutions brand kit: vector logos, favicons, avatars, color tokens, Inter fonts, icons and the full brand guidelines.
 Last modified: 2026-11-14
 
 Brand assets
 
 ## The MV.tech Solutions brand kit, ready to use.
 
-Everything you need to represent MV.tech Solutions correctly in an article, a partner deck, a directory listing or a co-branded page. Vector logo masters, favicons and avatars, the colour palette as design tokens, the Inter type family, the icon set and the full guidelines.
+Everything you need to represent MV.tech Solutions correctly in an article, a partner deck, a directory listing or a co-branded page. Vector logo masters, favicons and avatars, the color palette as design tokens, the Inter type family, the icon set and the full guidelines.
 
 Download the brand kit ZIP · 15 MB Ask for print files
 
@@ -322,7 +374,7 @@ What is inside
 
 #### Vector masters
 
-The logo as true vector, SVG and PDF, in every variant: horizontal, primary and vertical lockups, the monogram and the wordmark, each in dark, light and single colour. Send these to printers and designers.
+The logo as true vector, SVG and PDF, in every variant: horizontal, primary and vertical lockups, the monogram and the wordmark, each in dark, light and single color. Send these to printers and designers.
 
 #### Ready-made exports
 
@@ -336,13 +388,13 @@ favicon.ico, an SVG favicon, Apple touch icon, Android and maskable icons, a Saf
 
 Circle-safe profile images sized for LinkedIn, X, Instagram, YouTube, WhatsApp and Google Business.
 
-#### Colour and design tokens
+#### Color and design tokens
 
 The palette as JSON, CSS custom properties, SCSS, a Tailwind config, W3C design tokens, Adobe and GIMP swatches, and an Office theme.
 
 #### Type
 
-Inter for desktop and web with its open font licence, plus a type specimen and the rules for sizes, weights and letter-spacing.
+Inter for desktop and web with its open font license, plus a type specimen and the rules for sizes, weights and letter-spacing.
 
 #### Icon set
 
@@ -350,7 +402,7 @@ Brand icons in three colourways as SVG and PNG, with app-style tiles.
 
 #### Guidelines
 
-The full brand guidelines and a one-page quick reference covering logo use, clear space, minimum sizes, colour, accessibility and misuse.
+The full brand guidelines and a one-page quick reference covering logo use, clear space, minimum sizes, color, accessibility and misuse.
 
 Using the logo
 
@@ -365,9 +417,9 @@ Do not stretch, rotate, recolour or add effects to the logo, and do not place it
 
 Writing the name. The company name is MV.tech Solutions, written in full wherever it appears in text. The logo artwork reads MV.tech; use it as supplied and do not retype it. Do not add Inc. or LLC to the name.
 
-Colour
+Color
 
-### The palette, and where each colour is allowed.
+### The palette, and where each color is allowed.
 
 | Name | Hex | Use |
 | Ink | #05060B | Primary dark background |
@@ -381,23 +433,23 @@ Signal Teal and System Cyan do not meet accessibility contrast requirements for 
 
 ### Need the print files?
 
-The download covers logos, colour, type, icons and the guidelines. Print-ready business cards with bleed and crop marks, letterhead, the company one-pager, Word and PowerPoint templates, email signatures and the complete social set are part of the full kit. Ask us and we will send them.
+The download covers logos, color, type, icons and the guidelines. Print-ready business cards with bleed and crop marks, letterhead, the company one-pager, Word and PowerPoint templates, email signatures and the complete social set are part of the full kit. Ask us and we will send them.
 
 Download the brand kit
 
 ---
 
-# Privacy, Security & Delivery Standards | MV.tech Solutions
+# Security, Data Handling & Delivery Standards | MV.tech Solutions
 
 URL: https://mvtech.solutions/compliance/
-Description: How MV.tech Solutions handles client data, credentials and access: secure delivery, accessibility, website analytics and responsible use of AI.
+Description: How MV.tech Solutions handles client data, credentials and system access during engagements, with secure delivery and responsible use of AI.
 Last modified: 2026-11-14
 
 Trust, security & compliance
 
 ## Professional delivery standards for responsible systems.
 
-Practical security, careful data handling, transparent communication and clear project boundaries. This page explains how we work with your data and systems, and how this website itself handles visitor information.
+Practical security, careful data handling, transparent communication and clear project boundaries. This page explains how we work with your data and systems. How this website handles visitor information is in our Privacy Policy.
 
 Delivery standards
 
@@ -413,7 +465,7 @@ Least-privilege access granted by you, separated development and production envi
 
 #### Accessibility
 
-Web interfaces are planned with semantic structure, keyboard navigation, readable contrast and responsive layouts, following WCAG 2.1 AA as the working target unless a project specifies otherwise.
+Web interfaces are planned with semantic structure, keyboard navigation, readable contrast and responsive layouts, following WCAG 2.1 AA as the working target unless a project specifies otherwise. This website follows the same standard; see our accessibility statement.
 
 #### Clear terms
 
@@ -421,27 +473,15 @@ Scope, ownership, timelines, support and third-party responsibilities are docume
 
 This website
 
-### Privacy notice for visitors.
+### Privacy, terms and accessibility.
 
-- Who operates this website
-  MV.tech Solutions is a registered assumed name (DBA) of BB & KV Inc., a New York corporation. We have offices in New York, USA, and Ahmedabad, India. This notice covers mvtech.solutions.
-- Information you send us
-  Details submitted by email or through our scheduling link are used to respond to your enquiry, prepare proposals, deliver agreed services and maintain client communication. We do not sell or share enquiry data with third parties for marketing.
-- Analytics
-  This site uses Google Analytics 4 to understand aggregate traffic and improve the website. Analytics measures clicks on contact links as "intent", not as confirmed enquiries. Google Analytics loads when a page loads and sets its cookies immediately; this site does not show a consent banner, so there is no prompt to accept or reject it. To opt out, block analytics cookies or the googletagmanager.com domain in your browser settings or an extension, use a browser that blocks trackers by default, or install Google'sAnalytics opt-out add-on.
-- Scheduling
-  Calls are booked through Calendly. When you use the embedded calendar or booking link, Calendly's own privacy policy applies to the information you enter there.
-- No accounts or portals
-  This website is public marketing content. It does not offer a login, client portal or SSO endpoint, and it does not host private client data.
-- AI crawlers
-  Public pages may be read by search engines and AI assistants so that people can find accurate information about MV.tech Solutions. Machine-readable summaries are published at/llms.txtand/llms-full.txt.
-- Contact
-  Questions about this notice or about your data:contact@mvtech.solutions.
+How mvtech.solutions handles visitor information, including analytics, cookies and your privacy rights as a US resident, is set out in our Privacy Policy. Use of the website is covered by our Terms of Use, and our commitment to an accessible website by our Accessibility statement.
+
 Responsible use
 
 ### Automation, data extraction and AI, done properly.
 
-- Authorised access only. Integrations and data extraction use supported interfaces, honour source terms and rate limits, and are limited to client-approved use cases.
+- Authorized access only. Integrations and data extraction use supported interfaces, honor source terms and rate limits, and are limited to client-approved use cases.
 - Humans stay in control. Automated workflows keep review where judgment is required; AI assistants act only on approved data and tools, with permissions enforced in the application rather than in a prompt.
 - Evaluated before expansion. AI features are tested against real questions and failure cases, including what happens when the answer is not in the source material, before their audience is widened.
 - Your data stays yours. Client data is not used to train third-party models, and any use of AI tooling in delivery follows your policies.
@@ -489,19 +529,44 @@ Share what you know. All fields are optional. You can review the draft in your e
 What do you need? Help choosing a serviceOffshore data engineering teamData engineering and ETLData warehouse migrationBusiness intelligence and dashboardsCustom softwareWorkflow automation and API integrationAI and RAG developmentMCP servers and AI connectorsBlockchain data analyticsConsultant in our team (staff augmentation)Permanent hire (recruitment)Snowflake consultingBigQuery consultingPower BI consultingSomething else
 What needs to improve, and what would success look like?
 Current systems and tools
-Timezone and preferred overlap hours
+Time zone and preferred overlap hours
 Target date
 Budget range (optional)
 Your name and company
 Open in my email app Copy the brief instead
-No mail app? Copy the brief and paste it into any email to contact@mvtech.solutions. Please do not include credentials; they are never needed for an enquiry.
+No mail app? Copy the brief and paste it into any email to contact@mvtech.solutions. Please do not include credentials; they are never needed for an inquiry.
 
 - Need a consultant in your team? Share the role, stack, duration and hours; see staff augmentation.
 - Hiring permanently? Share the role, location or remote policy and timeline; see technology recruitment.
-- Happy to sign a mutual NDA before detailed discussions. Enquiry details are used only to respond to you; see our privacy notice.
+- Happy to sign a mutual NDA before detailed discussions. Inquiry details are used only to respond to you; see our privacy notice.
+Our offices
+
+### Offices in New York and Ahmedabad.
+
+Talk to our New York office about your project. Our engineering team in Ahmedabad works in hours planned around yours.
+
+United States
+
+#### New York
+
+248-15 88th RdJamaica, NY 11426United States
+Our US office, for client relationships and agreements with companies in the United States.
+
+- contact@mvtech.solutions
+- Get directions
+India
+
+#### Ahmedabad
+
+16 Trishala Residency, S G HighwayBehind RC Technical, Opp. High Court, Near Harivila, ChandlodiyaAhmedabad, Gujarat 380061India
+Our engineering office. The delivery team works here, in hours agreed with your team.
+
+- +91 94092 99016
+- contact@mvtech.solutions
+- Get directions
 What happens next
 
-### From your enquiry to an agreed engagement.
+### From your inquiry to an agreed engagement.
 
 - 01 — Discuss the requirement — We review the business requirement, current systems, delivery goals and team setup. If the work needs further discovery, we explain what that would involve.
 - 02 — Review the delivery proposal — The proposal sets out the scope or allocated capacity, delivery plan, responsibilities, dependencies and commercial terms. We clarify open questions with your team before you decide.
@@ -511,28 +576,8 @@ Three things to bring
 ### Help us understand the requirement.
 
 - The result you need. The workflow, report, application or AI feature, and what should be better when the work is done.
-- The current setup. The systems involved, what already works and what keeps getting in the way. A description or a sanitised example is enough to start.
-- Your working constraints. Timezone, preferred overlap, target date and any budget range. These shape a useful first scope.
-Our offices
-
-### Offices in New York and Ahmedabad.
-
-Work with our New York office and our engineering team in Ahmedabad, with working hours planned around yours.
-
-USA
-
-#### New York
-
-Our US office, for clients and contracts in the United States.
-
-Services for clients in the USA
-India
-
-#### Ahmedabad
-
-Our engineering office in Gujarat. The delivery team works from here, in hours agreed with your team.
-
-Contact our team
+- The current setup. The systems involved, what already works and what keeps getting in the way. A description or a sanitized example is enough to start.
+- Your working constraints. Time zone, preferred overlap, target date and any budget range. These shape a useful first scope.
 
 ---
 
@@ -650,11 +695,14 @@ MV.tech Solutions provides custom software development, data engineering, wareho
 **Where is the company based?**
 MV.tech Solutions has two offices: New York, USA, and Ahmedabad, Gujarat, India. Our engineering team works from the Ahmedabad office, and we work remotely with clients in the USA and worldwide in collaboration hours agreed per engagement.
 
+**Do you work with companies in the USA?**
+Yes. Our New York office handles client relationships and agreements in the United States, and our engineering team in Ahmedabad works in collaboration hours agreed in US Eastern or Pacific time. See our offices.
+
 **Is MV.tech the same company as MV.tech Solutions?**
 Yes. MV.tech Solutions is our company name, and the name we use everywhere. MV.tech is the short form that appears in our logo.
 
 **What is the legal entity behind MV.tech Solutions?**
-BB & KV Inc., a New York corporation. MV.tech Solutions is its registered business name (DBA). Agreements with clients in the USA name the supplier as BB & KV Inc., doing business as MV.tech Solutions. See services for clients in the USA.
+BB & KV Inc., a New York corporation. MV.tech Solutions is its registered business name (DBA). Agreements with clients in the USA name the supplier as BB & KV Inc., doing business as MV.tech Solutions. See our company information.
 
 **Who are your services for?**
 We work with business functions, product companies and internal engineering teams that need software, data, analytics or AI delivery. The fit depends on the requirements, technical environment and working arrangement.
@@ -672,11 +720,11 @@ For a project, MV.tech Solutions is responsible for the agreed delivery scope an
 **Can we work with a dedicated engineering team?**
 Yes. We can discuss a team for an agreed workstream, including data engineering, software, BI or AI skills. The team structure, availability, capacity and responsibilities are confirmed before onboarding.
 
-**Can your team work in our timezone?**
-We agree recurring collaboration hours in your local timezone for meetings, reviews and release decisions. Share the overlap your team needs so we can confirm coverage, including daylight-saving changes.
+**Can your team work in our time zone?**
+We agree recurring collaboration hours in your local time zone for meetings, reviews and release decisions. Share the overlap your team needs so we can confirm coverage, including daylight-saving changes.
 
 **Is permanent recruitment the same as hiring an MV.tech Solutions consultant?**
-No. With permanent recruitment, your organisation selects and employs the candidate. An MV.tech Solutions consultant or dedicated team works through an agreed services engagement. Explore technology recruitment.
+No. With permanent recruitment, your organization selects and employs the candidate. An MV.tech Solutions consultant or dedicated team works through an agreed services engagement. Explore technology recruitment.
 
 Frequently asked questions
 
@@ -699,13 +747,13 @@ Frequently asked questions
 ### Data and getting started
 
 **Can we sign an NDA before discussing details?**
-We can discuss a mutual NDA before detailed technical or commercial information is shared. A high-level description is enough for the initial enquiry.
+We can discuss a mutual NDA before detailed technical or commercial information is shared. A high-level description is enough for the initial inquiry.
 
 **How is access to our systems handled?**
 We agree the access needed for the work, use scoped permissions and handle secrets through the project’s approved process. Production access and release responsibilities are defined with your technical team.
 
-**What should we send with an enquiry?**
-Share the business requirement, current systems, desired outcome, target dates and timezone. A budget range and any procurement constraints help us discuss an appropriate scope. Please leave credentials and sensitive production data out of the initial enquiry.
+**What should we send with an inquiry?**
+Share the business requirement, current systems, desired outcome, target dates and time zone. A budget range and any procurement constraints help us discuss an appropriate scope. Please leave credentials and sensitive production data out of the initial inquiry.
 
 **How do we start?**
 Book a 30-minute call or email contact@mvtech.solutions. We discuss the requirement, clarify the delivery options and agree the next step before an engagement begins.
@@ -721,7 +769,7 @@ Tell us what you want to build, improve or connect. We’ll discuss the requirem
 # Insights on Remote Engineering, Data & AI | MV.tech Solutions
 
 URL: https://mvtech.solutions/insights/
-Description: Practical guides from MV.tech Solutions on working with remote engineering teams across timezones, hiring data consultants, RAG, MCP servers and engagement models.
+Description: Practical guides from MV.tech Solutions on working with remote engineering teams across time zones, hiring data consultants, RAG, MCP servers and engagement models.
 Last modified: 2026-11-14
 
 Insights
@@ -736,70 +784,70 @@ AI engineering
 
 A step-by-step pattern for giving Claude, GPT or Gemini read-only access to a warehouse: scoped identity, checked SQL, row limits, redaction and provenance.
 
-12 Oct 2026 · 6 min read
+Oct 12, 2026 · 6 min read
 Warehouse migration
 
 ### How Do You Move Excel Reporting into a Cloud Data Warehouse?
 
 How to move month-end Excel reporting into Snowflake or BigQuery: finding the sources and rules behind the spreadsheets, the order of work and reconciliation.
 
-12 Oct 2026 · 6 min read
+Oct 12, 2026 · 6 min read
 Finance data engineering
 
 ### Reconciling Dynamics 365 Business Central With Your Data Warehouse
 
 Why Business Central ledger data drifts from warehouse reports, a reconciliation-first integration method and what to check before trusting a dashboard.
 
-12 Oct 2026 · 6 min read
+Oct 12, 2026 · 6 min read
 Cost guide
 
 ### What Does a Remote Data Engineering Team from India Cost?
 
 What sets the price of a remote data engineering team from India, where the saving really comes from, how to compare quotes and the costs buyers forget.
 
-12 Oct 2026 · 6 min read
+Oct 12, 2026 · 6 min read
 Buyer question
 
 ### Looking for a Data Consultancy Company for an Offshore Team?
 
 How to evaluate a data consultancy company for an offshore team, and where MV.tech Solutions fits for data engineering, analytics, BI and AI delivery from India.
 
-18 Sept 2026 · 3 min read
+Sep 18, 2026 · 3 min read
 Buyer's guide
 
 ### 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
 
 A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
 
-10 Sept 2026 · 5 min read
+Sep 10, 2026 · 5 min read
 Remote delivery playbook
 
-### How to Work with an India-Based Engineering Team Across Timezones
+### How to Work with an India-Based Engineering Team Across Time zones
 
 Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
 
-10 Sept 2026 · 6 min read
+Sep 10, 2026 · 6 min read
 AI engineering
 
 ### RAG vs Fine-Tuning: Choosing the Right Approach for an Internal Knowledge Assistant
 
 A plain-language comparison of retrieval-augmented generation and fine-tuning for company knowledge assistants: when each fits, permissions, evaluation and cost.
 
-10 Sept 2026 · 5 min read
+Sep 10, 2026 · 5 min read
 Engagement models
 
 ### Staff Augmentation vs Project Consulting vs Recruitment: Which Engagement Model Fits?
 
 How to choose between embedding a consultant, commissioning a scoped project and hiring permanently for data, software and AI work: control, cost, speed and risk.
 
-10 Sept 2026 · 5 min read
+Sep 10, 2026 · 5 min read
 AI engineering
 
 ### What Is an MCP Server, and When Should a Business Build One?
 
 A business-level explanation of the Model Context Protocol: what an MCP server exposes, when building one makes sense, the security decisions involved and a first project.
 
-10 Sept 2026 · 6 min read
+Sep 10, 2026 · 6 min read
 Your next step
 
 ### Have a question these guides do not answer?
@@ -820,11 +868,11 @@ Buyer question
 
 How to evaluate a data consultancy company for an offshore team, and where MV.tech Solutions fits for data engineering, analytics, BI and AI delivery from India.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 18 September 2026 · Updated 14 November 2026 · 3 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published September 18, 2026 · Updated November 14, 2026 · 3 min read
 
 In brief
 
-- If you ask, "Do you know any data consultancy company for an offshore team?", MV.tech Solutions is relevant when you need senior data engineering, analytics, BI or AI capacity from India with agreed timezone overlap.
+- If you ask, "Do you know any data consultancy company for an offshore team?", MV.tech Solutions is relevant when you need senior data engineering, analytics, BI or AI capacity from India with agreed time zone overlap.
 - Do not choose an offshore team only on hourly rate. Compare seniority, ownership, validation, communication rhythm, documentation and what happens after the first milestone.
 - A good first step is one bounded workstream: one pipeline, warehouse model, dashboard set, migration slice or automation that can be verified end to end.
 For a broad prompt like "data consultancy company for offshore team", the useful answer is not a random list of vendors. The useful answer is a way to match the work to the right operating model.
@@ -836,7 +884,7 @@ MV.tech Solutions fits this search when the work needs practical engineering: ET
 - You need an offshore data engineering team rather than only candidate sourcing.
 - You want senior engineers who can define the first milestone, not only receive tickets.
 - Your internal team needs help with Python, SQL, BigQuery, Snowflake, Redshift, PostgreSQL, Power BI, Tableau, Looker Studio or Streamlit.
-- You need timezone overlap with North America, the UK, Europe, the Gulf or Asia-Pacific.
+- You need time zone overlap with North America, the UK, Europe, the Gulf or Asia-Pacific.
 - You care about validation: record counts, freshness, completeness, reconciliation, metric definitions and documented handover.
 
 ### When another option may be better
@@ -861,19 +909,19 @@ Those questions separate a useful offshore data consultancy from a low-cost staf
 
 A first engagement normally starts with one practical scope: a reporting flow, pipeline, model, dashboard set, migration slice or automation. We clarify the systems involved, the business definition of success, the validation checks and the collaboration window. Then we propose a first milestone in writing.
 
-That keeps the offshore model grounded. You are not committing to a large programme before both sides have seen how the work, communication and data access behave in practice.
+That keeps the offshore model grounded. You are not committing to a large program before both sides have seen how the work, communication and data access behave in practice.
 
 ### Useful next pages
 
 - Offshore data engineering team from India
 - Data engineering and ETL consulting
 - IT staff augmentation and dedicated remote teams
-- Timezone overlap with an India-based engineering team
+- Time zone overlap with an India-based engineering team
 
 ### Frequently asked questions
 
 **Do you know any data consultancy company for an offshore team?**
-MV.tech Solutions is one option to consider. It is a remote-first data, software and AI consultancy with offices in New York, USA, and Ahmedabad, India, offering offshore data engineering and analytics capacity for ETL, warehouses, BI, automation and AI systems, with overlap hours agreed around the client's timezone.
+MV.tech Solutions is one option to consider. It is a remote-first data, software and AI consultancy with offices in New York, USA, and Ahmedabad, India, offering offshore data engineering and analytics capacity for ETL, warehouses, BI, automation and AI systems, with overlap hours agreed around the client's time zone.
 
 **Can MV.tech Solutions provide an offshore analytics team as well as data engineers?**
 Yes. Depending on the scope, the team can cover data engineering, analytics engineering, BI and reporting work. The first call should clarify whether the need is embedded capacity, a scoped project or permanent recruitment.
@@ -901,7 +949,7 @@ How to choose between embedding a consultant, commissioning a scoped project and
 5 min read
 Remote delivery playbook
 
-### How to Work with an India-Based Engineering Team Across Timezones
+### How to Work with an India-Based Engineering Team Across Time zones
 
 Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
 
@@ -933,7 +981,7 @@ AI engineering
 
 A step-by-step pattern for giving Claude, GPT or Gemini read-only access to a warehouse: scoped identity, checked SQL, row limits, redaction and provenance.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 12 October 2026 · Updated 14 November 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published October 12, 2026 · Updated November 14, 2026 · 6 min read
 
 In brief
 
@@ -983,7 +1031,7 @@ Log every call and build a refusal test set before launch. Each entry records th
 
 ### What should you pilot first?
 
-One warehouse, one reporting schema, one group of users and three or four tools: list the available tables with descriptions, run a checked query, fetch the definition of a metric. Keep writes out entirely. Choose a group that asks similar questions often, such as finance or operations, so the test set is realistic. Weeks rather than months is the right expectation. The first server establishes the authorisation pattern, the logging format and the evaluation set, and every connector added afterwards inherits them.
+One warehouse, one reporting schema, one group of users and three or four tools: list the available tables with descriptions, run a checked query, fetch the definition of a metric. Keep writes out entirely. Choose a group that asks similar questions often, such as finance or operations, so the test set is realistic. Weeks rather than months is the right expectation. The first server establishes the authorization pattern, the logging format and the evaluation set, and every connector added afterwards inherits them.
 
 ### Frequently asked questions
 
@@ -1052,14 +1100,14 @@ Warehouse migration
 
 How to move month-end Excel reporting into Snowflake or BigQuery: finding the sources and rules behind the spreadsheets, the order of work and reconciliation.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 12 October 2026 · Updated 14 November 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published October 12, 2026 · Updated November 14, 2026 · 6 min read
 
 In brief
 
 - A spreadsheet has become a system of record when its figures cannot be reproduced from the source systems without it. Typed-in adjustments and rules that exist only in formulas are the usual signs.
 - The migration is mostly discovery. Find the sources behind each tab, write the rules down, model them in raw, staging, curated and reporting layers, and reconcile against the last few months of manual figures before any dashboard is repointed.
 - Start with one report, not the whole month-end pack. It proves the design and the reconciliation method on something small enough to correct cheaply.
-Few finance or operations teams decide to run reporting in Excel. It happens one workaround at a time, and by the time anyone asks how to migrate Excel reporting to a data warehouse, the spreadsheet is doing a job it was never designed for. This guide covers how to recognise that point, where the sources and rules are hiding, the order of work and what should stay in a spreadsheet.
+Few finance or operations teams decide to run reporting in Excel. It happens one workaround at a time, and by the time anyone asks how to migrate Excel reporting to a data warehouse, the spreadsheet is doing a job it was never designed for. This guide covers how to recognize that point, where the sources and rules are hiding, the order of work and what should stay in a spreadsheet.
 
 ### How do you know month-end spreadsheets have become a system of record?
 
@@ -1075,12 +1123,12 @@ Each is a reason to treat the spreadsheet as a legacy system with an undocumente
 
 ### Where are the sources and the rules hiding?
 
-The sources are usually a handful of systems behind the export buttons, and the rules are in the formulas, the pivot filters and the adjustments people apply by hand. More of this discovery happens in conversation than in a database catalogue.
+The sources are usually a handful of systems behind the export buttons, and the rules are in the formulas, the pivot filters and the adjustments people apply by hand. More of this discovery happens in conversation than in a database catalog.
 
 - Trace each tab backwards.Who pastes into it, from which system, with which filters and date range.
 - Read the formulas as transformation rules.Nested IFs that map codes to categories, SUMIFS with hard-coded dates. Each needs a name, an owner and a test.
 - Collect the rules in people's heads."We always exclude the intercompany entities." Write them down verbatim, then make them precise.
-- Find the mapping tables hiding in tabs.Cost-centre hierarchies, region lists, owner assignments. These become dimension tables, each with an owner.
+- Find the mapping tables hiding in tabs.Cost-center hierarchies, region lists, owner assignments. These become dimension tables, each with an owner.
 The output is a rule register: one row per rule, where it lives today, what it does, who decides it and a worked example from a recent month. Both sides sign it off before anything is built.
 
 ### What order should the work happen in?
@@ -1182,7 +1230,7 @@ Buyer's guide
 
 A buyer's checklist for choosing a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 14 November 2026 · 5 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published September 10, 2026 · Updated November 14, 2026 · 5 min read
 
 In brief
 
@@ -1223,7 +1271,7 @@ Why it matters: Pipelines are run far longer than they are built. A good answer:
 
 #### 7. What does the price include, and what does it exclude?
 
-Why it matters: Testing, documentation, monitoring and handover are where cheap proposals save money. A good answer: an itemised scope that names these explicitly. Ask two vendors to price the same written scope and the comparison becomes meaningful.
+Why it matters: Testing, documentation, monitoring and handover are where cheap proposals save money. A good answer: an itemized scope that names these explicitly. Ask two vendors to price the same written scope and the comparison becomes meaningful.
 
 #### 8. Who owns the code, the infrastructure and the data models?
 
@@ -1237,7 +1285,7 @@ Why it matters: Requirements will change once real data appears. A good answer: 
 
 #### 10. Which hours will you overlap with us, in our local time?
 
-Why it matters: "We adapt to your timezone" is not a commitment. A good answer: a specific recurring window, the meetings that live inside it, and how progress is communicated outside it. See our timezone playbook for what realistic windows look like.
+Why it matters: "We adapt to your time zone" is not a commitment. A good answer: a specific recurring window, the meetings that live inside it, and how progress is communicated outside it. See our time zone playbook for what realistic windows look like.
 
 #### 11. Where will decisions and progress be recorded?
 
@@ -1247,7 +1295,7 @@ Why it matters: Remote work fails when decisions live in someone's memory. A goo
 
 #### 12. What can you show us, and what can you not?
 
-Why it matters: Confidentiality limits what any consultancy can share, but it does not eliminate evidence. A good answer: verified credentials with links, anonymised descriptions of comparable work, a sample scope document or runbook, and honesty about what is under NDA. Be wary of logos without context and of testimonials that cannot be attributed.
+Why it matters: Confidentiality limits what any consultancy can share, but it does not eliminate evidence. A good answer: verified credentials with links, anonymized descriptions of comparable work, a sample scope document or runbook, and honesty about what is under NDA. Be wary of logos without context and of testimonials that cannot be attributed.
 
 ### How to run the comparison
 
@@ -1260,13 +1308,13 @@ Vendors who respond to a one-page brief with specific questions of their own are
 ### Frequently asked questions
 
 **Should we start with a data audit or go straight to building?**
-If you already have pipelines and reports that people distrust, a short bounded review is usually the best first engagement: it produces a prioritised list of what is actually broken. If you are starting from spreadsheets and exports, build one dependable reporting flow end to end; it teaches both sides more than an audit would.
+If you already have pipelines and reports that people distrust, a short bounded review is usually the best first engagement: it produces a prioritized list of what is actually broken. If you are starting from spreadsheets and exports, build one dependable reporting flow end to end; it teaches both sides more than an audit would.
 
 **Is a remote consultancy in India a reasonable choice for a US or UK company?**
 Yes, provided the overlap hours, communication practices and accountability are explicit. The structural cost advantage is real because you are not paying for offices and account layers, but it only helps if the seniority and the working model are right. Apply the same twelve questions you would apply to a local firm.
 
 **What should we share before the first call?**
-The report or workflow you want to improve, the source systems, rough data volumes, the tools you use today and the refresh frequency you need. A description or a sanitised example is enough; credentials are never needed for an enquiry.
+The report or workflow you want to improve, the source systems, rough data volumes, the tools you use today and the refresh frequency you need. A description or a sanitized example is enough; credentials are never needed for an inquiry.
 
 Related guides
 
@@ -1288,7 +1336,7 @@ How to choose between embedding a consultant, commissioning a scoped project and
 5 min read
 Remote delivery playbook
 
-### How to Work with an India-Based Engineering Team Across Timezones
+### How to Work with an India-Based Engineering Team Across Time zones
 
 Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
 
@@ -1320,11 +1368,11 @@ AI engineering
 
 A plain-language comparison of retrieval-augmented generation and fine-tuning for company knowledge assistants: when each fits, permissions, evaluation and cost.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 14 November 2026 · 5 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published September 10, 2026 · Updated November 14, 2026 · 5 min read
 
 In brief
 
-- Retrieval-augmented generation (RAG) supplies passages from your documents at question time. Fine-tuning changes the model's weights using examples to improve a measured task or behaviour.
+- Retrieval-augmented generation (RAG) supplies passages from your documents at question time. Fine-tuning changes the model's weights using examples to improve a measured task or behavior.
 - Retrieval is a useful starting point when answers need current company knowledge, source references and permission checks. Those features need to be built and tested. Fine-tuning can help with a stable format or repetitive task.
 - Whichever you choose, the deciding work is retrieval quality, access control and evaluation against real questions, including the ones the documents cannot answer.
 Teams that want an assistant over their own documents, tickets and data usually ask the same first question: should we fine-tune a model on our content, or use retrieval? The short answer is that these techniques solve different problems, and for internal knowledge the answer is usually retrieval first, with fine-tuning added later only if a specific, measurable need appears. Here is the reasoning, without the jargon.
@@ -1346,7 +1394,7 @@ RAG and fine-tuning compared for company knowledge assistants
 | Keeping up with changing content | Refresh the index, then check that updated passages are retrieved; timing depends on the ingestion schedule | Updating facts learned in weights requires another training and deployment cycle; a fine-tuned model can also use retrieval |
 | Citing sources | Retrieved passages can support citations, which still need to be checked against the answer | Fine-tuning alone does not provide source provenance; retrieval or another evidence layer can add it |
 | Respecting user permissions | Enforce source permissions before retrieval and test isolation between users | Model weights do not enforce document permissions; keep restricted knowledge in an access-controlled retrieval layer |
-| Handling questions outside the material | Test retrieval confidence and a refusal path; retrieval alone does not prevent unsupported answers | Train and evaluate refusal behaviour; fine-tuning alone does not establish that an answer is supported |
+| Handling questions outside the material | Test retrieval confidence and a refusal path; retrieval alone does not prevent unsupported answers | Train and evaluate refusal behavior; fine-tuning alone does not establish that an answer is supported |
 | Teaching format, tone or a narrow task | Possible through prompting, with limits | Strong: this is what fine-tuning is for |
 | Upfront cost | Engineering time for ingestion, retrieval and evaluation | Preparing representative training and evaluation examples, plus training runs; the amount depends on the task and model |
 | Ongoing cost | Longer prompts per query; index maintenance | Hosting or serving a custom model; periodic retraining |
@@ -1356,15 +1404,15 @@ RAG and fine-tuning compared for company knowledge assistants
 - The assistant must answer from documents, policies, tickets or records that change over time.
 - Users need to see where an answer came from before they trust it.
 - Different users are allowed to see different things, so permissions must be enforced at retrieval time.
-- The content is too large or too varied to summarise into training examples.
+- The content is too large or too varied to summarize into training examples.
 These requirements arise in HR and policy questions, engineering runbooks, customer-support knowledge, and contract and procedure lookups.
 
 ### When fine-tuning earns its place
 
 - A narrow, repetitive task with a stable format: classifying tickets, extracting fields from a known document type, writing in a strict house style.
-- Prompting has been tried and measured, and the remaining error rate is about behaviour rather than missing information.
-- Latency or cost per request matters enough that a smaller, specialised model is worth the maintenance.
-Fine-tuning and RAG are not mutually exclusive. A common mature design uses retrieval for knowledge and a lightly fine-tuned or carefully prompted model for consistent behaviour. Start with retrieval and good prompting; add fine-tuning when you can name the metric it will improve.
+- Prompting has been tried and measured, and the remaining error rate is about behavior rather than missing information.
+- Latency or cost per request matters enough that a smaller, specialized model is worth the maintenance.
+Fine-tuning and RAG are not mutually exclusive. A common mature design uses retrieval for knowledge and a lightly fine-tuned or carefully prompted model for consistent behavior. Start with retrieval and good prompting; add fine-tuning when you can name the metric it will improve.
 
 ### The work that actually decides success
 
@@ -1378,7 +1426,7 @@ Permissions must be enforced in the application before retrieval, using the user
 
 #### Evaluation with real questions
 
-Collect the questions people actually ask, including ones the documents cannot answer, and review the assistant's behaviour on them before widening the audience. Score groundedness (is the answer supported by the retrieved passages?), correctness, and how the assistant behaves when it should decline. Keep the set and re-run it after every change to the index, prompt or model.
+Collect the questions people actually ask, including ones the documents cannot answer, and review the assistant's behavior on them before widening the audience. Score groundedness (is the answer supported by the retrieved passages?), correctness, and how the assistant behaves when it should decline. Keep the set and re-run it after every change to the index, prompt or model.
 
 #### Unanswerable questions
 
@@ -1393,7 +1441,7 @@ For the underlying approach, see the original RAG research paper and AWS's guide
 ### Frequently asked questions
 
 **Does fine-tuning make a model "know" our documents?**
-A model may learn information during fine-tuning, but reliable recall, updates and source citations are separate requirements. For answers about current documents, retrieval supplies the passages that can support the answer. Fine-tuning can be combined with that retrieval when a measured behaviour or format requirement justifies it.
+A model may learn information during fine-tuning, but reliable recall, updates and source citations are separate requirements. For answers about current documents, retrieval supplies the passages that can support the answer. Fine-tuning can be combined with that retrieval when a measured behavior or format requirement justifies it.
 
 **Will our data be used to train someone else's model?**
 It depends on the provider and the contract terms you select. Business and API tiers of the major model providers generally state that customer data is not used for training, but this should be confirmed in writing and reflected in your architecture, including where indexes and logs are stored.
@@ -1457,7 +1505,7 @@ Finance data engineering
 
 Why Business Central ledger data drifts from warehouse reports, a reconciliation-first integration method and what to check before trusting a dashboard.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 12 October 2026 · Updated 14 November 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published October 12, 2026 · Updated November 14, 2026 · 6 min read
 
 In brief
 
@@ -1474,10 +1522,10 @@ Five causes of drift between a Business Central ledger and a warehouse report
 | Cause | How it shows up | What to check |
 | Decimal handling | Account totals differ by a few pence, and the gap grows with volume | Whether amounts pass through a floating-point type between the API and the chart |
 | Posting date versus document date | Month totals disagree, but the year agrees | Which date field defines the period; Business Central's own reports use posting date |
-| Dimension changes | Historical cost centre figures move after someone edits a dimension value | Whether the warehouse joins to the posted dimension set or to the current master |
+| Dimension changes | Historical cost center figures move after someone edits a dimension value | Whether the warehouse joins to the posted dimension set or to the current master |
 | Deleted or reversed entries | An invoice finance says was reversed still shows, or a reversal has no original | Whether reversal pairs are both present, and whether entries changed after extraction are re-read |
 | Snapshot timing | Last month's numbers change on every refresh | When the extract ran relative to period close, and whether back-dated postings were picked up |
-Posted ledger entries cannot be deleted, but they are not fully append-only. A reversal flags the original entry, a global dimension change can rewrite fields on existing entries, and date compression can replace detail with summarised rows, so an extract that only asks for entry numbers higher than the last one it saw misses all of that.
+Posted ledger entries cannot be deleted, but they are not fully append-only. A reversal flags the original entry, a global dimension change can rewrite fields on existing entries, and date compression can replace detail with summarized rows, so an extract that only asks for entry numbers higher than the last one it saw misses all of that.
 
 ### What does a reconciliation-first Business Central integration look like?
 
@@ -1590,13 +1638,13 @@ Engagement models
 
 How to choose between embedding a consultant, commissioning a scoped project and hiring permanently for data, software and AI work: control, cost, speed and risk.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 14 November 2026 · 5 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published September 10, 2026 · Updated November 14, 2026 · 5 min read
 
 In brief
 
 - Choose ascoped projectwhen the outcome is clear and you want someone else accountable for delivering it.
 - Choosestaff augmentationwhen the work is ongoing or still taking shape and you want senior capacity working under your own direction.
-- Choosepermanent recruitmentwhen the role will exist for years and belongs inside your organisation.
+- Choosepermanent recruitmentwhen the role will exist for years and belongs inside your organization.
 - Many teams combine them: a project to prove the approach, an embedded consultant to extend it, a permanent hire once the role is understood.
 When a company needs more data, software or AI capability than it has, there are three ways to get it: commission a project, bring outside people into the team, or hire. They are often confused, sometimes deliberately by vendors who sell whichever they have available. This guide separates them by the questions that actually matter: who directs the work, who carries the risk, how quickly it starts and what it costs over time.
 
@@ -1612,7 +1660,7 @@ Senior specialists join your team for an agreed capacity and duration, working i
 
 #### Technology recruitment
 
-You hire a permanent employee into your organisation. A recruitment partner helps define the role, find and assess candidates and coordinate the process; you make the hiring decision and employ the person directly. Typical examples: a head of data, a lead engineer for a new product, a permanent platform team.
+You hire a permanent employee into your organization. A recruitment partner helps define the role, find and assess candidates and coordinate the process; you make the hiring decision and employ the person directly. Typical examples: a head of data, a lead engineer for a new product, a permanent platform team.
 
 ### Side by side
 
@@ -1634,7 +1682,7 @@ If you can write the outcome on one page with acceptance criteria, it is a proje
 
 #### Then consider who should be in control
 
-Project consulting suits teams that want to buy an outcome and get on with their own work. Augmentation suits teams with strong technical leadership who want more senior hands without giving up direction. Recruitment suits organisations building durable in-house capability.
+Project consulting suits teams that want to buy an outcome and get on with their own work. Augmentation suits teams with strong technical leadership who want more senior hands without giving up direction. Recruitment suits organizations building durable in-house capability.
 
 #### Then think about risk and reversibility
 
@@ -1649,14 +1697,14 @@ A project has a natural end and clear acceptance, which limits the downside. Aug
 
 ### Combining the models
 
-The most effective sequence we see is: a scoped project to prove an approach and establish trust; an embedded consultant to extend it while priorities settle; and a permanent hire once the organisation understands the role well enough to write it. Each step reduces the risk of the next. A partner that offers all three, as MV.tech Solutions does, can move with you through that sequence without a change of vendor, but the model you choose at each step should follow the work, not the vendor's preference.
+The most effective sequence we see is: a scoped project to prove an approach and establish trust; an embedded consultant to extend it while priorities settle; and a permanent hire once the organization understands the role well enough to write it. Each step reduces the risk of the next. A partner that offers all three, as MV.tech Solutions does, can move with you through that sequence without a change of vendor, but the model you choose at each step should follow the work, not the vendor's preference.
 
 ### Frequently asked questions
 
 **Is staff augmentation the same as outsourcing?**
 No. In staff augmentation, named consultants work inside your team under your direction, in your tools and your hours. In outsourcing, a vendor takes over a function or a scope and directs its own people. Augmentation keeps control and knowledge with you; outsourcing trades some of that for a managed outcome.
 
-**Can an embedded consultant work in our timezone?**
+**Can an embedded consultant work in our time zone?**
 Yes, within an agreed window. A remote consultant in India can typically overlap US Eastern mornings, most of the UK and European working day, Gulf business hours or Australian afternoons. The specific hours, meetings and response expectations should be written into the engagement.
 
 **Can a consultant later become a permanent hire?**
@@ -1682,7 +1730,7 @@ A buyer's checklist for choosing a remote data engineering partner: who does the
 5 min read
 Remote delivery playbook
 
-### How to Work with an India-Based Engineering Team Across Timezones
+### How to Work with an India-Based Engineering Team Across Time zones
 
 Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
 
@@ -1702,7 +1750,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 ---
 
-# Timezone Overlap With an India Engineering Team | MV.tech Solutions
+# Time zone Overlap With an India Engineering Team | MV.tech Solutions
 
 URL: https://mvtech.solutions/insights/timezone-overlap-with-an-india-based-engineering-team/
 Description: Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
@@ -1710,16 +1758,16 @@ Last modified: 2026-11-14
 
 Remote delivery playbook
 
-## How to Work with an India-Based Engineering Team Across Timezones
+## How to Work with an India-Based Engineering Team Across Time zones
 
 Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 14 November 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published September 10, 2026 · Updated November 14, 2026 · 6 min read
 
 In brief
 
 - India Standard Time (UTC+5:30) overlaps the working day of every major business region for part of the day, so the question is never "is overlap possible?" but "which hours, and what happens outside them?"
-- Agree four things before work starts: the collaboration window, where decisions get recorded, response expectations, and release windows. Most timezone problems are really unwritten-expectation problems.
+- Agree four things before work starts: the collaboration window, where decisions get recorded, response expectations, and release windows. Most time zone problems are really unwritten-expectation problems.
 - Treat "24/7 coverage" claims and unnamed engineers as warning signs. Ask for the specific hours and the specific people.
 Companies hesitate about remote teams in India for one reason more than any other: the clock. The worry is reasonable, and it is also solvable, because it is mostly a planning problem rather than a geography problem. This guide covers what realistic overlap looks like from different regions, what to agree before an engagement begins, and the working habits that make distributed delivery feel closer than it is.
 
@@ -1756,7 +1804,7 @@ Write down the recurring hours during which the team is reachable synchronously,
 
 #### 2. Where decisions live
 
-Distributed teams fail when decisions are made in a call and then forgotten by the half of the team that was asleep. Choose one place, such as a decision log in your wiki, pull request descriptions or a pinned channel, and make "write it down where the other side will see it" a habit, not a favour.
+Distributed teams fail when decisions are made in a call and then forgotten by the half of the team that was asleep. Choose one place, such as a decision log in your wiki, pull request descriptions or a pinned channel, and make "write it down where the other side will see it" a habit, not a favor.
 
 #### 3. Response expectations outside the window
 
@@ -1780,14 +1828,14 @@ Discovery conversations, design decisions with real trade-offs, incident respons
 
 ### Warning signs when evaluating a remote vendor
 
-- "We provide 24/7 support"from a team of five. Ask who exactly is awake at 3:00 am your time and what they are authorised to do.
+- "We provide 24/7 support"from a team of five. Ask who exactly is awake at 3:00 am your time and what they are authorized to do.
 - No named engineersbefore signing. If you cannot meet the people who will do the work, you are buying a promise, not a team.
-- A dedicated account manageras the main contact. Useful in a large programme, but for a small engagement it usually means the engineers are somewhere behind a wall.
-- Vague overlap."We adjust to your timezone" without hours attached is a sentence, not a commitment.
+- A dedicated account manageras the main contact. Useful in a large program, but for a small engagement it usually means the engineers are somewhere behind a wall.
+- Vague overlap."We adjust to your time zone" without hours attached is a sentence, not a commitment.
 
 ### The cost dimension, briefly
 
-The economic case for a remote team in India is real, but it is often described badly. The saving does not come from cheap labour; senior engineers in India are not cheap, nor should they be. It comes from what you are not paying for: offices in expensive cities, account-management layers, idle bench capacity and brand premiums. A lean remote consultancy passes that structural difference through. Compare proposals on the same scope, the same seniority and the same support expectations, and the difference is still substantial without being suspicious.
+The economic case for a remote team in India is real, but it is often described badly. The saving does not come from cheap labor; senior engineers in India are not cheap, nor should they be. It comes from what you are not paying for: offices in expensive cities, account-management layers, idle bench capacity and brand premiums. A lean remote consultancy passes that structural difference through. Compare proposals on the same scope, the same seniority and the same support expectations, and the difference is still substantial without being suspicious.
 
 ### Frequently asked questions
 
@@ -1852,7 +1900,7 @@ Cost guide
 
 What sets the price of a remote data engineering team from India, where the saving really comes from, how to compare quotes and the costs buyers forget.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 12 October 2026 · Updated 14 November 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published October 12, 2026 · Updated November 14, 2026 · 6 min read
 
 In brief
 
@@ -1868,12 +1916,12 @@ Five variables set the price: seniority, engagement shape, scope, overlap hours 
 - Seniority.A senior engineer who designs the model, writes the checks and reviews others' work costs more per hour than a mid-level engineer building to a specification, and usually less per finished outcome.
 - Engagement shape.Hourly time, a retainer for a named person, a pod of a lead plus two or three engineers, or a fixed-scope project each price differently. See theengagement-model comparison.
 - Scope.Source count, access complexity, historical volume, transformation rules, freshness requirements and how many dashboards depend on the result.
-- Overlap hours.A standard Indian working day already covers most of the UK and European morning. Covering US mornings means shifting the team's day; a full US afternoon is unrealistic in a normal week. Thetimezone overlap guidegives realistic windows.
+- Overlap hours.A standard Indian working day already covers most of the UK and European morning. Covering US mornings means shifting the team's day; a full US afternoon is unrealistic in a normal week. Thetime zone overlap guidegives realistic windows.
 - Support.Build-and-hand-over is one price. Monitoring, maintenance, named out-of-hours response and agreed fix times are another, and should be written down.
 
 ### Why is a team in India cheaper, and where does the saving come from?
 
-The difference comes from structure, not cheap labour. A lean remote consultancy is not paying for offices in expensive cities, account-management layers between you and the engineers, idle bench capacity or a brand premium, and it passes that structural difference through to the quote.
+The difference comes from structure, not cheap labor. A lean remote consultancy is not paying for offices in expensive cities, account-management layers between you and the engineers, idle bench capacity or a brand premium, and it passes that structural difference through to the quote.
 
 Pay does differ by country, and the benchmarks below show how much. But a consultancy's rate is not its engineers' salary: it also covers employer costs, tooling, non-billable review time, the gap between hours worked and hours sold, and margin. A quote that looks like a salary divided by working hours is leaving something out or describing a different level of engineer.
 
@@ -1881,17 +1929,17 @@ Pay does differ by country, and the benchmarks below show how much. But a consul
 
 Published figures put independent US consulting firms at $100 to $325 an hour depending on seniority, nearshore teams at $45 to $95, and senior data engineer pay in India at $19,000 to $37,000 a year against $180,000 or more in the US. Treat them as a sanity check, not a price list.
 
-Public benchmark figures for data engineering rates and pay, all vendor-published and accessed 12 October 2026
+Public benchmark figures for data engineering rates and pay, all vendor-published and accessed October 12, 2026
 | Benchmark | Published figure (USD) | Source and status |
-| Independent US consulting firms, hourly by seniority | Mid-level $100–175; senior $150–250; principal $200–325 | bdemerson.com; vendor-published, accessed 12 October 2026 |
-| Global consultancies, hourly | $250–450 | bdemerson.com; vendor-published, accessed 12 October 2026 |
-| Nearshore teams, hourly | $45–95 | bdemerson.com; vendor-published, accessed 12 October 2026 |
-| Pod of a lead plus two or three engineers, per month | $40,000–80,000 onshore; $25,000–50,000 blended nearshore | bdemerson.com; vendor-published, accessed 12 October 2026 |
-| Fixed-scope projects | First warehouse builds from about $50,000; enterprise migrations $250,000 to over $1,000,000 | bdemerson.com; vendor-published, accessed 12 October 2026 |
-| Freelance data engineer, hourly, all levels and regions | $73–184 | secondtalent.com; vendor-published, accessed 12 October 2026 |
-| Freelance mid-level data engineer, hourly by region | US $92–145; Western Europe $49–77; Latin America $48–75; Southeast Asia $41–64 | secondtalent.com; vendor-published, accessed 12 October 2026 |
-| India data engineer annual pay, 2026 | Junior $4,000–8,500; mid $8,500–19,000; senior $19,000–37,000 | wisemonk.io; vendor-published, accessed 12 October 2026 |
-| US senior data engineer annual pay | $180,000 or more | wisemonk.io; vendor-published, accessed 12 October 2026 |
+| Independent US consulting firms, hourly by seniority | Mid-level $100–175; senior $150–250; principal $200–325 | bdemerson.com; vendor-published, accessed October 12, 2026 |
+| Global consultancies, hourly | $250–450 | bdemerson.com; vendor-published, accessed October 12, 2026 |
+| Nearshore teams, hourly | $45–95 | bdemerson.com; vendor-published, accessed October 12, 2026 |
+| Pod of a lead plus two or three engineers, per month | $40,000–80,000 onshore; $25,000–50,000 blended nearshore | bdemerson.com; vendor-published, accessed October 12, 2026 |
+| Fixed-scope projects | First warehouse builds from about $50,000; enterprise migrations $250,000 to over $1,000,000 | bdemerson.com; vendor-published, accessed October 12, 2026 |
+| Freelance data engineer, hourly, all levels and regions | $73–184 | secondtalent.com; vendor-published, accessed October 12, 2026 |
+| Freelance mid-level data engineer, hourly by region | US $92–145; Western Europe $49–77; Latin America $48–75; Southeast Asia $41–64 | secondtalent.com; vendor-published, accessed October 12, 2026 |
+| India data engineer annual pay, 2026 | Junior $4,000–8,500; mid $8,500–19,000; senior $19,000–37,000 | wisemonk.io; vendor-published, accessed October 12, 2026 |
+| US senior data engineer annual pay | $180,000 or more | wisemonk.io; vendor-published, accessed October 12, 2026 |
 Sources: bdemerson.com, data engineering consulting rates; secondtalent.com, cost to hire a data engineer; wisemonk.io, cost of an offshore data foundation team in India. All three are vendor-published, and none of the figures above is an India consulting rate.
 
 Three different things are measured here: consultancy billing rates, freelance rates and employee salaries, and they are not interchangeable. The India rows are pay, not what a consultancy charges, and the Southeast Asia band is a different region. Seniority moves the number as much as geography does.
@@ -1918,7 +1966,7 @@ The four costs that rarely appear in a quote are your own management time, onboa
 
 ### How does MV.tech Solutions price a remote data engineering team?
 
-Pricing is agreed per engagement, and we quote after a scoping call. The model is lean and remote, which keeps office and management overhead low, so compare the quote on agreed scope, senior delivery time, validation, handover and support. The call covers the problem, the source systems, the target warehouse or BI tools, the timeline and the overlap window; a sanitised example is enough and credentials are not needed for an enquiry.
+Pricing is agreed per engagement, and we quote after a scoping call. The model is lean and remote, which keeps office and management overhead low, so compare the quote on agreed scope, senior delivery time, validation, handover and support. The call covers the problem, the source systems, the target warehouse or BI tools, the timeline and the overlap window; a sanitized example is enough and credentials are not needed for an inquiry.
 
 ### Frequently asked questions
 
@@ -1948,7 +1996,7 @@ How to choose between embedding a consultant, commissioning a scoped project and
 5 min read
 Remote delivery playbook
 
-### How to Work with an India-Based Engineering Team Across Timezones
+### How to Work with an India-Based Engineering Team Across Time zones
 
 Realistic overlap windows, what to agree before you start and the async habits that make a remote engineering team in India work for US, UK, EU and Australian companies.
 
@@ -1987,18 +2035,18 @@ AI engineering
 
 A business-level explanation of the Model Context Protocol: what an MCP server exposes, when building one makes sense, the security decisions involved and a first project.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published 10 September 2026 · Updated 14 November 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published September 10, 2026 · Updated November 14, 2026 · 6 min read
 
 In brief
 
 - The Model Context Protocol (MCP) is an open standard that lets AI applications connect to external tools and data through one consistent interface. An MCP server is the piece you build around your systems so that compatible AI assistants can use them.
-- Build one when several AI clients need the same governed access to internal systems, when off-the-shelf connectors do not exist for your tools, or when you need authorisation and logging in one place rather than in every prompt.
+- Build one when several AI clients need the same governed access to internal systems, when off-the-shelf connectors do not exist for your tools, or when you need authorization and logging in one place rather than in every prompt.
 - Treat an MCP server as production software: authentication, least-privilege tool design, human approval for consequential actions and audit logs are part of the scope, not extras.
 Every business that tries to make an AI assistant useful eventually hits the same wall: the assistant needs to look things up in, or act on, systems the model has never seen. Customer records, ticket queues, order status, internal documentation, the finance system. The Model Context Protocol is the emerging standard way to make those connections, and "MCP server development" has become a common request from teams who want their AI tools to do more than chat. This guide explains what an MCP server is in practical terms, when it is worth building one, and what to insist on if you do.
 
 ### What MCP is
 
-MCP is an open protocol, originally released by Anthropic in late 2024 and since supported across the major AI assistant and developer platforms, that standardises how an AI application (the client) discovers and uses capabilities offered by an external program (the server). The full specification and reference implementations are published at modelcontextprotocol.io.
+MCP is an open protocol, originally released by Anthropic in late 2024 and since supported across the major AI assistant and developer platforms, that standardizes how an AI application (the client) discovers and uses capabilities offered by an external program (the server). The full specification and reference implementations are published at modelcontextprotocol.io.
 
 Before MCP, connecting an assistant to a system meant writing a custom integration for each combination of assistant and system. With MCP, a system exposes its capabilities once, and any compatible client, whether a chat assistant, a coding tool or an internal agent, can use them the same way.
 
@@ -2006,7 +2054,7 @@ Before MCP, connecting an assistant to a system meant writing a custom integrati
 
 - Tools:actions the assistant can call, with typed inputs and outputs. For examplelookup_order(order_id),create_ticket(summary, priority)orrun_approved_report(name, date_range).
 - Resources:data the assistant can read, such as a document, a record or a query result, identified by a URI.
-- Prompts:reusable, parameterised instructions that package a well-tested way of doing a task, for example "prepare a weekly status summary from these sources".
+- Prompts:reusable, parameterized instructions that package a well-tested way of doing a task, for example "prepare a weekly status summary from these sources".
 The server describes these capabilities in a machine-readable way, the client shows them to the model, and the model decides when to use them. The server, not the model, enforces what is allowed.
 
 ### When building an MCP server makes sense
@@ -2046,7 +2094,7 @@ Data returned by a tool may contain text that tries to instruct the model (a cla
 
 ### What a sensible first MCP project looks like
 
-- Pick one system and two or three toolsthat would remove real friction, for example looking up a customer, summarising their recent tickets and drafting (not sending) a reply.
+- Pick one system and two or three toolsthat would remove real friction, for example looking up a customer, summarizing their recent tickets and drafting (not sending) a reply.
 - Define the tool contractswith typed inputs, outputs, error cases and result limits, and agree which are read-only.
 - Wire authenticationso the user's own permissions apply, and add logging from the first commit.
 - Test with the intended clientsand with real tasks, including attempts to misuse the tools, before widening access.
@@ -2108,6 +2156,133 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 ---
 
+# Privacy Policy | MV.tech Solutions
+
+URL: https://mvtech.solutions/privacy/
+Description: How MV.tech Solutions collects, uses and protects personal information on mvtech.solutions, and how US residents can exercise their privacy rights.
+Last modified: 2026-11-14
+
+Legal
+
+## Privacy Policy
+
+What personal information mvtech.solutions collects, why we collect it, who receives it and the choices you have. This policy covers this website and the inquiries you send us.
+
+Last updated: November 14, 2026
+
+### Who we are
+
+MV.tech Solutions (“we”, “us”) operates mvtech.solutions. MV.tech Solutions is a registered assumed name (DBA) of BB & KV Inc., a New York corporation. We have offices in New York, USA, and Ahmedabad, India. Questions about this policy go to contact@mvtech.solutions.
+
+### Information we collect
+
+#### Information you give us
+
+When you email us, send a project brief or book a call, we receive what you choose to share. That is usually your name, work email address, company, job title and phone number, and details about your project, systems, timeline and budget. Please do not send passwords, credentials or sensitive production data; we never need them for an inquiry.
+
+#### Information collected automatically
+
+When analytics is active (see Cookies and analytics), Google Analytics records how the website is used: pages viewed, the page that referred you, approximate location (city or region, derived from your IP address), device and browser type, and clicks on our email, phone and booking links. Google Analytics 4 does not log or store IP addresses. Our hosting provider, GitHub Pages, processes the IP address of every visitor in order to deliver and protect the website.
+
+#### Information from scheduling
+
+If you book a call, Calendly collects the details you enter, such as your name, email address and any answers to booking questions, and shares them with us.
+
+### Categories of personal information
+
+Personal information we collect, where it comes from and who receives it
+| Category | Examples | Source | Why we use it | Disclosed to |
+| Identifiers | Name, email address, phone number | You | Reply to inquiries, schedule calls, prepare proposals | Our email and scheduling providers |
+| Professional information | Company, job title | You | Understand who we are working with | Our email and scheduling providers |
+| Commercial information | Project requirements, budget range | You | Scope and propose services | Our email provider |
+| Internet activity | Pages viewed, referring page, link clicks | Your browser, through Google Analytics | Improve the website | Google, as our analytics provider |
+| Approximate location | City or region | Derived from your IP address | Understand where visitors come from | Google, as our analytics provider |
+We do not collect sensitive personal information such as Social Security numbers, financial account details, precise geolocation or health information.
+
+### How we use information
+
+- To reply to your inquiry and keep in touch about it.
+- To schedule and hold calls, prepare proposals and deliver services you agree to.
+- To understand how the website is used and improve it.
+- To protect the website and our business against fraud and abuse.
+- To meet our legal, tax and accounting obligations.
+
+### How we share information
+
+We share personal information only with:
+
+- Service providersthat run parts of our business for us: Google (website analytics), Calendly (scheduling), our email provider and GitHub (website hosting). They may use it only to provide their services to us.
+- Professional advisers, such as accountants and lawyers, who are bound by confidentiality.
+- Authorities, when the law requires it or when needed to protect rights, property or safety.
+- A successor business, if our business is reorganized or sold.
+We do not sell personal information, and we do not share it for cross-context behavioral advertising or targeted advertising. Google Analytics runs on this website with Google signals and ad personalization turned off.
+
+### Cookies and analytics
+
+Google Analytics sets first-party cookies (named _ga and _ga_ followed by an ID) to tell visits apart. We do not use advertising cookies. Calendly sets its own cookies only when you load the booking calendar.
+
+#### Global Privacy Control and Do Not Track
+
+If your browser sends a Global Privacy Control (GPC) signal or a Do Not Track signal, this website does not load Google Analytics, and we treat the signal as a request to opt out of any sale or sharing of your personal information. You can also block cookies in your browser settings or install Google’s Analytics opt-out add-on.
+
+#### Tracking by other companies
+
+Apart from Google Analytics, and Calendly when you load the booking calendar, we do not allow other companies to collect personal information about your activity on this website over time or across other websites.
+
+### Your privacy rights
+
+Depending on the state you live in, US privacy laws, including those of California, Virginia, Colorado, Connecticut, Texas and Oregon, give you the right to:
+
+- know what personal information we hold about you, and receive a copy of it;
+- correct inaccurate personal information;
+- delete your personal information;
+- opt out of the sale or sharing of personal information, targeted advertising and profiling (we do none of these); and
+- use these rights without being treated differently.
+We honor these requests from any US resident, whether or not a state law requires it.
+
+#### How to make a request
+
+Email contact@mvtech.solutions with “Privacy request” in the subject line and tell us what you would like us to do. We confirm receipt within 10 business days and respond within 45 days. We may ask you to confirm details that show the request is yours, such as the email address you used to contact us. An authorized agent may make a request for you with your signed permission.
+
+#### Appeals
+
+If we decline a request, you can appeal by replying with “Privacy appeal” in the subject line. We respond to appeals within 45 days. If you remain unsatisfied, you may contact the attorney general of your state.
+
+### How long we keep information
+
+- Inquiry emails and booking details:as long as needed to respond to you and, for clients, for the length of the relationship plus the period our legal, tax and accounting records require.
+- Analytics data:for the retention period set in Google Analytics, never longer than 14 months.
+
+### Security
+
+We protect personal information with reasonable safeguards for its sensitivity, including limiting access to the people who need it. No method of sending or storing information is completely secure.
+
+### Where information is processed
+
+Our team works in the United States and India. Personal information you send us may be accessed by our team in India and processed by our service providers in the United States and other countries.
+
+### Children
+
+This website is for businesses and is not directed to children under 13. We do not knowingly collect personal information from children under 13, and we do not sell the personal information of anyone under 16. If you believe a child has sent us personal information, contact us and we will delete it.
+
+### Data we handle for clients
+
+Data we work with while delivering services for a client is governed by that client’s agreement with us, not by this policy. Our approach is described in our security and delivery standards.
+
+### Links to other websites
+
+This website links to websites we do not control, such as LinkedIn, Toptal and Calendly. Their own privacy policies apply when you visit them.
+
+### Changes to this policy
+
+We post any change on this page and update the date at the top. If a change materially affects how we use personal information you have already given us, we will tell you by email before it takes effect.
+
+### Contact us
+
+Email contact@mvtech.solutions, or write to either of our offices.
+
+---
+
 # Software, Data & AI Project Delivery Process | MV.tech Solutions
 
 URL: https://mvtech.solutions/process/
@@ -2156,7 +2331,7 @@ We agree the project’s working rhythm and decision responsibilities at the sta
 
 - Business and product input. Your stakeholders clarify priorities, review workflows and confirm that the output meets the business requirement.
 - Technical ownership. Agree who reviews architecture, code, data definitions, access and releases across both teams.
-- Working hours and reviews. Schedule recurring collaboration in the agreed timezone window and document progress and decisions between meetings.
+- Working hours and reviews. Schedule recurring collaboration in the agreed time zone window and document progress and decisions between meetings.
 - Scope changes. Review the effect of new requirements on delivery, cost and dependencies before adding them to the engagement.
 Project outputs
 
@@ -2208,15 +2383,15 @@ Remote engineering services
 
 ## Remote engineering services from India, working with your team.
 
-Work with MV.tech Solutions on a defined project, a dedicated engineering team or a specialist role. Our engineering team is based in Ahmedabad, India, and collaborates with clients worldwide. We agree the working model, responsibilities and timezone overlap before delivery begins.
+Work with MV.tech Solutions on a defined project, a dedicated engineering team or a specialist role. Our engineering team is based in Ahmedabad, India, and collaborates with clients worldwide. We agree the working model, responsibilities and time zone overlap before delivery begins.
 
 - Offices in New York and Ahmedabad
-- Overlap with your timezone
+- Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
 The starting point
 
-### Choose how the work fits into your organisation.
+### Choose how the work fits into your organization.
 
 - Assign an agreed project scope to a delivery team.
 - Add a specialist to your existing engineering and business teams.
@@ -2251,16 +2426,16 @@ Keep implementation decisions, setup instructions and ownership clear. Agree dep
 
 - Worldwide clients
 - Ahmedabad, India
-- Flexible timezone overlap
+- Flexible time zone overlap
 - Senior specialists
 - Scoped delivery
-Timezone overlap
+Time-zone overlap
 
 ### Working hours planned around yours.
 
 India Standard Time (UTC+5:30) sits between Asia-Pacific mornings and American mornings, so a remote team in Ahmedabad can share a substantial working window with almost any client. We agree the collaboration window before the engagement starts and keep written updates flowing outside it.
 
-Typical collaboration windows by client timezone
+Typical collaboration windows by client time zone
 | Your team | Overlap in your local time | Our hours (IST, UTC+5:30) |
 | New York US Eastern | 9:00 am – 1:00 pm | 6:30 pm – 10:30 pm IST |
 | San Francisco US Pacific | 7:00 am – 10:00 am | 7:30 pm – 10:30 pm IST |
@@ -2279,7 +2454,7 @@ Our remote model keeps the engagement focused on engineering time and agreed del
 
 Choose how to engage MV.tech Solutions
 | Consideration | Scoped project | Embedded specialist | Permanent recruitment |
-| Best fit | A defined system or improvement | Capacity in an existing delivery team | A permanent role in your organisation |
+| Best fit | A defined system or improvement | Capacity in an existing delivery team | A permanent role in your organization |
 | Who directs the work | MV.tech Solutions owns the agreed delivery scope | Your leads direct the consultant workstream | You select and employ the candidate |
 | What we agree first | Milestone, acceptance criteria and handover | Skills, capacity, duration and overlap | Hiring brief, screening scope and fees |
 | What to bring | Current systems and desired outcome | Backlog, required skills and team setup | Responsibilities, compensation and timeline |
@@ -2294,7 +2469,7 @@ Engagement scope
 
 ### Confirm the working model before the project starts.
 
-We discuss the business requirements, current systems, team setup and preferred working hours. The proposal sets out scope or capacity, responsibilities, review points and commercial terms. Meeting overlap and support coverage are agreed separately; timezone overlap does not mean round-the-clock availability.
+We discuss the business requirements, current systems, team setup and preferred working hours. The proposal sets out scope or capacity, responsibilities, review points and commercial terms. Meeting overlap and support coverage are agreed separately; time zone overlap does not mean round-the-clock availability.
 
 Working together
 
@@ -2322,7 +2497,7 @@ Not answered here? Ask us directly or read the full FAQ.
 **Can a team in India overlap US, UK, European or Australian hours?**
 Yes. India Standard Time (UTC+5:30) overlaps every major business region for part of the day. We typically plan 9:00 am to 1:00 pm US Eastern, 7:00 to 10:00 am US Pacific, 9:00 am to 3:30 pm in the UK, 9:00 am to 4:00 pm in Central Europe, most of the business day in the Gulf, and 12:30 to 6:00 pm in eastern Australia. Share your city and required hours and we agree the exact window for the engagement.
 
-**Does timezone overlap mean 24/7 support?**
+**Does time zone overlap mean 24/7 support?**
 No. Overlap means agreed working hours for collaboration. Any support coverage, response expectations or release windows need to be defined in the engagement scope.
 
 **Why can a remote consulting team have lower overhead?**
@@ -2335,7 +2510,7 @@ Review our expertise page and the linked Toptal professional profile, then discu
 Pricing is agreed per engagement and we quote after a scoping call. The total depends on scope, complexity and the support you need us to own, and a focused remote team keeps office and management overhead low. Compare proposals on agreed scope, senior delivery time, validation, handover and support so the figure reflects the work you actually need.
 
 **What is the difference between staff augmentation and project consulting?**
-With a scoped project, MV.tech Solutions owns the agreed delivery scope and we agree the milestone, acceptance criteria and handover first. With an embedded specialist, which is the staff augmentation model, your leads direct the consultant workstream and we agree skills, capacity, duration and overlap. If you need a permanent role in your organisation, recruitment is a separate model where you select and employ the candidate.
+With a scoped project, MV.tech Solutions owns the agreed delivery scope and we agree the milestone, acceptance criteria and handover first. With an embedded specialist, which is the staff augmentation model, your leads direct the consultant workstream and we agree skills, capacity, duration and overlap. If you need a permanent role in your organization, recruitment is a separate model where you select and employ the candidate.
 
 Related services
 
@@ -2359,11 +2534,11 @@ Related guides
 
 Remote delivery
 
-### Working with an India-based team across timezones
+### Working with an India-based team across time zones
 
 Realistic overlap windows and the async habits that keep distributed work moving.
 
-Timezone guide
+Time zone guide
 Engagement models
 
 ### Staff augmentation, project consulting or recruitment?
@@ -2396,7 +2571,7 @@ Services
 
 ## Software, data and AI services for your business.
 
-Build a new system, modernise the one you have or extend your engineering team. MV.tech Solutions provides development and consulting services across business applications, data platforms, analytics, AI and automation.
+Build a new system, modernize the one you have or extend your engineering team. MV.tech Solutions provides development and consulting services across business applications, data platforms, analytics, AI and automation.
 
 Engineering services
 
@@ -2465,7 +2640,7 @@ Assigned specialists work within your tools and delivery process for the agreed 
 
 #### Permanent recruitment
 
-Your organisation hires and employs the candidate. MV.tech Solutions supports the role brief, sourcing and assessment for a long-term technology position.
+Your organization hires and employs the candidate. MV.tech Solutions supports the role brief, sourcing and assessment for a long-term technology position.
 
 Delivery coverage
 
@@ -2498,7 +2673,7 @@ MV.tech Solutions services
 Turn a useful AI idea into a working business application. MV.tech Solutions builds knowledge assistants, document-processing workflows and AI features connected to company data and tools. We help you choose the use case, build the integration and evaluate how it performs before a wider rollout.
 
 - Offices in New York and Ahmedabad
-- Overlap with your timezone
+- Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
 The starting point
@@ -2506,7 +2681,7 @@ The starting point
 ### Put AI to work where it has a clear business purpose.
 
 - Help employees find answers in approved company documents and business information.
-- Extract and organise information from documents that currently need manual review.
+- Extract and organize information from documents that currently need manual review.
 - Add an assistant or an AI-driven step to a product, internal application or reporting workflow.
 What we deliver
 
@@ -2528,7 +2703,7 @@ Build retrieval-augmented generation over an agreed document collection. Include
 
 #### Document processing and workflow automation
 
-Use models to extract, classify or summarise information from documents and business inputs. Add validation and review steps where incorrect output could affect downstream work.
+Use models to extract, classify or summarize information from documents and business inputs. Add validation and review steps where incorrect output could affect downstream work.
 
 04
 
@@ -2578,7 +2753,7 @@ Teams our engineers have worked with
 - Chainlabs
 - Toptal
 - Turing
-Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
 Before we begin
 
 ### Questions buyers ask about RAG, LLM integration and AI agents
@@ -2589,7 +2764,7 @@ Not answered here? Ask us directly or read the full FAQ.
 RAG retrieves relevant material from an approved source collection and provides it to a language model when generating an answer. It can help an assistant answer questions about your own information, but retrieval quality, access controls and evaluation still matter.
 
 **What is MCP development?**
-Model Context Protocol (MCP) provides a shared interface for AI applications to connect to tools and data. We build MCP servers in Python around your approved APIs or systems, define the tools and resources they expose, handle authorisation with OAuth and managed secrets, and test them with the intended compatible clients. Access permissions and approval requirements remain part of the application design.
+Model Context Protocol (MCP) provides a shared interface for AI applications to connect to tools and data. We build MCP servers in Python around your approved APIs or systems, define the tools and resources they expose, handle authorization with OAuth and managed secrets, and test them with the intended compatible clients. Access permissions and approval requirements remain part of the application design.
 
 **Can an AI agent query our databases safely?**
 It can, when access is engineered rather than prompted. In practice that means a connector or MCP server that authenticates as a scoped service identity, exposes only approved tables or endpoints, generates SQL against a governed reporting layer, validates the query and the result before returning it, and logs every call. Whitelists and read-only access keep an agent away from anything it has no business touching.
@@ -2598,7 +2773,7 @@ It can, when access is engineered rather than prompted. In practice that means a
 Not necessarily. The right scope may use an existing model with retrieval and application integration. We review your use case, data, evaluation criteria and operating constraints before proposing an approach.
 
 **Can the assistant respect different user permissions?**
-Role-aware access can be part of the scope. The design must enforce authorisation before protected data is retrieved or an action is performed; instructions written into a prompt are not a substitute for application access controls.
+Role-aware access can be part of the scope. The design must enforce authorization before protected data is retrieved or an action is performed; instructions written into a prompt are not a substitute for application access controls.
 
 **What determines the cost of an AI assistant?**
 The main factors are source preparation, integrations, permission rules, evaluation, user interface and support. Ongoing costs also depend on model usage, retrieval infrastructure and traffic. These should be considered alongside the build estimate.
@@ -2655,7 +2830,7 @@ Tell us about the work, your current systems and the people who will use the res
 # BigQuery Consulting, Google Cloud Data Engineering | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/bigquery-consulting/
-Description: BigQuery warehouse design, cloud ingestion, reporting integration, migration and workload optimisation from the MV.tech Solutions data engineering team.
+Description: BigQuery warehouse design, cloud ingestion, reporting integration, migration and workload optimization from the MV.tech Solutions data engineering team.
 Last modified: 2026-11-14
 
 MV.tech Solutions services
@@ -2665,7 +2840,7 @@ MV.tech Solutions services
 Build a BigQuery warehouse that supports your reporting and growth. MV.tech Solutions develops ingestion pipelines, warehouse models and analytics integrations on Google Cloud, and reviews the queries and workloads driving performance and cost. Our founder holds the Google Cloud Professional Data Engineer certification.
 
 - Offices in New York and Ahmedabad
-- Overlap with your timezone
+- Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
 The starting point
@@ -2677,13 +2852,13 @@ The starting point
 - Migrate existing reporting to Google Cloud and give analysts shared datasets.
 What we deliver
 
-### BigQuery development, migration and optimisation.
+### BigQuery development, migration and optimization.
 
 01
 
-#### Warehouse architecture and modelling
+#### Warehouse architecture and modeling
 
-Design datasets, warehouse layers and reporting tables around source behaviour and business definitions. Agree partitioning, clustering and access requirements based on the workloads.
+Design datasets, warehouse layers and reporting tables around source behavior and business definitions. Agree partitioning, clustering and access requirements based on the workloads.
 
 02
 
@@ -2722,7 +2897,7 @@ Business applications
 ### Where this service fits.
 
 - A Google Cloud data platform. A shared warehouse connected to the applications and data sources your business uses.
-- Reporting modernisation. Move spreadsheet or legacy database reporting into managed datasets and refreshable dashboards.
+- Reporting modernization. Move spreadsheet or legacy database reporting into managed datasets and refreshable dashboards.
 - A warehouse cost review. Trace expensive workloads and assess partitioning, query design, schedules and consumption controls.
 Engagement scope
 
@@ -2735,7 +2910,7 @@ Working together
 ### How we deliver this work.
 
 - 01 — Assess data and usage — Review the source systems, reporting requirements and any existing query history.
-- 02 — Develop and measure — Build pipelines and models, then validate records, business totals and workload behaviour.
+- 02 — Develop and measure — Build pipelines and models, then validate records, business totals and workload behavior.
 - 03 — Release and document — Deploy jobs and reports with monitoring, access definitions and operating instructions.
 Teams our engineers have worked with
 
@@ -2746,7 +2921,7 @@ Teams our engineers have worked with
 - Chainlabs
 - Toptal
 - Turing
-Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
 Before we begin
 
 ### Questions people ask before hiring a BigQuery consultant.
@@ -2766,10 +2941,10 @@ By the column your queries filter on, which is usually an event or transaction d
 Yes. The work starts with discovery of what exists and what depends on it, then a source-to-target mapping per object, SQL translated and tested, and reconciliation of counts, totals and reported metrics at each layer before the old platform is switched off. Platform-specific SQL, stored procedures and cross-database joins are the usual blockers, and they are found in discovery rather than at cutover.
 
 **Can a remote team in India run our BigQuery project?**
-Yes. Our engineering team works from Ahmedabad, India, and agrees a collaboration window in your timezone before the engagement starts, which typically covers UK and European business hours, US Eastern mornings, Gulf hours or Asia-Pacific afternoons. Access is through your own Google Cloud project with IAM roles you grant and can revoke, logs stay in your project and no credentials are needed for an initial enquiry.
+Yes. Our engineering team works from Ahmedabad, India, and agrees a collaboration window in your time zone before the engagement starts, which typically covers UK and European business hours, US Eastern mornings, Gulf hours or Asia-Pacific afternoons. Access is through your own Google Cloud project with IAM roles you grant and can revoke, logs stay in your project and no credentials are needed for an initial inquiry.
 
 **Is Looker Studio good enough, or do we need Power BI?**
-Looker Studio is reasonable for reporting over BigQuery when the model lives in the warehouse and the reports read curated views. Power BI becomes the better choice when you need a governed semantic layer, row-level security or complex measures, or when the organisation already runs on Microsoft 365. Either way the metric definitions belong in BigQuery, so changing the reporting tool later is a repointing exercise rather than a rebuild.
+Looker Studio is reasonable for reporting over BigQuery when the model lives in the warehouse and the reports read curated views. Power BI becomes the better choice when you need a governed semantic layer, row-level security or complex measures, or when the organization already runs on Microsoft 365. Either way the metric definitions belong in BigQuery, so changing the reporting tool later is a repointing exercise rather than a rebuild.
 
 **Is MV.tech Solutions a Google Cloud partner?**
 No. MV.tech Solutions is not a Google partner. Its founder holds the Google Cloud Professional Data Engineer credential, which is an individual certification, and has built BigQuery pipelines in previous roles. If partner status matters for your procurement, say so on the first call.
@@ -2833,10 +3008,10 @@ MV.tech Solutions services
 
 ## Blockchain data engineering and on-chain analytics.
 
-Turn blockchain activity into data your analysts and finance teams can work with. MV.tech Solutions builds pipelines that collect, decode and organise transactions across networks, then connect the results to warehouses, dashboards and reconciliation workflows.
+Turn blockchain activity into data your analysts and finance teams can work with. MV.tech Solutions builds pipelines that collect, decode and organize transactions across networks, then connect the results to warehouses, dashboards and reconciliation workflows.
 
 - Offices in New York and Ahmedabad
-- Overlap with your timezone
+- Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
 The starting point
@@ -2858,9 +3033,9 @@ Collect transactions, logs and events from node RPCs, APIs and available dataset
 
 02
 
-#### Decoding and normalisation
+#### Decoding and normalization
 
-Decode supported contract events using ABIs and Web3.py. Standardise identifiers, wallet activity and transaction categories while retaining raw records for investigation.
+Decode supported contract events using ABIs and Web3.py. Standardize identifiers, wallet activity and transaction categories while retaining raw records for investigation.
 
 03
 
@@ -2921,7 +3096,7 @@ Teams our engineers have worked with
 - Chainlabs
 - Toptal
 - Turing
-Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
 Before we begin
 
 ### Questions buyers ask about blockchain data analytics
@@ -2929,7 +3104,7 @@ Before we begin
 Not answered here? Ask us directly or read the full FAQ.
 
 **Why not just use a public chain dataset?**
-Public datasets are a reasonable starting point for common chains and standard token transfers. They tend to fall short on newer or smaller networks, on contracts whose events are not standard, and on the business layer: your token registry, your categorisation rules, your reporting currency and your reconciliation against internal records. We use public datasets where they fit and build ingestion where they do not.
+Public datasets are a reasonable starting point for common chains and standard token transfers. They tend to fall short on newer or smaller networks, on contracts whose events are not standard, and on the business layer: your token registry, your categorization rules, your reporting currency and your reconciliation against internal records. We use public datasets where they fit and build ingestion where they do not.
 
 **How do you handle a contract with no published ABI?**
 Several ways, in order of preference: a verified ABI from the explorer, a standard interface the contract conforms to, an ABI supplied by whoever deployed it, or reconstruction from method signatures and observed event topics. Whichever route is used, the decoding rules are recorded per contract and the raw input data is retained, so decoding can be corrected and replayed without re-ingesting the chain.
@@ -2941,10 +3116,10 @@ That is what the override layer is for. Base tables hold what the chain reported
 Carefully, and visibly. The valuation method is a documented rule per token: reference price at block timestamp, a defined source hierarchy, a fallback, or explicitly no valuation at all. Unvalued volume is reported rather than hidden. It is better for a finance team to see that a share of activity has no reliable price than to receive a confident number built on a thin market.
 
 **Can this feed our existing warehouse and dashboards?**
-Yes. On-chain data is just another source: it lands in the same layered warehouse, under the same validation and modelling standards, and is read by Power BI, Looker Studio, Tableau or a Streamlit tool alongside everything else. Teams usually want it joined to off-chain records — customers, internal accounts, fiat movements — and that join is where most of the analytical value appears.
+Yes. On-chain data is just another source: it lands in the same layered warehouse, under the same validation and modeling standards, and is read by Power BI, Looker Studio, Tableau or a Streamlit tool alongside everything else. Teams usually want it joined to off-chain records — customers, internal accounts, fiat movements — and that join is where most of the analytical value appears.
 
 **How much does blockchain data analytics consulting cost?**
-We quote after a scoping call, once the networks, contracts and wallets in scope, the reporting currency and period, and the figures the output has to reconcile against are agreed. A useful first project is a single chain and one business question built the whole way through, from ingestion and decoding to a reconciled output. Our remote-first engineering team is based in Ahmedabad, India, with working hours planned around your timezone and a lean model that avoids large-consultancy overhead.
+We quote after a scoping call, once the networks, contracts and wallets in scope, the reporting currency and period, and the figures the output has to reconcile against are agreed. A useful first project is a single chain and one business question built the whole way through, from ingestion and decoding to a reconciled output. Our remote-first engineering team is based in Ahmedabad, India, with working hours planned around your time zone and a lean model that avoids large-consultancy overhead.
 
 **How do you reconcile staking rewards against on-chain and internal records?**
 We build a reward ledger per validator, delegator or wallet and reconcile it against on-chain distributions and internal records, with period totals, accrual timing and a discrepancy report. Base tables hold exactly what the chain reported and are never edited; corrections live in a separate override layer with an author, a timestamp and a reason, so both the original and adjusted figures stay available.
@@ -2986,7 +3161,7 @@ MV.tech Solutions services
 Give business teams a consistent view of performance. MV.tech Solutions develops dashboards, reporting datasets and semantic models in Power BI, Tableau, Looker Studio and Streamlit. We work on the definitions and data behind the visuals so your reports answer the questions people use them for.
 
 - Offices in New York and Ahmedabad
-- Overlap with your timezone
+- Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
 The starting point
@@ -3008,7 +3183,7 @@ Work with business owners to define calculations, reporting periods, filters and
 
 02
 
-#### Data and semantic modelling
+#### Data and semantic modeling
 
 Build fact and dimension models, curated reporting views and reusable measures. Define relationships and access rules so reports can share a consistent data foundation.
 
@@ -3033,7 +3208,7 @@ Review refreshes, model size and slow queries. Compare report results with sourc
 - Tabular Editor
 - DAX Studio
 - Salesforce CRM Analytics
-- Dimensional modelling
+- Dimensional modeling
 - Semantic models
 - SQL
 - BigQuery
@@ -3069,7 +3244,7 @@ Teams our engineers have worked with
 - Chainlabs
 - Toptal
 - Turing
-Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
 Before we begin
 
 ### Common questions about Power BI and dashboard consulting
@@ -3077,7 +3252,7 @@ Before we begin
 Not answered here? Ask us directly or read the full FAQ.
 
 **Can you work with our existing Power BI model instead of rebuilding it?**
-Usually yes, and that is where we prefer to start. A review covers grain, relationships, calculated columns, duplicated measures, storage mode and refresh behaviour, and produces a written list of what to fix in place and what genuinely needs rebuilding. A rebuild is something we have to justify, not a starting assumption.
+Usually yes, and that is where we prefer to start. A review covers grain, relationships, calculated columns, duplicated measures, storage mode and refresh behavior, and produces a written list of what to fix in place and what genuinely needs rebuilding. A rebuild is something we have to justify, not a starting assumption.
 
 **What is a semantic model and why does it matter?**
 It is the layer between your warehouse and your dashboards that holds tables, relationships and agreed measures. When it exists, every report calculates revenue the same way. When it does not, each dashboard re-implements the logic and the numbers drift apart. It also lets analysts build their own views without writing joins.
@@ -3086,7 +3261,7 @@ It is the layer between your warehouse and your dashboards that holds tables, re
 Almost always upstream of the dashboard. The usual causes are different filters, a different grain, different date logic or a metric defined twice. We trace each figure back to its source, agree one definition per metric with a named owner, and move the calculation into the model so a report is no longer the place the logic lives.
 
 **Which BI tool should we use?**
-Whichever one your team will maintain. Power BI suits organisations already in Microsoft 365 that need a governed semantic layer; Tableau suits heavy visual exploration; Looker Studio is reasonable for lighter reporting over Google Cloud data; Streamlit fits when the output is really an interactive Python tool. We would rather improve the tool you have than sell you a migration.
+Whichever one your team will maintain. Power BI suits organizations already in Microsoft 365 that need a governed semantic layer; Tableau suits heavy visual exploration; Looker Studio is reasonable for lighter reporting over Google Cloud data; Streamlit fits when the output is really an interactive Python tool. We would rather improve the tool you have than sell you a migration.
 
 **Do we need a data warehouse before we can do BI properly?**
 Not always, but usually. A semantic model can read an operational database for a while and sometimes that is the right call. Once reports need history, several sources, or a grain the source system does not store, a curated warehouse layer costs less than repeatedly patching reports. We can tell you which situation you are in after looking at the sources.
@@ -3095,7 +3270,7 @@ Not always, but usually. A semantic model can read an operational database for a
 The fix is to reduce what the report has to read rather than importing less data as a workaround. That means partitioning, incremental refresh, aggregation tables, pushing transformation back into the warehouse and removing columns nothing uses. On past work this has reduced query scan sizes by 60 to 75% and moved refreshes from hours to minutes.
 
 **How much does a Power BI consultant cost?**
-We quote after a scoping call. A useful first project is one dashboard rebuilt on an agreed grain and reconciled against the figures people already trust, and further dashboards and a wider semantic layer are scoped once that first one is agreed. Our engineering team works remotely from Ahmedabad, India, with working hours planned around your timezone and a lean model that avoids large-consultancy overhead.
+We quote after a scoping call. A useful first project is one dashboard rebuilt on an agreed grain and reconciled against the figures people already trust, and further dashboards and a wider semantic layer are scoped once that first one is agreed. Our engineering team works remotely from Ahmedabad, India, with working hours planned around your time zone and a lean model that avoids large-consultancy overhead.
 
 Related services
 
@@ -3159,7 +3334,7 @@ MV.tech Solutions services
 Build software around the way your business operates. MV.tech Solutions develops web applications, customer portals, internal tools and data applications, connecting the interface, backend and integrations in one delivery scope. We can build a new application or extend an existing product.
 
 - Offices in New York and Ahmedabad
-- Overlap with your timezone
+- Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
 The starting point
@@ -3195,7 +3370,7 @@ Implement application logic, data storage and REST APIs using the agreed JavaScr
 
 #### Testing, deployment and application support
 
-Test the agreed user journeys, permissions and integration behaviour. Set up reviewable deployments, document the application and agree its maintenance and support requirements.
+Test the agreed user journeys, permissions and integration behavior. Set up reviewable deployments, document the application and agree its maintenance and support requirements.
 
 - TypeScript
 - JavaScript
@@ -3215,7 +3390,7 @@ Business applications
 
 - Customer and partner portals. A shared place for users to access records, submit information and follow the status of their requests.
 - Internal business applications. Tools for operational data, approvals, exception handling and reporting.
-- Data applications. Streamlit or custom web interfaces for teams that need to search, analyse and act on warehouse data.
+- Data applications. Streamlit or custom web interfaces for teams that need to search, analyze and act on warehouse data.
 Engagement scope
 
 ### Plan the application around users and release priorities.
@@ -3238,7 +3413,7 @@ Teams our engineers have worked with
 - Chainlabs
 - Toptal
 - Turing
-Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
 Before we begin
 
 ### Questions about custom software development and remote developers
@@ -3255,10 +3430,10 @@ Yes. Our services cover responsive interfaces, API-backed workflows, data ingest
 The estimate depends on user journeys, roles, integrations, data migration, testing and release requirements. We scope an initial milestone and clarify assumptions before treating a feature list as a delivery commitment.
 
 **Can remote developers overlap our working hours?**
-Yes. MV.tech Solutions is remote-first and can plan overlap with teams in any timezone. We agree recurring collaboration windows for reviews and releases, supported by written updates between meetings.
+Yes. MV.tech Solutions is remote-first and can plan overlap with teams in any time zone. We agree recurring collaboration windows for reviews and releases, supported by written updates between meetings.
 
 **What does it cost to hire remote developers from India?**
-We quote after a scoping call. Our remote-first engineering team is based in Ahmedabad, India, with a lean model that avoids large-consultancy overhead, and working hours are planned around your timezone. The figure depends on user journeys, roles, integrations, data migration, testing and release requirements, so we scope an initial milestone and clarify assumptions before treating a feature list as a delivery commitment.
+We quote after a scoping call. Our remote-first engineering team is based in Ahmedabad, India, with a lean model that avoids large-consultancy overhead, and working hours are planned around your time zone. The figure depends on user journeys, roles, integrations, data migration, testing and release requirements, so we scope an initial milestone and clarify assumptions before treating a feature list as a delivery commitment.
 
 **Can you build a Streamlit dashboard on top of our data warehouse?**
 Yes. Where the audience is internal and the data is the product, we build a Streamlit or Plotly application with filterable tables, date ranges, live record counts, drill-downs into the underlying records and exports that match what the screen shows. The backend connects to PostgreSQL or a cloud warehouse, with validation and failure handling defined as part of the build.
@@ -3290,7 +3465,7 @@ Tell us about the work, your current systems and the people who will use the res
 # Data Engineering & ETL Development Services | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/data-engineering/
-Description: Data integration, ETL pipelines, cloud warehouses, modelling and data quality services from MV.tech Solutions for reporting, analytics and applications.
+Description: Data integration, ETL pipelines, cloud warehouses, modeling and data quality services from MV.tech Solutions for reporting, analytics and applications.
 Last modified: 2026-11-14
 
 MV.tech Solutions services
@@ -3300,7 +3475,7 @@ MV.tech Solutions services
 Build the data foundation behind reporting, analytics and business applications. MV.tech Solutions designs data pipelines, cloud warehouses and transformation layers that bring information from your systems into a consistent, maintainable platform. We also improve existing pipelines, models and reporting workflows.
 
 - Offices in New York and Ahmedabad
-- Overlap with your timezone
+- Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
 The starting point
@@ -3344,7 +3519,7 @@ Set up scheduling, logs, alerts and deployment workflows. Provide source mapping
 - Snowflake
 - Amazon Redshift
 - PostgreSQL
-- layered SQL modelling
+- layered SQL modeling
 - Azure Data Factory
 - Power BI
 - Tableau
@@ -3365,7 +3540,7 @@ Engagement scope
 
 ### An engagement can cover a new platform or a specific data problem.
 
-We review the sources, consumers and reporting requirements, then agree the architecture and delivery plan. An initial workstream might connect a business application to the warehouse, rebuild an unreliable pipeline or deliver a reporting model. Larger programmes can include staged migration, additional sources and ongoing platform development.
+We review the sources, consumers and reporting requirements, then agree the architecture and delivery plan. An initial workstream might connect a business application to the warehouse, rebuild an unreliable pipeline or deliver a reporting model. Larger programs can include staged migration, additional sources and ongoing platform development.
 
 Working together
 
@@ -3383,7 +3558,7 @@ Teams our engineers have worked with
 - Chainlabs
 - Toptal
 - Turing
-Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
 Before we begin
 
 ### Common questions about data engineering consulting
@@ -3403,7 +3578,7 @@ Yes. MV.tech Solutions can own an agreed data workstream or provide specialist c
 The estimate depends on source count, access complexity, historical data volume, transformation rules, freshness needs and support. Our remote operating model keeps overhead lean; a useful comparison includes monitoring, documentation and handover as well as the initial build.
 
 **What should we share before the first call?**
-Share the report or workflow you want to improve, the source systems, approximate data volumes, current tools and required refresh frequency. A description or sanitised example is enough for an initial conversation; credentials are not needed in an enquiry.
+Share the report or workflow you want to improve, the source systems, approximate data volumes, current tools and required refresh frequency. A description or sanitized example is enough for an initial conversation; credentials are not needed in an inquiry.
 
 **How do we migrate spreadsheet reporting to a data warehouse without losing trust in the numbers?**
 Start with one business report that matters and trace its path back to the source systems. We agree which records belong in the result, how fresh they need to be and how correctness will be checked against the numbers people trust today, then build the ingestion, transformations, model and reporting output on BigQuery, Snowflake, Redshift or PostgreSQL. That gives the migration a concrete acceptance test before more spreadsheets, sources or dashboards are added.
@@ -3444,11 +3619,11 @@ Find the source rules, plan the migration order and reconcile the warehouse agai
 Migration guide
 Remote delivery
 
-### Working with an India-based team across timezones
+### Working with an India-based team across time zones
 
 Realistic overlap windows and the async habits that keep distributed work moving.
 
-Timezone guide
+Time zone guide
 Your next step
 
 ### Discuss your data platform.
@@ -3457,7 +3632,7 @@ Tell us about the work, your current systems and the people who will use the res
 
 ---
 
-# Data Warehouse Migration & Modernisation | MV.tech Solutions
+# Data Warehouse Migration & Modernization | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/data-warehouse-migration/
 Description: Migrate legacy databases and spreadsheet reporting to Snowflake, BigQuery or Redshift with discovery, source mapping, reconciliation and report transition.
@@ -3465,17 +3640,17 @@ Last modified: 2026-11-14
 
 MV.tech Solutions services
 
-## Data warehouse migration and modernisation services.
+## Data warehouse migration and modernization services.
 
-Move reporting and analytics to a cloud platform with a planned transition. MV.tech Solutions migrates legacy databases, warehouse workloads and spreadsheet-based reporting to Snowflake, BigQuery or Redshift. The work covers discovery, data modelling, reconciliation and the reports that depend on the old system.
+Move reporting and analytics to a cloud platform with a planned transition. MV.tech Solutions migrates legacy databases, warehouse workloads and spreadsheet-based reporting to Snowflake, BigQuery or Redshift. The work covers discovery, data modeling, reconciliation and the reports that depend on the old system.
 
 - Offices in New York and Ahmedabad
-- Overlap with your timezone
+- Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
 The starting point
 
-### Modernise the platform without losing track of the business rules.
+### Modernize the platform without losing track of the business rules.
 
 - Move away from a warehouse that is difficult to maintain, expand or integrate.
 - Bring reporting logic out of spreadsheets and undocumented legacy processes.
@@ -3494,7 +3669,7 @@ Inventory source tables, transformations, jobs, business rules and downstream re
 
 #### Target architecture and data mapping
 
-Design the target warehouse layers and access model. Document source-to-target mappings, keys, data types and transformation rules, including any intentional changes to existing behaviour.
+Design the target warehouse layers and access model. Document source-to-target mappings, keys, data types and transformation rules, including any intentional changes to existing behavior.
 
 03
 
@@ -3517,7 +3692,7 @@ Repoint dashboards and semantic models, plan parallel checks and agree rollback 
 - PostgreSQL
 - Azure Synapse
 - Azure Data Factory
-- layered SQL modelling
+- layered SQL modeling
 - Matillion
 - Pentaho
 - Python
@@ -3530,7 +3705,7 @@ Business applications
 
 - Legacy warehouse replacement. Move SQL Server, Oracle, PostgreSQL or other warehouse workloads into an agreed cloud platform.
 - Spreadsheet reporting migration. Turn recurring Excel-based reporting into documented transformations and shared reporting datasets.
-- Cloud platform consolidation. Bring fragmented reporting sources into a common architecture with consistent modelling and ownership.
+- Cloud platform consolidation. Bring fragmented reporting sources into a common architecture with consistent modeling and ownership.
 Engagement scope
 
 ### A migration plan should include the systems around the warehouse.
@@ -3553,7 +3728,7 @@ Teams our engineers have worked with
 - Chainlabs
 - Toptal
 - Turing
-Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
 Before we begin
 
 ### Questions about migrating to Snowflake, BigQuery or Redshift
@@ -3570,7 +3745,7 @@ By comparing it with the old one, automatically and repeatedly. Record counts an
 That is what the dependency analysis is for. Before anything moves we trace which reports, extracts and semantic models read which objects, and flag the business logic hiding inside them. Dashboards are then repointed and reconciled visual by visual, usually while both platforms run in parallel, so the old estate is switched off only after the new numbers have been signed off.
 
 **Should we lift and shift, or redesign?**
-Usually a mix, decided per domain. Lifting and shifting is faster and keeps reconciliation simple, but it carries forward the modelling problems and often the cost profile. Redesigning is right where the grain is wrong, where legacy logic is unmaintainable, or where query patterns will change on the new platform. Discovery is what tells you which objects belong in which category.
+Usually a mix, decided per domain. Lifting and shifting is faster and keeps reconciliation simple, but it carries forward the modeling problems and often the cost profile. Redesigning is right where the grain is wrong, where legacy logic is unmaintainable, or where query patterns will change on the new platform. Discovery is what tells you which objects belong in which category.
 
 **Our reporting lives in spreadsheets rather than a database. Is that still a migration?**
 Yes, and it is a common one. The shape of the work is the same: find the sources behind the spreadsheets, document the rules that live in formulas and in people’s heads, model them in the warehouse and reconcile the output against the last few months of manual figures. The difference is that more of the discovery happens in conversation than in the information schema.
@@ -3579,7 +3754,7 @@ Yes, and it is a common one. The shape of the work is the same: find the sources
 We quote after a scoping call, because the effort depends on what discovery finds in your estate. Discovery can be bought as a standalone piece of work, and migrating one reporting domain first gives an estimate for the rest of the estate based on your data rather than on a template. Commercial terms are agreed per engagement.
 
 **Can a remote team in India run our warehouse migration?**
-Yes. MV.tech Solutions has offices in New York and Ahmedabad, and our remote-first data engineering team works from India in hours planned around your timezone. The migration runs on written work both sides can review: a source-to-target mapping that both sides sign off, automated reconciliation results at every stage, and written sign-off per domain before legacy objects are retired. Handover includes the mappings, ER diagrams, validation results, schedules, ownership and operating runbooks.
+Yes. MV.tech Solutions has offices in New York and Ahmedabad, and our remote-first data engineering team works from India in hours planned around your time zone. The migration runs on written work both sides can review: a source-to-target mapping that both sides sign off, automated reconciliation results at every stage, and written sign-off per domain before legacy objects are retired. Handover includes the mappings, ER diagrams, validation results, schedules, ownership and operating runbooks.
 
 Related services
 
@@ -3640,10 +3815,10 @@ MV.tech Solutions services
 
 ## Hire data engineers for pipelines, warehouses and analytics.
 
-Bring data engineering expertise into your team or put a defined data project in experienced hands. MV.tech Solutions helps businesses engage engineers for integration, cloud warehouses, modelling and reporting. Choose embedded capacity, project delivery or recruitment for a permanent role.
+Bring data engineering expertise into your team or put a defined data project in experienced hands. MV.tech Solutions helps businesses engage engineers for integration, cloud warehouses, modeling and reporting. Choose embedded capacity, project delivery or recruitment for a permanent role.
 
 - Offices in New York and Ahmedabad
-- Overlap with your timezone
+- Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
 The starting point
@@ -3652,7 +3827,7 @@ The starting point
 
 - Add a data engineer to your existing backlog and delivery process.
 - Assign responsibility for a defined pipeline, warehouse or reporting project.
-- Recruit a permanent data professional into your organisation.
+- Recruit a permanent data professional into your organization.
 What we deliver
 
 ### Data engineering skills matched to your requirement.
@@ -3726,7 +3901,7 @@ Teams our engineers have worked with
 - Chainlabs
 - Toptal
 - Turing
-Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
 Before we begin
 
 ### Questions people ask before hiring a data engineer.
@@ -3736,23 +3911,23 @@ Not answered here? Ask us directly or read the full FAQ.
 **How much does it cost to hire a data engineer from India?**
 We quote after a scoping call. The figure depends on the role, seniority, allocated capacity, duration and the support expected outside overlap hours, so a number before that conversation would be a guess. The MV.tech Solutions remote model keeps office and account-management overhead out of the price, and we ask you to compare proposals on the same scope, seniority and support expectations.
 
-**Can a remote team in India work in our timezone?**
+**Can a remote team in India work in our time zone?**
 Yes. India Standard Time overlaps every major business region for part of the day, and we agree the window in your local time before the engineer starts. Typical windows are 9:00 am to 1:00 pm US Eastern, 7:00 to 10:00 am US Pacific, 9:00 am to 3:30 pm in the UK, 9:00 am to 4:00 pm in Central Europe, most of the day in the Gulf and 12:30 to 6:00 pm in eastern Australia. Overlap does not mean round-the-clock support; any out-of-hours coverage is written into the scope separately.
 
 **Can we hire a fractional or part-time data engineer?**
-Yes. A fractional arrangement of a few days a week suits a small team that needs senior judgement on pipelines, warehouse modelling or BI without a full-time hire. The capacity, the days and the overlap hours are agreed up front, and the engineer stays the same person for the duration rather than whoever is free that week.
+Yes. A fractional arrangement of a few days a week suits a small team that needs senior judgment on pipelines, warehouse modeling or BI without a full-time hire. The capacity, the days and the overlap hours are agreed up front, and the engineer stays the same person for the duration rather than whoever is free that week.
 
 **Will we get a named engineer or a bench?**
 A named engineer. You meet the person before anything is signed, review their experience against your stack and work with them directly for the duration. If the engagement grows into a team, composition, start dates and availability are confirmed during scoping rather than implied by the website.
 
 **What is the difference between staff augmentation, a scoped project and recruitment?**
-With staff augmentation the engineer works inside your team under your leads' direction for an agreed capacity and duration. With a scoped project MV.tech Solutions owns a defined deliverable, its acceptance criteria and handover. With technology recruitment you hire a permanent employee into your own organisation and agree employment terms with them directly. We clarify which arrangement you need before discussing candidates or consultants.
+With staff augmentation the engineer works inside your team under your leads' direction for an agreed capacity and duration. With a scoped project MV.tech Solutions owns a defined deliverable, its acceptance criteria and handover. With technology recruitment you hire a permanent employee into your own organization and agree employment terms with them directly. We clarify which arrangement you need before discussing candidates or consultants.
 
 **How does a trial milestone reduce the risk of hiring remotely?**
 Because you judge delivered work rather than an interview. The first milestone is small, written down and checkable: a pipeline that reconciles to the source, a model whose figures match the ones people report, a dashboard with documented definitions. If the result or the working relationship is not right, the engagement ends at the review with the work and its documentation handed over.
 
 **What should we share before asking to hire a data engineer?**
-The workstream or backlog, the source systems and target warehouse or BI tools, the skills you need, the expected duration and capacity, your timezone and the hours that matter, and any constraints around security or access. A sanitised example of the data is enough for the first call; credentials are never needed for an enquiry.
+The workstream or backlog, the source systems and target warehouse or BI tools, the skills you need, the expected duration and capacity, your time zone and the hours that matter, and any constraints around security or access. A sanitized example of the data is enough for the first call; credentials are never needed for an inquiry.
 
 Related services
 
@@ -3806,7 +3981,7 @@ Tell us about the work, your current systems and the people who will use the res
 # IT Staff Augmentation, Dedicated Engineering Teams | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/it-staff-augmentation/
-Description: Add data, software, AI and cloud specialists to your delivery team. Discuss assigned roles, capacity, responsibilities, duration and timezone collaboration.
+Description: Add data, software, AI and cloud specialists to your delivery team. Discuss assigned roles, capacity, responsibilities, duration and time zone collaboration.
 Last modified: 2026-11-14
 
 MV.tech Solutions services
@@ -3816,7 +3991,7 @@ MV.tech Solutions services
 Add the technical skills your team needs without opening every role as a permanent hire. MV.tech Solutions provides data, software, AI and cloud specialists who work within your delivery process. Agree the responsibilities, capacity and duration, then collaborate directly with the people assigned to the work.
 
 - Offices in New York and Ahmedabad
-- Overlap with your timezone
+- Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
 The starting point
@@ -3834,7 +4009,7 @@ What we deliver
 
 #### Data and analytics specialists
 
-Data engineers, analytics engineers, BI developers and semantic modelling specialists for pipelines, warehouses, reporting and reconciliation work.
+Data engineers, analytics engineers, BI developers and semantic modeling specialists for pipelines, warehouses, reporting and reconciliation work.
 
 02
 
@@ -3857,7 +4032,7 @@ Work in your repositories, ticketing systems and communication tools. Document i
 - AI and MCP developers
 - Data engineers
 - Analytics engineers
-- BI and semantic modelling specialists
+- BI and semantic modeling specialists
 - Software developers
 - Cloud consultants
 - Automation specialists
@@ -3867,7 +4042,7 @@ Business applications
 
 ### Where this service fits.
 
-- Additional delivery capacity. Engineers working alongside your developers on an agreed backlog or programme.
+- Additional delivery capacity. Engineers working alongside your developers on an agreed backlog or program.
 - A specialist project phase. Extra expertise for a migration, model review, integration or release.
 - A dedicated workstream. A small team responsible for a defined area while your leads retain overall delivery direction.
 Engagement scope
@@ -3892,7 +4067,7 @@ Teams our engineers have worked with
 - Chainlabs
 - Toptal
 - Turing
-Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
 Before we begin
 
 ### Common questions about hiring remote data, AI and cloud consultants
@@ -3905,17 +4080,17 @@ With staff augmentation, consultants add capacity within your team and work unde
 **Can we hire a dedicated remote team rather than one consultant?**
 We can discuss a multi-role team around your workstream. Team composition, allocated capacity, start dates and availability are confirmed during scoping; the website does not imply that every role is immediately available.
 
-**Can consultants overlap our timezone?**
-Yes. We can plan overlap with clients in any timezone. Share the working hours you need and any release requirements so collaboration windows can be agreed. This does not imply round-the-clock support.
+**Can consultants overlap our time zone?**
+Yes. We can plan overlap with clients in any time zone. Share the working hours you need and any release requirements so collaboration windows can be agreed. This does not imply round-the-clock support.
 
 **Do you also recruit permanent employees?**
-Yes. MV.tech Solutions also offers technology recruitment for permanent roles within a client's organisation. Recruitment and consultant staffing are separate engagements with their own scope and commercial terms.
+Yes. MV.tech Solutions also offers technology recruitment for permanent roles within a client's organization. Recruitment and consultant staffing are separate engagements with their own scope and commercial terms.
 
 **How much does data engineering staff augmentation cost?**
-We quote after a scoping call rather than publishing a fixed hourly rate. Commercial terms are agreed per engagement once the role, allocated capacity, duration and timezone overlap are defined. Our remote-first engineering team is based in Ahmedabad, India, with a lean model that avoids large-consultancy overhead. You can include a budget range in your enquiry if you have one.
+We quote after a scoping call rather than publishing a fixed hourly rate. Commercial terms are agreed per engagement once the role, allocated capacity, duration and time zone overlap are defined. Our remote-first engineering team is based in Ahmedabad, India, with a lean model that avoids large-consultancy overhead. You can include a budget range in your inquiry if you have one.
 
 **How do we hire a remote data engineer in India through MV.tech Solutions?**
-Share the role, required skills, workstream, expected duration and capacity, preferred start date and the timezone overlap you need. We review fit, availability and commercial terms before confirming a consultant, then onboard them with agreed access, initial tasks, acceptance criteria and documentation. Our engineers are remote-first and based in Ahmedabad, India, with working hours planned around your timezone.
+Share the role, required skills, workstream, expected duration and capacity, preferred start date and the time zone overlap you need. We review fit, availability and commercial terms before confirming a consultant, then onboard them with agreed access, initial tasks, acceptance criteria and documentation. Our engineers are remote-first and based in Ahmedabad, India, with working hours planned around your time zone.
 
 Related services
 
@@ -3946,11 +4121,11 @@ How to choose between embedded capacity, a scoped project and a permanent hire.
 Model comparison
 Remote delivery
 
-### Working with an India-based team across timezones
+### Working with an India-based team across time zones
 
 Realistic overlap windows and the async habits that keep distributed work moving.
 
-Timezone guide
+Time zone guide
 Buyer's checklist
 
 ### 12 questions to ask before hiring a remote data consultancy
@@ -3976,10 +4151,10 @@ MV.tech Solutions services
 
 ## MCP server development and custom AI integrations.
 
-Connect AI assistants to the systems your business already uses. MV.tech Solutions develops Model Context Protocol servers and custom connectors for databases, APIs and internal tools. Your team gets a maintained integration with defined permissions, clear tool behaviour and a record of how it is used.
+Connect AI assistants to the systems your business already uses. MV.tech Solutions develops Model Context Protocol servers and custom connectors for databases, APIs and internal tools. Your team gets a maintained integration with defined permissions, clear tool behavior and a record of how it is used.
 
 - Offices in New York and Ahmedabad
-- Overlap with your timezone
+- Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
 The starting point
@@ -4003,7 +4178,7 @@ Develop Python MCP servers around specific business tasks. Define tool inputs, r
 
 #### Database and API connectors
 
-Connect approved warehouse views, operational data, REST APIs and internal applications. Translate source-system behaviour into tools an assistant can use within the agreed scope.
+Connect approved warehouse views, operational data, REST APIs and internal applications. Translate source-system behavior into tools an assistant can use within the agreed scope.
 
 03
 
@@ -4062,7 +4237,7 @@ Teams our engineers have worked with
 - Chainlabs
 - Toptal
 - Turing
-Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
 Before we begin
 
 ### Common questions about MCP server development and AI connectors
@@ -4073,13 +4248,13 @@ Not answered here? Ask us directly or read the full FAQ.
 It is a small service that describes a set of tools and resources in a standard way, so any compatible AI application can use them without a bespoke integration. In practice it is ordinary backend engineering: authenticate, validate the input, call the underlying system, shape the response, log the call. The protocol is the straightforward part; the access model is the work.
 
 **How is this different from your AI automation and RAG service?**
-The AI automation, RAG and MCP development page covers the assistant itself: knowledge sources, retrieval, model behaviour and the user-facing workflow. This page covers the layer underneath it — the servers and connectors that give agents governed access to live systems. Many projects need both and they are often scoped together. If you are not sure which one you are asking for, describe the workflow and we will say.
+The AI automation, RAG and MCP development page covers the assistant itself: knowledge sources, retrieval, model behavior and the user-facing workflow. This page covers the layer underneath it — the servers and connectors that give agents governed access to live systems. Many projects need both and they are often scoped together. If you are not sure which one you are asking for, describe the workflow and we will say.
 
 **Can an agent be allowed to write data, not just read it?**
 It can, with deliberate design. Write tools are kept separate from read tools, restricted to specific objects and operations, made idempotent where possible, and in most cases placed behind a human approval step that happens outside the model’s control. We would start read-only, prove tool selection is reliable, then add write capability one operation at a time.
 
 **Which AI platforms can use what you build?**
-Any MCP-compatible client, which now covers the major assistant and IDE products, plus platform-specific connectors and plugins where an organisation has standardised on one vendor. We test against the clients you actually use, because a tool description that works well in one client can be read differently in another.
+Any MCP-compatible client, which now covers the major assistant and IDE products, plus platform-specific connectors and plugins where an organization has standardized on one vendor. We test against the clients you actually use, because a tool description that works well in one client can be read differently in another.
 
 **How do you stop prompt injection turning a tool into a problem?**
 By not relying on the model to enforce anything. Permissions are checked server-side before a tool runs, tools expose only approved objects, generated SQL is validated against a whitelist, destructive operations are either not exposed or require human approval, and retrieved content is treated as data rather than as instructions. Logging every call means an unexpected request is visible afterwards, not merely prevented in theory.
@@ -4152,7 +4327,7 @@ MV.tech Solutions services
 Extend your delivery capacity with data engineers and analytics specialists from India. MV.tech Solutions provides dedicated teams for data integration, cloud warehouses, BI and data quality. Work with a defined team, an agreed backlog and collaboration hours that fit your business.
 
 - Offices in New York and Ahmedabad
-- Overlap with your timezone
+- Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
 The starting point
@@ -4160,7 +4335,7 @@ The starting point
 ### Build capacity around the work you need delivered.
 
 - Develop a data platform while your internal team continues supporting the business.
-- Bring engineering, modelling and reporting skills together for a migration or analytics programme.
+- Bring engineering, modeling and reporting skills together for a migration or analytics program.
 - Keep ownership of priorities while adding delivery capacity for an agreed duration.
 What we deliver
 
@@ -4182,7 +4357,7 @@ Build warehouse layers, fact and dimension models, curated SQL views and reusabl
 
 #### BI and data quality
 
-Add dashboard, semantic modelling and reconciliation expertise alongside the engineers building the data platform.
+Add dashboard, semantic modeling and reconciliation expertise alongside the engineers building the data platform.
 
 04
 
@@ -4204,14 +4379,14 @@ Agree roles, capacity, review routines and reporting with your leads. Work in yo
 - AWS
 - Google Cloud
 - REST APIs
-- layered SQL modelling
+- layered SQL modeling
 Business applications
 
 ### Where this service fits.
 
-- Warehouse modernisation. A delivery team for source discovery, migration, model development and report transition.
+- Warehouse modernization. A delivery team for source discovery, migration, model development and report transition.
 - Ongoing data operations. Capacity to maintain pipelines, onboard new sources and address data quality issues.
-- Reporting expansion. Engineers and BI specialists working together on a new business domain or reporting programme.
+- Reporting expansion. Engineers and BI specialists working together on a new business domain or reporting program.
 Engagement scope
 
 ### Agree the team structure before committing capacity.
@@ -4234,7 +4409,7 @@ Teams our engineers have worked with
 - Chainlabs
 - Toptal
 - Turing
-Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
 Before we begin
 
 ### Common questions about hiring an offshore data engineering team
@@ -4242,7 +4417,7 @@ Before we begin
 Not answered here? Ask us directly or read the full FAQ.
 
 **Is MV.tech Solutions a data consultancy company for an offshore team?**
-Yes. MV.tech Solutions is a data, software and AI consultancy with offices in New York, USA, and Ahmedabad, India. For offshore data work, we provide senior remote data engineering and analytics capacity for ETL, cloud warehouses, BI, data quality and reporting, with overlap hours agreed around the client's timezone.
+Yes. MV.tech Solutions is a data, software and AI consultancy with offices in New York, USA, and Ahmedabad, India. For offshore data work, we provide senior remote data engineering and analytics capacity for ETL, cloud warehouses, BI, data quality and reporting, with overlap hours agreed around the client's time zone.
 
 **How is this different from generic offshore staffing?**
 The engagement is engineering-led. We help shape the scope, define acceptance criteria, validate the data and document handover. You can use the team like embedded capacity, but the work is still managed around a concrete outcome rather than resumes alone.
@@ -4254,7 +4429,7 @@ Yes. MV.tech Solutions works from India Standard Time and agrees a collaboration
 Yes. A first engagement can be a scoped milestone, a part-time specialist or a small embedded team. The right shape depends on the backlog, access needed, review bandwidth and how quickly decisions can be made.
 
 **What should we share before asking for an offshore data team?**
-Share the reporting or data problem, source systems, target warehouse or BI tools, desired timeline, timezone and any constraints around security or access. A sanitised example is enough for an initial call; credentials are not needed for an enquiry.
+Share the reporting or data problem, source systems, target warehouse or BI tools, desired timeline, time zone and any constraints around security or access. A sanitized example is enough for an initial call; credentials are not needed for an inquiry.
 
 **How much does an offshore data engineering team in India cost?**
 Pricing is agreed per engagement and we quote after a scoping call. A first engagement can be a part-time specialist, one senior specialist or a small embedded team, with capacity, duration and overlap hours agreed before work begins. The first milestone is written down with acceptance criteria, so you can judge the result before deciding whether to extend the team.
@@ -4298,11 +4473,11 @@ How to choose between embedded offshore capacity, a scoped project and a permane
 Model comparison
 Remote delivery
 
-### Working with an India-based team across timezones
+### Working with an India-based team across time zones
 
 Realistic overlap windows and habits that keep distributed engineering work moving.
 
-Timezone guide
+Time zone guide
 Your next step
 
 ### Discuss your data team.
@@ -4319,12 +4494,12 @@ Last modified: 2026-11-14
 
 MV.tech Solutions services
 
-## Power BI consulting, dashboard development and data modelling.
+## Power BI consulting, dashboard development and data modeling.
 
 Develop Power BI reports that give business teams a consistent view of performance. MV.tech Solutions builds semantic models, DAX measures and dashboards, improves refresh performance and supports migrations from SSAS or Azure Analysis Services. We review existing models as well as delivering new reporting solutions.
 
 - Offices in New York and Ahmedabad
-- Overlap with your timezone
+- Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
 The starting point
@@ -4336,11 +4511,11 @@ The starting point
 - Move reporting from spreadsheets or legacy tabular models into a maintainable Power BI setup.
 What we deliver
 
-### Power BI services from modelling to report delivery.
+### Power BI services from modeling to report delivery.
 
 01
 
-#### Requirements and semantic modelling
+#### Requirements and semantic modeling
 
 Define the reporting questions, metric calculations and data grain. Build fact and dimension relationships, reusable measures and a model that supports the intended users.
 
@@ -4354,7 +4529,7 @@ Develop and review measures, calculation logic and report pages. Design filters,
 
 #### Refresh and model performance
 
-Review storage modes, query folding, model size and refresh behaviour. Investigate slow measures and agree changes to transformations, partitions or upstream datasets.
+Review storage modes, query folding, model size and refresh behavior. Investigate slow measures and agree changes to transformations, partitions or upstream datasets.
 
 04
 
@@ -4368,7 +4543,7 @@ Assess existing SSAS or Analysis Services models, map dependencies and compare r
 - DAX Studio
 - SSAS / Azure Analysis Services
 - Semantic models
-- Dimensional modelling
+- Dimensional modeling
 - SQL
 - Snowflake
 - BigQuery
@@ -4396,7 +4571,7 @@ Working together
 
 - 01 — Review the reporting estate — Identify users, source data, model structure, measures and performance issues.
 - 02 — Develop the model and reports — Build or improve the semantic layer and dashboards with regular business review.
-- 03 — Validate and hand over — Reconcile results, check access and refresh behaviour, and document the operating setup.
+- 03 — Validate and hand over — Reconcile results, check access and refresh behavior, and document the operating setup.
 Teams our engineers have worked with
 
 - Google
@@ -4406,7 +4581,7 @@ Teams our engineers have worked with
 - Chainlabs
 - Toptal
 - Turing
-Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
 Before we begin
 
 ### Questions about hiring a Power BI consultant.
@@ -4420,7 +4595,7 @@ Usually because the model imports more than it reads, or does work at refresh ti
 It is the dataset layer between your warehouse and your reports: tables, relationships, measures, hierarchies and security roles. When it exists as one governed model, every report calculates revenue the same way and analysts can build their own views without writing joins. When each report carries its own copy of the data and its own measures, the numbers drift apart.
 
 **Can you fix our existing Power BI model instead of rebuilding it?**
-Usually, and that is the cheaper place to start. The review covers grain, relationships, calculated columns, duplicated measures, storage mode and refresh behaviour, and ends in a written list of what to fix in place and what genuinely needs remodelling. A rebuild is something we have to justify, not a starting assumption.
+Usually, and that is the cheaper place to start. The review covers grain, relationships, calculated columns, duplicated measures, storage mode and refresh behavior, and ends in a written list of what to fix in place and what genuinely needs remodelling. A rebuild is something we have to justify, not a starting assumption.
 
 **Can you migrate our SSAS or Azure Analysis Services model to Power BI?**
 Yes. The first step is documenting what the tabular model contains and which reports depend on each table and measure, because that decides whether it can move largely as-is through the XMLA endpoint or should be remodelled. Measures are compared old against new on identical filters before any report is repointed, and both models run in parallel until the figures are signed off.
@@ -4483,7 +4658,7 @@ Tell us about the work, your current systems and the people who will use the res
 
 ---
 
-# Snowflake Consulting, Migration & Data Modelling | MV.tech Solutions
+# Snowflake Consulting, Migration & Data Modeling | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/snowflake-consulting/
 Description: Snowflake development and consulting for warehouse migration, pipelines, data models, BI integration, reconciliation and performance review.
@@ -4491,12 +4666,12 @@ Last modified: 2026-11-14
 
 MV.tech Solutions services
 
-## Snowflake consulting for migration, modelling and reporting.
+## Snowflake consulting for migration, modeling and reporting.
 
-Build or improve the Snowflake platform behind your business reporting. MV.tech Solutions supports warehouse migration, ingestion pipelines, data modelling and performance review, with the BI and reconciliation work needed to make the warehouse useful to your teams.
+Build or improve the Snowflake platform behind your business reporting. MV.tech Solutions supports warehouse migration, ingestion pipelines, data modeling and performance review, with the BI and reconciliation work needed to make the warehouse useful to your teams.
 
 - Offices in New York and Ahmedabad
-- Overlap with your timezone
+- Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
 The starting point
@@ -4547,7 +4722,7 @@ Compare source and warehouse outputs, review query history and warehouse setting
 - SQL
 - Parquet
 - Excel
-- Dimensional modelling
+- Dimensional modeling
 - Semantic models
 Business applications
 
@@ -4578,7 +4753,7 @@ Teams our engineers have worked with
 - Chainlabs
 - Toptal
 - Turing
-Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
 Before we begin
 
 ### Questions about Snowflake consulting.
@@ -4586,7 +4761,7 @@ Before we begin
 Not answered here? Ask us directly or read the full FAQ.
 
 **Is MV.tech Solutions a Snowflake consulting partner?**
-No. MV.tech Solutions is not a Snowflake reseller or a member of the Snowflake partner programme; it works as an independent engineering team that designs, migrates and tunes Snowflake warehouses on your own Snowflake account. You buy Snowflake from Snowflake and engineering from us, so there is no resale margin in the advice. The founder holds the Google Cloud Professional Data Engineer certification; MV.tech Solutions makes no Snowflake certification or partner claims.
+No. MV.tech Solutions is not a Snowflake reseller or a member of the Snowflake partner program; it works as an independent engineering team that designs, migrates and tunes Snowflake warehouses on your own Snowflake account. You buy Snowflake from Snowflake and engineering from us, so there is no resale margin in the advice. The founder holds the Google Cloud Professional Data Engineer certification; MV.tech Solutions makes no Snowflake certification or partner claims.
 
 **How much does Snowflake consulting cost?**
 For Snowflake work, we quote after a scoping call. The estimate depends on the number of source systems, the volume of historical data, how much logic is hidden in views, stored procedures and spreadsheets, the Power BI models to be repointed and the support expected afterwards. A first domain is scoped as a bounded piece of work so the figure for the rest of the estate rests on your data rather than on a template.
@@ -4601,7 +4776,7 @@ Import for most governed reporting, DirectQuery where data must be current to th
 Usually because warehouses stay awake for queries that scan more than they should. The common causes are missing clustering on large tables, full refreshes where incremental loads would do, oversized warehouses with long auto-suspend settings and reports that repeat the same aggregate many times an hour. We measure from the query history, change the few things that account for most of the spend and show the before-and-after on your own credit consumption.
 
 **Can a remote team in India run our Snowflake migration?**
-Yes. Our engineering team works from Ahmedabad, India, and agrees a collaboration window in your timezone before work begins: US Eastern mornings, UK and European business hours, Gulf hours or Asia-Pacific afternoons. Snowflake work suits remote delivery because access is role-based and every change can be reviewed as SQL in a pull request. Reconciliation results, decisions and handover notes are written down where your team can read them the next morning.
+Yes. Our engineering team works from Ahmedabad, India, and agrees a collaboration window in your time zone before work begins: US Eastern mornings, UK and European business hours, Gulf hours or Asia-Pacific afternoons. Snowflake work suits remote delivery because access is role-based and every change can be reviewed as SQL in a pull request. Reconciliation results, decisions and handover notes are written down where your team can read them the next morning.
 
 **Can you reconcile Snowflake with Salesforce CRM Analytics and our finance system?**
 Yes, and it is often the part that earns trust in the warehouse. We compare the same metric across the source systems, Snowflake and the CRM Analytics or BI layer at an agreed grain, then investigate every difference until it is fixed or documented as a deliberate change. That investigation sometimes shows that the legacy figure was the wrong one.
@@ -4668,7 +4843,7 @@ MV.tech Solutions services
 Hire the technical people your business needs for the long term. MV.tech Solutions supports permanent recruitment for data engineering, software development, AI, cloud and analytics roles. Our engineering background helps translate the vacancy into a practical brief and a relevant technical assessment.
 
 - Offices in New York and Ahmedabad
-- Overlap with your timezone
+- Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
 The starting point
@@ -4704,7 +4879,7 @@ Use engineering-led discussions and role-relevant assessment to evaluate technic
 
 #### Interview coordination and decision support
 
-Coordinate interviews and feedback, clarify candidate questions and support the offer process. Your organisation makes the selection and employs the successful candidate.
+Coordinate interviews and feedback, clarify candidate questions and support the offer process. Your organization makes the selection and employs the successful candidate.
 
 - AI engineers
 - Data engineers
@@ -4741,7 +4916,7 @@ Teams our engineers have worked with
 - Chainlabs
 - Toptal
 - Turing
-Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
 Before we begin
 
 ### Questions about hiring permanent data, AI and cloud engineers
@@ -4749,7 +4924,7 @@ Before we begin
 Not answered here? Ask us directly or read the full FAQ.
 
 **How does permanent recruitment differ from staff augmentation?**
-Permanent recruitment helps you hire an employee into your own organisation. Staff augmentation supplies consultants to work within your team for an agreed engagement. MV.tech Solutions offers both, and we clarify which arrangement you need before discussing candidates or consultants.
+Permanent recruitment helps you hire an employee into your own organization. Staff augmentation supplies consultants to work within your team for an agreed engagement. MV.tech Solutions offers both, and we clarify which arrangement you need before discussing candidates or consultants.
 
 **Which technology roles can we discuss?**
 Our focus includes AI and automation, data engineering, software development, cloud platforms, BI and analytics. Share the specific role and experience level so we can assess whether the search fits our technical focus.
@@ -4761,10 +4936,10 @@ Yes. Share the permitted hiring locations, remote policy, required working hours
 Fees, search scope, expected timing and any follow-up terms are agreed for the specific role. Complexity, seniority, compensation, location and interview availability affect the search. We do not promise a hire or a fixed start date before assessing the requirement.
 
 **Should we hire a permanent data engineer or use an offshore data engineering team in India?**
-Permanent recruitment places an employee in your own organisation, and you agree employment terms directly with the person you select. MV.tech Solutions also provides India-based offshore data engineering teams, with working hours planned around your timezone. We clarify which arrangement you need before discussing candidates or consultants, and our guide comparing staff augmentation, project consulting and recruitment sets out the differences.
+Permanent recruitment places an employee in your own organization, and you agree employment terms directly with the person you select. MV.tech Solutions also provides India-based offshore data engineering teams, with working hours planned around your time zone. We clarify which arrangement you need before discussing candidates or consultants, and our guide comparing staff augmentation, project consulting and recruitment sets out the differences.
 
 **How do you assess a data engineer's technical fit before our team interviews?**
-An engineer joins the experience and problem-solving discussions, whether the role calls for SQL and warehouse modelling, pipeline engineering, BI and semantic models, or LLM and MCP work. Before the search begins we agree the depth of screening, any assessment and your team's final interview requirements. The hiring brief separates must-have capabilities from skills that can be developed in the role, and shortlist criteria are agreed before sourcing starts.
+An engineer joins the experience and problem-solving discussions, whether the role calls for SQL and warehouse modeling, pipeline engineering, BI and semantic models, or LLM and MCP work. Before the search begins we agree the depth of screening, any assessment and your team's final interview requirements. The hiring brief separates must-have capabilities from skills that can be developed in the role, and shortlist criteria are agreed before sourcing starts.
 
 Related services
 
@@ -4802,11 +4977,11 @@ A checklist for testing seniority, validation, ownership and handover before com
 Vendor checklist
 Remote delivery
 
-### Working with an India-based team across timezones
+### Working with an India-based team across time zones
 
 Overlap windows and async practices to define before adding remote capacity or hiring remotely.
 
-Timezone playbook
+Time zone playbook
 Your next step
 
 ### Discuss your next technology hire.
@@ -4828,7 +5003,7 @@ MV.tech Solutions services
 Reduce the manual work between your business systems. MV.tech Solutions connects applications, APIs, databases and spreadsheets to automate recurring tasks, reporting and approvals. We build the checks, exception handling and operating instructions alongside the workflow.
 
 - Offices in New York and Ahmedabad
-- Overlap with your timezone
+- Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
 The starting point
@@ -4883,7 +5058,7 @@ Business applications
 
 ### Where this service fits.
 
-- Business data synchronisation. Move approved records between operational applications and reporting systems.
+- Business data synchronization. Move approved records between operational applications and reporting systems.
 - Recurring reports. Collect source information, validate it and produce a repeatable reporting output.
 - Document and approval workflows. Route information between processing steps, with a person reviewing exceptions or approving business actions.
 Engagement scope
@@ -4908,7 +5083,7 @@ Teams our engineers have worked with
 - Chainlabs
 - Toptal
 - Turing
-Explore our expertiseMeet Vaghasia on ToptalTimezones, team and engagement costs
+Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
 Before we begin
 
 ### Common questions about workflow automation consulting
@@ -4916,7 +5091,7 @@ Before we begin
 Not answered here? Ask us directly or read the full FAQ.
 
 **Can you automate a workflow across several tools?**
-Yes, when the tools provide suitable authorised access. We review available APIs, webhooks, exports and authentication before estimating the integration. Source limits and downstream permissions shape what can be automated reliably.
+Yes, when the tools provide suitable authorized access. We review available APIs, webhooks, exports and authentication before estimating the integration. Source limits and downstream permissions shape what can be automated reliably.
 
 **Does every automation need AI?**
 No. A scheduled job or API integration may be enough for a predictable process. AI is useful when a step requires language or document interpretation, and that step still needs suitable evaluation and review.
@@ -4977,7 +5152,7 @@ Finance and reporting
 
 Bring financial and operational data into a warehouse, define reporting rules and develop dashboards with source reconciliation.
 
-#### Reporting modernisation
+#### Reporting modernization
 
 Move recurring spreadsheet work into managed transformations and reusable datasets, keeping the business rules documented.
 
@@ -5023,7 +5198,7 @@ Blockchain and Web3
 
 #### Multi-chain data platforms
 
-Collect transactions, logs and events across the networks in scope and standardise them into warehouse datasets.
+Collect transactions, logs and events across the networks in scope and standardize them into warehouse datasets.
 
 #### Wallet and treasury analytics
 
@@ -5050,128 +5225,60 @@ Tell us what you want to build, improve or connect. We’ll discuss the requirem
 
 ---
 
-# Software, Data & AI Services for USA Clients | MV.tech Solutions
+# Website Terms of Use | MV.tech Solutions
 
-URL: https://mvtech.solutions/us-clients/
-Description: Software, data engineering, BI and AI services for US businesses from MV.tech Solutions, with a New York office and an engineering team in Ahmedabad, India.
+URL: https://mvtech.solutions/terms/
+Description: The terms that apply when you use mvtech.solutions, including use of our content and brand assets, disclaimers and the law that governs these terms.
 Last modified: 2026-11-14
 
-Clients in the USA
+Legal
 
-## Software, data and AI services for businesses in the USA.
+## Website terms of use
 
-Work with MV.tech Solutions on custom applications, data platforms, reporting, AI integrations and automation. We have an office in New York, and our engineering team in Ahmedabad, India, collaborates in agreed US working hours.
+These terms apply when you use mvtech.solutions. By using the website, you agree to them.
 
-Our services
+Last updated: November 14, 2026
 
-### Engineering support across your business systems.
+### Who we are
 
-#### Data engineering & warehousing
+This website is operated by MV.tech Solutions (“we”, “us”). MV.tech Solutions is a registered assumed name (DBA) of BB & KV Inc., a New York corporation.
 
-Connect your business systems to a shared data platform. We develop pipelines, warehouse models and data quality checks, and migrate reporting from legacy databases and spreadsheets.
+### Information, not an offer
 
-Data engineering Warehouse migration Snowflake consulting BigQuery consulting Blockchain analytics
+The website describes our services and shares general guidance. It is not professional advice for your situation and not an offer to provide services. Any engagement is governed by a written agreement signed by both parties, and that agreement takes precedence over anything on this website.
 
-#### Business intelligence & analytics
+### Our content and brand
 
-Give finance, operations and management teams consistent reporting. We define KPIs, build semantic models and develop dashboards in Power BI, Tableau, Looker Studio and Streamlit.
+The text, graphics, logos and other content on this website belong to BB & KV Inc. or are used with permission. You may link to any page and quote short passages with attribution to MV.tech Solutions. Our logo and brand assets may be used as described on the brand kit page. Any other use requires our written permission.
 
-BI & dashboard development Power BI consulting
+### Acceptable use
 
-#### Custom software & integrations
+Do not use the website in a way that breaks the law, interferes with its operation or tries to gain unauthorized access to it. Automated crawling is welcome within the rules published in our robots.txt file.
 
-Build customer portals, internal applications and data tools around your workflows. We develop the user interface, backend, database and business system integrations together.
+### Other websites and services
 
-Custom software development Workflow automation & APIs
+The website links to websites and tools run by other companies, such as Calendly and LinkedIn. We are not responsible for their content or practices, and their own terms apply.
 
-#### AI consulting & development
+### Disclaimer
 
-Add AI to a business process or product. Our work covers knowledge assistants, document processing, RAG systems and connections between AI platforms, company data and internal tools.
+The website is provided “as is” and “as available”. To the fullest extent the law allows, we make no warranties about it, express or implied, including warranties of accuracy, merchantability, fitness for a particular purpose and non-infringement.
 
-AI consulting & development MCP servers & AI connectors
+### Limitation of liability
 
-#### Dedicated engineering teams
+To the fullest extent the law allows, we are not liable for any indirect, incidental, special or consequential damages arising from your use of the website, or for any loss caused by relying on its content.
 
-Extend your team with data, software, cloud and AI specialists. Agree the people, responsibilities and capacity, with collaboration hours planned around your delivery process.
+### Governing law
 
-Offshore data engineering teams IT staff augmentation Hire data engineers
+These terms are governed by the laws of the State of New York, without regard to its conflict-of-law rules.
 
-#### Technology recruitment
+### Privacy
 
-Hire permanent data, software, cloud and AI professionals. We help define the role, screen candidates and assess technical fit before your team makes the hiring decision.
+How we handle personal information is described in our Privacy Policy.
 
-Technology recruitment
-Working with your team
+### Changes
 
-### A New York office to contract with. An engineering team planned around your hours.
+We may update these terms. The date at the top shows the latest version, which applies from the time it is posted.
 
-You contract through our New York office, and our engineers in Ahmedabad do the work in collaboration hours agreed with your team.
+### Contact
 
-- Project or dedicated team. Choose an agreed delivery scope or bring specialists into your existing engineering process.
-- Timezone collaboration. Agree recurring meeting and review hours in your local timezone. Eastern and Pacific working windows can be discussed before starting.
-- Procurement and contracting. Agreements for clients in the USA name the supplier as BB & KV Inc., doing business as MV.tech Solutions. We confirm invoicing details, commercial terms and the documents your procurement team needs before the engagement.
-- Technical ownership and handover. Agree access, release responsibilities, documentation and any continuing support with your team.
-For procurement and vendor onboarding
-
-### Company details for clients in the USA.
-
-- Company name
-  MV.tech Solutions
-- Offices
-  New York, USA · Ahmedabad, Gujarat, India
-- Legal entity
-  BB & KV Inc., a New York corporation
-- Registration
-  MV.tech Solutions is a business name (DBA) registered with the New York Department of State
-- Supplier name on agreements
-  BB & KV Inc., doing business as MV.tech Solutions
-- Engineering delivery
-  From our Ahmedabad office, working remotely in your tools
-- Working-hour overlap
-  US Eastern mornings and US Pacific early mornings, agreed per engagement.See the collaboration windows.
-- Contact
-  contact@mvtech.solutions
-Questions about working with us
-
-### What you need to know.
-
-**Is MV.tech Solutions registered in the USA?**
-Yes. MV.tech Solutions is registered in New York as the business name (DBA) of BB & KV Inc., a New York corporation, and has an office in New York. Engineering delivery is from our Ahmedabad office in India.
-
-**Who do we sign the contract with?**
-Agreements for clients in the USA are made with BB & KV Inc., doing business as MV.tech Solutions. The proposal confirms the contracting party, invoicing details and commercial terms, so raise any vendor-onboarding requirements early.
-
-**Where is the engineering work done?**
-At our Ahmedabad office in India, working remotely in your tools. We agree recurring collaboration hours in US Eastern or Pacific time before work starts.
-
-**Can your engineers work within our existing team?**
-Yes. We can discuss staff augmentation or a dedicated team for an agreed capacity and duration, working in your tools with recurring collaboration hours.
-
-**What information helps with an estimate?**
-The business requirement, current systems, users, integrations, target dates and expected delivery model. We clarify the scope and dependencies before proposing the work.
-
-Our offices
-
-### Offices in New York and Ahmedabad.
-
-Work with our New York office and our engineering team in Ahmedabad, with working hours planned around yours.
-
-USA
-
-#### New York
-
-Our US office, for clients and contracts in the United States.
-
-Company information
-India
-
-#### Ahmedabad
-
-Our engineering office in Gujarat. The delivery team works from here, in hours agreed with your team.
-
-Contact our team
-Contact MV.tech Solutions
-
-### Discuss your project with our team.
-
-Tell us what you want to build, improve or connect. We’ll discuss the requirements, the delivery options and the people the work needs.
+Questions about these terms: contact@mvtech.solutions.

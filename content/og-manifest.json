@@ -12,15 +12,21 @@
     "kicker": "MV.tech Solutions · Offices in New York and Ahmedabad"
   },
   {
+    "route": "/accessibility/",
+    "slug": "accessibility",
+    "title": "Accessibility statement",
+    "kicker": "MV.tech Solutions · Legal"
+  },
+  {
     "route": "/brand/",
     "slug": "brand",
-    "title": "MV.tech Solutions brand kit — logos, colours, type and guidelines",
+    "title": "MV.tech Solutions brand kit — logos, colors, type and guidelines",
     "kicker": "Vector masters · Design tokens · Guidelines · Free download"
   },
   {
     "route": "/compliance/",
     "slug": "compliance",
-    "title": "Privacy, security & delivery standards",
+    "title": "Security & delivery standards",
     "kicker": "Data handling · Secure delivery · Accessibility · Analytics · Responsible AI"
   },
   {
@@ -51,7 +57,7 @@
     "route": "/insights/data-consultancy-company-for-offshore-team/",
     "slug": "insights-data-consultancy-company-for-offshore-team",
     "title": "Data consultancy company for an offshore team",
-    "kicker": "Offshore data team · Vendor fit · Timezone overlap"
+    "kicker": "Offshore data team · Vendor fit · Time zone overlap"
   },
   {
     "route": "/insights/letting-ai-assistants-query-your-data-warehouse-safely/",
@@ -92,7 +98,7 @@
   {
     "route": "/insights/timezone-overlap-with-an-india-based-engineering-team/",
     "slug": "insights-timezone-overlap-with-an-india-based-engineering-team",
-    "title": "Working with an India-based engineering team across timezones",
+    "title": "Working with an India-based engineering team across time zones",
     "kicker": "Overlap windows · What to agree up front · Async habits that work"
   },
   {
@@ -108,6 +114,12 @@
     "kicker": "Model Context Protocol explained · When to build · Security · A first project"
   },
   {
+    "route": "/privacy/",
+    "slug": "privacy",
+    "title": "Privacy Policy",
+    "kicker": "MV.tech Solutions · Legal"
+  },
+  {
     "route": "/process/",
     "slug": "process",
     "title": "From requirements to production delivery",
@@ -116,7 +128,7 @@
   {
     "route": "/remote-consulting/",
     "slug": "remote-consulting",
-    "title": "How We Work: Remote Team, Timezones & Costs",
+    "title": "How We Work: Remote Team, Time zones & Costs",
     "kicker": "MV.tech Solutions · Project delivery · Dedicated capacity"
   },
   {
@@ -222,9 +234,9 @@
     "kicker": "MV.tech Solutions · Software · Data · AI engineering"
   },
   {
-    "route": "/us-clients/",
-    "slug": "us-clients",
-    "title": "Engineering services for businesses in the USA",
-    "kicker": "MV.tech Solutions · New York office · Engineering team in India"
+    "route": "/terms/",
+    "slug": "terms",
+    "title": "Website terms of use",
+    "kicker": "MV.tech Solutions · Legal"
   }
 ]

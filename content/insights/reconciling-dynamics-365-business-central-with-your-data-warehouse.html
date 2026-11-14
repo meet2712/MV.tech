@@ -39,11 +39,11 @@
 <div class="table-wrap" tabindex="0"><table class="data-table"><caption>Five causes of drift between a Business Central ledger and a warehouse report</caption><thead><tr><th scope="col">Cause</th><th scope="col">How it shows up</th><th scope="col">What to check</th></tr></thead><tbody>
 <tr><th scope="row">Decimal handling</th><td>Account totals differ by a few pence, and the gap grows with volume</td><td>Whether amounts pass through a floating-point type between the API and the chart</td></tr>
 <tr><th scope="row">Posting date versus document date</th><td>Month totals disagree, but the year agrees</td><td>Which date field defines the period; Business Central's own reports use posting date</td></tr>
-<tr><th scope="row">Dimension changes</th><td>Historical cost centre figures move after someone edits a dimension value</td><td>Whether the warehouse joins to the posted dimension set or to the current master</td></tr>
+<tr><th scope="row">Dimension changes</th><td>Historical cost center figures move after someone edits a dimension value</td><td>Whether the warehouse joins to the posted dimension set or to the current master</td></tr>
 <tr><th scope="row">Deleted or reversed entries</th><td>An invoice finance says was reversed still shows, or a reversal has no original</td><td>Whether reversal pairs are both present, and whether entries changed after extraction are re-read</td></tr>
 <tr><th scope="row">Snapshot timing</th><td>Last month's numbers change on every refresh</td><td>When the extract ran relative to period close, and whether back-dated postings were picked up</td></tr>
 </tbody></table></div>
-<p>Posted ledger entries cannot be deleted, but they are not fully append-only. A reversal flags the original entry, a global dimension change can rewrite fields on existing entries, and date compression can replace detail with summarised rows, so an extract that only asks for entry numbers higher than the last one it saw misses all of that.</p>
+<p>Posted ledger entries cannot be deleted, but they are not fully append-only. A reversal flags the original entry, a global dimension change can rewrite fields on existing entries, and date compression can replace detail with summarized rows, so an extract that only asks for entry numbers higher than the last one it saw misses all of that.</p>
 
 <h2>What does a reconciliation-first Business Central integration look like?</h2>
 <p>It extracts the ledger at entity level, stores every amount as an exact decimal, and keeps two tables that are checked against each other and against Business Central before anyone reads a chart from them. The parts are ordinary; the discipline is in refusing to publish a period that fails its check.</p>

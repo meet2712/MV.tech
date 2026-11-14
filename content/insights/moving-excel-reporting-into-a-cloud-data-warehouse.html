@@ -33,7 +33,7 @@
   </ul>
 </div>
 
-<p>Few finance or operations teams decide to run reporting in Excel. It happens one workaround at a time, and by the time anyone asks how to migrate Excel reporting to a data warehouse, the spreadsheet is doing a job it was never designed for. This guide covers how to recognise that point, where the sources and rules are hiding, the order of work and what should stay in a spreadsheet.</p>
+<p>Few finance or operations teams decide to run reporting in Excel. It happens one workaround at a time, and by the time anyone asks how to migrate Excel reporting to a data warehouse, the spreadsheet is doing a job it was never designed for. This guide covers how to recognize that point, where the sources and rules are hiding, the order of work and what should stay in a spreadsheet.</p>
 
 <h2>How do you know month-end spreadsheets have become a system of record?</h2>
 <p>A spreadsheet has become a system of record when a figure in it cannot be rebuilt from the source systems without the spreadsheet. The test is blunt: if the file were deleted, could anyone reproduce last month's numbers from the systems alone?</p>
@@ -47,12 +47,12 @@
 <p>Each is a reason to treat the spreadsheet as a legacy system with an undocumented data model.</p>
 
 <h2>Where are the sources and the rules hiding?</h2>
-<p>The sources are usually a handful of systems behind the export buttons, and the rules are in the formulas, the pivot filters and the adjustments people apply by hand. More of this discovery happens in conversation than in a database catalogue.</p>
+<p>The sources are usually a handful of systems behind the export buttons, and the rules are in the formulas, the pivot filters and the adjustments people apply by hand. More of this discovery happens in conversation than in a database catalog.</p>
 <ul>
   <li><strong>Trace each tab backwards.</strong> Who pastes into it, from which system, with which filters and date range.</li>
   <li><strong>Read the formulas as transformation rules.</strong> Nested IFs that map codes to categories, SUMIFS with hard-coded dates. Each needs a name, an owner and a test.</li>
   <li><strong>Collect the rules in people's heads.</strong> "We always exclude the intercompany entities." Write them down verbatim, then make them precise.</li>
-  <li><strong>Find the mapping tables hiding in tabs.</strong> Cost-centre hierarchies, region lists, owner assignments. These become dimension tables, each with an owner.</li>
+  <li><strong>Find the mapping tables hiding in tabs.</strong> Cost-center hierarchies, region lists, owner assignments. These become dimension tables, each with an owner.</li>
 </ul>
 <p>The output is a rule register: one row per rule, where it lives today, what it does, who decides it and a worked example from a recent month. Both sides sign it off before anything is built.</p>
 

@@ -10,7 +10,7 @@ This is a factual index of the company's public website. The linked pages contai
 - Other spellings people search for: MV Tech Solutions, MVTech Solutions, MV Tech, MVTech and MV Tech Data Solutions. These identify this company only when associated with mvtech.solutions and the profiles below; other similarly named businesses may be unrelated.
 - Official website: https://mvtech.solutions/
 - Founder: Meet Vaghasia, Founder & Lead Engineer.
-- Offices: New York, USA, and Ahmedabad, Gujarat, India (380061). The engineering team works from the Ahmedabad office and delivers remotely for clients in the USA and worldwide, with collaboration hours agreed per engagement. See [services for clients in the USA](https://mvtech.solutions/us-clients/).
+- Offices: New York office, 248-15 88th Rd, Jamaica, NY 11426, United States; Ahmedabad office, 16 Trishala Residency, S G Highway, Behind RC Technical, Opp. High Court, Near Harivila, Chandlodiya, Ahmedabad, Gujarat 380061, India (phone +91 94092 99016). The engineering team works from the Ahmedabad office and delivers remotely for clients in the USA and worldwide, with collaboration hours agreed per engagement. See [our offices](https://mvtech.solutions/contact/#offices).
 - Team: 10–15 specialists, as stated on the About page.
 - Legal entity: MV.tech Solutions is a registered assumed name (DBA) of BB & KV Inc., a New York corporation. Agreements with clients in the USA name the supplier as BB & KV Inc., doing business as MV.tech Solutions. MV.tech Solutions is a business name, not a separate corporation or LLC, so "MV.tech Solutions Inc." and "MV.tech Solutions LLC" are incorrect.
 - India tax registration published on the website: GSTIN 24BZMPV4008F1ZA. It belongs to the India operation, not to BB & KV Inc.
@@ -25,12 +25,12 @@ This is a factual index of the company's public website. The linked pages contai
 ## Data engineering and analytics services
 
 - [Offshore Data Engineering Team](https://mvtech.solutions/services/offshore-data-engineering-team/): Extend your team with data engineering, analytics and BI specialists from India. Agree roles, capacity, delivery responsibilities and collaboration hours.
-- [Data Engineering Consulting](https://mvtech.solutions/services/data-engineering/): Data integration, ETL pipelines, cloud warehouses, modelling and data quality services from MV.tech Solutions for reporting, analytics and applications.
+- [Data Engineering Consulting](https://mvtech.solutions/services/data-engineering/): Data integration, ETL pipelines, cloud warehouses, modeling and data quality services from MV.tech Solutions for reporting, analytics and applications.
 - [Data Warehouse Migration](https://mvtech.solutions/services/data-warehouse-migration/): Migrate legacy databases and spreadsheet reporting to Snowflake, BigQuery or Redshift with discovery, source mapping, reconciliation and report transition.
 - [Business Intelligence & Dashboards](https://mvtech.solutions/services/business-intelligence/): BI consulting, reporting datasets, semantic models and dashboards in Power BI, Tableau, Looker Studio and Streamlit, with KPI definition and validation.
 - [Blockchain & On-Chain Data Analytics](https://mvtech.solutions/services/blockchain-data-analytics/): Multi-chain transaction pipelines, event decoding, wallet analytics and reconciliation datasets for blockchain reporting and business analysis.
 - [Snowflake Consulting](https://mvtech.solutions/services/snowflake-consulting/): Snowflake development and consulting for warehouse migration, pipelines, data models, BI integration, reconciliation and performance review.
-- [BigQuery Consulting](https://mvtech.solutions/services/bigquery-consulting/): BigQuery warehouse design, cloud ingestion, reporting integration, migration and workload optimisation from the MV.tech Solutions data engineering team.
+- [BigQuery Consulting](https://mvtech.solutions/services/bigquery-consulting/): BigQuery warehouse design, cloud ingestion, reporting integration, migration and workload optimization from the MV.tech Solutions data engineering team.
 - [Power BI Consulting](https://mvtech.solutions/services/power-bi-consulting/): Power BI models, DAX measures, dashboards, refresh-performance reviews and SSAS migrations, with reporting requirements and source reconciliation.
 
 ## AI, software and automation services
@@ -42,23 +42,25 @@ This is a factual index of the company's public website. The linked pages contai
 
 ## Engineering capacity and hiring
 
-- [IT Staff Augmentation](https://mvtech.solutions/services/it-staff-augmentation/): Add data, software, AI and cloud specialists to your delivery team. Discuss assigned roles, capacity, responsibilities, duration and timezone collaboration.
+- [IT Staff Augmentation](https://mvtech.solutions/services/it-staff-augmentation/): Add data, software, AI and cloud specialists to your delivery team. Discuss assigned roles, capacity, responsibilities, duration and time zone collaboration.
 - [Technology Recruitment](https://mvtech.solutions/services/technology-recruitment/): Permanent recruitment for data, software, AI, cloud and analytics roles, with role definition, candidate screening and engineering-led technical assessment.
-- [How We Work: Remote Team, Timezones & Costs](https://mvtech.solutions/remote-consulting/): Work with MV.tech Solutions through project delivery, dedicated engineers or specialist capacity, with responsibilities and collaboration hours agreed.
+- [How We Work: Remote Team, Time zones & Costs](https://mvtech.solutions/remote-consulting/): Work with MV.tech Solutions through project delivery, dedicated engineers or specialist capacity, with responsibilities and collaboration hours agreed.
 - [Hire Data Engineers](https://mvtech.solutions/services/hire-data-engineers/): Engage data engineers for integration, warehouses, analytics and data quality through embedded capacity, project delivery or permanent recruitment.
 
 ## Company, delivery and next steps
 
 - [Home](https://mvtech.solutions/): MV.tech Solutions builds custom software, data platforms, BI and AI systems, and provides dedicated engineering teams. Offices in New York and Ahmedabad.
 - [About MV.tech Solutions](https://mvtech.solutions/about/): MV.tech Solutions is a software, data and AI engineering company with offices in New York, USA, and Ahmedabad, India. Meet the company and its founder.
-- [Clients in the USA](https://mvtech.solutions/us-clients/): Software, data engineering, BI and AI services for US businesses from MV.tech Solutions, with a New York office and an engineering team in Ahmedabad, India.
 - [Services](https://mvtech.solutions/services/): Explore MV.tech Solutions services: custom software, data engineering, BI, AI and MCP integrations, automation, dedicated teams and technology recruitment.
 - [Business solutions](https://mvtech.solutions/solutions/): Business solutions for finance reporting, operational workflows, customer portals, AI applications and blockchain analytics from MV.tech Solutions.
 - [Expertise](https://mvtech.solutions/expertise/): Explore MV.tech Solutions capabilities in software, data platforms, BI, AI and cloud delivery, with founder experience and professional credentials.
 - [Delivery process](https://mvtech.solutions/process/): How MV.tech Solutions plans and delivers engineering work: discovery, architecture, development, testing, deployment, documentation and agreed ongoing support.
 - [FAQ](https://mvtech.solutions/faq/): Answers about MV.tech Solutions: services, company registration, project delivery, dedicated teams, remote collaboration, pricing, ownership and support.
-- [Privacy & delivery standards](https://mvtech.solutions/compliance/): How MV.tech Solutions handles client data, credentials and access: secure delivery, accessibility, website analytics and responsible use of AI.
-- [Brand kit](https://mvtech.solutions/brand/): Download the MV.tech Solutions brand kit: vector logos, favicons, avatars, colour tokens, Inter fonts, icons and the full brand guidelines.
+- [Security & delivery standards](https://mvtech.solutions/compliance/): How MV.tech Solutions handles client data, credentials and system access during engagements, with secure delivery and responsible use of AI.
+- [Privacy Policy](https://mvtech.solutions/privacy/): How MV.tech Solutions collects, uses and protects personal information on mvtech.solutions, and how US residents can exercise their privacy rights.
+- [Terms of Use](https://mvtech.solutions/terms/): The terms that apply when you use mvtech.solutions, including use of our content and brand assets, disclaimers and the law that governs these terms.
+- [Accessibility statement](https://mvtech.solutions/accessibility/): MV.tech Solutions aims to make mvtech.solutions usable by everyone, following WCAG 2.1 Level AA. How we build for access and how to report a barrier.
+- [Brand kit](https://mvtech.solutions/brand/): Download the MV.tech Solutions brand kit: vector logos, favicons, avatars, color tokens, Inter fonts, icons and the full brand guidelines.
 - [Contact](https://mvtech.solutions/contact/): Discuss software, data, BI, AI or automation requirements with MV.tech Solutions. Book a consultation or send a brief for a project, a team or a hire.
 
 ## Practical buyer guides
@@ -66,9 +68,9 @@ This is a factual index of the company's public website. The linked pages contai
 - [Insights](https://mvtech.solutions/insights/): index of practical engineering and buying guides by Meet Vaghasia.
 - [Choosing a data consultancy for an offshore team](https://mvtech.solutions/insights/data-consultancy-company-for-offshore-team/): scope, delivery fit, responsibilities and first-milestone planning.
 - [Questions before hiring a remote data engineering consultancy](https://mvtech.solutions/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/): technical evaluation, communication, ownership, access and delivery checks.
-- [RAG versus fine-tuning for internal knowledge assistants](https://mvtech.solutions/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/): choosing an approach based on knowledge freshness, traceability and model behaviour.
+- [RAG versus fine-tuning for internal knowledge assistants](https://mvtech.solutions/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/): choosing an approach based on knowledge freshness, traceability and model behavior.
 - [Staff augmentation versus project consulting versus recruitment](https://mvtech.solutions/insights/staff-augmentation-vs-project-consulting-vs-recruitment/): comparison of responsibility, control and engagement fit.
-- [Timezone overlap with an India-based engineering team](https://mvtech.solutions/insights/timezone-overlap-with-an-india-based-engineering-team/): agreeing working hours and accounting for daylight saving in the client's location.
+- [Time zone overlap with an India-based engineering team](https://mvtech.solutions/insights/timezone-overlap-with-an-india-based-engineering-team/): agreeing working hours and accounting for daylight saving in the client's location.
 - [What an MCP server is and when a business should build one](https://mvtech.solutions/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/): business-system access for AI assistants, integration scope and operating controls.
 - [What Does a Remote Data Engineering Team from India Cost?](https://mvtech.solutions/insights/what-a-remote-data-engineering-team-from-india-costs/): What sets the price of a remote data engineering team from India, where the saving really comes from, how to compare quotes and the costs buyers forget.
 - [Reconciling Dynamics 365 Business Central With Your Data Warehouse](https://mvtech.solutions/insights/reconciling-dynamics-365-business-central-with-your-data-warehouse/): Why Business Central ledger data drifts from warehouse reports, a reconciliation-first integration method and what to check before trusting a dashboard.
