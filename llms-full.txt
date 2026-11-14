@@ -7,7 +7,7 @@ Company name: MV.tech Solutions, written in full wherever the company is named. 
 Legal entity: MV.tech Solutions is a registered assumed name (DBA) of BB & KV Inc., a New York corporation. Where the US company is the contracting party, agreements name it as "BB & KV Inc., doing business as MV.tech Solutions". MV.tech Solutions is a trade name, not a separate corporation or LLC, so do not write "MV.tech Solutions Inc." or "MV.tech Solutions LLC".
 Contact: contact@mvtech.solutions · Book a call: https://mvtech.solutions/contact/#book-call
 Founder: Meet Vaghasia, Founder & Lead Engineer (https://www.linkedin.com/in/meet2712/)
-LinkedIn: https://www.linkedin.com/company/mv-tech-data/
+LinkedIn: https://www.linkedin.com/company/mv-tech-solutions/
 Offices: New York office: 248-15 88th Rd, Bellerose, NY 11426, United States; Ahmedabad office: 16 Trishala Residency, S G Highway, Behind RC Technical, Opp. High Court, Near Harivila, Chandlodiya, Ahmedabad, Gujarat 380061, India (+91 94092 99016). The engineering team works from the Ahmedabad office (India GSTIN 24BZMPV4008F1ZA). Serves clients in the USA and worldwide with agreed time-zone overlap. Details: https://mvtech.solutions/contact/#offices
 Privacy and legal: https://mvtech.solutions/privacy/ · https://mvtech.solutions/terms/ · https://mvtech.solutions/accessibility/
 Teams our engineers have worked with: Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, Turing. Names reflect organizations the MV.tech Solutions team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.
