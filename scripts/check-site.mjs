@@ -224,6 +224,22 @@ for (const page of consulting) {
     assert(key !== page.key && consulting.some((p) => p.key === key && p.path.startsWith('/services/')), `Invalid related service ${key} on ${page.path}`);
   }
 }
+// Internal links: Google left service pages and articles linked from one or two pages
+// "Discovered - currently not indexed" (Search Console, November 2026). Every service page
+// and article needs links from at least three other pages' main content, not only the
+// site-wide header and footer.
+{
+  const inbound = new Map([...routes].map((route) => [route, new Set()]));
+  for (const file of files) {
+    const from = routeFor(file);
+    const main = (await readFile(file, 'utf8')).match(/<main[\s\S]*?<\/main>/)?.[0] ?? '';
+    for (const [, href] of main.matchAll(/href="(?:https:\/\/mvtech\.solutions)?(\/[^"#?]*)/g)) {
+      if (href !== from && inbound.has(href)) inbound.get(href).add(from);
+    }
+  }
+  const weak = [...inbound].filter(([route, from]) => /^\/(services|insights)\/./.test(route) && from.size < 3).map(([route, from]) => `${route} (${from.size})`);
+  assert(weak.length === 0, `Pages linked from fewer than three other pages' content: ${weak.join(', ')}`);
+}
 const contact = await readFile('contact/index.html', 'utf8');
 assert(contact.includes('id="book-call"'), 'Booking links need a contact-page destination');
 const indexNow = (await readFile('.github/workflows/indexnow.yml', 'utf8')).match(/INDEXNOW_KEY:\s*([a-f0-9]{32})/);
