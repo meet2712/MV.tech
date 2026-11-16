@@ -11,7 +11,7 @@ LinkedIn: https://www.linkedin.com/company/mv-tech-solutions/
 Offices: New York office: 248-15 88th Rd, Bellerose, NY 11426, United States; Ahmedabad office: 16 Trishala Residency, S G Highway, Behind RC Technical, Opp. High Court, Near Harivila, Chandlodiya, Ahmedabad, Gujarat 380061, India (+91 94092 99016). Staff work from both offices; India GSTIN 24BZMPV4008F1ZA belongs to the India office. Serves clients in the USA and worldwide with agreed time-zone overlap. Details: https://mvtech.solutions/contact/#offices
 Privacy and legal: https://mvtech.solutions/privacy/ · https://mvtech.solutions/terms/ · https://mvtech.solutions/accessibility/
 Teams our engineers have worked with: Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, Turing. Names reflect organizations the MV.tech Solutions team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.
-Last generated: 2026-11-15. Short summary and answer guidance: https://mvtech.solutions/llms.txt
+Last generated: 2026-11-16. Short summary and answer guidance: https://mvtech.solutions/llms.txt
 
 This file is generated from the public pages listed below, so it always matches what visitors see. Each section is one page: title, canonical URL, meta description, then the page text.
 
@@ -21,17 +21,17 @@ This file is generated from the public pages listed below, so it always matches 
 
 URL: https://mvtech.solutions/
 Description: MV.tech Solutions builds custom software, data platforms, BI and AI systems, and provides dedicated engineering teams. Offices in New York and Ahmedabad.
-Last modified: 2026-11-15
+Last modified: 2026-11-16
 
-Your partner for software, data & AI engineering
+Software, data & AI engineering
 
-## Software, dataand AI.Built for your business.
+## Software, dataand AI,built by engineers you talk to directly.
 
-Build the application you need. Bring your data together. Put AI to work. MV.tech Solutions connects the engineering behind your next step.
+MV.tech Solutions builds web applications, data warehouses, reporting and AI tools for companies in the US and worldwide. You work with the engineers writing the code, not an account manager.
 
 Offices in New York, USA/Ahmedabad, India
 
-Our engineers’ experience
+Our engineers have worked on projects for
 
 - Google
 - Volvo
@@ -40,13 +40,11 @@ Our engineers’ experience
 - Chainlabs
 - Toptal
 - Turing
-Experience includes work delivered directly and through talent platforms. Names do not imply endorsements or current partnerships.
-
 Our services
 
-### The engineering your next step needs.
+### What we do
 
-Start with one workstream or bring us the whole project. We work across the applications, data and integrations behind it.
+Hand us one piece of work or the whole project.
 
 #### Data Engineering & Warehousing
 
@@ -83,11 +81,11 @@ Explore Dedicated Teams
 Find permanent technology hires with support for role definition, sourcing and technical assessment. Your team makes the hiring decision.
 
 Explore Recruitment
-Engineering experience
+Recent work
 
-### Built on hands-on work.
+### A few projects our founder has delivered.
 
-Selected work from founder Meet Vaghasia’s individual engagements, including through talent platforms. These are examples of his experience.
+Meet Vaghasia’s own engagements, some of them delivered through talent platforms.
 
 RootstockLabs
 
@@ -110,49 +108,49 @@ Turing
 Gemini model evaluation and data preparation for a Google project delivered through Turing.
 
 Gemini · AI evaluation
-Engagement options
+Working with us
 
-### A project, an extra pair of hands or your next hire.
-
-01 / Project delivery
-
-#### A defined outcome.
-
-An agreed scope delivered by MV.tech Solutions, with milestones, technical reviews, acceptance checks and handover. How project delivery works
-
-02 / Dedicated team
-
-#### Capacity in your team.
-
-Assigned specialists work within your tools and delivery process for the agreed capacity and duration. How dedicated teams work
-
-03 / Recruitment
-
-#### A long-term hire.
-
-Your organization hires and employs the candidate. MV.tech Solutions supports the role brief, sourcing and assessment for a long-term technology position. How recruitment works
-
-Delivery
-
-### From requirements to a system your team can use.
+### Three ways to work with us.
 
 01
 
-#### Understand and plan
+#### Project Delivery
 
-Review users, current systems and business requirements. Agree the scope, dependencies, architecture and acceptance criteria.
+We take a defined scope from plan to handover, with milestones you sign off. How project delivery works
 
 02
 
-#### Develop and validate
+#### Dedicated Team
 
-Build in reviewable stages. Test workflows and integrations, reconcile important data and involve the people who will use the result.
+Our engineers join your team and work in your tools, for as long as you need them. How dedicated teams work
 
 03
 
-#### Deploy and support
+#### Recruitment
 
-Release with operating documentation and handover. Agree ongoing maintenance, enhancements or dedicated capacity where needed.
+We find and vet candidates for a permanent role. You hire them directly. How recruitment works
+
+Delivery
+
+### How a project runs.
+
+01
+
+#### Plan
+
+We look at your users, systems and goals, then agree the scope, the architecture and what “done” means.
+
+02
+
+#### Build
+
+We ship in small pieces you can try, test the integrations and check the numbers against your source data.
+
+03
+
+#### Launch and Support
+
+We release with documentation and a proper handover, and stay on for fixes and new features if you want us to.
 
 Questions about working with us
 
@@ -193,9 +191,9 @@ India
 - Get directions
 Contact MV.tech Solutions
 
-### Let’s work on what comes next.
+### Tell us what you’re working on.
 
-A new idea, a system that needs attention or a team that needs support. Tell us where you are, and we’ll work through the next step with you.
+Book a 30-minute call or send us an email. We’ll tell you straight whether we’re a good fit and what the first step would be.
 
 ---
 
@@ -203,25 +201,25 @@ A new idea, a system that needs attention or a team that needs support. Tell us 
 
 URL: https://mvtech.solutions/about/
 Description: MV.tech Solutions is a software, data and AI engineering company with offices in New York, USA, and Ahmedabad, India. Meet the company and its founder.
-Last modified: 2026-11-15
+Last modified: 2026-11-16
 
 About MV.tech Solutions
 
-## An engineering company for software, data and AI.
+## A software, data and AI engineering company in New York and Ahmedabad.
 
-MV.tech Solutions helps businesses develop applications, build data platforms and introduce AI into products and operations. Founded in 2022, we work from offices in New York, USA, and Ahmedabad, India, through project engagements, dedicated engineering capacity and technology recruitment.
+Meet Vaghasia founded MV.tech Solutions in 2022. Today our team builds web applications, data platforms and AI tools for companies in the US and worldwide.
 
 The company
 
-### Engineering across the systems your business depends on.
+### Why one team for software, data and AI.
 
-A business application needs working integrations. A reporting platform needs consistent data. An AI feature needs access to the right information. MV.tech Solutions brings these disciplines together so the technical scope can follow the business requirement across software, data and analytics.
+Most projects touch all three. A customer portal is only useful if the data behind it is right, a dashboard depends on the pipeline feeding it, and an AI assistant needs access to the systems your team already uses. We build all of it, so nothing falls into the gap between two vendors.
 
-We work with business owners, product teams and internal engineers on new development and existing systems. Engagements can cover an entire agreed project or a particular workstream, with responsibilities, delivery reviews and operating ownership defined before work begins.
+We work with founders, product teams and in-house engineers, on new builds and on systems that already exist. Before work starts, we agree in writing who owns what.
 
 What we do
 
-### Build, connect and improve.
+### What we build.
 
 #### Software and business applications
 
@@ -237,24 +235,22 @@ Knowledge assistants, document processing, MCP connectors and workflows that con
 
 Working with MV.tech Solutions
 
-### Choose the responsibility you want us to take.
+### How you can work with us.
 
-A delivery relationship should be clear about who sets priorities, who does the work and how progress is reviewed.
-
-- Project delivery. MV.tech Solutions delivers the agreed requirements, with milestones and acceptance criteria.
-- Dedicated capacity. Our specialists work within your team’s tools and delivery process for an agreed capacity and duration.
-- Permanent recruitment. We support sourcing and technical assessment while your organization makes the hiring decision and employs the candidate.
+- Project delivery. We own an agreed scope and deliver it in milestones you sign off.
+- Dedicated team. Our engineers join your team and work in your tools and process for as long as you need them.
+- Recruitment. We find and technically vet candidates for a permanent role. You make the hire.
 Founder
 
 ### Meet Vaghasia, Founder & Lead Engineer.
 
-Meet’s engineering background spans data platforms, analytics and AI integration. He founded MV.tech Solutions to bring that practical engineering approach to client delivery: understand the requirement, connect the relevant systems and build something the business can operate.
+Meet is a data and AI engineer. He has built warehouses, reporting systems and AI integrations for companies including Volvo Cars, RootstockLabs and BCW Group.
 
-His public professional profile lists work in data engineering and AI, Google Cloud Professional Data Engineer certification and IBM Mastery Awards. View Meet’s Toptal profile
+He is a Google Cloud certified Professional Data Engineer, holds IBM Mastery Awards and is a vetted member of the Toptal network. View Meet’s Toptal profile
 
 Company information
 
-### The details behind MV.tech Solutions.
+### Company details.
 
 - Company name
   MV.tech Solutions
@@ -301,9 +297,9 @@ India
 - Get directions
 Contact MV.tech Solutions
 
-### Talk to us about your engineering requirements.
+### Want to talk it through?
 
-Tell us what you want to build, improve or connect. We’ll discuss the requirements, the delivery options and the people the work needs.
+Book a 30-minute call. You’ll speak with an engineer, not a salesperson.
 
 ---
 
