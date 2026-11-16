@@ -119,9 +119,9 @@
     "ogTitle": "Data Engineering Consulting",
     "ogKicker": "MV.tech Solutions · Consulting · Development · Integration",
     "relatedServiceKeys": [
-      "offshore-data-engineering-team",
-      "data-warehouse-migration",
-      "business-intelligence"
+      "snowflake-consulting",
+      "bigquery-consulting",
+      "offshore-data-engineering-team"
     ],
     "h1": "Data engineering services for connected, usable business data.",
     "questionsHeading": "Common questions about data engineering consulting",
@@ -272,9 +272,9 @@
     "ogTitle": "Offshore Data Engineering Team",
     "ogKicker": "MV.tech Solutions · Consulting · Development · Integration",
     "relatedServiceKeys": [
+      "hire-data-engineers",
       "data-engineering",
-      "it-staff-augmentation",
-      "technology-recruitment"
+      "it-staff-augmentation"
     ],
     "applications": [
       {
@@ -688,7 +688,7 @@
     "ogTitle": "Business Intelligence & Dashboards",
     "ogKicker": "MV.tech Solutions · Consulting · Development · Integration",
     "relatedServiceKeys": [
-      "data-engineering",
+      "power-bi-consulting",
       "data-warehouse-migration",
       "offshore-data-engineering-team"
     ],
@@ -841,8 +841,8 @@
     "ogTitle": "Data Warehouse Migration",
     "ogKicker": "MV.tech Solutions · Consulting · Development · Integration",
     "relatedServiceKeys": [
-      "data-engineering",
-      "business-intelligence",
+      "snowflake-consulting",
+      "bigquery-consulting",
       "offshore-data-engineering-team"
     ],
     "h1": "Data warehouse migration and modernization services.",
@@ -1620,9 +1620,9 @@
     "ogTitle": "IT Staff Augmentation",
     "ogKicker": "MV.tech Solutions · Specialist capacity · Dedicated teams",
     "relatedServiceKeys": [
+      "hire-data-engineers",
       "offshore-data-engineering-team",
-      "technology-recruitment",
-      "data-engineering"
+      "technology-recruitment"
     ],
     "h1": "IT staff augmentation and dedicated engineering teams.",
     "questionsHeading": "Common questions about hiring remote data, AI and cloud consultants",

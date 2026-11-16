@@ -569,7 +569,7 @@ Three things to bring
 
 URL: https://mvtech.solutions/expertise/
 Description: Explore MV.tech Solutions capabilities in software, data platforms, BI, AI and cloud delivery, with founder experience and professional credentials.
-Last modified: 2026-11-14
+Last modified: 2026-11-16
 
 Expertise
 
@@ -844,7 +844,7 @@ Tell us about your situation. A 30-minute call with the engineering team is usua
 
 URL: https://mvtech.solutions/insights/data-consultancy-company-for-offshore-team/
 Description: How to evaluate a data consultancy for an offshore team, and where MV.tech Solutions fits for data engineering, analytics, BI and AI delivery from India.
-Last modified: 2026-11-14
+Last modified: 2026-11-16
 
 Buyer question
 
@@ -852,7 +852,7 @@ Buyer question
 
 How to evaluate a data consultancy for an offshore team, and where MV.tech Solutions fits for data engineering, analytics, BI and AI delivery from India.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published September 18, 2026 · Updated November 14, 2026 · 3 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published September 18, 2026 · Updated November 16, 2026 · 3 min read
 
 In brief
 
@@ -931,11 +931,11 @@ Engagement models
 How to choose between embedding a consultant, a scoped project and a permanent hire for data, software and AI work: control, cost, speed and risk.
 
 6 min read
-Remote delivery playbook
+Cost guide
 
-### How to Work with an India-Based Engineering Team Across Time Zones
+### What Does a Remote Data Engineering Team from India Cost?
 
-Realistic overlap windows, what to agree up front and the async habits that make a remote team in India work for US, UK, EU and Australian companies.
+What sets the price of a remote data engineering team from India, where the saving really comes from, how to compare quotes and the costs buyers forget.
 
 6 min read
 About the author
@@ -957,7 +957,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/insights/letting-ai-assistants-query-your-data-warehouse-safely/
 Description: A step-by-step pattern for giving Claude, GPT or Gemini read-only access to a warehouse: scoped identity, checked SQL, row limits, redaction and provenance.
-Last modified: 2026-11-14
+Last modified: 2026-11-16
 
 AI engineering
 
@@ -965,7 +965,7 @@ AI engineering
 
 A step-by-step pattern for giving Claude, GPT or Gemini read-only access to a warehouse: scoped identity, checked SQL, row limits, redaction and provenance.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published October 12, 2026 · Updated November 14, 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published October 12, 2026 · Updated November 16, 2026 · 6 min read
 
 In brief
 
@@ -1050,13 +1050,13 @@ AI engineering
 A plain-language comparison of retrieval-augmented generation and fine-tuning for knowledge assistants: when each fits, permissions, evaluation and cost.
 
 5 min read
-Buyer's guide
+Finance data engineering
 
-### 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
+### Reconciling Dynamics 365 Business Central With Your Data Warehouse
 
-A buyer's checklist for a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
+Why Business Central ledger data drifts from warehouse reports, a reconciliation-first integration method and what to check before trusting a dashboard.
 
-5 min read
+6 min read
 About the author
 
 ### Meet Vaghasia
@@ -1076,7 +1076,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/insights/moving-excel-reporting-into-a-cloud-data-warehouse/
 Description: How to move month-end Excel reporting into Snowflake or BigQuery: finding the sources and rules behind the spreadsheets, the order of work and reconciliation.
-Last modified: 2026-11-14
+Last modified: 2026-11-16
 
 Warehouse migration
 
@@ -1084,7 +1084,7 @@ Warehouse migration
 
 How to move month-end Excel reporting into Snowflake or BigQuery: finding the sources and rules behind the spreadsheets, the order of work and reconciliation.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published October 12, 2026 · Updated November 14, 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published October 12, 2026 · Updated November 16, 2026 · 6 min read
 
 In brief
 
@@ -1166,6 +1166,20 @@ Related guides
 
 ### Keep planning the engagement.
 
+Finance data engineering
+
+### Reconciling Dynamics 365 Business Central With Your Data Warehouse
+
+Why Business Central ledger data drifts from warehouse reports, a reconciliation-first integration method and what to check before trusting a dashboard.
+
+6 min read
+AI engineering
+
+### How Do You Let an AI Assistant Query Your Data Warehouse Safely?
+
+A step-by-step pattern for giving Claude, GPT or Gemini read-only access to a warehouse: scoped identity, checked SQL, row limits, redaction and provenance.
+
+6 min read
 Buyer's guide
 
 ### 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
@@ -1173,20 +1187,6 @@ Buyer's guide
 A buyer's checklist for a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
 
 5 min read
-Buyer question
-
-### Looking for a Data Consultancy Company for an Offshore Team?
-
-How to evaluate a data consultancy for an offshore team, and where MV.tech Solutions fits for data engineering, analytics, BI and AI delivery from India.
-
-3 min read
-Engagement models
-
-### Staff Augmentation vs Project Consulting vs Recruitment: Which Engagement Model Fits?
-
-How to choose between embedding a consultant, a scoped project and a permanent hire for data, software and AI work: control, cost, speed and risk.
-
-6 min read
 About the author
 
 ### Meet Vaghasia
@@ -1344,7 +1344,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/
 Description: A plain-language comparison of retrieval-augmented generation and fine-tuning for knowledge assistants: when each fits, permissions, evaluation and cost.
-Last modified: 2026-11-14
+Last modified: 2026-11-16
 
 AI engineering
 
@@ -1352,7 +1352,7 @@ AI engineering
 
 A plain-language comparison of retrieval-augmented generation and fine-tuning for knowledge assistants: when each fits, permissions, evaluation and cost.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published September 10, 2026 · Updated November 14, 2026 · 5 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published September 10, 2026 · Updated November 16, 2026 · 5 min read
 
 In brief
 
@@ -1448,13 +1448,13 @@ AI engineering
 The Model Context Protocol for business readers: what an MCP server exposes, when building one makes sense, the security decisions and a first project.
 
 6 min read
-Buyer question
+AI engineering
 
-### Looking for a Data Consultancy Company for an Offshore Team?
+### How Do You Let an AI Assistant Query Your Data Warehouse Safely?
 
-How to evaluate a data consultancy for an offshore team, and where MV.tech Solutions fits for data engineering, analytics, BI and AI delivery from India.
+A step-by-step pattern for giving Claude, GPT or Gemini read-only access to a warehouse: scoped identity, checked SQL, row limits, redaction and provenance.
 
-3 min read
+6 min read
 Buyer's guide
 
 ### 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
@@ -1481,7 +1481,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/insights/reconciling-dynamics-365-business-central-with-your-data-warehouse/
 Description: Why Business Central ledger data drifts from warehouse reports, a reconciliation-first integration method and what to check before trusting a dashboard.
-Last modified: 2026-11-14
+Last modified: 2026-11-16
 
 Finance data engineering
 
@@ -1489,7 +1489,7 @@ Finance data engineering
 
 Why Business Central ledger data drifts from warehouse reports, a reconciliation-first integration method and what to check before trusting a dashboard.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published October 12, 2026 · Updated November 14, 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published October 12, 2026 · Updated November 16, 2026 · 6 min read
 
 In brief
 
@@ -1574,13 +1574,20 @@ Related guides
 
 ### Keep planning the engagement.
 
-Buyer question
+Warehouse migration
 
-### Looking for a Data Consultancy Company for an Offshore Team?
+### How Do You Move Excel Reporting into a Cloud Data Warehouse?
 
-How to evaluate a data consultancy for an offshore team, and where MV.tech Solutions fits for data engineering, analytics, BI and AI delivery from India.
+How to move month-end Excel reporting into Snowflake or BigQuery: finding the sources and rules behind the spreadsheets, the order of work and reconciliation.
 
-3 min read
+6 min read
+AI engineering
+
+### How Do You Let an AI Assistant Query Your Data Warehouse Safely?
+
+A step-by-step pattern for giving Claude, GPT or Gemini read-only access to a warehouse: scoped identity, checked SQL, row limits, redaction and provenance.
+
+6 min read
 Buyer's guide
 
 ### 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
@@ -1588,13 +1595,6 @@ Buyer's guide
 A buyer's checklist for a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
 
 5 min read
-AI engineering
-
-### What Is an MCP Server, and When Should a Business Build One?
-
-The Model Context Protocol for business readers: what an MCP server exposes, when building one makes sense, the security decisions and a first project.
-
-6 min read
 About the author
 
 ### Meet Vaghasia
@@ -1712,13 +1712,13 @@ Related guides
 
 ### Keep planning the engagement.
 
-Buyer question
+Cost guide
 
-### Looking for a Data Consultancy Company for an Offshore Team?
+### What Does a Remote Data Engineering Team from India Cost?
 
-How to evaluate a data consultancy for an offshore team, and where MV.tech Solutions fits for data engineering, analytics, BI and AI delivery from India.
+What sets the price of a remote data engineering team from India, where the saving really comes from, how to compare quotes and the costs buyers forget.
 
-3 min read
+6 min read
 Buyer's guide
 
 ### 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
@@ -1752,7 +1752,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/insights/timezone-overlap-with-an-india-based-engineering-team/
 Description: Realistic overlap windows, what to agree up front and the async habits that make a remote team in India work for US, UK, EU and Australian companies.
-Last modified: 2026-11-14
+Last modified: 2026-11-16
 
 Remote delivery playbook
 
@@ -1760,7 +1760,7 @@ Remote delivery playbook
 
 Realistic overlap windows, what to agree up front and the async habits that make a remote team in India work for US, UK, EU and Australian companies.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published September 10, 2026 · Updated November 14, 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published September 10, 2026 · Updated November 16, 2026 · 6 min read
 
 In brief
 
@@ -1850,13 +1850,13 @@ Related guides
 
 ### Keep planning the engagement.
 
-Buyer question
+Cost guide
 
-### Looking for a Data Consultancy Company for an Offshore Team?
+### What Does a Remote Data Engineering Team from India Cost?
 
-How to evaluate a data consultancy for an offshore team, and where MV.tech Solutions fits for data engineering, analytics, BI and AI delivery from India.
+What sets the price of a remote data engineering team from India, where the saving really comes from, how to compare quotes and the costs buyers forget.
 
-3 min read
+6 min read
 Buyer's guide
 
 ### 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
@@ -3292,7 +3292,7 @@ Tell us about the work, your current systems and the people who will use the res
 
 URL: https://mvtech.solutions/services/business-intelligence/
 Description: BI consulting, reporting datasets, semantic models and dashboards in Power BI, Tableau, Looker Studio and Streamlit, with KPI definition and validation.
-Last modified: 2026-11-14
+Last modified: 2026-11-16
 
 MV.tech Solutions services
 
@@ -3416,9 +3416,9 @@ Related services
 
 ### Other ways we can help.
 
-#### Data Engineering Consulting
+#### Power BI Consulting
 
-Build the data foundation behind reporting, analytics and business applications.
+Develop Power BI reports that give business teams a consistent view of performance.
 
 #### Data Warehouse Migration
 
@@ -3609,7 +3609,7 @@ Tell us about the work, your current systems and the people who will use the res
 
 URL: https://mvtech.solutions/services/data-engineering/
 Description: Data integration, ETL pipelines, cloud warehouses, modeling and data quality services from MV.tech Solutions for reporting, analytics and applications.
-Last modified: 2026-11-14
+Last modified: 2026-11-16
 
 MV.tech Solutions services
 
@@ -3730,17 +3730,17 @@ Related services
 
 ### Other ways we can help.
 
+#### Snowflake Consulting
+
+Build or improve the Snowflake platform behind your business reporting.
+
+#### BigQuery Consulting
+
+Build a BigQuery warehouse that supports your reporting and growth.
+
 #### Offshore Data Engineering Team
 
 Extend your delivery capacity with data engineers and analytics specialists from India.
-
-#### Data Warehouse Migration
-
-Move reporting and analytics to a cloud platform with a planned transition.
-
-#### Business Intelligence & Dashboards
-
-Give business teams a consistent view of performance.
 
 Related guides
 
@@ -3906,13 +3906,13 @@ Related services
 
 ### Other ways we can help.
 
-#### Data Engineering Consulting
+#### Snowflake Consulting
 
-Build the data foundation behind reporting, analytics and business applications.
+Build or improve the Snowflake platform behind your business reporting.
 
-#### Business Intelligence & Dashboards
+#### BigQuery Consulting
 
-Give business teams a consistent view of performance.
+Build a BigQuery warehouse that supports your reporting and growth.
 
 #### Offshore Data Engineering Team
 
@@ -4128,7 +4128,7 @@ Tell us about the work, your current systems and the people who will use the res
 
 URL: https://mvtech.solutions/services/it-staff-augmentation/
 Description: Add data, software, AI and cloud specialists to your delivery team. Discuss assigned roles, capacity, responsibilities, duration and time zone collaboration.
-Last modified: 2026-11-14
+Last modified: 2026-11-16
 
 MV.tech Solutions services
 
@@ -4242,6 +4242,10 @@ Related services
 
 ### Other ways we can help.
 
+#### Hire Data Engineers
+
+Bring data engineering expertise into your team or put a defined data project in experienced hands.
+
 #### Offshore Data Engineering Team
 
 Extend your delivery capacity with data engineers and analytics specialists from India.
@@ -4249,10 +4253,6 @@ Extend your delivery capacity with data engineers and analytics specialists from
 #### Technology Recruitment
 
 Hire the technical people your business needs for the long term.
-
-#### Data Engineering Consulting
-
-Build the data foundation behind reporting, analytics and business applications.
 
 Related guides
 
@@ -4464,7 +4464,7 @@ Tell us about the work, your current systems and the people who will use the res
 
 URL: https://mvtech.solutions/services/offshore-data-engineering-team/
 Description: Extend your team with data engineering, analytics and BI specialists from India. Agree roles, capacity, delivery responsibilities and collaboration hours.
-Last modified: 2026-11-14
+Last modified: 2026-11-16
 
 MV.tech Solutions services
 
@@ -4587,6 +4587,10 @@ Related services
 
 ### Other ways we can help.
 
+#### Hire Data Engineers
+
+Bring data engineering expertise into your team or put a defined data project in experienced hands.
+
 #### Data Engineering Consulting
 
 Build the data foundation behind reporting, analytics and business applications.
@@ -4594,10 +4598,6 @@ Build the data foundation behind reporting, analytics and business applications.
 #### IT Staff Augmentation
 
 Add the technical skills your team needs without opening every role as a permanent hire.
-
-#### Technology Recruitment
-
-Hire the technical people your business needs for the long term.
 
 Related guides
 
