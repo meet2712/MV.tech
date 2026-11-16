@@ -1,13 +1,13 @@
 {
   "/": {
-    "hash": "b5f05aa90e7c9f38",
+    "hash": "0c4f41f12b3013d4",
     "published": "2026-01-02",
-    "modified": "2026-11-14"
+    "modified": "2026-11-15"
   },
   "/about/": {
-    "hash": "4becbe2fa6953cc2",
+    "hash": "b7bf3e1341bf4f34",
     "published": "2026-06-02",
-    "modified": "2026-11-14"
+    "modified": "2026-11-15"
   },
   "/accessibility/": {
     "hash": "d53fc4952b600b4d",
@@ -25,9 +25,9 @@
     "modified": "2026-11-14"
   },
   "/contact/": {
-    "hash": "ed770e62e1e571d0",
+    "hash": "05631ca432147ed9",
     "published": "2026-06-02",
-    "modified": "2026-11-14"
+    "modified": "2026-11-15"
   },
   "/expertise/": {
     "hash": "1c647ddd45640fc6",
@@ -110,9 +110,9 @@
     "modified": "2026-11-14"
   },
   "/services/": {
-    "hash": "da670ad4b4eeb6f4",
+    "hash": "8e87737c28d029d4",
     "published": "2026-06-02",
-    "modified": "2026-11-14"
+    "modified": "2026-11-15"
   },
   "/services/ai-consulting/": {
     "hash": "053b7befa7197103",

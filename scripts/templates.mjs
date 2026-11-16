@@ -67,7 +67,7 @@ export function officesBlock(site) {
       `<li>${icon('mail')}<a href="mailto:${h(site.email)}">${h(site.email)}</a></li>`,
       map ? `<li>${icon('map-pin')}<a href="${h(map)}" target="_blank" rel="noopener">Get directions</a></li>` : '',
     ].join('');
-    return `<article class="location-entry" id="office-${h(office.id)}"><span class="location-flag" aria-hidden="true">${office.flag}</span><div><p class="location-status">${h(office.role)}</p><h3>${h(office.city)}</h3><address class="location-address">${officeAddressLines(office).map(h).join('<br>')}</address><p>${h(office.description)}</p><ul class="location-contact">${contact}</ul></div></article>`;
+    return `<article class="location-entry" id="office-${h(office.id)}"><span class="location-flag" aria-hidden="true">${office.flag}</span><div><p class="location-status">${h(office.role)}</p><h3>${h(office.city)}</h3><address class="location-address">${officeAddressLines(office).map(h).join('<br>')}</address><ul class="location-contact">${contact}</ul></div></article>`;
   };
   return `<section class="band locations-section" id="offices" aria-labelledby="offices-heading">
     <div class="container">

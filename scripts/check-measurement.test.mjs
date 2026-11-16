@@ -95,6 +95,20 @@ test('booking confirmation requires the embedded calendar and its origin', () =>
   assert.equal(page.events[0][1], 'book_call');
 });
 
+test('the embedded calendar resizes to the height Calendly reports', () => {
+  const page = runPage({ calendar: true });
+  const widget = { style: {} };
+  page.frame.parentElement = widget;
+  page.frame.style = {};
+  const resize = { event: 'calendly.page_height', payload: { height: '1100px' } };
+  page.windowEvents.message({ origin: 'https://example.com', source: page.frame.contentWindow, data: resize });
+  assert.equal(widget.style.height, undefined);
+  page.windowEvents.message({ origin: 'https://calendly.com', source: page.frame.contentWindow, data: resize });
+  assert.equal(widget.style.height, '1100px');
+  assert.equal(page.frame.style.height, '1100px');
+  assert.equal(page.events.length, 0);
+});
+
 test('calendar load failures preserve the booking fallback', () => {
   const failed = runPage({ calendar: true });
   failed.scripts[0].onerror();

@@ -84,10 +84,12 @@
         widget.className = 'calendly-inline-widget';
         // Calendly renders on white, so the brand color here is Teal Ink (the only teal that
         // passes AA on white) and the text color is Navy. Signal Teal would be unreadable.
-        widget.dataset.url = calendly.dataset.url + '?hide_gdpr_banner=1&background_color=ffffff&text_color=071118&primary_color=007e7b';
+        // The panel above already names the call, so Calendly's own header (logo, account name,
+        // event title and duration) is hidden; that also keeps the calendar compact in a narrow column.
+        widget.dataset.url = calendly.dataset.url + '?hide_gdpr_banner=1&hide_event_type_details=1&hide_landing_page_details=1&background_color=ffffff&text_color=071118&primary_color=007e7b';
         widget.style.minWidth = '0';
         widget.style.width = '100%';
-        widget.style.height = '660px';
+        widget.style.height = '700px';
         calendly.appendChild(widget);
         window.Calendly?.initInlineWidget({ url: widget.dataset.url, parentElement: widget });
       };
@@ -101,7 +103,17 @@
     } else load();
     window.addEventListener('message', (event) => {
       const frame = calendly.querySelector('iframe');
-      if (frame && event.source === frame.contentWindow && event.origin === 'https://calendly.com' && event.data?.event === 'calendly.event_scheduled') track('book_call', { method: 'calendar' });
+      if (!frame || event.source !== frame.contentWindow || event.origin !== 'https://calendly.com') return;
+      if (event.data?.event === 'calendly.event_scheduled') track('book_call', { method: 'calendar' });
+      // Calendly reports the height its content needs (its layout changes with width and with each
+      // booking step). Grow or shrink the frame to match so nothing is cut off inside the box.
+      if (event.data?.event === 'calendly.page_height') {
+        const height = parseInt(event.data.payload?.height, 10);
+        if (height > 300 && height < 3000) {
+          frame.parentElement.style.height = `${height}px`;
+          frame.style.height = `${height}px`;
+        }
+      }
     });
   }
 
