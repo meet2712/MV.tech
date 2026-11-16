@@ -741,8 +741,8 @@
     "path": "/services/data-warehouse-migration/",
     "key": "data-warehouse-migration",
     "name": "Data Warehouse Migration",
-    "title": "Data Warehouse Migration & Modernization | MV.tech Solutions",
-    "description": "Migrate legacy databases and spreadsheet reporting to Snowflake, BigQuery or Redshift with discovery, source mapping, reconciliation and report transition.",
+    "title": "Data Warehouse & ETL Migration Services | MV.tech Solutions",
+    "description": "Data warehouse and ETL migration to Snowflake, BigQuery or Redshift: source mapping, pipeline rebuilds, reconciliation and a safe switch-over of reports.",
     "intro": "Move reporting and analytics to a cloud platform with a planned transition. MV.tech Solutions migrates legacy databases, warehouse workloads and spreadsheet-based reporting to Snowflake, BigQuery or Redshift. The work covers discovery, data modeling, reconciliation and the reports that depend on the old system.",
     "fitHeading": "Modernize the platform without losing track of the business rules.",
     "fit": [
@@ -807,6 +807,10 @@
       {
         "question": "How long does a data warehouse migration take?",
         "answer": "It depends far more on dependencies than on data volume. Discovery and dependency analysis on a mid-sized estate typically takes weeks; the migration is then scoped domain by domain, each reconciled before the next begins. We would rather give an estimate after discovery than before it, and discovery can be bought as a standalone piece of work."
+      },
+      {
+        "question": "Do you migrate ETL pipelines as well as the data?",
+        "answer": "Yes. An ETL migration moves the jobs that load and transform the data, not just the tables. We inventory the existing pipelines, stored procedures and scheduled jobs, rebuild them for the new platform as tested, version-controlled code, and run old and new side by side until the outputs reconcile."
       },
       {
         "question": "How do you prove the new warehouse is correct?",

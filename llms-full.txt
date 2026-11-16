@@ -824,7 +824,7 @@ Engagement models
 
 How to choose between embedding a consultant, a scoped project and a permanent hire for data, software and AI work: control, cost, speed and risk.
 
-Sep 10, 2026 · 5 min read
+Sep 10, 2026 · 6 min read
 AI engineering
 
 ### What Is an MCP Server, and When Should a Business Build One?
@@ -930,7 +930,7 @@ Engagement models
 
 How to choose between embedding a consultant, a scoped project and a permanent hire for data, software and AI work: control, cost, speed and risk.
 
-5 min read
+6 min read
 Remote delivery playbook
 
 ### How to Work with an India-Based Engineering Team Across Time Zones
@@ -1186,7 +1186,7 @@ Engagement models
 
 How to choose between embedding a consultant, a scoped project and a permanent hire for data, software and AI work: control, cost, speed and risk.
 
-5 min read
+6 min read
 About the author
 
 ### Meet Vaghasia
@@ -1317,7 +1317,7 @@ Engagement models
 
 How to choose between embedding a consultant, a scoped project and a permanent hire for data, software and AI work: control, cost, speed and risk.
 
-5 min read
+6 min read
 Remote delivery playbook
 
 ### How to Work with an India-Based Engineering Team Across Time Zones
@@ -1610,11 +1610,11 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 ---
 
-# Staff Augmentation vs Consulting vs Recruitment | MV.tech Solutions
+# Staff Augmentation vs Consulting: Cost and Fit | MV.tech Solutions
 
 URL: https://mvtech.solutions/insights/staff-augmentation-vs-project-consulting-vs-recruitment/
 Description: How to choose between embedding a consultant, a scoped project and a permanent hire for data, software and AI work: control, cost, speed and risk.
-Last modified: 2026-11-14
+Last modified: 2026-11-16
 
 Engagement models
 
@@ -1622,7 +1622,7 @@ Engagement models
 
 How to choose between embedding a consultant, a scoped project and a permanent hire for data, software and AI work: control, cost, speed and risk.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published September 10, 2026 · Updated November 14, 2026 · 5 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published September 10, 2026 · Updated November 16, 2026 · 6 min read
 
 In brief
 
@@ -1658,6 +1658,17 @@ Engagement models compared
 | Knowledge stays with | You, via documentation and handover | Your team, because the work happens inside it | You, as long as the employee stays |
 | Flexibility to stop or change | At milestone boundaries | High, within the notice terms | Low; hiring is a long-term commitment |
 
+### Is staff augmentation cheaper than project-based consulting?
+
+Not by default. They are priced on different things. Staff augmentation is priced on capacity: you pay for named people for an agreed number of hours or months, and the total depends on how long you keep them. Project-based consulting is priced on the outcome: a fixed or milestone price for an agreed scope, with the provider carrying the risk of estimating it.
+
+That makes the cheaper option depend on how well you know the work:
+
+- Scope is clear and stable:a fixed-scope project is usually easier to budget, because you pay for a result rather than for time.
+- Scope will change as you learn:staff augmentation usually costs less overall, because you are not paying a provider to price in the uncertainty, and you can scale capacity up or down.
+- The need is permanent:a hire costs a one-off recruitment fee plus salary and overheads, and usually beats both once the role is needed for the long term.
+Whichever you choose, compare quotes on the same basis: what is included, who manages the work, and what happens when the scope changes.
+
 ### How to decide
 
 #### Start from the shape of the work
@@ -1684,6 +1695,9 @@ A project has a natural end and clear acceptance, which limits the downside. Aug
 The most effective sequence we see is: a scoped project to prove an approach and establish trust; an embedded consultant to extend it while priorities settle; and a permanent hire once the organization understands the role well enough to write it. Each step reduces the risk of the next. A partner that offers all three, as MV.tech Solutions does, can move with you through that sequence without a change of vendor, but the model you choose at each step should follow the work, not the vendor's preference.
 
 ### Frequently asked questions
+
+**Which costs less, staff augmentation or project consulting?**
+It depends on how settled the scope is. A fixed-scope project is easier to budget when the work is well defined; staff augmentation usually costs less when the scope will change, because you pay for capacity rather than for the provider's estimating risk.
 
 **Is staff augmentation the same as outsourcing?**
 No. In staff augmentation, named consultants work inside your team under your direction, in your tools and your hours. In outsourcing, a vendor takes over a function or a scope and directs its own people. Augmentation keeps control and knowledge with you; outsourcing trades some of that for a managed outcome.
@@ -1856,7 +1870,7 @@ Engagement models
 
 How to choose between embedding a consultant, a scoped project and a permanent hire for data, software and AI work: control, cost, speed and risk.
 
-5 min read
+6 min read
 About the author
 
 ### Meet Vaghasia
@@ -1977,7 +1991,7 @@ Engagement models
 
 How to choose between embedding a consultant, a scoped project and a permanent hire for data, software and AI work: control, cost, speed and risk.
 
-5 min read
+6 min read
 Remote delivery playbook
 
 ### How to Work with an India-Based Engineering Team Across Time Zones
@@ -3761,11 +3775,11 @@ Tell us about the work, your current systems and the people who will use the res
 
 ---
 
-# Data Warehouse Migration & Modernization | MV.tech Solutions
+# Data Warehouse & ETL Migration Services | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/data-warehouse-migration/
-Description: Migrate legacy databases and spreadsheet reporting to Snowflake, BigQuery or Redshift with discovery, source mapping, reconciliation and report transition.
-Last modified: 2026-11-14
+Description: Data warehouse and ETL migration to Snowflake, BigQuery or Redshift: source mapping, pipeline rebuilds, reconciliation and a safe switch-over of reports.
+Last modified: 2026-11-16
 
 MV.tech Solutions services
 
@@ -3866,6 +3880,9 @@ Not answered here? Ask us directly or read the full FAQ.
 
 **How long does a data warehouse migration take?**
 It depends far more on dependencies than on data volume. Discovery and dependency analysis on a mid-sized estate typically takes weeks; the migration is then scoped domain by domain, each reconciled before the next begins. We would rather give an estimate after discovery than before it, and discovery can be bought as a standalone piece of work.
+
+**Do you migrate ETL pipelines as well as the data?**
+Yes. An ETL migration moves the jobs that load and transform the data, not just the tables. We inventory the existing pipelines, stored procedures and scheduled jobs, rebuild them for the new platform as tested, version-controlled code, and run old and new side by side until the outputs reconcile.
 
 **How do you prove the new warehouse is correct?**
 By comparing it with the old one, automatically and repeatedly. Record counts and control totals per load, date coverage and gap checks, null and duplicate profiles, key uniqueness, and metric-level comparison of reported figures. Every difference is investigated and then either fixed or documented as a deliberate change, including the cases where the legacy number turns out to be the wrong one.
