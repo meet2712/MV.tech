@@ -33,7 +33,6 @@
       "flag": "🇺🇸",
       "role": "United States",
       "city": "New York",
-      "description": "Our US office. The team here works with clients across the United States.",
       "streetAddress": "248-15 88th Rd",
       "streetAddress2": "",
       "locality": "Bellerose",
@@ -51,7 +50,6 @@
       "flag": "🇮🇳",
       "role": "India",
       "city": "Ahmedabad",
-      "description": "Our India office. The team here works in collaboration hours agreed with yours.",
       "streetAddress": "16 Trishala Residency, S G Highway",
       "streetAddress2": "Behind RC Technical, Opp. High Court, Near Harivila, Chandlodiya",
       "locality": "Ahmedabad",
@@ -167,7 +165,7 @@
       "href": "/services/"
     },
     {
-      "label": "How we work",
+      "label": "How We Work",
       "href": "/remote-consulting/"
     },
     {
@@ -186,39 +184,39 @@
   "footer": {
     "services": [
       {
-        "label": "Data engineering",
+        "label": "Data Engineering",
         "href": "/services/data-engineering/"
       },
       {
-        "label": "Business intelligence",
+        "label": "Business Intelligence",
         "href": "/services/business-intelligence/"
       },
       {
-        "label": "Web development",
+        "label": "Web Development",
         "href": "/services/web-development/"
       },
       {
-        "label": "Application development",
+        "label": "Application Development",
         "href": "/services/application-development/"
       },
       {
-        "label": "Custom software",
+        "label": "Custom Software",
         "href": "/services/custom-software/"
       },
       {
-        "label": "AI & automation",
+        "label": "AI & Automation",
         "href": "/services/ai-consulting/"
       },
       {
-        "label": "Dedicated teams",
+        "label": "Dedicated Teams",
         "href": "/services/it-staff-augmentation/"
       },
       {
-        "label": "Technology recruitment",
+        "label": "Technology Recruitment",
         "href": "/services/technology-recruitment/"
       },
       {
-        "label": "All services",
+        "label": "All Services",
         "href": "/services/"
       }
     ],
@@ -228,19 +226,19 @@
         "href": "/about/"
       },
       {
-        "label": "How we work & time zones",
+        "label": "How We Work & Time Zones",
         "href": "/remote-consulting/"
       },
       {
-        "label": "Delivery process",
+        "label": "Delivery Process",
         "href": "/process/"
       },
       {
-        "label": "Engineering experience",
+        "label": "Engineering Experience",
         "href": "/expertise/"
       },
       {
-        "label": "Business solutions",
+        "label": "Business Solutions",
         "href": "/solutions/"
       },
       {
@@ -250,7 +248,7 @@
     ],
     "connect": [
       {
-        "label": "Book a 30-minute call",
+        "label": "Book a 30-Minute Call",
         "href": "/contact/#book-call"
       },
       {
@@ -276,7 +274,7 @@
         "href": "/faq/"
       },
       {
-        "label": "Security & delivery standards",
+        "label": "Security & Delivery Standards",
         "href": "/compliance/"
       }
     ]
