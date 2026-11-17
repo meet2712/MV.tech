@@ -1,13 +1,13 @@
 {
   "/": {
-    "hash": "e665d595d2ce547f",
+    "hash": "720ba6147527f224",
     "published": "2026-01-02",
-    "modified": "2026-11-16"
+    "modified": "2026-11-17"
   },
   "/about/": {
-    "hash": "6e7e80bdbb7d37f3",
+    "hash": "f669fc5004d5ca42",
     "published": "2026-06-02",
-    "modified": "2026-11-16"
+    "modified": "2026-11-17"
   },
   "/accessibility/": {
     "hash": "d53fc4952b600b4d",
@@ -25,9 +25,9 @@
     "modified": "2026-11-14"
   },
   "/contact/": {
-    "hash": "05631ca432147ed9",
+    "hash": "4f3b7b61bc9e9cd7",
     "published": "2026-06-02",
-    "modified": "2026-11-15"
+    "modified": "2026-11-17"
   },
   "/expertise/": {
     "hash": "05c389e21544e350",

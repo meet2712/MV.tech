@@ -76,6 +76,7 @@ for (const file of files) {
   // Company name: written in full everywhere, both offices in every footer, no unfilled tokens, no stale pre-registration wording
   const footerOffices = textContent(nodes.find((node) => attr(node, 'class') === 'footer-offices') ?? {});
   for (const office of site.offices) assert(footerOffices.includes(office.name) && footerOffices.includes(office.locality), `${file}: footer must give the ${office.name} address`);
+  for (const office of site.offices.filter((o) => o.telephone)) assert(footerOffices.includes(office.telephoneDisplay), `${file}: footer must give the ${office.name} phone`);
   assert(footerOffices.indexOf(site.offices[0].name) < footerOffices.indexOf(site.offices[1].name), `${file}: offices are listed New York first`);
   const footerHrefs = all('a').filter((a) => nodes.some((n) => n.tagName === 'footer' && walk(n).includes(a))).map((a) => attr(a, 'href'));
   for (const item of site.legalLinks) assert(footerHrefs.includes(item.href), `${file}: footer must link to ${item.label} (${item.href})`);
@@ -112,6 +113,10 @@ for (const file of files) {
     assert.equal(organization.legalName, site.legalEntity.name, `${file}: Organization legalName must be the legal entity`);
     assert(organization.alternateName.includes(site.shortName), `${file}: Organization alternateName must include the short brand`);
     assert(!organization.taxID, `${file}: the India GSTIN must not be published as the US entity's taxID`);
+    for (const office of site.offices.filter((o) => o.telephone)) {
+      assert(organization.location.some((place) => place.telephone === office.telephone), `${file}: Organization location must carry the ${office.name} phone`);
+      assert(organization.contactPoint.some((point) => point.telephone === office.telephone), `${file}: Organization contactPoint must carry the ${office.name} phone`);
+    }
     const website = graph.find((n) => n['@id'] === `${origin}/#website`);
     assert.equal(website.name, site.name, `${file}: WebSite name must be the company name`);
     const webpage = graph.find((n) => n['@id'] === `${url}#webpage`);
@@ -201,6 +206,7 @@ for (const [name, text] of [['llms.txt', llms], ['llms-full.txt', llmsFull]]) {
   assert(text.startsWith(`# ${site.name}`), `${name} must open with the company name`);
   assert(text.includes(legal), `${name} must state the legal entity exactly as content/site.json does`);
   for (const office of site.offices) assert(text.includes(office.locality), `${name} must name the ${office.name}`);
+  for (const office of site.offices.filter((o) => o.telephone)) assert(text.includes(office.telephoneDisplay), `${name} must give the ${office.name} phone`);
   assert(text.includes(contractingParty(site)), `${name} must state the contracting party`);
   assert(!/coming soon/i.test(text), `${name}: stale "coming soon" wording about the USA company`);
 }
