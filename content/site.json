@@ -40,8 +40,8 @@
       "postalCode": "11426",
       "country": "United States",
       "countryCode": "US",
-      "telephone": "",
-      "telephoneDisplay": ""
+      "telephone": "+14473489720",
+      "telephoneDisplay": "+1 (447) 348-9720"
     },
     {
       "id": "ahmedabad",
@@ -254,6 +254,10 @@
       {
         "label": "contact@mvtech.solutions",
         "href": "mailto:contact@mvtech.solutions"
+      },
+      {
+        "label": "USA: +1 (447) 348-9720",
+        "href": "tel:+14473489720"
       },
       {
         "label": "India: +91 94092 99016",

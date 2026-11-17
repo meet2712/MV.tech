@@ -8,10 +8,10 @@ Legal entity: MV.tech Solutions is a registered assumed name (DBA) of BB & KV In
 Contact: contact@mvtech.solutions · Book a call: https://mvtech.solutions/contact/#book-call
 Founder: Meet Vaghasia, Founder & Lead Engineer (https://www.linkedin.com/in/meet2712/)
 LinkedIn: https://www.linkedin.com/company/mv-tech-solutions/
-Offices: New York office: 248-15 88th Rd, Bellerose, NY 11426, United States; Ahmedabad office: 16 Trishala Residency, S G Highway, Behind RC Technical, Opp. High Court, Near Harivila, Chandlodiya, Ahmedabad, Gujarat 380061, India (+91 94092 99016). Staff work from both offices; India GSTIN 24BZMPV4008F1ZA belongs to the India office. Serves clients in the USA and worldwide with agreed time-zone overlap. Details: https://mvtech.solutions/contact/#offices
+Offices: New York office: 248-15 88th Rd, Bellerose, NY 11426, United States (+1 (447) 348-9720); Ahmedabad office: 16 Trishala Residency, S G Highway, Behind RC Technical, Opp. High Court, Near Harivila, Chandlodiya, Ahmedabad, Gujarat 380061, India (+91 94092 99016). Staff work from both offices; India GSTIN 24BZMPV4008F1ZA belongs to the India office. Serves clients in the USA and worldwide with agreed time-zone overlap. Details: https://mvtech.solutions/contact/#offices
 Privacy and legal: https://mvtech.solutions/privacy/ · https://mvtech.solutions/terms/ · https://mvtech.solutions/accessibility/
 Teams our engineers have worked with: Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, Turing. Names reflect organizations the MV.tech Solutions team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.
-Last generated: 2026-11-16. Short summary and answer guidance: https://mvtech.solutions/llms.txt
+Last generated: 2026-11-17. Short summary and answer guidance: https://mvtech.solutions/llms.txt
 
 This file is generated from the public pages listed below, so it always matches what visitors see. Each section is one page: title, canonical URL, meta description, then the page text.
 
@@ -21,7 +21,7 @@ This file is generated from the public pages listed below, so it always matches 
 
 URL: https://mvtech.solutions/
 Description: MV.tech Solutions builds custom software, data platforms, BI and AI systems, and provides dedicated engineering teams. Offices in New York and Ahmedabad.
-Last modified: 2026-11-16
+Last modified: 2026-11-17
 
 Software, data & AI engineering
 
@@ -179,6 +179,7 @@ United States
 #### New York
 
 248-15 88th RdBellerose, NY 11426United States
+- +1 (447) 348-9720
 - contact@mvtech.solutions
 - Get directions
 India
@@ -201,7 +202,7 @@ Book a 30-minute call or send us an email. We’ll tell you straight whether we�
 
 URL: https://mvtech.solutions/about/
 Description: MV.tech Solutions is a software, data and AI engineering company with offices in New York, USA, and Ahmedabad, India. Meet the company and its founder.
-Last modified: 2026-11-16
+Last modified: 2026-11-17
 
 About MV.tech Solutions
 
@@ -272,8 +273,8 @@ Company information
   24BZMPV4008F1ZA
 - Contact
   contact@mvtech.solutions
-- Mobile
-  +91 94092 99016
+- Phone
+  USA:+1 (447) 348-9720India:+91 94092 99016
 Our offices
 
 ### Offices in New York and Ahmedabad.
@@ -285,6 +286,7 @@ United States
 #### New York
 
 248-15 88th RdBellerose, NY 11426United States
+- +1 (447) 348-9720
 - contact@mvtech.solutions
 - Get directions
 India
@@ -485,7 +487,7 @@ Procurement, security and legal questions are easiest to answer at the scoping s
 
 URL: https://mvtech.solutions/contact/
 Description: Discuss software, data, BI, AI or automation requirements with MV.tech Solutions. Book a consultation or send a brief for a project, a team or a hire.
-Last modified: 2026-11-15
+Last modified: 2026-11-17
 
 Contact
 
@@ -494,7 +496,8 @@ Contact
 Bring us a project, a system that needs improving or a role you need to fill. We’ll talk through the requirements and suggest a practical way forward.
 
 - contact@mvtech.solutions
-- Mobile: +91 94092 99016
+- USA: +1 (447) 348-9720
+- India: +91 94092 99016
 - Offices in New York, USA · Ahmedabad, India
 Let’s talk
 
@@ -538,6 +541,7 @@ United States
 #### New York
 
 248-15 88th RdBellerose, NY 11426United States
+- +1 (447) 348-9720
 - contact@mvtech.solutions
 - Get directions
 India
