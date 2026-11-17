@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#007E7B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <title>MV.tech email icon — globe (teal-ink)</title>
+  <desc>Lucide v0.468.0 "globe" icon (ISC licence), recoloured #007E7B for the MV.tech email signature.</desc>
+  <g>
+    <circle cx="12" cy="12" r="10"/>
+    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+    <path d="M2 12h20"/>
+  </g>
+</svg>

@@ -43,6 +43,11 @@ GitHub Pages cannot send server redirects. A route listed in `redirects` in `con
 
 The name, the legal entity and the offices went live together on 14 November 2026. When any of them changes again, update `content/site.json`, the pages listed above and `llms.txt` in one release, then work through the listings checklist in `docs/seo-maintenance.md` so the same facts appear everywhere search and AI engines read them.
 
+### Brand files served by the site
+
+- `downloads/MVtech_Brand_Essentials.zip` is the brand kit download on `/brand/`. It is a copy of `MVtech_Brand_Essentials_v3.zip` from the local brand kit, which git ignores.
+- `brand/email/` holds the email-signature images: a copy of the brand kit's `05_Email_Signature/images/`. The kit's `-hosted` signatures load them from `https://mvtech.solutions/brand/email/`. Keep the file names: signatures already pasted into mail clients point at them. `npm test` fails if one of the nine images the signatures use goes missing.
+
 ## Build, test, publish
 
 ```sh

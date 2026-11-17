@@ -250,6 +250,13 @@ const contact = await readFile('contact/index.html', 'utf8');
 assert(contact.includes('id="book-call"'), 'Booking links need a contact-page destination');
 const indexNow = (await readFile('.github/workflows/indexnow.yml', 'utf8')).match(/INDEXNOW_KEY:\s*([a-f0-9]{32})/);
 assert(indexNow && await exists(`${indexNow[1]}.txt`), 'IndexNow key file must exist at the site root and match the workflow');
+// The brand kit's "-hosted" email signatures load their images from https://mvtech.solutions/brand/email/.
+// Signatures already pasted into people's mail clients break if any of these files disappears.
+for (const name of ['mvtech-signature-logo-light@2x.png', 'mvtech-signature-logo-light-on-white@2x.png', 'mvtech-signature-monogram-light.png',
+  'mvtech-signature-monogram-light@2x.png', 'mvtech-icon-mail-teal-ink-32.png', 'mvtech-icon-phone-teal-ink-32.png',
+  'mvtech-icon-globe-teal-ink-32.png', 'mvtech-icon-calendar-teal-ink-32.png', 'mvtech-icon-linkedin-teal-ink-32.png']) {
+  assert(await exists(`brand/email/${name}`), `Email signature image brand/email/${name} is missing; hosted signatures load it from the live site`);
+}
 
 for (const warning of warnings) console.warn('WARN', warning);
 console.log(`PASS: ${files.length} pages, ${schemaCount} JSON-LD graphs, ${faqCount} FAQ items with matching schema, ${linkCount} internal references. Metadata, structured data, sitemap dates, registry, robots, llms.txt and manifest verified.`);
