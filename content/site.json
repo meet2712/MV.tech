@@ -56,9 +56,7 @@
       "region": "Gujarat",
       "postalCode": "380061",
       "country": "India",
-      "countryCode": "IN",
-      "telephone": "+919409299016",
-      "telephoneDisplay": "+91 94092 99016"
+      "countryCode": "IN"
     }
   ],
   "officesBlock": {
@@ -258,10 +256,6 @@
       {
         "label": "USA: +1 (447) 348-9720",
         "href": "tel:+14473489720"
-      },
-      {
-        "label": "India: +91 94092 99016",
-        "href": "tel:+919409299016"
       },
       {
         "label": "LinkedIn",
