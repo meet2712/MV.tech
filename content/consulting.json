@@ -408,11 +408,11 @@
         "label": "AI access guide"
       },
       {
-        "href": "/tools/employee-chatbot-evaluation/",
-        "kicker": "Free workbook",
-        "title": "Test an employee chatbot before rollout",
-        "text": "Check a sourced answer, a clarification and a human referral against the expected evidence.",
-        "label": "Chatbot evaluation kit"
+        "href": "/services/employee-ai-chatbots/",
+        "kicker": "Service",
+        "title": "Employee AI Chatbot Development",
+        "text": "Internal employee chatbots that answer questions from approved documents with citations, access controls and evaluation.",
+        "label": "Explore the service"
       }
     ],
     "summary": "Turn a useful AI idea into a working business application.",
@@ -1143,20 +1143,19 @@
     "applicationsHeading": "Where this service fits.",
     "closingHeading": "Discuss your workflow.",
     "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include.",
-    "relatedResourcesHeading": "Replacing a recurring spreadsheet report",
     "relatedResources": [
       {
-        "href": "/tools/report-reconciliation/",
-        "kicker": "Free workbook",
-        "title": "Compare the old report with the new one",
-        "text": "Check measures against an agreed tolerance and assign differences to an owner.",
-        "label": "Reconciliation workbook"
+        "href": "/services/reporting-automation/",
+        "kicker": "Service",
+        "title": "Reporting Automation",
+        "text": "Automation of recurring finance and operations reports, from source extraction and validation to Power BI or governed Excel output.",
+        "label": "Explore the service"
       },
       {
         "href": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
         "kicker": "Founder experience",
-        "title": "From manual reporting to Snowflake and Power BI",
-        "text": "Meet Vaghasia’s work at Volvo Cars through Toptal included source mappings for Power BI and reconciling reports with Snowflake.",
+        "title": "How manual reporting moved into Snowflake",
+        "text": "Meet Vaghasia’s individual engagement at Volvo Cars through Toptal included Power BI source mappings and checks across source systems, Snowflake and BI reports.",
         "label": "Read the reporting example"
       }
     ]
@@ -1281,14 +1280,13 @@
     "applicationsHeading": "Where this service fits.",
     "closingHeading": "Discuss your software project.",
     "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include.",
-    "relatedResourcesHeading": "Planning a customer portal",
     "relatedResources": [
       {
-        "href": "/tools/customer-portal-permissions/",
-        "kicker": "Free workbook",
-        "title": "Plan who can see each customer record",
-        "text": "Test order status, invoice access and support notes by role and company account.",
-        "label": "Portal permissions matrix"
+        "href": "/services/customer-portal-development/",
+        "kicker": "Service",
+        "title": "Customer Portal Development",
+        "text": "Customer and partner portals with account permissions, order or request tracking and integrations to existing business systems.",
+        "label": "Explore the service"
       }
     ]
   },
@@ -1528,14 +1526,13 @@
     ],
     "closingHeading": "Discuss your application or product.",
     "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include.",
-    "relatedResourcesHeading": "Planning a customer portal",
     "relatedResources": [
       {
-        "href": "/tools/customer-portal-permissions/",
-        "kicker": "Free workbook",
-        "title": "Plan who can see each customer record",
-        "text": "Test order status, invoice access and support notes by role and company account.",
-        "label": "Portal permissions matrix"
+        "href": "/services/customer-portal-development/",
+        "kicker": "Service",
+        "title": "Customer Portal Development",
+        "text": "Customer and partner portals with account permissions, order or request tracking and integrations to existing business systems.",
+        "label": "Explore the service"
       }
     ]
   },
@@ -2575,17 +2572,17 @@
         "label": "Reconciliation guide"
       },
       {
-        "href": "/tools/report-reconciliation/",
-        "kicker": "Free workbook",
-        "title": "Compare the old report with the new one",
-        "text": "Check measures against an agreed tolerance and assign differences to an owner.",
-        "label": "Reconciliation workbook"
+        "href": "/services/reporting-automation/",
+        "kicker": "Service",
+        "title": "Reporting Automation",
+        "text": "Automation of recurring finance and operations reports, from source extraction and validation to Power BI or governed Excel output.",
+        "label": "Explore the service"
       },
       {
         "href": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
         "kicker": "Founder experience",
-        "title": "From manual reporting to Snowflake and Power BI",
-        "text": "Meet Vaghasia’s work at Volvo Cars through Toptal included source mappings for Power BI and reconciling reports with Snowflake.",
+        "title": "How manual reporting moved into Snowflake",
+        "text": "Meet Vaghasia’s individual engagement at Volvo Cars through Toptal included Power BI source mappings and checks across source systems, Snowflake and BI reports.",
         "label": "Read the reporting example"
       }
     ],
@@ -2615,5 +2612,350 @@
     "applicationsHeading": "Where this service fits.",
     "closingHeading": "Discuss your Power BI requirements.",
     "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
+  },
+  {
+    "key": "customer-portal-development",
+    "name": "Customer Portal Development",
+    "serviceType": "Custom customer and partner portal development",
+    "title": "Customer Portal Development Services | MV.tech Solutions",
+    "h1": "Customer and partner portal development",
+    "description": "Hire MV.tech Solutions to build a customer portal for orders, documents or support requests, with account permissions and connections to your existing systems.",
+    "intro": "Give customers a place to check an order, find an invoice or follow a support request. MV.tech Solutions designs and builds the portal, connects it to the systems that own the records and sets up access for customers, partners and your staff.",
+    "fitHeading": "Which requests keep coming back to your team?",
+    "fit": [
+      "Customers email support for updates your order system already holds.",
+      "Partners need a view of their assigned accounts while your staff manage requests across accounts.",
+      "An existing portal needs a new workflow or a more reliable connection to the system behind it."
+    ],
+    "deliverablesHeading": "What we can build into your portal",
+    "deliverables": [
+      {
+        "title": "Account access",
+        "text": "Sign-in and permissions for each role and customer account, with sample users to verify which records each can open."
+      },
+      {
+        "title": "Customer workflows",
+        "text": "Status tracking, document access or request submission, designed around the task your customers repeat most."
+      },
+      {
+        "title": "System integrations",
+        "text": "API connections to an agreed CRM, ERP, order or support system. The scope identifies which system owns each field."
+      },
+      {
+        "title": "Release and handover",
+        "text": "Tests for the agreed journeys, deployment and operating notes for the team that will maintain the portal."
+      }
+    ],
+    "scope": "The estimate depends on the number of roles, customer accounts, workflows and integrations, the state of the APIs and any existing application. We agree the first release and acceptance criteria with you before development.",
+    "approach": [
+      {
+        "title": "Choose a customer journey",
+        "text": "For example, start with someone who needs to find an order and see its latest status."
+      },
+      {
+        "title": "Connect one end-to-end flow",
+        "text": "Agree the source system, map its status to the customer view and test with sample accounts."
+      },
+      {
+        "title": "Check access before rollout",
+        "text": "Confirm the correct account sees the correct record, review how support handles missing data, then agree the next workflow."
+      }
+    ],
+    "applications": [
+      {
+        "title": "Order-status portal",
+        "text": "Customers see progress without chasing the sales team for an update."
+      },
+      {
+        "title": "Partner workspace",
+        "text": "Each partner sees the documents and records assigned to their accounts."
+      },
+      {
+        "title": "Support portal",
+        "text": "Customers submit a request and follow its status while internal notes stay with the support team."
+      }
+    ],
+    "tools": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "Python",
+      "PostgreSQL",
+      "REST APIs",
+      "Role-based access"
+    ],
+    "questions": [
+      {
+        "question": "Can the portal work with our existing CRM or ERP?",
+        "answer": "Yes, subject to the integration options available. We review the API, sample records, update frequency and ownership of each field before estimating the connection."
+      },
+      {
+        "question": "How do we keep one customer from seeing another customer’s records?",
+        "answer": "We design account-level access along with role permissions, then test the agreed customer and staff journeys against separate sample accounts."
+      },
+      {
+        "question": "Can you start with order tracking and add invoices later?",
+        "answer": "Yes. One read-only order journey is a practical first release. We can scope invoice access and support requests separately once we understand the relevant systems."
+      },
+      {
+        "question": "How much does a custom portal cost?",
+        "answer": "We quote the agreed scope. Bring the first customer journey, the roles involved and the systems the portal needs to read or update."
+      }
+    ],
+    "relatedServiceKeys": [
+      "custom-software",
+      "application-development",
+      "workflow-automation"
+    ],
+    "summary": "Customer and partner portals with account permissions, order or request tracking and integrations to existing business systems.",
+    "ogTitle": "Customer and partner portal development",
+    "closingCopy": "Tell us which task customers ask your team to do, who signs in and where the underlying records live.",
+    "path": "/services/customer-portal-development/",
+    "eyebrow": "Engineering services",
+    "ogKicker": "MV.tech Solutions · Engineering services",
+    "scopeHeading": "What determines the scope and price",
+    "approachHeading": "How we start the engagement",
+    "applicationsHeading": "Work we can scope with your team",
+    "questionsHeading": "Questions buyers ask",
+    "closingHeading": "Discuss your project"
+  },
+  {
+    "key": "employee-ai-chatbots",
+    "name": "Employee AI Chatbot Development",
+    "serviceType": "Employee chatbot and internal knowledge assistant development",
+    "title": "Employee AI Chatbot Development Services | MV.tech Solutions",
+    "h1": "Employee AI chatbots for internal documents",
+    "description": "Hire MV.tech Solutions to build an internal chatbot over company policies and support documents, with source citations, role-based access and answer evaluation.",
+    "intro": "Help employees find an answer in your policies, manuals or support documents. MV.tech Solutions builds internal chatbots that retrieve approved sources, show where an answer came from and route unanswered questions to the right person.",
+    "fitHeading": "Where employees lose time finding answers",
+    "fit": [
+      "People ask the same onboarding, operations or support questions in chat.",
+      "Answers depend on the current version of a document or the employee’s role.",
+      "A pilot chatbot gives plausible answers, but the team needs to check the sources before rollout."
+    ],
+    "deliverablesHeading": "What the chatbot engagement includes",
+    "deliverables": [
+      {
+        "title": "An approved source collection",
+        "text": "Identify document owners, current versions and which groups may read each source."
+      },
+      {
+        "title": "Answers with references",
+        "text": "Build retrieval over the agreed material and give employees a link or passage they can check."
+      },
+      {
+        "title": "A route for unanswered questions",
+        "text": "Define when the assistant should ask a clarifying question or hand the request to a person."
+      },
+      {
+        "title": "An evaluation and handover",
+        "text": "Test representative questions, outdated material and restricted documents. Document how owners update sources and rerun the checks."
+      }
+    ],
+    "scope": "Source formats, content quality, access rules, languages, channels and update frequency determine the scope. We can start with one team and one document collection and estimate expansion from the pilot.",
+    "approach": [
+      {
+        "title": "Choose actual questions",
+        "text": "Collect the questions staff ask most often and agree which source should answer each."
+      },
+      {
+        "title": "Build a limited pilot",
+        "text": "Connect one approved collection and implement source permissions and citations."
+      },
+      {
+        "title": "Review with the content owners",
+        "text": "Check correct answers, unsupported answers and restricted questions before deciding whether to extend access."
+      }
+    ],
+    "applications": [
+      {
+        "title": "Onboarding questions",
+        "text": "New employees find links to the current guidance for common requests."
+      },
+      {
+        "title": "Technical support knowledge",
+        "text": "Staff look up an approved procedure and read the source before taking action."
+      },
+      {
+        "title": "Policy questions",
+        "text": "When the source is silent or ambiguous, the assistant gives the owning team a clear handoff."
+      }
+    ],
+    "tools": [
+      "Retrieval-augmented generation (RAG)",
+      "Document ingestion",
+      "Source citations",
+      "Role-based access",
+      "Answer evaluation",
+      "APIs"
+    ],
+    "questions": [
+      {
+        "question": "Can the chatbot use our own policies and manuals?",
+        "answer": "Yes. We scope the allowed collections and access rules first. The assistant retrieves relevant passages and links back to their source."
+      },
+      {
+        "question": "What happens when the policy has no answer?",
+        "answer": "The assistant can ask for missing context or refer the employee to a named owner. The evaluation includes questions the published sources cannot answer."
+      },
+      {
+        "question": "Can the assistant connect to live business data?",
+        "answer": "Where live data is required, we scope a separate approved connector with its own access limits. Document retrieval and live queries have different test cases."
+      },
+      {
+        "question": "How do you price an internal chatbot project?",
+        "answer": "We quote based on sources, access rules, channels, evaluation and integrations. A single team and a small approved collection give both sides a concrete starting point."
+      }
+    ],
+    "relatedServiceKeys": [
+      "ai-consulting",
+      "mcp-and-ai-connectors",
+      "workflow-automation"
+    ],
+    "relatedResources": [
+      {
+        "href": "/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/",
+        "kicker": "Design guide",
+        "title": "Choosing retrieval or fine-tuning",
+        "text": "Compare the approaches for changing internal documents, permissions and answer evaluation.",
+        "label": "Read the guide"
+      }
+    ],
+    "summary": "Internal employee chatbots that answer questions from approved documents with citations, access controls and evaluation.",
+    "ogTitle": "Employee AI chatbot development",
+    "closingCopy": "Bring one collection of approved documents, the roles that can read it and a few questions people ask your team.",
+    "path": "/services/employee-ai-chatbots/",
+    "eyebrow": "Engineering services",
+    "ogKicker": "MV.tech Solutions · Engineering services",
+    "scopeHeading": "What determines the scope and price",
+    "approachHeading": "How we start the engagement",
+    "applicationsHeading": "Work we can scope with your team",
+    "questionsHeading": "Questions buyers ask",
+    "closingHeading": "Discuss your project"
+  },
+  {
+    "key": "reporting-automation",
+    "name": "Reporting Automation",
+    "serviceType": "Recurring reporting and spreadsheet process automation",
+    "title": "Reporting Automation and Excel to Power BI | MV.tech Solutions",
+    "h1": "Automate recurring Excel and management reports",
+    "description": "Hire MV.tech Solutions to automate recurring reports from spreadsheets, databases or APIs and reconcile the results in Power BI or your preferred reporting tool.",
+    "intro": "If someone rebuilds the same report every week or month, start with that report. MV.tech Solutions traces its sources and spreadsheet rules, builds a repeatable refresh and checks the result against the figures the business already uses.",
+    "fitHeading": "Which report needs a person to rebuild it?",
+    "fit": [
+      "Finance downloads several files and pastes them into the same month-end report.",
+      "Operations relies on a workbook with formulas or adjustments only one person understands.",
+      "A dashboard and the spreadsheet disagree, and both teams need to trace the difference."
+    ],
+    "deliverablesHeading": "What we deliver for the agreed report",
+    "deliverables": [
+      {
+        "title": "A source and rule map",
+        "text": "Record each input, reporting cutoff, manual adjustment and metric owner."
+      },
+      {
+        "title": "A repeatable reporting workflow",
+        "text": "Extract the agreed inputs, apply documented rules and schedule the refresh with checks for missing or stale data."
+      },
+      {
+        "title": "A usable reporting output",
+        "text": "Publish a Power BI model, dashboard or governed output for Excel, depending on how the team needs to use the figures."
+      },
+      {
+        "title": "Reconciliation and handover",
+        "text": "Compare the new totals with agreed periods, document exceptions and show the report owner how to monitor the refresh."
+      }
+    ],
+    "scope": "We estimate after reviewing a sample report, its inputs, the refresh schedule and the reason people currently make adjustments. A warehouse migration can be a separate workstream where the data volume or reporting rules justify it.",
+    "approach": [
+      {
+        "title": "Rebuild one period",
+        "text": "Walk through a recent reporting cycle with its owner and reproduce the figures from the named sources."
+      },
+      {
+        "title": "Automate the repeatable steps",
+        "text": "Agree which adjustments still require human approval, then implement the source-to-report workflow."
+      },
+      {
+        "title": "Compare before switching",
+        "text": "Run both versions for agreed periods, investigate differences and let the report owner sign off the change."
+      }
+    ],
+    "applications": [
+      {
+        "title": "Month-end management reporting",
+        "text": "Reconcile source totals, ledger cutoffs and adjustments before refreshing the management pack."
+      },
+      {
+        "title": "Operations reporting",
+        "text": "Combine order, activity or support data into one scheduled view with agreed metric definitions."
+      },
+      {
+        "title": "Power BI migration",
+        "text": "Move shared measures into a semantic model and retain Excel for the parts of the workflow the business still needs."
+      }
+    ],
+    "tools": [
+      "Excel",
+      "Power BI",
+      "SQL",
+      "Python",
+      "ETL and ELT",
+      "APIs",
+      "Snowflake",
+      "BigQuery",
+      "Amazon Redshift"
+    ],
+    "questions": [
+      {
+        "question": "Can we keep using Excel after automation?",
+        "answer": "Yes. We can automate the inputs and shared rules while keeping Excel as the output or a place for approved human adjustments."
+      },
+      {
+        "question": "Do we have to buy a data warehouse?",
+        "answer": "That depends on the source systems, data volume and number of reports sharing the same logic. We assess the existing systems before proposing a warehouse."
+      },
+      {
+        "question": "How do you handle differences between Excel and Power BI?",
+        "answer": "We compare the same periods, filters, definitions and units. Each difference is traced to a source record or business rule and reviewed with the report owner."
+      },
+      {
+        "question": "What do you need to quote the work?",
+        "answer": "One representative report, its source list, the person who prepares it and the desired refresh frequency. Integrations and reconciliation effort determine the estimate."
+      }
+    ],
+    "relatedServiceKeys": [
+      "workflow-automation",
+      "power-bi-consulting",
+      "business-intelligence"
+    ],
+    "relatedResources": [
+      {
+        "href": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
+        "kicker": "Founder experience",
+        "title": "How manual reporting moved into Snowflake",
+        "text": "Meet Vaghasia’s individual engagement at Volvo Cars through Toptal included Power BI source mappings and checks across source systems, Snowflake and BI reports.",
+        "label": "Read the reporting example"
+      },
+      {
+        "href": "/insights/reconciling-dynamics-365-business-central-with-your-data-warehouse/",
+        "kicker": "Finance reporting",
+        "title": "Reconciling Business Central with a warehouse",
+        "text": "Trace trial-balance differences to the source entries and reporting cutoff.",
+        "label": "Read the finance guide"
+      }
+    ],
+    "summary": "Automation of recurring finance and operations reports, from source extraction and validation to Power BI or governed Excel output.",
+    "ogTitle": "Reporting automation for Excel and Power BI",
+    "closingCopy": "Bring one report, a list of the systems behind it and the name of the person who signs off the figures.",
+    "path": "/services/reporting-automation/",
+    "eyebrow": "Engineering services",
+    "ogKicker": "MV.tech Solutions · Engineering services",
+    "scopeHeading": "What determines the scope and price",
+    "approachHeading": "How we start the engagement",
+    "applicationsHeading": "Work we can scope with your team",
+    "questionsHeading": "Questions buyers ask",
+    "closingHeading": "Discuss your project"
   }
 ]

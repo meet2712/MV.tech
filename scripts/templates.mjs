@@ -167,7 +167,7 @@ export function servicePage(page, site, allPages) {
       <ul class="chip-list" aria-label="Relevant capabilities">${page.tools.map((tool) => `<li>${h(tool)}</li>`).join('')}</ul>
     </div>
   </section>
-  ${remote ? `<section class="band band-light" id="timezones">
+${remote ? `  <section class="band band-light" id="timezones">
     <div class="container">
       <div class="section-heading"><div><p class="eyebrow">Time-zone overlap</p><h2>Working hours planned around yours.</h2></div></div>
       <p class="lead measure">India Standard Time (UTC+5:30) sits between Asia-Pacific mornings and American mornings, so a remote team in Ahmedabad can share a substantial working window with almost any client. We agree the collaboration window before the engagement starts and keep written updates flowing outside it.</p>

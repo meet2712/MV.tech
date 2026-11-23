@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://mvtech.solutions/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://mvtech.solutions/</loc><lastmod>2026-11-20</lastmod></url>
   <url><loc>https://mvtech.solutions/about/</loc><lastmod>2026-11-20</lastmod></url>
   <url><loc>https://mvtech.solutions/accessibility/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://mvtech.solutions/brand/</loc><lastmod>2026-11-14</lastmod></url>
@@ -29,21 +29,20 @@
   <url><loc>https://mvtech.solutions/services/blockchain-data-analytics/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://mvtech.solutions/services/business-intelligence/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://mvtech.solutions/services/custom-software/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://mvtech.solutions/services/customer-portal-development/</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://mvtech.solutions/services/data-engineering/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://mvtech.solutions/services/data-warehouse-migration/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://mvtech.solutions/services/employee-ai-chatbots/</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://mvtech.solutions/services/hire-data-engineers/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://mvtech.solutions/services/it-staff-augmentation/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://mvtech.solutions/services/mcp-and-ai-connectors/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://mvtech.solutions/services/offshore-data-engineering-team/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://mvtech.solutions/services/power-bi-consulting/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://mvtech.solutions/services/reporting-automation/</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://mvtech.solutions/services/snowflake-consulting/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://mvtech.solutions/services/technology-recruitment/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://mvtech.solutions/services/web-development/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://mvtech.solutions/services/workflow-automation/</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://mvtech.solutions/solutions/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://mvtech.solutions/terms/</loc><lastmod>2026-11-14</lastmod></url>
-  <url><loc>https://mvtech.solutions/tools/</loc><lastmod>2026-11-23</lastmod></url>
-  <url><loc>https://mvtech.solutions/tools/customer-portal-permissions/</loc><lastmod>2026-11-23</lastmod></url>
-  <url><loc>https://mvtech.solutions/tools/employee-chatbot-evaluation/</loc><lastmod>2026-11-23</lastmod></url>
-  <url><loc>https://mvtech.solutions/tools/report-reconciliation/</loc><lastmod>2026-11-23</lastmod></url>
 </urlset>
