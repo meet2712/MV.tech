@@ -23,16 +23,25 @@ URL: https://mvtech.solutions/
 Description: Build custom software, data platforms and AI workflows, or hire engineers for your team. MV.tech Solutions is a technology and staffing company headquartered in New York.
 Last modified: 2026-11-23
 
-US headquarters in New York / Ahmedabad office
+US HQ in New York / Ahmedabad office
 
-## Build the Software.Hire the Engineers.
+## Software, Data & AI.The Team to Build It.
 
-We build custom software, fix unreliable data pipelines and automate work with AI. Need someone in-house? We recruit engineers for contract and permanent roles.
+We build custom apps, connect the data behind your reports and automate repetitive work. Hire us for a project or bring an engineer onto your team.
 
 Discuss a Project Hire an Engineer
+Try Business Intelligence Studio · See Social Media Automation
 Software Development Data Engineering AI Integration Technology Staffing
 
 ### Featured Projects
+
+#### Business Intelligence Studio
+
+Tired of hunting through Tableau or Power BI dashboards for one number? Ask the AI assistant in plain English, then open the report behind its answer.
+
+Our founder built the Studio with the Model Context Protocol (MCP). It lets the assistant find reports, check when the data refreshed and calculate totals using the reader’s existing permissions.
+
+Explore Business Intelligence Studio
 
 #### Social Media Automation
 
@@ -44,43 +53,14 @@ When sales and inventory reports moved to Snowflake, our founder traced their ca
 
 ### Technology & Staffing Services
 
-Choose a service to see what we deliver, which tools we work with and how to get started.
+A sample report, a sketch of a screen or a job description gives us a place to start.
 
-#### Data Engineering & Warehousing
-
-Bring data from your business systems into a reliable warehouse, with pipelines, clear models and checks against the source.
-
-Data engineering Migrate a warehouse or ETL pipeline
-
-#### Business Intelligence & Analytics
-
-Give finance and operations a consistent view of the business, with defined KPIs, semantic models and dashboards.
-
-Explore Business Intelligence
-
-#### Web & Application Development
-
-Build websites, web apps, SaaS products and internal tools in React, Next.js, Node.js and Python, connected to the systems you already use.
-
-Web Development Application Development Custom Software
-
-#### AI Consulting & Development
-
-Connect AI to your existing tools so people can search company knowledge, process documents and ask questions about approved data.
-
-Explore AI Services
-
-#### Dedicated Engineering Teams
-
-Add data, software, cloud or AI specialists to your delivery team, with agreed responsibilities and working hours.
-
-Hire a data engineer Build an offshore data team
-
-#### Technology Recruitment
-
-Find permanent technology hires with support for role definition, sourcing and technical assessment. Your team makes the hiring decision.
-
-Explore Recruitment
+Browse all services →
+- Software Development — Do customers have to email you for an order update? We can build a portal that reads the status from your order system, or add that feature to the app they already use. Web development Application development Custom software
+- Data Engineering — A failed overnight import can leave a day missing from your morning report. We can repair the pipeline, reload the missing records and check the totals against the source. Data engineering consulting Warehouse migration
+- Business Intelligence — When finance and sales bring different revenue numbers to the same meeting, we trace the difference and agree how that figure should be calculated in Tableau or Power BI. BI and dashboards Power BI consulting
+- AI Integration & Automation — If staff keep looking up the same policy, we can connect an AI assistant to the documents each person can open. Readers can follow the answer back to the source. AI consulting MCP and AI connectors Workflow automation
+- Engineering Staffing & Recruitment — A data engineer can join your team for a migration. If you want someone to own that work long term, we can help you find and assess a permanent hire. Hire a data engineer Offshore data teams Technology recruitment
 
 ### More Projects
 
@@ -95,23 +75,16 @@ Explore Recruitment
 
 ### Ways to Work With Us
 
-01
+Our delivery process →
+- Project Delivery — Bring the workflow you want to change. On the first call, we work out what you’ll test in the first release. At handover, your team gets the code and instructions to run it. — Discuss a project →
+- Embedded Engineers — Your lead sets the priorities. Show us the backlog and where you need help. We agree on the skills, working hours and first assignment for an engineer joining your team. — Explore staff augmentation →
+- Permanent Recruitment — Tell us what the person will own in their first few months. We use that to find and assess candidates. Your team interviews the shortlist, makes the offer and hires directly. — Share a permanent role →
 
-#### Project Delivery
+### Engineering Guides
 
-We take a defined scope from plan to handover, with milestones you sign off. How project delivery works
-
-02
-
-#### Dedicated Team
-
-Our engineers join your team and work in your tools, for as long as you need them. How dedicated teams work
-
-03
-
-#### Recruitment
-
-We find and vet candidates for a permanent role. You hire them directly. How recruitment works
+- Why doesn’t our supplier statement match Business Central? — Follow a month-end credit from the statement to the ledger to see how the posting date can change the balance.
+- Which warehouse data should an AI assistant see? — Start with one reporting schema, give the assistant read-only access and test which questions it must refuse.
+- Should we bring in an engineer or pay for a scoped project? — Compare two budgets for the same eight-week migration, including the hours your own technical lead would spend.
 
 ### Common Questions
 
@@ -151,7 +124,7 @@ India office
 
 ### What Are You Working On?
 
-Book a 30-minute call or send us an email. We’ll tell you straight whether we’re a good fit and what the first step would be.
+Tell us which report, application or role you need help with. On a 30-minute call, we can work through the first step together.
 
 ---
 
@@ -2580,15 +2553,11 @@ URL: https://mvtech.solutions/services/
 Description: MV.tech Solutions services: web and application development, custom software, data engineering, BI, AI and MCP, automation and dedicated teams.
 Last modified: 2026-11-23
 
-Services
+## Software, Data, AI & Technology Staffing
 
-## Software, data and AI services for your business.
+Choose what you need help with, from a single report or application to a dedicated engineering team. You can also see how we’ve tackled similar projects.
 
-Build a new system, modernize the one you have or extend your engineering team. Choose a service below or see the reporting and publishing tools we’ve built.
-
-Engineering services
-
-### Engineering and hiring services
+### Engineering and Hiring Services
 
 #### Data Engineering & Warehousing
 
@@ -6072,7 +6041,7 @@ Last modified: 2026-11-23
 
 ## Software, Data, AI & Marketing Projects
 
-See how we publish videos and prepare campaign emails with tools we run ourselves. Other examples come from our founder’s engineering work, including Business Intelligence Studio and the migration of sales and inventory reports to Snowflake.
+We use our publishing and email tools in our own work. Our founder’s engineering projects include Business Intelligence Studio and a Snowflake migration for sales and inventory reporting. Choose a project to see how it works.
 
 Social Media Automation Business Intelligence Studio Email Automation Marketing Attribution Finance Reconciliation Campaign Content AI Usage Reporting Data Warehouse Migration Blockchain Analytics Language Model Evaluation Production Data Pipelines
 

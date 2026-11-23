@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 694.36" width="1200" height="694.36">
+  <title>MV.tech monogram &#8212; for white and light backgrounds</title>
+  <desc>MV.tech brand kit v2 master. Geometry fitted to the approved monogram artwork (lines + true arcs); the V's rounded bottom is a complete 106.14-unit arc. Do not redraw, recolour or separate the dot.</desc>
+  <defs>
+    <linearGradient id="mvm-light-grad-teal" gradientUnits="userSpaceOnUse" x1="731.74" y1="601.44" x2="1090.19" y2="-53.76">
+      <stop offset="0" stop-color="#087D9B"/><stop offset="0.55" stop-color="#00C9C8"/><stop offset="1" stop-color="#18F2CF"/>
+    </linearGradient>
+  </defs>
+  <g id="mvm-light">
+    <path id="mvm-light-body" fill="#071118" fill-rule="nonzero" d="M 166.49 678.72 L 0.00 678.72 L 0.00 0.00 L 380.26 399.58 L 419.78 356.54 L 419.78 678.72 L 417.69 678.72 L 166.49 409.79 L 166.49 678.72Z M 601.32 642.44 L 303.81 141.84 L 462.08 141.84 A 62.86 62.86 0 0 1 516.45 173.13 L 672.89 442.56 L 966.98 0.58 L 1200.00 0.58 L 1200.00 5.67 L 781.42 646.27 A 106.14 106.14 0 0 1 601.32 642.44Z"/>
+    <path id="mvm-light-arm" fill="url(#mvm-light-grad-teal)" fill-rule="nonzero" d="M 672.89 442.56 L 966.98 0.58 L 1200.00 0.58 L 1200.00 5.67 L 786.59 638.37Z"/>
+    <circle id="mvm-light-dot" fill="#10F5D0" cx="969.54" cy="599.37" r="68.75"/>
+  </g>
+</svg>
