@@ -55,15 +55,16 @@ This is a factual index of the company's public website. The linked pages contai
 ## Examples of work
 
 - [Work examples](https://mvtech.solutions/work/) covers tools the team runs, creative work it delivered and engineering work from the founder’s career.
-- [Social publishing](https://mvtech.solutions/work/#social-media-automation) and [campaign content](https://mvtech.solutions/work/#campaign-content) show a short-video approval and publishing queue and a seasonal social carousel delivered as separate assets with a review preview.
-- [Custom BI with AI](https://mvtech.solutions/work/#ai-bi-platform) describes a reporting assistant that can find a report, check freshness and answer questions using figures the person can access.
-- [AI usage reporting](https://mvtech.solutions/work/#ai-usage-reporting) shows how a deployed dashboard flags missing periods before a team draws conclusions about AI adoption.
-- [Email workflow automation](https://mvtech.solutions/work/#email-automation) describes a workspace that checks campaign rows and prepares reviewable drafts in the intended mailbox.
-- [Marketing attribution](https://mvtech.solutions/work/#marketing-attribution) and [finance reconciliation](https://mvtech.solutions/work/#finance-reporting) describe lead-to-sale matching and comparisons between a ledger and month-end reporting.
-- [Warehouse migration](https://mvtech.solutions/work/#warehouse-migration) describes how the founder traced legacy reporting rules and checked Snowflake and Power BI figures against their sources.
-- [Blockchain analytics](https://mvtech.solutions/work/#blockchain-analytics) covers a multi-chain ledger with wallet flows, network fees and adjustments that preserve the original transactions.
-- [Model evaluation](https://mvtech.solutions/work/#model-evaluation) describes the founder’s work preparing data tasks, comparing language model answers and correcting errors.
-- [Production data pipelines](https://mvtech.solutions/work/#production-pipelines) covers change data capture into Amazon Redshift, scheduled report recovery and checks for incomplete loads.
+- [Social Media Automation](https://mvtech.solutions/work/#social-media-automation) starts with a link to a video the publisher owns or is licensed to use. It prepares AI captions, subtitles and branding. Clips that pass automated quality checks publish to the selected channels. An editor can revise a clip or review an exception. Each channel has its own publishing receipt, and uncertain results are checked before a retry. [Discuss a publishing workflow](https://mvtech.solutions/contact/#publishing-brief).
+- [Campaign Content](https://mvtech.solutions/work/#campaign-content) shows a seasonal social carousel delivered as separate assets with a review preview.
+- [Business Intelligence Studio](https://mvtech.solutions/work/#ai-bi-platform) is a reporting tool the founder built. Its AI assistant uses the Model Context Protocol (MCP) to read only reports the signed-in person can open. Readers can ask for figures in plain language, check the last refresh and trace answers to the source report. MV.tech Solutions can scope a custom build with a team’s existing Tableau or Power BI report as a baseline. [Discuss a reporting workspace](https://mvtech.solutions/contact/#bi-platform-brief).
+- [AI Usage Reporting](https://mvtech.solutions/work/#ai-usage-reporting) shows how a deployed dashboard flags missing periods before a team draws conclusions about AI adoption.
+- [Email Automation](https://mvtech.solutions/work/#email-automation) describes a workspace that checks campaign rows and prepares reviewable drafts in the intended mailbox.
+- [Marketing Attribution](https://mvtech.solutions/work/#marketing-attribution) and [Finance Reconciliation](https://mvtech.solutions/work/#finance-reporting) describe lead-to-sale matching and comparisons between a ledger and month-end reporting.
+- [Data Warehouse Migration](https://mvtech.solutions/work/#warehouse-migration) describes how the founder traced legacy reporting rules and checked Snowflake and Power BI figures against their sources.
+- [Blockchain Analytics](https://mvtech.solutions/work/#blockchain-analytics) covers a multi-chain ledger with wallet flows, network fees and adjustments that preserve the original transactions.
+- [Language Model Evaluation](https://mvtech.solutions/work/#model-evaluation) describes the founder’s work preparing data tasks, comparing language model answers and correcting errors.
+- [Production Data Pipelines](https://mvtech.solutions/work/#production-pipelines) covers change data capture into Amazon Redshift, scheduled report recovery and checks for incomplete loads.
 
 ## Company, delivery and next steps
 
