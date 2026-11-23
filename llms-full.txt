@@ -23,24 +23,46 @@ URL: https://mvtech.solutions/
 Description: MV.tech Solutions builds software, data platforms and AI tools. Hire a dedicated team from our US headquarters in New York or our India office in Ahmedabad.
 Last modified: 2026-11-23
 
-Software, data & AI engineering
+New York headquarters / Ahmedabad office
 
-## Software, dataand AI,built by engineers you talk to directly.
+## Custom software,data platformsand applied AI.
 
-MV.tech Solutions builds web applications, data warehouses, reporting and AI tools for companies in the US and worldwide. You work with the engineers writing the code, not an account manager.
+We build BI platforms that answer questions, publishing tools for editors, and data pipelines that finance teams can trace back to the ledger.
 
-US headquarters in New York/Ahmedabad, India office
+Explore our work Discuss a project
+Selected work
 
-From our founder’s engineering work
+### Inside the projects.
 
-- Warehouse migrations
-- Ledger reconciliation
-- Read-only data connectors
+Tools we run ourselves, systems our founder built, and creative work we’ve delivered.
+
+Social media automation
+
+#### A publishing desk for short-form video
+
+Editors review the cut, edit captions and choose the channels. A receipt for each destination shows which posts went through and which need attention.
+
+Warehouse migration
+
+#### Taking legacy reports into Snowflake
+
+Our founder traced the calculations in legacy reports, rebuilt them for Power BI and gave report owners a way to reconcile the numbers before handover.
+
+#### More of our work
+
+- Keeping production data feeds runningChange-data capture, failed refreshes and backfills in Redshift.
+- Campaign emails prepared for reviewA draft in the right mailbox, with checks for missing contacts and duplicates.
+- Comparing activity across blockchainsTransaction feeds from multiple networks brought into one warehouse.
+- Matching marketing leads to salesChecking where two attribution methods disagree about the same sale.
+- Tracing a finance report back to the ledgerMonth-end balances linked to the transactions behind them.
+- Producing a seasonal social campaignPortrait artwork delivered slide by slide, with a full preview for review.
+- Spotting gaps in AI usage reportsA dashboard that shows when a missing day changes a comparison.
+- Evaluating language-model answersReviewing model responses against the requirements of each task.
 Our services
 
-### What we do
+### What you can hire us for.
 
-Hand us one piece of work or the whole project.
+Bring us a project, add an engineer to your team, or hire for a permanent role.
 
 #### Data Engineering & Warehousing
 
@@ -77,33 +99,6 @@ Hire a data engineer Build an offshore data team
 Find permanent technology hires with support for role definition, sourcing and technical assessment. Your team makes the hiring decision.
 
 Explore Recruitment
-Recent work
-
-### A few projects our founder has delivered.
-
-These examples come from Meet Vaghasia’s individual engineering work.
-
-Reporting
-
-#### Data platforms & AI reporting
-
-Built data pipelines and reporting tables that let analysts trace figures back to source records.
-
-Redshift · Python · RAG
-Blockchain analytics
-
-#### Multi-chain data & finance analytics
-
-Brought transaction data from several public networks into one warehouse so analysts could compare wallet activity.
-
-BigQuery · Looker · Web3
-AI development
-
-#### AI evaluation & data preparation
-
-Prepared examples for evaluating language models and reviewed how well their answers followed the task.
-
-Language models · Response evaluation
 Working with us
 
 ### Three ways to work with us.
@@ -6069,17 +6064,17 @@ Questions about these terms: contact@mvtech.solutions.
 
 ---
 
-# Social Automation, AI Reporting & Marketing Work | MV.tech Solutions
+# Software, Data, AI and Marketing Projects | MV.tech Solutions
 
 URL: https://mvtech.solutions/work/
-Description: Explore software and marketing work from our team and founder, including a social publishing platform, an AI reporting assistant, email automation and lead-to-sale analysis.
+Description: Explore our publishing and campaign tools, plus our founder’s work in warehouse migration, production data pipelines, blockchain analytics and AI reporting.
 Last modified: 2026-11-23
 
-## Software, automation and marketing work.
+## Software, data, AI and marketing work.
 
-A publishing queue for an editor. A reporting assistant that respects each person’s access. An email workspace that keeps track of drafts. Here’s a look at tools we run ourselves, campaign assets we’ve delivered and reporting work our founder has done.
+We run a short-video publishing queue and an email drafting tool ourselves. The examples also include campaign materials we’ve delivered and work our founder, Meet Vaghasia, did in other engineering roles.
 
-Social publishingAI-assisted BIEmail automationMarketing attributionFinance reportingCampaign contentAI usage reporting
+Social publishingAI-assisted BIEmail automationMarketing attributionFinance reportingCampaign contentAI usage reporting Warehouse migrationBlockchain analyticsModel evaluationProduction data pipelines
 Social media automation
 
 ### One publishing queue for short-form video.
@@ -6143,3 +6138,39 @@ Our founder worked on a dashboard for a team tracking its use of an AI tool. The
 The team checked how the live dashboard handled days with data and days without it. Leaving a gap visible matters when an empty day could otherwise look like a drop in adoption.
 
 Discuss an AI usage dashboardReporting automation services
+Warehouse migration
+
+### Moving sales and inventory reports to Snowflake.
+
+Our founder traced the joins, filters and calculations behind a set of legacy reports. He built reusable SQL views in Snowflake and checked which calculations the Power BI reports still performed themselves.
+
+To check the migration, he compared record counts, date ranges and reported totals with the source systems. When a figure differed, the field mappings showed where to look, from a missing source record to a filter in the report.
+
+Read the reporting migration guideData warehouse migration services
+Blockchain analytics
+
+### One ledger for wallet activity across networks.
+
+Our founder built a BigQuery ledger that brought transactions from several public blockchains together. It tracked assets received and sent, network fees and transfers between chains. Exchange rates let the finance team compare wallet flows in US dollars.
+
+If the team needed to change how a transaction was classified, it could record a correction in the reporting layer. Reviewers could still trace the figures back to the original transaction.
+
+Explore blockchain data analytics
+Language model evaluation
+
+### Checking a model’s answer against the source.
+
+In a model evaluation role, our founder wrote Python tasks using spreadsheets, PDFs and web pages. Some called for extracting specific fields. Others asked for a summary or an analysis of the data.
+
+He compared answers from different models, checked whether each answer was accurate and followed the instructions, and corrected errors for use in evaluation and training.
+
+Read how to evaluate a knowledge assistantAI consulting services
+Production data pipelines
+
+### Keeping warehouse data and scheduled reports up to date.
+
+Our founder ran change data capture pipelines that copied changes from operational databases into Amazon Redshift. He investigated interruptions in replication, including failures after the structure of a source table changed.
+
+He also kept scheduled reports running, restored refreshes after outages and set up alerts for incomplete loads. He documented how to reload the affected date range and what the next person on call should check.
+
+Data engineering servicesReporting automation services

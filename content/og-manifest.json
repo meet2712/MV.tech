@@ -2,8 +2,8 @@
   {
     "route": "/",
     "slug": "home",
-    "title": "Software development, data engineering and AI services",
-    "kicker": "MV.tech Solutions · Software · Data · AI engineering"
+    "title": "Custom software, data platforms and applied AI",
+    "kicker": "MV.tech Solutions · Featured work"
   },
   {
     "route": "/about/",
@@ -272,7 +272,7 @@
   {
     "route": "/work/",
     "slug": "work",
-    "title": "Social publishing, AI reporting and email automation",
+    "title": "Engineering and marketing projects",
     "kicker": "Selected engineering work"
   }
 ]

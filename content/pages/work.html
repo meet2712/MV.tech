@@ -2,9 +2,9 @@
 {
   "route": "/work/",
   "name": "Work examples",
-  "title": "Social Automation, AI Reporting & Marketing Work | MV.tech Solutions",
-  "description": "Explore software and marketing work from our team and founder, including a social publishing platform, an AI reporting assistant, email automation and lead-to-sale analysis.",
-  "ogTitle": "Social publishing, AI reporting and email automation",
+  "title": "Software, Data, AI and Marketing Projects | MV.tech Solutions",
+  "description": "Explore our publishing and campaign tools, plus our founder’s work in warehouse migration, production data pipelines, blockchain analytics and AI reporting.",
+  "ogTitle": "Engineering and marketing projects",
   "ogKicker": "Selected engineering work"
 }
 -->
@@ -12,10 +12,11 @@
   <section class="page-hero">
     <div class="container">
       <nav aria-label="Breadcrumb" class="breadcrumbs"><ol><li><a href="/">Home</a></li><li><span aria-current="page">Work examples</span></li></ol></nav>
-      <h1>Software, automation and marketing work.</h1>
-      <p class="lead">A publishing queue for an editor. A reporting assistant that respects each person’s access. An email workspace that keeps track of drafts. Here’s a look at tools we run ourselves, campaign assets we’ve delivered and reporting work our founder has done.</p>
+      <h1>Software, data, AI and marketing work.</h1>
+      <p class="lead">We run a short-video publishing queue and an email drafting tool ourselves. The examples also include campaign materials we’ve delivered and work our founder, Meet Vaghasia, did in other engineering roles.</p>
       <nav class="proof-links" aria-label="Jump to a work example">
         <a href="#social-media-automation">Social publishing</a><a href="#ai-bi-platform">AI-assisted BI</a><a href="#email-automation">Email automation</a><a href="#marketing-attribution">Marketing attribution</a><a href="#finance-reporting">Finance reporting</a><a href="#campaign-content">Campaign content</a><a href="#ai-usage-reporting">AI usage reporting</a>
+        <a href="#warehouse-migration">Warehouse migration</a><a href="#blockchain-analytics">Blockchain analytics</a><a href="#model-evaluation">Model evaluation</a><a href="#production-pipelines">Production data pipelines</a>
       </nav>
     </div>
   </section>
@@ -86,6 +87,46 @@
         <p>Our founder worked on a dashboard for a team tracking its use of an AI tool. The dashboard shows the dates covered by the available usage records and flags periods where data is missing. A person comparing two weeks can see whether both weeks are complete before drawing a conclusion.</p>
         <p>The team checked how the live dashboard handled days with data and days without it. Leaving a gap visible matters when an empty day could otherwise look like a drop in adoption.</p>
         <div class="proof-links"><a href="/contact/#bi-platform-brief">Discuss an AI usage dashboard</a><a href="/services/reporting-automation/">Reporting automation services</a></div>
+      </div>
+    </div>
+  </section>
+  <section class="band" id="warehouse-migration" aria-labelledby="warehouse-work-heading">
+    <div class="container split">
+      <div><p class="eyebrow">Warehouse migration</p><h2 id="warehouse-work-heading">Moving sales and inventory reports to Snowflake.</h2></div>
+      <div class="body-copy">
+        <p>Our founder traced the joins, filters and calculations behind a set of legacy reports. He built reusable SQL views in Snowflake and checked which calculations the Power BI reports still performed themselves.</p>
+        <p>To check the migration, he compared record counts, date ranges and reported totals with the source systems. When a figure differed, the field mappings showed where to look, from a missing source record to a filter in the report.</p>
+        <div class="proof-links"><a href="/insights/moving-excel-reporting-into-a-cloud-data-warehouse/">Read the reporting migration guide</a><a href="/services/data-warehouse-migration/">Data warehouse migration services</a></div>
+      </div>
+    </div>
+  </section>
+  <section class="band band-light" id="blockchain-analytics" aria-labelledby="blockchain-work-heading">
+    <div class="container split">
+      <div><p class="eyebrow">Blockchain analytics</p><h2 id="blockchain-work-heading">One ledger for wallet activity across networks.</h2></div>
+      <div class="body-copy">
+        <p>Our founder built a BigQuery ledger that brought transactions from several public blockchains together. It tracked assets received and sent, network fees and transfers between chains. Exchange rates let the finance team compare wallet flows in US dollars.</p>
+        <p>If the team needed to change how a transaction was classified, it could record a correction in the reporting layer. Reviewers could still trace the figures back to the original transaction.</p>
+        <div class="proof-links"><a href="/services/blockchain-data-analytics/">Explore blockchain data analytics</a></div>
+      </div>
+    </div>
+  </section>
+  <section class="band" id="model-evaluation" aria-labelledby="model-work-heading">
+    <div class="container split">
+      <div><p class="eyebrow">Language model evaluation</p><h2 id="model-work-heading">Checking a model’s answer against the source.</h2></div>
+      <div class="body-copy">
+        <p>In a model evaluation role, our founder wrote Python tasks using spreadsheets, PDFs and web pages. Some called for extracting specific fields. Others asked for a summary or an analysis of the data.</p>
+        <p>He compared answers from different models, checked whether each answer was accurate and followed the instructions, and corrected errors for use in evaluation and training.</p>
+        <div class="proof-links"><a href="/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/">Read how to evaluate a knowledge assistant</a><a href="/services/ai-consulting/">AI consulting services</a></div>
+      </div>
+    </div>
+  </section>
+  <section class="band band-light" id="production-pipelines" aria-labelledby="pipeline-work-heading">
+    <div class="container split">
+      <div><p class="eyebrow">Production data pipelines</p><h2 id="pipeline-work-heading">Keeping warehouse data and scheduled reports up to date.</h2></div>
+      <div class="body-copy">
+        <p>Our founder ran change data capture pipelines that copied changes from operational databases into Amazon Redshift. He investigated interruptions in replication, including failures after the structure of a source table changed.</p>
+        <p>He also kept scheduled reports running, restored refreshes after outages and set up alerts for incomplete loads. He documented how to reload the affected date range and what the next person on call should check.</p>
+        <div class="proof-links"><a href="/services/data-engineering/">Data engineering services</a><a href="/services/reporting-automation/">Reporting automation services</a></div>
       </div>
     </div>
   </section>

@@ -4,38 +4,114 @@
   "name": "Home",
   "title": "MV.tech Solutions | Software, Data Engineering & AI Services",
   "description": "MV.tech Solutions builds software, data platforms and AI tools. Hire a dedicated team from our US headquarters in New York or our India office in Ahmedabad.",
-  "ogTitle": "Software development, data engineering and AI services",
-  "ogKicker": "MV.tech Solutions · Software · Data · AI engineering"
+  "ogTitle": "Custom software, data platforms and applied AI",
+  "ogKicker": "MV.tech Solutions · Featured work"
 }
 -->
 <main id="main-content" class="home-page">
-  <section class="corporate-hero">
-    <div class="container hero-layout">
-      <div class="hero-copy">
-        <p class="eyebrow">Software, data &amp; AI engineering</p>
-        <h1>Software, data<br>and AI,<br><span>built by engineers you talk to directly.</span></h1>
-        <p class="lead">MV.tech Solutions builds web applications, data warehouses, reporting and AI tools for companies in the US and worldwide. You work with the engineers writing the code, not an account manager.</p>
-        <div class="action-row"><a class="button-primary" href="/contact/#book-call">Discuss your project <i data-lucide="arrow-right" aria-hidden="true"></i></a><a class="button-secondary" href="#services">Explore services <i data-lucide="arrow-right" aria-hidden="true"></i></a></div>
-        <p class="hero-footnote"><i data-lucide="map-pin" aria-hidden="true"></i><span>US headquarters in New York</span><span class="sep" aria-hidden="true">/</span><span>Ahmedabad, India office</span></p>
-      </div>
-      <div class="hero-visual">
-        <picture><source type="image/webp" srcset="/images/engineering-workspace-800.webp 800w, /images/engineering-workspace-1200.webp 1200w, /images/engineering-workspace-1920.webp 1920w" sizes="(min-width: 901px) 45vw, 100vw"><img src="/images/engineering-workspace.jpg" alt="A glass-walled meeting room seen from the corridor" width="1920" height="1280" fetchpriority="high"></picture>
-        <div class="hero-visual-caption">
-          <p class="eyebrow">Founded 2022</p>
-          <p>One team for the app,<br>the data behind it<br>and the AI on top.</p>
-          <ul><li>React &amp; Node.js</li><li>Snowflake &amp; BigQuery</li><li>RAG &amp; MCP</li></ul>
+  <section class="showcase-hero" aria-labelledby="home-title">
+    <div class="container showcase-layout">
+      <div class="showcase-copy">
+        <p class="showcase-location"><i data-lucide="map-pin" aria-hidden="true"></i> New York headquarters <span aria-hidden="true">/</span> Ahmedabad office</p>
+        <h1 id="home-title">Custom software,<br>data platforms<br><span>and applied AI.</span></h1>
+        <p class="showcase-intro">We build BI platforms that answer questions, publishing tools for editors, and data pipelines that finance teams can trace back to the ledger.</p>
+        <div class="showcase-actions">
+          <a class="button-primary" href="#team">Explore our work <i data-lucide="arrow-right" aria-hidden="true"></i></a>
+          <a class="showcase-contact" href="/contact/#online-enquiry">Discuss a project <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
         </div>
+      </div>
+      <div class="showcase-feature">
+        <section class="report-demo" aria-labelledby="report-demo-title">
+          <header class="report-demo-header">
+            <span class="report-demo-icon" aria-hidden="true"><i data-lucide="bar-chart-3"></i></span>
+            <div>
+              <h2 class="report-demo-title" id="report-demo-title">AI reporting platform</h2>
+              <p class="report-demo-context">Interactive example · Sample data</p>
+            </div>
+            <a class="demo-case-link" href="/work/#ai-bi-platform" aria-label="Read the custom BI platform project"><span>View project</span><i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+          </header>
+          <fieldset class="report-demo-questions">
+            <legend class="report-demo-legend">Choose a question</legend>
+            <input class="report-demo-choice" type="radio" name="report-demo-question" id="report-demo-orders" aria-controls="report-demo-answer-orders" checked>
+            <input class="report-demo-choice" type="radio" name="report-demo-question" id="report-demo-freshness" aria-controls="report-demo-answer-freshness">
+            <input class="report-demo-choice" type="radio" name="report-demo-question" id="report-demo-access" aria-controls="report-demo-answer-access">
+            <div class="report-demo-options">
+              <label for="report-demo-orders">Weekly orders</label>
+              <label for="report-demo-freshness">Freshness</label>
+              <label for="report-demo-access">Permissions</label>
+            </div>
+            <div class="report-demo-answers">
+              <div class="report-demo-answer" id="report-demo-answer-orders" role="region" aria-labelledby="report-demo-orders-heading">
+                <h3 class="report-demo-question" id="report-demo-orders-heading">How many orders came in each week?</h3>
+                <p class="report-demo-metric"><strong>900</strong><span>orders in four weeks</span></p>
+                <ul class="report-demo-chart" aria-label="Weekly order counts for September">
+                  <li><span class="report-demo-week">1–7 Sep</span><span class="report-demo-bar report-demo-bar-1"><span class="report-demo-count">184</span></span></li>
+                  <li><span class="report-demo-week">8–14 Sep</span><span class="report-demo-bar report-demo-bar-2"><span class="report-demo-count">226</span></span></li>
+                  <li><span class="report-demo-week">15–21 Sep</span><span class="report-demo-bar report-demo-bar-3"><span class="report-demo-count">214</span></span></li>
+                  <li><span class="report-demo-week">22–28 Sep</span><span class="report-demo-bar report-demo-bar-4"><span class="report-demo-count">276</span></span></li>
+                </ul>
+              </div>
+              <div class="report-demo-answer" id="report-demo-answer-freshness" role="region" aria-labelledby="report-demo-freshness-heading">
+                <h3 class="report-demo-question" id="report-demo-freshness-heading">When did the order data last refresh?</h3>
+                <p class="report-demo-metric"><strong>06:00</strong><span>UTC on 29 September</span></p>
+                <dl class="report-demo-details">
+                  <div><dt>Orders covered through</dt><dd>28 September</dd></div>
+                  <div><dt>Refresh schedule</dt><dd>Daily at 06:00 UTC</dd></div>
+                </dl>
+              </div>
+              <div class="report-demo-answer" id="report-demo-answer-access" role="region" aria-labelledby="report-demo-access-heading">
+                <h3 class="report-demo-question" id="report-demo-access-heading">What can an analyst see in this report?</h3>
+                <p class="report-demo-answer-text">An analyst can see order totals for each week.</p>
+                <dl class="report-demo-details">
+                  <div><dt>Weekly order counts</dt><dd>Visible</dd></div>
+                  <div><dt>Customer names and emails</dt><dd>Restricted</dd></div>
+                </dl>
+              </div>
+            </div>
+          </fieldset>
+          <p class="report-demo-source"><i data-lucide="database" aria-hidden="true"></i><span>Source</span><strong>Sample order register</strong></p>
+        </section>
       </div>
     </div>
   </section>
-  <section class="experience-strip" aria-label="Team experience">
+
+  <section class="selected-work" id="team" aria-labelledby="work-heading">
     <div class="container">
-      <p class="experience-label">From our founder’s engineering work</p>
-      <ul class="experience-names">
-        <li>Warehouse migrations</li>
-        <li>Ledger reconciliation</li>
-        <li>Read-only data connectors</li>
-      </ul>
+      <div class="selection-heading">
+        <div><p class="eyebrow">Selected work</p><h2 id="work-heading">Inside the projects.</h2></div>
+        <p>Tools we run ourselves, systems our founder built, and creative work we’ve delivered.</p>
+      </div>
+      <div class="case-pair">
+        <a class="feature-case" href="/work/#social-media-automation">
+          <div class="case-picture">
+            <img src="/images/publishing-sample.webp" alt="A cyclist on a forest road, used as a sample video still" width="850" height="567" loading="lazy">
+            <div class="clip-overlay" aria-hidden="true"><span><i data-lucide="panel-top"></i> Editorial preview</span><span>Sample clip</span></div>
+          </div>
+          <div class="case-summary"><p class="eyebrow">Social media automation</p><h3>A publishing desk for short-form video <i data-lucide="arrow-up-right" aria-hidden="true"></i></h3>
+          <p>Editors review the cut, edit captions and choose the channels. A receipt for each destination shows which posts went through and which need attention.</p></div>
+        </a>
+        <a class="feature-case" href="/work/#warehouse-migration">
+          <div class="migration-art" aria-hidden="true">
+            <div class="migration-flow"><span><i data-lucide="layers"></i>Source reports</span><i data-lucide="arrow-right"></i><span><i data-lucide="database"></i>Snowflake</span><i data-lucide="arrow-right"></i><span><i data-lucide="bar-chart-3"></i>Power BI</span></div>
+            <div class="migration-check"><i data-lucide="clipboard-check"></i> Check dates, duplicate keys and business totals</div>
+          </div>
+          <div class="case-summary"><p class="eyebrow">Warehouse migration</p><h3>Taking legacy reports into Snowflake <i data-lucide="arrow-up-right" aria-hidden="true"></i></h3>
+          <p>Our founder traced the calculations in legacy reports, rebuilt them for Power BI and gave report owners a way to reconcile the numbers before handover.</p></div>
+        </a>
+      </div>
+      <div class="work-directory">
+        <div class="directory-heading"><h3>More of our work</h3><a class="text-link" href="/work/">View the portfolio <i data-lucide="arrow-right" aria-hidden="true"></i></a></div>
+        <ul class="directory-grid">
+          <li><a href="/work/#production-pipelines"><i aria-hidden="true" data-lucide="workflow"></i><span><strong>Keeping production data feeds running</strong><small>Change-data capture, failed refreshes and backfills in Redshift.</small></span><i aria-hidden="true" data-lucide="arrow-up-right"></i></a></li>
+          <li><a href="/work/#email-automation"><i aria-hidden="true" data-lucide="mail"></i><span><strong>Campaign emails prepared for review</strong><small>A draft in the right mailbox, with checks for missing contacts and duplicates.</small></span><i aria-hidden="true" data-lucide="arrow-up-right"></i></a></li>
+          <li><a href="/work/#blockchain-analytics"><i aria-hidden="true" data-lucide="network"></i><span><strong>Comparing activity across blockchains</strong><small>Transaction feeds from multiple networks brought into one warehouse.</small></span><i aria-hidden="true" data-lucide="arrow-up-right"></i></a></li>
+          <li><a href="/work/#marketing-attribution"><i aria-hidden="true" data-lucide="git-branch"></i><span><strong>Matching marketing leads to sales</strong><small>Checking where two attribution methods disagree about the same sale.</small></span><i aria-hidden="true" data-lucide="arrow-up-right"></i></a></li>
+          <li><a href="/work/#finance-reporting"><i aria-hidden="true" data-lucide="landmark"></i><span><strong>Tracing a finance report back to the ledger</strong><small>Month-end balances linked to the transactions behind them.</small></span><i aria-hidden="true" data-lucide="arrow-up-right"></i></a></li>
+          <li><a href="/work/#campaign-content"><i aria-hidden="true" data-lucide="layout-grid"></i><span><strong>Producing a seasonal social campaign</strong><small>Portrait artwork delivered slide by slide, with a full preview for review.</small></span><i aria-hidden="true" data-lucide="arrow-up-right"></i></a></li>
+          <li><a href="/work/#ai-usage-reporting"><i aria-hidden="true" data-lucide="bar-chart-3"></i><span><strong>Spotting gaps in AI usage reports</strong><small>A dashboard that shows when a missing day changes a comparison.</small></span><i aria-hidden="true" data-lucide="arrow-up-right"></i></a></li>
+          <li><a href="/work/#model-evaluation"><i aria-hidden="true" data-lucide="list-checks"></i><span><strong>Evaluating language-model answers</strong><small>Reviewing model responses against the requirements of each task.</small></span><i aria-hidden="true" data-lucide="arrow-up-right"></i></a></li>
+        </ul>
+      </div>
     </div>
   </section>
   <section class="band band-light" id="services">
@@ -43,8 +119,8 @@
       <div class="section-heading">
         <div>
           <p class="eyebrow">Our services</p>
-          <h2>What we do</h2>
-          <p class="measure">Hand us one piece of work or the whole project.</p>
+          <h2>What you can hire us for.</h2>
+          <p class="measure">Bring us a project, add an engineer to your team, or hire for a permanent role.</p>
         </div>
         <a class="text-link" href="/services/">View all services <i data-lucide="arrow-right" aria-hidden="true"></i></a>
       </div>
@@ -84,38 +160,6 @@
           <h3>Technology Recruitment</h3>
           <p>Find permanent technology hires with support for role definition, sourcing and technical assessment. Your team makes the hiring decision.</p>
           <div class="service-options"><a href="/services/technology-recruitment/">Explore Recruitment <i data-lucide="arrow-up-right" aria-hidden="true"></i></a></div>
-        </article>
-      </div>
-    </div>
-  </section>
-  <section class="band" id="team">
-    <div class="container">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Recent work</p>
-          <h2>A few projects our founder has delivered.</h2>
-          <p class="measure">These examples come from Meet Vaghasia’s individual engineering work.</p>
-        </div>
-        <a class="text-link" href="/work/">Read the project examples <i data-lucide="arrow-right" aria-hidden="true"></i></a>
-      </div>
-      <div class="card-grid card-grid-3 experience-projects">
-        <article class="card">
-          <p class="eyebrow">Reporting</p>
-          <h3>Data platforms &amp; AI reporting</h3>
-          <p>Built data pipelines and reporting tables that let analysts trace figures back to source records.</p>
-          <span class="project-tools">Redshift · Python · RAG</span>
-        </article>
-        <article class="card">
-          <p class="eyebrow">Blockchain analytics</p>
-          <h3>Multi-chain data &amp; finance analytics</h3>
-          <p>Brought transaction data from several public networks into one warehouse so analysts could compare wallet activity.</p>
-          <span class="project-tools">BigQuery · Looker · Web3</span>
-        </article>
-        <article class="card">
-          <p class="eyebrow">AI development</p>
-          <h3>AI evaluation &amp; data preparation</h3>
-          <p>Prepared examples for evaluating language models and reviewed how well their answers followed the task.</p>
-          <span class="project-tools">Language models · Response evaluation</span>
         </article>
       </div>
     </div>

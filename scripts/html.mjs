@@ -51,7 +51,7 @@ export function slugFor(route) {
 const BLOCK = new Set(['p', 'div', 'section', 'article', 'header', 'footer', 'ul', 'ol', 'li', 'table', 'thead', 'tbody', 'tr', 'details', 'summary', 'figure', 'figcaption', 'blockquote', 'nav', 'aside', 'dl', 'dt', 'dd', 'pre', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'main', 'form', 'fieldset']);
 const SKIP = new Set(['script', 'style', 'svg', 'template', 'noscript', 'button', 'i']);
 // Navigation chrome and call-to-action buttons add noise for machine readers; the same links exist as text elsewhere.
-const SKIP_CLASSES = ['action-row', 'card-more', 'text-link', 'cta-actions', 'breadcrumbs', 'skip-link', 'overlap-card', 'hero-visual'];
+const SKIP_CLASSES = ['action-row', 'card-more', 'text-link', 'cta-actions', 'breadcrumbs', 'skip-link', 'overlap-card', 'hero-visual', 'report-demo'];
 const hasSkipClass = (node) => (attr(node, 'class') || '').split(/\s+/).some((c) => SKIP_CLASSES.includes(c));
 
 /**
