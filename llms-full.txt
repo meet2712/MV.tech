@@ -17,52 +17,34 @@ This file is generated from the public pages listed below, so it always matches 
 
 ---
 
-# MV.tech Solutions | Software, Data Engineering & AI Services
+# MV.tech Solutions | Software, Data Engineering, AI & Staffing
 
 URL: https://mvtech.solutions/
-Description: MV.tech Solutions builds software, data platforms and AI tools. Hire a dedicated team from our US headquarters in New York or our India office in Ahmedabad.
+Description: Build custom software, data platforms and AI workflows, or hire engineers for your team. MV.tech Solutions is a technology and staffing company headquartered in New York.
 Last modified: 2026-11-23
 
-New York headquarters / Ahmedabad office
+US headquarters in New York / Ahmedabad office
 
-## Custom software,data platformsand applied AI.
+## Build the Software.Hire the Engineers.
 
-We build BI platforms that answer questions, publishing tools for editors, and data pipelines that finance teams can trace back to the ledger.
+We build custom software, fix unreliable data pipelines and automate work with AI. Need someone in-house? We recruit engineers for contract and permanent roles.
 
-Explore our work Discuss a project
-Selected work
+Discuss a Project Hire an Engineer
+Software Development Data Engineering AI Integration Technology Staffing
 
-### Inside the projects.
+### Featured Projects
 
-Tools we run ourselves, systems our founder built, and creative work we’ve delivered.
+#### Social Media Automation
 
-Social media automation
+Start with a link to your video. AI reads the caption, transcribes the audio and helps fit the cut to your brand. The platform adds subtitles and publishes to your channels once the checks pass.
 
-#### A publishing desk for short-form video
+#### Data Warehouse Migration
 
-Editors review the cut, edit captions and choose the channels. A receipt for each destination shows which posts went through and which need attention.
+When sales and inventory reports moved to Snowflake, our founder traced their calculations and checked the Power BI totals against the original systems.
 
-Warehouse migration
+### Technology & Staffing Services
 
-#### Taking legacy reports into Snowflake
-
-Our founder traced the calculations in legacy reports, rebuilt them for Power BI and gave report owners a way to reconcile the numbers before handover.
-
-#### More of our work
-
-- Keeping production data feeds runningChange-data capture, failed refreshes and backfills in Redshift.
-- Campaign emails prepared for reviewA draft in the right mailbox, with checks for missing contacts and duplicates.
-- Comparing activity across blockchainsTransaction feeds from multiple networks brought into one warehouse.
-- Matching marketing leads to salesChecking where two attribution methods disagree about the same sale.
-- Tracing a finance report back to the ledgerMonth-end balances linked to the transactions behind them.
-- Producing a seasonal social campaignPortrait artwork delivered slide by slide, with a full preview for review.
-- Spotting gaps in AI usage reportsA dashboard that shows when a missing day changes a comparison.
-- Evaluating language-model answersReviewing model responses against the requirements of each task.
-Our services
-
-### What you can hire us for.
-
-Bring us a project, add an engineer to your team, or hire for a permanent role.
+Choose a service to see what we deliver, which tools we work with and how to get started.
 
 #### Data Engineering & Warehousing
 
@@ -84,7 +66,7 @@ Web Development Application Development Custom Software
 
 #### AI Consulting & Development
 
-Connect AI to useful work: knowledge search, document processing and assistants that work with your company’s data and tools.
+Connect AI to your existing tools so people can search company knowledge, process documents and ask questions about approved data.
 
 Explore AI Services
 
@@ -99,9 +81,19 @@ Hire a data engineer Build an offshore data team
 Find permanent technology hires with support for role definition, sourcing and technical assessment. Your team makes the hiring decision.
 
 Explore Recruitment
-Working with us
 
-### Three ways to work with us.
+### More Projects
+
+- Production Data PipelinesChange-data capture, failed refreshes and backfills in Redshift.
+- Email AutomationA draft in the right mailbox, with checks for missing contacts and duplicates.
+- Blockchain AnalyticsTransaction feeds from multiple networks brought into one warehouse.
+- Marketing AttributionChecking where two attribution methods disagree about the same sale.
+- Finance ReconciliationMonth-end balances linked to the transactions behind them.
+- Campaign ContentPortrait artwork delivered slide by slide, with a full preview for review.
+- AI Usage ReportingA dashboard that shows when a missing day changes a comparison.
+- Language Model EvaluationReviewing model responses against the requirements of each task.
+
+### Ways to Work With Us
 
 01
 
@@ -121,31 +113,7 @@ Our engineers join your team and work in your tools, for as long as you need the
 
 We find and vet candidates for a permanent role. You hire them directly. How recruitment works
 
-Delivery
-
-### How a project runs.
-
-01
-
-#### Plan
-
-We look at your users, systems and goals, then agree the scope, the architecture and what “done” means.
-
-02
-
-#### Build
-
-We ship in small pieces you can try, test the integrations and check the numbers against your source data.
-
-03
-
-#### Launch and Support
-
-We release with documentation and a proper handover, and stay on for fixes and new features if you want us to.
-
-Questions about working with us
-
-### What you need to know.
+### Common Questions
 
 **What services does MV.tech Solutions provide?**
 Software development, data engineering, warehouse migration, business intelligence, AI development, MCP integrations, workflow automation, blockchain analytics, staff augmentation and technology recruitment. The services overview links to the scope of each offering.
@@ -180,9 +148,8 @@ India office
 16 Trishala Residency, S G HighwayBehind RC Technical, Opp. High Court, Near Harivila, ChandlodiyaAhmedabad, Gujarat 380061India
 - contact@mvtech.solutions
 - Get directions
-Contact MV.tech Solutions
 
-### Tell us what you’re working on.
+### What Are You Working On?
 
 Book a 30-minute call or send us an email. We’ll tell you straight whether we’re a good fit and what the first step would be.
 
@@ -214,7 +181,7 @@ What we do
 
 #### Software and business applications
 
-Web applications, customer portals, internal tools and APIs that support the way your teams and users work.
+We build portals, internal tools and APIs. We use Social Media Automation to publish short videos across channels. Clips that pass the checks publish automatically. An editor can revise a flagged clip and see which channels accepted it.
 
 #### Data platforms and analytics
 
@@ -235,7 +202,7 @@ Founder
 
 ### Meet Vaghasia, Founder & Lead Engineer.
 
-Meet is a data and AI engineer. His work includes migrating spreadsheet reports into warehouses, checking financial figures against the ledger and building read-only tools for analysts.
+Meet is a data and AI engineer. He built Business Intelligence Studio, where an AI assistant uses the Model Context Protocol (MCP) to answer questions from reports the signed-in person can open. His work also includes moving spreadsheet reports into warehouses and reconciling financial figures with the ledger.
 
 He holds the Google Cloud Professional Data Engineer certification and IBM Mastery Awards in big data engineering and artificial intelligence analysis.
 
@@ -517,9 +484,9 @@ For a reconciliation, name the two reports that disagree and the statement date.
 
 For a warehouse migration, tell us which pipeline or report should move first and how you’ll check the result.
 
-Which content formats and channels do you use? Tell us who reviews the final version and where you currently lose track of a post.
+For Social Media Automation, tell us where your clips come from, which channels you publish to and what should hold a clip for review. A description is enough.
 
-Give us one question people ask about your data, which report answers it today and who should be able to see it.
+For Business Intelligence Studio, tell us one question people ask an analyst, which Tableau, Power BI or other report answers it today, and who should see the answer.
 
 Tell us where your contact list lives, which mailbox holds the drafts and who reviews messages before sending.
 
@@ -533,7 +500,7 @@ Send a short enquiry in your browser. We’ll reply by email.
 
 Pick a service and share the details you have. Every field is optional. You can review the draft in your email app before sending it.
 
-What do you need? Help choosing a service Hire an engineer Offshore data engineering team Consultant in our team (staff augmentation) Permanent hire (recruitment) Data engineering and ETL Data warehouse migration Business Central finance reconciliation Business intelligence and dashboards Reporting automation Social media publishing automation Custom BI platform with AI reporting Email workflow automation Campaign content and approvals Marketing analytics and attribution Web development (React, Next.js, Node.js) Application development (web apps, SaaS, MVPs) Customer portal development Custom software Workflow automation and API integration AI and RAG development Employee AI chatbots MCP servers and AI connectors Blockchain data analytics Snowflake consulting BigQuery consulting Power BI consulting Something else
+What do you need? Help choosing a service Hire an engineer Offshore data engineering team Consultant in our team (staff augmentation) Permanent hire (recruitment) Data engineering and ETL Data warehouse migration Business Central finance reconciliation Business intelligence and dashboards Reporting automation Social Media Automation Business Intelligence Studio Email Automation Campaign Content Marketing Attribution Web development (React, Next.js, Node.js) Application development (web apps, SaaS, MVPs) Customer portal development Custom software Workflow automation and API integration AI and RAG development Employee AI chatbots MCP servers and AI connectors Blockchain data analytics Snowflake consulting BigQuery consulting Power BI consulting Something else
 About the role Role and experience level Location or remote policy Capacity or duration
 About the difference Which figures disagree? Statement date and currency
 About the migration What would you move first? How will you check the new result?
@@ -637,9 +604,9 @@ These examples describe engineering work our founder, Meet Vaghasia, carried out
 
 Meet mapped existing reports to Snowflake and checked the Power BI figures against their sources. Read how to check a reporting migration.
 
-#### Connecting analysts to warehouse data
+#### Business Intelligence Studio
 
-Built pipelines for a reporting warehouse and prototyped an assistant that could retrieve the relevant reporting definitions.
+Meet built an AI reporting assistant that uses the Model Context Protocol (MCP) to read only the reports available to the person asking. Readers can trace a figure to its source and see when it was last refreshed.
 
 #### Comparing activity across public networks
 
@@ -700,6 +667,12 @@ MV.tech Solutions provides custom software development, data engineering, wareho
 
 **Which software and data solutions can we hire you to deliver?**
 We build customer portals and business applications, data pipelines and warehouses, dashboards, employee AI assistants, MCP integrations and automated workflows. We also provide blockchain analytics, dedicated engineers and permanent technology recruitment. Our service catalog describes the deliverables and scope. Examples include customer portal development, reporting automation and internal chatbot development.
+
+**Can we use a custom reporting workspace alongside Tableau or Power BI?**
+Yes. Business Intelligence Studio is an example our founder built. Its AI assistant uses the Model Context Protocol (MCP) to read only the reports each person can open. We can start with a dashboard your team trusts and a question people still ask an analyst, then compare the answers and test the permissions. Tell us about your report.
+
+**Can you automatically publish a short video to several social channels?**
+Yes. Social Media Automation starts from a link to a clip you own or are licensed to publish. The workflow drafts captions with AI and adds subtitles and branding. Clips that pass the quality checks publish automatically to your chosen channels. An editor can change the preview or review a flagged clip. Each channel has its own receipt, so the editor can check an uncertain result before retrying. Tell us which channels you use.
 
 **Where can I see examples of the founder’s engineering work?**
 Our founder has built reporting pipelines, evaluated language models and developed tools for querying business data. See examples from his engineering work. The reporting migration guide shows how to check whether a warehouse report still agrees with its source.
@@ -2611,7 +2584,7 @@ Services
 
 ## Software, data and AI services for your business.
 
-Build a new system, modernize the one you have or extend your engineering team. Choose a service below to see what we deliver, or explore examples from social publishing, AI reporting and email automation.
+Build a new system, modernize the one you have or extend your engineering team. Choose a service below or see the reporting and publishing tools we’ve built.
 
 Engineering services
 
@@ -2661,6 +2634,8 @@ Find a service by the work you need done
 | Bring business data together | Data Engineering |
 | Replace a legacy reporting platform | Warehouse Migration |
 | Resolve reporting and KPI inconsistencies | Business Intelligence |
+| Give Tableau or Power BI users an AI assistant that respects their report permissions | Business Intelligence Studio |
+| Automatically publish a clip across channels once it passes your quality checks | Social Media Automation |
 | Build or rebuild a website or web app | Web Development |
 | Launch a SaaS product or MVP | Application Development |
 | Build a customer or partner portal | Customer Portal Development |
@@ -2868,11 +2843,11 @@ Internal employee chatbots that answer questions from approved documents with ci
 Explore the service
 Work example
 
-### A reporting assistant that respects report permissions
+### Business Intelligence Studio
 
-See how the assistant looks up report definitions and uses the figures a person is already allowed to view.
+Our founder built an AI assistant that uses the Model Context Protocol (MCP) to read only the reports available to the person asking. Each answer points back to its source.
 
-Read the example
+See the reporting example
 Your next step
 
 ### Discuss your AI project.
@@ -3344,14 +3319,14 @@ Tell us about the work, your current systems and the people who will use the res
 # Business Intelligence & Dashboard Development | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/business-intelligence/
-Description: BI consulting, reporting datasets, semantic models and dashboards in Power BI, Tableau, Looker Studio and Streamlit, with KPI definition and validation.
+Description: BI consulting for Power BI and Tableau teams. Build dashboards, check KPI definitions or scope a custom reporting platform with Business Intelligence Studio.
 Last modified: 2026-11-23
 
 MV.tech Solutions services
 
 ## Business intelligence and dashboard development services.
 
-Give business teams a consistent view of performance. MV.tech Solutions develops dashboards, reporting datasets and semantic models in Power BI, Tableau, Looker Studio and Streamlit. We work on the definitions and data behind the visuals so your reports answer the questions people use them for.
+We build dashboards and reporting models in Power BI, Tableau, Looker Studio and Streamlit. Bring us a report people still ask an analyst to explain. We can improve the report or build a custom AI assistant around it. In our founder’s Business Intelligence Studio, the assistant uses the Model Context Protocol (MCP) to read only the reports each person can open.
 
 - New York headquarters and Ahmedabad office
 - Overlap with your time zone
@@ -3364,6 +3339,7 @@ The starting point
 - Replace recurring spreadsheet preparation with refreshable business reports.
 - Resolve conflicting KPI definitions across teams and dashboards.
 - Give analysts a shared dataset they can explore without rebuilding the data model for every report.
+- Let colleagues ask a follow-up question in plain language and see which report, metric and reporting period support the answer.
 What we deliver
 
 ### The reporting layer, from business definitions to dashboards.
@@ -3450,7 +3426,7 @@ It is the layer between your warehouse and your dashboards that holds tables, re
 Almost always upstream of the dashboard. The usual causes are different filters, a different grain, different date logic or a metric defined twice. We trace each figure back to its source, agree one definition per metric with a named owner, and move the calculation into the model so a report is no longer the place the logic lives.
 
 **Which BI tool should we use?**
-Whichever one your team will maintain. Power BI suits organizations already in Microsoft 365 that need a governed semantic layer; Tableau suits heavy visual exploration; Looker Studio is reasonable for lighter reporting over Google Cloud data; Streamlit fits when the output is really an interactive Python tool. We would rather improve the tool you have than sell you a migration.
+Start with the tools your analysts use and the job the report needs to do. We build Power BI semantic models, Tableau workbooks, Looker Studio dashboards and custom applications in Streamlit. If an existing dashboard can answer the question with a better measure or filter, we can start there.
 
 **Do we need a data warehouse before we can do BI properly?**
 Not always, but usually. A semantic model can read an operational database for a while and sometimes that is the right call. Once reports need history, several sources, or a grain the source system does not store, a curated warehouse layer costs less than repeatedly patching reports. We can tell you which situation you are in after looking at the sources.
@@ -3461,8 +3437,8 @@ The fix is to reduce what the report has to read rather than importing less data
 **How much does a Power BI consultant cost?**
 We quote after a scoping call. A useful first project is one dashboard rebuilt on an agreed grain and reconciled against the figures people already trust, and further dashboards and a wider semantic layer are scoped once that first one is agreed. Our team works from New York and Ahmedabad, India, with working hours planned around your time zone and a lean model that avoids large-consultancy overhead.
 
-**How would an AI assistant work inside our BI platform?**
-Someone can ask which report answers a question or what a metric totaled in a given period. The assistant should check the person’s access, use the reporting system to calculate the number and link to the report so they can check it. Our founder worked on a platform that follows this approach.
+**Can you help us replace a Tableau or Power BI dashboard with a custom workspace?**
+Yes. Our founder built Business Intelligence Studio so people could ask an AI assistant for a figure and follow the answer back to its source. The assistant uses the Model Context Protocol (MCP) to read only reports the signed-in person can open. We would start with one Tableau workbook or Power BI report, compare figures for the same dates and filters, and test each user role. Your team can run both versions side by side and decide which dashboards to move next.
 
 Related services
 
@@ -3507,16 +3483,16 @@ Scoped identities, checked SQL, row limits and provenance for assistants connect
 AI access guide
 Work example
 
-### An AI assistant for a custom BI platform
+### Business Intelligence Studio
 
-See how a person can find a report, check its last refresh and ask for a figure using their existing permissions.
+Ask the AI assistant for an order total, then check its source report and last refresh. Its MCP connection follows the access rules of the signed-in reader.
 
-Read the example
+See the reporting platform
 Your next step
 
 ### Discuss your reporting requirements.
 
-Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include.
+Tell us which report people trust, which question takes too long to answer and who needs access. We can scope a repair, a new dashboard or a custom reporting workspace around that starting point.
 
 ---
 
@@ -3665,11 +3641,18 @@ Customer and partner portals with account permissions, order or request tracking
 Explore the service
 Work example
 
-### Turning a campaign list into reviewable email drafts
+### Email Automation
 
 See how a workspace keeps approved copy, selects the intended mailbox and avoids duplicating drafts on a retry.
 
 Read the example
+Work example
+
+### Social Media Automation
+
+We run this tool to publish short videos across channels. It sends clips that pass its checks automatically, holds flagged clips for an editor and keeps a receipt for each channel.
+
+See the publishing workspace
 Your next step
 
 ### Discuss your software project.
@@ -4614,7 +4597,7 @@ Tell us about the work, your current systems and the people who will use the res
 
 URL: https://mvtech.solutions/services/mcp-and-ai-connectors/
 Description: Connect AI assistants to databases, business APIs and internal tools with custom MCP servers and connectors, including permissions, testing and deployment.
-Last modified: 2026-11-14
+Last modified: 2026-11-23
 
 MV.tech Solutions services
 
@@ -4748,7 +4731,7 @@ Build software around the way your business operates.
 
 Related guides
 
-### Background reading on MCP and connectors.
+### MCP guides and a reporting project.
 
 MCP explained
 
@@ -4771,6 +4754,13 @@ AI data access
 Scoped identities, checked SQL, row limits and provenance for assistants connected to business data.
 
 AI access guide
+Work example
+
+### Business Intelligence Studio
+
+Our founder connected an AI assistant to reports through the Model Context Protocol (MCP). The assistant can read only the reports the signed-in person can open.
+
+See how report access works
 Your next step
 
 ### Discuss your AI integration.
@@ -5066,6 +5056,9 @@ Yes. MV.tech Solutions works from India Standard Time and agrees an overlap wind
 **How do you prove the numbers on a report are right?**
 By reconciling them to source and keeping the check running. Record counts, control totals and date coverage per table, plus the handful of figures people actually act on, are compared against the source system on every refresh. Differences are investigated and either fixed or written down as a deliberate change, which sometimes means the old report was the one that was wrong.
 
+**Can we build a custom BI workspace around a report the team already trusts?**
+Yes. Bring one Power BI report, its key measures and a question colleagues often send to an analyst. In Business Intelligence Studio, the AI assistant uses the Model Context Protocol (MCP) to read the reports each person can open. For your build, we would compare answers with your existing report for the same dates and filters, then test what each role can see.
+
 Related services
 
 ### Other ways we can help.
@@ -5121,6 +5114,13 @@ Founder experience
 Drawing on a reporting migration our founder delivered, this guide shows how to map spreadsheet rules and compare warehouse totals with the reports people use.
 
 Read the reporting example
+Work example
+
+### Business Intelligence Studio
+
+See how the AI assistant finds a figure through its MCP connection, shows the source and respects the signed-in reader’s report permissions.
+
+Explore the project
 Your next step
 
 ### Discuss your Power BI requirements.
@@ -5269,7 +5269,7 @@ Trace trial-balance differences to the source entries and reporting cutoff.
 Read the finance guide
 Work example
 
-### Checking the completeness of AI usage reports
+### AI Usage Reporting
 
 See how a dashboard flags missing dates so a team can tell whether two reporting periods are comparable.
 
@@ -5859,8 +5859,8 @@ Pricing is agreed per engagement and we quote after a scoping call. A useful fir
 **How do you reconcile finance data across two systems?**
 We start by documenting what people check today, including the exceptions and the adjustments they make by hand. The workflow then applies matching, tolerance rules, duplicate prevention and retries before any data is written or a downstream action is triggered. Where a figure must still be adjusted manually, an override layer can record the change without altering the immutable source record, which leaves an audit trail instead of an argument.
 
-**Can you build a social media publishing tool around an approval step?**
-Yes. In a platform we built, editors preview a clip, edit captions and choose where the approved version goes. Each channel has its own submission status, so the editor knows which ones need attention before trying again. The supported channels for your project depend on the publishing access they make available.
+**Can you automate publishing short videos to several channels?**
+Yes. Social Media Automation starts with a link to a clip you own or have permission to publish. AI drafts captions, and the workflow adds subtitles and branding. Clips that pass its quality checks publish automatically to the channels you select. An editor can change the preview or review a flagged clip. Each channel has its own publishing receipt. If an upload times out, the editor checks the channel before retrying.
 
 Related services
 
@@ -5898,11 +5898,11 @@ Drawing on a reporting migration our founder delivered, this guide shows how to 
 Read the reporting example
 Work example
 
-### Inside a social publishing queue
+### Social Media Automation
 
-An editor reviews the clip and captions, chooses the channels and can see which destinations accepted the post.
+A source clip becomes a branded video with captions and subtitles. Clips that pass the checks publish automatically. A receipt records the result on each channel.
 
-Read the example
+See the publishing workflow
 Your next step
 
 ### Discuss your workflow.
@@ -5933,19 +5933,19 @@ Bring financial and operational data into a warehouse, define reporting rules an
 
 #### Reporting modernization
 
-Move recurring spreadsheet work into managed transformations and reusable datasets, keeping the business rules documented.
+Bring a recurring spreadsheet or a Tableau or Power BI dashboard. We can rebuild the preparation behind it and compare the figures using the filters your team already trusts.
 
 #### Metric and data consistency
 
-Trace differences between systems, define shared KPIs and build checks for the figures used in management reporting. See a lead-to-sale comparison.
+Trace differences between systems, define shared KPIs and build checks for the figures used in management reporting. See how Marketing Attribution matches leads to sales.
 
 Operations
 
 ### Applications and automation for everyday work.
 
-#### Internal business applications
+#### Social Media Automation
 
-Build tools for operational records, review queues and approvals. See how a social publishing platform and an email draft workspace handle everyday work.
+Start with a link to a clip you have permission to publish. The tool adds AI captions, subtitles and branding. Clips that pass the quality checks publish automatically to your channels. An editor can revise a flagged clip or check a channel’s receipt.
 
 #### Connected business systems
 
@@ -5953,7 +5953,7 @@ Integrate applications through APIs, webhooks and databases so information can m
 
 #### Recurring work and reports
 
-Automate collection, transformation and scheduled reporting, including spreadsheet workflows where they remain part of the process.
+Automate collection, validation and recurring reports. Our Email Automation project turns rows in a campaign spreadsheet into drafts for review.
 
 Products and engineering
 
@@ -5963,9 +5963,9 @@ Products and engineering
 
 Give users an application for information, submissions and status tracking, connected to the systems that hold the records.
 
-#### AI-enabled applications
+#### Business Intelligence Studio
 
-Add document search or an assistant that works with the data a user can access. See a custom BI platform with an AI reporting assistant.
+An AI assistant uses the Model Context Protocol (MCP) to read only reports the signed-in person can open. We can build around one of your existing Tableau or Power BI reports and check the answers against the figures your team trusts.
 
 #### Engineering team extension
 
@@ -6064,113 +6064,94 @@ Questions about these terms: contact@mvtech.solutions.
 
 ---
 
-# Software, Data, AI and Marketing Projects | MV.tech Solutions
+# Software, Data, AI & Marketing Projects | MV.tech Solutions
 
 URL: https://mvtech.solutions/work/
-Description: Explore our publishing and campaign tools, plus our founder’s work in warehouse migration, production data pipelines, blockchain analytics and AI reporting.
+Description: Explore Business Intelligence Studio with AI and MCP, Social Media Automation from source link to published post, and nine more software, data and marketing projects.
 Last modified: 2026-11-23
 
-## Software, data, AI and marketing work.
+## Software, Data, AI & Marketing Projects
 
-We run a short-video publishing queue and an email drafting tool ourselves. The examples also include campaign materials we’ve delivered and work our founder, Meet Vaghasia, did in other engineering roles.
+See how we publish videos and prepare campaign emails with tools we run ourselves. Other examples come from our founder’s engineering work, including Business Intelligence Studio and the migration of sales and inventory reports to Snowflake.
 
-Social publishingAI-assisted BIEmail automationMarketing attributionFinance reportingCampaign contentAI usage reporting Warehouse migrationBlockchain analyticsModel evaluationProduction data pipelines
-Social media automation
+Social Media Automation Business Intelligence Studio Email Automation Marketing Attribution Finance Reconciliation Campaign Content AI Usage Reporting Data Warehouse Migration Blockchain Analytics Language Model Evaluation Production Data Pipelines
 
-### One publishing queue for short-form video.
+### Social Media Automation
 
-An editor can bring in a clip they own or have permission to use, check the crop, edit suggested captions and preview the finished video. The publishing portal keeps the approved version with its captions and the destinations the editor chose.
+Paste a link to a video you own or have permission to use and choose your channels. AI reads the original caption when available and transcribes the speech to draft subtitles and post captions. The platform formats the clip for vertical video and fits your branding around faces and on-screen text. An editor can preview and change the result.
 
-If two channels accept the post and a third times out, the editor can see the receipt for each one. The queue flags the uncertain result for review before another copy goes out. That detail matters when the same piece of content is going to several channels.
+Clips that pass the checks can publish automatically to the selected channels, including Instagram, Facebook, Threads and YouTube. A clip flagged for review waits for an editor. Each platform’s receipt stays with the clip. If an upload times out, the editor can check whether it landed before anyone sends another copy.
 
-Discuss a publishing workflowWorkflow automation services
-Custom business intelligence
+Automate your publishing workflowWorkflow automation services
 
-### A BI platform people can ask questions of.
+### Business Intelligence Studio
 
-Our founder worked on a reporting platform with dashboards, scheduled data refreshes and an AI assistant. Someone can ask which report covers a question, when its data last refreshed or what a metric totaled over a period. The assistant can look up the report definition and use the reporting system to calculate the figure.
+If someone on your team looks up the same figure in Tableau or Power BI every week, we can design an AI assistant around that report. Our founder built Business Intelligence Studio with an AI integration that uses the Model Context Protocol (MCP) to give the assistant read-only access to the reports each person can open.
 
-The assistant uses the same report permissions as the person asking. Someone with access to sales reporting can ask about those figures. A restricted finance report stays restricted. Users can open the underlying report to check an answer.
+Take “What were sales by region last quarter?” The assistant can find the relevant report, calculate totals across all matching records and show when the data last refreshed. Someone checking a figure can inspect the underlying rows and the reporting rules behind it.
 
-Discuss a custom BI platformBusiness intelligence services
-Email and marketing operations
+Discuss an AI assistant for your reportsExplore MCP and AI connectorsBusiness intelligence services
 
-### From a contact list to email drafts a person reviews.
+### Email Automation
 
-We built a workspace that reads campaign rows, checks the sender and recipient, and prepares a draft in the right mailbox. It keeps approved copy where the team has already written it and shows which rows need someone’s attention.
-
-Running the same batch again reuses an existing draft. A missing contact or an incomplete row can be fixed on its own. The sender reviews the message and chooses when to send it.
+Our email tool turns a campaign contact list into drafts in the right mailbox. It checks the sender and recipient, keeps approved wording and flags incomplete entries. Running a batch again reuses existing drafts. The sender reviews the messages and decides when to send them.
 
 Discuss an email workflowCustom software services
-Marketing analytics
 
-### Checking which leads turned into sales.
+### Marketing Attribution
 
-Two reporting systems can give different answers to “Which leads became customers?” Our founder compared lead-to-sale matches from an internal attribution process with the results from an external provider. The work involved tracing which records each method linked to the same sale and identifying where they disagreed.
-
-For a team commissioning similar work, a useful start is one campaign and one closed sales period. Agree which event counts as a sale, check a sample of matches together and keep unmatched records visible when reviewing the totals.
+Which campaign leads became customers? Our founder compared an internal attribution report with an external provider’s results. He traced which records each method linked to the same sale and identified where the two disagreed. A similar review can start with one campaign and a closed sales period.
 
 Discuss marketing attributionData engineering services
-Finance data engineering
 
-### Tracing a reporting difference back to the ledger.
+### Finance Reconciliation
 
 Our founder built a finance integration that kept transaction detail alongside monthly balances. A reviewer could compare an account total with the ledger for the same period and investigate differences before relying on a dashboard.
 
 Our supplier-statement guide shows how that investigation works when a credit arrives on the last day of the month and is posted the following day.
 
 Read the worked exampleDiscuss a reconciliation
-Marketing campaign production
 
-### A social carousel, ready for the person publishing it.
+### Campaign Content
 
-For a seasonal campaign, we designed a set of portrait slides for a social post. We delivered each piece of artwork separately, along with a preview showing the full carousel in reading order.
+For a seasonal campaign, we designed a social carousel and delivered the individual slides alongside a preview in reading order. The editor could approve the whole story or ask for a change to a single slide. For a separate email campaign, we wrote the subject line, inbox preview and message together.
 
-The preview let the reviewer check how the story read from the opening slide to the last. The individual files made it possible to change a single slide or hand the approved set to the person preparing the post. For a separate email campaign, we prepared the subject line, inbox preview text and message copy together.
+Plan content for your next campaignSee the publishing tool
 
-Discuss a campaign workflowSee the publishing platform
-AI usage reporting
+### AI Usage Reporting
 
-### Did usage dip, or is a day of data missing?
-
-Our founder worked on a dashboard for a team tracking its use of an AI tool. The dashboard shows the dates covered by the available usage records and flags periods where data is missing. A person comparing two weeks can see whether both weeks are complete before drawing a conclusion.
-
-The team checked how the live dashboard handled days with data and days without it. Leaving a gap visible matters when an empty day could otherwise look like a drop in adoption.
+Did usage dip, or is a day missing? Our founder worked on a live dashboard that shows which dates an AI tool’s usage records cover. It flags incomplete periods so a team comparing two weeks can see whether it has the data to draw a conclusion.
 
 Discuss an AI usage dashboardReporting automation services
-Warehouse migration
 
-### Moving sales and inventory reports to Snowflake.
+### Data Warehouse Migration
 
-Our founder traced the joins, filters and calculations behind a set of legacy reports. He built reusable SQL views in Snowflake and checked which calculations the Power BI reports still performed themselves.
+Our founder traced the joins, filters and calculations behind legacy sales and inventory reports. He built reusable SQL views in Snowflake and checked which calculations Power BI still performed in the reports themselves.
 
 To check the migration, he compared record counts, date ranges and reported totals with the source systems. When a figure differed, the field mappings showed where to look, from a missing source record to a filter in the report.
 
-Read the reporting migration guideData warehouse migration services
-Blockchain analytics
+Discuss your first report migrationRead the reporting migration guideData warehouse migration services
 
-### One ledger for wallet activity across networks.
+### Blockchain Analytics
 
 Our founder built a BigQuery ledger that brought transactions from several public blockchains together. It tracked assets received and sent, network fees and transfers between chains. Exchange rates let the finance team compare wallet flows in US dollars.
 
 If the team needed to change how a transaction was classified, it could record a correction in the reporting layer. Reviewers could still trace the figures back to the original transaction.
 
-Explore blockchain data analytics
-Language model evaluation
+Discuss a multi-chain ledgerBlockchain data analytics services
 
-### Checking a model’s answer against the source.
+### Language Model Evaluation
 
 In a model evaluation role, our founder wrote Python tasks using spreadsheets, PDFs and web pages. Some called for extracting specific fields. Others asked for a summary or an analysis of the data.
 
 He compared answers from different models, checked whether each answer was accurate and followed the instructions, and corrected errors for use in evaluation and training.
 
-Read how to evaluate a knowledge assistantAI consulting services
-Production data pipelines
+Discuss a model evaluationRead how to evaluate a knowledge assistant
 
-### Keeping warehouse data and scheduled reports up to date.
+### Production Data Pipelines
 
 Our founder ran change data capture pipelines that copied changes from operational databases into Amazon Redshift. He investigated interruptions in replication, including failures after the structure of a source table changed.
 
 He also kept scheduled reports running, restored refreshes after outages and set up alerts for incomplete loads. He documented how to reload the affected date range and what the next person on call should check.
 
-Data engineering servicesReporting automation services
+Discuss a reporting pipelineData engineering services

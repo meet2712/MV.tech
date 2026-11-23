@@ -430,9 +430,9 @@
       {
         "href": "/work/#ai-bi-platform",
         "kicker": "Work example",
-        "title": "A reporting assistant that respects report permissions",
-        "text": "See how the assistant looks up report definitions and uses the figures a person is already allowed to view.",
-        "label": "Read the example"
+        "title": "Business Intelligence Studio",
+        "text": "Our founder built an AI assistant that uses the Model Context Protocol (MCP) to read only the reports available to the person asking. Each answer points back to its source.",
+        "label": "See the reporting example"
       }
     ],
     "summary": "Turn a useful AI idea into a working business application.",
@@ -561,7 +561,7 @@
         "answer": "Instead of handing the assistant the keys, it calls an MCP server that runs under a scoped service identity against an approved set of tables, read-only by default and whitelisted rather than blocklisted. Where the agent generates SQL, the query is parsed and checked before it runs, with permitted objects only, row and cost limits and no writes, and results are validated before they are returned. Every call is logged with the caller, tool, time and outcome, and we test against real requests, including ones the server should refuse, before access is widened."
       }
     ],
-    "relatedResourcesHeading": "Background reading on MCP and connectors.",
+    "relatedResourcesHeading": "MCP guides and a reporting project.",
     "relatedResources": [
       {
         "href": "/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/",
@@ -583,6 +583,13 @@
         "title": "Letting AI assistants query your data warehouse safely",
         "text": "Scoped identities, checked SQL, row limits and provenance for assistants connected to business data.",
         "label": "AI access guide"
+      },
+      {
+        "href": "/work/#ai-bi-platform",
+        "kicker": "Work example",
+        "title": "Business Intelligence Studio",
+        "text": "Our founder connected an AI assistant to reports through the Model Context Protocol (MCP). The assistant can read only the reports the signed-in person can open.",
+        "label": "See how report access works"
       }
     ],
     "summary": "Connect AI assistants to the systems your business already uses.",
@@ -620,13 +627,14 @@
     "key": "business-intelligence",
     "name": "Business Intelligence & Dashboards",
     "title": "Business Intelligence & Dashboard Development | MV.tech Solutions",
-    "description": "BI consulting, reporting datasets, semantic models and dashboards in Power BI, Tableau, Looker Studio and Streamlit, with KPI definition and validation.",
-    "intro": "Give business teams a consistent view of performance. MV.tech Solutions develops dashboards, reporting datasets and semantic models in Power BI, Tableau, Looker Studio and Streamlit. We work on the definitions and data behind the visuals so your reports answer the questions people use them for.",
+    "description": "BI consulting for Power BI and Tableau teams. Build dashboards, check KPI definitions or scope a custom reporting platform with Business Intelligence Studio.",
+    "intro": "We build dashboards and reporting models in Power BI, Tableau, Looker Studio and Streamlit. Bring us a report people still ask an analyst to explain. We can improve the report or build a custom AI assistant around it. In our founder’s Business Intelligence Studio, the assistant uses the Model Context Protocol (MCP) to read only the reports each person can open.",
     "fitHeading": "Make reporting useful across the business.",
     "fit": [
       "Replace recurring spreadsheet preparation with refreshable business reports.",
       "Resolve conflicting KPI definitions across teams and dashboards.",
-      "Give analysts a shared dataset they can explore without rebuilding the data model for every report."
+      "Give analysts a shared dataset they can explore without rebuilding the data model for every report.",
+      "Let colleagues ask a follow-up question in plain language and see which report, metric and reporting period support the answer."
     ],
     "deliverablesHeading": "The reporting layer, from business definitions to dashboards.",
     "deliverables": [
@@ -696,7 +704,7 @@
       },
       {
         "question": "Which BI tool should we use?",
-        "answer": "Whichever one your team will maintain. Power BI suits organizations already in Microsoft 365 that need a governed semantic layer; Tableau suits heavy visual exploration; Looker Studio is reasonable for lighter reporting over Google Cloud data; Streamlit fits when the output is really an interactive Python tool. We would rather improve the tool you have than sell you a migration."
+        "answer": "Start with the tools your analysts use and the job the report needs to do. We build Power BI semantic models, Tableau workbooks, Looker Studio dashboards and custom applications in Streamlit. If an existing dashboard can answer the question with a better measure or filter, we can start there."
       },
       {
         "question": "Do we need a data warehouse before we can do BI properly?",
@@ -711,8 +719,8 @@
         "answer": "We quote after a scoping call. A useful first project is one dashboard rebuilt on an agreed grain and reconciled against the figures people already trust, and further dashboards and a wider semantic layer are scoped once that first one is agreed. Our team works from New York and Ahmedabad, India, with working hours planned around your time zone and a lean model that avoids large-consultancy overhead."
       },
       {
-        "question": "How would an AI assistant work inside our BI platform?",
-        "answer": "Someone can ask which report answers a question or what a metric totaled in a given period. The assistant should check the person’s access, use the reporting system to calculate the number and link to the report so they can check it. Our founder worked on a platform that follows this approach."
+        "question": "Can you help us replace a Tableau or Power BI dashboard with a custom workspace?",
+        "answer": "Yes. Our founder built Business Intelligence Studio so people could ask an AI assistant for a figure and follow the answer back to its source. The assistant uses the Model Context Protocol (MCP) to read only reports the signed-in person can open. We would start with one Tableau workbook or Power BI report, compare figures for the same dates and filters, and test each user role. Your team can run both versions side by side and decide which dashboards to move next."
       }
     ],
     "summary": "Give business teams a consistent view of performance.",
@@ -750,9 +758,9 @@
       {
         "href": "/work/#ai-bi-platform",
         "kicker": "Work example",
-        "title": "An AI assistant for a custom BI platform",
-        "text": "See how a person can find a report, check its last refresh and ask for a figure using their existing permissions.",
-        "label": "Read the example"
+        "title": "Business Intelligence Studio",
+        "text": "Ask the AI assistant for an order total, then check its source report and last refresh. Its MCP connection follows the access rules of the signed-in reader.",
+        "label": "See the reporting platform"
       }
     ],
     "applications": [
@@ -773,7 +781,11 @@
     "approachHeading": "How we deliver this work.",
     "applicationsHeading": "Where this service fits.",
     "closingHeading": "Discuss your reporting requirements.",
-    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
+    "closingCopy": "Tell us which report people trust, which question takes too long to answer and who needs access. We can scope a repair, a new dashboard or a custom reporting workspace around that starting point.",
+    "briefLink": {
+      "anchor": "bi-platform-brief",
+      "label": "Discuss Business Intelligence Studio"
+    }
   },
   {
     "path": "/services/data-warehouse-migration/",
@@ -1157,8 +1169,8 @@
         "answer": "We start by documenting what people check today, including the exceptions and the adjustments they make by hand. The workflow then applies matching, tolerance rules, duplicate prevention and retries before any data is written or a downstream action is triggered. Where a figure must still be adjusted manually, an override layer can record the change without altering the immutable source record, which leaves an audit trail instead of an argument."
       },
       {
-        "question": "Can you build a social media publishing tool around an approval step?",
-        "answer": "Yes. In a platform we built, editors preview a clip, edit captions and choose where the approved version goes. Each channel has its own submission status, so the editor knows which ones need attention before trying again. The supported channels for your project depend on the publishing access they make available."
+        "question": "Can you automate publishing short videos to several channels?",
+        "answer": "Yes. Social Media Automation starts with a link to a clip you own or have permission to publish. AI drafts captions, and the workflow adds subtitles and branding. Clips that pass its quality checks publish automatically to the channels you select. An editor can change the preview or review a flagged clip. Each channel has its own publishing receipt. If an upload times out, the editor checks the channel before retrying."
       }
     ],
     "summary": "Reduce the manual work between your business systems.",
@@ -1208,11 +1220,15 @@
       {
         "href": "/work/#social-media-automation",
         "kicker": "Work example",
-        "title": "Inside a social publishing queue",
-        "text": "An editor reviews the clip and captions, chooses the channels and can see which destinations accepted the post.",
-        "label": "Read the example"
+        "title": "Social Media Automation",
+        "text": "A source clip becomes a branded video with captions and subtitles. Clips that pass the checks publish automatically. A receipt records the result on each channel.",
+        "label": "See the publishing workflow"
       }
-    ]
+    ],
+    "briefLink": {
+      "anchor": "publishing-brief",
+      "label": "Discuss Social Media Automation"
+    }
   },
   {
     "path": "/services/custom-software/",
@@ -1345,9 +1361,16 @@
       {
         "href": "/work/#email-automation",
         "kicker": "Work example",
-        "title": "Turning a campaign list into reviewable email drafts",
+        "title": "Email Automation",
         "text": "See how a workspace keeps approved copy, selects the intended mailbox and avoids duplicating drafts on a retry.",
         "label": "Read the example"
+      },
+      {
+        "href": "/work/#social-media-automation",
+        "kicker": "Work example",
+        "title": "Social Media Automation",
+        "text": "We run this tool to publish short videos across channels. It sends clips that pass its checks automatically, holds flagged clips for an editor and keeps a receipt for each channel.",
+        "label": "See the publishing workspace"
       }
     ]
   },
@@ -2632,6 +2655,10 @@
       {
         "question": "How do you prove the numbers on a report are right?",
         "answer": "By reconciling them to source and keeping the check running. Record counts, control totals and date coverage per table, plus the handful of figures people actually act on, are compared against the source system on every refresh. Differences are investigated and either fixed or written down as a deliberate change, which sometimes means the old report was the one that was wrong."
+      },
+      {
+        "question": "Can we build a custom BI workspace around a report the team already trusts?",
+        "answer": "Yes. Bring one Power BI report, its key measures and a question colleagues often send to an analyst. In Business Intelligence Studio, the AI assistant uses the Model Context Protocol (MCP) to read the reports each person can open. For your build, we would compare answers with your existing report for the same dates and filters, then test what each role can see."
       }
     ],
     "relatedResourcesHeading": "Resources for planning Power BI work.",
@@ -2670,6 +2697,13 @@
         "title": "How manual reporting moved into Snowflake",
         "text": "Drawing on a reporting migration our founder delivered, this guide shows how to map spreadsheet rules and compare warehouse totals with the reports people use.",
         "label": "Read the reporting example"
+      },
+      {
+        "href": "/work/#ai-bi-platform",
+        "kicker": "Work example",
+        "title": "Business Intelligence Studio",
+        "text": "See how the AI assistant finds a figure through its MCP connection, shows the source and respects the signed-in reader’s report permissions.",
+        "label": "Explore the project"
       }
     ],
     "summary": "Develop Power BI reports that give business teams a consistent view of performance.",
@@ -3034,7 +3068,7 @@
       {
         "href": "/work/#ai-usage-reporting",
         "kicker": "Work example",
-        "title": "Checking the completeness of AI usage reports",
+        "title": "AI Usage Reporting",
         "text": "See how a dashboard flags missing dates so a team can tell whether two reporting periods are comparable.",
         "label": "Read the example"
       }
