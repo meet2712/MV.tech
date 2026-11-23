@@ -166,6 +166,8 @@ function extractFaq(body) {
 
 const postalAddress = (office) => ({ '@type': 'PostalAddress', ...(office.streetAddress ? { streetAddress: [office.streetAddress, office.streetAddress2].filter(Boolean).join(', ') } : {}), addressLocality: office.locality, addressRegion: office.region, ...(office.postalCode ? { postalCode: office.postalCode } : {}), addressCountry: office.countryCode });
 
+const headquarters = site.offices.find((office) => office.isHeadquarters);
+
 function schemaGraph(page) {
   const url = origin + page.route;
   const ogImage = `${origin}/images/og/${page.ogSlug ?? slugFor(page.route)}.jpg`;
@@ -177,8 +179,8 @@ function schemaGraph(page) {
     // The GSTIN belongs to the India delivery operation, so it is a labelled identifier rather than the US corporation's taxID.
     identifier: { '@type': 'PropertyValue', propertyID: 'GSTIN', name: 'India GSTIN', value: site.gstin },
     numberOfEmployees: { '@type': 'QuantitativeValue', minValue: site.teamSize.min, maxValue: site.teamSize.max },
-    // The two offices, New York first. Street, ZIP and phone are included as soon as content/site.json has them.
-    address: site.offices.map(postalAddress),
+    // The organization uses its headquarters address. Both operating offices appear under location.
+    address: [postalAddress(headquarters)],
     location: site.offices.map((office) => ({ '@type': 'Place', '@id': `${origin}/#office-${office.id}`, name: `${site.name} – ${office.name}`, address: postalAddress(office), ...(office.telephone ? { telephone: office.telephone } : {}), ...(officeMapUrl(office) ? { hasMap: officeMapUrl(office) } : {}) })),
     areaServed: [{ '@type': 'Country', name: 'United States' }, 'Worldwide'], founder: { '@id': `${origin}/#founder` }, sameAs: [site.linkedin, site.crunchbase, site.goodfirms, site.clutch], knowsAbout: site.knowsAbout,
     contactPoint: [

@@ -1,6 +1,6 @@
 # MV.tech Solutions — full site context for AI assistants and crawlers
 
-> MV.tech Solutions is a software development, data engineering and AI services company with offices in New York, USA, and Ahmedabad, India. Founded in 2022, it builds business applications, data platforms, reporting systems, AI integrations and automated workflows. Services include project delivery, dedicated engineering teams, IT staff augmentation and technology recruitment for clients in the USA and worldwide, with collaboration hours agreed per engagement.
+> MV.tech Solutions is a software development, data engineering and AI services company headquartered in Bellerose, New York, USA, with an office in Ahmedabad, India. Founded in 2022, it builds business applications, data platforms, reporting systems, AI integrations and automated workflows. Services include project delivery, dedicated engineering teams, IT staff augmentation and technology recruitment for clients in the USA and worldwide, with collaboration hours agreed per engagement.
 
 Official website: https://mvtech.solutions/
 Company name: MV.tech Solutions, written in full wherever the company is named. The logo artwork reads "MV.tech"; both refer to the same company. Also searched as MV Tech Solutions, MVTech Solutions, MV Tech, MVTech, M V Tech, MV Tech Data Solutions, MV Tech Ahmedabad.
@@ -8,7 +8,7 @@ Legal entity: MV.tech Solutions is a registered assumed name (DBA) of BB & KV In
 Contact: contact@mvtech.solutions · Book a call: https://mvtech.solutions/contact/#book-call
 Founder: Meet Vaghasia, Founder & Lead Engineer (https://www.linkedin.com/in/meet2712/)
 LinkedIn: https://www.linkedin.com/company/mv-tech-solutions/
-Offices: New York office: 248-15 88th Rd, Bellerose, NY 11426, United States (+1 (447) 348-9720); Ahmedabad office: 16 Trishala Residency, S G Highway, Behind RC Technical, Opp. High Court, Near Harivila, Chandlodiya, Ahmedabad, Gujarat 380061, India. Staff work from both offices; India GSTIN 24BZMPV4008F1ZA belongs to the India office. Serves clients in the USA and worldwide with agreed time-zone overlap. Details: https://mvtech.solutions/contact/#offices
+Offices: New York headquarters: 248-15 88th Rd, Bellerose, NY 11426, United States (+1 (447) 348-9720); Ahmedabad office: 16 Trishala Residency, S G Highway, Behind RC Technical, Opp. High Court, Near Harivila, Chandlodiya, Ahmedabad, Gujarat 380061, India. Staff work from both offices; India GSTIN 24BZMPV4008F1ZA belongs to the India office. Serves clients in the USA and worldwide with agreed time-zone overlap. Details: https://mvtech.solutions/contact/#offices
 Privacy and legal: https://mvtech.solutions/privacy/ · https://mvtech.solutions/terms/ · https://mvtech.solutions/accessibility/
 Examples of the founder’s work: Moving reporting into a cloud warehouse; Reconciling ledger and dashboard totals; Building read-only data connectors.
 Last generated: 2026-11-23. Short summary and answer guidance: https://mvtech.solutions/llms.txt
@@ -20,7 +20,7 @@ This file is generated from the public pages listed below, so it always matches 
 # MV.tech Solutions | Software, Data Engineering & AI Services
 
 URL: https://mvtech.solutions/
-Description: MV.tech Solutions builds custom software, data platforms, BI and AI systems, and provides dedicated engineering teams. Offices in New York and Ahmedabad.
+Description: MV.tech Solutions builds software, data platforms and AI tools. Hire a dedicated team from our US headquarters in New York or our India office in Ahmedabad.
 Last modified: 2026-11-23
 
 Software, data & AI engineering
@@ -29,7 +29,7 @@ Software, data & AI engineering
 
 MV.tech Solutions builds web applications, data warehouses, reporting and AI tools for companies in the US and worldwide. You work with the engineers writing the code, not an account manager.
 
-Offices in New York, USA/Ahmedabad, India
+US headquarters in New York/Ahmedabad, India office
 
 From our founder’s engineering work
 
@@ -162,15 +162,15 @@ Yes. We work on existing applications, data platforms, dashboards and integratio
 Yes. We can discuss individual specialists or a team for an agreed workstream, capacity and duration. Responsibilities, availability and collaboration hours are confirmed before onboarding.
 
 **Where is MV.tech Solutions based?**
-MV.tech Solutions has two offices: New York, USA, and Ahmedabad, India. Our team works from both offices and collaborates with clients in the USA and worldwide. See our offices.
+Our headquarters is in Bellerose, New York, USA. Ahmedabad, Gujarat, is our India office. Our team works from both offices and collaborates with clients in the USA and worldwide. See our offices.
 
 Our offices
 
-### Offices in New York and Ahmedabad.
+### Our US headquarters and India office.
 
-Our team works from offices in New York and Ahmedabad, in hours planned around yours.
+MV.tech Solutions is headquartered in Bellerose, New York. Our team also works from Ahmedabad, Gujarat, India.
 
-United States
+United States headquarters
 
 #### New York
 
@@ -178,7 +178,7 @@ United States
 - +1 (447) 348-9720
 - contact@mvtech.solutions
 - Get directions
-India
+India office
 
 #### Ahmedabad
 
@@ -196,14 +196,14 @@ Book a 30-minute call or send us an email. We’ll tell you straight whether we�
 # About MV.tech Solutions | Software, Data & AI Engineering Company
 
 URL: https://mvtech.solutions/about/
-Description: MV.tech Solutions is a software, data and AI engineering company with offices in New York, USA, and Ahmedabad, India. Meet the company and its founder.
+Description: MV.tech Solutions is a software, data and AI engineering company headquartered in Bellerose, New York, USA, with an office in Ahmedabad, India.
 Last modified: 2026-11-23
 
 About MV.tech Solutions
 
-## A software, data and AI engineering company in New York and Ahmedabad.
+## A software, data and AI engineering company headquartered in New York.
 
-Meet Vaghasia founded MV.tech Solutions in 2022. Today our team builds web applications, data platforms and AI tools for companies in the US and worldwide.
+Meet Vaghasia founded MV.tech Solutions in 2022. Our headquarters is in Bellerose, New York, USA, and our India office is in Ahmedabad, Gujarat. Our team builds web applications, data platforms and AI tools for companies worldwide.
 
 The company
 
@@ -254,8 +254,10 @@ Company information
   BB & KV Inc., a New York corporation. MV.tech Solutions is its registered business name (DBA).
 - Contracting party for clients in the USA
   BB & KV Inc., doing business as MV.tech Solutions
-- Offices
-  New York, USA · Ahmedabad, Gujarat, India (380061)
+- Headquarters
+  Bellerose, New York, United States
+- India office
+  Ahmedabad, Gujarat, India
 - Founded
   2022
 - Where we work
@@ -274,11 +276,11 @@ Company information
   USA:+1 (447) 348-9720
 Our offices
 
-### Offices in New York and Ahmedabad.
+### Our US headquarters and India office.
 
-Our team works from offices in New York and Ahmedabad, in hours planned around yours.
+MV.tech Solutions is headquartered in Bellerose, New York. Our team also works from Ahmedabad, Gujarat, India.
 
-United States
+United States headquarters
 
 #### New York
 
@@ -286,7 +288,7 @@ United States
 - +1 (447) 348-9720
 - contact@mvtech.solutions
 - Get directions
-India
+India office
 
 #### Ahmedabad
 
@@ -493,7 +495,7 @@ Bring us a project, a system that needs improving or a role you need to fill. We
 
 - contact@mvtech.solutions
 - USA: +1 (447) 348-9720
-- Offices in New York, USA · Ahmedabad, India
+- US headquarters in New York · India office in Ahmedabad
 Let’s talk
 
 ### Find a time to meet.
@@ -554,11 +556,11 @@ You can also email contact@mvtech.solutions directly. Please leave passwords and
 - Happy to sign a mutual NDA before detailed discussions. We use your enquiry to respond to you. Read our privacy notice.
 Our offices
 
-### Offices in New York and Ahmedabad.
+### Our US headquarters and India office.
 
-Our team works from offices in New York and Ahmedabad, in hours planned around yours.
+MV.tech Solutions is headquartered in Bellerose, New York. Our team also works from Ahmedabad, Gujarat, India.
 
-United States
+United States headquarters
 
 #### New York
 
@@ -566,7 +568,7 @@ United States
 - +1 (447) 348-9720
 - contact@mvtech.solutions
 - Get directions
-India
+India office
 
 #### Ahmedabad
 
@@ -707,11 +709,11 @@ We build customer portals and business applications, data pipelines and warehous
 **Where can I see examples of the founder’s engineering work?**
 Our founder has built reporting pipelines, evaluated language models and developed tools for querying business data. See examples from his engineering work. The reporting migration guide shows how to check whether a warehouse report still agrees with its source.
 
-**Where is the company based?**
-MV.tech Solutions has two offices: New York, USA, and Ahmedabad, Gujarat, India. Our team works from both offices, and we work with clients in the USA and worldwide in collaboration hours agreed per engagement.
+**Where is MV.tech Solutions headquartered?**
+Our headquarters is in Bellerose, New York, United States. We also have an office in Ahmedabad, Gujarat, India. Teams in both offices work with clients worldwide.
 
 **Do you work with companies in the USA?**
-Yes. We have an office and team in New York, and our team in Ahmedabad works in collaboration hours agreed in US Eastern or Pacific time. See our offices.
+Yes. Our headquarters is in New York, and our Ahmedabad team agrees working hours with clients in US Eastern or Pacific time. See our offices.
 
 **Is MV.tech the same company as MV.tech Solutions?**
 Yes. MV.tech Solutions is our company name, and the name we use everywhere. MV.tech is the short form that appears in our logo.
@@ -2217,7 +2219,7 @@ Last updated: November 23, 2026
 
 ### Who we are
 
-MV.tech Solutions (“we”, “us”) operates mvtech.solutions. MV.tech Solutions is a registered assumed name (DBA) of BB & KV Inc., a New York corporation. We have offices in New York, USA, and Ahmedabad, India. Questions about this policy go to contact@mvtech.solutions.
+MV.tech Solutions (“we”, “us”) operates mvtech.solutions. MV.tech Solutions is a registered assumed name (DBA) of BB & KV Inc., a New York corporation. Our headquarters is in Bellerose, New York, USA, and we have an office in Ahmedabad, India. Questions about this policy go to contact@mvtech.solutions.
 
 ### Information we collect
 
@@ -2432,7 +2434,7 @@ Remote engineering services
 
 Work with MV.tech Solutions on a defined project, a dedicated engineering team or a specialist role. Our team works from New York and Ahmedabad, India, and collaborates with clients worldwide. We agree the working model, responsibilities and time zone overlap before delivery begins.
 
-- Offices in New York and Ahmedabad
+- New York headquarters and Ahmedabad office
 - Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -2719,7 +2721,7 @@ MV.tech Solutions services
 
 Turn a useful AI idea into a working business application. MV.tech Solutions builds knowledge assistants, document-processing workflows and AI features connected to company data and tools. We help you choose the use case, build the integration and evaluate how it performs before a wider rollout.
 
-- Offices in New York and Ahmedabad
+- New York headquarters and Ahmedabad office
 - Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -2896,7 +2898,7 @@ MV.tech Solutions services
 
 Turn a business process or product idea into a working application. MV.tech Solutions builds customer portals, dashboards, internal tools, SaaS products and MVPs, from the first release through the features that follow.
 
-- Offices in New York and Ahmedabad
+- New York headquarters and Ahmedabad office
 - Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -3043,7 +3045,7 @@ MV.tech Solutions services
 
 Build a BigQuery warehouse that supports your reporting and growth. MV.tech Solutions develops ingestion pipelines, warehouse models and analytics integrations on Google Cloud, and reviews the queries and workloads driving performance and cost. Our founder holds the Google Cloud Professional Data Engineer certification.
 
-- Offices in New York and Ahmedabad
+- New York headquarters and Ahmedabad office
 - Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -3210,7 +3212,7 @@ MV.tech Solutions services
 
 Turn blockchain activity into data your analysts and finance teams can work with. MV.tech Solutions builds pipelines that collect, decode and organize transactions across networks, then connect the results to warehouses, dashboards and reconciliation workflows.
 
-- Offices in New York and Ahmedabad
+- New York headquarters and Ahmedabad office
 - Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -3356,7 +3358,7 @@ MV.tech Solutions services
 
 Give business teams a consistent view of performance. MV.tech Solutions develops dashboards, reporting datasets and semantic models in Power BI, Tableau, Looker Studio and Streamlit. We work on the definitions and data behind the visuals so your reports answer the questions people use them for.
 
-- Offices in New York and Ahmedabad
+- New York headquarters and Ahmedabad office
 - Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -3535,7 +3537,7 @@ MV.tech Solutions services
 
 Build software around the way your business operates. MV.tech Solutions develops web applications, customer portals, internal tools and data applications, connecting the interface, backend and integrations in one delivery scope. We can build a new application or extend an existing product.
 
-- Offices in New York and Ahmedabad
+- New York headquarters and Ahmedabad office
 - Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -3693,7 +3695,7 @@ Engineering services
 
 Give customers a place to check an order, find an invoice or follow a support request. MV.tech Solutions designs and builds the portal, connects it to the systems that own the records and sets up access for customers, partners and your staff.
 
-- Offices in New York and Ahmedabad
+- New York headquarters and Ahmedabad office
 - Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -3820,7 +3822,7 @@ MV.tech Solutions services
 
 If a report changes after month-end, someone needs to explain why. We build and repair the pipelines that move data from business systems into warehouses such as BigQuery, Snowflake and Redshift. Your team can trace the number back to its source, see when the load ran and recover a missed delivery.
 
-- Offices in New York and Ahmedabad
+- New York headquarters and Ahmedabad office
 - Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -3986,7 +3988,7 @@ MV.tech Solutions services
 
 When you move a warehouse, the first question from finance is often whether last month’s numbers will change. We migrate ETL jobs, warehouse tables and the reports that use them to Snowflake, BigQuery or Redshift. We run old and new pipelines in parallel and give report owners a record of what matched and what needs explaining.
 
-- Offices in New York and Ahmedabad
+- New York headquarters and Ahmedabad office
 - Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -4095,7 +4097,7 @@ Yes, and it is a common one. The shape of the work is the same: find the sources
 We quote after a scoping call, because the effort depends on what discovery finds in your estate. Discovery can be bought as a standalone piece of work, and migrating one reporting domain first gives an estimate for the rest of the estate based on your data rather than on a template. Commercial terms are agreed per engagement.
 
 **Can a remote team in India run our warehouse migration?**
-Yes. MV.tech Solutions has offices in New York and Ahmedabad, and our data engineering team works in hours planned around your time zone. The migration runs on written work both sides can review: a source-to-target mapping that both sides sign off, automated reconciliation results at every stage, and written sign-off per domain before legacy objects are retired. Handover includes the mappings, ER diagrams, validation results, schedules, ownership and operating runbooks.
+Yes. MV.tech Solutions is headquartered in New York, USA, with an office in Ahmedabad, India. Our data engineering team agrees working hours with you. The migration runs on written work both sides can review: a source-to-target mapping that both sides sign off, automated reconciliation results at every stage, and written sign-off per domain before legacy objects are retired. Handover includes the mappings, ER diagrams, validation results, schedules, ownership and operating runbooks.
 
 Related services
 
@@ -4158,7 +4160,7 @@ Engineering services
 
 Help employees find an answer in your policies, manuals or support documents. MV.tech Solutions builds internal chatbots that retrieve approved sources, show where an answer came from and route unanswered questions to the right person.
 
-- Offices in New York and Ahmedabad
+- New York headquarters and Ahmedabad office
 - Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -4294,7 +4296,7 @@ MV.tech Solutions services
 
 If your team owns the backlog, we can embed a data engineer to work alongside you. If you have a migration or pipeline to deliver, we can take on the project. If you need a permanent employee, we can help you recruit one. Our team works from Ahmedabad, Gujarat, and agrees working hours with remote clients worldwide.
 
-- Offices in New York and Ahmedabad
+- New York headquarters and Ahmedabad office
 - Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -4466,7 +4468,7 @@ MV.tech Solutions services
 
 Add the technical skills your team needs without opening every role as a permanent hire. MV.tech Solutions provides data, software, AI and cloud specialists who work within your delivery process. Agree the responsibilities, capacity and duration, then collaborate directly with the people assigned to the work.
 
-- Offices in New York and Ahmedabad
+- New York headquarters and Ahmedabad office
 - Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -4625,7 +4627,7 @@ MV.tech Solutions services
 
 Connect AI assistants to the systems your business already uses. MV.tech Solutions develops Model Context Protocol servers and custom connectors for databases, APIs and internal tools. Your team gets a maintained integration with defined permissions, clear tool behavior and a record of how it is used.
 
-- Offices in New York and Ahmedabad
+- New York headquarters and Ahmedabad office
 - Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -4794,7 +4796,7 @@ MV.tech Solutions services
 
 You may have a warehouse migration to finish and a reporting system that still needs attention every morning. Our Ahmedabad team can take on a set of pipelines, models or dashboards while your leads set priorities. Before work starts, we agree who owns each job and when both teams will be online together.
 
-- Offices in New York and Ahmedabad
+- New York headquarters and Ahmedabad office
 - Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -4962,7 +4964,7 @@ MV.tech Solutions services
 
 Develop Power BI reports that give business teams a consistent view of performance. MV.tech Solutions builds semantic models, DAX measures and dashboards, improves refresh performance and supports migrations from SSAS or Azure Analysis Services. We review existing models as well as delivering new reporting solutions.
 
-- Offices in New York and Ahmedabad
+- New York headquarters and Ahmedabad office
 - Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -5144,7 +5146,7 @@ Engineering services
 
 If someone rebuilds the same report every week or month, start with that report. MV.tech Solutions traces its sources and spreadsheet rules, builds a repeatable refresh and checks the result against the figures the business already uses.
 
-- Offices in New York and Ahmedabad
+- New York headquarters and Ahmedabad office
 - Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -5297,7 +5299,7 @@ MV.tech Solutions services
 
 Build or improve the Snowflake platform behind your business reporting. MV.tech Solutions supports warehouse migration, ingestion pipelines, data modeling and performance review, with the BI and reconciliation work needed to make the warehouse useful to your teams.
 
-- Offices in New York and Ahmedabad
+- New York headquarters and Ahmedabad office
 - Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -5465,7 +5467,7 @@ MV.tech Solutions services
 
 What will your new engineer be responsible for after they join? We use that answer to shape the role and the technical interview. We support permanent hiring for data, software, AI and cloud roles. Your team reviews the evidence, makes the offer and employs the person.
 
-- Offices in New York and Ahmedabad
+- New York headquarters and Ahmedabad office
 - Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -5621,7 +5623,7 @@ MV.tech Solutions services
 
 Build fast, accessible websites and web applications on a modern stack. MV.tech Solutions develops front ends in React and Next.js and backends in Node.js, TypeScript and Python, with APIs, sign-in, testing and deployment in one delivery scope.
 
-- Offices in New York and Ahmedabad
+- New York headquarters and Ahmedabad office
 - Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
@@ -5760,7 +5762,7 @@ MV.tech Solutions services
 
 Reduce the manual work between your business systems. MV.tech Solutions connects applications, APIs, databases and spreadsheets to automate recurring tasks, reporting and approvals. We build the checks, exception handling and operating instructions alongside the workflow.
 
-- Offices in New York and Ahmedabad
+- New York headquarters and Ahmedabad office
 - Overlap with your time zone
 - Senior specialists, direct access
 - Scope agreed in writing
