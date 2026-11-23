@@ -508,9 +508,7 @@ Calendar unavailable? Open the booking page in a new tab.
 
 Prefer to write?
 
-### Start with a short brief.
-
-Share what you know. Every field is optional. You can review the draft in your email app before sending it.
+### Tell us what you’re working on.
 
 Hiring an engineer? Tell us what they’ll own and whether you want them to join your team or deliver a project.
 
@@ -532,7 +530,13 @@ Tell us what you’re launching, which formats you need and who will review the 
 
 Tell us which campaign and sales systems you want to compare and how your team defines a converted lead.
 
-What do you need? Help choosing a service Hire an engineer Offshore data engineering team Consultant in our team (staff augmentation) Permanent hire (recruitment) Data engineering and ETL Data warehouse migration Business Central finance reconciliation Business intelligence and dashboards Reporting automation Social media publishing automation Custom BI platform with AI reporting Email workflow automation Marketing campaign content and approvals Marketing analytics and attribution Web development (React, Next.js, Node.js) Application development (web apps, SaaS, MVPs) Customer portal development Custom software Workflow automation and API integration AI and RAG development Employee AI chatbots MCP servers and AI connectors Blockchain data analytics Snowflake consulting BigQuery consulting Power BI consulting Something else
+Send a short enquiry in your browser. We’ll reply by email.
+
+#### Write a more detailed email brief
+
+Pick a service and share the details you have. Every field is optional. You can review the draft in your email app before sending it.
+
+What do you need? Help choosing a service Hire an engineer Offshore data engineering team Consultant in our team (staff augmentation) Permanent hire (recruitment) Data engineering and ETL Data warehouse migration Business Central finance reconciliation Business intelligence and dashboards Reporting automation Social media publishing automation Custom BI platform with AI reporting Email workflow automation Campaign content and approvals Marketing analytics and attribution Web development (React, Next.js, Node.js) Application development (web apps, SaaS, MVPs) Customer portal development Custom software Workflow automation and API integration AI and RAG development Employee AI chatbots MCP servers and AI connectors Blockchain data analytics Snowflake consulting BigQuery consulting Power BI consulting Something else
 About the role Role and experience level Location or remote policy Capacity or duration
 About the difference Which figures disagree? Statement date and currency
 About the migration What would you move first? How will you check the new result?
@@ -547,7 +551,7 @@ You can also email contact@mvtech.solutions directly. Please leave passwords and
 
 - Need a consultant in your team? Share the role, stack, duration and hours; see staff augmentation.
 - Hiring permanently? Share the role, location or remote policy and timeline; see technology recruitment.
-- Happy to sign a mutual NDA before detailed discussions. Inquiry details are used only to respond to you; see our privacy notice.
+- Happy to sign a mutual NDA before detailed discussions. We use your enquiry to respond to you. Read our privacy notice.
 Our offices
 
 ### Offices in New York and Ahmedabad.
@@ -2221,6 +2225,8 @@ MV.tech Solutions (“we”, “us”) operates mvtech.solutions. MV.tech Soluti
 
 When you email us, send a project brief or book a call, we receive what you choose to share. That is usually your name, work email address, company, job title and phone number, and details about your project, systems, timeline and budget. Please do not send passwords, credentials or sensitive production data; we never need them for an inquiry.
 
+If you use our short enquiry form, Google Forms stores your response in the MV.tech Solutions business account. We use the email address and project details you provide to reply to you. You can also contact us by email or book a call.
+
 #### Information collected automatically
 
 When analytics is active (see Cookies and analytics), Google Analytics records how the website is used: pages viewed, the page that referred you, approximate location (city or region, derived from your IP address), device and browser type, and clicks on our email, phone and booking links. Google Analytics 4 does not log or store IP addresses. Our hosting provider, GitHub Pages, processes the IP address of every visitor in order to deliver and protect the website.
@@ -2233,9 +2239,9 @@ If you book a call, Calendly collects the details you enter, such as your name, 
 
 Personal information we collect, where it comes from and who receives it
 | Category | Examples | Source | Why we use it | Disclosed to |
-| Identifiers | Name, email address, phone number | You | Reply to inquiries, schedule calls, prepare proposals | Our email and scheduling providers |
-| Professional information | Company, job title | You | Understand who we are working with | Our email and scheduling providers |
-| Commercial information | Project requirements, budget range | You | Scope and propose services | Our email provider |
+| Identifiers | Name, email address, phone number | You | Reply to inquiries, schedule calls, prepare proposals | Our email and scheduling providers, and Google if you use the enquiry form |
+| Professional information | Company, job title | You | Understand who we are working with | Our email and scheduling providers, and Google if you use the enquiry form |
+| Commercial information | Project requirements, budget range | You | Scope and propose services | Our email provider, and Google if you use the enquiry form |
 | Internet activity | Pages viewed, referring page, link clicks | Your browser, through Google Analytics | Improve the website | Google, as our analytics provider |
 | Approximate location | City or region | Derived from your IP address | Understand where visitors come from | Google, as our analytics provider |
 We do not collect sensitive personal information such as Social Security numbers, financial account details, precise geolocation or health information.
@@ -2252,7 +2258,7 @@ We do not collect sensitive personal information such as Social Security numbers
 
 We share personal information only with:
 
-- Service providersthat run parts of our business for us: Google (website analytics), Calendly (scheduling), our email provider and GitHub (website hosting). They may use it only to provide their services to us.
+- Service providersthat run parts of our business for us: Google (website analytics and the optional enquiry form), Calendly (scheduling), our email provider and GitHub (website hosting). They may use it only to provide their services to us.
 - Professional advisers, such as accountants and lawyers, who are bound by confidentiality.
 - Authorities, when the law requires it or when needed to protect rights, property or safety.
 - A successor business, if our business is reorganized or sold.
@@ -2291,7 +2297,7 @@ If we decline a request, you can appeal by replying with “Privacy appeal” in
 
 ### How long we keep information
 
-- Inquiry emails and booking details:as long as needed to respond to you and, for clients, for the length of the relationship plus the period our legal, tax and accounting records require.
+- Inquiry emails, form responses and booking details:as long as needed to respond to you and, for clients, for the length of the relationship plus the period our legal, tax and accounting records require.
 - Analytics data:for the retention period set in Google Analytics, never longer than 14 months.
 
 ### Security

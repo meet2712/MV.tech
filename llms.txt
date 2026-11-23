@@ -74,7 +74,7 @@ This is a factual index of the company's public website. The linked pages contai
 - [Terms of Use](https://mvtech.solutions/terms/): The terms that apply when you use mvtech.solutions, including use of our content and brand assets, disclaimers and the law that governs these terms.
 - [Accessibility statement](https://mvtech.solutions/accessibility/): MV.tech Solutions aims to make mvtech.solutions usable by everyone, following WCAG 2.1 Level AA. How we build for access and how to report a barrier.
 - [Brand kit](https://mvtech.solutions/brand/): Download the MV.tech Solutions brand kit: vector logos, favicons, avatars, color tokens, Inter fonts, icons and the full brand guidelines.
-- [Contact](https://mvtech.solutions/contact/): Discuss software, data, BI, AI or automation requirements with MV.tech Solutions. Book a consultation or send a brief for a project, a team or a hire.
+- [Contact](https://mvtech.solutions/contact/): Discuss software, data, BI, AI or automation requirements with MV.tech Solutions. Book a consultation, send a short enquiry in your browser, or prepare a detailed email brief for a project, a team or a hire.
 
 ## Practical buyer guides
 

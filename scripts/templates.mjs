@@ -16,6 +16,7 @@ export const factTokens = (site) => ({
   'company.name': site.name,
   'company.short': site.shortName,
   'profile.linkedin': site.linkedin,
+  'contact.form': site.enquiryForm,
   'profile.goodfirms': site.goodfirms,
   'profile.clutch': site.clutch,
   'legal.name': site.legalEntity.name,
