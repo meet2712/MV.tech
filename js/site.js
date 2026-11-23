@@ -63,6 +63,7 @@
     if (url.protocol === 'mailto:') method = 'email';
     if (url.protocol === 'tel:') method = 'phone';
     if (url.hostname === 'calendly.com') method = 'calendar';
+    if (link.dataset?.contactMethod === 'form') method = 'form';
     if (url.origin === window.location.origin && url.pathname === '/contact/') {
       if (url.hash === '#book-call') method = 'calendar';
       if (url.hash === '#brief-form' || url.hash.endsWith('-brief')) method = 'brief';

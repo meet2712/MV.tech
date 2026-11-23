@@ -3030,6 +3030,13 @@
         "title": "Reconciling Business Central with a warehouse",
         "text": "Trace trial-balance differences to the source entries and reporting cutoff.",
         "label": "Read the finance guide"
+      },
+      {
+        "href": "/work/#ai-usage-reporting",
+        "kicker": "Work example",
+        "title": "Checking the completeness of AI usage reports",
+        "text": "See how a dashboard flags missing dates so a team can tell whether two reporting periods are comparable.",
+        "label": "Read the example"
       }
     ],
     "summary": "Automation of recurring finance and operations reports, from source extraction and validation to Power BI or governed Excel output.",

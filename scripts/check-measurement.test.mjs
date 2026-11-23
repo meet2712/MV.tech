@@ -67,7 +67,7 @@ function runPage({ calendar = false } = {}) {
 
 test('contact routes are intent events without enquiry content', () => {
   const page = runPage();
-  for (const [href, method] of [
+  for (const [href, method, markedAsForm = false] of [
     ['/contact/#book-call', 'calendar'],
     ['#brief-form', 'brief'],
     ['/contact/#finance-brief', 'brief'],
@@ -75,8 +75,9 @@ test('contact routes are intent events without enquiry content', () => {
     ['https://calendly.com/contact-mvtech/new-meeting', 'calendar'],
     ['mailto:contact@mvtech.solutions?body=private-example', 'email'],
     ['tel:+12025550123', 'phone'],
+    ['https://docs.google.com/forms/d/e/example/viewform', 'form', true],
   ]) {
-    page.documentEvents.click({ target: { closest: () => ({ getAttribute: () => href }) } });
+    page.documentEvents.click({ target: { closest: () => ({ getAttribute: () => href, dataset: markedAsForm ? { contactMethod: 'form' } : {} }) } });
     const [kind, name, params] = page.events.at(-1);
     assert.equal(kind, 'event');
     assert.equal(name, 'contact_intent');

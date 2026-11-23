@@ -15,7 +15,7 @@
       <p class="eyebrow">Contact</p>
       <h1>What would you like to build?</h1>
       <p class="lead">Bring us a project, a system that needs improving or a role you need to fill. We’ll talk through the requirements and suggest a practical way forward.</p>
-      <div class="action-row"><a class="button-primary" href="#book-call">Book a 30-minute call <i data-lucide="calendar" aria-hidden="true"></i></a><a class="button-secondary" href="#brief-form">Write a project brief <i data-lucide="arrow-right" aria-hidden="true"></i></a></div>
+      <div class="action-row"><a class="button-primary" href="#book-call">Book a 30-minute call <i data-lucide="calendar" aria-hidden="true"></i></a><a class="button-secondary" href="{{contact.form}}" data-contact-method="form">Send an enquiry <i data-lucide="arrow-right" aria-hidden="true"></i></a></div>
       <ul class="fact-row" aria-label="Contact facts"><li><i data-lucide="mail" aria-hidden="true"></i><a href="mailto:contact@mvtech.solutions">contact@mvtech.solutions</a></li><li><i data-lucide="phone" aria-hidden="true"></i><a href="tel:+14473489720">USA: +1 (447) 348-9720</a></li><li><i data-lucide="map-pin" aria-hidden="true"></i><a href="#offices">Offices in New York, USA · Ahmedabad, India</a></li></ul>
     </div>
   </section>
@@ -39,8 +39,7 @@
         <div>
           <div class="contact-panel">
             <p class="eyebrow">Prefer to write?</p>
-            <h2>Start with a short brief.</h2>
-            <p>Share what you know. Every field is optional. You can review the draft in your email app before sending it.</p>
+            <h2>Tell us what you’re working on.</h2>
             <div class="brief-guides" id="brief-guides">
               <p id="hiring-brief" tabindex="-1">Hiring an engineer? Tell us what they’ll own and whether you want them to join your team or deliver a project.</p>
               <p id="team-brief" tabindex="-1">For an offshore team, tell us which skills you have in-house, where you need help and when the teams can work together.</p>
@@ -53,7 +52,10 @@
               <p id="campaign-brief" tabindex="-1">Tell us what you’re launching, which formats you need and who will review the campaign before it goes out.</p>
               <p id="marketing-brief" tabindex="-1">Tell us which campaign and sales systems you want to compare and how your team defines a converted lead.</p>
             </div>
+            <p id="online-enquiry"><a href="{{contact.form}}" data-contact-method="form">Send a short enquiry in your browser</a>. We’ll reply by email.</p>
             <form id="brief-form" class="brief-form" data-email="contact@mvtech.solutions" action="mailto:contact@mvtech.solutions" method="post" enctype="text/plain">
+              <h3>Write a more detailed email brief</h3>
+              <p class="brief-note">Pick a service and share the details you have. Every field is optional. You can review the draft in your email app before sending it.</p>
               <label><span>What do you need?</span>
                 <select name="need">
                   <option>Help choosing a service</option>
@@ -69,7 +71,7 @@
                   <option data-brief="publishing-brief" data-topic="publishing">Social media publishing automation</option>
                   <option data-brief="bi-platform-brief" data-topic="bi_platform">Custom BI platform with AI reporting</option>
                   <option data-brief="email-brief" data-topic="email_workflow">Email workflow automation</option>
-                  <option data-brief="campaign-brief" data-topic="campaign_content">Marketing campaign content and approvals</option>
+                  <option data-brief="campaign-brief" data-topic="campaign_content">Campaign content and approvals</option>
                   <option data-brief="marketing-brief" data-topic="marketing_analytics">Marketing analytics and attribution</option>
                   <option>Web development (React, Next.js, Node.js)</option>
                   <option>Application development (web apps, SaaS, MVPs)</option>
@@ -119,7 +121,7 @@
           <ul class="contact-facts">
             <li><i data-lucide="users-round" aria-hidden="true"></i><span>Need a consultant in your team? Share the role, stack, duration and hours; see <a href="/services/it-staff-augmentation/" style="text-decoration:underline">staff augmentation</a>.</span></li>
             <li><i data-lucide="briefcase-business" aria-hidden="true"></i><span>Hiring permanently? Share the role, location or remote policy and timeline; see <a href="/services/technology-recruitment/" style="text-decoration:underline">technology recruitment</a>.</span></li>
-            <li><i data-lucide="shield-check" aria-hidden="true"></i><span>Happy to sign a mutual NDA before detailed discussions. Inquiry details are used only to respond to you; see our <a href="/compliance/" style="text-decoration:underline">privacy notice</a>.</span></li>
+            <li><i data-lucide="shield-check" aria-hidden="true"></i><span>Happy to sign a mutual NDA before detailed discussions. We use your enquiry to respond to you. Read our <a href="/privacy/" style="text-decoration:underline">privacy notice</a>.</span></li>
           </ul>
         </div>
       </div>
