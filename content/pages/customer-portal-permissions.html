@@ -1,0 +1,53 @@
+<!--meta
+{
+  "route": "/tools/customer-portal-permissions/",
+  "name": "Customer portal permissions matrix",
+  "title": "Free Customer Portal Permissions Matrix | MV.tech Solutions",
+  "description": "Plan and test access to orders, invoices and support cases in a customer portal. Download the free Excel matrix with customer, partner and support examples.",
+  "download": "/downloads/customer-portal-permissions.xlsx",
+  "ogTitle": "Customer portal permissions matrix",
+  "ogKicker": "Free Excel workbook"
+}
+-->
+<main id="main-content">
+  <section class="page-hero">
+    <div class="container">
+      <nav aria-label="Breadcrumb" class="breadcrumbs"><ol><li><a href="/">Home</a></li><li><a href="/tools/">Free project tools</a></li><li><span aria-current="page">Customer portal permissions matrix</span></li></ol></nav>
+      <p class="eyebrow">Free Excel workbook</p>
+      <h1>Customer portal permissions matrix</h1>
+      <p class="lead">Who can see an order, download an invoice or add an internal note? Put the role, the record and the action on one row. Then use a test account to compare what the portal allows with what the business agreed.</p>
+      <div class="action-row"><a class="button-primary" href="/downloads/customer-portal-permissions.xlsx" download>Download the permissions matrix (.xlsx)</a><a class="text-link" href="#worked-example">See a worked example</a></div>
+    </div>
+  </section>
+  <section class="band band-light" id="worked-example">
+    <div class="container">
+      <div class="section-heading"><div><h2>A partner can see an order but should be unable to download its invoice</h2><p class="measure">These fictional examples come from an order-tracking portal. The team wants customers to see their own orders and partners to follow assigned orders. A partner who can also download the invoice needs a permission change.</p></div></div>
+      <div class="table-wrap" tabindex="0" role="region" aria-label="Worked example">
+        <table class="data-table">
+          <caption>Sample rows from the workbook</caption>
+          <thead><tr><th scope="col">Role</th><th scope="col">Record and action</th><th scope="col">Expected</th><th scope="col">Observed</th><th scope="col">Result</th></tr></thead>
+          <tbody>
+              <tr><th scope="row">Customer</th><td>View own company’s order</td><td>Allow</td><td>Allow</td><td>Pass</td></tr>
+              <tr><th scope="row">Customer</th><td>View another company’s order</td><td>Deny</td><td>Deny</td><td>Pass</td></tr>
+              <tr><th scope="row">Partner</th><td>Download invoice on assigned order</td><td>Deny</td><td>Allow</td><td>Review</td></tr>
+              <tr><th scope="row">Support agent</th><td>Add a note to an assigned case</td><td>Allow</td><td>Awaiting test</td><td>Not tested</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  <section class="band">
+    <div class="container">
+      <div class="article-body measure">
+        <h2>How to use the matrix before launch</h2>
+        <ol>
+          <li>List who signs in and which records belong to a person, company or team. Include visitors who have signed out.</li>
+          <li>Give each row one action, such as viewing an order or downloading a document. Have the business owner record the expected result first.</li>
+          <li>Try the action with a test account and fictional records. Enter the result, assign an owner to each mismatch and repeat after the change.</li>
+        </ol>
+        <p>Each download includes 30 rows with formulas. Replace the fictional entries or start in a blank row. You can use the workbook offline.</p>
+        <p>For sign-in, account boundaries and integrations with an order or support system, see <a href="/services/custom-software/">custom software development</a> and <a href="/services/application-development/">customer portal and application development</a>.</p>
+      </div>
+    </div>
+  </section>
+</main>
