@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "npm run build:content && npm run build:css && npm run build:icons",
+    "build": "npm run build:css && npm run build:icons && npm run build:content",
     "build:content": "node scripts/build.mjs",
     "build:css": "esbuild css/input.css --minify --outfile=css/site.css --log-level=warning",
     "build:icons": "esbuild js/icons-entry.js --bundle --minify --format=iife --outfile=js/icons.js --log-level=warning",

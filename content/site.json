@@ -70,7 +70,6 @@
   "crunchbase": "https://www.crunchbase.com/organization/mv-tech-e24b",
   "goodfirms": "https://www.goodfirms.co/company/mv-tech",
   "clutch": "https://clutch.co/profile/mvtech",
-  "toptal": "https://www.toptal.com/developers/resume/meet-vaghasia",
   "github": "https://github.com/meet2712",
   "gstin": "24BZMPV4008F1ZA",
   "analyticsId": "G-YRM2SJ2EMP",
@@ -79,10 +78,9 @@
   "founder": {
     "name": "Meet Vaghasia",
     "jobTitle": "Founder & Lead Engineer",
-    "description": "Meet Vaghasia is the founder of MV.tech Solutions. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.",
+    "description": "Meet Vaghasia is the founder of MV.tech Solutions. His work includes building data pipelines, moving reports into cloud warehouses and connecting AI assistants to business systems. He holds the Google Cloud Professional Data Engineer certification and IBM Mastery Awards in big data engineering and artificial intelligence analysis.",
     "sameAs": [
       "https://www.linkedin.com/in/meet2712/",
-      "https://www.toptal.com/developers/resume/meet-vaghasia",
       "https://github.com/meet2712"
     ],
     "linkedin": "https://www.linkedin.com/in/meet2712/"
@@ -99,21 +97,11 @@
       "issuer": "IBM"
     },
     {
-      "name": "Toptal-vetted talent (Top 3%)",
-      "category": "Talent network vetting",
-      "issuer": "Toptal"
+      "name": "IBM Artificial Intelligence Analyst Mastery Award",
+      "category": "Technology certification",
+      "issuer": "IBM"
     }
   ],
-  "workedWith": [
-    "Google",
-    "Volvo",
-    "BCW",
-    "RootstockLabs",
-    "Chainlabs",
-    "Toptal",
-    "Turing"
-  ],
-  "workedWithNote": "Names reflect organizations the MV.tech Solutions team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.",
   "knowsAbout": [
     "Data engineering and ETL/ELT pipeline development in Python and SQL",
     "Offshore data engineering teams from India for companies that need senior remote delivery",
@@ -238,6 +226,10 @@
         "href": "/expertise/"
       },
       {
+        "label": "Work Examples",
+        "href": "/work/"
+      },
+      {
         "label": "Business Solutions",
         "href": "/solutions/"
       },
@@ -262,11 +254,6 @@
       {
         "label": "LinkedIn",
         "href": "https://www.linkedin.com/company/mv-tech-solutions/",
-        "external": true
-      },
-      {
-        "label": "Meet Vaghasia on Toptal",
-        "href": "https://www.toptal.com/developers/resume/meet-vaghasia",
         "external": true
       },
       {
@@ -361,5 +348,10 @@
   ],
   "redirects": {
     "/us-clients/": "/about/"
-  }
+  },
+  "workExamples": [
+    "Moving reporting into a cloud warehouse",
+    "Reconciling ledger and dashboard totals",
+    "Building read-only data connectors"
+  ]
 }

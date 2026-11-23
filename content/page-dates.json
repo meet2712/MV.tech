@@ -1,11 +1,11 @@
 {
   "/": {
-    "hash": "8a226436832da523",
+    "hash": "889383e5758dd8c0",
     "published": "2026-01-02",
     "modified": "2026-11-23"
   },
   "/about/": {
-    "hash": "80bb65db5f1554ca",
+    "hash": "ac96f9e61b036dc5",
     "published": "2026-06-02",
     "modified": "2026-11-23"
   },
@@ -25,17 +25,17 @@
     "modified": "2026-11-14"
   },
   "/contact/": {
-    "hash": "6de2546c5c781d26",
+    "hash": "bf3c29957371269f",
     "published": "2026-06-02",
     "modified": "2026-11-23"
   },
   "/expertise/": {
-    "hash": "6288c1397722f9ff",
+    "hash": "db6ec9370df07666",
     "published": "2026-06-02",
     "modified": "2026-11-23"
   },
   "/faq/": {
-    "hash": "896e2074d8037fc7",
+    "hash": "ea215eb48f127714",
     "published": "2026-06-02",
     "modified": "2026-11-23"
   },
@@ -50,12 +50,12 @@
     "modified": "2026-11-16"
   },
   "/insights/letting-ai-assistants-query-your-data-warehouse-safely/": {
-    "hash": "d53425d5436674b0",
+    "hash": "45ce56f812e92f1f",
     "published": "2026-10-12",
-    "modified": "2026-11-16"
+    "modified": "2026-11-23"
   },
   "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/": {
-    "hash": "2492859a76b9de05",
+    "hash": "3f953102360d4f86",
     "published": "2026-10-12",
     "modified": "2026-11-23"
   },
@@ -70,7 +70,7 @@
     "modified": "2026-11-23"
   },
   "/insights/reconciling-dynamics-365-business-central-with-your-data-warehouse/": {
-    "hash": "a2557a02240c0275",
+    "hash": "c59decc61dd7a251",
     "published": "2026-10-12",
     "modified": "2026-11-23"
   },
@@ -95,9 +95,9 @@
     "modified": "2026-11-14"
   },
   "/privacy/": {
-    "hash": "2be3356ebfafdb27",
+    "hash": "5380df8b41fec0b2",
     "published": "2026-11-14",
-    "modified": "2026-11-14"
+    "modified": "2026-11-23"
   },
   "/process/": {
     "hash": "0714d1fcbd7f4b1b",
@@ -105,17 +105,17 @@
     "modified": "2026-11-14"
   },
   "/remote-consulting/": {
-    "hash": "4c87b2b8f6c0ae83",
+    "hash": "15d48dfefe5a9d1c",
     "published": "2026-09-10",
-    "modified": "2026-11-14"
+    "modified": "2026-11-23"
   },
   "/services/": {
-    "hash": "68596f344b680a67",
+    "hash": "9b02e1a70a2d3a39",
     "published": "2026-06-02",
     "modified": "2026-11-23"
   },
   "/services/ai-consulting/": {
-    "hash": "ad2b73d151d967f2",
+    "hash": "0c23029cf6b394bf",
     "published": "2026-09-10",
     "modified": "2026-11-23"
   },
@@ -135,12 +135,12 @@
     "modified": "2026-11-14"
   },
   "/services/business-intelligence/": {
-    "hash": "25dd5f4714598115",
+    "hash": "fecc558d13d08a56",
     "published": "2026-09-12",
-    "modified": "2026-11-16"
+    "modified": "2026-11-23"
   },
   "/services/custom-software/": {
-    "hash": "73710e0520253e7d",
+    "hash": "f5fb021317f65028",
     "published": "2026-09-10",
     "modified": "2026-11-23"
   },
@@ -185,12 +185,12 @@
     "modified": "2026-11-23"
   },
   "/services/power-bi-consulting/": {
-    "hash": "b25c571500a34128",
+    "hash": "e52f77464ebae665",
     "published": "2026-10-12",
     "modified": "2026-11-23"
   },
   "/services/reporting-automation/": {
-    "hash": "feed1858c8f27013",
+    "hash": "0866210e807c45f1",
     "published": "2026-11-23",
     "modified": "2026-11-23"
   },
@@ -210,18 +210,23 @@
     "modified": "2026-11-14"
   },
   "/services/workflow-automation/": {
-    "hash": "56bb14ae310ba427",
+    "hash": "f4f2657a645398f0",
     "published": "2026-09-10",
     "modified": "2026-11-23"
   },
   "/solutions/": {
-    "hash": "bfd34ad5cfa03b2a",
+    "hash": "308fee95ca9a9813",
     "published": "2026-06-02",
-    "modified": "2026-11-14"
+    "modified": "2026-11-23"
   },
   "/terms/": {
     "hash": "d98a8209b1f64cba",
     "published": "2026-11-14",
     "modified": "2026-11-14"
+  },
+  "/work/": {
+    "hash": "550ee91a291ddaae",
+    "published": "2026-11-23",
+    "modified": "2026-11-23"
   }
 }

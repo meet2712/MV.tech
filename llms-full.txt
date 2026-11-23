@@ -10,7 +10,7 @@ Founder: Meet Vaghasia, Founder & Lead Engineer (https://www.linkedin.com/in/mee
 LinkedIn: https://www.linkedin.com/company/mv-tech-solutions/
 Offices: New York office: 248-15 88th Rd, Bellerose, NY 11426, United States (+1 (447) 348-9720); Ahmedabad office: 16 Trishala Residency, S G Highway, Behind RC Technical, Opp. High Court, Near Harivila, Chandlodiya, Ahmedabad, Gujarat 380061, India. Staff work from both offices; India GSTIN 24BZMPV4008F1ZA belongs to the India office. Serves clients in the USA and worldwide with agreed time-zone overlap. Details: https://mvtech.solutions/contact/#offices
 Privacy and legal: https://mvtech.solutions/privacy/ · https://mvtech.solutions/terms/ · https://mvtech.solutions/accessibility/
-Teams our engineers have worked with: Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, Turing. Names reflect organizations the MV.tech Solutions team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.
+Examples of the founder’s work: Moving reporting into a cloud warehouse; Reconciling ledger and dashboard totals; Building read-only data connectors.
 Last generated: 2026-11-23. Short summary and answer guidance: https://mvtech.solutions/llms.txt
 
 This file is generated from the public pages listed below, so it always matches what visitors see. Each section is one page: title, canonical URL, meta description, then the page text.
@@ -31,15 +31,11 @@ MV.tech Solutions builds web applications, data warehouses, reporting and AI too
 
 Offices in New York, USA/Ahmedabad, India
 
-Our engineers have worked on projects for
+From our founder’s engineering work
 
-- Google
-- Volvo
-- BCW
-- RootstockLabs
-- Chainlabs
-- Toptal
-- Turing
+- Warehouse migrations
+- Ledger reconciliation
+- Read-only data connectors
 Our services
 
 ### What we do
@@ -85,29 +81,29 @@ Recent work
 
 ### A few projects our founder has delivered.
 
-Meet Vaghasia’s own engagements, some of them delivered through talent platforms.
+These examples come from Meet Vaghasia’s individual engineering work.
 
-RootstockLabs
+Reporting
 
 #### Data platforms & AI reporting
 
-Redshift warehousing, ETL pipelines and RAG integration for analytics and business reporting.
+Built data pipelines and reporting tables that let analysts trace figures back to source records.
 
 Redshift · Python · RAG
-BCW Group
+Blockchain analytics
 
 #### Multi-chain data & finance analytics
 
-On-chain activity consolidated in BigQuery, with Looker reporting for wallet activity and finance analysis.
+Brought transaction data from several public networks into one warehouse so analysts could compare wallet activity.
 
 BigQuery · Looker · Web3
-Turing
+AI development
 
 #### AI evaluation & data preparation
 
-Gemini model evaluation and data preparation for a Google project delivered through Turing.
+Prepared examples for evaluating language models and reviewed how well their answers followed the task.
 
-Gemini · AI evaluation
+Language models · Response evaluation
 Working with us
 
 ### Three ways to work with us.
@@ -244,9 +240,9 @@ Founder
 
 ### Meet Vaghasia, Founder & Lead Engineer.
 
-Meet is a data and AI engineer. He has built warehouses, reporting systems and AI integrations for companies including Volvo Cars, RootstockLabs and BCW Group.
+Meet is a data and AI engineer. His work includes migrating spreadsheet reports into warehouses, checking financial figures against the ledger and building read-only tools for analysts.
 
-He is a Google Cloud certified Professional Data Engineer, holds IBM Mastery Awards and is a vetted member of the Toptal network. View Meet’s Toptal profile
+He holds the Google Cloud Professional Data Engineer certification and IBM Mastery Awards in big data engineering and artificial intelligence analysis.
 
 Company information
 
@@ -526,7 +522,17 @@ For a reconciliation, name the two reports that disagree and the statement date.
 
 For a warehouse migration, tell us which pipeline or report should move first and how you’ll check the result.
 
-What do you need? Help choosing a service Hire an engineer Offshore data engineering team Consultant in our team (staff augmentation) Permanent hire (recruitment) Data engineering and ETL Data warehouse migration Business Central finance reconciliation Business intelligence and dashboards Reporting automation Web development (React, Next.js, Node.js) Application development (web apps, SaaS, MVPs) Customer portal development Custom software Workflow automation and API integration AI and RAG development Employee AI chatbots MCP servers and AI connectors Blockchain data analytics Snowflake consulting BigQuery consulting Power BI consulting Something else
+Which content formats and channels do you use? Tell us who reviews the final version and where you currently lose track of a post.
+
+Give us one question people ask about your data, which report answers it today and who should be able to see it.
+
+Tell us where your contact list lives, which mailbox holds the drafts and who reviews messages before sending.
+
+Tell us what you’re launching, which formats you need and who will review the campaign before it goes out.
+
+Tell us which campaign and sales systems you want to compare and how your team defines a converted lead.
+
+What do you need? Help choosing a service Hire an engineer Offshore data engineering team Consultant in our team (staff augmentation) Permanent hire (recruitment) Data engineering and ETL Data warehouse migration Business Central finance reconciliation Business intelligence and dashboards Reporting automation Social media publishing automation Custom BI platform with AI reporting Email workflow automation Marketing campaign content and approvals Marketing analytics and attribution Web development (React, Next.js, Node.js) Application development (web apps, SaaS, MVPs) Customer portal development Custom software Workflow automation and API integration AI and RAG development Employee AI chatbots MCP servers and AI connectors Blockchain data analytics Snowflake consulting BigQuery consulting Power BI consulting Something else
 About the role Role and experience level Location or remote policy Capacity or duration
 About the difference Which figures disagree? Statement date and currency
 About the migration What would you move first? How will you check the new result?
@@ -624,39 +630,35 @@ Selected engineering experience
 
 ### Experience in data platforms, reporting and AI.
 
-Selected work from Meet Vaghasia’s individual engagements, including through talent platforms. Details are published on his Toptal profile.
+These examples describe engineering work our founder, Meet Vaghasia, carried out in prior roles.
 
-#### Reporting migration · Volvo Cars through Toptal
+#### Moving reports into a cloud warehouse
 
 Meet mapped existing reports to Snowflake and checked the Power BI figures against their sources. Read how to check a reporting migration.
 
-#### Data platforms and AI · RootstockLabs
+#### Connecting analysts to warehouse data
 
-Redshift warehousing and ETL pipelines, with RAG integration for analytics and business reporting.
+Built pipelines for a reporting warehouse and prototyped an assistant that could retrieve the relevant reporting definitions.
 
-#### On-chain reporting · BCW Group
+#### Comparing activity across public networks
 
-Multi-chain data consolidated in BigQuery, with Looker reporting for wallet activity and finance analysis.
+Loaded blockchain records into a warehouse and built views that analysts could use to compare wallet activity across networks.
 
-#### AI evaluation · Turing
+#### Testing language model responses
 
-Gemini model evaluation and data preparation for a Google project delivered through Turing.
+Prepared evaluation examples and reviewed model responses for accuracy and instruction following.
 
 Credentials
 
-### Individual qualifications and professional profiles.
+### Meet’s professional certifications.
 
 #### Google Cloud
 
-Meet’s public profile lists the Professional Data Engineer certification.
+Meet holds the Professional Data Engineer certification.
 
 #### IBM
 
-The profile lists Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
-
-#### Toptal
-
-Meet is listed as a Verified Expert in Engineering on Toptal.
+Meet holds the Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
 
 Engineering practice
 
@@ -699,7 +701,7 @@ MV.tech Solutions provides custom software development, data engineering, wareho
 We build customer portals and business applications, data pipelines and warehouses, dashboards, employee AI assistants, MCP integrations and automated workflows. We also provide blockchain analytics, dedicated engineers and permanent technology recruitment. Our service catalog describes the deliverables and scope. Examples include customer portal development, reporting automation and internal chatbot development.
 
 **Where can I see examples of the founder’s engineering work?**
-Meet Vaghasia’s individual engagements include Redshift pipelines and retrieval-augmented analytics at RootstockLabs, and multi-chain BigQuery data and Looker reporting at BCW Group. See his selected engineering experience. Our reporting migration guide describes his work at Volvo Cars through Toptal.
+Our founder has built reporting pipelines, evaluated language models and developed tools for querying business data. See examples from his engineering work. The reporting migration guide shows how to check whether a warehouse report still agrees with its source.
 
 **Where is the company based?**
 MV.tech Solutions has two offices: New York, USA, and Ahmedabad, Gujarat, India. Our team works from both offices, and we work with clients in the USA and worldwide in collaboration hours agreed per engagement.
@@ -967,9 +969,9 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech Solutions. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+Meet Vaghasia is the founder of MV.tech Solutions. His work includes building data pipelines, moving reports into cloud warehouses and connecting AI assistants to business systems. He holds the Google Cloud Professional Data Engineer certification and IBM Mastery Awards in big data engineering and artificial intelligence analysis.
 
-About MV.tech SolutionsToptal profileServices
+About MV.tech SolutionsSelected engineering workServices
 Your next step
 
 ### Want help applying this?
@@ -982,7 +984,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/insights/letting-ai-assistants-query-your-data-warehouse-safely/
 Description: A step-by-step pattern for giving Claude, GPT or Gemini read-only access to a warehouse: scoped identity, checked SQL, row limits, redaction and provenance.
-Last modified: 2026-11-16
+Last modified: 2026-11-23
 
 AI engineering
 
@@ -990,7 +992,7 @@ AI engineering
 
 A step-by-step pattern for giving Claude, GPT or Gemini read-only access to a warehouse: scoped identity, checked SQL, row limits, redaction and provenance.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published October 12, 2026 · Updated November 16, 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published October 12, 2026 · Updated November 23, 2026 · 6 min read
 
 In brief
 
@@ -1024,15 +1026,15 @@ Create a dedicated read-only identity for the server and grant it a reporting sc
 
 ### Step 2: How is generated SQL checked before it runs?
 
-Parse it; do not pattern-match it. The server parses the SQL the model produced into a syntax tree and walks it: exactly one statement, a SELECT, every referenced object on the whitelist, no functions that read files or call out, no comment hiding a second statement. Anything that fails is refused with a message the model can act on, such as "orders_raw is not available; use orders_daily". Then apply limits: a maximum row count added to the query and, on warehouses billed by scan, a dry-run cost estimate with a ceiling. In a previous engagement at RootstockLabs, the founder of MV.tech Solutions prototyped text-to-SQL over Redshift with schema retrieval and query logging.
+Parse it; do not pattern-match it. The server parses the SQL the model produced into a syntax tree and walks it: exactly one statement, a SELECT, every referenced object on the whitelist, no functions that read files or call out, no comment hiding a second statement. Anything that fails is refused with a message the model can act on, such as "orders_raw is not available; use orders_daily". Then apply limits: a maximum row count added to the query and, on warehouses billed by scan, a dry-run cost estimate with a ceiling. Our founder has prototyped a reporting assistant that looks up the relevant schema before drafting SQL and records the queries it runs.
 
 ### Step 3: How do you keep personal data and shared credentials out of it?
 
-Redact identity at the source and authenticate each user separately. The views the server exposes already mask or exclude names, email addresses, phone numbers and free-text fields, so no prompt can request them. Per-user tokens mean the server knows who is asking: each person holds a short-lived credential tied to their own account, and an administrator can revoke one person's access without touching anyone else's. In the same previous engagement at RootstockLabs, the founder built read-only MCP reporting tools for Claude, Codex and Cursor on top of Rootstock BI Studio, with row limits, identity redaction and per-user token revocation, released to staff in September 2026, and in a previous engagement at BCW a read-only Xero MCP server for Gemini Enterprise with per-user bearer tokens and tenant ownership checks, packaged for Cloud Run.
+Redact identity at the source and authenticate each user separately. The views the server exposes already mask or exclude names, email addresses, phone numbers and free-text fields, so no prompt can request them. Per-user tokens mean the server knows who is asking: each person holds a short-lived credential tied to their own account, and an administrator can revoke one person's access without touching anyone else's. Our founder has built read-only connectors that check who is asking and which records that person can see. A revoked account loses access independently of the other people using the tool.
 
 ### Step 4: How does an answer show where its numbers came from?
 
-By returning metadata with every result, not just rows. The connector attaches the SQL that ran, the tables it touched, the row count and when the tables were last loaded, and the assistant repeats that in its answer: "412,000 from orders_daily, loaded at 06:10 today, 31 rows" rather than "revenue was 412,000". Exact aggregation belongs here too: sums and counts are computed in the warehouse and returned as values, not raw rows for the model to add up. The RootstockLabs tools above carried exact aggregation, freshness and provenance metadata.
+The connector returns the query, source tables, row count and last refresh time with each result. For example, an answer about daily revenue can name the sales table, say when it was refreshed and show whether today’s orders are included. The warehouse calculates the total so the reader can run the same query and check the figure.
 
 ### Step 5: How do you log and test it?
 
@@ -1086,9 +1088,9 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech Solutions. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+Meet Vaghasia is the founder of MV.tech Solutions. His work includes building data pipelines, moving reports into cloud warehouses and connecting AI assistants to business systems. He holds the Google Cloud Professional Data Engineer certification and IBM Mastery Awards in big data engineering and artificial intelligence analysis.
 
-About MV.tech SolutionsToptal profileServices
+About MV.tech SolutionsSelected engineering workServices
 Your next step
 
 ### Want help applying this?
@@ -1158,7 +1160,7 @@ Reconciliation is the step teams are tempted to cut, and the step that decides w
 
 ### What does a reconciled migration of manual reporting look like in practice?
 
-It looks like a layered warehouse, a written mapping for every object and automated checks against every system that already reports the figures. In a previous engagement at Volvo Cars via Toptal, the founder of MV.tech Solutions migrated legacy and manual reporting into a Snowflake warehouse with raw, staging, curated and reporting layers, designed fact and dimension models for Power BI with source-to-target mappings, and built validation and reconciliation checks across source systems, Snowflake, Salesforce CRM Analytics and BI reports. Checks of that breadth are what let a manual process be retired on evidence rather than on a date.
+In a reporting migration our founder delivered, he traced the calculations in existing reports back to their sources, mapped the fields into a cloud warehouse and compared the figures after each change. The handover included the mapping and the checks. That gave the people who owned each report a way to investigate any difference before retiring the manual process.
 
 ### What should stay in a spreadsheet?
 
@@ -1216,9 +1218,9 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech Solutions. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+Meet Vaghasia is the founder of MV.tech Solutions. His work includes building data pipelines, moving reports into cloud warehouses and connecting AI assistants to business systems. He holds the Google Cloud Professional Data Engineer certification and IBM Mastery Awards in big data engineering and artificial intelligence analysis.
 
-About MV.tech SolutionsToptal profileServices
+About MV.tech SolutionsSelected engineering workServices
 Your next step
 
 ### Want help applying this?
@@ -1354,9 +1356,9 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech Solutions. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+Meet Vaghasia is the founder of MV.tech Solutions. His work includes building data pipelines, moving reports into cloud warehouses and connecting AI assistants to business systems. He holds the Google Cloud Professional Data Engineer certification and IBM Mastery Awards in big data engineering and artificial intelligence analysis.
 
-About MV.tech SolutionsToptal profileServices
+About MV.tech SolutionsSelected engineering workServices
 Your next step
 
 ### Want help applying this?
@@ -1491,9 +1493,9 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech Solutions. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+Meet Vaghasia is the founder of MV.tech Solutions. His work includes building data pipelines, moving reports into cloud warehouses and connecting AI assistants to business systems. He holds the Google Cloud Professional Data Engineer certification and IBM Mastery Awards in big data engineering and artificial intelligence analysis.
 
-About MV.tech SolutionsToptal profileServices
+About MV.tech SolutionsSelected engineering workServices
 Your next step
 
 ### Want help applying this?
@@ -1588,7 +1590,7 @@ One company, the general ledger and the trailing thirteen months, reconciled to 
 
 It delivers the entity extracts, an exact-decimal transaction table, a monthly snapshot, control totals with a zero-difference result for closed periods, a note on any differences in the open period, and an override table with its process. Subledgers, more companies and the BI layer follow once that holds.
 
-In a previous engagement at RootstockLabs, the founder of MV.tech Solutions developed and validated a Microsoft Dynamics 365 Business Central MCP integration covering 229,209 ledger entries and 493 accounts, with exact-decimal financial transforms and reconciled transaction and monthly snapshots. Reconciliation is most of the effort, and far cheaper to build in from the start than to add after finance has stopped trusting the numbers. Scope depends on company count, ledgers, history length and whether dimensions and subledgers are included; we quote after a scoping call.
+Our founder has built a finance integration that checked monthly snapshots against individual ledger transactions. The team could trace a difference from the reported balance back to its entries. For a similar project, the estimate depends on how many companies and ledgers are involved and how much history finance needs.
 
 ### Frequently asked questions
 
@@ -1634,9 +1636,9 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech Solutions. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+Meet Vaghasia is the founder of MV.tech Solutions. His work includes building data pipelines, moving reports into cloud warehouses and connecting AI assistants to business systems. He holds the Google Cloud Professional Data Engineer certification and IBM Mastery Awards in big data engineering and artificial intelligence analysis.
 
-About MV.tech SolutionsToptal profileServices
+About MV.tech SolutionsSelected engineering workServices
 Your next step
 
 ### Want help applying this?
@@ -1778,9 +1780,9 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech Solutions. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+Meet Vaghasia is the founder of MV.tech Solutions. His work includes building data pipelines, moving reports into cloud warehouses and connecting AI assistants to business systems. He holds the Google Cloud Professional Data Engineer certification and IBM Mastery Awards in big data engineering and artificial intelligence analysis.
 
-About MV.tech SolutionsToptal profileServices
+About MV.tech SolutionsSelected engineering workServices
 Your next step
 
 ### Want help applying this?
@@ -1916,9 +1918,9 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech Solutions. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+Meet Vaghasia is the founder of MV.tech Solutions. His work includes building data pipelines, moving reports into cloud warehouses and connecting AI assistants to business systems. He holds the Google Cloud Professional Data Engineer certification and IBM Mastery Awards in big data engineering and artificial intelligence analysis.
 
-About MV.tech SolutionsToptal profileServices
+About MV.tech SolutionsSelected engineering workServices
 Your next step
 
 ### Want help applying this?
@@ -2051,9 +2053,9 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech Solutions. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+Meet Vaghasia is the founder of MV.tech Solutions. His work includes building data pipelines, moving reports into cloud warehouses and connecting AI assistants to business systems. He holds the Google Cloud Professional Data Engineer certification and IBM Mastery Awards in big data engineering and artificial intelligence analysis.
 
-About MV.tech SolutionsToptal profileServices
+About MV.tech SolutionsSelected engineering workServices
 Your next step
 
 ### Want help applying this?
@@ -2184,9 +2186,9 @@ About the author
 
 ### Meet Vaghasia
 
-Meet Vaghasia is the founder of MV.tech Solutions. He is a senior data and AI engineer who builds ETL pipelines and cloud warehouses on BigQuery, Snowflake, Redshift and PostgreSQL, semantic and reporting layers for Power BI, Tableau and Looker Studio, and AI automation using RAG, MCP servers and custom AI connectors. He is Toptal-vetted (Top 3%) and holds the Google Cloud Professional Data Engineer certification and IBM Big Data Engineer and Artificial Intelligence Analyst Mastery Awards.
+Meet Vaghasia is the founder of MV.tech Solutions. His work includes building data pipelines, moving reports into cloud warehouses and connecting AI assistants to business systems. He holds the Google Cloud Professional Data Engineer certification and IBM Mastery Awards in big data engineering and artificial intelligence analysis.
 
-About MV.tech SolutionsToptal profileServices
+About MV.tech SolutionsSelected engineering workServices
 Your next step
 
 ### Want help applying this?
@@ -2199,7 +2201,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/privacy/
 Description: How MV.tech Solutions collects, uses and protects personal information on mvtech.solutions, and how US residents can exercise their privacy rights.
-Last modified: 2026-11-14
+Last modified: 2026-11-23
 
 Legal
 
@@ -2207,7 +2209,7 @@ Legal
 
 What personal information mvtech.solutions collects, why we collect it, who receives it and the choices you have. This policy covers this website and the inquiries you send us.
 
-Last updated: November 14, 2026
+Last updated: November 23, 2026
 
 ### Who we are
 
@@ -2310,7 +2312,7 @@ Data we work with while delivering services for a client is governed by that cli
 
 ### Links to other websites
 
-This website links to websites we do not control, such as LinkedIn, Toptal and Calendly. Their own privacy policies apply when you visit them.
+This website links to websites we do not control, such as LinkedIn and Calendly. Their own privacy policies apply when you visit them.
 
 ### Changes to this policy
 
@@ -2416,7 +2418,7 @@ Tell us what you want to build, improve or connect. We’ll discuss the requirem
 
 URL: https://mvtech.solutions/remote-consulting/
 Description: Work with MV.tech Solutions through project delivery, dedicated engineers or specialist capacity, with responsibilities and collaboration hours agreed.
-Last modified: 2026-11-14
+Last modified: 2026-11-23
 
 Remote engineering services
 
@@ -2517,16 +2519,12 @@ Working together
 - 01 — Discuss the work — Clarify the requirement, team structure, systems and collaboration needs.
 - 02 — Agree the engagement — Confirm the delivery model, assigned capacity, hours and commercial terms.
 - 03 — Deliver and review — Work in agreed review cycles, document decisions and assess priorities as the engagement progresses.
-Teams our engineers have worked with
+From our founder’s engineering work
 
-- Google
-- Volvo
-- BCW
-- RootstockLabs
-- Chainlabs
-- Toptal
-- Turing
-Explore our expertiseMeet Vaghasia on ToptalAll services
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseAll services
 Before we begin
 
 ### Questions about hiring a remote data team in India
@@ -2543,7 +2541,7 @@ No. Overlap means agreed working hours for collaboration. Any support coverage, 
 A focused remote model can avoid large office and account-management costs and keep clients closer to the specialists doing the work. The total project cost depends on scope, complexity and support; we agree the deliverables and commercial terms for each engagement.
 
 **How can we assess the team's experience?**
-Review our expertise page and the linked Toptal professional profile, then discuss experience relevant to your stack and workflow. The Top 3% credential belongs to the linked individual profile.
+Start with the work examples on our expertise page. Then ask the engineer who would join your project to walk through a similar technical decision, how they checked the result and what they would do differently in your setup.
 
 **How much does a remote data team in India cost?**
 Pricing is agreed per engagement and we quote after a scoping call. The total depends on scope, complexity and the support you need us to own, and a focused remote team keeps office and management overhead low. Compare proposals on agreed scope, senior delivery time, validation, handover and support so the figure reflects the work you actually need.
@@ -2610,7 +2608,7 @@ Services
 
 ## Software, data and AI services for your business.
 
-Build a new system, modernize the one you have or extend your engineering team. MV.tech Solutions provides development and consulting services across business applications, data platforms, analytics, AI and automation. Choose a service below to see what we deliver and what we need to quote your project.
+Build a new system, modernize the one you have or extend your engineering team. Choose a service below to see what we deliver, or explore examples from social publishing, AI reporting and email automation.
 
 Engineering services
 
@@ -2787,16 +2785,12 @@ Working together
 - 01 — Assess the use case — Review business value, source quality, integration requirements and the cost of incorrect output.
 - 02 — Develop and evaluate — Build the retrieval or workflow, test it against representative inputs and review failures with your team.
 - 03 — Integrate and improve — Release to the agreed audience, monitor performance and update the application as requirements change.
-Teams our engineers have worked with
+From our founder’s engineering work
 
-- Google
-- Volvo
-- BCW
-- RootstockLabs
-- Chainlabs
-- Toptal
-- Turing
-Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseTime zones, team and engagement costs
 Before we begin
 
 ### Questions buyers ask about RAG, LLM integration and AI agents
@@ -2869,6 +2863,13 @@ Service
 Internal employee chatbots that answer questions from approved documents with citations, access controls and evaluation.
 
 Explore the service
+Work example
+
+### A reporting assistant that respects report permissions
+
+See how the assistant looks up report definitions and uses the figures a person is already allowed to view.
+
+Read the example
 Your next step
 
 ### Discuss your AI project.
@@ -2962,16 +2963,12 @@ Working together
 - 01 — Scope the first release — Agree users, roles, the core journey, integrations and acceptance criteria for a first milestone.
 - 02 — Build in short increments — Ship working features to a review environment and adjust priorities with your team as you go.
 - 03 — Launch, measure and extend — Release to real users, watch how the application is used and plan the next features from that evidence.
-Teams our engineers have worked with
+From our founder’s engineering work
 
-- Google
-- Volvo
-- BCW
-- RootstockLabs
-- Chainlabs
-- Toptal
-- Turing
-Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseTime zones, team and engagement costs
 Before we begin
 
 ### Questions about application development
@@ -3113,16 +3110,12 @@ Working together
 - 01 — Assess data and usage — Review the source systems, reporting requirements and any existing query history.
 - 02 — Develop and measure — Build pipelines and models, then validate records, business totals and workload behavior.
 - 03 — Release and document — Deploy jobs and reports with monitoring, access definitions and operating instructions.
-Teams our engineers have worked with
+From our founder’s engineering work
 
-- Google
-- Volvo
-- BCW
-- RootstockLabs
-- Chainlabs
-- Toptal
-- Turing
-Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseTime zones, team and engagement costs
 Before we begin
 
 ### Questions people ask before hiring a BigQuery consultant.
@@ -3288,16 +3281,12 @@ Working together
 - 01 — Define the reporting scope — Agree networks, wallets, contracts, history and the financial or analytical questions to answer.
 - 02 — Ingest and model — Build the collection and decoding pipeline, retaining raw transactions and traceable transformations.
 - 03 — Reconcile and publish — Compare the results with available records and release documented datasets, reports and correction procedures.
-Teams our engineers have worked with
+From our founder’s engineering work
 
-- Google
-- Volvo
-- BCW
-- RootstockLabs
-- Chainlabs
-- Toptal
-- Turing
-Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseTime zones, team and engagement costs
 Before we begin
 
 ### Questions buyers ask about blockchain data analytics
@@ -3353,7 +3342,7 @@ Tell us about the work, your current systems and the people who will use the res
 
 URL: https://mvtech.solutions/services/business-intelligence/
 Description: BI consulting, reporting datasets, semantic models and dashboards in Power BI, Tableau, Looker Studio and Streamlit, with KPI definition and validation.
-Last modified: 2026-11-16
+Last modified: 2026-11-23
 
 MV.tech Solutions services
 
@@ -3436,16 +3425,12 @@ Working together
 - 01 — Understand the reporting need — Identify users, decisions, source systems and the definitions behind existing figures.
 - 02 — Model and develop — Build the reporting dataset, reusable measures and dashboards with regular user review.
 - 03 — Validate and publish — Reconcile key figures, check access and refreshes, and hand over the model and reports.
-Teams our engineers have worked with
+From our founder’s engineering work
 
-- Google
-- Volvo
-- BCW
-- RootstockLabs
-- Chainlabs
-- Toptal
-- Turing
-Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseTime zones, team and engagement costs
 Before we begin
 
 ### Common questions about Power BI and dashboard consulting
@@ -3472,6 +3457,9 @@ The fix is to reduce what the report has to read rather than importing less data
 
 **How much does a Power BI consultant cost?**
 We quote after a scoping call. A useful first project is one dashboard rebuilt on an agreed grain and reconciled against the figures people already trust, and further dashboards and a wider semantic layer are scoped once that first one is agreed. Our team works from New York and Ahmedabad, India, with working hours planned around your time zone and a lean model that avoids large-consultancy overhead.
+
+**How would an AI assistant work inside our BI platform?**
+Someone can ask which report answers a question or what a metric totaled in a given period. The assistant should check the person’s access, use the reporting system to calculate the number and link to the report so they can check it. Our founder worked on a platform that follows this approach.
 
 Related services
 
@@ -3514,6 +3502,13 @@ AI data access
 Scoped identities, checked SQL, row limits and provenance for assistants connected to business data.
 
 AI access guide
+Work example
+
+### An AI assistant for a custom BI platform
+
+See how a person can find a report, check its last refresh and ask for a figure using their existing permissions.
+
+Read the example
 Your next step
 
 ### Discuss your reporting requirements.
@@ -3608,16 +3603,12 @@ Working together
 - 01 — Discover and design — Clarify the users, workflows and business rules, and review the systems the application must connect to.
 - 02 — Develop and review — Build features in increments and review working screens and integrations with your team.
 - 03 — Launch and maintain — Complete acceptance checks, deploy the application and hand over code, documentation and support arrangements.
-Teams our engineers have worked with
+From our founder’s engineering work
 
-- Google
-- Volvo
-- BCW
-- RootstockLabs
-- Chainlabs
-- Toptal
-- Turing
-Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseTime zones, team and engagement costs
 Before we begin
 
 ### Questions about custom software development and remote developers
@@ -3669,6 +3660,13 @@ Service
 Customer and partner portals with account permissions, order or request tracking and integrations to existing business systems.
 
 Explore the service
+Work example
+
+### Turning a campaign list into reviewable email drafts
+
+See how a workspace keeps approved copy, selects the intended mailbox and avoids duplicating drafts on a retry.
+
+Read the example
 Your next step
 
 ### Discuss your software project.
@@ -3756,16 +3754,12 @@ Working together
 - 01 — Choose a customer journey — For example, start with someone who needs to find an order and see its latest status.
 - 02 — Connect one end-to-end flow — Agree the source system, map its status to the customer view and test with sample accounts.
 - 03 — Check access before rollout — Confirm the correct account sees the correct record, review how support handles missing data, then agree the next workflow.
-Teams our engineers have worked with
+From our founder’s engineering work
 
-- Google
-- Volvo
-- BCW
-- RootstockLabs
-- Chainlabs
-- Toptal
-- Turing
-Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseTime zones, team and engagement costs
 Before we begin
 
 ### Questions buyers ask
@@ -3895,16 +3889,12 @@ Working together
 - 01 — Assess the data estate — Review sources, existing pipelines, business definitions, access and the reports that depend on them.
 - 02 — Build the platform and validate it — Deliver integrations and models in stages, comparing records and business totals with their sources.
 - 03 — Release and support — Deploy the schedules and monitoring, document ownership and hand over the operating process.
-Teams our engineers have worked with
+From our founder’s engineering work
 
-- Google
-- Volvo
-- BCW
-- RootstockLabs
-- Chainlabs
-- Toptal
-- Turing
-Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseTime zones, team and engagement costs
 Before we begin
 
 ### Common questions about data engineering consulting
@@ -4065,16 +4055,12 @@ Working together
 - 01 — Assess and plan — Map the current estate and agree migration waves, dependencies and acceptance criteria.
 - 02 — Migrate and compare — Build the target layers, load data and reconcile the results with the existing system.
 - 03 — Transition and operate — Move consumers to the new platform with an agreed cutover plan, documentation and support ownership.
-Teams our engineers have worked with
+From our founder’s engineering work
 
-- Google
-- Volvo
-- BCW
-- RootstockLabs
-- Chainlabs
-- Toptal
-- Turing
-Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseTime zones, team and engagement costs
 Before we begin
 
 ### Questions about migrating to Snowflake, BigQuery or Redshift
@@ -4231,16 +4217,12 @@ Working together
 - 01 — Choose actual questions — Collect the questions staff ask most often and agree which source should answer each.
 - 02 — Build a limited pilot — Connect one approved collection and implement source permissions and citations.
 - 03 — Review with the content owners — Check correct answers, unsupported answers and restricted questions before deciding whether to extend access.
-Teams our engineers have worked with
+From our founder’s engineering work
 
-- Google
-- Volvo
-- BCW
-- RootstockLabs
-- Chainlabs
-- Toptal
-- Turing
-Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseTime zones, team and engagement costs
 Before we begin
 
 ### Questions buyers ask
@@ -4381,16 +4363,12 @@ Working together
 - 01 — Review the requirement — Define the work, platform, skills and expected collaboration with your team.
 - 02 — Agree the people and model — Review fit, availability, capacity and the responsibilities of the engagement.
 - 03 — Onboard and deliver — Set up access and review routines, then track delivery against the agreed work.
-Teams our engineers have worked with
+From our founder’s engineering work
 
-- Google
-- Volvo
-- BCW
-- RootstockLabs
-- Chainlabs
-- Toptal
-- Turing
-Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseTime zones, team and engagement costs
 Before we begin
 
 ### Questions people ask before hiring a data engineer.
@@ -4550,16 +4528,12 @@ Working together
 - 01 — Define the requirement — Agree the responsibilities, technical skills and delivery context for the role or team.
 - 02 — Review fit and availability — Meet suitable specialists and confirm capacity, duration and collaboration arrangements.
 - 03 — Onboard and work together — Provide agreed access, establish review routines and track progress against your priorities.
-Teams our engineers have worked with
+From our founder’s engineering work
 
-- Google
-- Volvo
-- BCW
-- RootstockLabs
-- Chainlabs
-- Toptal
-- Turing
-Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseTime zones, team and engagement costs
 Before we begin
 
 ### Common questions about hiring remote data, AI and cloud consultants
@@ -4720,16 +4694,12 @@ Working together
 - 01 — Design the integration — Map the business tasks to source APIs, identities, permissions and tool definitions.
 - 02 — Build and test — Implement the server or connector and test successful calls, invalid inputs and access boundaries.
 - 03 — Deploy and maintain — Release with documentation, logs and operating ownership, then manage source and platform changes.
-Teams our engineers have worked with
+From our founder’s engineering work
 
-- Google
-- Volvo
-- BCW
-- RootstockLabs
-- Chainlabs
-- Toptal
-- Turing
-Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseTime zones, team and engagement costs
 Before we begin
 
 ### Common questions about MCP server development and AI connectors
@@ -4892,16 +4862,12 @@ Working together
 - 01 — Define the roles — Translate the backlog into the engineering, analytics and reporting skills required.
 - 02 — Agree the working arrangement — Confirm available specialists, capacity, tools, collaboration hours and review responsibilities.
 - 03 — Deliver and review — Track work against the agreed backlog, demonstrate progress and review team needs at planned intervals.
-Teams our engineers have worked with
+From our founder’s engineering work
 
-- Google
-- Volvo
-- BCW
-- RootstockLabs
-- Chainlabs
-- Toptal
-- Turing
-Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseTime zones, team and engagement costs
 Before we begin
 
 ### Common questions about hiring an offshore data engineering team
@@ -5064,16 +5030,12 @@ Working together
 - 01 — Review the reporting estate — Identify users, source data, model structure, measures and performance issues.
 - 02 — Develop the model and reports — Build or improve the semantic layer and dashboards with regular business review.
 - 03 — Validate and hand over — Reconcile results, check access and refresh behavior, and document the operating setup.
-Teams our engineers have worked with
+From our founder’s engineering work
 
-- Google
-- Volvo
-- BCW
-- RootstockLabs
-- Chainlabs
-- Toptal
-- Turing
-Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseTime zones, team and engagement costs
 Before we begin
 
 ### Questions about hiring a Power BI consultant.
@@ -5153,7 +5115,7 @@ Founder experience
 
 ### How manual reporting moved into Snowflake
 
-Meet Vaghasia’s individual engagement at Volvo Cars through Toptal included Power BI source mappings and checks across source systems, Snowflake and BI reports.
+Drawing on a reporting migration our founder delivered, this guide shows how to map spreadsheet rules and compare warehouse totals with the reports people use.
 
 Read the reporting example
 Your next step
@@ -5244,16 +5206,12 @@ Working together
 - 01 — Rebuild one period — Walk through a recent reporting cycle with its owner and reproduce the figures from the named sources.
 - 02 — Automate the repeatable steps — Agree which adjustments still require human approval, then implement the source-to-report workflow.
 - 03 — Compare before switching — Run both versions for agreed periods, investigate differences and let the report owner sign off the change.
-Teams our engineers have worked with
+From our founder’s engineering work
 
-- Google
-- Volvo
-- BCW
-- RootstockLabs
-- Chainlabs
-- Toptal
-- Turing
-Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseTime zones, team and engagement costs
 Before we begin
 
 ### Questions buyers ask
@@ -5296,7 +5254,7 @@ Founder experience
 
 ### How manual reporting moved into Snowflake
 
-Meet Vaghasia’s individual engagement at Volvo Cars through Toptal included Power BI source mappings and checks across source systems, Snowflake and BI reports.
+Drawing on a reporting migration our founder delivered, this guide shows how to map spreadsheet rules and compare warehouse totals with the reports people use.
 
 Read the reporting example
 Finance reporting
@@ -5400,16 +5358,12 @@ Working together
 - 01 — Assess the estate — Review sources, warehouse objects, workloads and the reports affected by the work.
 - 02 — Build and validate — Implement the migration or improvements and reconcile the output with source figures.
 - 03 — Release and operate — Complete the report transition, document operating controls and agree support ownership.
-Teams our engineers have worked with
+From our founder’s engineering work
 
-- Google
-- Volvo
-- BCW
-- RootstockLabs
-- Chainlabs
-- Toptal
-- Turing
-Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseTime zones, team and engagement costs
 Before we begin
 
 ### Questions about Snowflake consulting.
@@ -5563,16 +5517,12 @@ Working together
 - 01 — Align the hiring brief — Confirm the role, employment arrangement, required skills and interview process.
 - 02 — Source and assess — Screen candidates and record the technical evidence relevant to your vacancy.
 - 03 — Support the decision — Coordinate interviews, feedback and the next steps with your hiring team.
-Teams our engineers have worked with
+From our founder’s engineering work
 
-- Google
-- Volvo
-- BCW
-- RootstockLabs
-- Chainlabs
-- Toptal
-- Turing
-Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseTime zones, team and engagement costs
 Before we begin
 
 ### Questions about hiring permanent data, AI and cloud engineers
@@ -5734,16 +5684,12 @@ Working together
 - 01 — Plan and design — Agree the pages, journeys, content structure and integrations, and the performance and accessibility targets.
 - 02 — Build and review — Develop in increments on a preview environment your team can click through and comment on.
 - 03 — Launch and support — Run acceptance checks, deploy, carry over redirects and metadata, and hand over code and documentation.
-Teams our engineers have worked with
+From our founder’s engineering work
 
-- Google
-- Volvo
-- BCW
-- RootstockLabs
-- Chainlabs
-- Toptal
-- Turing
-Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseTime zones, team and engagement costs
 Before we begin
 
 ### Questions about web development
@@ -5873,16 +5819,12 @@ Working together
 - 01 — Map the process — Follow a real transaction or report through the current steps and document the rules and exceptions.
 - 02 — Build the integration — Connect the systems and test ordinary records, errors, retries and duplicate handling.
 - 03 — Deploy and maintain — Agree schedules, alerts and operating ownership, then document the workflow for future changes.
-Teams our engineers have worked with
+From our founder’s engineering work
 
-- Google
-- Volvo
-- BCW
-- RootstockLabs
-- Chainlabs
-- Toptal
-- Turing
-Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseTime zones, team and engagement costs
 Before we begin
 
 ### Common questions about workflow automation consulting
@@ -5906,6 +5848,9 @@ Pricing is agreed per engagement and we quote after a scoping call. A useful fir
 
 **How do you reconcile finance data across two systems?**
 We start by documenting what people check today, including the exceptions and the adjustments they make by hand. The workflow then applies matching, tolerance rules, duplicate prevention and retries before any data is written or a downstream action is triggered. Where a figure must still be adjusted manually, an override layer can record the change without altering the immutable source record, which leaves an audit trail instead of an argument.
+
+**Can you build a social media publishing tool around an approval step?**
+Yes. In a platform we built, editors preview a clip, edit captions and choose where the approved version goes. Each channel has its own submission status, so the editor knows which ones need attention before trying again. The supported channels for your project depend on the publishing access they make available.
 
 Related services
 
@@ -5938,9 +5883,16 @@ Founder experience
 
 ### How manual reporting moved into Snowflake
 
-Meet Vaghasia’s individual engagement at Volvo Cars through Toptal included Power BI source mappings and checks across source systems, Snowflake and BI reports.
+Drawing on a reporting migration our founder delivered, this guide shows how to map spreadsheet rules and compare warehouse totals with the reports people use.
 
 Read the reporting example
+Work example
+
+### Inside a social publishing queue
+
+An editor reviews the clip and captions, chooses the channels and can see which destinations accepted the post.
+
+Read the example
 Your next step
 
 ### Discuss your workflow.
@@ -5953,7 +5905,7 @@ Tell us about the work, your current systems and the people who will use the res
 
 URL: https://mvtech.solutions/solutions/
 Description: Business solutions for finance reporting, operational workflows, customer portals, AI applications and blockchain analytics from MV.tech Solutions.
-Last modified: 2026-11-14
+Last modified: 2026-11-23
 
 Business solutions
 
@@ -5975,7 +5927,7 @@ Move recurring spreadsheet work into managed transformations and reusable datase
 
 #### Metric and data consistency
 
-Trace differences between systems, define shared KPIs and build checks for the figures used in management reporting.
+Trace differences between systems, define shared KPIs and build checks for the figures used in management reporting. See a lead-to-sale comparison.
 
 Operations
 
@@ -5983,7 +5935,7 @@ Operations
 
 #### Internal business applications
 
-Build tools for operational records, forms, review queues and approvals, with access roles suited to the teams using them.
+Build tools for operational records, review queues and approvals. See how a social publishing platform and an email draft workspace handle everyday work.
 
 #### Connected business systems
 
@@ -6003,7 +5955,7 @@ Give users an application for information, submissions and status tracking, conn
 
 #### AI-enabled applications
 
-Add document search, knowledge assistants or processing workflows with defined information sources, permissions and evaluation.
+Add document search or an assistant that works with the data a user can access. See a custom BI platform with an AI reporting assistant.
 
 #### Engineering team extension
 
@@ -6099,3 +6051,71 @@ We may update these terms. The date at the top shows the latest version, which a
 ### Contact
 
 Questions about these terms: contact@mvtech.solutions.
+
+---
+
+# Social Automation, AI Reporting & Marketing Work | MV.tech Solutions
+
+URL: https://mvtech.solutions/work/
+Description: Explore software and marketing work from our team and founder, including a social publishing platform, an AI reporting assistant, email automation and lead-to-sale analysis.
+Last modified: 2026-11-23
+
+## Software, automation and marketing work.
+
+A publishing queue for an editor. A reporting assistant that respects each person’s access. An email workspace that keeps track of drafts. Here’s a look at tools we run ourselves, campaign assets we’ve delivered and reporting work our founder has done.
+
+Social publishingAI-assisted BIEmail automationMarketing attributionFinance reportingCampaign content
+Social media automation
+
+### One publishing queue for short-form video.
+
+An editor can bring in a clip they own or have permission to use, check the crop, edit suggested captions and preview the finished video. The publishing portal keeps the approved version with its captions and the destinations the editor chose.
+
+If two channels accept the post and a third times out, the editor can see the receipt for each one. The queue flags the uncertain result for review before another copy goes out. That detail matters when the same piece of content is going to several channels.
+
+Discuss a publishing workflowWorkflow automation services
+Custom business intelligence
+
+### A BI platform people can ask questions of.
+
+Our founder worked on a reporting platform with dashboards, scheduled data refreshes and an AI assistant. Someone can ask which report covers a question, when its data last refreshed or what a metric totaled over a period. The assistant can look up the report definition and use the reporting system to calculate the figure.
+
+The assistant uses the same report permissions as the person asking. Someone with access to sales reporting can ask about those figures. A restricted finance report stays restricted. Users can open the underlying report to check an answer.
+
+Discuss a custom BI platformBusiness intelligence services
+Email and marketing operations
+
+### From a contact list to email drafts a person reviews.
+
+We built a workspace that reads campaign rows, checks the sender and recipient, and prepares a draft in the right mailbox. It keeps approved copy where the team has already written it and shows which rows need someone’s attention.
+
+Running the same batch again reuses an existing draft. A missing contact or an incomplete row can be fixed on its own. The sender reviews the message and chooses when to send it.
+
+Discuss an email workflowCustom software services
+Marketing analytics
+
+### Checking which leads turned into sales.
+
+Two reporting systems can give different answers to “Which leads became customers?” Our founder compared lead-to-sale matches from an internal attribution process with the results from an external provider. The work involved tracing which records each method linked to the same sale and identifying where they disagreed.
+
+For a team commissioning similar work, a useful start is one campaign and one closed sales period. Agree which event counts as a sale, check a sample of matches together and keep unmatched records visible when reviewing the totals.
+
+Discuss marketing attributionData engineering services
+Finance data engineering
+
+### Tracing a reporting difference back to the ledger.
+
+Our founder built a finance integration that kept transaction detail alongside monthly balances. A reviewer could compare an account total with the ledger for the same period and investigate differences before relying on a dashboard.
+
+Our supplier-statement guide shows how that investigation works when a credit arrives on the last day of the month and is posted the following day.
+
+Read the worked exampleDiscuss a reconciliation
+Marketing campaign production
+
+### A social carousel, ready for the person publishing it.
+
+For a seasonal campaign, we designed a set of portrait slides for a social post. We delivered each piece of artwork separately, along with a preview showing the full carousel in reading order.
+
+The preview let the reviewer check how the story read from the opening slide to the last. The individual files made it possible to change a single slide or hand the approved set to the person preparing the post.
+
+Discuss a campaign workflowSee the publishing platform

@@ -426,6 +426,13 @@
         "title": "Employee AI Chatbot Development",
         "text": "Internal employee chatbots that answer questions from approved documents with citations, access controls and evaluation.",
         "label": "Explore the service"
+      },
+      {
+        "href": "/work/#ai-bi-platform",
+        "kicker": "Work example",
+        "title": "A reporting assistant that respects report permissions",
+        "text": "See how the assistant looks up report definitions and uses the figures a person is already allowed to view.",
+        "label": "Read the example"
       }
     ],
     "summary": "Turn a useful AI idea into a working business application.",
@@ -702,6 +709,10 @@
       {
         "question": "How much does a Power BI consultant cost?",
         "answer": "We quote after a scoping call. A useful first project is one dashboard rebuilt on an agreed grain and reconciled against the figures people already trust, and further dashboards and a wider semantic layer are scoped once that first one is agreed. Our team works from New York and Ahmedabad, India, with working hours planned around your time zone and a lean model that avoids large-consultancy overhead."
+      },
+      {
+        "question": "How would an AI assistant work inside our BI platform?",
+        "answer": "Someone can ask which report answers a question or what a metric totaled in a given period. The assistant should check the person’s access, use the reporting system to calculate the number and link to the report so they can check it. Our founder worked on a platform that follows this approach."
       }
     ],
     "summary": "Give business teams a consistent view of performance.",
@@ -735,6 +746,13 @@
         "title": "Letting AI assistants query your data warehouse safely",
         "text": "Scoped identities, checked SQL, row limits and provenance for assistants connected to business data.",
         "label": "AI access guide"
+      },
+      {
+        "href": "/work/#ai-bi-platform",
+        "kicker": "Work example",
+        "title": "An AI assistant for a custom BI platform",
+        "text": "See how a person can find a report, check its last refresh and ask for a figure using their existing permissions.",
+        "label": "Read the example"
       }
     ],
     "applications": [
@@ -1137,6 +1155,10 @@
       {
         "question": "How do you reconcile finance data across two systems?",
         "answer": "We start by documenting what people check today, including the exceptions and the adjustments they make by hand. The workflow then applies matching, tolerance rules, duplicate prevention and retries before any data is written or a downstream action is triggered. Where a figure must still be adjusted manually, an override layer can record the change without altering the immutable source record, which leaves an audit trail instead of an argument."
+      },
+      {
+        "question": "Can you build a social media publishing tool around an approval step?",
+        "answer": "Yes. In a platform we built, editors preview a clip, edit captions and choose where the approved version goes. Each channel has its own submission status, so the editor knows which ones need attention before trying again. The supported channels for your project depend on the publishing access they make available."
       }
     ],
     "summary": "Reduce the manual work between your business systems.",
@@ -1180,8 +1202,15 @@
         "href": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
         "kicker": "Founder experience",
         "title": "How manual reporting moved into Snowflake",
-        "text": "Meet Vaghasia’s individual engagement at Volvo Cars through Toptal included Power BI source mappings and checks across source systems, Snowflake and BI reports.",
+        "text": "Drawing on a reporting migration our founder delivered, this guide shows how to map spreadsheet rules and compare warehouse totals with the reports people use.",
         "label": "Read the reporting example"
+      },
+      {
+        "href": "/work/#social-media-automation",
+        "kicker": "Work example",
+        "title": "Inside a social publishing queue",
+        "text": "An editor reviews the clip and captions, chooses the channels and can see which destinations accepted the post.",
+        "label": "Read the example"
       }
     ]
   },
@@ -1312,6 +1341,13 @@
         "title": "Customer Portal Development",
         "text": "Customer and partner portals with account permissions, order or request tracking and integrations to existing business systems.",
         "label": "Explore the service"
+      },
+      {
+        "href": "/work/#email-automation",
+        "kicker": "Work example",
+        "title": "Turning a campaign list into reviewable email drafts",
+        "text": "See how a workspace keeps approved copy, selects the intended mailbox and avoids duplicating drafts on a retry.",
+        "label": "Read the example"
       }
     ]
   },
@@ -1932,7 +1968,7 @@
       },
       {
         "question": "How can we assess the team's experience?",
-        "answer": "Review our expertise page and the linked Toptal professional profile, then discuss experience relevant to your stack and workflow. The Top 3% credential belongs to the linked individual profile."
+        "answer": "Start with the work examples on our expertise page. Then ask the engineer who would join your project to walk through a similar technical decision, how they checked the result and what they would do differently in your setup."
       },
       {
         "question": "How much does a remote data team in India cost?",
@@ -2632,7 +2668,7 @@
         "href": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
         "kicker": "Founder experience",
         "title": "How manual reporting moved into Snowflake",
-        "text": "Meet Vaghasia’s individual engagement at Volvo Cars through Toptal included Power BI source mappings and checks across source systems, Snowflake and BI reports.",
+        "text": "Drawing on a reporting migration our founder delivered, this guide shows how to map spreadsheet rules and compare warehouse totals with the reports people use.",
         "label": "Read the reporting example"
       }
     ],
@@ -2985,7 +3021,7 @@
         "href": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
         "kicker": "Founder experience",
         "title": "How manual reporting moved into Snowflake",
-        "text": "Meet Vaghasia’s individual engagement at Volvo Cars through Toptal included Power BI source mappings and checks across source systems, Snowflake and BI reports.",
+        "text": "Drawing on a reporting migration our founder delivered, this guide shows how to map spreadsheet rules and compare warehouse totals with the reports people use.",
         "label": "Read the reporting example"
       },
       {
