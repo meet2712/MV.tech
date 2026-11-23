@@ -15,6 +15,9 @@ export const contractingParty = (site) => `${site.legalEntity.name}, doing busin
 export const factTokens = (site) => ({
   'company.name': site.name,
   'company.short': site.shortName,
+  'profile.linkedin': site.linkedin,
+  'profile.goodfirms': site.goodfirms,
+  'profile.clutch': site.clutch,
   'legal.name': site.legalEntity.name,
   'legal.form': site.legalEntity.form,
   'legal.line': legalLine(site),
@@ -142,6 +145,9 @@ export function servicePage(page, site, allPages) {
   const crumbs = [{ name: 'Home', url: '/' }, ...(servicePage ? [{ name: 'Services', url: '/services/' }] : []), { name: page.name, url: page.path }];
   const fields = page.enquiryFields ?? ['Project goal', 'Current systems', 'Target date', 'Time zone and preferred overlap', 'Budget range (optional)'];
   const subject = `${page.name} inquiry`;
+  const briefButton = page.briefLink
+    ? `<a class="button-secondary" href="/contact/#${h(page.briefLink.anchor)}">${h(page.briefLink.label)} ${icon('arrow-right')}</a>`
+    : emailLink(site, subject, fields);
   const remote = page.key === 'remote-consulting';
   return `<main id="main-content">
   <section class="page-hero">
@@ -150,7 +156,7 @@ export function servicePage(page, site, allPages) {
       <p class="eyebrow">${h(page.eyebrow ?? 'Service · Remote-first senior specialists')}</p>
       <h1>${h(page.h1 ?? page.name)}</h1>
       <p class="lead">${h(page.intro)}</p>
-      <div class="action-row">${callButton(site, page.callLabel ?? 'Discuss your project')}${emailLink(site, subject, fields)}</div>
+      <div class="action-row">${callButton(site, page.callLabel ?? 'Discuss your project')}${briefButton}</div>
       <ul class="fact-row" aria-label="Engagement facts"><li>${icon('map-pin')}Offices in New York and Ahmedabad</li><li>${icon('clock-3')}Overlap with your time zone</li><li>${icon('users-round')}Senior specialists, direct access</li><li>${icon('file-check-2')}Scope agreed in writing</li></ul>
     </div>
   </section>

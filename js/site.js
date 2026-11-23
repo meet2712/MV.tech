@@ -58,12 +58,15 @@
   document.addEventListener('click', (event) => {
     const link = event.target.closest('a[href]');
     if (!link) return;
-    const url = new URL(link.getAttribute('href'), window.location.origin);
+    const url = new URL(link.getAttribute('href'), window.location.href);
     let method;
     if (url.protocol === 'mailto:') method = 'email';
     if (url.protocol === 'tel:') method = 'phone';
     if (url.hostname === 'calendly.com') method = 'calendar';
-    if (url.origin === window.location.origin && url.pathname === '/contact/' && url.hash === '#book-call') method = 'calendar';
+    if (url.origin === window.location.origin && url.pathname === '/contact/') {
+      if (url.hash === '#book-call') method = 'calendar';
+      if (url.hash === '#brief-form' || url.hash.endsWith('-brief')) method = 'brief';
+    }
     if (method) track('contact_intent', { method });
   });
 
@@ -122,25 +125,58 @@
     const preview = document.getElementById('brief-preview');
     const status = document.getElementById('brief-status');
     const email = brief.dataset.email;
+    const need = brief.elements.namedItem('need');
+    const guides = document.getElementById('brief-guides');
+    const groups = brief.querySelectorAll('fieldset[data-brief-fields]');
+    const copyButton = brief.querySelector('[data-copy-brief]');
+    copyButton.hidden = false;
+
+    const updateFields = () => {
+      const selected = need.selectedOptions[0];
+      for (const group of groups) {
+        const active = group.dataset.briefFields === selected.dataset.fields;
+        group.hidden = !active;
+        group.disabled = !active;
+      }
+      for (const guide of guides?.children ?? []) guide.classList.toggle('is-current', guide.id === selected.dataset.brief);
+      if (status) status.textContent = '';
+      if (preview) preview.classList.remove('is-visible');
+    };
+    const selectLinkedBrief = () => {
+      const anchor = window.location.hash.slice(1);
+      const option = Array.from(need.options).find((item) => item.dataset.brief === anchor);
+      if (option) need.value = option.value;
+      updateFields();
+    };
+    guides?.classList.add('is-enhanced');
+    selectLinkedBrief();
+    need.addEventListener('change', updateFields);
+    window.addEventListener('hashchange', selectLinkedBrief);
+
     const compose = () => {
       const data = new FormData(brief);
       const lines = [];
       for (const [key, value] of data.entries()) {
         const label = brief.querySelector(`[name="${key}"]`)?.closest('label')?.querySelector('span')?.textContent || key;
-        lines.push(`${label}: ${String(value).trim() || '-'}`);
+        const answer = String(value).trim();
+        if (answer) lines.push(`${label}: ${answer}`);
       }
       const need = (data.get('need') || 'Project').toString();
       const subject = `${need} inquiry for MV.tech Solutions`;
       const body = lines.join('\n\n') + '\n';
       return { subject, body, href: `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}` };
     };
+    const trackCompose = (method) => track('brief_compose', {
+      method,
+      brief_topic: need.selectedOptions[0].dataset.fields || 'general',
+    });
     brief.addEventListener('submit', (event) => {
       event.preventDefault();
       const { href } = compose();
-      track('brief_compose', { method: 'email' });
+      trackCompose('email');
       window.location.href = href;
     });
-    brief.querySelector('[data-copy-brief]')?.addEventListener('click', async () => {
+    copyButton.addEventListener('click', async () => {
       const { subject, body } = compose();
       const text = `To: ${email}\nSubject: ${subject}\n\n${body}`;
       try {
@@ -152,7 +188,7 @@
         if (preview) { preview.textContent = text; preview.classList.add('is-visible'); }
         if (status) status.textContent = 'Copy the draft below and paste it into your email.';
       }
-      track('brief_compose', { method: 'copy' });
+      trackCompose('copy');
     });
     brief.addEventListener('input', () => {
       if (status) status.textContent = '';

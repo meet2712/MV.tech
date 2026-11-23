@@ -21,7 +21,7 @@ This file is generated from the public pages listed below, so it always matches 
 
 URL: https://mvtech.solutions/
 Description: MV.tech Solutions builds custom software, data platforms, BI and AI systems, and provides dedicated engineering teams. Offices in New York and Ahmedabad.
-Last modified: 2026-11-20
+Last modified: 2026-11-23
 
 Software, data & AI engineering
 
@@ -50,7 +50,7 @@ Hand us one piece of work or the whole project.
 
 Bring data from your business systems into a reliable warehouse, with pipelines, clear models and checks against the source.
 
-Explore Data Engineering
+Data engineering Migrate a warehouse or ETL pipeline
 
 #### Business Intelligence & Analytics
 
@@ -74,7 +74,7 @@ Explore AI Services
 
 Add data, software, cloud or AI specialists to your delivery team, with agreed responsibilities and working hours.
 
-Explore Dedicated Teams
+Hire a data engineer Build an offshore data team
 
 #### Technology Recruitment
 
@@ -201,7 +201,7 @@ Book a 30-minute call or send us an email. We’ll tell you straight whether we�
 
 URL: https://mvtech.solutions/about/
 Description: MV.tech Solutions is a software, data and AI engineering company with offices in New York, USA, and Ahmedabad, India. Meet the company and its founder.
-Last modified: 2026-11-20
+Last modified: 2026-11-23
 
 About MV.tech Solutions
 
@@ -268,6 +268,8 @@ Company information
   10–15 specialists
 - Founder
   Meet Vaghasia
+- Company profiles
+  LinkedIn·GoodFirms·Clutch
 - India GSTIN
   24BZMPV4008F1ZA
 - Contact
@@ -485,7 +487,7 @@ Procurement, security and legal questions are easiest to answer at the scoping s
 
 URL: https://mvtech.solutions/contact/
 Description: Discuss software, data, BI, AI or automation requirements with MV.tech Solutions. Book a consultation or send a brief for a project, a team or a hire.
-Last modified: 2026-11-20
+Last modified: 2026-11-23
 
 Contact
 
@@ -512,9 +514,22 @@ Prefer to write?
 
 ### Start with a short brief.
 
-Share what you know. All fields are optional. You can review the draft in your email app before sending it.
+Share what you know. Every field is optional. You can review the draft in your email app before sending it.
 
-What do you need? Help choosing a serviceOffshore data engineering teamData engineering and ETLData warehouse migrationBusiness intelligence and dashboardsWeb development (React, Next.js, Node.js)Application development (web apps, SaaS, MVPs)Custom softwareWorkflow automation and API integrationAI and RAG developmentMCP servers and AI connectorsBlockchain data analyticsConsultant in our team (staff augmentation)Permanent hire (recruitment)Snowflake consultingBigQuery consultingPower BI consultingSomething else
+Hiring an engineer? Tell us what they’ll own and whether you want them to join your team or deliver a project.
+
+For an offshore team, tell us which skills you have in-house, where you need help and when the teams can work together.
+
+For a permanent hire, share the role, the level of experience you need and where the person can work.
+
+For a reconciliation, name the two reports that disagree and the statement date. An example with the names and amounts changed is fine.
+
+For a warehouse migration, tell us which pipeline or report should move first and how you’ll check the result.
+
+What do you need? Help choosing a service Hire an engineer Offshore data engineering team Consultant in our team (staff augmentation) Permanent hire (recruitment) Data engineering and ETL Data warehouse migration Business Central finance reconciliation Business intelligence and dashboards Reporting automation Web development (React, Next.js, Node.js) Application development (web apps, SaaS, MVPs) Customer portal development Custom software Workflow automation and API integration AI and RAG development Employee AI chatbots MCP servers and AI connectors Blockchain data analytics Snowflake consulting BigQuery consulting Power BI consulting Something else
+About the role Role and experience level Location or remote policy Capacity or duration
+About the difference Which figures disagree? Statement date and currency
+About the migration What would you move first? How will you check the new result?
 What needs to improve, and what would success look like?
 Current systems and tools
 Time zone and preferred overlap hours
@@ -522,7 +537,7 @@ Target date
 Budget range (optional)
 Your name and company
 Open in my email app Copy the brief instead
-No mail app? Copy the brief and paste it into any email to contact@mvtech.solutions. Please do not include credentials; they are never needed for an inquiry.
+You can also email contact@mvtech.solutions directly. Please leave passwords and private records out of your brief.
 
 - Need a consultant in your team? Share the role, stack, duration and hours; see staff augmentation.
 - Hiring permanently? Share the role, location or remote policy and timeline; see technology recruitment.
@@ -569,7 +584,7 @@ Three things to bring
 
 URL: https://mvtech.solutions/expertise/
 Description: Explore MV.tech Solutions capabilities in software, data platforms, BI, AI and cloud delivery, with founder experience and professional credentials.
-Last modified: 2026-11-16
+Last modified: 2026-11-23
 
 Expertise
 
@@ -583,11 +598,11 @@ Technical capabilities
 
 #### Data engineering and warehouses
 
-Python, SQL, BigQuery, Snowflake, Amazon Redshift and PostgreSQL. Pipelines, layered warehouse models, source integration, migration and data quality.
+We use Python, SQL and Hevo Data to bring changes from operational databases and systems such as HubSpot into BigQuery, Snowflake or Redshift. During a migration, we trace the fields behind each report and check the new totals against the source.
 
 #### Business intelligence and analytics
 
-Power BI, DAX, Tableau, Looker Studio, Streamlit and Plotly. Semantic models, reusable measures, dashboards and reconciliation.
+Our founder has moved Tableau reports to Streamlit and rebuilt reporting in Power BI. We use DAX, Looker Studio and Plotly where the report calls for them, and check the figures people rely on before switching tools.
 
 #### Web and application development
 
@@ -610,6 +625,10 @@ Selected engineering experience
 ### Experience in data platforms, reporting and AI.
 
 Selected work from Meet Vaghasia’s individual engagements, including through talent platforms. Details are published on his Toptal profile.
+
+#### Reporting migration · Volvo Cars through Toptal
+
+Meet mapped existing reports to Snowflake and checked the Power BI figures against their sources. Read how to check a reporting migration.
 
 #### Data platforms and AI · RootstockLabs
 
@@ -760,7 +779,7 @@ Tell us what you want to build, improve or connect. We’ll discuss the requirem
 
 URL: https://mvtech.solutions/insights/
 Description: Practical guides from MV.tech Solutions on remote engineering teams across time zones, hiring data consultants, RAG, MCP servers and engagement models.
-Last modified: 2026-11-14
+Last modified: 2026-11-23
 
 Insights
 
@@ -784,11 +803,11 @@ How to move month-end Excel reporting into Snowflake or BigQuery: finding the so
 Oct 12, 2026 · 6 min read
 Finance data engineering
 
-### Reconciling Dynamics 365 Business Central With Your Data Warehouse
+### Reconciling supplier statements and warehouse reports with Dynamics 365 Business Central
 
-Why Business Central ledger data drifts from warehouse reports, a reconciliation-first integration method and what to check before trusting a dashboard.
+Match a supplier statement to the Business Central vendor ledger, explain month-end differences and check the same balances in your data warehouse.
 
-Oct 12, 2026 · 6 min read
+Oct 12, 2026 · 7 min read
 Cost guide
 
 ### What Does a Remote Data Engineering Team from India Cost?
@@ -810,6 +829,13 @@ Buyer's guide
 A buyer's checklist for a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
 
 Sep 10, 2026 · 5 min read
+Engagement models
+
+### How to compare staff augmentation, project consulting and a permanent hire
+
+Compare staff augmentation and project consulting costs for the same data engineering work. See what to budget for and when a permanent hire makes sense.
+
+Sep 10, 2026 · 6 min read
 Remote delivery playbook
 
 ### How to Work with an India-Based Engineering Team Across Time Zones
@@ -824,13 +850,6 @@ AI engineering
 A plain-language comparison of retrieval-augmented generation and fine-tuning for knowledge assistants: when each fits, permissions, evaluation and cost.
 
 Sep 10, 2026 · 5 min read
-Engagement models
-
-### Staff Augmentation vs Project Consulting vs Recruitment: Which Engagement Model Fits?
-
-How to choose between embedding a consultant, a scoped project and a permanent hire for data, software and AI work: control, cost, speed and risk.
-
-Sep 10, 2026 · 6 min read
 AI engineering
 
 ### What Is an MCP Server, and When Should a Business Build One?
@@ -932,9 +951,9 @@ A buyer's checklist for a remote data engineering partner: who does the work, ho
 5 min read
 Engagement models
 
-### Staff Augmentation vs Project Consulting vs Recruitment: Which Engagement Model Fits?
+### How to compare staff augmentation, project consulting and a permanent hire
 
-How to choose between embedding a consultant, a scoped project and a permanent hire for data, software and AI work: control, cost, speed and risk.
+Compare staff augmentation and project consulting costs for the same data engineering work. See what to budget for and when a permanent hire makes sense.
 
 6 min read
 Cost guide
@@ -1058,11 +1077,11 @@ A plain-language comparison of retrieval-augmented generation and fine-tuning fo
 5 min read
 Finance data engineering
 
-### Reconciling Dynamics 365 Business Central With Your Data Warehouse
+### Reconciling supplier statements and warehouse reports with Dynamics 365 Business Central
 
-Why Business Central ledger data drifts from warehouse reports, a reconciliation-first integration method and what to check before trusting a dashboard.
+Match a supplier statement to the Business Central vendor ledger, explain month-end differences and check the same balances in your data warehouse.
 
-6 min read
+7 min read
 About the author
 
 ### Meet Vaghasia
@@ -1174,11 +1193,11 @@ Related guides
 
 Finance data engineering
 
-### Reconciling Dynamics 365 Business Central With Your Data Warehouse
+### Reconciling supplier statements and warehouse reports with Dynamics 365 Business Central
 
-Why Business Central ledger data drifts from warehouse reports, a reconciliation-first integration method and what to check before trusting a dashboard.
+Match a supplier statement to the Business Central vendor ledger, explain month-end differences and check the same balances in your data warehouse.
 
-6 min read
+7 min read
 AI engineering
 
 ### How Do You Let an AI Assistant Query Your Data Warehouse Safely?
@@ -1319,9 +1338,9 @@ How to evaluate a data consultancy for an offshore team, and where MV.tech Solut
 3 min read
 Engagement models
 
-### Staff Augmentation vs Project Consulting vs Recruitment: Which Engagement Model Fits?
+### How to compare staff augmentation, project consulting and a permanent hire
 
-How to choose between embedding a consultant, a scoped project and a permanent hire for data, software and AI work: control, cost, speed and risk.
+Compare staff augmentation and project consulting costs for the same data engineering work. See what to budget for and when a permanent hire makes sense.
 
 6 min read
 Remote delivery playbook
@@ -1483,26 +1502,36 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 ---
 
-# Reconciling Business Central With a Data Warehouse | MV.tech Solutions
+# Business Central Supplier Statement Reconciliation | MV.tech Solutions
 
 URL: https://mvtech.solutions/insights/reconciling-dynamics-365-business-central-with-your-data-warehouse/
-Description: Why Business Central ledger data drifts from warehouse reports, a reconciliation-first integration method and what to check before trusting a dashboard.
-Last modified: 2026-11-16
+Description: Match a supplier statement to the Business Central vendor ledger, explain month-end differences and check the same balances in your data warehouse.
+Last modified: 2026-11-23
 
 Finance data engineering
 
-## Reconciling Dynamics 365 Business Central With Your Data Warehouse
+## Reconciling supplier statements and warehouse reports with Dynamics 365 Business Central
 
-Why Business Central ledger data drifts from warehouse reports, a reconciliation-first integration method and what to check before trusting a dashboard.
+Match a supplier statement to the Business Central vendor ledger, explain month-end differences and check the same balances in your data warehouse.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published October 12, 2026 · Updated November 16, 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published October 12, 2026 · Updated November 23, 2026 · 7 min read
 
 In brief
 
-- Business Central and the warehouse usually disagree for five reasons: floating-point amounts, document date used instead of posting date, dimensions read from the current master, reversals handled on one side only, and extracts taken before the period closed.
-- The fix is a method: extract entities instead of reports, store amounts as exact decimals, keep a transaction table and a monthly snapshot that reconcile to each other, and compare control totals per account against the trial balance.
-- Before trusting a finance dashboard, ask for the control-total comparison for the last closed month. If nobody can show it to the penny, the dashboard is an estimate.
-Finance teams that report from Microsoft Dynamics 365 Business Central tend to reach the same point: the warehouse dashboard says one number, the trial balance says another, and the gap is small enough to ignore in a meeting and large enough that nobody trusts the dashboard again. This guide explains where the drift comes from, describes an integration that reconciles by design, lists what to check before a finance dashboard is used for decisions, and sets out a first milestone.
+- If asupplier statementdiffers from Business Central, compare both balances for the same vendor, currency and closing date. Then match the documents behind the difference.
+- If Business Central agrees with the supplier and thewarehouse still disagrees, trace the entries from the ledger to the report. Check posting dates, amounts, reversals and the last successful refresh.
+
+### How do you reconcile a supplier statement in Business Central?
+
+- Start with one vendor and one statement date.In Business Central, run Vendor – Detail Trial Balance (report 304). Filter to the vendor and the statement period. Use the currency on the statement and compare the opening balances first. If they already differ, go back to the last agreed balance.Microsoft’s guide to the vendor report.
+- Match each invoice, credit and payment.Put the supplier’s document reference beside the external document number or payment reference in Business Central. Compare the amount and posting date. For a payment covering several invoices, check how much was applied to each one. A vendor’s total can agree even when a payment is sitting against the wrong invoice.How Business Central applies vendor entries.
+- Explain what remains.For each unmatched line, keep the reference, both dates, the amount in the statement currency and who will follow up. A missing invoice needs a copy from the supplier. A payment in transit needs its bank reference and clearing date. Recheck each item on the next statement.
+
+#### A credit that crosses month-end
+
+Suppose both sides start July at zero. The supplier invoices £1,200 and issues a £300 credit on July 31. Its statement closes at £900 owed. Your team posts that credit in Business Central on August 1, so the July vendor report shows £1,200 owed. The £300 difference is the credit. Keep its reference with the July reconciliation and check that the August posting clears it.
+
+A warehouse report of £1,200 would agree with Business Central at July 31 in this example. If the dashboard shows £900, check whether it used the supplier’s document date or today’s remaining balance to recreate July. If this comparison keeps taking hours, tell us the statement date, the two totals and where the report runs. Describe the reconciliation you want to automate.
 
 ### Why does Business Central data drift from warehouse reports?
 
@@ -1616,27 +1645,27 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 ---
 
-# Staff Augmentation vs Consulting: Cost and Fit | MV.tech Solutions
+# Staff Augmentation vs Project Consulting Costs | MV.tech Solutions
 
 URL: https://mvtech.solutions/insights/staff-augmentation-vs-project-consulting-vs-recruitment/
-Description: How to choose between embedding a consultant, a scoped project and a permanent hire for data, software and AI work: control, cost, speed and risk.
-Last modified: 2026-11-16
+Description: Compare staff augmentation and project consulting costs for the same data engineering work. See what to budget for and when a permanent hire makes sense.
+Last modified: 2026-11-23
 
 Engagement models
 
-## Staff Augmentation vs Project Consulting vs Recruitment: Which Engagement Model Fits?
+## How to compare staff augmentation, project consulting and a permanent hire
 
-How to choose between embedding a consultant, a scoped project and a permanent hire for data, software and AI work: control, cost, speed and risk.
+Compare staff augmentation and project consulting costs for the same data engineering work. See what to budget for and when a permanent hire makes sense.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published September 10, 2026 · Updated November 16, 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published September 10, 2026 · Updated November 23, 2026 · 6 min read
 
 In brief
 
 - Choose ascoped projectwhen the outcome is clear and you want someone else accountable for delivering it.
 - Choosestaff augmentationwhen the work is ongoing or still taking shape and you want senior capacity working under your own direction.
 - Choosepermanent recruitmentwhen the role will exist for years and belongs inside your organization.
-- Many teams combine them: a project to prove the approach, an embedded consultant to extend it, a permanent hire once the role is understood.
-When a company needs more data, software or AI capability than it has, there are three ways to get it: commission a project, bring outside people into the team, or hire. They are often confused, sometimes deliberately by vendors who sell whichever they have available. This guide separates them by the questions that actually matter: who directs the work, who carries the risk, how quickly it starts and what it costs over time.
+- Compare both proposals against the same deliverable, including the time your own team will spend. See theeight-week cost example.
+Perhaps you have a warehouse migration to finish and a data platform to run afterward. One of those jobs has a finish line. The other needs someone to own it each month. That difference changes what you should ask a supplier to price.
 
 ### The three models, defined
 
@@ -1666,14 +1695,18 @@ Engagement models compared
 
 ### Is staff augmentation cheaper than project-based consulting?
 
-Not by default. They are priced on different things. Staff augmentation is priced on capacity: you pay for named people for an agreed number of hours or months, and the total depends on how long you keep them. Project-based consulting is priced on the outcome: a fixed or milestone price for an agreed scope, with the provider carrying the risk of estimating it.
+It depends on the hours the work will take and who will manage it. For staff augmentation, multiply the agreed rate by the capacity you expect to use. For a scoped project, add the milestone fees. In both cases, include your own team’s time for access, decisions, testing and handover.
 
-That makes the cheaper option depend on how well you know the work:
+#### Two ways to price the same eight-week migration
 
-- Scope is clear and stable:a fixed-scope project is usually easier to budget, because you pay for a result rather than for time.
-- Scope will change as you learn:staff augmentation usually costs less overall, because you are not paying a provider to price in the uncertainty, and you can scale capacity up or down.
-- The need is permanent:a hire costs a one-off recruitment fee plus salary and overheads, and usually beats both once the role is needed for the long term.
-Whichever you choose, compare quotes on the same basis: what is included, who manages the work, and what happens when the scope changes.
+Say you need one pipeline moved and one finance report checked against the original. The example below uses fictional US dollar amounts. Substitute the figures from your proposals, including what an hour of your technical lead’s time costs your business.
+
+Illustrative cost of delivering the same pipeline and signed-off report
+| Budget item | Embedded engineer | Scoped project |
+| Supplier cost | $16,000 for 20 hours a week over eight weeks | $17,000 for the agreed milestone |
+| Your technical lead’s time | 20 hours at $100 = $2,000 | 5 hours at $100 = $500 |
+| Estimated total | $18,000 | $17,500 |
+The project quote starts $1,000 higher and costs $500 less once you include internal time. That comparison assumes the engineer can finish within 160 hours and that both proposals include reconciliation and handover. Ask what an extra source system or two weeks of post-launch fixes would cost before deciding.
 
 ### How to decide
 
@@ -1698,12 +1731,14 @@ A project has a natural end and clear acceptance, which limits the downside. Aug
 
 ### Combining the models
 
-The most effective sequence we see is: a scoped project to prove an approach and establish trust; an embedded consultant to extend it while priorities settle; and a permanent hire once the organization understands the role well enough to write it. Each step reduces the risk of the next. A partner that offers all three, as MV.tech Solutions does, can move with you through that sequence without a change of vendor, but the model you choose at each step should follow the work, not the vendor's preference.
+When a backlog extends past the first migration, you might bring in a data engineer to work alongside your lead. If several pipelines, models and reports have to move together, an offshore data engineering team can cover that mix. When someone will own the platform year-round, compare those costs with a permanent employee’s salary, benefits and the one-time cost of recruiting the right person.
+
+To get a comparison for your own team, share the first deliverable, who can manage the work and roughly how much time you need covered. Write a hiring brief.
 
 ### Frequently asked questions
 
 **Which costs less, staff augmentation or project consulting?**
-It depends on how settled the scope is. A fixed-scope project is easier to budget when the work is well defined; staff augmentation usually costs less when the scope will change, because you pay for capacity rather than for the provider's estimating risk.
+Compare the cost of the hours you would buy with the milestone fee for the same deliverable. Add the time your staff will spend managing and checking the work. The lower supplier fee can cost more overall if it requires substantially more internal time.
 
 **Is staff augmentation the same as outsourcing?**
 No. In staff augmentation, named consultants work inside your team under your direction, in your tools and your hours. In outsourcing, a vendor takes over a function or a scope and directs its own people. Augmentation keeps control and knowledge with you; outsourcing trades some of that for a managed outcome.
@@ -1758,7 +1793,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/insights/timezone-overlap-with-an-india-based-engineering-team/
 Description: Realistic overlap windows, what to agree up front and the async habits that make a remote team in India work for US, UK, EU and Australian companies.
-Last modified: 2026-11-16
+Last modified: 2026-11-23
 
 Remote delivery playbook
 
@@ -1766,7 +1801,7 @@ Remote delivery playbook
 
 Realistic overlap windows, what to agree up front and the async habits that make a remote team in India work for US, UK, EU and Australian companies.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published September 10, 2026 · Updated November 16, 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published September 10, 2026 · Updated November 23, 2026 · 6 min read
 
 In brief
 
@@ -1791,14 +1826,14 @@ These are the windows we plan engagements around at MV.tech Solutions. Yours may
 
 Illustrative collaboration windows for a team in Ahmedabad, India
 | Your team | Overlap in your local time | Equivalent in IST |
-| New York (US Eastern) | 9:00 am – 1:00 pm | 6:30 pm – 10:30 pm |
-| San Francisco (US Pacific) | 7:00 am – 10:00 am | 7:30 pm – 10:30 pm |
-| London | 9:00 am – 3:30 pm | 1:30 pm – 8:00 pm |
-| Berlin (Central Europe) | 9:00 am – 4:00 pm | 12:30 pm – 7:30 pm |
+| New York (US Eastern) | 9:00 am – 1:00 pm | 6:30 pm – 10:30 pm during EDT7:30 pm – 11:30 pm during EST |
+| San Francisco (US Pacific) | 7:00 am – 10:00 am | 7:30 pm – 10:30 pm during PDT8:30 pm – 11:30 pm during PST |
+| London | 9:00 am – 3:30 pm | 1:30 pm – 8:00 pm during BST2:30 pm – 9:00 pm during GMT |
+| Berlin (Central Europe) | 9:00 am – 4:00 pm | 12:30 pm – 7:30 pm during CEST1:30 pm – 8:30 pm during CET |
 | Dubai (Gulf) | 9:00 am – 6:00 pm | 10:30 am – 7:30 pm |
 | Singapore | 11:00 am – 6:00 pm | 8:30 am – 3:30 pm |
-| Sydney (Australia East) | 12:30 pm – 6:00 pm | 8:00 am – 1:30 pm |
-Two things are worth noticing. First, the windows are three to seven hours long, which is enough for standups, reviews, pairing and releases; nobody needs eight hours of shared screen time to deliver software well. Second, the windows shift by an hour when your region changes its clocks, so write the window in your local time and let the vendor adjust.
+| Sydney (Australia East) | 12:30 pm – 6:00 pm | 7:00 am – 12:30 pm during AEDT8:00 am – 1:30 pm during AEST |
+Write the window into the agreement in your local time. If you need a 9 am New York handover all year, your Ahmedabad team will move it an hour later in India when New York returns to standard time.
 
 ### Four things to agree before the first sprint
 
@@ -1837,9 +1872,9 @@ Discovery conversations, design decisions with real trade-offs, incident respons
 - A dedicated account manageras the main contact. Useful in a large program, but for a small engagement it usually means the engineers are somewhere behind a wall.
 - Vague overlap."We adjust to your time zone" without hours attached is a sentence, not a commitment.
 
-### The cost dimension, briefly
+### Which hours are included in the quote?
 
-The economic case for a remote team in India is real, but it is often described badly. The saving does not come from cheap labor; senior engineers in India are not cheap, nor should they be. It comes from what you are not paying for: offices in expensive cities, account-management layers, idle bench capacity and brand premiums. A lean remote consultancy passes that structural difference through. Compare proposals on the same scope, the same seniority and the same support expectations, and the difference is still substantial without being suspicious.
+If an overnight pipeline fails half an hour before your London office opens, who checks it? Give each provider the same scenario. Ask for the engineer’s working hours, any separate on-call fee and who takes over when the shift ends. Our offshore data engineering team service sets out how we agree those responsibilities. If you’re budgeting for individual engineers, you can also compare the cost of an embedded engineer with a scoped project.
 
 ### Frequently asked questions
 
@@ -1847,7 +1882,7 @@ The economic case for a remote team in India is real, but it is often described 
 No. India Standard Time stays at UTC+5:30 all year. Overlap windows written in a client's local time shift by an hour in IST when the client's region changes its clocks, which is why the window should be defined in the client's time.
 
 **Can a team in India cover US Pacific hours?**
-Yes, for part of the day. A common arrangement is 7:00 am to 10:00 am Pacific, which is 7:30 pm to 10:30 pm in India. Some teams run a later shift to cover more of the Pacific morning; a full Pacific afternoon is unrealistic for a team keeping a normal week.
+Yes. For example, 7 am to 10 am in San Francisco is 7:30 pm to 10:30 pm in Ahmedabad during Pacific daylight time and 8:30 pm to 11:30 pm during Pacific standard time. For afternoon or after-hours coverage, agree separately who will be on shift.
 
 **How much overlap does a software project really need?**
 In our experience, three to four hours of daily overlap is enough for standups, reviews, pairing on hard problems and releases, provided decisions and progress are written down. More overlap is pleasant; it is rarely what determines whether a project succeeds.
@@ -1872,9 +1907,9 @@ A buyer's checklist for a remote data engineering partner: who does the work, ho
 5 min read
 Engagement models
 
-### Staff Augmentation vs Project Consulting vs Recruitment: Which Engagement Model Fits?
+### How to compare staff augmentation, project consulting and a permanent hire
 
-How to choose between embedding a consultant, a scoped project and a permanent hire for data, software and AI work: control, cost, speed and risk.
+Compare staff augmentation and project consulting costs for the same data engineering work. See what to budget for and when a permanent hire makes sense.
 
 6 min read
 About the author
@@ -1993,9 +2028,9 @@ Related guides
 
 Engagement models
 
-### Staff Augmentation vs Project Consulting vs Recruitment: Which Engagement Model Fits?
+### How to compare staff augmentation, project consulting and a permanent hire
 
-How to choose between embedding a consultant, a scoped project and a permanent hire for data, software and AI work: control, cost, speed and risk.
+Compare staff augmentation and project consulting costs for the same data engineering work. See what to budget for and when a permanent hire makes sense.
 
 6 min read
 Remote delivery playbook
@@ -2522,7 +2557,7 @@ Related services
 
 #### Offshore Data Engineering Team
 
-Extend your delivery capacity with data engineers and analytics specialists from India.
+Bring in a team from India to build and run pipelines, warehouse models and reporting alongside your own engineers.
 
 #### IT Staff Augmentation
 
@@ -2530,7 +2565,7 @@ Add the technical skills your team needs without opening every role as a permane
 
 #### Technology Recruitment
 
-Hire the technical people your business needs for the long term.
+Recruit a permanent engineer and review how their experience matches the work they will own.
 
 Related guides
 
@@ -2800,7 +2835,7 @@ Reduce the manual work between your business systems.
 
 #### Data Engineering Consulting
 
-Build the data foundation behind reporting, analytics and business applications.
+Build reliable data pipelines and trace a reported number back to the records it came from.
 
 Related guides
 
@@ -3121,11 +3156,11 @@ Related services
 
 #### Data Engineering Consulting
 
-Build the data foundation behind reporting, analytics and business applications.
+Build reliable data pipelines and trace a reported number back to the records it came from.
 
 #### Data Warehouse Migration
 
-Move reporting and analytics to a cloud platform with a planned transition.
+Move ETL jobs and warehouse reporting to a new platform with parallel runs and checks your report owners can review.
 
 #### Business Intelligence & Dashboards
 
@@ -3296,7 +3331,7 @@ Related services
 
 #### Data Engineering Consulting
 
-Build the data foundation behind reporting, analytics and business applications.
+Build reliable data pipelines and trace a reported number back to the records it came from.
 
 #### Business Intelligence & Dashboards
 
@@ -3448,11 +3483,11 @@ Develop Power BI reports that give business teams a consistent view of performan
 
 #### Data Warehouse Migration
 
-Move reporting and analytics to a cloud platform with a planned transition.
+Move ETL jobs and warehouse reporting to a new platform with parallel runs and checks your report owners can review.
 
 #### Offshore Data Engineering Team
 
-Extend your delivery capacity with data engineers and analytics specialists from India.
+Bring in a team from India to build and run pipelines, warehouse models and reporting alongside your own engineers.
 
 Related guides
 
@@ -3776,14 +3811,14 @@ Tell us which task customers ask your team to do, who signs in and where the und
 # Data Engineering & ETL Development Services | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/data-engineering/
-Description: Data integration, ETL pipelines, cloud warehouses, modeling and data quality services from MV.tech Solutions for reporting, analytics and applications.
-Last modified: 2026-11-16
+Description: Build or repair reporting pipelines with change data capture, backfills and source-to-report lineage. Check row counts and sales totals against the source.
+Last modified: 2026-11-23
 
 MV.tech Solutions services
 
-## Data engineering services for connected, usable business data.
+## Data engineering for pipelines, warehouses and reporting.
 
-Build the data foundation behind reporting, analytics and business applications. MV.tech Solutions designs data pipelines, cloud warehouses and transformation layers that bring information from your systems into a consistent, maintainable platform. We also improve existing pipelines, models and reporting workflows.
+If a report changes after month-end, someone needs to explain why. We build and repair the pipelines that move data from business systems into warehouses such as BigQuery, Snowflake and Redshift. Your team can trace the number back to its source, see when the load ran and recover a missed delivery.
 
 - Offices in New York and Ahmedabad
 - Overlap with your time zone
@@ -3802,9 +3837,9 @@ What we deliver
 
 01
 
-#### Data integration and pipelines
+#### Incremental loads and historical backfills
 
-Collect data from APIs, operational databases and files using Python, SQL and cloud ingestion services. The implementation covers incremental loads, historical backfills, duplicate handling and recovery when a source changes or a run fails.
+We choose how to collect changes from each source. That can mean reading database changes with change data capture (CDC), pulling updated records from an API or comparing scheduled file extracts. We plan how to replay a failed period and test that running it twice produces the same result.
 
 02
 
@@ -3814,9 +3849,9 @@ Design BigQuery, Snowflake, Redshift or PostgreSQL environments with separate in
 
 03
 
-#### Data quality and reconciliation
+#### Data quality and source-to-report lineage
 
-Check source coverage, refresh dates, duplicates and business totals as data moves between layers. Investigate differences between systems and document the rules behind financial and operational metrics.
+Trace a figure from its source field through the SQL model to the dashboard. Compare counts and business totals at the same cutoff, and flag missing rows, duplicates or late corrections for the person who owns the report.
 
 04
 
@@ -3908,7 +3943,7 @@ Build a BigQuery warehouse that supports your reporting and growth.
 
 #### Offshore Data Engineering Team
 
-Extend your delivery capacity with data engineers and analytics specialists from India.
+Bring in a team from India to build and run pipelines, warehouse models and reporting alongside your own engineers.
 
 Related guides
 
@@ -3939,21 +3974,21 @@ Your next step
 
 ### Discuss your data platform.
 
-Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include.
+Bring one report, source or pipeline that needs attention. Tell us how it runs today and what your team checks before using the result.
 
 ---
 
 # Data Warehouse & ETL Migration Services | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/data-warehouse-migration/
-Description: Data warehouse and ETL migration to Snowflake, BigQuery or Redshift: source mapping, pipeline rebuilds, reconciliation and a safe switch-over of reports.
-Last modified: 2026-11-16
+Description: Move ETL jobs and reports to Snowflake, BigQuery or Redshift. Run old and new pipelines in parallel, check source totals and agree when reports can switch.
+Last modified: 2026-11-23
 
 MV.tech Solutions services
 
-## Data warehouse migration and modernization services.
+## Data warehouse and ETL migration services.
 
-Move reporting and analytics to a cloud platform with a planned transition. MV.tech Solutions migrates legacy databases, warehouse workloads and spreadsheet-based reporting to Snowflake, BigQuery or Redshift. The work covers discovery, data modeling, reconciliation and the reports that depend on the old system.
+When you move a warehouse, the first question from finance is often whether last month’s numbers will change. We migrate ETL jobs, warehouse tables and the reports that use them to Snowflake, BigQuery or Redshift. We run old and new pipelines in parallel and give report owners a record of what matched and what needs explaining.
 
 - Offices in New York and Ahmedabad
 - Overlap with your time zone
@@ -3984,15 +4019,15 @@ Design the target warehouse layers and access model. Document source-to-target m
 
 03
 
-#### Migration pipelines and validation
+#### Historical loads and change capture
 
-Build repeatable loads for historical and ongoing data. Compare record counts, control totals and business measures between source and target, and resolve differences before report cutover.
+Rebuild the load and transformation jobs, backfill the agreed history and replay changes that arrive during the move. Where a source supports change data capture, we check how updates and deletes reach the target. We also test recovery after an interrupted load.
 
 04
 
-#### Report transition and handover
+#### Parallel runs and report sign-off
 
-Repoint dashboards and semantic models, plan parallel checks and agree rollback and acceptance criteria. Provide the documentation and operating procedures needed to support the new platform.
+Run both pipelines over the same dates. Compare row counts and business totals with the source, trace differences to individual records and log any rule the report owner agrees to change. Agree a rollback point and a handover before redirecting the dashboards.
 
 - Snowflake
 - BigQuery
@@ -4019,9 +4054,9 @@ Business applications
 - Cloud platform consolidation. Bring fragmented reporting sources into a common architecture with consistent modeling and ownership.
 Engagement scope
 
-### A migration plan should include the systems around the warehouse.
+### Start with one report people already rely on.
 
-We assess sources, historical data, transformation logic, report dependencies and access requirements. A migration can be phased by business domain or reporting workload, with acceptance criteria at each stage. Decommissioning is planned only after the relevant data and report checks are accepted.
+For example, take a monthly sales report. List its source tables and scheduled jobs, reload a closed month on the new warehouse, then compare order counts, returns and net sales by day. The report owner can review the differences and agree when to switch. That first migration gives the next reporting team a set of checks they can reuse.
 
 Working together
 
@@ -4084,7 +4119,7 @@ Build a BigQuery warehouse that supports your reporting and growth.
 
 #### Offshore Data Engineering Team
 
-Extend your delivery capacity with data engineers and analytics specialists from India.
+Bring in a team from India to build and run pipelines, warehouse models and reporting alongside your own engineers.
 
 Related guides
 
@@ -4113,9 +4148,9 @@ What sets the price, how to compare proposals and which delivery costs to includ
 Cost guide
 Your next step
 
-### Discuss your warehouse migration.
+### Which ETL job or report should move first?
 
-Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include.
+Tell us where it runs, where it’s going and when the old platform needs to be retired. We’ll discuss how to test a first migration against your existing figures.
 
 ---
 
@@ -4259,17 +4294,17 @@ Bring one collection of approved documents, the roles that can read it and a few
 
 ---
 
-# Hire Data Engineers for Pipelines & Warehouses | MV.tech Solutions
+# Hire Data Engineers in Ahmedabad or Remotely | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/hire-data-engineers/
-Description: Engage data engineers for integration, warehouses, analytics and data quality through embedded capacity, project delivery or permanent recruitment.
-Last modified: 2026-11-14
+Description: Hire data engineers for an embedded role, a warehouse project or a permanent position. Our Ahmedabad team works with employers in Gujarat and worldwide.
+Last modified: 2026-11-23
 
 MV.tech Solutions services
 
-## Hire data engineers for pipelines, warehouses and analytics.
+## Hire a data engineer in Ahmedabad or for your remote team.
 
-Bring data engineering expertise into your team or put a defined data project in experienced hands. MV.tech Solutions helps businesses engage engineers for integration, cloud warehouses, modeling and reporting. Choose embedded capacity, project delivery or recruitment for a permanent role.
+If your team owns the backlog, we can embed a data engineer to work alongside you. If you have a migration or pipeline to deliver, we can take on the project. If you need a permanent employee, we can help you recruit one. Our team works from Ahmedabad, Gujarat, and agrees working hours with remote clients worldwide.
 
 - Offices in New York and Ahmedabad
 - Overlap with your time zone
@@ -4277,11 +4312,11 @@ Bring data engineering expertise into your team or put a defined data project in
 - Scope agreed in writing
 The starting point
 
-### Find the right model for the data work ahead.
+### Who will own the work?
 
-- Add a data engineer to your existing backlog and delivery process.
-- Assign responsibility for a defined pipeline, warehouse or reporting project.
-- Recruit a permanent data professional into your organization.
+- Embedded engineer. Your lead sets priorities and reviews the work. We agree the days and hours the engineer will spend with your team.
+- Scoped project. We take responsibility for an agreed result, such as moving a set of reports to Snowflake and checking the figures with finance.
+- Permanent recruitment. You employ the person. We help define the role, assess the technical fit and give your hiring team evidence to review.
 What we deliver
 
 ### Data engineering skills matched to your requirement.
@@ -4328,16 +4363,16 @@ Confirm the responsibilities, named specialists, capacity, duration and collabor
 - RAG
 Business applications
 
-### Where this service fits.
+### How to assess someone who will own a pipeline
 
-- Embedded data engineer. A specialist works with your team on its backlog and review process.
-- Managed data workstream. MV.tech Solutions delivers an agreed integration, warehouse or analytics scope.
-- Permanent recruitment. Your business hires the engineer, with MV.tech Solutions supporting the search and technical assessment.
+- Give them a failed load. Here’s an example interview exercise. An orders API stops halfway through an overnight load. On the next run it also returns a correction to an order from last month. Ask the engineer to sketch how they would restart the job.
+- Ask for evidence the repair worked. Can they identify the last complete batch, replay a date range without duplicating orders and pick up the older correction? Ask to see the counts and order totals they would compare with the source before reopening the dashboard.
+- Match the discussion to the role. For an engineer on call, ask what the alert would say and who gets the handover. For an analytics engineer, ask which sales measures would change and how they would tell the report owner.
 Engagement scope
 
-### Share the responsibilities the engineer will own.
+### What would the engineer own in their first month?
 
-Tell us about the platform, source systems, backlog and team structure. We discuss the skills required and whether embedded capacity, a project engagement or permanent recruitment is the best fit. Availability and commercial terms are confirmed after reviewing the requirement.
+Share one piece of work you would hand them, the source and destination systems, and who will review it. Include the level of experience you need, working location, hours and target start date. We use those details to discuss engineering fit, availability and cost.
 
 Working together
 
@@ -4383,13 +4418,16 @@ Because you judge delivered work rather than an interview. The first milestone i
 **What should we share before asking to hire a data engineer?**
 The workstream or backlog, the source systems and target warehouse or BI tools, the skills you need, the expected duration and capacity, your time zone and the hours that matter, and any constraints around security or access. A sanitized example of the data is enough for the first call; credentials are never needed for an inquiry.
 
+**Can you help us hire a data engineer in Ahmedabad, Gujarat?**
+Yes. Our Ahmedabad office supports employers hiring data engineers. Tell us whether the role is on-site, hybrid or remote and which days or overlap hours matter. For a permanent role, we agree the search area and interview process with you. For an embedded engineer, we confirm location, availability and working hours before agreeing a start date.
+
 Related services
 
 ### Other ways we can help.
 
 #### Offshore Data Engineering Team
 
-Extend your delivery capacity with data engineers and analytics specialists from India.
+Bring in a team from India to build and run pipelines, warehouse models and reporting alongside your own engineers.
 
 #### IT Staff Augmentation
 
@@ -4397,7 +4435,7 @@ Add the technical skills your team needs without opening every role as a permane
 
 #### Technology Recruitment
 
-Hire the technical people your business needs for the long term.
+Recruit a permanent engineer and review how their experience matches the work they will own.
 
 Related guides
 
@@ -4426,9 +4464,9 @@ What sets the price, how to compare proposals and which delivery costs to includ
 Cost guide
 Your next step
 
-### Discuss your data engineering requirements.
+### Tell us about the role or project.
 
-Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include.
+A few lines are enough to start. What would this person work on, which tools would they use and when do you need them?
 
 ---
 
@@ -4436,7 +4474,7 @@ Tell us about the work, your current systems and the people who will use the res
 
 URL: https://mvtech.solutions/services/it-staff-augmentation/
 Description: Add data, software, AI and cloud specialists to your delivery team. Discuss assigned roles, capacity, responsibilities, duration and time zone collaboration.
-Last modified: 2026-11-16
+Last modified: 2026-11-23
 
 MV.tech Solutions services
 
@@ -4552,15 +4590,15 @@ Related services
 
 #### Hire Data Engineers
 
-Bring data engineering expertise into your team or put a defined data project in experienced hands.
+Embed a data engineer, hire a permanent employee or bring us a pipeline project with a clear finish.
 
 #### Offshore Data Engineering Team
 
-Extend your delivery capacity with data engineers and analytics specialists from India.
+Bring in a team from India to build and run pipelines, warehouse models and reporting alongside your own engineers.
 
 #### Technology Recruitment
 
-Hire the technical people your business needs for the long term.
+Recruit a permanent engineer and review how their experience matches the work they will own.
 
 Related guides
 
@@ -4771,14 +4809,14 @@ Tell us about the work, your current systems and the people who will use the res
 # Dedicated Offshore Data Engineering Teams | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/offshore-data-engineering-team/
-Description: Extend your team with data engineering, analytics and BI specialists from India. Agree roles, capacity, delivery responsibilities and collaboration hours.
-Last modified: 2026-11-16
+Description: Build an offshore data engineering team in India for pipelines, warehouse models and BI. Agree who owns each job, when you overlap and how you review the work.
+Last modified: 2026-11-23
 
 MV.tech Solutions services
 
-## A dedicated data engineering team for your business.
+## A dedicated offshore data engineering team in India.
 
-Extend your delivery capacity with data engineers and analytics specialists from India. MV.tech Solutions provides dedicated teams for data integration, cloud warehouses, BI and data quality. Work with a defined team, an agreed backlog and collaboration hours that fit your business.
+You may have a warehouse migration to finish and a reporting system that still needs attention every morning. Our Ahmedabad team can take on a set of pipelines, models or dashboards while your leads set priorities. Before work starts, we agree who owns each job and when both teams will be online together.
 
 - Offices in New York and Ahmedabad
 - Overlap with your time zone
@@ -4843,9 +4881,9 @@ Business applications
 - Reporting expansion. Engineers and BI specialists working together on a new business domain or reporting program.
 Engagement scope
 
-### Agree the team structure before committing capacity.
+### Agree the handover between time zones.
 
-Share your roadmap, current platform, required skills and preferred working hours. We discuss the roles needed, availability, responsibilities and engagement duration. You can begin with a defined workstream and review the team arrangement as the workload develops.
+Pick a pipeline or a set of reports and name the reviewer on your side. Agree when an overnight failure needs attention, who can approve a rerun and how to reach the owner of the source. We write down the overlap window, planned capacity and any out-of-hours cover as part of the scope.
 
 Working together
 
@@ -4870,11 +4908,11 @@ Before we begin
 
 Not answered here? Ask us directly or read the full FAQ.
 
-**Is MV.tech Solutions a data consultancy company for an offshore team?**
-Yes. MV.tech Solutions is a data, software and AI consultancy with offices in New York, USA, and Ahmedabad, India. For offshore data work, we provide senior remote data engineering and analytics capacity for ETL, cloud warehouses, BI, data quality and reporting, with overlap hours agreed around the client's time zone.
+**Where is your offshore data engineering team based?**
+Our engineering team works from Ahmedabad, India, and MV.tech Solutions also has an office in New York. We agree a shared working window in your local time. Outside that window, tickets, code reviews and handover notes keep the next person working on the same issue.
 
-**How is this different from generic offshore staffing?**
-The engagement is engineering-led. We help shape the scope, define acceptance criteria, validate the data and document handover. You can use the team like embedded capacity, but the work is still managed around a concrete outcome rather than resumes alone.
+**What would a first milestone look like for an offshore team?**
+For example, give the team one source system and one report that depends on it. Agree how fresh the data needs to be, who owns the alert if a load fails and which totals the report owner will check. Review the pipeline, those checks and the handover notes together before adding another source.
 
 **Can the team overlap with US, UK, EU, Gulf or APAC hours?**
 Yes. MV.tech Solutions works from India Standard Time and agrees a collaboration window before the engagement begins. Typical overlap is possible with US Eastern mornings, UK and European business hours, Gulf hours and Asia-Pacific afternoons.
@@ -4897,11 +4935,11 @@ Related services
 
 #### Hire Data Engineers
 
-Bring data engineering expertise into your team or put a defined data project in experienced hands.
+Embed a data engineer, hire a permanent employee or bring us a pipeline project with a clear finish.
 
 #### Data Engineering Consulting
 
-Build the data foundation behind reporting, analytics and business applications.
+Build reliable data pipelines and trace a reported number back to the records it came from.
 
 #### IT Staff Augmentation
 
@@ -4934,9 +4972,9 @@ Realistic overlap windows and habits that keep distributed engineering work movi
 Time zone guide
 Your next step
 
-### Discuss your data team.
+### Which work would you give an offshore team?
 
-Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include.
+Tell us what’s in the backlog, which skills you already have and which working hours matter. We can use one upcoming delivery to work out the team you need.
 
 ---
 
@@ -5073,11 +5111,11 @@ Give business teams a consistent view of performance.
 
 #### Data Warehouse Migration
 
-Move reporting and analytics to a cloud platform with a planned transition.
+Move ETL jobs and warehouse reporting to a new platform with parallel runs and checks your report owners can review.
 
 #### Data Engineering Consulting
 
-Build the data foundation behind reporting, analytics and business applications.
+Build reliable data pipelines and trace a reported number back to the records it came from.
 
 Related guides
 
@@ -5405,11 +5443,11 @@ Related services
 
 #### Data Warehouse Migration
 
-Move reporting and analytics to a cloud platform with a planned transition.
+Move ETL jobs and warehouse reporting to a new platform with parallel runs and checks your report owners can review.
 
 #### Data Engineering Consulting
 
-Build the data foundation behind reporting, analytics and business applications.
+Build reliable data pipelines and trace a reported number back to the records it came from.
 
 #### Business Intelligence & Dashboards
 
@@ -5451,14 +5489,14 @@ Tell us about the work, your current systems and the people who will use the res
 # Technology Recruitment for Data, Software & AI | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/technology-recruitment/
-Description: Permanent recruitment for data, software, AI, cloud and analytics roles, with role definition, candidate screening and engineering-led technical assessment.
-Last modified: 2026-11-14
+Description: Recruit permanent data, software, AI and cloud engineers. We help define the role, assess technical work and prepare a shortlist for your hiring team.
+Last modified: 2026-11-23
 
 MV.tech Solutions services
 
-## Technology recruitment for data, software and AI teams.
+## Permanent technology recruitment for data, software and AI roles.
 
-Hire the technical people your business needs for the long term. MV.tech Solutions supports permanent recruitment for data engineering, software development, AI, cloud and analytics roles. Our engineering background helps translate the vacancy into a practical brief and a relevant technical assessment.
+What will your new engineer be responsible for after they join? We use that answer to shape the role and the technical interview. We support permanent hiring for data, software, AI and cloud roles. Your team reviews the evidence, makes the offer and employs the person.
 
 - Offices in New York and Ahmedabad
 - Overlap with your time zone
@@ -5489,9 +5527,9 @@ Identify and screen candidates against the agreed brief, including their relevan
 
 03
 
-#### Technical assessment
+#### A technical assessment tied to the job
 
-Use engineering-led discussions and role-relevant assessment to evaluate technical fit. Present the evidence and open questions for your hiring team to review.
+For a backend developer, for example, ask how they would handle a customer retrying a payment request. Record the failure cases they identified, how they would test the fix and what the hiring manager should explore in the next interview.
 
 04
 
@@ -5514,9 +5552,9 @@ Business applications
 - AI engineering hiring. Assess candidates for AI application, RAG, integration and related development work.
 Engagement scope
 
-### Agree the search around the role you need to fill.
+### What should be in a shortlist?
 
-We review the responsibilities, team setup, hiring timeline and compensation range. The search scope, screening process and recruitment fees are agreed before work begins. If the requirement is temporary capacity, we can discuss staff augmentation instead.
+For each shortlisted candidate, ask which responsibilities they have handled themselves, what the technical discussion covered and which questions still need an interview. We agree those criteria with you, along with the search area, compensation range, interview stages and recruitment fees, before sourcing begins.
 
 Working together
 
@@ -5569,11 +5607,11 @@ Add the technical skills your team needs without opening every role as a permane
 
 #### Offshore Data Engineering Team
 
-Extend your delivery capacity with data engineers and analytics specialists from India.
+Bring in a team from India to build and run pipelines, warehouse models and reporting alongside your own engineers.
 
 #### Data Engineering Consulting
 
-Build the data foundation behind reporting, analytics and business applications.
+Build reliable data pipelines and trace a reported number back to the records it came from.
 
 Related guides
 
@@ -5602,9 +5640,9 @@ Overlap windows and async practices to define before adding remote capacity or h
 Time zone playbook
 Your next step
 
-### Discuss your next technology hire.
+### Which permanent role are you filling?
 
-Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include.
+Share the work the new hire will own, the skills they need on day one and who they’ll report to. A draft job description is enough.
 
 ---
 

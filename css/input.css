@@ -394,6 +394,11 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fo
 .calendly-fallback { display: grid; place-items: center; gap: 12px; min-height: 300px; padding: 32px; text-align: center; color: #071118; }
 .calendly-fallback p { font-size: 15px; color: #405466; overflow-wrap: anywhere; }
 .brief-form { display: grid; gap: 14px; margin-top: 20px; }
+.brief-guides p { display: none; margin-top: 14px; font-size: 15px; }
+.brief-guides:not(.is-enhanced) p:target, .brief-guides p.is-current { display: block; }
+.brief-form [hidden] { display: none; }
+.brief-form fieldset:not([hidden]) { display: grid; gap: 12px; min-width: 0; padding: 12px 14px 16px; border: 1px solid var(--border); border-radius: var(--radius-sm); }
+.brief-form legend { padding: 0 4px; font-size: 14px; font-weight: 650; }
 .brief-form label { display: grid; gap: 6px; font-size: 14px; font-weight: 600; color: var(--text); }
 .brief-form input, .brief-form textarea, .brief-form select { width: 100%; min-width: 0; padding: 12px 14px; border: 1px solid var(--border-ui); border-radius: var(--radius-sm); background: #fff; color: var(--text); font: inherit; font-size: 16px; }
 .brief-form textarea { min-height: 110px; resize: vertical; }
