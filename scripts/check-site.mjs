@@ -1,6 +1,7 @@
 // Validates the built site: metadata, structured data, links, sitemap, registry and AI-readability files.
 // Run with `npm test`. Fails loudly so a broken page never reaches GitHub Pages.
 import assert from 'node:assert/strict';
+import { createHash } from 'node:crypto';
 import { access, readdir, readFile } from 'node:fs/promises';
 import { attr, parse, publicPages, routeFor, slugFor, textContent, walk } from './html.mjs';
 import { contractingParty, legalLine } from './templates.mjs';
@@ -43,6 +44,19 @@ let faqCount = 0;
 
 const exists = (file) => access(file).then(() => true, () => false);
 
+const expectedAssets = await Promise.all(['css/site.css', 'js/icons.js', 'js/site.js'].map(async (file) => {
+  const version = createHash('sha256').update(await readFile(file)).digest('hex').slice(0, 16);
+  return [`/${file}`, `/${file}?v=${version}`];
+}));
+
+function checkAssetVersions(nodes, file) {
+  const refs = nodes.filter((node) => node.tagName === 'script' || (node.tagName === 'link' && attr(node, 'rel') === 'stylesheet'))
+    .map((node) => attr(node, 'src') ?? attr(node, 'href')).filter(Boolean);
+  for (const [asset, expected] of expectedAssets) {
+    assert.deepEqual(refs.filter((ref) => ref.split('?')[0] === asset), [expected], `${file}: expected current asset ${expected}`);
+  }
+}
+
 for (const file of files) {
   const html = await readFile(file, 'utf8');
   const nodes = walk(parse(html));
@@ -68,7 +82,7 @@ for (const file of files) {
   assert(one('main', 'id', 'main-content'), `${file}: <main id="main-content"> missing`);
   assert(one('a', 'class', 'skip-link'), `${file}: skip link missing`);
   assert(one('header') && one('footer'), `${file}: shared header/footer missing`);
-  assert(one('script', 'src', '/js/site.js'), `${file}: site.js missing`);
+  checkAssetVersions(nodes, file);
   assert(one('link', 'rel', 'manifest'), `${file}: web manifest link missing`);
   assert(one('link', 'rel', 'icon'), `${file}: favicon missing`);
   if (route !== '/') assert(one('nav', 'aria-label', 'Breadcrumb'), `${file}: breadcrumb navigation missing`);
@@ -230,6 +244,7 @@ assert.equal(manifest.short_name, site.shortName, 'site.webmanifest short_name m
 for (const icon of manifest.icons) assert(await exists(icon.src.slice(1)), `manifest icon missing: ${icon.src}`);
 assert(await exists('404.html'), '404.html must exist');
 const notFound = await readFile('404.html', 'utf8');
+checkAssetVersions(walk(parse(notFound)), '404.html');
 assert(notFound.includes('noindex'), '404.html must be noindex');
 // 404.html is not covered by publicPages(), so check its own image references here (og:image, icons).
 for (const ref of new Set(notFound.match(/\/images\/[A-Za-z0-9._/-]+/g) ?? [])) {

@@ -168,7 +168,7 @@
     };
     const trackCompose = (method) => track('brief_compose', {
       method,
-      brief_topic: need.selectedOptions[0].dataset.fields || 'general',
+      brief_topic: need.selectedOptions[0].dataset.topic || need.selectedOptions[0].dataset.fields || 'general',
     });
     brief.addEventListener('submit', (event) => {
       event.preventDefault();

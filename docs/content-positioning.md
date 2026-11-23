@@ -6,4 +6,4 @@ The company, delivery, contact and FAQ pages explain the business and engagement
 
 The structure was informed by the service coverage and buyer information on [Inexture](https://www.inexture.com/), [Tridhya Tech](https://www.tridhyatech.com/) and [TatvaSoft](https://www.tatvasoft.com/). MV.tech copy and capability descriptions are original and grounded in the existing service scope.
 
-Founder experience and individual credentials are attributed on the Expertise page to [Meet Vaghasia’s public Toptal profile](https://www.toptal.com/developers/resume/meet-vaghasia), checked on 4 November 2026. Examples describe individual engagements, including work through talent platforms. They do not add customer testimonials, ratings, new partner claims or numerical project results.
+The Expertise and Work pages attribute earlier engineering work to founder Meet Vaghasia. Describe the problem, what he delivered and what readers can check. Keep client and employer identities, project-specific metrics and identifying links out of public examples. Name a technology or certification issuer when it helps explain the work or verify a credential.

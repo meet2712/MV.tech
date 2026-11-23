@@ -86,8 +86,9 @@ export function emailLink(site, subject, fields, label = 'Email your brief', cls
   return `<a class="${cls}" href="${h(href)}">${h(label)} ${icon('mail')}</a>`;
 }
 
-export function workedWith(site, heading = 'Teams our engineers have worked with') {
-  return `<div class="logo-strip" aria-label="${h(heading)}"><p class="logo-strip-label">${h(heading)}</p><ul class="logo-strip-list">${site.workedWith.map((name) => `<li>${h(name)}</li>`).join('')}</ul></div>`;
+function founderWork(site) {
+  const heading = 'From our founder’s engineering work';
+  return `<div class="logo-strip" aria-label="${h(heading)}"><p class="logo-strip-label">${h(heading)}</p><ul class="logo-strip-list">${site.workExamples.map((example) => `<li>${h(example)}</li>`).join('')}</ul></div>`;
 }
 
 export function overlapTable(site, { caption = 'Typical collaboration windows by client time zone', compact = false } = {}) {
@@ -203,7 +204,7 @@ ${remote ? `  <section class="band band-light" id="timezones">
     <div class="container">
       <div class="section-heading"><div><p class="eyebrow">Working together</p><h2>${h(page.approachHeading ?? 'A practical path from scope to delivery.')}</h2></div></div>
       <ol class="steps">${page.approach.map((step, i) => `<li><span class="item-number">0${i + 1}</span><h3>${h(step.title)}</h3><p>${h(step.text)}</p></li>`).join('')}</ol>
-      <div class="proof-row">${workedWith(site)}<div class="proof-links"><a href="/expertise/">Explore our expertise</a><a href="${site.toptal}" target="_blank" rel="noopener">Meet Vaghasia on Toptal</a>${servicePage ? '<a href="/remote-consulting/">Time zones, team and engagement costs</a>' : '<a href="/services/">All services</a>'}</div></div>
+      <div class="proof-row">${founderWork(site)}<div class="proof-links"><a href="/expertise/">Explore our expertise</a>${servicePage ? '<a href="/remote-consulting/">Time zones, team and engagement costs</a>' : '<a href="/services/">All services</a>'}</div></div>
     </div>
   </section>
   <section class="band band-light">
@@ -246,7 +247,7 @@ export function articlePage(article, site) {
     <div class="band">
       <div class="container narrow author-box">
         <div class="author-mark" aria-hidden="true">MV</div>
-        <div><p class="eyebrow">About the author</p><h2>${h(site.founder.name)}</h2><p>${h(site.founder.description)}</p><div class="proof-links"><a href="/about/">About ${h(site.name)}</a><a href="${site.toptal}" target="_blank" rel="noopener">Toptal profile</a><a href="/services/">Services</a></div></div>
+        <div><p class="eyebrow">About the author</p><h2>${h(site.founder.name)}</h2><p>${h(site.founder.description)}</p><div class="proof-links"><a href="/about/">About ${h(site.name)}</a><a href="/expertise/#selected-work">Selected engineering work</a><a href="/services/">Services</a></div></div>
       </div>
     </div>
   </article>

@@ -20,6 +20,9 @@ const registryFile = 'content/page-dates.json';
 const registry = JSON.parse(await readFile(registryFile, 'utf8').catch(() => '{}'));
 const articleTemplateRevision = '2026-09-18-offshore-guide';
 const hash = (value) => createHash('sha256').update(typeof value === 'string' ? value : JSON.stringify(value)).digest('hex').slice(0, 16);
+const [stylesheetUrl, iconsUrl, siteScriptUrl] = await Promise.all(
+  ['css/site.css', 'js/icons.js', 'js/site.js'].map(async (file) => `/${file}?v=${hash(await readFile(file, 'utf8'))}`)
+);
 const jsonLd = (value) => JSON.stringify(value).replace(/</g, '\\u003c');
 const usDate = (iso) => new Date(iso + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
 
@@ -277,9 +280,9 @@ ${page.kind === 'article' ? `<meta property="article:published_time" content="${
 <meta name="twitter:image" content="${ogImage}">
 <meta name="twitter:image:alt" content="${h(page.ogTitle ?? page.name)} – ${h(site.name)}">
 <link rel="preload" href="/fonts/inter-latin-site.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/css/site.css">
-<script src="/js/icons.js" defer></script>
-<script src="/js/site.js" defer></script>
+<link rel="stylesheet" href="${stylesheetUrl}">
+<script src="${iconsUrl}" defer></script>
+<script src="${siteScriptUrl}" defer></script>
 <script type="application/ld+json">${jsonLd(schemaGraph(page))}</script>
 ${analytics}
 </head>
@@ -345,7 +348,7 @@ Founder: ${site.founder.name}, ${site.founder.jobTitle} (${site.founder.sameAs[0
 LinkedIn: ${site.linkedin}
 Offices: ${site.offices.map((office) => `${office.name}: ${officeAddressLines(office).join(', ')}${office.telephone ? ` (${office.telephoneDisplay})` : ''}`).join('; ')}. Staff work from both offices; India GSTIN ${site.gstin} belongs to the India office. Serves clients in the USA and worldwide with agreed time-zone overlap. Details: ${origin}/contact/#offices
 Privacy and legal: ${origin}/privacy/ · ${origin}/terms/ · ${origin}/accessibility/
-Teams our engineers have worked with: ${site.workedWith.join(', ')}. ${site.workedWithNote}
+Examples of the founder’s work: ${site.workExamples.join('; ')}.
 Last generated: ${latest}. Short summary and answer guidance: ${origin}/llms.txt
 
 This file is generated from the public pages listed below, so it always matches what visitors see. Each section is one page: title, canonical URL, meta description, then the page text.

@@ -268,5 +268,11 @@
     "slug": "terms",
     "title": "Website terms of use",
     "kicker": "MV.tech Solutions · Legal"
+  },
+  {
+    "route": "/work/",
+    "slug": "work",
+    "title": "Social publishing, AI reporting and email automation",
+    "kicker": "Selected engineering work"
   }
 ]
