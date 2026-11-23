@@ -97,16 +97,6 @@ for (const article of articles) {
   Object.assign(indexPage, dates(indexPage));
   pages.push(indexPage);
 }
-for (const page of pages.filter((p) => p.route === '/services/')) {
-  page.itemList = consulting.filter((p) => p.path.startsWith('/services/')).map((p) => ({ name: p.name, url: origin + p.path }));
-}
-const toolIndex = pages.find((page) => page.route === '/tools/');
-const downloads = new Map(pages.filter((page) => page.download).map((page) => [page.route, page]));
-toolIndex.itemList = walk(parseFragment(toolIndex.body))
-  .filter((node) => node.tagName === 'a' && downloads.has(attr(node, 'href')))
-  .map((link) => downloads.get(attr(link, 'href')))
-  .map((tool) => ({ name: tool.name, url: origin + tool.route }));
-
 // Drop registry entries for pages that no longer exist so the file stays truthful.
 for (const route of Object.keys(registry)) if (!pages.some((p) => p.route === route)) delete registry[route];
 // Every printed date derives from page content, so rebuilding unchanged content is byte-for-byte reproducible.
@@ -196,8 +186,8 @@ function schemaGraph(page) {
   };
   const founder = { '@type': 'Person', '@id': `${origin}/#founder`, name: site.founder.name, jobTitle: site.founder.jobTitle, description: site.founder.description, url: `${origin}/about/`, worksFor: { '@id': `${origin}/#organization` }, sameAs: site.founder.sameAs, knowsAbout: site.knowsAbout, hasCredential: site.credentials.map((c) => ({ '@type': 'EducationalOccupationalCredential', name: c.name, credentialCategory: c.category, recognizedBy: { '@type': 'Organization', name: c.issuer } })) };
   const website = { '@type': 'WebSite', '@id': `${origin}/#website`, name: site.name, alternateName: site.alternateNames.slice(0, 3), url: `${origin}/`, description: site.shortSummary, publisher: { '@id': `${origin}/#organization` }, inLanguage: 'en-US' };
-  const crumbs = page.route === '/' ? null : [{ name: 'Home', url: origin + '/' }, ...(page.route.startsWith('/services/') && page.route !== '/services/' ? [{ name: 'Services', url: origin + '/services/' }] : []), ...(page.kind === 'article' ? [{ name: 'Insights', url: origin + '/insights/' }] : []), ...(page.download ? [{ name: 'Free project tools', url: origin + '/tools/' }] : []), { name: page.name, url }];
-  const types = { '/': 'WebPage', '/about/': 'AboutPage', '/contact/': 'ContactPage', '/services/': 'CollectionPage', '/insights/': 'CollectionPage', '/tools/': 'CollectionPage', '/faq/': 'FAQPage' };
+  const crumbs = page.route === '/' ? null : [{ name: 'Home', url: origin + '/' }, ...(page.route.startsWith('/services/') && page.route !== '/services/' ? [{ name: 'Services', url: origin + '/services/' }] : []), ...(page.kind === 'article' ? [{ name: 'Insights', url: origin + '/insights/' }] : []), { name: page.name, url }];
+  const types = { '/': 'WebPage', '/about/': 'AboutPage', '/contact/': 'ContactPage', '/services/': 'CollectionPage', '/insights/': 'CollectionPage', '/faq/': 'FAQPage' };
   const faq = extractFaq(page.body);
   const webpage = {
     '@type': types[page.route] ?? 'WebPage', '@id': `${url}#webpage`, url, name: page.pageTitle ?? page.title, description: page.description, isPartOf: { '@id': `${origin}/#website` }, about: { '@id': `${origin}/#organization` },
@@ -218,15 +208,15 @@ function schemaGraph(page) {
     webpage.mainEntity = { '@id': `${url}#article` };
     graph.push({ '@type': 'Article', '@id': `${url}#article`, headline: page.title, description: page.description, image: ogImage, datePublished: page.published, dateModified: page.modified, author: { '@id': `${origin}/#founder` }, publisher: { '@id': `${origin}/#organization` }, mainEntityOfPage: { '@id': `${url}#webpage` }, wordCount: page.words, keywords: page.keywords ?? [], inLanguage: 'en-US', isAccessibleForFree: true });
   }
-  if (page.download) {
-    webpage.mainEntity = { '@id': url + '#workbook' };
-    graph.push({
-      '@type': 'SpreadsheetDigitalDocument', '@id': webpage.mainEntity['@id'], name: page.name,
-      description: page.description, url, publisher: { '@id': organization['@id'] }, isAccessibleForFree: true,
-      encoding: { '@type': 'MediaObject', contentUrl: origin + page.download, encodingFormat: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' },
-    });
-  }
-  if (page.itemList) {
+  if (page.route === '/services/') {
+    const catalog = {
+      '@type': 'OfferCatalog', '@id': url + '#catalog', name: site.name + ' service catalog',
+      url, numberOfItems: organization.makesOffer.length, itemListElement: organization.makesOffer,
+    };
+    organization.hasOfferCatalog = { '@id': catalog['@id'] };
+    webpage.mainEntity = { '@id': catalog['@id'] };
+    graph.push(catalog);
+  } else if (page.itemList) {
     webpage.mainEntity = { '@id': `${url}#list` };
     graph.push({ '@type': 'ItemList', '@id': `${url}#list`, itemListElement: page.itemList.map((item, i) => ({ '@type': 'ListItem', position: i + 1, name: item.name, url: item.url })) });
   }

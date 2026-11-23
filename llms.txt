@@ -42,6 +42,10 @@ This is a factual index of the company's public website. The linked pages contai
 - [Custom Software Development](https://mvtech.solutions/services/custom-software/): Custom web applications, customer portals, internal tools and data apps from MV.tech Solutions: interfaces, backends, integrations, testing and deployment.
 - [Workflow Automation Consulting](https://mvtech.solutions/services/workflow-automation/): Automate recurring work across applications, APIs, databases and spreadsheets. MV.tech Solutions builds integrations, validation and exception handling.
 
+- [Customer Portal Development](https://mvtech.solutions/services/customer-portal-development/) — Customer and partner portals with account permissions, order or request tracking and integrations to existing business systems.
+- [Employee AI Chatbot Development](https://mvtech.solutions/services/employee-ai-chatbots/) — Internal employee chatbots that answer questions from approved documents with citations, access controls and evaluation.
+- [Reporting Automation](https://mvtech.solutions/services/reporting-automation/) — Automation of recurring finance and operations reports, from source extraction and validation to Power BI or governed Excel output.
+
 ## Engineering capacity and hiring
 
 - [IT Staff Augmentation](https://mvtech.solutions/services/it-staff-augmentation/): Add data, software, AI and cloud specialists to your delivery team. Discuss assigned roles, capacity, responsibilities, duration and time zone collaboration.
@@ -64,13 +68,6 @@ This is a factual index of the company's public website. The linked pages contai
 - [Accessibility statement](https://mvtech.solutions/accessibility/): MV.tech Solutions aims to make mvtech.solutions usable by everyone, following WCAG 2.1 Level AA. How we build for access and how to report a barrier.
 - [Brand kit](https://mvtech.solutions/brand/): Download the MV.tech Solutions brand kit: vector logos, favicons, avatars, color tokens, Inter fonts, icons and the full brand guidelines.
 - [Contact](https://mvtech.solutions/contact/): Discuss software, data, BI, AI or automation requirements with MV.tech Solutions. Book a consultation or send a brief for a project, a team or a hire.
-
-## Free project tools
-
-- [Free project tools](https://mvtech.solutions/tools/) — Excel workbooks and worked examples from MV.tech Solutions.
-- [Report reconciliation workbook](https://mvtech.solutions/tools/report-reconciliation/) — Compare an Excel report with Power BI or a warehouse extract. This free workbook flags differences, missing inputs and totals outside your agreed tolerance.
-- [Customer portal permissions matrix](https://mvtech.solutions/tools/customer-portal-permissions/) — Plan and test access to orders, invoices and support cases in a customer portal. Download the free Excel matrix with customer, partner and support examples.
-- [Employee chatbot evaluation kit](https://mvtech.solutions/tools/employee-chatbot-evaluation/) — Test an employee chatbot on citations, unclear questions, missing policies and restricted documents. Download the free Excel evaluation kit with sample cases.
 
 ## Practical buyer guides
 

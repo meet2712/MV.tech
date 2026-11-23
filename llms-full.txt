@@ -21,7 +21,7 @@ This file is generated from the public pages listed below, so it always matches 
 
 URL: https://mvtech.solutions/
 Description: MV.tech Solutions builds custom software, data platforms, BI and AI systems, and provides dedicated engineering teams. Offices in New York and Ahmedabad.
-Last modified: 2026-11-23
+Last modified: 2026-11-20
 
 Software, data & AI engineering
 
@@ -44,7 +44,7 @@ Our services
 
 ### What we do
 
-Hand us one piece of work or the whole project. If you’re planning a portal, a report migration or an employee chatbot, start with our free project workbooks.
+Hand us one piece of work or the whole project.
 
 #### Data Engineering & Warehousing
 
@@ -676,11 +676,11 @@ Frequently asked questions
 **What does MV.tech Solutions do?**
 MV.tech Solutions provides custom software development, data engineering, warehouse migration, BI, AI development, MCP integrations, automation and blockchain analytics. We also offer dedicated engineering capacity, staff augmentation and permanent technology recruitment.
 
+**Which software and data solutions can we hire you to deliver?**
+We build customer portals and business applications, data pipelines and warehouses, dashboards, employee AI assistants, MCP integrations and automated workflows. We also provide blockchain analytics, dedicated engineers and permanent technology recruitment. Our service catalog describes the deliverables and scope. Examples include customer portal development, reporting automation and internal chatbot development.
+
 **Where can I see examples of the founder’s engineering work?**
 Meet Vaghasia’s individual engagements include Redshift pipelines and retrieval-augmented analytics at RootstockLabs, and multi-chain BigQuery data and Looker reporting at BCW Group. See his selected engineering experience. Our reporting migration guide describes his work at Volvo Cars through Toptal.
-
-**Do you have free templates I can use before starting a project?**
-Yes. Our free Excel workbooks cover report reconciliation, customer portal permissions and employee chatbot evaluation. Each includes a worked example and editable rows. You can download them directly and use them offline.
 
 **Where is the company based?**
 MV.tech Solutions has two offices: New York, USA, and Ahmedabad, Gujarat, India. Our team works from both offices, and we work with clients in the USA and worldwide in collaboration hours agreed per engagement.
@@ -823,7 +823,7 @@ AI engineering
 
 A plain-language comparison of retrieval-augmented generation and fine-tuning for knowledge assistants: when each fits, permissions, evaluation and cost.
 
-Sep 10, 2026 · 6 min read
+Sep 10, 2026 · 5 min read
 Engagement models
 
 ### Staff Augmentation vs Project Consulting vs Recruitment: Which Engagement Model Fits?
@@ -1055,7 +1055,7 @@ AI engineering
 
 A plain-language comparison of retrieval-augmented generation and fine-tuning for knowledge assistants: when each fits, permissions, evaluation and cost.
 
-6 min read
+5 min read
 Finance data engineering
 
 ### Reconciling Dynamics 365 Business Central With Your Data Warehouse
@@ -1166,9 +1166,7 @@ Not always, and the differences are the useful part. Some turn out to be defects
 
 ### Plan the move with MV.tech Solutions
 
-Use our free reconciliation workbook to record the agreed tolerance, compare the same period in both systems and follow up on differences.
-
-Our data warehouse migration service covers source discovery, the rule register, raw-to-reporting layers, reconciliation and the repointed dashboard, starting with one report. Bring the month-end pack, the list of systems behind it and the person who builds it today to a scoping call. We quote after a scoping call.
+For one recurring report, our reporting automation service covers source mapping, refresh and reconciliation. Our data warehouse migration service covers source discovery, the rule register, raw-to-reporting layers, reconciliation and the repointed dashboard, starting with one report. Bring the month-end pack, the list of systems behind it and the person who builds it today to a scoping call. We quote after a scoping call.
 
 Related guides
 
@@ -1360,7 +1358,7 @@ AI engineering
 
 A plain-language comparison of retrieval-augmented generation and fine-tuning for knowledge assistants: when each fits, permissions, evaluation and cost.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published September 10, 2026 · Updated November 23, 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published September 10, 2026 · Updated November 23, 2026 · 5 min read
 
 In brief
 
@@ -1441,11 +1439,9 @@ It depends on the provider and the contract terms you select. Business and API t
 **How much does an internal knowledge assistant cost to run?**
 Ongoing costs come from model usage per query, the retrieval infrastructure, and keeping the index current as documents change. For most internal tools these are modest compared with the engineering time to build and evaluate the system properly. Ask for both numbers when comparing proposals.
 
-The free employee chatbot evaluation kit includes a question with no policy answer, a restricted document and a request that needs clarification. Replace the sample rows with your own questions and score the evidence for each reply.
-
 ### Scope a knowledge assistant with MV.tech Solutions
 
-Our AI consulting service covers source preparation, retrieval, access rules and evaluation. If the assistant also needs live systems, review MCP servers and AI connectors. Bring one source collection and a few real questions to a 30-minute scoping call.
+Our employee chatbot development service covers a first pilot over approved documents. Our broader AI consulting service covers source preparation, retrieval, access rules and evaluation. If the assistant also needs live systems, review MCP servers and AI connectors. Bring one source collection and a few real questions to a 30-minute scoping call.
 
 Related guides
 
@@ -2134,7 +2130,7 @@ AI engineering
 
 A plain-language comparison of retrieval-augmented generation and fine-tuning for knowledge assistants: when each fits, permissions, evaluation and cost.
 
-6 min read
+5 min read
 Buyer question
 
 ### Looking for a Data Consultancy Company for an Offshore Team?
@@ -2579,11 +2575,11 @@ Services
 
 ## Software, data and AI services for your business.
 
-Build a new system, modernize the one you have or extend your engineering team. MV.tech Solutions provides development and consulting services across business applications, data platforms, analytics, AI and automation. Our free project tools include practical checks for three common projects.
+Build a new system, modernize the one you have or extend your engineering team. MV.tech Solutions provides development and consulting services across business applications, data platforms, analytics, AI and automation. Choose a service below to see what we deliver and what we need to quote your project.
 
 Engineering services
 
-### Explore the work we can deliver.
+### Engineering and hiring services
 
 #### Data Engineering & Warehousing
 
@@ -2595,19 +2591,19 @@ Data Engineering Warehouse Migration Snowflake Consulting BigQuery Consulting Bl
 
 Give finance, operations and management teams consistent reporting. We define KPIs, build semantic models and develop dashboards in Power BI, Tableau, Looker Studio and Streamlit.
 
-BI & Dashboard Development Power BI Consulting
+BI & Dashboard Development Power BI Consulting Reporting Automation
 
 #### Web, Application & Software Development
 
 Build websites, web applications, SaaS products, customer portals and internal tools in React, Next.js, Node.js and Python. We develop the user interface, backend, database and business system integrations together.
 
-Web Development Application Development Custom Software Development Workflow Automation & APIs
+Web Development Application Development Custom Software Development Customer Portal Development Workflow Automation & APIs
 
 #### AI Consulting & Development
 
 Add AI to a business process or product. Our work covers knowledge assistants, document processing, RAG systems and connections between AI platforms, company data and internal tools.
 
-AI Consulting & Development MCP Servers & AI Connectors
+AI Consulting & Development Employee AI Chatbots MCP Servers & AI Connectors
 
 #### Dedicated Engineering Teams
 
@@ -2631,7 +2627,9 @@ Find a service by the work you need done
 | Resolve reporting and KPI inconsistencies | Business Intelligence |
 | Build or rebuild a website or web app | Web Development |
 | Launch a SaaS product or MVP | Application Development |
-| Build a customer portal or internal app | Custom Software |
+| Build a customer or partner portal | Customer Portal Development |
+| Automate a recurring finance or operations report | Reporting Automation |
+| Help employees find answers in internal policies | Employee AI Chatbots |
 | Connect AI to documents or business systems | AI Consulting |
 | Automate recurring work between applications | Workflow Automation |
 | Add engineering capacity to your team | Staff Augmentation |
@@ -2829,13 +2827,13 @@ AI data access
 Scoped identities, checked SQL, row limits and provenance for assistants connected to business data.
 
 AI access guide
-Free workbook
+Service
 
-### Test an employee chatbot before rollout
+### Employee AI Chatbot Development
 
-Check a sourced answer, a clarification and a human referral against the expected evidence.
+Internal employee chatbots that answer questions from approved documents with citations, access controls and evaluation.
 
-Chatbot evaluation kit
+Explore the service
 Your next step
 
 ### Discuss your AI project.
@@ -2978,15 +2976,15 @@ Turn a useful AI idea into a working business application.
 
 Related guides
 
-### Planning a customer portal
+### Planning resources for this work.
 
-Free workbook
+Service
 
-### Plan who can see each customer record
+### Customer Portal Development
 
-Test order status, invoice access and support notes by role and company account.
+Customer and partner portals with account permissions, order or request tracking and integrations to existing business systems.
 
-Portal permissions matrix
+Explore the service
 Your next step
 
 ### Discuss your application or product.
@@ -3627,20 +3625,151 @@ Reduce the manual work between your business systems.
 
 Related guides
 
-### Planning a customer portal
+### Planning resources for this work.
 
-Free workbook
+Service
 
-### Plan who can see each customer record
+### Customer Portal Development
 
-Test order status, invoice access and support notes by role and company account.
+Customer and partner portals with account permissions, order or request tracking and integrations to existing business systems.
 
-Portal permissions matrix
+Explore the service
 Your next step
 
 ### Discuss your software project.
 
 Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include.
+
+---
+
+# Customer Portal Development Services | MV.tech Solutions
+
+URL: https://mvtech.solutions/services/customer-portal-development/
+Description: Hire MV.tech Solutions to build a customer portal for orders, documents or support requests, with account permissions and connections to your existing systems.
+Last modified: 2026-11-23
+
+Engineering services
+
+## Customer and partner portal development
+
+Give customers a place to check an order, find an invoice or follow a support request. MV.tech Solutions designs and builds the portal, connects it to the systems that own the records and sets up access for customers, partners and your staff.
+
+- Offices in New York and Ahmedabad
+- Overlap with your time zone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### Which requests keep coming back to your team?
+
+- Customers email support for updates your order system already holds.
+- Partners need a view of their assigned accounts while your staff manage requests across accounts.
+- An existing portal needs a new workflow or a more reliable connection to the system behind it.
+What we deliver
+
+### What we can build into your portal
+
+01
+
+#### Account access
+
+Sign-in and permissions for each role and customer account, with sample users to verify which records each can open.
+
+02
+
+#### Customer workflows
+
+Status tracking, document access or request submission, designed around the task your customers repeat most.
+
+03
+
+#### System integrations
+
+API connections to an agreed CRM, ERP, order or support system. The scope identifies which system owns each field.
+
+04
+
+#### Release and handover
+
+Tests for the agreed journeys, deployment and operating notes for the team that will maintain the portal.
+
+- React
+- Next.js
+- TypeScript
+- Node.js
+- Python
+- PostgreSQL
+- REST APIs
+- Role-based access
+Business applications
+
+### Work we can scope with your team
+
+- Order-status portal. Customers see progress without chasing the sales team for an update.
+- Partner workspace. Each partner sees the documents and records assigned to their accounts.
+- Support portal. Customers submit a request and follow its status while internal notes stay with the support team.
+Engagement scope
+
+### What determines the scope and price
+
+The estimate depends on the number of roles, customer accounts, workflows and integrations, the state of the APIs and any existing application. We agree the first release and acceptance criteria with you before development.
+
+Working together
+
+### How we start the engagement
+
+- 01 — Choose a customer journey — For example, start with someone who needs to find an order and see its latest status.
+- 02 — Connect one end-to-end flow — Agree the source system, map its status to the customer view and test with sample accounts.
+- 03 — Check access before rollout — Confirm the correct account sees the correct record, review how support handles missing data, then agree the next workflow.
+Teams our engineers have worked with
+
+- Google
+- Volvo
+- BCW
+- RootstockLabs
+- Chainlabs
+- Toptal
+- Turing
+Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+Before we begin
+
+### Questions buyers ask
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**Can the portal work with our existing CRM or ERP?**
+Yes, subject to the integration options available. We review the API, sample records, update frequency and ownership of each field before estimating the connection.
+
+**How do we keep one customer from seeing another customer’s records?**
+We design account-level access along with role permissions, then test the agreed customer and staff journeys against separate sample accounts.
+
+**Can you start with order tracking and add invoices later?**
+Yes. One read-only order journey is a practical first release. We can scope invoice access and support requests separately once we understand the relevant systems.
+
+**How much does a custom portal cost?**
+We quote the agreed scope. Bring the first customer journey, the roles involved and the systems the portal needs to read or update.
+
+Related services
+
+### Other ways we can help.
+
+#### Custom Software Development
+
+Build software around the way your business operates.
+
+#### Application Development
+
+Portals, dashboards, internal tools, SaaS products and MVPs, from first release onward.
+
+#### Workflow Automation Consulting
+
+Reduce the manual work between your business systems.
+
+Your next step
+
+### Discuss your project
+
+Tell us which task customers ask your team to do, who signs in and where the underlying records live.
 
 ---
 
@@ -3987,6 +4116,146 @@ Your next step
 ### Discuss your warehouse migration.
 
 Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include.
+
+---
+
+# Employee AI Chatbot Development Services | MV.tech Solutions
+
+URL: https://mvtech.solutions/services/employee-ai-chatbots/
+Description: Hire MV.tech Solutions to build an internal chatbot over company policies and support documents, with source citations, role-based access and answer evaluation.
+Last modified: 2026-11-23
+
+Engineering services
+
+## Employee AI chatbots for internal documents
+
+Help employees find an answer in your policies, manuals or support documents. MV.tech Solutions builds internal chatbots that retrieve approved sources, show where an answer came from and route unanswered questions to the right person.
+
+- Offices in New York and Ahmedabad
+- Overlap with your time zone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### Where employees lose time finding answers
+
+- People ask the same onboarding, operations or support questions in chat.
+- Answers depend on the current version of a document or the employee’s role.
+- A pilot chatbot gives plausible answers, but the team needs to check the sources before rollout.
+What we deliver
+
+### What the chatbot engagement includes
+
+01
+
+#### An approved source collection
+
+Identify document owners, current versions and which groups may read each source.
+
+02
+
+#### Answers with references
+
+Build retrieval over the agreed material and give employees a link or passage they can check.
+
+03
+
+#### A route for unanswered questions
+
+Define when the assistant should ask a clarifying question or hand the request to a person.
+
+04
+
+#### An evaluation and handover
+
+Test representative questions, outdated material and restricted documents. Document how owners update sources and rerun the checks.
+
+- Retrieval-augmented generation (RAG)
+- Document ingestion
+- Source citations
+- Role-based access
+- Answer evaluation
+- APIs
+Business applications
+
+### Work we can scope with your team
+
+- Onboarding questions. New employees find links to the current guidance for common requests.
+- Technical support knowledge. Staff look up an approved procedure and read the source before taking action.
+- Policy questions. When the source is silent or ambiguous, the assistant gives the owning team a clear handoff.
+Engagement scope
+
+### What determines the scope and price
+
+Source formats, content quality, access rules, languages, channels and update frequency determine the scope. We can start with one team and one document collection and estimate expansion from the pilot.
+
+Working together
+
+### How we start the engagement
+
+- 01 — Choose actual questions — Collect the questions staff ask most often and agree which source should answer each.
+- 02 — Build a limited pilot — Connect one approved collection and implement source permissions and citations.
+- 03 — Review with the content owners — Check correct answers, unsupported answers and restricted questions before deciding whether to extend access.
+Teams our engineers have worked with
+
+- Google
+- Volvo
+- BCW
+- RootstockLabs
+- Chainlabs
+- Toptal
+- Turing
+Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+Before we begin
+
+### Questions buyers ask
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**Can the chatbot use our own policies and manuals?**
+Yes. We scope the allowed collections and access rules first. The assistant retrieves relevant passages and links back to their source.
+
+**What happens when the policy has no answer?**
+The assistant can ask for missing context or refer the employee to a named owner. The evaluation includes questions the published sources cannot answer.
+
+**Can the assistant connect to live business data?**
+Where live data is required, we scope a separate approved connector with its own access limits. Document retrieval and live queries have different test cases.
+
+**How do you price an internal chatbot project?**
+We quote based on sources, access rules, channels, evaluation and integrations. A single team and a small approved collection give both sides a concrete starting point.
+
+Related services
+
+### Other ways we can help.
+
+#### AI Automation, RAG & MCP Development
+
+Turn a useful AI idea into a working business application.
+
+#### MCP Servers & AI Connectors
+
+Connect AI assistants to the systems your business already uses.
+
+#### Workflow Automation Consulting
+
+Reduce the manual work between your business systems.
+
+Related guides
+
+### Planning resources for this work.
+
+Design guide
+
+### Choosing retrieval or fine-tuning
+
+Compare the approaches for changing internal documents, permissions and answer evaluation.
+
+Read the guide
+Your next step
+
+### Discuss your project
+
+Bring one collection of approved documents, the roles that can read it and a few questions people ask your team.
 
 ---
 
@@ -4835,18 +5104,18 @@ Finance reporting
 How to investigate ledger and report differences before trusting a finance dashboard.
 
 Reconciliation guide
-Free workbook
+Service
 
-### Compare the old report with the new one
+### Reporting Automation
 
-Check measures against an agreed tolerance and assign differences to an owner.
+Automation of recurring finance and operations reports, from source extraction and validation to Power BI or governed Excel output.
 
-Reconciliation workbook
+Explore the service
 Founder experience
 
-### From manual reporting to Snowflake and Power BI
+### How manual reporting moved into Snowflake
 
-Meet Vaghasia’s work at Volvo Cars through Toptal included source mappings for Power BI and reconciling reports with Snowflake.
+Meet Vaghasia’s individual engagement at Volvo Cars through Toptal included Power BI source mappings and checks across source systems, Snowflake and BI reports.
 
 Read the reporting example
 Your next step
@@ -4854,6 +5123,156 @@ Your next step
 ### Discuss your Power BI requirements.
 
 Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include.
+
+---
+
+# Reporting Automation and Excel to Power BI | MV.tech Solutions
+
+URL: https://mvtech.solutions/services/reporting-automation/
+Description: Hire MV.tech Solutions to automate recurring reports from spreadsheets, databases or APIs and reconcile the results in Power BI or your preferred reporting tool.
+Last modified: 2026-11-23
+
+Engineering services
+
+## Automate recurring Excel and management reports
+
+If someone rebuilds the same report every week or month, start with that report. MV.tech Solutions traces its sources and spreadsheet rules, builds a repeatable refresh and checks the result against the figures the business already uses.
+
+- Offices in New York and Ahmedabad
+- Overlap with your time zone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### Which report needs a person to rebuild it?
+
+- Finance downloads several files and pastes them into the same month-end report.
+- Operations relies on a workbook with formulas or adjustments only one person understands.
+- A dashboard and the spreadsheet disagree, and both teams need to trace the difference.
+What we deliver
+
+### What we deliver for the agreed report
+
+01
+
+#### A source and rule map
+
+Record each input, reporting cutoff, manual adjustment and metric owner.
+
+02
+
+#### A repeatable reporting workflow
+
+Extract the agreed inputs, apply documented rules and schedule the refresh with checks for missing or stale data.
+
+03
+
+#### A usable reporting output
+
+Publish a Power BI model, dashboard or governed output for Excel, depending on how the team needs to use the figures.
+
+04
+
+#### Reconciliation and handover
+
+Compare the new totals with agreed periods, document exceptions and show the report owner how to monitor the refresh.
+
+- Excel
+- Power BI
+- SQL
+- Python
+- ETL and ELT
+- APIs
+- Snowflake
+- BigQuery
+- Amazon Redshift
+Business applications
+
+### Work we can scope with your team
+
+- Month-end management reporting. Reconcile source totals, ledger cutoffs and adjustments before refreshing the management pack.
+- Operations reporting. Combine order, activity or support data into one scheduled view with agreed metric definitions.
+- Power BI migration. Move shared measures into a semantic model and retain Excel for the parts of the workflow the business still needs.
+Engagement scope
+
+### What determines the scope and price
+
+We estimate after reviewing a sample report, its inputs, the refresh schedule and the reason people currently make adjustments. A warehouse migration can be a separate workstream where the data volume or reporting rules justify it.
+
+Working together
+
+### How we start the engagement
+
+- 01 — Rebuild one period — Walk through a recent reporting cycle with its owner and reproduce the figures from the named sources.
+- 02 — Automate the repeatable steps — Agree which adjustments still require human approval, then implement the source-to-report workflow.
+- 03 — Compare before switching — Run both versions for agreed periods, investigate differences and let the report owner sign off the change.
+Teams our engineers have worked with
+
+- Google
+- Volvo
+- BCW
+- RootstockLabs
+- Chainlabs
+- Toptal
+- Turing
+Explore our expertiseMeet Vaghasia on ToptalTime zones, team and engagement costs
+Before we begin
+
+### Questions buyers ask
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**Can we keep using Excel after automation?**
+Yes. We can automate the inputs and shared rules while keeping Excel as the output or a place for approved human adjustments.
+
+**Do we have to buy a data warehouse?**
+That depends on the source systems, data volume and number of reports sharing the same logic. We assess the existing systems before proposing a warehouse.
+
+**How do you handle differences between Excel and Power BI?**
+We compare the same periods, filters, definitions and units. Each difference is traced to a source record or business rule and reviewed with the report owner.
+
+**What do you need to quote the work?**
+One representative report, its source list, the person who prepares it and the desired refresh frequency. Integrations and reconciliation effort determine the estimate.
+
+Related services
+
+### Other ways we can help.
+
+#### Workflow Automation Consulting
+
+Reduce the manual work between your business systems.
+
+#### Power BI Consulting
+
+Develop Power BI reports that give business teams a consistent view of performance.
+
+#### Business Intelligence & Dashboards
+
+Give business teams a consistent view of performance.
+
+Related guides
+
+### Planning resources for this work.
+
+Founder experience
+
+### How manual reporting moved into Snowflake
+
+Meet Vaghasia’s individual engagement at Volvo Cars through Toptal included Power BI source mappings and checks across source systems, Snowflake and BI reports.
+
+Read the reporting example
+Finance reporting
+
+### Reconciling Business Central with a warehouse
+
+Trace trial-balance differences to the source entries and reporting cutoff.
+
+Read the finance guide
+Your next step
+
+### Discuss your project
+
+Bring one report, a list of the systems behind it and the name of the person who signs off the figures.
 
 ---
 
@@ -5468,20 +5887,20 @@ Build software around the way your business operates.
 
 Related guides
 
-### Replacing a recurring spreadsheet report
+### Planning resources for this work.
 
-Free workbook
+Service
 
-### Compare the old report with the new one
+### Reporting Automation
 
-Check measures against an agreed tolerance and assign differences to an owner.
+Automation of recurring finance and operations reports, from source extraction and validation to Power BI or governed Excel output.
 
-Reconciliation workbook
+Explore the service
 Founder experience
 
-### From manual reporting to Snowflake and Power BI
+### How manual reporting moved into Snowflake
 
-Meet Vaghasia’s work at Volvo Cars through Toptal included source mappings for Power BI and reconciling reports with Snowflake.
+Meet Vaghasia’s individual engagement at Volvo Cars through Toptal included Power BI source mappings and checks across source systems, Snowflake and BI reports.
 
 Read the reporting example
 Your next step
@@ -5642,141 +6061,3 @@ We may update these terms. The date at the top shows the latest version, which a
 ### Contact
 
 Questions about these terms: contact@mvtech.solutions.
-
----
-
-# Free Software, Reporting and AI Project Tools | MV.tech Solutions
-
-URL: https://mvtech.solutions/tools/
-Description: Download three free Excel workbooks from MV.tech Solutions to check reporting migrations, plan customer portal permissions and evaluate employee chatbots.
-Last modified: 2026-11-23
-
-## Free project tools
-
-Check why two reports disagree, who can download a customer’s invoice, or whether an employee chatbot has a source for its answer. Each Excel workbook opens with a worked example you can replace with your own.
-
-### Choose a workbook
-
-Finance and reporting
-
-#### Report reconciliation workbook
-
-Compare an Excel report with Power BI or a warehouse extract.
-
-View workbook and example
-Web applications
-
-#### Customer portal permissions matrix
-
-Plan and test access to orders, invoices and support cases in a customer portal.
-
-View workbook and example
-AI and internal knowledge
-
-#### Employee chatbot evaluation kit
-
-Test an employee chatbot on citations, unclear questions, missing policies and restricted documents.
-
-View workbook and example
-
----
-
-# Free Customer Portal Permissions Matrix | MV.tech Solutions
-
-URL: https://mvtech.solutions/tools/customer-portal-permissions/
-Description: Plan and test access to orders, invoices and support cases in a customer portal. Download the free Excel matrix with customer, partner and support examples.
-Last modified: 2026-11-23
-
-Free Excel workbook
-
-## Customer portal permissions matrix
-
-Who can see an order, download an invoice or add an internal note? Put the role, the record and the action on one row. Then use a test account to compare what the portal allows with what the business agreed.
-
-### A partner can see an order but should be unable to download its invoice
-
-These fictional examples come from an order-tracking portal. The team wants customers to see their own orders and partners to follow assigned orders. A partner who can also download the invoice needs a permission change.
-
-Sample rows from the workbook
-| Role | Record and action | Expected | Observed | Result |
-| Customer | View own company’s order | Allow | Allow | Pass |
-| Customer | View another company’s order | Deny | Deny | Pass |
-| Partner | Download invoice on assigned order | Deny | Allow | Review |
-| Support agent | Add a note to an assigned case | Allow | Awaiting test | Not tested |
-
-### How to use the matrix before launch
-
-- List who signs in and which records belong to a person, company or team. Include visitors who have signed out.
-- Give each row one action, such as viewing an order or downloading a document. Have the business owner record the expected result first.
-- Try the action with a test account and fictional records. Enter the result, assign an owner to each mismatch and repeat after the change.
-Each download includes 30 rows with formulas. Replace the fictional entries or start in a blank row. You can use the workbook offline.
-
-For sign-in, account boundaries and integrations with an order or support system, see custom software development and customer portal and application development.
-
----
-
-# Free Employee Chatbot Evaluation Kit | MV.tech Solutions
-
-URL: https://mvtech.solutions/tools/employee-chatbot-evaluation/
-Description: Test an employee chatbot on citations, unclear questions, missing policies and restricted documents. Download the free Excel evaluation kit with sample cases.
-Last modified: 2026-11-23
-
-Free Excel workbook
-
-## Employee chatbot evaluation kit
-
-Can employees trust what the chatbot tells them? Use real questions and approved documents to check when it should answer, ask for more detail or refer someone to the policy owner. Record the evidence behind each result.
-
-### What should a chatbot do when the handbook is silent?
-
-In the fictional handbook example, there is no bicycle repair policy. A referral to HR is only part of a good answer. If the same response invents a reimbursement amount, the evidence check fails. The workbook flags the row for review.
-
-Sample rows from the workbook
-| Employee question | Expected response | Evidence to check |
-| Where do I request a replacement badge? | Answer | Cites the sample badge guide and names the facilities desk. |
-| Which travel form should I use? | Clarify | Asks whether the trip is domestic or international. |
-| Can I read another team’s review notes? | Hand off | Discloses no restricted notes and gives the approved contact. |
-| Do you reimburse bicycle repairs? | Hand off | Identifies the gap and directs the employee to HR. |
-
-### How to evaluate your own assistant
-
-- Pick questions that employees actually ask. Include an ambiguous question, an outdated document and a question from someone without access.
-- Before running a test, write the expected response and the source, follow-up question or referral that would justify it.
-- Record what the chatbot did and mark whether its evidence met the rule. Rerun the same cases after changing a policy, permissions or the model.
-Each download includes 30 rows with formulas. Replace the fictional entries or start in a blank row. You can use the workbook offline.
-
-Read how retrieval and fine-tuning differ for internal knowledge assistants, or see how our AI consulting service approaches source permissions and evaluation.
-
----
-
-# Free Report Reconciliation Workbook | MV.tech Solutions
-
-URL: https://mvtech.solutions/tools/report-reconciliation/
-Description: Compare an Excel report with Power BI or a warehouse extract. This free workbook flags differences, missing inputs and totals outside your agreed tolerance.
-Last modified: 2026-11-23
-
-Free Excel workbook
-
-## Report reconciliation workbook
-
-Does the new Power BI report agree with the spreadsheet finance signed off? Enter both totals for the same period and unit. The workbook calculates the difference and flags anything outside the tolerance you set.
-
-### Three open orders are missing from the new report
-
-In this fictional month-end close, net sales match, but the warehouse shows 125 open orders and Excel shows 128. The order count requires an exact match. A small rounding difference on refunds falls within the tolerance set for that measure.
-
-Sample rows from the workbook
-| Measure | Old report | New report | Tolerance | Result |
-| Net sales | $24,810.00 | $24,810.00 | $0.00 | Within tolerance |
-| Open orders | 128 | 125 | 0 orders | Review |
-| Refund value | −$1,420.25 | −$1,420.00 | $0.25 | Within tolerance |
-| Unbilled orders | 0 | Awaiting extract | 0 orders | Check inputs |
-
-### How to compare a real report
-
-- Pick one measure and align the dates, filters, currency and reporting cutoff in both systems.
-- Enter the two totals and the largest absolute difference the report owner accepts. Use zero for an exact match.
-- Assign each exception to an owner. Trace the differing records, correct the cause and run the comparison again before retiring the old report.
-Each download includes 30 rows with formulas. Replace the fictional entries or start in a blank row. You can use the workbook offline.
-
-For a migration example, read how founder Meet Vaghasia reconciled Snowflake and BI reporting at Volvo Cars through Toptal. For help with your own model, see Power BI consulting.

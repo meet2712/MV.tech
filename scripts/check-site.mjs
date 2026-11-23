@@ -125,16 +125,19 @@ for (const file of files) {
     assert(webpage.datePublished <= webpage.dateModified, `${file}: datePublished after dateModified`);
     if (route !== '/') assert(types.includes('BreadcrumbList'), `${file}: BreadcrumbList missing`);
     if (route.startsWith('/services/') && route !== '/services/') assert(types.includes('Service'), `${file}: Service node missing`);
-    if (route.startsWith('/tools/') && route !== '/tools/') {
-      const workbook = graph.find((node) => node['@type'] === 'SpreadsheetDigitalDocument');
-      const download = nodes.find((node) => node.tagName === 'a' && attr(node, 'download') !== undefined);
-      assert(workbook?.isAccessibleForFree && download, `${file}: missing workbook or download link`);
-      assert.equal(workbook.encoding.contentUrl, new URL(attr(download, 'href'), url).href, `${file}: workbook metadata does not match the download`);
-    }
-    if (route === '/tools/') {
-      const list = graph.find((node) => node['@type'] === 'ItemList');
-      const expected = [...routes].filter((path) => path.startsWith('/tools/') && path !== route).sort();
-      assert.deepEqual(list?.itemListElement.map((item) => new URL(item.url).pathname).sort(), expected, 'Every project tool should appear in the catalog');
+    if (route === '/services/') {
+      const catalog = graph.find((node) => node['@type'] === 'OfferCatalog');
+      assert(catalog && webpage.mainEntity['@id'] === catalog['@id'], 'The services page must identify its offer catalog');
+      assert.equal(organization.hasOfferCatalog['@id'], catalog['@id']);
+      const offered = catalog.itemListElement.map((offer) => {
+        assert(offer['@type'] === 'Offer' && offer.itemOffered['@type'] === 'Service');
+        const path = new URL(offer.itemOffered.url).pathname;
+        assert(nodes.some((node) => node.tagName === 'a' && attr(node, 'href') === path), `Missing catalog link for ${path}`);
+        return path;
+      });
+      const expected = [...routes].filter((path) => path.startsWith('/services/') && path !== route);
+      assert.deepEqual(offered.sort(), expected.sort(), 'The catalog must contain every service exactly once');
+      assert.equal(catalog.numberOfItems, expected.length);
     }
     if (route.startsWith('/insights/') && route !== '/insights/') {
       const article = graph.find((n) => n['@type'] === 'Article');
