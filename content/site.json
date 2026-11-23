@@ -22,16 +22,16 @@
   ],
   "origin": "https://mvtech.solutions",
   "tagline": "Data-Powered Solutions",
-  "summary": "MV.tech Solutions is a software development, data engineering and AI services company with offices in New York, USA, and Ahmedabad, India. Founded in 2022, it builds business applications, data platforms, reporting systems, AI integrations and automated workflows. Services include project delivery, dedicated engineering teams, IT staff augmentation and technology recruitment for clients in the USA and worldwide, with collaboration hours agreed per engagement.",
-  "shortSummary": "Software development, data engineering, BI and AI services, with offices in New York, USA, and Ahmedabad, India.",
+  "summary": "MV.tech Solutions is a software development, data engineering and AI services company headquartered in Bellerose, New York, USA, with an office in Ahmedabad, India. Founded in 2022, it builds business applications, data platforms, reporting systems, AI integrations and automated workflows. Services include project delivery, dedicated engineering teams, IT staff augmentation and technology recruitment for clients in the USA and worldwide, with collaboration hours agreed per engagement.",
+  "shortSummary": "Software development, data engineering, BI and AI services from our US headquarters in New York and our office in Ahmedabad, India.",
   "disambiguation": "The software, data and AI engineering company at mvtech.solutions, founded by Meet Vaghasia in 2022. Not affiliated with other businesses that use the name MV Tech.",
   "offices": [
     {
       "id": "new-york",
-      "name": "New York office",
+      "name": "New York headquarters",
       "label": "New York, USA",
       "flag": "🇺🇸",
-      "role": "United States",
+      "role": "United States headquarters",
       "city": "New York",
       "streetAddress": "248-15 88th Rd",
       "streetAddress2": "",
@@ -41,14 +41,15 @@
       "country": "United States",
       "countryCode": "US",
       "telephone": "+14473489720",
-      "telephoneDisplay": "+1 (447) 348-9720"
+      "telephoneDisplay": "+1 (447) 348-9720",
+      "isHeadquarters": true
     },
     {
       "id": "ahmedabad",
       "name": "Ahmedabad office",
       "label": "Ahmedabad, India",
       "flag": "🇮🇳",
-      "role": "India",
+      "role": "India office",
       "city": "Ahmedabad",
       "streetAddress": "16 Trishala Residency, S G Highway",
       "streetAddress2": "Behind RC Technical, Opp. High Court, Near Harivila, Chandlodiya",
@@ -61,8 +62,8 @@
   ],
   "officesBlock": {
     "eyebrow": "Our offices",
-    "heading": "Offices in New York and Ahmedabad.",
-    "intro": "Our team works from offices in New York and Ahmedabad, in hours planned around yours."
+    "heading": "Our US headquarters and India office.",
+    "intro": "MV.tech Solutions is headquartered in Bellerose, New York. Our team also works from Ahmedabad, Gujarat, India."
   },
   "email": "contact@mvtech.solutions",
   "calendly": "https://calendly.com/contact-mvtech/new-meeting",

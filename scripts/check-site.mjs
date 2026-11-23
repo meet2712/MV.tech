@@ -8,6 +8,9 @@ import { contractingParty, legalLine } from './templates.mjs';
 
 const site = JSON.parse(await readFile('content/site.json', 'utf8'));
 const origin = site.origin;
+const headquarters = site.offices.filter((office) => office.isHeadquarters);
+assert.equal(headquarters.length, 1, 'Identify exactly one headquarters in the office list');
+assert.equal(headquarters[0].countryCode, 'US', 'The company headquarters is in the United States');
 // Retired routes are redirect stubs (content/site.json -> redirects): checked separately, never treated as pages.
 const redirects = site.redirects ?? {};
 const files = (await publicPages()).filter((file) => !(routeFor(file) in redirects));
@@ -126,6 +129,8 @@ for (const file of files) {
     assert.equal(organization.name, site.name, `${file}: Organization name must be the company name`);
     assert.equal(organization.legalName, site.legalEntity.name, `${file}: Organization legalName must be the legal entity`);
     assert(organization.alternateName.includes(site.shortName), `${file}: Organization alternateName must include the short brand`);
+    assert.deepEqual(organization.address.map((address) => [address.addressCountry, address.addressLocality]), [[headquarters[0].countryCode, headquarters[0].locality]], `${file}: give the headquarters as the organization address`);
+    for (const office of site.offices) assert(organization.location.some((place) => place.address.addressCountry === office.countryCode && place.address.addressLocality === office.locality), `${file}: include the ${office.name} location`);
     assert(!organization.taxID, `${file}: the India GSTIN must not be published as the US entity's taxID`);
     for (const office of site.offices.filter((o) => o.telephone)) {
       assert(organization.location.some((place) => place.telephone === office.telephone), `${file}: Organization location must carry the ${office.name} phone`);

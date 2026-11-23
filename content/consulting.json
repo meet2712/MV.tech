@@ -872,7 +872,7 @@
       },
       {
         "question": "Can a remote team in India run our warehouse migration?",
-        "answer": "Yes. MV.tech Solutions has offices in New York and Ahmedabad, and our data engineering team works in hours planned around your time zone. The migration runs on written work both sides can review: a source-to-target mapping that both sides sign off, automated reconciliation results at every stage, and written sign-off per domain before legacy objects are retired. Handover includes the mappings, ER diagrams, validation results, schedules, ownership and operating runbooks."
+        "answer": "Yes. MV.tech Solutions is headquartered in New York, USA, with an office in Ahmedabad, India. Our data engineering team agrees working hours with you. The migration runs on written work both sides can review: a source-to-target mapping that both sides sign off, automated reconciliation results at every stage, and written sign-off per domain before legacy objects are retired. Handover includes the mappings, ER diagrams, validation results, schedules, ownership and operating runbooks."
       }
     ],
     "summary": "Move ETL jobs and warehouse reporting to a new platform with parallel runs and checks your report owners can review.",

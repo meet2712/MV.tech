@@ -1,11 +1,11 @@
 {
   "/": {
-    "hash": "889383e5758dd8c0",
+    "hash": "9f4ba44ddb2be0a9",
     "published": "2026-01-02",
     "modified": "2026-11-23"
   },
   "/about/": {
-    "hash": "ac96f9e61b036dc5",
+    "hash": "dcf298923aaf7582",
     "published": "2026-06-02",
     "modified": "2026-11-23"
   },
@@ -25,7 +25,7 @@
     "modified": "2026-11-14"
   },
   "/contact/": {
-    "hash": "7b46d355ce86c2d8",
+    "hash": "ccef505041e7b427",
     "published": "2026-06-02",
     "modified": "2026-11-23"
   },
@@ -35,7 +35,7 @@
     "modified": "2026-11-23"
   },
   "/faq/": {
-    "hash": "ea215eb48f127714",
+    "hash": "143b1064dabc7573",
     "published": "2026-06-02",
     "modified": "2026-11-23"
   },
@@ -95,7 +95,7 @@
     "modified": "2026-11-14"
   },
   "/privacy/": {
-    "hash": "6ae83657bb8f141f",
+    "hash": "9e2a68231a49de48",
     "published": "2026-11-14",
     "modified": "2026-11-23"
   },
@@ -155,7 +155,7 @@
     "modified": "2026-11-23"
   },
   "/services/data-warehouse-migration/": {
-    "hash": "419c499f3b10fd26",
+    "hash": "32068350e75cfdf8",
     "published": "2026-09-12",
     "modified": "2026-11-23"
   },

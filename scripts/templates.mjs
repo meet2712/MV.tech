@@ -118,7 +118,7 @@ export function faqList(items) {
 }
 
 export function ctaBand(site, { heading = 'Tell us what needs to work better.', copy = 'Bring the goal, the systems involved and your preferred working hours. The first call is a 30-minute scoping conversation, and you leave with a written next step.', subject = 'Project inquiry for MV.tech Solutions', fields = ['Project goal', 'Current systems', 'Target date', 'Time zone and preferred overlap', 'Budget range (optional)'], callLabel = 'Book a 30-minute call' } = {}) {
-  return `<section class="band cta-band"><div class="container cta-grid"><div><p class="eyebrow">Your next step</p><h2>${h(heading)}</h2><p class="lead">${h(copy)}</p></div><div class="cta-actions">${callButton(site, callLabel)}${emailLink(site, subject, fields, 'Email your brief', 'button-secondary')}<a class="cta-email" href="mailto:${site.email}">${h(site.email)}</a><p class="cta-note">Offices in New York and Ahmedabad · Overlap with your time zone · No obligation</p></div></div></section>`;
+  return `<section class="band cta-band"><div class="container cta-grid"><div><p class="eyebrow">Your next step</p><h2>${h(heading)}</h2><p class="lead">${h(copy)}</p></div><div class="cta-actions">${callButton(site, callLabel)}${emailLink(site, subject, fields, 'Email your brief', 'button-secondary')}<a class="cta-email" href="mailto:${site.email}">${h(site.email)}</a><p class="cta-note">New York headquarters and Ahmedabad office · Overlap with your time zone · No obligation</p></div></div></section>`;
 }
 
 export function relatedServices(pages, currentKey, site) {
@@ -159,7 +159,7 @@ export function servicePage(page, site, allPages) {
       <h1>${h(page.h1 ?? page.name)}</h1>
       <p class="lead">${h(page.intro)}</p>
       <div class="action-row">${callButton(site, page.callLabel ?? 'Discuss your project')}${briefButton}</div>
-      <ul class="fact-row" aria-label="Engagement facts"><li>${icon('map-pin')}Offices in New York and Ahmedabad</li><li>${icon('clock-3')}Overlap with your time zone</li><li>${icon('users-round')}Senior specialists, direct access</li><li>${icon('file-check-2')}Scope agreed in writing</li></ul>
+      <ul class="fact-row" aria-label="Engagement facts"><li>${icon('map-pin')}New York headquarters and Ahmedabad office</li><li>${icon('clock-3')}Overlap with your time zone</li><li>${icon('users-round')}Senior specialists, direct access</li><li>${icon('file-check-2')}Scope agreed in writing</li></ul>
     </div>
   </section>
   <section class="band band-light">
