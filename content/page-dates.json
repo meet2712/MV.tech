@@ -1,6 +1,6 @@
 {
   "/": {
-    "hash": "eccac66e752577a3",
+    "hash": "ae14cb320ebc0d35",
     "published": "2026-01-02",
     "modified": "2026-11-23"
   },
@@ -110,7 +110,7 @@
     "modified": "2026-11-23"
   },
   "/services/": {
-    "hash": "85cdbe45a40955e4",
+    "hash": "340ec8eac0cd3fa9",
     "published": "2026-06-02",
     "modified": "2026-11-23"
   },
@@ -225,7 +225,7 @@
     "modified": "2026-11-14"
   },
   "/work/": {
-    "hash": "652c13e44bf5fb8a",
+    "hash": "d5d37db741ad12e2",
     "published": "2026-11-23",
     "modified": "2026-11-23"
   }
