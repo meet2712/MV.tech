@@ -11,7 +11,7 @@ LinkedIn: https://www.linkedin.com/company/mv-tech-solutions/
 Offices: New York office: 248-15 88th Rd, Bellerose, NY 11426, United States (+1 (447) 348-9720); Ahmedabad office: 16 Trishala Residency, S G Highway, Behind RC Technical, Opp. High Court, Near Harivila, Chandlodiya, Ahmedabad, Gujarat 380061, India. Staff work from both offices; India GSTIN 24BZMPV4008F1ZA belongs to the India office. Serves clients in the USA and worldwide with agreed time-zone overlap. Details: https://mvtech.solutions/contact/#offices
 Privacy and legal: https://mvtech.solutions/privacy/ · https://mvtech.solutions/terms/ · https://mvtech.solutions/accessibility/
 Teams our engineers have worked with: Google, Volvo, BCW, RootstockLabs, Chainlabs, Toptal, Turing. Names reflect organizations the MV.tech Solutions team has worked with directly or through talent platforms such as Toptal and Turing. They are not endorsements or current partnerships.
-Last generated: 2026-11-20. Short summary and answer guidance: https://mvtech.solutions/llms.txt
+Last generated: 2026-11-23. Short summary and answer guidance: https://mvtech.solutions/llms.txt
 
 This file is generated from the public pages listed below, so it always matches what visitors see. Each section is one page: title, canonical URL, meta description, then the page text.
 
@@ -21,7 +21,7 @@ This file is generated from the public pages listed below, so it always matches 
 
 URL: https://mvtech.solutions/
 Description: MV.tech Solutions builds custom software, data platforms, BI and AI systems, and provides dedicated engineering teams. Offices in New York and Ahmedabad.
-Last modified: 2026-11-20
+Last modified: 2026-11-23
 
 Software, data & AI engineering
 
@@ -44,7 +44,7 @@ Our services
 
 ### What we do
 
-Hand us one piece of work or the whole project.
+Hand us one piece of work or the whole project. If you’re planning a portal, a report migration or an employee chatbot, start with our free project workbooks.
 
 #### Data Engineering & Warehousing
 
@@ -661,7 +661,7 @@ Tell us what you want to build, improve or connect. We’ll discuss the requirem
 
 URL: https://mvtech.solutions/faq/
 Description: Answers about MV.tech Solutions: services, company registration, project delivery, dedicated teams, remote collaboration, pricing, ownership and support.
-Last modified: 2026-11-14
+Last modified: 2026-11-23
 
 Frequently asked questions
 
@@ -675,6 +675,12 @@ Frequently asked questions
 
 **What does MV.tech Solutions do?**
 MV.tech Solutions provides custom software development, data engineering, warehouse migration, BI, AI development, MCP integrations, automation and blockchain analytics. We also offer dedicated engineering capacity, staff augmentation and permanent technology recruitment.
+
+**Where can I see examples of the founder’s engineering work?**
+Meet Vaghasia’s individual engagements include Redshift pipelines and retrieval-augmented analytics at RootstockLabs, and multi-chain BigQuery data and Looker reporting at BCW Group. See his selected engineering experience. Our reporting migration guide describes his work at Volvo Cars through Toptal.
+
+**Do you have free templates I can use before starting a project?**
+Yes. Our free Excel workbooks cover report reconciliation, customer portal permissions and employee chatbot evaluation. Each includes a worked example and editable rows. You can download them directly and use them offline.
 
 **Where is the company based?**
 MV.tech Solutions has two offices: New York, USA, and Ahmedabad, Gujarat, India. Our team works from both offices, and we work with clients in the USA and worldwide in collaboration hours agreed per engagement.
@@ -817,7 +823,7 @@ AI engineering
 
 A plain-language comparison of retrieval-augmented generation and fine-tuning for knowledge assistants: when each fits, permissions, evaluation and cost.
 
-Sep 10, 2026 · 5 min read
+Sep 10, 2026 · 6 min read
 Engagement models
 
 ### Staff Augmentation vs Project Consulting vs Recruitment: Which Engagement Model Fits?
@@ -1049,7 +1055,7 @@ AI engineering
 
 A plain-language comparison of retrieval-augmented generation and fine-tuning for knowledge assistants: when each fits, permissions, evaluation and cost.
 
-5 min read
+6 min read
 Finance data engineering
 
 ### Reconciling Dynamics 365 Business Central With Your Data Warehouse
@@ -1076,7 +1082,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/insights/moving-excel-reporting-into-a-cloud-data-warehouse/
 Description: How to move month-end Excel reporting into Snowflake or BigQuery: finding the sources and rules behind the spreadsheets, the order of work and reconciliation.
-Last modified: 2026-11-16
+Last modified: 2026-11-23
 
 Warehouse migration
 
@@ -1084,7 +1090,7 @@ Warehouse migration
 
 How to move month-end Excel reporting into Snowflake or BigQuery: finding the sources and rules behind the spreadsheets, the order of work and reconciliation.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published October 12, 2026 · Updated November 16, 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published October 12, 2026 · Updated November 23, 2026 · 6 min read
 
 In brief
 
@@ -1159,6 +1165,8 @@ Discovery on the first report typically takes weeks, and the time is driven by t
 Not always, and the differences are the useful part. Some turn out to be defects in the spreadsheet, such as a lookup that silently stopped matching. Each difference is investigated and then either fixed or documented as a deliberate change, with the tolerance agreed before reconciliation starts.
 
 ### Plan the move with MV.tech Solutions
+
+Use our free reconciliation workbook to record the agreed tolerance, compare the same period in both systems and follow up on differences.
 
 Our data warehouse migration service covers source discovery, the rule register, raw-to-reporting layers, reconciliation and the repointed dashboard, starting with one report. Bring the month-end pack, the list of systems behind it and the person who builds it today to a scoping call. We quote after a scoping call.
 
@@ -1344,7 +1352,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/
 Description: A plain-language comparison of retrieval-augmented generation and fine-tuning for knowledge assistants: when each fits, permissions, evaluation and cost.
-Last modified: 2026-11-16
+Last modified: 2026-11-23
 
 AI engineering
 
@@ -1352,7 +1360,7 @@ AI engineering
 
 A plain-language comparison of retrieval-augmented generation and fine-tuning for knowledge assistants: when each fits, permissions, evaluation and cost.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published September 10, 2026 · Updated November 16, 2026 · 5 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published September 10, 2026 · Updated November 23, 2026 · 6 min read
 
 In brief
 
@@ -1432,6 +1440,8 @@ It depends on the provider and the contract terms you select. Business and API t
 
 **How much does an internal knowledge assistant cost to run?**
 Ongoing costs come from model usage per query, the retrieval infrastructure, and keeping the index current as documents change. For most internal tools these are modest compared with the engineering time to build and evaluate the system properly. Ask for both numbers when comparing proposals.
+
+The free employee chatbot evaluation kit includes a question with no policy answer, a restricted document and a request that needs clarification. Replace the sample rows with your own questions and score the evidence for each reply.
 
 ### Scope a knowledge assistant with MV.tech Solutions
 
@@ -2124,7 +2134,7 @@ AI engineering
 
 A plain-language comparison of retrieval-augmented generation and fine-tuning for knowledge assistants: when each fits, permissions, evaluation and cost.
 
-5 min read
+6 min read
 Buyer question
 
 ### Looking for a Data Consultancy Company for an Offshore Team?
@@ -2563,13 +2573,13 @@ Tell us about the work, your current systems and the people who will use the res
 
 URL: https://mvtech.solutions/services/
 Description: MV.tech Solutions services: web and application development, custom software, data engineering, BI, AI and MCP, automation and dedicated teams.
-Last modified: 2026-11-15
+Last modified: 2026-11-23
 
 Services
 
 ## Software, data and AI services for your business.
 
-Build a new system, modernize the one you have or extend your engineering team. MV.tech Solutions provides development and consulting services across business applications, data platforms, analytics, AI and automation.
+Build a new system, modernize the one you have or extend your engineering team. MV.tech Solutions provides development and consulting services across business applications, data platforms, analytics, AI and automation. Our free project tools include practical checks for three common projects.
 
 Engineering services
 
@@ -2664,7 +2674,7 @@ Tell us what you want to build, improve or connect. We’ll discuss the requirem
 
 URL: https://mvtech.solutions/services/ai-consulting/
 Description: AI consulting, knowledge assistants, RAG, document processing and application integration from MV.tech Solutions, with use-case planning and evaluation.
-Last modified: 2026-11-14
+Last modified: 2026-11-23
 
 MV.tech Solutions services
 
@@ -2819,6 +2829,13 @@ AI data access
 Scoped identities, checked SQL, row limits and provenance for assistants connected to business data.
 
 AI access guide
+Free workbook
+
+### Test an employee chatbot before rollout
+
+Check a sourced answer, a clarification and a human referral against the expected evidence.
+
+Chatbot evaluation kit
 Your next step
 
 ### Discuss your AI project.
@@ -2831,7 +2848,7 @@ Tell us about the work, your current systems and the people who will use the res
 
 URL: https://mvtech.solutions/services/application-development/
 Description: Web application, SaaS and MVP development from MV.tech Solutions: portals, dashboards and internal tools built with React, Next.js, Node.js and Python.
-Last modified: 2026-11-14
+Last modified: 2026-11-23
 
 MV.tech Solutions services
 
@@ -2959,6 +2976,17 @@ Build software around the way your business operates.
 
 Turn a useful AI idea into a working business application.
 
+Related guides
+
+### Planning a customer portal
+
+Free workbook
+
+### Plan who can see each customer record
+
+Test order status, invoice access and support notes by role and company account.
+
+Portal permissions matrix
 Your next step
 
 ### Discuss your application or product.
@@ -3465,7 +3493,7 @@ Tell us about the work, your current systems and the people who will use the res
 
 URL: https://mvtech.solutions/services/custom-software/
 Description: Custom web applications, customer portals, internal tools and data apps from MV.tech Solutions: interfaces, backends, integrations, testing and deployment.
-Last modified: 2026-11-14
+Last modified: 2026-11-23
 
 MV.tech Solutions services
 
@@ -3597,6 +3625,17 @@ Portals, dashboards, internal tools, SaaS products and MVPs, from first release 
 
 Reduce the manual work between your business systems.
 
+Related guides
+
+### Planning a customer portal
+
+Free workbook
+
+### Plan who can see each customer record
+
+Test order status, invoice access and support notes by role and company account.
+
+Portal permissions matrix
 Your next step
 
 ### Discuss your software project.
@@ -4636,7 +4675,7 @@ Tell us about the work, your current systems and the people who will use the res
 
 URL: https://mvtech.solutions/services/power-bi-consulting/
 Description: Power BI models, DAX measures, dashboards, refresh-performance reviews and SSAS migrations, with reporting requirements and source reconciliation.
-Last modified: 2026-11-14
+Last modified: 2026-11-23
 
 MV.tech Solutions services
 
@@ -4796,6 +4835,20 @@ Finance reporting
 How to investigate ledger and report differences before trusting a finance dashboard.
 
 Reconciliation guide
+Free workbook
+
+### Compare the old report with the new one
+
+Check measures against an agreed tolerance and assign differences to an owner.
+
+Reconciliation workbook
+Founder experience
+
+### From manual reporting to Snowflake and Power BI
+
+Meet Vaghasia’s work at Volvo Cars through Toptal included source mappings for Power BI and reconciling reports with Snowflake.
+
+Read the reporting example
 Your next step
 
 ### Discuss your Power BI requirements.
@@ -5283,7 +5336,7 @@ Tell us about the work, your current systems and the people who will use the res
 
 URL: https://mvtech.solutions/services/workflow-automation/
 Description: Automate recurring work across applications, APIs, databases and spreadsheets. MV.tech Solutions builds integrations, validation and exception handling.
-Last modified: 2026-11-14
+Last modified: 2026-11-23
 
 MV.tech Solutions services
 
@@ -5413,6 +5466,24 @@ Turn a useful AI idea into a working business application.
 
 Build software around the way your business operates.
 
+Related guides
+
+### Replacing a recurring spreadsheet report
+
+Free workbook
+
+### Compare the old report with the new one
+
+Check measures against an agreed tolerance and assign differences to an owner.
+
+Reconciliation workbook
+Founder experience
+
+### From manual reporting to Snowflake and Power BI
+
+Meet Vaghasia’s work at Volvo Cars through Toptal included source mappings for Power BI and reconciling reports with Snowflake.
+
+Read the reporting example
 Your next step
 
 ### Discuss your workflow.
@@ -5571,3 +5642,141 @@ We may update these terms. The date at the top shows the latest version, which a
 ### Contact
 
 Questions about these terms: contact@mvtech.solutions.
+
+---
+
+# Free Software, Reporting and AI Project Tools | MV.tech Solutions
+
+URL: https://mvtech.solutions/tools/
+Description: Download three free Excel workbooks from MV.tech Solutions to check reporting migrations, plan customer portal permissions and evaluate employee chatbots.
+Last modified: 2026-11-23
+
+## Free project tools
+
+Check why two reports disagree, who can download a customer’s invoice, or whether an employee chatbot has a source for its answer. Each Excel workbook opens with a worked example you can replace with your own.
+
+### Choose a workbook
+
+Finance and reporting
+
+#### Report reconciliation workbook
+
+Compare an Excel report with Power BI or a warehouse extract.
+
+View workbook and example
+Web applications
+
+#### Customer portal permissions matrix
+
+Plan and test access to orders, invoices and support cases in a customer portal.
+
+View workbook and example
+AI and internal knowledge
+
+#### Employee chatbot evaluation kit
+
+Test an employee chatbot on citations, unclear questions, missing policies and restricted documents.
+
+View workbook and example
+
+---
+
+# Free Customer Portal Permissions Matrix | MV.tech Solutions
+
+URL: https://mvtech.solutions/tools/customer-portal-permissions/
+Description: Plan and test access to orders, invoices and support cases in a customer portal. Download the free Excel matrix with customer, partner and support examples.
+Last modified: 2026-11-23
+
+Free Excel workbook
+
+## Customer portal permissions matrix
+
+Who can see an order, download an invoice or add an internal note? Put the role, the record and the action on one row. Then use a test account to compare what the portal allows with what the business agreed.
+
+### A partner can see an order but should be unable to download its invoice
+
+These fictional examples come from an order-tracking portal. The team wants customers to see their own orders and partners to follow assigned orders. A partner who can also download the invoice needs a permission change.
+
+Sample rows from the workbook
+| Role | Record and action | Expected | Observed | Result |
+| Customer | View own company’s order | Allow | Allow | Pass |
+| Customer | View another company’s order | Deny | Deny | Pass |
+| Partner | Download invoice on assigned order | Deny | Allow | Review |
+| Support agent | Add a note to an assigned case | Allow | Awaiting test | Not tested |
+
+### How to use the matrix before launch
+
+- List who signs in and which records belong to a person, company or team. Include visitors who have signed out.
+- Give each row one action, such as viewing an order or downloading a document. Have the business owner record the expected result first.
+- Try the action with a test account and fictional records. Enter the result, assign an owner to each mismatch and repeat after the change.
+Each download includes 30 rows with formulas. Replace the fictional entries or start in a blank row. You can use the workbook offline.
+
+For sign-in, account boundaries and integrations with an order or support system, see custom software development and customer portal and application development.
+
+---
+
+# Free Employee Chatbot Evaluation Kit | MV.tech Solutions
+
+URL: https://mvtech.solutions/tools/employee-chatbot-evaluation/
+Description: Test an employee chatbot on citations, unclear questions, missing policies and restricted documents. Download the free Excel evaluation kit with sample cases.
+Last modified: 2026-11-23
+
+Free Excel workbook
+
+## Employee chatbot evaluation kit
+
+Can employees trust what the chatbot tells them? Use real questions and approved documents to check when it should answer, ask for more detail or refer someone to the policy owner. Record the evidence behind each result.
+
+### What should a chatbot do when the handbook is silent?
+
+In the fictional handbook example, there is no bicycle repair policy. A referral to HR is only part of a good answer. If the same response invents a reimbursement amount, the evidence check fails. The workbook flags the row for review.
+
+Sample rows from the workbook
+| Employee question | Expected response | Evidence to check |
+| Where do I request a replacement badge? | Answer | Cites the sample badge guide and names the facilities desk. |
+| Which travel form should I use? | Clarify | Asks whether the trip is domestic or international. |
+| Can I read another team’s review notes? | Hand off | Discloses no restricted notes and gives the approved contact. |
+| Do you reimburse bicycle repairs? | Hand off | Identifies the gap and directs the employee to HR. |
+
+### How to evaluate your own assistant
+
+- Pick questions that employees actually ask. Include an ambiguous question, an outdated document and a question from someone without access.
+- Before running a test, write the expected response and the source, follow-up question or referral that would justify it.
+- Record what the chatbot did and mark whether its evidence met the rule. Rerun the same cases after changing a policy, permissions or the model.
+Each download includes 30 rows with formulas. Replace the fictional entries or start in a blank row. You can use the workbook offline.
+
+Read how retrieval and fine-tuning differ for internal knowledge assistants, or see how our AI consulting service approaches source permissions and evaluation.
+
+---
+
+# Free Report Reconciliation Workbook | MV.tech Solutions
+
+URL: https://mvtech.solutions/tools/report-reconciliation/
+Description: Compare an Excel report with Power BI or a warehouse extract. This free workbook flags differences, missing inputs and totals outside your agreed tolerance.
+Last modified: 2026-11-23
+
+Free Excel workbook
+
+## Report reconciliation workbook
+
+Does the new Power BI report agree with the spreadsheet finance signed off? Enter both totals for the same period and unit. The workbook calculates the difference and flags anything outside the tolerance you set.
+
+### Three open orders are missing from the new report
+
+In this fictional month-end close, net sales match, but the warehouse shows 125 open orders and Excel shows 128. The order count requires an exact match. A small rounding difference on refunds falls within the tolerance set for that measure.
+
+Sample rows from the workbook
+| Measure | Old report | New report | Tolerance | Result |
+| Net sales | $24,810.00 | $24,810.00 | $0.00 | Within tolerance |
+| Open orders | 128 | 125 | 0 orders | Review |
+| Refund value | −$1,420.25 | −$1,420.00 | $0.25 | Within tolerance |
+| Unbilled orders | 0 | Awaiting extract | 0 orders | Check inputs |
+
+### How to compare a real report
+
+- Pick one measure and align the dates, filters, currency and reporting cutoff in both systems.
+- Enter the two totals and the largest absolute difference the report owner accepts. Use zero for an exact match.
+- Assign each exception to an owner. Trace the differing records, correct the cause and run the comparison again before retiring the old report.
+Each download includes 30 rows with formulas. Replace the fictional entries or start in a blank row. You can use the workbook offline.
+
+For a migration example, read how founder Meet Vaghasia reconciled Snowflake and BI reporting at Volvo Cars through Toptal. For help with your own model, see Power BI consulting.

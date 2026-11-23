@@ -1,8 +1,8 @@
 {
   "/": {
-    "hash": "bea09a37f2ced26a",
+    "hash": "16f5c6045ab06a90",
     "published": "2026-01-02",
-    "modified": "2026-11-20"
+    "modified": "2026-11-23"
   },
   "/about/": {
     "hash": "8cbfdacf4527ce29",
@@ -35,9 +35,9 @@
     "modified": "2026-11-16"
   },
   "/faq/": {
-    "hash": "0fc0ee10c38fa8b3",
+    "hash": "d7c1a3556a68f54e",
     "published": "2026-06-02",
-    "modified": "2026-11-14"
+    "modified": "2026-11-23"
   },
   "/insights/": {
     "hash": "f2136bbf38989c90",
@@ -55,9 +55,9 @@
     "modified": "2026-11-16"
   },
   "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/": {
-    "hash": "dbc0066473f11083",
+    "hash": "6f886fbb8eddedac",
     "published": "2026-10-12",
-    "modified": "2026-11-16"
+    "modified": "2026-11-23"
   },
   "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/": {
     "hash": "eee13586e32c65b2",
@@ -65,9 +65,9 @@
     "modified": "2026-11-14"
   },
   "/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/": {
-    "hash": "21c44f37d672f466",
+    "hash": "3aeecbb5ca01b21e",
     "published": "2026-09-10",
-    "modified": "2026-11-16"
+    "modified": "2026-11-23"
   },
   "/insights/reconciling-dynamics-365-business-central-with-your-data-warehouse/": {
     "hash": "b0b260f2c816ef92",
@@ -110,19 +110,19 @@
     "modified": "2026-11-14"
   },
   "/services/": {
-    "hash": "8e87737c28d029d4",
+    "hash": "0b10a0668dd7ba0f",
     "published": "2026-06-02",
-    "modified": "2026-11-15"
+    "modified": "2026-11-23"
   },
   "/services/ai-consulting/": {
-    "hash": "053b7befa7197103",
+    "hash": "bfe63eda84a80aa9",
     "published": "2026-09-10",
-    "modified": "2026-11-14"
+    "modified": "2026-11-23"
   },
   "/services/application-development/": {
-    "hash": "f78701dc0c7f0698",
+    "hash": "dd0c436a175a2e1e",
     "published": "2026-11-14",
-    "modified": "2026-11-14"
+    "modified": "2026-11-23"
   },
   "/services/bigquery-consulting/": {
     "hash": "ef19a657b27c0465",
@@ -140,9 +140,9 @@
     "modified": "2026-11-16"
   },
   "/services/custom-software/": {
-    "hash": "90c409589ad4c1cf",
+    "hash": "f6270ddd4c36e1ed",
     "published": "2026-09-10",
-    "modified": "2026-11-14"
+    "modified": "2026-11-23"
   },
   "/services/data-engineering/": {
     "hash": "bbc741a475af390d",
@@ -175,9 +175,9 @@
     "modified": "2026-11-16"
   },
   "/services/power-bi-consulting/": {
-    "hash": "90e179fbe78638a8",
+    "hash": "60d3af4f3e69031a",
     "published": "2026-10-12",
-    "modified": "2026-11-14"
+    "modified": "2026-11-23"
   },
   "/services/snowflake-consulting/": {
     "hash": "87849b9626cba336",
@@ -195,9 +195,9 @@
     "modified": "2026-11-14"
   },
   "/services/workflow-automation/": {
-    "hash": "1f07eb490e879933",
+    "hash": "6ba206efb1e70ac2",
     "published": "2026-09-10",
-    "modified": "2026-11-14"
+    "modified": "2026-11-23"
   },
   "/solutions/": {
     "hash": "bfd34ad5cfa03b2a",
@@ -208,5 +208,25 @@
     "hash": "d98a8209b1f64cba",
     "published": "2026-11-14",
     "modified": "2026-11-14"
+  },
+  "/tools/": {
+    "hash": "0d28b531fa89375b",
+    "published": "2026-11-23",
+    "modified": "2026-11-23"
+  },
+  "/tools/customer-portal-permissions/": {
+    "hash": "1534b55a71be6de3",
+    "published": "2026-11-23",
+    "modified": "2026-11-23"
+  },
+  "/tools/employee-chatbot-evaluation/": {
+    "hash": "3933eaf41f258e58",
+    "published": "2026-11-23",
+    "modified": "2026-11-23"
+  },
+  "/tools/report-reconciliation/": {
+    "hash": "dd587b4975d52e4d",
+    "published": "2026-11-23",
+    "modified": "2026-11-23"
   }
 }

@@ -406,6 +406,13 @@
         "title": "Letting AI assistants query your data warehouse safely",
         "text": "Scoped identities, checked SQL, row limits and provenance for assistants connected to business data.",
         "label": "AI access guide"
+      },
+      {
+        "href": "/tools/employee-chatbot-evaluation/",
+        "kicker": "Free workbook",
+        "title": "Test an employee chatbot before rollout",
+        "text": "Check a sourced answer, a clarification and a human referral against the expected evidence.",
+        "label": "Chatbot evaluation kit"
       }
     ],
     "summary": "Turn a useful AI idea into a working business application.",
@@ -1135,7 +1142,24 @@
     "approachHeading": "How we deliver this work.",
     "applicationsHeading": "Where this service fits.",
     "closingHeading": "Discuss your workflow.",
-    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
+    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include.",
+    "relatedResourcesHeading": "Replacing a recurring spreadsheet report",
+    "relatedResources": [
+      {
+        "href": "/tools/report-reconciliation/",
+        "kicker": "Free workbook",
+        "title": "Compare the old report with the new one",
+        "text": "Check measures against an agreed tolerance and assign differences to an owner.",
+        "label": "Reconciliation workbook"
+      },
+      {
+        "href": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
+        "kicker": "Founder experience",
+        "title": "From manual reporting to Snowflake and Power BI",
+        "text": "Meet Vaghasia’s work at Volvo Cars through Toptal included source mappings for Power BI and reconciling reports with Snowflake.",
+        "label": "Read the reporting example"
+      }
+    ]
   },
   {
     "path": "/services/custom-software/",
@@ -1256,7 +1280,17 @@
     "approachHeading": "How we deliver this work.",
     "applicationsHeading": "Where this service fits.",
     "closingHeading": "Discuss your software project.",
-    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
+    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include.",
+    "relatedResourcesHeading": "Planning a customer portal",
+    "relatedResources": [
+      {
+        "href": "/tools/customer-portal-permissions/",
+        "kicker": "Free workbook",
+        "title": "Plan who can see each customer record",
+        "text": "Test order status, invoice access and support notes by role and company account.",
+        "label": "Portal permissions matrix"
+      }
+    ]
   },
   {
     "path": "/services/web-development/",
@@ -1493,7 +1527,17 @@
       "ai-consulting"
     ],
     "closingHeading": "Discuss your application or product.",
-    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
+    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include.",
+    "relatedResourcesHeading": "Planning a customer portal",
+    "relatedResources": [
+      {
+        "href": "/tools/customer-portal-permissions/",
+        "kicker": "Free workbook",
+        "title": "Plan who can see each customer record",
+        "text": "Test order status, invoice access and support notes by role and company account.",
+        "label": "Portal permissions matrix"
+      }
+    ]
   },
   {
     "path": "/services/it-staff-augmentation/",
@@ -2529,6 +2573,20 @@
         "title": "Reconciling Business Central with your warehouse",
         "text": "How to investigate ledger and report differences before trusting a finance dashboard.",
         "label": "Reconciliation guide"
+      },
+      {
+        "href": "/tools/report-reconciliation/",
+        "kicker": "Free workbook",
+        "title": "Compare the old report with the new one",
+        "text": "Check measures against an agreed tolerance and assign differences to an owner.",
+        "label": "Reconciliation workbook"
+      },
+      {
+        "href": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
+        "kicker": "Founder experience",
+        "title": "From manual reporting to Snowflake and Power BI",
+        "text": "Meet Vaghasia’s work at Volvo Cars through Toptal included source mappings for Power BI and reconciling reports with Snowflake.",
+        "label": "Read the reporting example"
       }
     ],
     "summary": "Develop Power BI reports that give business teams a consistent view of performance.",

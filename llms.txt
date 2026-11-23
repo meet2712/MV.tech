@@ -65,6 +65,13 @@ This is a factual index of the company's public website. The linked pages contai
 - [Brand kit](https://mvtech.solutions/brand/): Download the MV.tech Solutions brand kit: vector logos, favicons, avatars, color tokens, Inter fonts, icons and the full brand guidelines.
 - [Contact](https://mvtech.solutions/contact/): Discuss software, data, BI, AI or automation requirements with MV.tech Solutions. Book a consultation or send a brief for a project, a team or a hire.
 
+## Free project tools
+
+- [Free project tools](https://mvtech.solutions/tools/) — Excel workbooks and worked examples from MV.tech Solutions.
+- [Report reconciliation workbook](https://mvtech.solutions/tools/report-reconciliation/) — Compare an Excel report with Power BI or a warehouse extract. This free workbook flags differences, missing inputs and totals outside your agreed tolerance.
+- [Customer portal permissions matrix](https://mvtech.solutions/tools/customer-portal-permissions/) — Plan and test access to orders, invoices and support cases in a customer portal. Download the free Excel matrix with customer, partner and support examples.
+- [Employee chatbot evaluation kit](https://mvtech.solutions/tools/employee-chatbot-evaluation/) — Test an employee chatbot on citations, unclear questions, missing policies and restricted documents. Download the free Excel evaluation kit with sample cases.
+
 ## Practical buyer guides
 
 - [Insights](https://mvtech.solutions/insights/): index of practical engineering and buying guides by Meet Vaghasia.

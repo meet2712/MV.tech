@@ -250,5 +250,29 @@
     "slug": "terms",
     "title": "Website terms of use",
     "kicker": "MV.tech Solutions · Legal"
+  },
+  {
+    "route": "/tools/",
+    "slug": "tools",
+    "title": "Free project tools",
+    "kicker": "Reporting, customer portals and employee chatbots"
+  },
+  {
+    "route": "/tools/customer-portal-permissions/",
+    "slug": "tools-customer-portal-permissions",
+    "title": "Customer portal permissions matrix",
+    "kicker": "Free Excel workbook"
+  },
+  {
+    "route": "/tools/employee-chatbot-evaluation/",
+    "slug": "tools-employee-chatbot-evaluation",
+    "title": "Employee chatbot evaluation kit",
+    "kicker": "Free Excel workbook"
+  },
+  {
+    "route": "/tools/report-reconciliation/",
+    "slug": "tools-report-reconciliation",
+    "title": "Report reconciliation workbook",
+    "kicker": "Free Excel workbook"
   }
 ]
