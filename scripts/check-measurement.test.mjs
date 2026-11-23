@@ -49,7 +49,7 @@ function runPage({ calendar = false } = {}) {
     appendChild: () => {},
   };
   const window = {
-    location: { origin: 'https://mvtech.solutions', pathname: '/contact/' },
+    location: { origin: 'https://mvtech.solutions', pathname: '/contact/', href: 'https://mvtech.solutions/contact/' },
     gtag: (...args) => events.push(args),
     addEventListener: (name, callback) => { windowEvents[name] = callback; },
   };
@@ -69,6 +69,9 @@ test('contact routes are intent events without enquiry content', () => {
   const page = runPage();
   for (const [href, method] of [
     ['/contact/#book-call', 'calendar'],
+    ['#brief-form', 'brief'],
+    ['/contact/#finance-brief', 'brief'],
+    ['/contact/#hiring-brief', 'brief'],
     ['https://calendly.com/contact-mvtech/new-meeting', 'calendar'],
     ['mailto:contact@mvtech.solutions?body=private-example', 'email'],
     ['tel:+12025550123', 'phone'],

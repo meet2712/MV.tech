@@ -4,8 +4,8 @@
     "key": "data-engineering",
     "name": "Data Engineering Consulting",
     "title": "Data Engineering & ETL Development Services | MV.tech Solutions",
-    "description": "Data integration, ETL pipelines, cloud warehouses, modeling and data quality services from MV.tech Solutions for reporting, analytics and applications.",
-    "intro": "Build the data foundation behind reporting, analytics and business applications. MV.tech Solutions designs data pipelines, cloud warehouses and transformation layers that bring information from your systems into a consistent, maintainable platform. We also improve existing pipelines, models and reporting workflows.",
+    "description": "Build or repair reporting pipelines with change data capture, backfills and source-to-report lineage. Check row counts and sales totals against the source.",
+    "intro": "If a report changes after month-end, someone needs to explain why. We build and repair the pipelines that move data from business systems into warehouses such as BigQuery, Snowflake and Redshift. Your team can trace the number back to its source, see when the load ran and recover a missed delivery.",
     "fitHeading": "Bring your business data into one working platform.",
     "fit": [
       "Connect databases, business applications, APIs and files without relying on recurring manual exports.",
@@ -15,16 +15,16 @@
     "deliverablesHeading": "From source integration to analytics-ready data.",
     "deliverables": [
       {
-        "title": "Data integration and pipelines",
-        "text": "Collect data from APIs, operational databases and files using Python, SQL and cloud ingestion services. The implementation covers incremental loads, historical backfills, duplicate handling and recovery when a source changes or a run fails."
+        "title": "Incremental loads and historical backfills",
+        "text": "We choose how to collect changes from each source. That can mean reading database changes with change data capture (CDC), pulling updated records from an API or comparing scheduled file extracts. We plan how to replay a failed period and test that running it twice produces the same result."
       },
       {
         "title": "Cloud warehouses and data models",
         "text": "Design BigQuery, Snowflake, Redshift or PostgreSQL environments with separate ingestion, transformation and reporting layers. Define table grain, relationships and business rules so the same dataset can support dashboards, analysis and applications."
       },
       {
-        "title": "Data quality and reconciliation",
-        "text": "Check source coverage, refresh dates, duplicates and business totals as data moves between layers. Investigate differences between systems and document the rules behind financial and operational metrics."
+        "title": "Data quality and source-to-report lineage",
+        "text": "Trace a figure from its source field through the SQL model to the dashboard. Compare counts and business totals at the same cutoff, and flag missing rows, duplicates or late corrections for the person who owns the report."
       },
       {
         "title": "Production delivery and support",
@@ -115,7 +115,7 @@
         "label": "Time zone guide"
       }
     ],
-    "summary": "Build the data foundation behind reporting, analytics and business applications.",
+    "summary": "Build reliable data pipelines and trace a reported number back to the records it came from.",
     "ogTitle": "Data Engineering Consulting",
     "ogKicker": "MV.tech Solutions · Consulting · Development · Integration",
     "relatedServiceKeys": [
@@ -123,7 +123,7 @@
       "bigquery-consulting",
       "offshore-data-engineering-team"
     ],
-    "h1": "Data engineering services for connected, usable business data.",
+    "h1": "Data engineering for pipelines, warehouses and reporting.",
     "questionsHeading": "Common questions about data engineering consulting",
     "applications": [
       {
@@ -143,18 +143,18 @@
     "approachHeading": "How we deliver this work.",
     "applicationsHeading": "Where this service fits.",
     "closingHeading": "Discuss your data platform.",
-    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
+    "closingCopy": "Bring one report, source or pipeline that needs attention. Tell us how it runs today and what your team checks before using the result."
   },
   {
     "path": "/services/offshore-data-engineering-team/",
     "key": "offshore-data-engineering-team",
     "name": "Offshore Data Engineering Team",
     "title": "Dedicated Offshore Data Engineering Teams | MV.tech Solutions",
-    "description": "Extend your team with data engineering, analytics and BI specialists from India. Agree roles, capacity, delivery responsibilities and collaboration hours.",
-    "h1": "A dedicated data engineering team for your business.",
+    "description": "Build an offshore data engineering team in India for pipelines, warehouse models and BI. Agree who owns each job, when you overlap and how you review the work.",
+    "h1": "A dedicated offshore data engineering team in India.",
     "eyebrow": "MV.tech Solutions services",
     "serviceType": "Offshore data engineering and analytics team",
-    "intro": "Extend your delivery capacity with data engineers and analytics specialists from India. MV.tech Solutions provides dedicated teams for data integration, cloud warehouses, BI and data quality. Work with a defined team, an agreed backlog and collaboration hours that fit your business.",
+    "intro": "You may have a warehouse migration to finish and a reporting system that still needs attention every morning. Our Ahmedabad team can take on a set of pipelines, models or dashboards while your leads set priorities. Before work starts, we agree who owns each job and when both teams will be online together.",
     "fitHeading": "Build capacity around the work you need delivered.",
     "fit": [
       "Develop a data platform while your internal team continues supporting the business.",
@@ -180,8 +180,8 @@
         "text": "Agree roles, capacity, review routines and reporting with your leads. Work in your repositories and collaboration tools, with documentation and handover included in the engagement."
       }
     ],
-    "scopeHeading": "Agree the team structure before committing capacity.",
-    "scope": "Share your roadmap, current platform, required skills and preferred working hours. We discuss the roles needed, availability, responsibilities and engagement duration. You can begin with a defined workstream and review the team arrangement as the workload develops.",
+    "scopeHeading": "Agree the handover between time zones.",
+    "scope": "Pick a pipeline or a set of reports and name the reviewer on your side. Agree when an overnight failure needs attention, who can approve a rerun and how to reach the owner of the source. We write down the overlap window, planned capacity and any out-of-hours cover as part of the scope.",
     "approach": [
       {
         "title": "Define the roles",
@@ -215,12 +215,12 @@
     ],
     "questions": [
       {
-        "question": "Is MV.tech Solutions a data consultancy company for an offshore team?",
-        "answer": "Yes. MV.tech Solutions is a data, software and AI consultancy with offices in New York, USA, and Ahmedabad, India. For offshore data work, we provide senior remote data engineering and analytics capacity for ETL, cloud warehouses, BI, data quality and reporting, with overlap hours agreed around the client's time zone."
+        "question": "Where is your offshore data engineering team based?",
+        "answer": "Our engineering team works from Ahmedabad, India, and MV.tech Solutions also has an office in New York. We agree a shared working window in your local time. Outside that window, tickets, code reviews and handover notes keep the next person working on the same issue."
       },
       {
-        "question": "How is this different from generic offshore staffing?",
-        "answer": "The engagement is engineering-led. We help shape the scope, define acceptance criteria, validate the data and document handover. You can use the team like embedded capacity, but the work is still managed around a concrete outcome rather than resumes alone."
+        "question": "What would a first milestone look like for an offshore team?",
+        "answer": "For example, give the team one source system and one report that depends on it. Agree how fresh the data needs to be, who owns the alert if a load fails and which totals the report owner will check. Review the pipeline, those checks and the handover notes together before adding another source."
       },
       {
         "question": "Can the team overlap with US, UK, EU, Gulf or APAC hours?",
@@ -268,7 +268,7 @@
         "label": "Time zone guide"
       }
     ],
-    "summary": "Extend your delivery capacity with data engineers and analytics specialists from India.",
+    "summary": "Bring in a team from India to build and run pipelines, warehouse models and reporting alongside your own engineers.",
     "ogTitle": "Offshore Data Engineering Team",
     "ogKicker": "MV.tech Solutions · Consulting · Development · Integration",
     "relatedServiceKeys": [
@@ -292,8 +292,21 @@
     ],
     "approachHeading": "How we deliver this work.",
     "applicationsHeading": "Where this service fits.",
-    "closingHeading": "Discuss your data team.",
-    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
+    "closingHeading": "Which work would you give an offshore team?",
+    "closingCopy": "Tell us what’s in the backlog, which skills you already have and which working hours matter. We can use one upcoming delivery to work out the team you need.",
+    "enquiryFields": [
+      "First workstream or backlog",
+      "Systems and tools",
+      "Skills already on your team",
+      "Roles and weekly capacity needed",
+      "Time zone and required overlap",
+      "Target start and duration"
+    ],
+    "callLabel": "Discuss your team",
+    "briefLink": {
+      "anchor": "team-brief",
+      "label": "Describe your team’s workload"
+    }
   },
   {
     "path": "/services/ai-consulting/",
@@ -749,8 +762,8 @@
     "key": "data-warehouse-migration",
     "name": "Data Warehouse Migration",
     "title": "Data Warehouse & ETL Migration Services | MV.tech Solutions",
-    "description": "Data warehouse and ETL migration to Snowflake, BigQuery or Redshift: source mapping, pipeline rebuilds, reconciliation and a safe switch-over of reports.",
-    "intro": "Move reporting and analytics to a cloud platform with a planned transition. MV.tech Solutions migrates legacy databases, warehouse workloads and spreadsheet-based reporting to Snowflake, BigQuery or Redshift. The work covers discovery, data modeling, reconciliation and the reports that depend on the old system.",
+    "description": "Move ETL jobs and reports to Snowflake, BigQuery or Redshift. Run old and new pipelines in parallel, check source totals and agree when reports can switch.",
+    "intro": "When you move a warehouse, the first question from finance is often whether last month’s numbers will change. We migrate ETL jobs, warehouse tables and the reports that use them to Snowflake, BigQuery or Redshift. We run old and new pipelines in parallel and give report owners a record of what matched and what needs explaining.",
     "fitHeading": "Modernize the platform without losing track of the business rules.",
     "fit": [
       "Move away from a warehouse that is difficult to maintain, expand or integrate.",
@@ -768,16 +781,16 @@
         "text": "Design the target warehouse layers and access model. Document source-to-target mappings, keys, data types and transformation rules, including any intentional changes to existing behavior."
       },
       {
-        "title": "Migration pipelines and validation",
-        "text": "Build repeatable loads for historical and ongoing data. Compare record counts, control totals and business measures between source and target, and resolve differences before report cutover."
+        "title": "Historical loads and change capture",
+        "text": "Rebuild the load and transformation jobs, backfill the agreed history and replay changes that arrive during the move. Where a source supports change data capture, we check how updates and deletes reach the target. We also test recovery after an interrupted load."
       },
       {
-        "title": "Report transition and handover",
-        "text": "Repoint dashboards and semantic models, plan parallel checks and agree rollback and acceptance criteria. Provide the documentation and operating procedures needed to support the new platform."
+        "title": "Parallel runs and report sign-off",
+        "text": "Run both pipelines over the same dates. Compare row counts and business totals with the source, trace differences to individual records and log any rule the report owner agrees to change. Agree a rollback point and a handover before redirecting the dashboards."
       }
     ],
-    "scopeHeading": "A migration plan should include the systems around the warehouse.",
-    "scope": "We assess sources, historical data, transformation logic, report dependencies and access requirements. A migration can be phased by business domain or reporting workload, with acceptance criteria at each stage. Decommissioning is planned only after the relevant data and report checks are accepted.",
+    "scopeHeading": "Start with one report people already rely on.",
+    "scope": "For example, take a monthly sales report. List its source tables and scheduled jobs, reload a closed month on the new warehouse, then compare order counts, returns and net sales by day. The report owner can review the differences and agree when to switch. That first migration gives the next reporting team a set of checks they can reuse.",
     "approach": [
       {
         "title": "Assess and plan",
@@ -844,7 +857,7 @@
         "answer": "Yes. MV.tech Solutions has offices in New York and Ahmedabad, and our data engineering team works in hours planned around your time zone. The migration runs on written work both sides can review: a source-to-target mapping that both sides sign off, automated reconciliation results at every stage, and written sign-off per domain before legacy objects are retired. Handover includes the mappings, ER diagrams, validation results, schedules, ownership and operating runbooks."
       }
     ],
-    "summary": "Move reporting and analytics to a cloud platform with a planned transition.",
+    "summary": "Move ETL jobs and warehouse reporting to a new platform with parallel runs and checks your report owners can review.",
     "ogTitle": "Data Warehouse Migration",
     "ogKicker": "MV.tech Solutions · Consulting · Development · Integration",
     "relatedServiceKeys": [
@@ -852,7 +865,7 @@
       "bigquery-consulting",
       "offshore-data-engineering-team"
     ],
-    "h1": "Data warehouse migration and modernization services.",
+    "h1": "Data warehouse and ETL migration services.",
     "questionsHeading": "Questions about migrating to Snowflake, BigQuery or Redshift",
     "relatedResources": [
       {
@@ -894,8 +907,20 @@
     "eyebrow": "MV.tech Solutions services",
     "approachHeading": "How we deliver this work.",
     "applicationsHeading": "Where this service fits.",
-    "closingHeading": "Discuss your warehouse migration.",
-    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
+    "closingHeading": "Which ETL job or report should move first?",
+    "closingCopy": "Tell us where it runs, where it’s going and when the old platform needs to be retired. We’ll discuss how to test a first migration against your existing figures.",
+    "enquiryFields": [
+      "Current warehouse and ETL tools",
+      "Target platform",
+      "First report or job to move",
+      "Data history and refresh frequency",
+      "Cutover date and time zone"
+    ],
+    "callLabel": "Discuss your migration",
+    "briefLink": {
+      "anchor": "migration-brief",
+      "label": "Outline your migration"
+    }
   },
   {
     "path": "/services/blockchain-data-analytics/",
@@ -1682,15 +1707,19 @@
       }
     ],
     "eyebrow": "MV.tech Solutions services",
-    "applicationsHeading": "Where this service fits."
+    "applicationsHeading": "Where this service fits.",
+    "briefLink": {
+      "anchor": "hiring-brief",
+      "label": "Write a staffing brief"
+    }
   },
   {
     "path": "/services/technology-recruitment/",
     "key": "technology-recruitment",
     "name": "Technology Recruitment",
     "title": "Technology Recruitment for Data, Software & AI | MV.tech Solutions",
-    "description": "Permanent recruitment for data, software, AI, cloud and analytics roles, with role definition, candidate screening and engineering-led technical assessment.",
-    "intro": "Hire the technical people your business needs for the long term. MV.tech Solutions supports permanent recruitment for data engineering, software development, AI, cloud and analytics roles. Our engineering background helps translate the vacancy into a practical brief and a relevant technical assessment.",
+    "description": "Recruit permanent data, software, AI and cloud engineers. We help define the role, assess technical work and prepare a shortlist for your hiring team.",
+    "intro": "What will your new engineer be responsible for after they join? We use that answer to shape the role and the technical interview. We support permanent hiring for data, software, AI and cloud roles. Your team reviews the evidence, makes the offer and employs the person.",
     "callLabel": "Discuss your hiring needs",
     "enquiryFields": [
       "Role title and required skills",
@@ -1700,8 +1729,8 @@
       "Compensation range",
       "Interview process and hiring contact"
     ],
-    "closingHeading": "Discuss your next technology hire.",
-    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include.",
+    "closingHeading": "Which permanent role are you filling?",
+    "closingCopy": "Share the work the new hire will own, the skills they need on day one and who they’ll report to. A draft job description is enough.",
     "fitHeading": "Make the role and the technical assessment clear.",
     "fit": [
       "Define a role that reflects the work the new employee will actually own.",
@@ -1719,16 +1748,16 @@
         "text": "Identify and screen candidates against the agreed brief, including their relevant experience and interest in the working arrangement."
       },
       {
-        "title": "Technical assessment",
-        "text": "Use engineering-led discussions and role-relevant assessment to evaluate technical fit. Present the evidence and open questions for your hiring team to review."
+        "title": "A technical assessment tied to the job",
+        "text": "For a backend developer, for example, ask how they would handle a customer retrying a payment request. Record the failure cases they identified, how they would test the fix and what the hiring manager should explore in the next interview."
       },
       {
         "title": "Interview coordination and decision support",
         "text": "Coordinate interviews and feedback, clarify candidate questions and support the offer process. Your organization makes the selection and employs the successful candidate."
       }
     ],
-    "scopeHeading": "Agree the search around the role you need to fill.",
-    "scope": "We review the responsibilities, team setup, hiring timeline and compensation range. The search scope, screening process and recruitment fees are agreed before work begins. If the requirement is temporary capacity, we can discuss staff augmentation instead.",
+    "scopeHeading": "What should be in a shortlist?",
+    "scope": "For each shortlisted candidate, ask which responsibilities they have handled themselves, what the technical discussion covered and which questions still need an interview. We agree those criteria with you, along with the search area, compensation range, interview stages and recruitment fees, before sourcing begins.",
     "approachHeading": "How we deliver this work.",
     "approach": [
       {
@@ -1802,7 +1831,7 @@
         "label": "Time zone playbook"
       }
     ],
-    "summary": "Hire the technical people your business needs for the long term.",
+    "summary": "Recruit a permanent engineer and review how their experience matches the work they will own.",
     "ogTitle": "Technology Recruitment",
     "ogKicker": "MV.tech Solutions · Permanent hiring · Technical assessment",
     "relatedServiceKeys": [
@@ -1810,7 +1839,7 @@
       "offshore-data-engineering-team",
       "data-engineering"
     ],
-    "h1": "Technology recruitment for data, software and AI teams.",
+    "h1": "Permanent technology recruitment for data, software and AI roles.",
     "questionsHeading": "Questions about hiring permanent data, AI and cloud engineers",
     "applications": [
       {
@@ -1827,7 +1856,11 @@
       }
     ],
     "eyebrow": "MV.tech Solutions services",
-    "applicationsHeading": "Where this service fits."
+    "applicationsHeading": "Where this service fits.",
+    "briefLink": {
+      "anchor": "recruitment-brief",
+      "label": "Describe the permanent role"
+    }
   },
   {
     "path": "/remote-consulting/",
@@ -2003,17 +2036,17 @@
     "path": "/services/hire-data-engineers/",
     "key": "hire-data-engineers",
     "name": "Hire Data Engineers",
-    "title": "Hire Data Engineers for Pipelines & Warehouses | MV.tech Solutions",
-    "description": "Engage data engineers for integration, warehouses, analytics and data quality through embedded capacity, project delivery or permanent recruitment.",
-    "h1": "Hire data engineers for pipelines, warehouses and analytics.",
+    "title": "Hire Data Engineers in Ahmedabad or Remotely | MV.tech Solutions",
+    "description": "Hire data engineers for an embedded role, a warehouse project or a permanent position. Our Ahmedabad team works with employers in Gujarat and worldwide.",
+    "h1": "Hire a data engineer in Ahmedabad or for your remote team.",
     "eyebrow": "MV.tech Solutions services",
     "serviceType": "Data engineer hiring: embedded, project or permanent",
-    "intro": "Bring data engineering expertise into your team or put a defined data project in experienced hands. MV.tech Solutions helps businesses engage engineers for integration, cloud warehouses, modeling and reporting. Choose embedded capacity, project delivery or recruitment for a permanent role.",
-    "fitHeading": "Find the right model for the data work ahead.",
+    "intro": "If your team owns the backlog, we can embed a data engineer to work alongside you. If you have a migration or pipeline to deliver, we can take on the project. If you need a permanent employee, we can help you recruit one. Our team works from Ahmedabad, Gujarat, and agrees working hours with remote clients worldwide.",
+    "fitHeading": "Who will own the work?",
     "fit": [
-      "Add a data engineer to your existing backlog and delivery process.",
-      "Assign responsibility for a defined pipeline, warehouse or reporting project.",
-      "Recruit a permanent data professional into your organization."
+      "Embedded engineer. Your lead sets priorities and reviews the work. We agree the days and hours the engineer will spend with your team.",
+      "Scoped project. We take responsibility for an agreed result, such as moving a set of reports to Snowflake and checking the figures with finance.",
+      "Permanent recruitment. You employ the person. We help define the role, assess the technical fit and give your hiring team evidence to review."
     ],
     "deliverablesHeading": "Data engineering skills matched to your requirement.",
     "deliverables": [
@@ -2034,8 +2067,8 @@
         "text": "Confirm the responsibilities, named specialists, capacity, duration and collaboration hours. For permanent hiring, agree the recruitment brief and assessment process."
       }
     ],
-    "scopeHeading": "Share the responsibilities the engineer will own.",
-    "scope": "Tell us about the platform, source systems, backlog and team structure. We discuss the skills required and whether embedded capacity, a project engagement or permanent recruitment is the best fit. Availability and commercial terms are confirmed after reviewing the requirement.",
+    "scopeHeading": "What would the engineer own in their first month?",
+    "scope": "Share one piece of work you would hand them, the source and destination systems, and who will review it. Include the level of experience you need, working location, hours and target start date. We use those details to discuss engineering fit, availability and cost.",
     "approach": [
       {
         "title": "Review the requirement",
@@ -2097,6 +2130,10 @@
       {
         "question": "What should we share before asking to hire a data engineer?",
         "answer": "The workstream or backlog, the source systems and target warehouse or BI tools, the skills you need, the expected duration and capacity, your time zone and the hours that matter, and any constraints around security or access. A sanitized example of the data is enough for the first call; credentials are never needed for an inquiry."
+      },
+      {
+        "question": "Can you help us hire a data engineer in Ahmedabad, Gujarat?",
+        "answer": "Yes. Our Ahmedabad office supports employers hiring data engineers. Tell us whether the role is on-site, hybrid or remote and which days or overlap hours matter. For a permanent role, we agree the search area and interview process with you. For an embedded engineer, we confirm location, availability and working hours before agreeing a start date."
       }
     ],
     "relatedResourcesHeading": "Three ways to hire, and how to choose between them.",
@@ -2123,7 +2160,7 @@
         "label": "Cost guide"
       }
     ],
-    "summary": "Bring data engineering expertise into your team or put a defined data project in experienced hands.",
+    "summary": "Embed a data engineer, hire a permanent employee or bring us a pipeline project with a clear finish.",
     "ogTitle": "Hire Data Engineers",
     "ogKicker": "MV.tech Solutions · Embedded engineers · Projects · Recruitment",
     "relatedServiceKeys": [
@@ -2133,22 +2170,35 @@
     ],
     "applications": [
       {
-        "title": "Embedded data engineer",
-        "text": "A specialist works with your team on its backlog and review process."
+        "title": "Give them a failed load",
+        "text": "Here’s an example interview exercise. An orders API stops halfway through an overnight load. On the next run it also returns a correction to an order from last month. Ask the engineer to sketch how they would restart the job."
       },
       {
-        "title": "Managed data workstream",
-        "text": "MV.tech Solutions delivers an agreed integration, warehouse or analytics scope."
+        "title": "Ask for evidence the repair worked",
+        "text": "Can they identify the last complete batch, replay a date range without duplicating orders and pick up the older correction? Ask to see the counts and order totals they would compare with the source before reopening the dashboard."
       },
       {
-        "title": "Permanent recruitment",
-        "text": "Your business hires the engineer, with MV.tech Solutions supporting the search and technical assessment."
+        "title": "Match the discussion to the role",
+        "text": "For an engineer on call, ask what the alert would say and who gets the handover. For an analytics engineer, ask which sales measures would change and how they would tell the report owner."
       }
     ],
     "approachHeading": "How we deliver this work.",
-    "applicationsHeading": "Where this service fits.",
-    "closingHeading": "Discuss your data engineering requirements.",
-    "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
+    "applicationsHeading": "How to assess someone who will own a pipeline",
+    "closingHeading": "Tell us about the role or project.",
+    "closingCopy": "A few lines are enough to start. What would this person work on, which tools would they use and when do you need them?",
+    "enquiryFields": [
+      "Role and seniority",
+      "Work the engineer will own",
+      "Current tools and data sources",
+      "Location or remote policy",
+      "Weekly capacity and overlap hours",
+      "Target start date"
+    ],
+    "callLabel": "Discuss the role",
+    "briefLink": {
+      "anchor": "hiring-brief",
+      "label": "Write a hiring brief"
+    }
   },
   {
     "path": "/services/snowflake-consulting/",

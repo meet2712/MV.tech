@@ -177,7 +177,7 @@ function schemaGraph(page) {
     // The two offices, New York first. Street, ZIP and phone are included as soon as content/site.json has them.
     address: site.offices.map(postalAddress),
     location: site.offices.map((office) => ({ '@type': 'Place', '@id': `${origin}/#office-${office.id}`, name: `${site.name} – ${office.name}`, address: postalAddress(office), ...(office.telephone ? { telephone: office.telephone } : {}), ...(officeMapUrl(office) ? { hasMap: officeMapUrl(office) } : {}) })),
-    areaServed: [{ '@type': 'Country', name: 'United States' }, 'Worldwide'], founder: { '@id': `${origin}/#founder` }, sameAs: [site.linkedin, site.crunchbase], knowsAbout: site.knowsAbout,
+    areaServed: [{ '@type': 'Country', name: 'United States' }, 'Worldwide'], founder: { '@id': `${origin}/#founder` }, sameAs: [site.linkedin, site.crunchbase, site.goodfirms, site.clutch], knowsAbout: site.knowsAbout,
     contactPoint: [
       { '@type': 'ContactPoint', contactType: 'sales', email: site.email, url: `${origin}/contact/`, areaServed: ['US', 'Worldwide'], availableLanguage: ['English', 'Hindi', 'Gujarati'] },
       ...site.offices.filter((office) => office.telephone).map((office) => ({ '@type': 'ContactPoint', contactType: 'sales', telephone: office.telephone, areaServed: office.countryCode === 'US' ? 'US' : ['IN', 'Worldwide'], availableLanguage: 'English' })),

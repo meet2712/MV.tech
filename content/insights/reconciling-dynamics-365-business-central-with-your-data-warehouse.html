@@ -1,13 +1,14 @@
 <!--meta
 {
   "name": "Reconciling Business Central",
-  "title": "Reconciling Dynamics 365 Business Central With Your Data Warehouse",
-  "description": "Why Business Central ledger data drifts from warehouse reports, a reconciliation-first integration method and what to check before trusting a dashboard.",
+  "title": "Reconciling supplier statements and warehouse reports with Dynamics 365 Business Central",
+  "description": "Match a supplier statement to the Business Central vendor ledger, explain month-end differences and check the same balances in your data warehouse.",
   "kicker": "Finance data engineering",
   "ogTitle": "Reconciling Business Central with your data warehouse",
   "ogKicker": "Why ledgers drift · Exact decimals · Control totals · A first milestone",
   "published": "2026-10-12",
   "keywords": [
+    "Business Central supplier statement reconciliation",
     "Business Central data warehouse integration",
     "reconcile ERP data with data warehouse",
     "Dynamics 365 Business Central reporting",
@@ -15,7 +16,7 @@
     "general ledger reconciliation",
     "ERP reporting"
   ],
-  "pageTitle": "Reconciling Business Central With a Data Warehouse | MV.tech Solutions",
+  "pageTitle": "Business Central Supplier Statement Reconciliation | MV.tech Solutions",
   "relatedArticleRoutes": [
     "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
     "/insights/letting-ai-assistants-query-your-data-warehouse-safely/",
@@ -26,15 +27,22 @@
 <div class="in-brief">
   <p class="eyebrow">In brief</p>
   <ul>
-    <li>Business Central and the warehouse usually disagree for five reasons: floating-point amounts, document date used instead of posting date, dimensions read from the current master, reversals handled on one side only, and extracts taken before the period closed.</li>
-    <li>The fix is a method: extract entities instead of reports, store amounts as exact decimals, keep a transaction table and a monthly snapshot that reconcile to each other, and compare control totals per account against the trial balance.</li>
-    <li>Before trusting a finance dashboard, ask for the control-total comparison for the last closed month. If nobody can show it to the penny, the dashboard is an estimate.</li>
+    <li>If a <a href="#supplier-statement-reconciliation">supplier statement</a> differs from Business Central, compare both balances for the same vendor, currency and closing date. Then match the documents behind the difference.</li>
+    <li>If Business Central agrees with the supplier and the <a href="#warehouse-reconciliation">warehouse still disagrees</a>, trace the entries from the ledger to the report. Check posting dates, amounts, reversals and the last successful refresh.</li>
   </ul>
 </div>
 
-<p>Finance teams that report from Microsoft Dynamics 365 Business Central tend to reach the same point: the warehouse dashboard says one number, the trial balance says another, and the gap is small enough to ignore in a meeting and large enough that nobody trusts the dashboard again. This guide explains where the drift comes from, describes an integration that reconciles by design, lists what to check before a finance dashboard is used for decisions, and sets out a first milestone.</p>
+<h2 id="supplier-statement-reconciliation">How do you reconcile a supplier statement in Business Central?</h2>
+<ol>
+  <li><strong>Start with one vendor and one statement date.</strong> In Business Central, run Vendor – Detail Trial Balance (report 304). Filter to the vendor and the statement period. Use the currency on the statement and compare the opening balances first. If they already differ, go back to the last agreed balance. <a href="https://learn.microsoft.com/en-us/dynamics365/business-central/reports/report-304">Microsoft’s guide to the vendor report</a>.</li>
+  <li><strong>Match each invoice, credit and payment.</strong> Put the supplier’s document reference beside the external document number or payment reference in Business Central. Compare the amount and posting date. For a payment covering several invoices, check how much was applied to each one. A vendor’s total can agree even when a payment is sitting against the wrong invoice. <a href="https://learn.microsoft.com/en-us/dynamics365/business-central/payables-how-apply-purchase-transactions-manually">How Business Central applies vendor entries</a>.</li>
+  <li><strong>Explain what remains.</strong> For each unmatched line, keep the reference, both dates, the amount in the statement currency and who will follow up. A missing invoice needs a copy from the supplier. A payment in transit needs its bank reference and clearing date. Recheck each item on the next statement.</li>
+</ol>
+<h3>A credit that crosses month-end</h3>
+<p>Suppose both sides start July at zero. The supplier invoices £1,200 and issues a £300 credit on July 31. Its statement closes at £900 owed. Your team posts that credit in Business Central on August 1, so the July vendor report shows £1,200 owed. The £300 difference is the credit. Keep its reference with the July reconciliation and check that the August posting clears it.</p>
+<p>A warehouse report of £1,200 would agree with Business Central at July 31 in this example. If the dashboard shows £900, check whether it used the supplier’s document date or today’s remaining balance to recreate July. If this comparison keeps taking hours, tell us the statement date, the two totals and where the report runs. <a href="/contact/#finance-brief">Describe the reconciliation you want to automate</a>.</p>
 
-<h2>Why does Business Central data drift from warehouse reports?</h2>
+<h2 id="warehouse-reconciliation">Why does Business Central data drift from warehouse reports?</h2>
 <p>It drifts because the warehouse copy is transformed on the way in, and every transformation is a chance to disagree with the ledger. The ledger itself is rarely wrong; the extract, the data types, the date logic and the timing of the load are where the differences enter.</p>
 <div class="table-wrap" tabindex="0"><table class="data-table"><caption>Five causes of drift between a Business Central ledger and a warehouse report</caption><thead><tr><th scope="col">Cause</th><th scope="col">How it shows up</th><th scope="col">What to check</th></tr></thead><tbody>
 <tr><th scope="row">Decimal handling</th><td>Account totals differ by a few pence, and the gap grows with volume</td><td>Whether amounts pass through a floating-point type between the API and the chart</td></tr>

@@ -40,12 +40,57 @@
           <div class="contact-panel">
             <p class="eyebrow">Prefer to write?</p>
             <h2>Start with a short brief.</h2>
-            <p>Share what you know. All fields are optional. You can review the draft in your email app before sending it.</p>
-            <form id="brief-form" class="brief-form" data-email="contact@mvtech.solutions" action="mailto:contact@mvtech.solutions" method="get">
+            <p>Share what you know. Every field is optional. You can review the draft in your email app before sending it.</p>
+            <div class="brief-guides" id="brief-guides">
+              <p id="hiring-brief" tabindex="-1">Hiring an engineer? Tell us what they’ll own and whether you want them to join your team or deliver a project.</p>
+              <p id="team-brief" tabindex="-1">For an offshore team, tell us which skills you have in-house, where you need help and when the teams can work together.</p>
+              <p id="recruitment-brief" tabindex="-1">For a permanent hire, share the role, the level of experience you need and where the person can work.</p>
+              <p id="finance-brief" tabindex="-1">For a reconciliation, name the two reports that disagree and the statement date. An example with the names and amounts changed is fine.</p>
+              <p id="migration-brief" tabindex="-1">For a warehouse migration, tell us which pipeline or report should move first and how you’ll check the result.</p>
+            </div>
+            <form id="brief-form" class="brief-form" data-email="contact@mvtech.solutions" action="mailto:contact@mvtech.solutions" method="post" enctype="text/plain">
               <label><span>What do you need?</span>
                 <select name="need">
-                  <option>Help choosing a service</option><option>Offshore data engineering team</option><option>Data engineering and ETL</option><option>Data warehouse migration</option><option>Business intelligence and dashboards</option><option>Web development (React, Next.js, Node.js)</option><option>Application development (web apps, SaaS, MVPs)</option><option>Custom software</option><option>Workflow automation and API integration</option><option>AI and RAG development</option><option>MCP servers and AI connectors</option><option>Blockchain data analytics</option><option>Consultant in our team (staff augmentation)</option><option>Permanent hire (recruitment)</option><option>Snowflake consulting</option><option>BigQuery consulting</option><option>Power BI consulting</option><option>Something else</option>
+                  <option>Help choosing a service</option>
+                  <option data-brief="hiring-brief" data-fields="staffing">Hire an engineer</option>
+                  <option data-brief="team-brief" data-fields="staffing">Offshore data engineering team</option>
+                  <option data-fields="staffing">Consultant in our team (staff augmentation)</option>
+                  <option data-brief="recruitment-brief" data-fields="staffing">Permanent hire (recruitment)</option>
+                  <option>Data engineering and ETL</option>
+                  <option data-brief="migration-brief" data-fields="migration">Data warehouse migration</option>
+                  <option data-brief="finance-brief" data-fields="finance">Business Central finance reconciliation</option>
+                  <option>Business intelligence and dashboards</option>
+                  <option>Reporting automation</option>
+                  <option>Web development (React, Next.js, Node.js)</option>
+                  <option>Application development (web apps, SaaS, MVPs)</option>
+                  <option>Customer portal development</option>
+                  <option>Custom software</option>
+                  <option>Workflow automation and API integration</option>
+                  <option>AI and RAG development</option>
+                  <option>Employee AI chatbots</option>
+                  <option>MCP servers and AI connectors</option>
+                  <option>Blockchain data analytics</option>
+                  <option>Snowflake consulting</option>
+                  <option>BigQuery consulting</option>
+                  <option>Power BI consulting</option>
+                  <option>Something else</option>
                 </select></label>
+              <fieldset data-brief-fields="staffing" hidden disabled>
+                <legend>About the role</legend>
+                <label><span>Role and experience level</span><input name="role" type="text" placeholder="e.g. Senior data engineer to own our nightly pipeline"></label>
+                <label><span>Location or remote policy</span><input name="location" type="text" placeholder="e.g. Hybrid in Ahmedabad, or fully remote"></label>
+                <label><span>Capacity or duration</span><input name="capacity" type="text" placeholder="e.g. Two days a week for six months, or a permanent role"></label>
+              </fieldset>
+              <fieldset data-brief-fields="finance" hidden disabled>
+                <legend>About the difference</legend>
+                <label><span>Which figures disagree?</span><input name="figures" type="text" placeholder="e.g. Supplier statement balance and vendor ledger balance"></label>
+                <label><span>Statement date and currency</span><input name="period" type="text" placeholder="e.g. October 31, GBP"></label>
+              </fieldset>
+              <fieldset data-brief-fields="migration" hidden disabled>
+                <legend>About the migration</legend>
+                <label><span>What would you move first?</span><input name="first workload" type="text" placeholder="e.g. The sales pipeline that feeds our revenue report"></label>
+                <label><span>How will you check the new result?</span><input name="acceptance" type="text" placeholder="e.g. Daily invoice counts and month-end totals match the source"></label>
+              </fieldset>
               <label><span>What needs to improve, and what would success look like?</span><textarea name="goal" placeholder="e.g. Our weekly revenue report takes two days to assemble from HubSpot and spreadsheets. We need a daily report with figures we can reconcile to the source."></textarea></label>
               <label><span>Current systems and tools</span><input name="systems" type="text" placeholder="e.g. Postgres, HubSpot, Google Sheets, Tableau"></label>
               <label><span>Time zone and preferred overlap hours</span><input name="time zone" type="text" placeholder="e.g. US Eastern, mornings"></label>
@@ -54,9 +99,9 @@
               <label><span>Your name and company</span><input name="from" type="text" autocomplete="name" placeholder="So we know who we are writing back to"></label>
               <div class="brief-actions">
                 <button type="submit" class="button-primary">Open in my email app <i data-lucide="send" aria-hidden="true"></i></button>
-                <button type="button" class="button-secondary" data-copy-brief>Copy the brief instead <i data-lucide="copy" aria-hidden="true"></i></button>
+                <button type="button" class="button-secondary" data-copy-brief hidden>Copy the brief instead <i data-lucide="copy" aria-hidden="true"></i></button>
               </div>
-              <p class="brief-note">No mail app? Copy the brief and paste it into any email to <a href="mailto:contact@mvtech.solutions" style="text-decoration:underline">contact@mvtech.solutions</a>. Please do not include credentials; they are never needed for an inquiry.</p>
+              <p class="brief-note">You can also email <a href="mailto:contact@mvtech.solutions" style="text-decoration:underline">contact@mvtech.solutions</a> directly. Please leave passwords and private records out of your brief.</p>
               <p id="brief-status" class="brief-note" role="status"></p>
               <pre id="brief-preview" class="brief-preview" aria-live="polite"></pre>
             </form>
