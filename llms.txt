@@ -57,6 +57,7 @@ This is a factual index of the company's public website. The linked pages contai
 - [Work examples](https://mvtech.solutions/work/) covers tools the team runs, creative work it delivered and engineering work from the founder’s career.
 - [Social publishing](https://mvtech.solutions/work/#social-media-automation) and [campaign content](https://mvtech.solutions/work/#campaign-content) show a short-video approval and publishing queue and a seasonal social carousel delivered as separate assets with a review preview.
 - [Custom BI with AI](https://mvtech.solutions/work/#ai-bi-platform) describes a reporting assistant that can find a report, check freshness and answer questions using figures the person can access.
+- [AI usage reporting](https://mvtech.solutions/work/#ai-usage-reporting) shows how a deployed dashboard flags missing periods before a team draws conclusions about AI adoption.
 - [Email workflow automation](https://mvtech.solutions/work/#email-automation) describes a workspace that checks campaign rows and prepares reviewable drafts in the intended mailbox.
 - [Marketing attribution](https://mvtech.solutions/work/#marketing-attribution) and [finance reconciliation](https://mvtech.solutions/work/#finance-reporting) describe lead-to-sale matching and comparisons between a ledger and month-end reporting.
 

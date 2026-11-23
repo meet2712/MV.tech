@@ -5270,6 +5270,13 @@ Finance reporting
 Trace trial-balance differences to the source entries and reporting cutoff.
 
 Read the finance guide
+Work example
+
+### Checking the completeness of AI usage reports
+
+See how a dashboard flags missing dates so a team can tell whether two reporting periods are comparable.
+
+Read the example
 Your next step
 
 ### Discuss your project
@@ -6070,7 +6077,7 @@ Last modified: 2026-11-23
 
 A publishing queue for an editor. A reporting assistant that respects each person’s access. An email workspace that keeps track of drafts. Here’s a look at tools we run ourselves, campaign assets we’ve delivered and reporting work our founder has done.
 
-Social publishingAI-assisted BIEmail automationMarketing attributionFinance reportingCampaign content
+Social publishingAI-assisted BIEmail automationMarketing attributionFinance reportingCampaign contentAI usage reporting
 Social media automation
 
 ### One publishing queue for short-form video.
@@ -6122,6 +6129,15 @@ Marketing campaign production
 
 For a seasonal campaign, we designed a set of portrait slides for a social post. We delivered each piece of artwork separately, along with a preview showing the full carousel in reading order.
 
-The preview let the reviewer check how the story read from the opening slide to the last. The individual files made it possible to change a single slide or hand the approved set to the person preparing the post.
+The preview let the reviewer check how the story read from the opening slide to the last. The individual files made it possible to change a single slide or hand the approved set to the person preparing the post. For a separate email campaign, we prepared the subject line, inbox preview text and message copy together.
 
 Discuss a campaign workflowSee the publishing platform
+AI usage reporting
+
+### Did usage dip, or is a day of data missing?
+
+Our founder worked on a dashboard for a team tracking its use of an AI tool. The dashboard shows the dates covered by the available usage records and flags periods where data is missing. A person comparing two weeks can see whether both weeks are complete before drawing a conclusion.
+
+The team checked how the live dashboard handled days with data and days without it. Leaving a gap visible matters when an empty day could otherwise look like a drop in adoption.
+
+Discuss an AI usage dashboardReporting automation services
