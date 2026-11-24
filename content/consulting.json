@@ -430,7 +430,7 @@
       {
         "href": "/work/#ai-bi-platform",
         "kicker": "Work example",
-        "title": "Business Intelligence Studio",
+        "title": "Report Answers",
         "text": "Our founder built an AI assistant that uses the Model Context Protocol (MCP) to read only the reports available to the person asking. Each answer points back to its source.",
         "label": "See the reporting example"
       }
@@ -587,7 +587,7 @@
       {
         "href": "/work/#ai-bi-platform",
         "kicker": "Work example",
-        "title": "Business Intelligence Studio",
+        "title": "Report Answers",
         "text": "Our founder connected an AI assistant to reports through the Model Context Protocol (MCP). The assistant can read only the reports the signed-in person can open.",
         "label": "See how report access works"
       }
@@ -627,8 +627,8 @@
     "key": "business-intelligence",
     "name": "Business Intelligence & Dashboards",
     "title": "Business Intelligence & Dashboard Development | MV.tech Solutions",
-    "description": "BI consulting for Power BI and Tableau teams. Build dashboards, check KPI definitions or scope a custom reporting platform with Business Intelligence Studio.",
-    "intro": "We build dashboards and reporting models in Power BI, Tableau, Looker Studio and Streamlit. Bring us a report people still ask an analyst to explain. We can improve the report or build a custom AI assistant around it. In our founder’s Business Intelligence Studio, the assistant uses the Model Context Protocol (MCP) to read only the reports each person can open.",
+    "description": "BI consulting for Power BI and Tableau teams. Build dashboards, check KPI definitions or scope a custom AI assistant for your reports.",
+    "intro": "We build dashboards and reporting models in Power BI, Tableau, Looker Studio and Streamlit. Bring us a report people still ask an analyst to explain. We can improve the report or build a custom AI assistant around it. Our Report Answers example shows how the Model Context Protocol (MCP) can limit the assistant to reports each person can open.",
     "fitHeading": "Make reporting useful across the business.",
     "fit": [
       "Replace recurring spreadsheet preparation with refreshable business reports.",
@@ -720,7 +720,7 @@
       },
       {
         "question": "Can you help us replace a Tableau or Power BI dashboard with a custom workspace?",
-        "answer": "Yes. Our founder built Business Intelligence Studio so people could ask an AI assistant for a figure and follow the answer back to its source. The assistant uses the Model Context Protocol (MCP) to read only reports the signed-in person can open. We would start with one Tableau workbook or Power BI report, compare figures for the same dates and filters, and test each user role. Your team can run both versions side by side and decide which dashboards to move next."
+        "answer": "Yes. Report Answers shows how people can ask an AI assistant for a figure and follow it back to its source. The Model Context Protocol (MCP) gives the assistant read-only access to reports the signed-in person can open. We would start with one Tableau workbook or Power BI report, compare figures for the same dates and filters, and test each user role. Your team can run both versions side by side and decide which dashboards to move next."
       }
     ],
     "summary": "Give business teams a consistent view of performance.",
@@ -758,7 +758,7 @@
       {
         "href": "/work/#ai-bi-platform",
         "kicker": "Work example",
-        "title": "Business Intelligence Studio",
+        "title": "Report Answers",
         "text": "Ask the AI assistant for an order total, then check its source report and last refresh. Its MCP connection follows the access rules of the signed-in reader.",
         "label": "See the reporting platform"
       }
@@ -784,7 +784,7 @@
     "closingCopy": "Tell us which report people trust, which question takes too long to answer and who needs access. We can scope a repair, a new dashboard or a custom reporting workspace around that starting point.",
     "briefLink": {
       "anchor": "bi-platform-brief",
-      "label": "Discuss Business Intelligence Studio"
+      "label": "Discuss Report Answers"
     }
   },
   {
@@ -2658,7 +2658,7 @@
       },
       {
         "question": "Can we build a custom BI workspace around a report the team already trusts?",
-        "answer": "Yes. Bring one Power BI report, its key measures and a question colleagues often send to an analyst. In Business Intelligence Studio, the AI assistant uses the Model Context Protocol (MCP) to read the reports each person can open. For your build, we would compare answers with your existing report for the same dates and filters, then test what each role can see."
+        "answer": "Yes. Bring one Power BI report, its key measures and a question colleagues often send to an analyst. The Report Answers example shows how the Model Context Protocol (MCP) lets an AI assistant read the reports each person can open. For your build, we would compare answers with your existing report for the same dates and filters, then test what each role can see."
       }
     ],
     "relatedResourcesHeading": "Resources for planning Power BI work.",
@@ -2701,7 +2701,7 @@
       {
         "href": "/work/#ai-bi-platform",
         "kicker": "Work example",
-        "title": "Business Intelligence Studio",
+        "title": "Report Answers",
         "text": "See how the AI assistant finds a figure through its MCP connection, shows the source and respects the signed-in reader’s report permissions.",
         "label": "Explore the project"
       }
