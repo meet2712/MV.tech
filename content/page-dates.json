@@ -1,11 +1,11 @@
 {
   "/": {
-    "hash": "48a991fa388a3c85",
+    "hash": "193c728d1d030397",
     "published": "2026-01-02",
     "modified": "2026-11-24"
   },
   "/about/": {
-    "hash": "dbaf02defc97f27d",
+    "hash": "a966d017692ba31b",
     "published": "2026-06-02",
     "modified": "2026-11-24"
   },
@@ -25,17 +25,17 @@
     "modified": "2026-11-14"
   },
   "/contact/": {
-    "hash": "a212f072f8fa99e2",
+    "hash": "a42d49703b895ca5",
     "published": "2026-06-02",
     "modified": "2026-11-24"
   },
   "/expertise/": {
-    "hash": "6f64b4fbf6eb90a6",
+    "hash": "939ad6857d49cd72",
     "published": "2026-06-02",
     "modified": "2026-11-24"
   },
   "/faq/": {
-    "hash": "c49b4aae5658fba9",
+    "hash": "1e60738b3caa22d6",
     "published": "2026-06-02",
     "modified": "2026-11-24"
   },
@@ -110,12 +110,12 @@
     "modified": "2026-11-23"
   },
   "/services/": {
-    "hash": "948df483d49b855e",
+    "hash": "26bbf2774b19ddbf",
     "published": "2026-06-02",
     "modified": "2026-11-24"
   },
   "/services/ai-consulting/": {
-    "hash": "24f8193d756160c3",
+    "hash": "5ec7296bb54aea0a",
     "published": "2026-09-10",
     "modified": "2026-11-24"
   },
@@ -135,7 +135,7 @@
     "modified": "2026-11-14"
   },
   "/services/business-intelligence/": {
-    "hash": "cc645705b3eb2d4d",
+    "hash": "845b418b7828f3be",
     "published": "2026-09-12",
     "modified": "2026-11-24"
   },
@@ -175,7 +175,7 @@
     "modified": "2026-11-23"
   },
   "/services/mcp-and-ai-connectors/": {
-    "hash": "0106559edd08be17",
+    "hash": "3ca5f2d0ea2725a4",
     "published": "2026-09-12",
     "modified": "2026-11-24"
   },
@@ -185,7 +185,7 @@
     "modified": "2026-11-23"
   },
   "/services/power-bi-consulting/": {
-    "hash": "d836071aec34466d",
+    "hash": "988fe189ed17195f",
     "published": "2026-10-12",
     "modified": "2026-11-24"
   },
@@ -215,7 +215,7 @@
     "modified": "2026-11-23"
   },
   "/solutions/": {
-    "hash": "3c34fda57e72da50",
+    "hash": "739fc79ff4679446",
     "published": "2026-06-02",
     "modified": "2026-11-24"
   },
@@ -225,7 +225,7 @@
     "modified": "2026-11-14"
   },
   "/work/": {
-    "hash": "e258573eecfd99bd",
+    "hash": "08853e69f80d94b5",
     "published": "2026-11-23",
     "modified": "2026-11-24"
   }
