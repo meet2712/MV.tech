@@ -11,7 +11,7 @@ LinkedIn: https://www.linkedin.com/company/mv-tech-solutions/
 Offices: New York headquarters: 248-15 88th Rd, Bellerose, NY 11426, United States (+1 (447) 348-9720); Ahmedabad office: 16 Trishala Residency, S G Highway, Behind RC Technical, Opp. High Court, Near Harivila, Chandlodiya, Ahmedabad, Gujarat 380061, India. Staff work from both offices; India GSTIN 24BZMPV4008F1ZA belongs to the India office. Serves clients in the USA and worldwide with agreed time-zone overlap. Details: https://mvtech.solutions/contact/#offices
 Privacy and legal: https://mvtech.solutions/privacy/ · https://mvtech.solutions/terms/ · https://mvtech.solutions/accessibility/
 Examples of the founder’s work: Moving reporting into a cloud warehouse; Reconciling ledger and dashboard totals; Building read-only data connectors.
-Last generated: 2026-11-23. Short summary and answer guidance: https://mvtech.solutions/llms.txt
+Last generated: 2026-11-24. Short summary and answer guidance: https://mvtech.solutions/llms.txt
 
 This file is generated from the public pages listed below, so it always matches what visitors see. Each section is one page: title, canonical URL, meta description, then the page text.
 
@@ -21,7 +21,7 @@ This file is generated from the public pages listed below, so it always matches 
 
 URL: https://mvtech.solutions/
 Description: Build custom software, data platforms and AI workflows, or hire engineers for your team. MV.tech Solutions is a technology and staffing company headquartered in New York.
-Last modified: 2026-11-23
+Last modified: 2026-11-24
 
 US HQ in New York / Ahmedabad office
 
@@ -30,18 +30,18 @@ US HQ in New York / Ahmedabad office
 We build custom apps, connect the data behind your reports and automate repetitive work. Hire us for a project or bring an engineer onto your team.
 
 Discuss a Project Hire an Engineer
-Try Business Intelligence Studio · See Social Media Automation
+Try Report Answers · See Social Media Automation
 Software Development Data Engineering AI Integration Technology Staffing
 
 ### Featured Projects
 
-#### Business Intelligence Studio
+#### Report Answers
 
 Tired of hunting through Tableau or Power BI dashboards for one number? Ask the AI assistant in plain English, then open the report behind its answer.
 
-Our founder built the Studio with the Model Context Protocol (MCP). It lets the assistant find reports, check when the data refreshed and calculate totals using the reader’s existing permissions.
+This sample shows how an AI assistant can use the Model Context Protocol (MCP) to find reports, check when the data refreshed and calculate totals using the reader’s existing permissions.
 
-Explore Business Intelligence Studio
+Explore Report Answers
 
 #### Social Media Automation
 
@@ -132,7 +132,7 @@ Tell us which report, application or role you need help with. On a 30-minute cal
 
 URL: https://mvtech.solutions/about/
 Description: MV.tech Solutions is a software, data and AI engineering company headquartered in Bellerose, New York, USA, with an office in Ahmedabad, India.
-Last modified: 2026-11-23
+Last modified: 2026-11-24
 
 About MV.tech Solutions
 
@@ -175,7 +175,7 @@ Founder
 
 ### Meet Vaghasia, Founder & Lead Engineer.
 
-Meet is a data and AI engineer. He built Business Intelligence Studio, where an AI assistant uses the Model Context Protocol (MCP) to answer questions from reports the signed-in person can open. His work also includes moving spreadsheet reports into warehouses and reconciling financial figures with the ledger.
+Meet is a data and AI engineer. The Report Answers example draws on his work connecting AI assistants to business reports through the Model Context Protocol (MCP), using the permissions of the person asking. His work also includes moving spreadsheet reports into warehouses and reconciling financial figures with the ledger.
 
 He holds the Google Cloud Professional Data Engineer certification and IBM Mastery Awards in big data engineering and artificial intelligence analysis.
 
@@ -420,7 +420,7 @@ Procurement, security and legal questions are easiest to answer at the scoping s
 
 URL: https://mvtech.solutions/contact/
 Description: Discuss software, data, BI, AI or automation requirements with MV.tech Solutions. Book a consultation or send a brief for a project, a team or a hire.
-Last modified: 2026-11-23
+Last modified: 2026-11-24
 
 Contact
 
@@ -459,7 +459,7 @@ For a warehouse migration, tell us which pipeline or report should move first an
 
 For Social Media Automation, tell us where your clips come from, which channels you publish to and what should hold a clip for review. A description is enough.
 
-For Business Intelligence Studio, tell us one question people ask an analyst, which Tableau, Power BI or other report answers it today, and who should see the answer.
+For Report Answers, tell us one question people ask an analyst, which Tableau, Power BI or other report answers it today, and who should see the answer.
 
 Tell us where your contact list lives, which mailbox holds the drafts and who reviews messages before sending.
 
@@ -473,7 +473,7 @@ Send a short enquiry in your browser. We’ll reply by email.
 
 Pick a service and share the details you have. Every field is optional. You can review the draft in your email app before sending it.
 
-What do you need? Help choosing a service Hire an engineer Offshore data engineering team Consultant in our team (staff augmentation) Permanent hire (recruitment) Data engineering and ETL Data warehouse migration Business Central finance reconciliation Business intelligence and dashboards Reporting automation Social Media Automation Business Intelligence Studio Email Automation Campaign Content Marketing Attribution Web development (React, Next.js, Node.js) Application development (web apps, SaaS, MVPs) Customer portal development Custom software Workflow automation and API integration AI and RAG development Employee AI chatbots MCP servers and AI connectors Blockchain data analytics Snowflake consulting BigQuery consulting Power BI consulting Something else
+What do you need? Help choosing a service Hire an engineer Offshore data engineering team Consultant in our team (staff augmentation) Permanent hire (recruitment) Data engineering and ETL Data warehouse migration Business Central finance reconciliation Business intelligence and dashboards Reporting automation Social Media Automation Report Answers Email Automation Campaign Content Marketing Attribution Web development (React, Next.js, Node.js) Application development (web apps, SaaS, MVPs) Customer portal development Custom software Workflow automation and API integration AI and RAG development Employee AI chatbots MCP servers and AI connectors Blockchain data analytics Snowflake consulting BigQuery consulting Power BI consulting Something else
 About the role Role and experience level Location or remote policy Capacity or duration
 About the difference Which figures disagree? Statement date and currency
 About the migration What would you move first? How will you check the new result?
@@ -531,7 +531,7 @@ Three things to bring
 
 URL: https://mvtech.solutions/expertise/
 Description: Explore MV.tech Solutions capabilities in software, data platforms, BI, AI and cloud delivery, with founder experience and professional credentials.
-Last modified: 2026-11-23
+Last modified: 2026-11-24
 
 Expertise
 
@@ -577,7 +577,7 @@ These examples describe engineering work our founder, Meet Vaghasia, carried out
 
 Meet mapped existing reports to Snowflake and checked the Power BI figures against their sources. Read how to check a reporting migration.
 
-#### Business Intelligence Studio
+#### Report Answers
 
 Meet built an AI reporting assistant that uses the Model Context Protocol (MCP) to read only the reports available to the person asking. Readers can trace a figure to its source and see when it was last refreshed.
 
@@ -623,7 +623,7 @@ Tell us what you want to build, improve or connect. We’ll discuss the requirem
 
 URL: https://mvtech.solutions/faq/
 Description: Answers about MV.tech Solutions: services, company registration, project delivery, dedicated teams, remote collaboration, pricing, ownership and support.
-Last modified: 2026-11-23
+Last modified: 2026-11-24
 
 Frequently asked questions
 
@@ -642,7 +642,7 @@ MV.tech Solutions provides custom software development, data engineering, wareho
 We build customer portals and business applications, data pipelines and warehouses, dashboards, employee AI assistants, MCP integrations and automated workflows. We also provide blockchain analytics, dedicated engineers and permanent technology recruitment. Our service catalog describes the deliverables and scope. Examples include customer portal development, reporting automation and internal chatbot development.
 
 **Can we use a custom reporting workspace alongside Tableau or Power BI?**
-Yes. Business Intelligence Studio is an example our founder built. Its AI assistant uses the Model Context Protocol (MCP) to read only the reports each person can open. We can start with a dashboard your team trusts and a question people still ask an analyst, then compare the answers and test the permissions. Tell us about your report.
+Yes. Report Answers shows how an AI assistant can use the Model Context Protocol (MCP) to read only the reports each person can open. We can start with a dashboard your team trusts and a question people still ask an analyst, then compare the answers and test the permissions. Tell us about your report.
 
 **Can you automatically publish a short video to several social channels?**
 Yes. Social Media Automation starts from a link to a clip you own or are licensed to publish. The workflow drafts captions with AI and adds subtitles and branding. Clips that pass the quality checks publish automatically to your chosen channels. An editor can change the preview or review a flagged clip. Each channel has its own receipt, so the editor can check an uncertain result before retrying. Tell us which channels you use.
@@ -2551,7 +2551,7 @@ Tell us about the work, your current systems and the people who will use the res
 
 URL: https://mvtech.solutions/services/
 Description: MV.tech Solutions services: web and application development, custom software, data engineering, BI, AI and MCP, automation and dedicated teams.
-Last modified: 2026-11-23
+Last modified: 2026-11-24
 
 ## Software, Data, AI & Technology Staffing
 
@@ -2603,7 +2603,7 @@ Find a service by the work you need done
 | Bring business data together | Data Engineering |
 | Replace a legacy reporting platform | Warehouse Migration |
 | Resolve reporting and KPI inconsistencies | Business Intelligence |
-| Give Tableau or Power BI users an AI assistant that respects their report permissions | Business Intelligence Studio |
+| Give Tableau or Power BI users an AI assistant that respects their report permissions | Report Answers |
 | Automatically publish a clip across channels once it passes your quality checks | Social Media Automation |
 | Build or rebuild a website or web app | Web Development |
 | Launch a SaaS product or MVP | Application Development |
@@ -2652,7 +2652,7 @@ Tell us what you want to build, improve or connect. We’ll discuss the requirem
 
 URL: https://mvtech.solutions/services/ai-consulting/
 Description: AI consulting, knowledge assistants, RAG, document processing and application integration from MV.tech Solutions, with use-case planning and evaluation.
-Last modified: 2026-11-23
+Last modified: 2026-11-24
 
 MV.tech Solutions services
 
@@ -2812,7 +2812,7 @@ Internal employee chatbots that answer questions from approved documents with ci
 Explore the service
 Work example
 
-### Business Intelligence Studio
+### Report Answers
 
 Our founder built an AI assistant that uses the Model Context Protocol (MCP) to read only the reports available to the person asking. Each answer points back to its source.
 
@@ -3288,14 +3288,14 @@ Tell us about the work, your current systems and the people who will use the res
 # Business Intelligence & Dashboard Development | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/business-intelligence/
-Description: BI consulting for Power BI and Tableau teams. Build dashboards, check KPI definitions or scope a custom reporting platform with Business Intelligence Studio.
-Last modified: 2026-11-23
+Description: BI consulting for Power BI and Tableau teams. Build dashboards, check KPI definitions or scope a custom AI assistant for your reports.
+Last modified: 2026-11-24
 
 MV.tech Solutions services
 
 ## Business intelligence and dashboard development services.
 
-We build dashboards and reporting models in Power BI, Tableau, Looker Studio and Streamlit. Bring us a report people still ask an analyst to explain. We can improve the report or build a custom AI assistant around it. In our founder’s Business Intelligence Studio, the assistant uses the Model Context Protocol (MCP) to read only the reports each person can open.
+We build dashboards and reporting models in Power BI, Tableau, Looker Studio and Streamlit. Bring us a report people still ask an analyst to explain. We can improve the report or build a custom AI assistant around it. Our Report Answers example shows how the Model Context Protocol (MCP) can limit the assistant to reports each person can open.
 
 - New York headquarters and Ahmedabad office
 - Overlap with your time zone
@@ -3407,7 +3407,7 @@ The fix is to reduce what the report has to read rather than importing less data
 We quote after a scoping call. A useful first project is one dashboard rebuilt on an agreed grain and reconciled against the figures people already trust, and further dashboards and a wider semantic layer are scoped once that first one is agreed. Our team works from New York and Ahmedabad, India, with working hours planned around your time zone and a lean model that avoids large-consultancy overhead.
 
 **Can you help us replace a Tableau or Power BI dashboard with a custom workspace?**
-Yes. Our founder built Business Intelligence Studio so people could ask an AI assistant for a figure and follow the answer back to its source. The assistant uses the Model Context Protocol (MCP) to read only reports the signed-in person can open. We would start with one Tableau workbook or Power BI report, compare figures for the same dates and filters, and test each user role. Your team can run both versions side by side and decide which dashboards to move next.
+Yes. Report Answers shows how people can ask an AI assistant for a figure and follow it back to its source. The Model Context Protocol (MCP) gives the assistant read-only access to reports the signed-in person can open. We would start with one Tableau workbook or Power BI report, compare figures for the same dates and filters, and test each user role. Your team can run both versions side by side and decide which dashboards to move next.
 
 Related services
 
@@ -3452,7 +3452,7 @@ Scoped identities, checked SQL, row limits and provenance for assistants connect
 AI access guide
 Work example
 
-### Business Intelligence Studio
+### Report Answers
 
 Ask the AI assistant for an order total, then check its source report and last refresh. Its MCP connection follows the access rules of the signed-in reader.
 
@@ -4566,7 +4566,7 @@ Tell us about the work, your current systems and the people who will use the res
 
 URL: https://mvtech.solutions/services/mcp-and-ai-connectors/
 Description: Connect AI assistants to databases, business APIs and internal tools with custom MCP servers and connectors, including permissions, testing and deployment.
-Last modified: 2026-11-23
+Last modified: 2026-11-24
 
 MV.tech Solutions services
 
@@ -4725,7 +4725,7 @@ Scoped identities, checked SQL, row limits and provenance for assistants connect
 AI access guide
 Work example
 
-### Business Intelligence Studio
+### Report Answers
 
 Our founder connected an AI assistant to reports through the Model Context Protocol (MCP). The assistant can read only the reports the signed-in person can open.
 
@@ -4910,7 +4910,7 @@ Tell us what’s in the backlog, which skills you already have and which working
 
 URL: https://mvtech.solutions/services/power-bi-consulting/
 Description: Power BI models, DAX measures, dashboards, refresh-performance reviews and SSAS migrations, with reporting requirements and source reconciliation.
-Last modified: 2026-11-23
+Last modified: 2026-11-24
 
 MV.tech Solutions services
 
@@ -5026,7 +5026,7 @@ Yes. MV.tech Solutions works from India Standard Time and agrees an overlap wind
 By reconciling them to source and keeping the check running. Record counts, control totals and date coverage per table, plus the handful of figures people actually act on, are compared against the source system on every refresh. Differences are investigated and either fixed or written down as a deliberate change, which sometimes means the old report was the one that was wrong.
 
 **Can we build a custom BI workspace around a report the team already trusts?**
-Yes. Bring one Power BI report, its key measures and a question colleagues often send to an analyst. In Business Intelligence Studio, the AI assistant uses the Model Context Protocol (MCP) to read the reports each person can open. For your build, we would compare answers with your existing report for the same dates and filters, then test what each role can see.
+Yes. Bring one Power BI report, its key measures and a question colleagues often send to an analyst. The Report Answers example shows how the Model Context Protocol (MCP) lets an AI assistant read the reports each person can open. For your build, we would compare answers with your existing report for the same dates and filters, then test what each role can see.
 
 Related services
 
@@ -5085,7 +5085,7 @@ Drawing on a reporting migration our founder delivered, this guide shows how to 
 Read the reporting example
 Work example
 
-### Business Intelligence Studio
+### Report Answers
 
 See how the AI assistant finds a figure through its MCP connection, shows the source and respects the signed-in reader’s report permissions.
 
@@ -5884,7 +5884,7 @@ Tell us about the work, your current systems and the people who will use the res
 
 URL: https://mvtech.solutions/solutions/
 Description: Business solutions for finance reporting, operational workflows, customer portals, AI applications and blockchain analytics from MV.tech Solutions.
-Last modified: 2026-11-23
+Last modified: 2026-11-24
 
 Business solutions
 
@@ -5932,7 +5932,7 @@ Products and engineering
 
 Give users an application for information, submissions and status tracking, connected to the systems that hold the records.
 
-#### Business Intelligence Studio
+#### Report Answers
 
 An AI assistant uses the Model Context Protocol (MCP) to read only reports the signed-in person can open. We can build around one of your existing Tableau or Power BI reports and check the answers against the figures your team trusts.
 
@@ -6036,14 +6036,14 @@ Questions about these terms: contact@mvtech.solutions.
 # Software, Data, AI & Marketing Projects | MV.tech Solutions
 
 URL: https://mvtech.solutions/work/
-Description: Explore Business Intelligence Studio with AI and MCP, Social Media Automation from source link to published post, and nine more software, data and marketing projects.
-Last modified: 2026-11-23
+Description: Explore Report Answers with AI and MCP, Social Media Automation from source link to published post, and nine more software, data and marketing projects.
+Last modified: 2026-11-24
 
 ## Software, Data, AI & Marketing Projects
 
-We use our publishing and email tools in our own work. Our founder’s engineering projects include Business Intelligence Studio and a Snowflake migration for sales and inventory reporting. Choose a project to see how it works.
+We use our publishing and email tools in our own work. Report Answers illustrates an approach from our founder’s reporting work. Other examples include a Snowflake migration for sales and inventory reporting.
 
-Social Media Automation Business Intelligence Studio Email Automation Marketing Attribution Finance Reconciliation Campaign Content AI Usage Reporting Data Warehouse Migration Blockchain Analytics Language Model Evaluation Production Data Pipelines
+Social Media Automation Report Answers Email Automation Marketing Attribution Finance Reconciliation Campaign Content AI Usage Reporting Data Warehouse Migration Blockchain Analytics Language Model Evaluation Production Data Pipelines
 
 ### Social Media Automation
 
@@ -6053,9 +6053,9 @@ Clips that pass the checks can publish automatically to the selected channels, i
 
 Automate your publishing workflowWorkflow automation services
 
-### Business Intelligence Studio
+### Report Answers
 
-If someone on your team looks up the same figure in Tableau or Power BI every week, we can design an AI assistant around that report. Our founder built Business Intelligence Studio with an AI integration that uses the Model Context Protocol (MCP) to give the assistant read-only access to the reports each person can open.
+If someone on your team looks up the same figure in Tableau or Power BI every week, we can design an AI assistant around that report. Report Answers shows how the Model Context Protocol (MCP) can give an AI assistant read-only access to reports the signed-in person can open. The example draws on our founder’s reporting work.
 
 Take “What were sales by region last quarter?” The assistant can find the relevant report, calculate totals across all matching records and show when the data last refreshed. Someone checking a figure can inspect the underlying rows and the reporting rules behind it.
 

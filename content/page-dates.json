@@ -1,13 +1,13 @@
 {
   "/": {
-    "hash": "ae14cb320ebc0d35",
+    "hash": "48a991fa388a3c85",
     "published": "2026-01-02",
-    "modified": "2026-11-23"
+    "modified": "2026-11-24"
   },
   "/about/": {
-    "hash": "0e4128467a1c8426",
+    "hash": "dbaf02defc97f27d",
     "published": "2026-06-02",
-    "modified": "2026-11-23"
+    "modified": "2026-11-24"
   },
   "/accessibility/": {
     "hash": "d53fc4952b600b4d",
@@ -25,19 +25,19 @@
     "modified": "2026-11-14"
   },
   "/contact/": {
-    "hash": "83e60510e58eef72",
+    "hash": "a212f072f8fa99e2",
     "published": "2026-06-02",
-    "modified": "2026-11-23"
+    "modified": "2026-11-24"
   },
   "/expertise/": {
-    "hash": "7f5754fbe438a0f7",
+    "hash": "6f64b4fbf6eb90a6",
     "published": "2026-06-02",
-    "modified": "2026-11-23"
+    "modified": "2026-11-24"
   },
   "/faq/": {
-    "hash": "197ee581f9544d3d",
+    "hash": "c49b4aae5658fba9",
     "published": "2026-06-02",
-    "modified": "2026-11-23"
+    "modified": "2026-11-24"
   },
   "/insights/": {
     "hash": "6afee5e6144b0faa",
@@ -110,14 +110,14 @@
     "modified": "2026-11-23"
   },
   "/services/": {
-    "hash": "340ec8eac0cd3fa9",
+    "hash": "948df483d49b855e",
     "published": "2026-06-02",
-    "modified": "2026-11-23"
+    "modified": "2026-11-24"
   },
   "/services/ai-consulting/": {
-    "hash": "ba5df0e40a08a95b",
+    "hash": "24f8193d756160c3",
     "published": "2026-09-10",
-    "modified": "2026-11-23"
+    "modified": "2026-11-24"
   },
   "/services/application-development/": {
     "hash": "ee8b744f81071b10",
@@ -135,9 +135,9 @@
     "modified": "2026-11-14"
   },
   "/services/business-intelligence/": {
-    "hash": "866fd3bbfa9a08fe",
+    "hash": "cc645705b3eb2d4d",
     "published": "2026-09-12",
-    "modified": "2026-11-23"
+    "modified": "2026-11-24"
   },
   "/services/custom-software/": {
     "hash": "5915919096c671cb",
@@ -175,9 +175,9 @@
     "modified": "2026-11-23"
   },
   "/services/mcp-and-ai-connectors/": {
-    "hash": "f74a66ed2f0f5988",
+    "hash": "0106559edd08be17",
     "published": "2026-09-12",
-    "modified": "2026-11-23"
+    "modified": "2026-11-24"
   },
   "/services/offshore-data-engineering-team/": {
     "hash": "f14ec4d9e4f75a8b",
@@ -185,9 +185,9 @@
     "modified": "2026-11-23"
   },
   "/services/power-bi-consulting/": {
-    "hash": "6fa1557a24eabddb",
+    "hash": "d836071aec34466d",
     "published": "2026-10-12",
-    "modified": "2026-11-23"
+    "modified": "2026-11-24"
   },
   "/services/reporting-automation/": {
     "hash": "a424b99b685b0a07",
@@ -215,9 +215,9 @@
     "modified": "2026-11-23"
   },
   "/solutions/": {
-    "hash": "9d6cb4c63a08e7e3",
+    "hash": "3c34fda57e72da50",
     "published": "2026-06-02",
-    "modified": "2026-11-23"
+    "modified": "2026-11-24"
   },
   "/terms/": {
     "hash": "d98a8209b1f64cba",
@@ -225,8 +225,8 @@
     "modified": "2026-11-14"
   },
   "/work/": {
-    "hash": "d5d37db741ad12e2",
+    "hash": "e258573eecfd99bd",
     "published": "2026-11-23",
-    "modified": "2026-11-23"
+    "modified": "2026-11-24"
   }
 }
