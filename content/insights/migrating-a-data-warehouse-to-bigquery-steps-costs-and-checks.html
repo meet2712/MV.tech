@@ -1,0 +1,99 @@
+<!--meta
+{
+  "name": "Migrating a data warehouse to BigQuery",
+  "title": "Migrating a data warehouse to BigQuery: design, steps, costs and checks",
+  "description": "How to migrate a data warehouse to BigQuery: dataset and partition design, SQL translation, loading history, cost controls, validation and cutover.",
+  "kicker": "Warehouse migration",
+  "ogTitle": "Migrating a data warehouse to BigQuery",
+  "ogKicker": "Design · SQL translation · Loading · Cost controls · Validation",
+  "published": "2026-11-26",
+  "keywords": [
+    "migrating data warehouse to BigQuery",
+    "data warehouse migration to BigQuery",
+    "BigQuery migration",
+    "BigQuery cost controls",
+    "Redshift to BigQuery migration",
+    "data warehouse migration"
+  ],
+  "pageTitle": "Migrating a Data Warehouse to BigQuery: Steps | MV.tech Solutions",
+  "relatedArticleRoutes": [
+    "/insights/data-warehouse-migration-to-snowflake-steps-and-checklist/",
+    "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
+    "/insights/letting-ai-assistants-query-your-data-warehouse-safely/"
+  ]
+}
+-->
+<div class="in-brief">
+  <p class="eyebrow">In brief</p>
+  <ul>
+    <li>BigQuery has no servers to size. You design datasets, partitions and clustering instead, and those choices decide both query speed and cost.</li>
+    <li>With on-demand pricing you pay for the data each query scans. An unpartitioned table or a habit of selecting every column can be expensive, so set cost limits before analysts get access.</li>
+    <li>Google’s BigQuery Migration Service assesses the old warehouse and translates SQL in bulk. Translation gives you a first draft. A parallel run is what proves the numbers.</li>
+  </ul>
+</div>
+
+<p>Migrating to BigQuery is less about moving data than about changing how the warehouse is designed and paid for. Teams that copy their old tables across unchanged often get the right numbers and a surprising bill. This guide covers the design decisions to make first, the order of work, the cost controls and the checks before cutover.</p>
+
+<h2>What is different about BigQuery?</h2>
+<div class="table-wrap" tabindex="0"><table class="data-table"><caption>How BigQuery differs from a traditional data warehouse</caption><thead><tr><th scope="col">Topic</th><th scope="col">How BigQuery works</th><th scope="col">What it means for a migration</th></tr></thead><tbody>
+<tr><th scope="row">Compute</th><td>Serverless. Queries run on shared or reserved capacity called slots</td><td>There is no cluster to size, patch or pause</td></tr>
+<tr><th scope="row">Pricing</th><td>On-demand by data scanned, or capacity by slot time; storage is billed separately</td><td>Estimate the cost of your heaviest queries before choosing a model</td></tr>
+<tr><th scope="row">Table design</th><td>Partitioning by date or integer range, and clustering on up to four columns</td><td>Partition large fact tables on the date that most queries filter by</td></tr>
+<tr><th scope="row">Location</th><td>Each dataset lives in one region or multi-region, fixed when it is created</td><td>Choose the location first. Changing it later means copying the data</td></tr>
+<tr><th scope="row">Keys</th><td>Primary and foreign keys can be declared but are not enforced</td><td>Test for duplicates and missing parents in the pipeline</td></tr>
+<tr><th scope="row">Nested data</th><td>STRUCT and ARRAY columns hold repeated data inside one row</td><td>Consider nesting one-to-many data that is always read together</td></tr>
+<tr><th scope="row">SQL</th><td>GoogleSQL, with its own functions and procedure syntax</td><td>Translate in bulk, then review anything procedural by hand</td></tr>
+</tbody></table></div>
+
+<h2>How do you migrate a data warehouse to BigQuery, step by step?</h2>
+<ol>
+  <li><strong>Assess the current warehouse.</strong> Google’s migration assessment reads metadata and query logs from sources such as Teradata and Amazon Redshift and reports what is used. For other sources, build the inventory yourself: tables and sizes, jobs, reports and the queries that run most often.</li>
+  <li><strong>Design the target.</strong> Decide the projects and datasets, commonly separate layers for raw, modeled and reporting data. Choose the dataset location. For each large table, choose a partition column and clustering columns from how it is actually queried.</li>
+  <li><strong>Set access and cost limits before loading.</strong> Grant roles at project or dataset level, add row-level and column-level security where the data requires it, and put query limits in place while the only users are the migration team.</li>
+  <li><strong>Translate the SQL.</strong> The batch SQL translator converts scripts to GoogleSQL in bulk, and the interactive translator handles single queries. Review procedural code, date and time functions, implicit type conversions and anything that depended on case-insensitive comparison, because BigQuery compares strings case-sensitively by default.</li>
+  <li><strong>Load history.</strong> Export tables to Cloud Storage as Parquet or Avro and run load jobs, or use the BigQuery Data Transfer Service to move data from Amazon Redshift or Teradata. Load in date ranges and record row counts and control totals for each range.</li>
+  <li><strong>Rebuild the pipelines.</strong> Point ingestion at BigQuery with your ELT tool, the Data Transfer Service or the Storage Write API for streaming. Rebuild transformations with scheduled queries, Dataform or dbt, and orchestrate them with Cloud Composer or the scheduler you already run.</li>
+  <li><strong>Run in parallel, then cut over.</strong> Load both warehouses from the same sources through a full reporting cycle. Switch each report when its totals match and its owner signs off, keep the old warehouse read-only for an agreed period, then switch it off.</li>
+</ol>
+
+<h2>How do you keep BigQuery costs under control?</h2>
+<p>On-demand queries are billed by the data they scan, so cost control is mostly about scanning less and capping what any one query or person can scan.</p>
+<div class="table-wrap" tabindex="0"><table class="data-table"><caption>BigQuery cost controls to set during a migration</caption><thead><tr><th scope="col">Control</th><th scope="col">What it does</th></tr></thead><tbody>
+<tr><th scope="row">Required partition filter</th><td>Rejects any query on the table that does not filter on the partition column</td></tr>
+<tr><th scope="row">Maximum bytes billed</th><td>Stops a query before it runs if it would scan more than the limit</td></tr>
+<tr><th scope="row">Custom quotas</th><td>Caps the data a user or a project can scan in a day</td></tr>
+<tr><th scope="row">Dry run</th><td>Reports how much data a query would scan without running it</td></tr>
+<tr><th scope="row">Clustering</th><td>Reduces the data scanned when queries filter on the clustered columns</td></tr>
+<tr><th scope="row">Capacity pricing</th><td>Replaces per-query billing with reserved slots for steady, heavy workloads</td></tr>
+</tbody></table></div>
+<p>Two habits matter as much as the settings. Select only the columns a query needs, because BigQuery stores data by column and <code>SELECT *</code> reads all of them. Point dashboards at small reporting tables or views built for them, not at raw fact tables.</p>
+
+<h2>How do you check the migrated data?</h2>
+<p>Use the same three levels as any warehouse migration: row counts by partition, control totals by period, and the figures on the reports people use, agreed with the old report for closed periods. Google’s open-source Data Validation Tool can run count and aggregate comparisons between the source and BigQuery. Our guide to <a href="/insights/moving-excel-reporting-into-a-cloud-data-warehouse/">checking a reporting migration</a> describes the sign-off process.</p>
+<p>When totals differ, these are the usual causes:</p>
+<ul>
+  <li><strong>Time zones.</strong> A BigQuery TIMESTAMP is a point in time in UTC, and a DATETIME has no time zone. Daily totals shift if a source column stored local time.</li>
+  <li><strong>Numeric types.</strong> Use NUMERIC for money, not FLOAT64. Floating-point totals drift by small amounts that grow with volume.</li>
+  <li><strong>Text comparison.</strong> Joins and filters that matched regardless of case, or ignored trailing spaces, in the old warehouse may not match in BigQuery.</li>
+  <li><strong>Duplicates.</strong> Keys are not enforced, so a rerun load can insert the same rows twice unless the pipeline prevents it.</li>
+</ul>
+
+<h2>Common mistakes in a BigQuery migration</h2>
+<ul>
+  <li><strong>Copying the old design unchanged.</strong> Large tables without partitions make every query scan the full history.</li>
+  <li><strong>Opening access before limits are set.</strong> One exploratory query on a large table can cost more than a month of planned usage.</li>
+  <li><strong>Creating datasets in the wrong location.</strong> If data must stay in a particular country or region, that has to be decided before the first load.</li>
+  <li><strong>Trusting translated SQL without tests.</strong> Translation preserves syntax more reliably than meaning.</li>
+  <li><strong>Skipping the parallel run.</strong> It is the only stage that shows whether the reports still agree.</li>
+</ul>
+
+<h2>Frequently asked questions</h2>
+<div class="faq-list">
+  <details><summary><span>How long does it take to migrate a data warehouse to BigQuery?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>The schedule follows the number of pipelines and reports, not the amount of data. A first subject area usually takes weeks. A whole warehouse takes months, and the parallel run sets the minimum because it has to cover a full reporting cycle.</p></div></details>
+  <details><summary><span>Is BigQuery cheaper than our current warehouse?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>It depends on how the data is queried. BigQuery costs little when idle because there is no cluster to keep running. It can cost more than expected when large tables are scanned often without partition filters. Estimate with dry runs of your real queries before you commit.</p></div></details>
+  <details><summary><span>Should we use on-demand or capacity pricing?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>Start on-demand while volumes are small or hard to predict, with quotas in place. Consider capacity pricing once monthly query spend is steady and high enough that reserved slots would cost less.</p></div></details>
+  <details><summary><span>Can Power BI or Tableau report from BigQuery?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>Yes. Both have BigQuery connectors. Connect them to reporting tables or views, and use imported or aggregated data for dashboards that refresh often, so that each view does not start a large scan.</p></div></details>
+</div>
+
+<h2>Plan a BigQuery migration with MV.tech Solutions</h2>
+<p>Our <a href="/services/data-warehouse-migration/">data warehouse and ETL migration service</a> covers assessment, translation, parallel runs and report sign-off, and our <a href="/services/bigquery-consulting/">BigQuery consulting</a> covers table design, cost controls and access. Our founder holds the Google Cloud Professional Data Engineer certification. Considering Snowflake instead? Read the guide to <a href="/insights/data-warehouse-migration-to-snowflake-steps-and-checklist/">data warehouse migration to Snowflake</a>. To start, <a href="/contact/#migration-brief">tell us which pipeline or report should move first</a> and how you will check the result.</p>

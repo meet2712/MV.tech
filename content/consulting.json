@@ -1062,25 +1062,25 @@
     "questionsHeading": "Questions about migrating to Snowflake, BigQuery or Redshift",
     "relatedResources": [
       {
+        "href": "/insights/data-warehouse-migration-to-snowflake-steps-and-checklist/",
+        "kicker": "Warehouse migration",
+        "title": "Data warehouse migration to Snowflake",
+        "text": "The seven stages, the checks that prove the numbers and a cutover checklist.",
+        "label": "Migration guide"
+      },
+      {
+        "href": "/insights/migrating-a-data-warehouse-to-bigquery-steps-costs-and-checks/",
+        "kicker": "Warehouse migration",
+        "title": "Migrating a data warehouse to BigQuery",
+        "text": "Design decisions, SQL translation, cost controls and validation before cutover.",
+        "label": "Migration guide"
+      },
+      {
         "href": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
         "kicker": "Reporting migration",
         "title": "Moving Excel reporting into a cloud data warehouse",
         "text": "Find the source rules, plan the migration order and reconcile the warehouse against existing reports.",
         "label": "Migration guide"
-      },
-      {
-        "href": "/insights/reconciling-dynamics-365-business-central-with-your-data-warehouse/",
-        "kicker": "Finance reporting",
-        "title": "Reconciling Business Central with your warehouse",
-        "text": "How to investigate ledger and report differences before trusting a finance dashboard.",
-        "label": "Reconciliation guide"
-      },
-      {
-        "href": "/insights/what-a-remote-data-engineering-team-from-india-costs/",
-        "kicker": "Budget planning",
-        "title": "What does a remote data engineering team from India cost?",
-        "text": "What sets the price, how to compare proposals and which delivery costs to include.",
-        "label": "Cost guide"
       }
     ],
     "applications": [
@@ -2539,10 +2539,10 @@
         "label": "BI service"
       },
       {
-        "href": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
-        "kicker": "Reporting migration",
-        "title": "Moving Excel reporting into a cloud data warehouse",
-        "text": "Find the source rules, plan the migration order and reconcile the warehouse against existing reports.",
+        "href": "/insights/data-warehouse-migration-to-snowflake-steps-and-checklist/",
+        "kicker": "Warehouse migration",
+        "title": "Data warehouse migration to Snowflake",
+        "text": "The seven stages, the checks that prove the numbers and a cutover checklist.",
         "label": "Migration guide"
       }
     ],
@@ -2688,10 +2688,10 @@
         "label": "On-chain data"
       },
       {
-        "href": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
-        "kicker": "Reporting migration",
-        "title": "Moving Excel reporting into a cloud data warehouse",
-        "text": "Find the source rules, plan the migration order and reconcile the warehouse against existing reports.",
+        "href": "/insights/migrating-a-data-warehouse-to-bigquery-steps-costs-and-checks/",
+        "kicker": "Warehouse migration",
+        "title": "Migrating a data warehouse to BigQuery",
+        "text": "Design decisions, SQL translation, cost controls and validation before cutover.",
         "label": "Migration guide"
       }
     ],

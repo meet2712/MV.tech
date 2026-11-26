@@ -742,6 +742,20 @@ Insights
 
 Written by the people who do the work. Plain answers to the questions teams ask before they hire a remote data, software or AI team.
 
+Warehouse migration
+
+### Data warehouse migration to Snowflake: steps, checks and a cutover checklist
+
+How to migrate a data warehouse to Snowflake: inventory, SQL and data type conversion, historical loads, parallel runs, cost controls and a cutover checklist.
+
+Nov 26, 2026 · 7 min read
+Warehouse migration
+
+### Migrating a data warehouse to BigQuery: design, steps, costs and checks
+
+How to migrate a data warehouse to BigQuery: dataset and partition design, SQL translation, loading history, cost controls, validation and cutover.
+
+Nov 26, 2026 · 6 min read
 AI engineering
 
 ### What Is Agentic AI, and When Does a Business Need an AI Agent?
@@ -940,6 +954,149 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 ---
 
+# Data Warehouse Migration to Snowflake: Checklist | MV.tech Solutions
+
+URL: https://mvtech.solutions/insights/data-warehouse-migration-to-snowflake-steps-and-checklist/
+Description: How to migrate a data warehouse to Snowflake: inventory, SQL and data type conversion, historical loads, parallel runs, cost controls and a cutover checklist.
+Last modified: 2026-11-26
+
+Warehouse migration
+
+## Data warehouse migration to Snowflake: steps, checks and a cutover checklist
+
+How to migrate a data warehouse to Snowflake: inventory, SQL and data type conversion, historical loads, parallel runs, cost controls and a cutover checklist.
+
+By Meet Vaghasia, Founder & Lead Engineer · Published November 26, 2026 · 7 min read
+
+In brief
+
+- A data warehouse migration to Snowflake has seven stages: inventory, scope, schema and SQL conversion, historical load, pipeline rebuild, parallel run and cutover. The parallel run is the stage teams skip and later regret.
+- Most of the effort is in the jobs and report logic, not the data. Tables copy quickly. Stored procedures, ETL jobs and report calculations have to be rewritten and tested.
+- Snowflake has no indexes to tune, does not enforce most constraints and bills compute by the second. Plan tests, clustering and cost limits around those differences before you load anything.
+When a team moves to Snowflake, the first question from finance is usually whether last month’s numbers will change. A migration is finished when the people who own the reports agree that they have not. This guide covers the order of work, the checks that prove the result and the settings that keep the bill predictable.
+
+### What changes when you move to Snowflake?
+
+Snowflake separates storage from compute and removes much of the tuning a traditional warehouse needs. Some of what your current platform does for you no longer happens, so decide how you will replace it.
+
+How common warehouse features map to Snowflake
+| In your current warehouse | In Snowflake | What to do |
+| Indexes and statistics tuned by hand | Automatic micro-partitions, with optional clustering keys | Drop the index definitions. Add a clustering key only to very large tables that are always filtered on the same columns |
+| One server or cluster sized for peak load | Virtual warehouses that start, stop and resize independently of storage | Create separate warehouses for loading, transformation and BI, each with auto-suspend |
+| Primary, unique and foreign keys enforced | Declared but not enforced on standard tables; only NOT NULL is enforced | Add tests for duplicates and missing parents to the pipeline |
+| Stored procedures in T-SQL, PL/SQL or BTEQ | Snowflake Scripting, JavaScript or Python procedures, or SQL models in a tool such as dbt | Rewrite set-based logic as models and keep procedures for work that is truly procedural |
+| Licenses or fixed nodes | Compute billed per second while a warehouse runs; storage billed separately | Set resource monitors and short auto-suspend times from the first day |
+| Backups and restore jobs | Time Travel and zero-copy clones | Use clones for test environments and Time Travel to recover from accidental changes |
+
+### How do you migrate a data warehouse to Snowflake, step by step?
+
+- Inventory what exists.List the tables with their sizes and row counts, the ETL jobs and schedules, the stored procedures, the reports and their owners, and the users and roles. Query logs show which tables and reports are still used. Those that are not do not need to move.
+- Decide what moves first and what gets redesigned.Lift and shift keeps the table structures and gets you off the old platform sooner. A redesign fixes the model and takes longer. A common compromise is to move structures as they are, then remodel one subject area at a time.
+- Convert schemas and SQL.Map the data types, for example DATETIME to TIMESTAMP_NTZ and money types to NUMBER with a fixed scale. Decide how to handle identifier case, because Snowflake stores unquoted names in upper case. Translate dialect-specific functions. Snowflake’s SnowConvert tool translates much of the code from SQL Server, Oracle, Teradata and other sources; treat its output as a first draft to review and test.
+- Load history.Export tables to compressed Parquet or CSV files in cloud storage, create a stage and load them with COPY INTO. Load the largest tables in date ranges so that a failure repeats only one range. Record row counts and control totals for every load.
+- Rebuild the pipelines.Point ingestion at Snowflake using batch loads, Snowpipe for files that arrive continuously, or the ELT tool you already use. Then rebuild the transformations in dependency order and schedule them with tasks, dbt or your orchestrator.
+- Run old and new in parallel.For at least one full reporting cycle, usually a month-end, load both warehouses from the same sources and compare them every day.
+- Cut over report by report.Switch a report when its totals match and its owner has signed off. Keep the old warehouse read-only for an agreed period, then switch it off.
+
+### How do you prove the Snowflake numbers match?
+
+Compare the two warehouses at three levels, from the cheapest check to the one people care about.
+
+- Row countsfor each table and each load date.
+- Control totals:sums of the key amounts and counts of distinct keys by period.
+- Report figures:the numbers on the reports people use, such as month-end revenue by entity, agreed with the old report for closed periods.
+Inside Snowflake, the HASH_AGG function returns one fingerprint for a whole table, which is a quick way to confirm that two Snowflake copies are identical after a reload. Between platforms, rely on counts and totals, because hash functions differ from one system to another.
+
+Keep a log of every difference. Some are improvements, such as a duplicate removed or a rounding error fixed. Each one needs a reason and the name of the report owner who accepted it. The same method is described in our guide to checking a reporting migration.
+
+### What does Snowflake cost to run after the migration?
+
+Snowflake charges for compute while a virtual warehouse is running, by the second with a one-minute minimum each time it resumes, and for compressed storage by the month. Compute is usually the larger part, and it is the part you control.
+
+- Auto-suspend every warehouseafter a minute or two of inactivity, with auto-resume on.
+- Start with small warehousesand increase the size only when a specific workload needs it.
+- Set resource monitorsthat alert, then suspend a warehouse, at a credit limit.
+- Give each workload its own warehouseso you can see what loading, transformation and BI each cost.
+- Budget for the overlap.During the parallel run you pay for both platforms, so agree its length in advance.
+
+### Snowflake cutover checklist
+
+- Every table in scope has matching row counts and control totals for closed periods.
+- Each report owner has signed off their report, and accepted differences are recorded.
+- Roles, grants and service accounts have been reviewed, with no shared administrator logins.
+- Resource monitors and auto-suspend are set on every warehouse.
+- BI connections, extracts and downstream exports point to Snowflake.
+- Schedules on the old platform are disabled, not deleted.
+- A rollback decision time and the person who makes that decision are agreed.
+- The old warehouse is read-only and has a date for decommissioning.
+- The runbook and data dictionary describe the new platform.
+
+### Common mistakes in a Snowflake migration
+
+- Converting procedures line by line.Row-by-row loops that were tolerable on the old server are slow and expensive in Snowflake. Rewrite them as set-based SQL.
+- Moving everything.Unused tables and reports add conversion and testing work for no benefit.
+- Skipping the parallel runto save a month of double running costs. Differences then surface in front of the people who use the reports.
+- One large warehouse for every workload,left running. Costs rise and nobody can tell which workload caused them.
+- Assuming constraints still protect the data.Without tests, duplicates arrive silently.
+
+### Frequently asked questions
+
+**How long does a data warehouse migration to Snowflake take?**
+The schedule depends on the number of jobs and reports more than on data volume. A first phase covering one subject area, with its pipelines and reports, typically takes weeks. A full warehouse with hundreds of jobs takes months, most of it spent converting and testing logic and running in parallel.
+
+**Can we migrate to Snowflake from SQL Server, Oracle, Teradata or Redshift?**
+Yes. These are the common sources and the stages are the same for each. What differs is the SQL dialect and procedure language you convert from, and how the history is exported.
+
+**Do we need dbt to use Snowflake?**
+No. Snowflake runs SQL, scheduled tasks and stored procedures on its own. A modeling tool such as dbt helps once you have many dependent transformations, because it adds version control, tests and documentation.
+
+**Should we lift and shift or redesign the data model?**
+Lift and shift when the priority is leaving the old platform by a fixed date. Redesign when the current model is the reason reports are slow or disputed. Many teams move the structures first, then remodel one subject area at a time once the old platform is switched off.
+
+### Plan a Snowflake migration with MV.tech Solutions
+
+Our data warehouse and ETL migration service covers inventory, conversion, parallel runs and report sign-off, and our Snowflake consulting covers modeling, cost and access after the move. Our founder has moved reporting to Snowflake and checked the Power BI figures against their sources. Comparing platforms? Read the guide to migrating a data warehouse to BigQuery. To start, tell us which pipeline or report should move first and how you will check the result.
+
+Related guides
+
+### Keep planning the engagement.
+
+Warehouse migration
+
+### Migrating a data warehouse to BigQuery: design, steps, costs and checks
+
+How to migrate a data warehouse to BigQuery: dataset and partition design, SQL translation, loading history, cost controls, validation and cutover.
+
+6 min read
+Warehouse migration
+
+### How Do You Move Excel Reporting into a Cloud Data Warehouse?
+
+How to move month-end Excel reporting into Snowflake or BigQuery: finding the sources and rules behind the spreadsheets, the order of work and reconciliation.
+
+6 min read
+Buyer's guide
+
+### 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
+
+A buyer's checklist for a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
+
+5 min read
+About the author
+
+### Meet Vaghasia
+
+Meet Vaghasia is the founder of MV.tech Solutions. His work includes building data pipelines, moving reports into cloud warehouses and connecting AI assistants to business systems. He holds the Google Cloud Professional Data Engineer certification and IBM Mastery Awards in big data engineering and artificial intelligence analysis.
+
+About MV.tech SolutionsSelected engineering workServices
+Your next step
+
+### Want help applying this?
+
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech Solutions.
+
+---
+
 # Let AI Assistants Query Your Data Warehouse Safely | MV.tech Solutions
 
 URL: https://mvtech.solutions/insights/letting-ai-assistants-query-your-data-warehouse-safely/
@@ -1059,11 +1216,145 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 ---
 
+# Migrating a Data Warehouse to BigQuery: Steps | MV.tech Solutions
+
+URL: https://mvtech.solutions/insights/migrating-a-data-warehouse-to-bigquery-steps-costs-and-checks/
+Description: How to migrate a data warehouse to BigQuery: dataset and partition design, SQL translation, loading history, cost controls, validation and cutover.
+Last modified: 2026-11-26
+
+Warehouse migration
+
+## Migrating a data warehouse to BigQuery: design, steps, costs and checks
+
+How to migrate a data warehouse to BigQuery: dataset and partition design, SQL translation, loading history, cost controls, validation and cutover.
+
+By Meet Vaghasia, Founder & Lead Engineer · Published November 26, 2026 · 6 min read
+
+In brief
+
+- BigQuery has no servers to size. You design datasets, partitions and clustering instead, and those choices decide both query speed and cost.
+- With on-demand pricing you pay for the data each query scans. An unpartitioned table or a habit of selecting every column can be expensive, so set cost limits before analysts get access.
+- Google’s BigQuery Migration Service assesses the old warehouse and translates SQL in bulk. Translation gives you a first draft. A parallel run is what proves the numbers.
+Migrating to BigQuery is less about moving data than about changing how the warehouse is designed and paid for. Teams that copy their old tables across unchanged often get the right numbers and a surprising bill. This guide covers the design decisions to make first, the order of work, the cost controls and the checks before cutover.
+
+### What is different about BigQuery?
+
+How BigQuery differs from a traditional data warehouse
+| Topic | How BigQuery works | What it means for a migration |
+| Compute | Serverless. Queries run on shared or reserved capacity called slots | There is no cluster to size, patch or pause |
+| Pricing | On-demand by data scanned, or capacity by slot time; storage is billed separately | Estimate the cost of your heaviest queries before choosing a model |
+| Table design | Partitioning by date or integer range, and clustering on up to four columns | Partition large fact tables on the date that most queries filter by |
+| Location | Each dataset lives in one region or multi-region, fixed when it is created | Choose the location first. Changing it later means copying the data |
+| Keys | Primary and foreign keys can be declared but are not enforced | Test for duplicates and missing parents in the pipeline |
+| Nested data | STRUCT and ARRAY columns hold repeated data inside one row | Consider nesting one-to-many data that is always read together |
+| SQL | GoogleSQL, with its own functions and procedure syntax | Translate in bulk, then review anything procedural by hand |
+
+### How do you migrate a data warehouse to BigQuery, step by step?
+
+- Assess the current warehouse.Google’s migration assessment reads metadata and query logs from sources such as Teradata and Amazon Redshift and reports what is used. For other sources, build the inventory yourself: tables and sizes, jobs, reports and the queries that run most often.
+- Design the target.Decide the projects and datasets, commonly separate layers for raw, modeled and reporting data. Choose the dataset location. For each large table, choose a partition column and clustering columns from how it is actually queried.
+- Set access and cost limits before loading.Grant roles at project or dataset level, add row-level and column-level security where the data requires it, and put query limits in place while the only users are the migration team.
+- Translate the SQL.The batch SQL translator converts scripts to GoogleSQL in bulk, and the interactive translator handles single queries. Review procedural code, date and time functions, implicit type conversions and anything that depended on case-insensitive comparison, because BigQuery compares strings case-sensitively by default.
+- Load history.Export tables to Cloud Storage as Parquet or Avro and run load jobs, or use the BigQuery Data Transfer Service to move data from Amazon Redshift or Teradata. Load in date ranges and record row counts and control totals for each range.
+- Rebuild the pipelines.Point ingestion at BigQuery with your ELT tool, the Data Transfer Service or the Storage Write API for streaming. Rebuild transformations with scheduled queries, Dataform or dbt, and orchestrate them with Cloud Composer or the scheduler you already run.
+- Run in parallel, then cut over.Load both warehouses from the same sources through a full reporting cycle. Switch each report when its totals match and its owner signs off, keep the old warehouse read-only for an agreed period, then switch it off.
+
+### How do you keep BigQuery costs under control?
+
+On-demand queries are billed by the data they scan, so cost control is mostly about scanning less and capping what any one query or person can scan.
+
+BigQuery cost controls to set during a migration
+| Control | What it does |
+| Required partition filter | Rejects any query on the table that does not filter on the partition column |
+| Maximum bytes billed | Stops a query before it runs if it would scan more than the limit |
+| Custom quotas | Caps the data a user or a project can scan in a day |
+| Dry run | Reports how much data a query would scan without running it |
+| Clustering | Reduces the data scanned when queries filter on the clustered columns |
+| Capacity pricing | Replaces per-query billing with reserved slots for steady, heavy workloads |
+Two habits matter as much as the settings. Select only the columns a query needs, because BigQuery stores data by column and SELECT * reads all of them. Point dashboards at small reporting tables or views built for them, not at raw fact tables.
+
+### How do you check the migrated data?
+
+Use the same three levels as any warehouse migration: row counts by partition, control totals by period, and the figures on the reports people use, agreed with the old report for closed periods. Google’s open-source Data Validation Tool can run count and aggregate comparisons between the source and BigQuery. Our guide to checking a reporting migration describes the sign-off process.
+
+When totals differ, these are the usual causes:
+
+- Time zones.A BigQuery TIMESTAMP is a point in time in UTC, and a DATETIME has no time zone. Daily totals shift if a source column stored local time.
+- Numeric types.Use NUMERIC for money, not FLOAT64. Floating-point totals drift by small amounts that grow with volume.
+- Text comparison.Joins and filters that matched regardless of case, or ignored trailing spaces, in the old warehouse may not match in BigQuery.
+- Duplicates.Keys are not enforced, so a rerun load can insert the same rows twice unless the pipeline prevents it.
+
+### Common mistakes in a BigQuery migration
+
+- Copying the old design unchanged.Large tables without partitions make every query scan the full history.
+- Opening access before limits are set.One exploratory query on a large table can cost more than a month of planned usage.
+- Creating datasets in the wrong location.If data must stay in a particular country or region, that has to be decided before the first load.
+- Trusting translated SQL without tests.Translation preserves syntax more reliably than meaning.
+- Skipping the parallel run.It is the only stage that shows whether the reports still agree.
+
+### Frequently asked questions
+
+**How long does it take to migrate a data warehouse to BigQuery?**
+The schedule follows the number of pipelines and reports, not the amount of data. A first subject area usually takes weeks. A whole warehouse takes months, and the parallel run sets the minimum because it has to cover a full reporting cycle.
+
+**Is BigQuery cheaper than our current warehouse?**
+It depends on how the data is queried. BigQuery costs little when idle because there is no cluster to keep running. It can cost more than expected when large tables are scanned often without partition filters. Estimate with dry runs of your real queries before you commit.
+
+**Should we use on-demand or capacity pricing?**
+Start on-demand while volumes are small or hard to predict, with quotas in place. Consider capacity pricing once monthly query spend is steady and high enough that reserved slots would cost less.
+
+**Can Power BI or Tableau report from BigQuery?**
+Yes. Both have BigQuery connectors. Connect them to reporting tables or views, and use imported or aggregated data for dashboards that refresh often, so that each view does not start a large scan.
+
+### Plan a BigQuery migration with MV.tech Solutions
+
+Our data warehouse and ETL migration service covers assessment, translation, parallel runs and report sign-off, and our BigQuery consulting covers table design, cost controls and access. Our founder holds the Google Cloud Professional Data Engineer certification. Considering Snowflake instead? Read the guide to data warehouse migration to Snowflake. To start, tell us which pipeline or report should move first and how you will check the result.
+
+Related guides
+
+### Keep planning the engagement.
+
+Warehouse migration
+
+### Data warehouse migration to Snowflake: steps, checks and a cutover checklist
+
+How to migrate a data warehouse to Snowflake: inventory, SQL and data type conversion, historical loads, parallel runs, cost controls and a cutover checklist.
+
+7 min read
+Warehouse migration
+
+### How Do You Move Excel Reporting into a Cloud Data Warehouse?
+
+How to move month-end Excel reporting into Snowflake or BigQuery: finding the sources and rules behind the spreadsheets, the order of work and reconciliation.
+
+6 min read
+AI engineering
+
+### How Do You Let an AI Assistant Query Your Data Warehouse Safely?
+
+A step-by-step pattern for giving Claude, GPT or Gemini read-only access to a warehouse: scoped identity, checked SQL, row limits, redaction and provenance.
+
+6 min read
+About the author
+
+### Meet Vaghasia
+
+Meet Vaghasia is the founder of MV.tech Solutions. His work includes building data pipelines, moving reports into cloud warehouses and connecting AI assistants to business systems. He holds the Google Cloud Professional Data Engineer certification and IBM Mastery Awards in big data engineering and artificial intelligence analysis.
+
+About MV.tech SolutionsSelected engineering workServices
+Your next step
+
+### Want help applying this?
+
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech Solutions.
+
+---
+
 # Moving Excel Reporting into a Cloud Data Warehouse | MV.tech Solutions
 
 URL: https://mvtech.solutions/insights/moving-excel-reporting-into-a-cloud-data-warehouse/
 Description: How to move month-end Excel reporting into Snowflake or BigQuery: finding the sources and rules behind the spreadsheets, the order of work and reconciliation.
-Last modified: 2026-11-23
+Last modified: 2026-11-26
 
 Warehouse migration
 
@@ -1071,7 +1362,7 @@ Warehouse migration
 
 How to move month-end Excel reporting into Snowflake or BigQuery: finding the sources and rules behind the spreadsheets, the order of work and reconciliation.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published October 12, 2026 · Updated November 23, 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published October 12, 2026 · Updated November 26, 2026 · 6 min read
 
 In brief
 
@@ -1153,6 +1444,20 @@ Related guides
 
 ### Keep planning the engagement.
 
+Warehouse migration
+
+### Data warehouse migration to Snowflake: steps, checks and a cutover checklist
+
+How to migrate a data warehouse to Snowflake: inventory, SQL and data type conversion, historical loads, parallel runs, cost controls and a cutover checklist.
+
+7 min read
+Warehouse migration
+
+### Migrating a data warehouse to BigQuery: design, steps, costs and checks
+
+How to migrate a data warehouse to BigQuery: dataset and partition design, SQL translation, loading history, cost controls, validation and cutover.
+
+6 min read
 Finance data engineering
 
 ### How to reconcile supplier and vendor statements in Dynamics 365 Business Central
@@ -1160,20 +1465,6 @@ Finance data engineering
 Reconcile a supplier (vendor) statement in Dynamics 365 Business Central step by step, with a worksheet template, month-end examples and warehouse checks.
 
 8 min read
-AI engineering
-
-### How Do You Let an AI Assistant Query Your Data Warehouse Safely?
-
-A step-by-step pattern for giving Claude, GPT or Gemini read-only access to a warehouse: scoped identity, checked SQL, row limits, redaction and provenance.
-
-6 min read
-Buyer's guide
-
-### 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
-
-A buyer's checklist for a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
-
-5 min read
 About the author
 
 ### Meet Vaghasia
@@ -4841,7 +5132,7 @@ Tell us about the work, your current systems and the people who will use the res
 
 URL: https://mvtech.solutions/services/bigquery-consulting/
 Description: BigQuery warehouse design, cloud ingestion, reporting integration, migration and workload optimization from the MV.tech Solutions data engineering team.
-Last modified: 2026-11-14
+Last modified: 2026-11-26
 
 MV.tech Solutions services
 
@@ -4989,11 +5280,11 @@ Service detail
 Cross-chain ingestion into BigQuery, event decoding, token valuation and reconciliation.
 
 On-chain data
-Reporting migration
+Warehouse migration
 
-### Moving Excel reporting into a cloud data warehouse
+### Migrating a data warehouse to BigQuery
 
-Find the source rules, plan the migration order and reconcile the warehouse against existing reports.
+Design decisions, SQL translation, cost controls and validation before cutover.
 
 Migration guide
 Your next step
@@ -5940,6 +6231,20 @@ Related guides
 
 ### Planning resources for this work.
 
+Warehouse migration
+
+### Data warehouse migration to Snowflake
+
+The seven stages, the checks that prove the numbers and a cutover checklist.
+
+Migration guide
+Warehouse migration
+
+### Migrating a data warehouse to BigQuery
+
+Design decisions, SQL translation, cost controls and validation before cutover.
+
+Migration guide
 Reporting migration
 
 ### Moving Excel reporting into a cloud data warehouse
@@ -5947,20 +6252,6 @@ Reporting migration
 Find the source rules, plan the migration order and reconcile the warehouse against existing reports.
 
 Migration guide
-Finance reporting
-
-### Reconciling Business Central with your warehouse
-
-How to investigate ledger and report differences before trusting a finance dashboard.
-
-Reconciliation guide
-Budget planning
-
-### What does a remote data engineering team from India cost?
-
-What sets the price, how to compare proposals and which delivery costs to include.
-
-Cost guide
 Your next step
 
 ### Which ETL job or report should move first?
@@ -7129,7 +7420,7 @@ Bring one report, a list of the systems behind it and the name of the person who
 
 URL: https://mvtech.solutions/services/snowflake-consulting/
 Description: Snowflake development and consulting for warehouse migration, pipelines, data models, BI integration, reconciliation and performance review.
-Last modified: 2026-11-14
+Last modified: 2026-11-26
 
 MV.tech Solutions services
 
@@ -7278,11 +7569,11 @@ Service detail
 Semantic models, DAX and governed KPI definitions for the reports that will read from Snowflake.
 
 BI service
-Reporting migration
+Warehouse migration
 
-### Moving Excel reporting into a cloud data warehouse
+### Data warehouse migration to Snowflake
 
-Find the source rules, plan the migration order and reconcile the warehouse against existing reports.
+The seven stages, the checks that prove the numbers and a cutover checklist.
 
 Migration guide
 Your next step
