@@ -92,8 +92,8 @@ function founderWork(site) {
   return `<div class="logo-strip" aria-label="${h(heading)}"><p class="logo-strip-label">${h(heading)}</p><ul class="logo-strip-list">${site.workExamples.map((example) => `<li>${h(example)}</li>`).join('')}</ul></div>`;
 }
 
-export function overlapTable(site, { caption = 'Typical collaboration windows by client time zone', compact = false } = {}) {
-  const rows = site.overlap.zones.filter((z) => !compact || ['New York', 'London', 'Berlin', 'Sydney'].includes(z.city));
+export function overlapTable(site, { caption = 'Typical collaboration windows by client time zone', compact = false, cities = null } = {}) {
+  const rows = site.overlap.zones.filter((z) => (cities ? cities.includes(z.city) : !compact || ['New York', 'London', 'Berlin', 'Sydney'].includes(z.city)));
   return `<div class="table-wrap" tabindex="0"><table class="data-table" id="timezone-overlap"><caption>${h(caption)}</caption><thead><tr><th scope="col">Your team</th><th scope="col">Overlap in your local time</th><th scope="col">Our hours (IST, UTC+5:30)</th></tr></thead><tbody>${rows.map((z) => `<tr><th scope="row">${h(z.city)} <span class="muted">${h(z.zone)}</span></th><td>${h(z.window)}</td><td>${h(z.ist)}</td></tr>`).join('')}</tbody></table></div><p class="table-note">${h(site.overlap.note)}</p>`;
 }
 
@@ -141,10 +141,28 @@ export function relatedResources(page) {
   </section>`;
 }
 
+/**
+ * Regional outsourcing pages (consulting.json entries with a "region" block): the facts a buyer in that
+ * market checks first, the overlap rows for its cities, and links to the other regions.
+ */
+export function regionSection(page, site, allPages) {
+  const others = allPages.filter((p) => p.region && p.key !== page.key);
+  return `  <section class="band band-light" id="working-from-${h(page.key.replace('outsourcing-', ''))}">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">${h(page.region.eyebrow ?? 'Working together')}</p><h2>${h(page.region.heading)}</h2></div></div>
+      <p class="lead measure">${h(page.region.intro)}</p>
+      <div class="table-wrap" tabindex="0"><table class="data-table"><caption>${h(page.region.caption)}</caption><tbody>${page.region.facts.map(([label, value]) => `<tr><th scope="row">${h(label)}</th><td>${h(value)}</td></tr>`).join('')}</tbody></table></div>
+      ${overlapTable(site, { caption: page.region.overlapCaption, cities: page.region.cities })}
+      <p class="body-copy">Other regions: ${others.map((p) => `<a href="${p.path}">${h(p.region.label)}</a>`).join(' · ')} · <a href="/outsourcing/">all regions</a>.</p>
+    </div>
+  </section>
+`;
+}
+
 /** Service and engagement pages generated from content/consulting.json. */
 export function servicePage(page, site, allPages) {
   const servicePage = page.path.startsWith('/services/');
-  const crumbs = [{ name: 'Home', url: '/' }, ...(servicePage ? [{ name: 'Services', url: '/services/' }] : []), { name: page.name, url: page.path }];
+  const crumbs = [{ name: 'Home', url: '/' }, ...(servicePage ? [{ name: 'Services', url: '/services/' }] : []), ...(page.parent ? [page.parent] : []), { name: page.name, url: page.path }];
   const fields = page.enquiryFields ?? ['Project goal', 'Current systems', 'Target date', 'Time zone and preferred overlap', 'Budget range (optional)'];
   const subject = `${page.name} inquiry`;
   const briefButton = page.briefLink
@@ -175,11 +193,12 @@ export function servicePage(page, site, allPages) {
       <ul class="chip-list" aria-label="Relevant capabilities">${page.tools.map((tool) => `<li>${h(tool)}</li>`).join('')}</ul>
     </div>
   </section>
-${remote ? `  <section class="band band-light" id="timezones">
+${page.region ? regionSection(page, site, allPages) : ''}${remote ? `  <section class="band band-light" id="timezones">
     <div class="container">
       <div class="section-heading"><div><p class="eyebrow">Time-zone overlap</p><h2>Working hours planned around yours.</h2></div></div>
       <p class="lead measure">India Standard Time (UTC+5:30) sits between Asia-Pacific mornings and American mornings, so a remote team in Ahmedabad can share a substantial working window with almost any client. We agree the collaboration window before the engagement starts and keep written updates flowing outside it.</p>
       ${overlapTable(site)}
+      <p class="body-copy">Working from a specific market? See how we work with companies in ${allPages.filter((p) => p.region).map((p) => `<a href="${p.path}">${h(p.region.label)}</a>`).join(', ')}.</p>
     </div>
   </section>
   <section class="band">
@@ -205,7 +224,7 @@ ${remote ? `  <section class="band band-light" id="timezones">
     <div class="container">
       <div class="section-heading"><div><p class="eyebrow">Working together</p><h2>${h(page.approachHeading ?? 'A practical path from scope to delivery.')}</h2></div></div>
       <ol class="steps">${page.approach.map((step, i) => `<li><span class="item-number">0${i + 1}</span><h3>${h(step.title)}</h3><p>${h(step.text)}</p></li>`).join('')}</ol>
-      <div class="proof-row">${founderWork(site)}<div class="proof-links"><a href="/expertise/">Explore our expertise</a>${servicePage ? '<a href="/remote-consulting/">Time zones, team and engagement costs</a>' : '<a href="/services/">All services</a>'}</div></div>
+      <div class="proof-row">${founderWork(site)}<div class="proof-links"><a href="/expertise/">Explore our expertise</a>${servicePage ? '<a href="/remote-consulting/">Time zones, team and engagement costs</a><a href="/outsourcing/">Outsourcing by region</a>' : '<a href="/services/">All services</a>'}</div></div>
     </div>
   </section>
   <section class="band band-light">

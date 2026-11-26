@@ -1,6 +1,6 @@
 {
   "/": {
-    "hash": "297a4c981c6210cd",
+    "hash": "f3277bf9e5bfb525",
     "published": "2026-01-02",
     "modified": "2026-11-26"
   },
@@ -35,12 +35,12 @@
     "modified": "2026-11-24"
   },
   "/faq/": {
-    "hash": "c363d4c5c185b6c3",
+    "hash": "6f6c79ba659b093a",
     "published": "2026-06-02",
     "modified": "2026-11-26"
   },
   "/insights/": {
-    "hash": "23b8bd737a5200a2",
+    "hash": "5f208a98c3ee7364",
     "published": "2026-09-10",
     "modified": "2026-11-26"
   },
@@ -70,14 +70,14 @@
     "modified": "2026-11-23"
   },
   "/insights/reconciling-dynamics-365-business-central-with-your-data-warehouse/": {
-    "hash": "c59decc61dd7a251",
+    "hash": "69705d43aaec619a",
     "published": "2026-10-12",
-    "modified": "2026-11-23"
+    "modified": "2026-11-26"
   },
   "/insights/staff-augmentation-vs-project-consulting-vs-recruitment/": {
-    "hash": "64fa7471a6cc2071",
+    "hash": "a16e8bb8234a4088",
     "published": "2026-09-10",
-    "modified": "2026-11-23"
+    "modified": "2026-11-26"
   },
   "/insights/timezone-overlap-with-an-india-based-engineering-team/": {
     "hash": "4ae7ade50747091f",
@@ -97,6 +97,51 @@
   "/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/": {
     "hash": "b5b140d5fea6f4fc",
     "published": "2026-09-10",
+    "modified": "2026-11-26"
+  },
+  "/outsourcing/": {
+    "hash": "e5d37186d661596d",
+    "published": "2026-11-26",
+    "modified": "2026-11-26"
+  },
+  "/outsourcing/australia/": {
+    "hash": "d0391102a9b860c6",
+    "published": "2026-11-26",
+    "modified": "2026-11-26"
+  },
+  "/outsourcing/europe/": {
+    "hash": "356a147be4c8d066",
+    "published": "2026-11-26",
+    "modified": "2026-11-26"
+  },
+  "/outsourcing/hong-kong/": {
+    "hash": "7382708d3ab6b6cd",
+    "published": "2026-11-26",
+    "modified": "2026-11-26"
+  },
+  "/outsourcing/new-zealand/": {
+    "hash": "cc36838556375dd5",
+    "published": "2026-11-26",
+    "modified": "2026-11-26"
+  },
+  "/outsourcing/singapore/": {
+    "hash": "2b88862dda4da0fb",
+    "published": "2026-11-26",
+    "modified": "2026-11-26"
+  },
+  "/outsourcing/uae/": {
+    "hash": "9d78da4b123902e0",
+    "published": "2026-11-26",
+    "modified": "2026-11-26"
+  },
+  "/outsourcing/uk/": {
+    "hash": "9e90764be8b1b12a",
+    "published": "2026-11-26",
+    "modified": "2026-11-26"
+  },
+  "/outsourcing/usa/": {
+    "hash": "d92f8591226e5108",
+    "published": "2026-11-26",
     "modified": "2026-11-26"
   },
   "/privacy/": {
@@ -165,9 +210,9 @@
     "modified": "2026-11-23"
   },
   "/services/data-warehouse-migration/": {
-    "hash": "32068350e75cfdf8",
+    "hash": "7ccd6974c7e8b045",
     "published": "2026-09-12",
-    "modified": "2026-11-23"
+    "modified": "2026-11-26"
   },
   "/services/employee-ai-chatbots/": {
     "hash": "778ef6711587cfe4",

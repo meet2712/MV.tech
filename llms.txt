@@ -53,6 +53,18 @@ This is a factual index of the company's public website. The linked pages contai
 - [How We Work: Remote Team, Time Zones & Costs](https://mvtech.solutions/remote-consulting/): Work with MV.tech Solutions through project delivery, dedicated engineers or specialist capacity, with responsibilities and collaboration hours agreed.
 - [Hire Data Engineers](https://mvtech.solutions/services/hire-data-engineers/): Hire data engineers for an embedded role, a warehouse project or a permanent position. Our Ahmedabad team works with employers in Gujarat and worldwide.
 
+## Outsourcing by region
+
+- [Outsourcing by Region](https://mvtech.solutions/outsourcing/): How MV.tech Solutions works with companies in each market: shared hours, contracts and data protection terms.
+- [Outsourcing for US Companies](https://mvtech.solutions/outsourcing/usa/): Outsource software, data engineering and AI work to a New York company with engineers in India. US contract, Eastern-morning overlap and a written scope.
+- [Outsourcing for UK Companies](https://mvtech.solutions/outsourcing/uk/): UK companies outsource software, data engineering and AI projects to our team in India. Shared hours until mid-afternoon, UK GDPR terms and a written scope.
+- [Outsourcing for European Companies](https://mvtech.solutions/outsourcing/europe/): European companies add software, data and AI engineers from our India team. Shared hours until 4:00 pm Central European Time, GDPR terms and English delivery.
+- [Outsourcing for UAE & Gulf Companies](https://mvtech.solutions/outsourcing/uae/): Companies in Dubai, Abu Dhabi and the Gulf outsource software, data and AI projects to our India team, 90 minutes ahead and online for almost the whole day.
+- [Outsourcing for Australian Companies](https://mvtech.solutions/outsourcing/australia/): Australian companies outsource software, data and AI work to our India team. Shared afternoons in Sydney and Melbourne, most of the day in Perth, written scope.
+- [Outsourcing for New Zealand Companies](https://mvtech.solutions/outsourcing/new-zealand/): New Zealand companies outsource software, data and AI projects to our India team, with a planned afternoon overlap, overnight progress and written handovers.
+- [Outsourcing for Singapore Companies](https://mvtech.solutions/outsourcing/singapore/): Singapore companies outsource software, data engineering and AI projects to our India team. Shared hours from 11:00 am to 6:00 pm SGT and PDPA-aware delivery.
+- [Outsourcing for Hong Kong Companies](https://mvtech.solutions/outsourcing/hong-kong/): Hong Kong companies outsource software, data and AI work to our India team. Shared hours 11:00 am to 6:00 pm HKT, English delivery, PDPO-aware data handling.
+
 ## Examples of work
 
 - [Work examples](https://mvtech.solutions/work/) covers tools the team runs, creative work it delivered and engineering work from the founder’s career.

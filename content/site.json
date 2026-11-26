@@ -225,6 +225,10 @@
         "href": "/remote-consulting/"
       },
       {
+        "label": "Outsourcing by Region",
+        "href": "/outsourcing/"
+      },
+      {
         "label": "Delivery Process",
         "href": "/process/"
       },
@@ -325,12 +329,28 @@
         "ist": "8:30 am – 3:30 pm IST"
       },
       {
+        "city": "Hong Kong",
+        "zone": "Hong Kong",
+        "window": "11:00 am – 6:00 pm",
+        "start": 11,
+        "end": 18,
+        "ist": "8:30 am – 3:30 pm IST"
+      },
+      {
         "city": "Sydney",
         "zone": "Australia East",
         "window": "12:30 pm – 6:00 pm",
         "start": 12.5,
         "end": 18,
         "ist": "8:00 am – 1:30 pm IST"
+      },
+      {
+        "city": "Auckland",
+        "zone": "New Zealand",
+        "window": "2:30 pm – 6:00 pm",
+        "start": 14.5,
+        "end": 18,
+        "ist": "8:00 am – 11:30 am IST"
       }
     ]
   },
@@ -360,5 +380,16 @@
     "Moving reporting into a cloud warehouse",
     "Reconciling ledger and dashboard totals",
     "Building read-only data connectors"
+  ],
+  "marketsServed": [
+    "United States",
+    "Canada",
+    "United Kingdom",
+    "European Union",
+    "United Arab Emirates",
+    "Australia",
+    "New Zealand",
+    "Singapore",
+    "Hong Kong"
   ]
 }
