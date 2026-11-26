@@ -108,6 +108,12 @@
     "kicker": "Price drivers · Where the saving comes from · Public benchmarks · Hidden costs"
   },
   {
+    "route": "/insights/what-is-agentic-ai-and-when-does-a-business-need-an-ai-agent/",
+    "slug": "insights-what-is-agentic-ai-and-when-does-a-business-need-an-ai-agent",
+    "title": "What is agentic AI, and when does a business need an AI agent?",
+    "kicker": "Agentic AI explained · Agents vs assistants · Guardrails · A first project"
+  },
+  {
     "route": "/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/",
     "slug": "insights-what-is-an-mcp-server-and-when-should-a-business-build-one",
     "title": "What is an MCP server, and when should a business build one?",
@@ -136,6 +142,12 @@
     "slug": "services",
     "title": "Engineering services for software, data and AI",
     "kicker": "MV.tech Solutions · Software · Data · AI engineering"
+  },
+  {
+    "route": "/services/agentic-ai/",
+    "slug": "services-agentic-ai",
+    "title": "Agentic AI & AI Agent Development",
+    "kicker": "MV.tech Solutions · AI Agents · Tool Use · Approval Steps"
   },
   {
     "route": "/services/ai-consulting/",

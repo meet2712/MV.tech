@@ -11,7 +11,7 @@ LinkedIn: https://www.linkedin.com/company/mv-tech-solutions/
 Offices: New York headquarters: 248-15 88th Rd, Bellerose, NY 11426, United States (+1 (447) 348-9720); Ahmedabad office: 16 Trishala Residency, S G Highway, Behind RC Technical, Opp. High Court, Near Harivila, Chandlodiya, Ahmedabad, Gujarat 380061, India. Staff work from both offices; India GSTIN 24BZMPV4008F1ZA belongs to the India office. Serves clients in the USA and worldwide with agreed time-zone overlap. Details: https://mvtech.solutions/contact/#offices
 Privacy and legal: https://mvtech.solutions/privacy/ · https://mvtech.solutions/terms/ · https://mvtech.solutions/accessibility/
 Examples of the founder’s work: Moving reporting into a cloud warehouse; Reconciling ledger and dashboard totals; Building read-only data connectors.
-Last generated: 2026-11-24. Short summary and answer guidance: https://mvtech.solutions/llms.txt
+Last generated: 2026-11-26. Short summary and answer guidance: https://mvtech.solutions/llms.txt
 
 This file is generated from the public pages listed below, so it always matches what visitors see. Each section is one page: title, canonical URL, meta description, then the page text.
 
@@ -21,7 +21,7 @@ This file is generated from the public pages listed below, so it always matches 
 
 URL: https://mvtech.solutions/
 Description: Build custom software, data platforms and AI workflows, or hire engineers for your team. MV.tech Solutions is a technology and staffing company headquartered in New York.
-Last modified: 2026-11-24
+Last modified: 2026-11-26
 
 US HQ in New York / Ahmedabad office
 
@@ -31,7 +31,7 @@ We build custom apps, connect the data behind your reports and automate repetiti
 
 Discuss a Project Hire an Engineer
 Try the Business Intelligence Platform · See Social Media Automation
-Software Development Data Engineering AI Integration Technology Staffing
+Software Development Data Engineering AI & Agentic AI Technology Staffing
 
 ### Featured Projects
 
@@ -59,7 +59,7 @@ Browse all services →
 - Software Development — Do customers have to email you for an order update? We can build a portal that reads the status from your order system, or add that feature to the app they already use. Web development Application development Custom software
 - Data Engineering — A failed overnight import can leave a day missing from your morning report. We can repair the pipeline, reload the missing records and check the totals against the source. Data engineering consulting Warehouse migration
 - Business Intelligence — When finance and sales bring different revenue numbers to the same meeting, we trace the difference and agree how that figure should be calculated in Tableau or Power BI. BI and dashboards Power BI consulting
-- AI Integration & Automation — If staff keep looking up the same policy, we can connect an AI assistant to the documents each person can open. Readers can follow the answer back to the source. AI consulting MCP and AI connectors Workflow automation
+- AI, Agentic AI & Automation — If staff keep looking up the same policy, we can connect an AI assistant to the documents each person can open. Readers can follow the answer back to the source. Where a task has several steps, an AI agent can carry it out in your tools, with a person approving anything that changes a record. Agentic AI and AI agents AI consulting MCP and AI connectors Workflow automation
 - Engineering Staffing & Recruitment — A data engineer can join your team for a migration. If you want someone to own that work long term, we can help you find and assess a permanent hire. Hire a data engineer Offshore data teams Technology recruitment
 
 ### More Projects
@@ -623,7 +623,7 @@ Tell us what you want to build, improve or connect. We’ll discuss the requirem
 
 URL: https://mvtech.solutions/faq/
 Description: Answers about MV.tech Solutions: services, company registration, project delivery, dedicated teams, remote collaboration, pricing, ownership and support.
-Last modified: 2026-11-24
+Last modified: 2026-11-26
 
 Frequently asked questions
 
@@ -640,6 +640,9 @@ MV.tech Solutions provides custom software development, data engineering, wareho
 
 **Which software and data solutions can we hire you to deliver?**
 We build customer portals and business applications, data pipelines and warehouses, dashboards, employee AI assistants, MCP integrations and automated workflows. We also provide blockchain analytics, dedicated engineers and permanent technology recruitment. Our service catalog describes the deliverables and scope. Examples include customer portal development, reporting automation and internal chatbot development.
+
+**Do you build AI agents and agentic AI systems?**
+Yes. We build AI agents that carry out multi-step tasks in your business tools, such as triaging requests, answering data questions or updating records. Each agent has a defined set of tools, permission checks on the server, human approval before anything consequential, an evaluation set of real requests and a log of every step. See Agentic AI & AI Agent Development.
 
 **Can we use a custom reporting workspace alongside Tableau or Power BI?**
 Yes. Business Intelligence Platform shows how an AI assistant can use the Model Context Protocol (MCP) to read only the reports each person can open. We can start with a dashboard your team trusts and a question people still ask an analyst, then compare the answers and test the permissions. Tell us about your report.
@@ -728,7 +731,7 @@ Tell us what you want to build, improve or connect. We’ll discuss the requirem
 
 URL: https://mvtech.solutions/insights/
 Description: Practical guides from MV.tech Solutions on remote engineering teams across time zones, hiring data consultants, RAG, MCP servers and engagement models.
-Last modified: 2026-11-23
+Last modified: 2026-11-26
 
 Insights
 
@@ -736,6 +739,13 @@ Insights
 
 Written by the people who do the work. Plain answers to the questions teams ask before they hire a remote data, software or AI team.
 
+AI engineering
+
+### What Is Agentic AI, and When Does a Business Need an AI Agent?
+
+Agentic AI in plain language: how an AI agent differs from a chatbot or an automation, when one is worth building, what keeps it safe and a first project.
+
+Nov 26, 2026 · 6 min read
 AI engineering
 
 ### How Do You Let an AI Assistant Query Your Data Warehouse Safely?
@@ -931,7 +941,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/insights/letting-ai-assistants-query-your-data-warehouse-safely/
 Description: A step-by-step pattern for giving Claude, GPT or Gemini read-only access to a warehouse: scoped identity, checked SQL, row limits, redaction and provenance.
-Last modified: 2026-11-23
+Last modified: 2026-11-26
 
 AI engineering
 
@@ -939,7 +949,7 @@ AI engineering
 
 A step-by-step pattern for giving Claude, GPT or Gemini read-only access to a warehouse: scoped identity, checked SQL, row limits, redaction and provenance.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published October 12, 2026 · Updated November 23, 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published October 12, 2026 · Updated November 26, 2026 · 6 min read
 
 In brief
 
@@ -1024,13 +1034,13 @@ AI engineering
 A plain-language comparison of retrieval-augmented generation and fine-tuning for knowledge assistants: when each fits, permissions, evaluation and cost.
 
 5 min read
-Finance data engineering
+AI engineering
 
-### Reconciling supplier statements and warehouse reports with Dynamics 365 Business Central
+### What Is Agentic AI, and When Does a Business Need an AI Agent?
 
-Match a supplier statement to the Business Central vendor ledger, explain month-end differences and check the same balances in your data warehouse.
+Agentic AI in plain language: how an AI agent differs from a chatbot or an automation, when one is worth building, what keeps it safe and a first project.
 
-7 min read
+6 min read
 About the author
 
 ### Meet Vaghasia
@@ -2011,11 +2021,141 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 ---
 
+# What Is Agentic AI? When to Build an AI Agent | MV.tech Solutions
+
+URL: https://mvtech.solutions/insights/what-is-agentic-ai-and-when-does-a-business-need-an-ai-agent/
+Description: Agentic AI in plain language: how an AI agent differs from a chatbot or an automation, when one is worth building, what keeps it safe and a first project.
+Last modified: 2026-11-26
+
+AI engineering
+
+## What Is Agentic AI, and When Does a Business Need an AI Agent?
+
+Agentic AI in plain language: how an AI agent differs from a chatbot or an automation, when one is worth building, what keeps it safe and a first project.
+
+By Meet Vaghasia, Founder & Lead Engineer · Published November 26, 2026 · 6 min read
+
+In brief
+
+- Agentic AI means AI systems that work toward a goal over several steps: they decide what to do next, use tools such as a database query or a business API, check the result and continue until the task is done or a person needs to step in.
+- An agent is worth building when a task runs through several systems, involves small judgment calls and has a clear finish. When the steps never change, a regular automation is cheaper and easier to test.
+- What makes an agent safe is the engineering around the model: permission checks on the server, separate read and write tools, human approval for consequential actions, an evaluation set and a log of every step.
+Most businesses met generative AI as a chat window: you ask, it answers. Agentic AI is the next step. Instead of producing a reply and stopping, an AI agent takes a request, works out the steps, uses your systems to carry them out and reports what it did. That makes it far more useful, and it also means the questions change from "is the answer good?" to "what is it allowed to do, and how do we know it did the right thing?"
+
+### What agentic AI means
+
+An AI agent is a language model placed in a loop with tools. The model reads the request and the current situation, chooses an action, such as looking up an order, running a query or drafting an email, and receives the result. It then decides the next action, and repeats until the goal is met or it reaches a point where it must hand over to a person.
+
+The model provides the reasoning. Everything else is ordinary software: the tools it can call, the permissions on those tools, the checks on its inputs and outputs, and the record of what happened. In a well-built agent, most of the effort goes into that surrounding software, not into the prompt.
+
+### Agent, assistant or automation?
+
+Three kinds of system often get the same "AI" label. They suit different work.
+
+How an AI agent compares with an assistant and a regular automation
+| System | What it does | Best for |
+| Regular automation | Follows fixed steps you define, every time | Repetitive work where the steps and inputs do not change |
+| AI assistant | Answers questions or drafts text from your documents and data | Finding information and preparing first drafts that a person sends |
+| AI agent | Plans steps and takes actions in your systems toward a goal | Multi-step tasks with judgment calls and a clear finish |
+Many good projects combine them. An assistant that answers policy questions can later gain one agent ability, such as filing a request, once its answers are trusted. An agent can hand fixed sub-steps to a regular automation where that is more reliable.
+
+### When an AI agent is worth building
+
+- The task crosses several systems.A person opens the ticketing tool, the CRM and the order system to resolve one request. An agent can do the lookups and assemble the answer.
+- It involves small judgment calls.Which category a request belongs to, which customer record matches, whether a document is complete. Fixed rules handle these badly; a model handles them well enough when the result is checked.
+- It has a clear finish."Route this request with a drafted reply" is a good goal. "Improve customer service" is not.
+- It happens often enough to matter.An agent pays off on work a team does every day or every week, not once a quarter.
+
+### When it is not
+
+- The steps never change.A regular automation is cheaper, faster and easier to test.
+- A mistake would be costly and nobody can approve in time.If there is no sensible point for a person to check the action, the agent should draft, not act.
+- The data it needs is not reachable or not clean.An agent cannot fix missing access or unreliable records; it will only move faster on bad information.
+
+### What makes an AI agent safe enough for real work
+
+The model will occasionally misread a request or choose the wrong tool. A production agent is designed so that those mistakes are caught or contained, rather than assuming they will not happen.
+
+- Permissions on the server, not in the prompt.Each tool checks who the agent is acting for and what that person may access before it runs.
+- Separate read and write tools.Looking things up and changing records are different tools with different rules. Most agents start read-only.
+- Human approval for consequential actions.Sending, paying, deleting or changing anything important waits for a person, and the approval happens outside the model's control.
+- Limits enforced in code.Caps on spending, request rates, record counts and run time stop a confused agent from doing damage at scale.
+- An evaluation set.A collection of real requests with expected outcomes, run before every change to the prompt, tools or model.
+- A log of every step.Which tool was called, with what input, and what came back. This is how a team reviews decisions and spots problems early.
+If a tool returns content from an email, a web page or a document, the agent should treat it as data, not as instructions. This is the main defense against prompt injection, where text inside a document tries to redirect the agent.
+
+### What a sensible first agent project looks like
+
+- Pick one processyour team runs every week, with a clear finish and a clear owner.
+- Collect real examples, typically fifty to a few hundred past requests with the outcome a person produced. These become the evaluation set.
+- Start read-only: the agent looks things up and drafts, and a person acts. Measure how often the draft is right.
+- Add one write action at a time, each behind an approval step, once the logs show the agent choosing tools reliably.
+- Widen access gradually, from a small group of users to the whole team.
+A focused first agent of this shape is usually weeks of work, and it leaves you with tools, tests and logs that the next agent can reuse.
+
+### Frequently asked questions
+
+**Is agentic AI the same as generative AI?**
+Agentic AI is built on generative AI, but it is not the same thing. Generative AI produces text, images or code in response to a prompt. Agentic AI uses a generative model to decide on and carry out a series of actions with tools, working toward a goal rather than producing a single response.
+
+**Do AI agents replace employees?**
+In practice they take over parts of a job: the lookups, the copying between systems and the first draft. The person keeps the judgment calls, approves consequential actions and handles the exceptions the agent flags. Teams usually use the time saved on the work that needs a person.
+
+**Can an AI agent work with the software we already use?**
+Usually, yes, if the software has an API or a database the agent can reach through a controlled tool. Many teams expose those tools through an MCP server, so the same governed access works across several AI applications. Systems with no API can sometimes be reached through exports or a browser, but that is slower and more fragile.
+
+**What does an AI agent cost to run?**
+Running costs are mainly model usage, which grows with the number of requests and the number of steps each one takes, plus the hosting for the agent and its tools. Choosing a smaller model for simple steps, caching repeated lookups and capping the steps per request keep the cost predictable.
+
+### Plan an AI agent with MV.tech Solutions
+
+Our agentic AI and AI agent development service covers task mapping, tools, approval steps, evaluation and monitoring. For the systems access underneath an agent, see MCP servers and AI connectors; for assistants that answer from your documents, see AI consulting. Start a scoping call with the process you have in mind, the systems it touches and the people who would use the agent.
+
+Related guides
+
+### Keep planning the engagement.
+
+AI engineering
+
+### What Is an MCP Server, and When Should a Business Build One?
+
+The Model Context Protocol for business readers: what an MCP server exposes, when building one makes sense, the security decisions and a first project.
+
+6 min read
+AI engineering
+
+### How Do You Let an AI Assistant Query Your Data Warehouse Safely?
+
+A step-by-step pattern for giving Claude, GPT or Gemini read-only access to a warehouse: scoped identity, checked SQL, row limits, redaction and provenance.
+
+6 min read
+AI engineering
+
+### RAG vs Fine-Tuning: Choosing the Right Approach for an Internal Knowledge Assistant
+
+A plain-language comparison of retrieval-augmented generation and fine-tuning for knowledge assistants: when each fits, permissions, evaluation and cost.
+
+5 min read
+About the author
+
+### Meet Vaghasia
+
+Meet Vaghasia is the founder of MV.tech Solutions. His work includes building data pipelines, moving reports into cloud warehouses and connecting AI assistants to business systems. He holds the Google Cloud Professional Data Engineer certification and IBM Mastery Awards in big data engineering and artificial intelligence analysis.
+
+About MV.tech SolutionsSelected engineering workServices
+Your next step
+
+### Want help applying this?
+
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech Solutions.
+
+---
+
 # What Is an MCP Server and When to Build One? | MV.tech Solutions
 
 URL: https://mvtech.solutions/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/
 Description: The Model Context Protocol for business readers: what an MCP server exposes, when building one makes sense, the security decisions and a first project.
-Last modified: 2026-11-14
+Last modified: 2026-11-26
 
 AI engineering
 
@@ -2023,7 +2163,7 @@ AI engineering
 
 The Model Context Protocol for business readers: what an MCP server exposes, when building one makes sense, the security decisions and a first project.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published September 10, 2026 · Updated November 14, 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published September 10, 2026 · Updated November 26, 2026 · 6 min read
 
 In brief
 
@@ -2122,13 +2262,13 @@ Buyer question
 How to evaluate a data consultancy for an offshore team, and where MV.tech Solutions fits for data engineering, analytics, BI and AI delivery from India.
 
 3 min read
-Buyer's guide
+AI engineering
 
-### 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
+### What Is Agentic AI, and When Does a Business Need an AI Agent?
 
-A buyer's checklist for a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
+Agentic AI in plain language: how an AI agent differs from a chatbot or an automation, when one is worth building, what keeps it safe and a first project.
 
-5 min read
+6 min read
 About the author
 
 ### Meet Vaghasia
@@ -2551,7 +2691,7 @@ Tell us about the work, your current systems and the people who will use the res
 
 URL: https://mvtech.solutions/services/
 Description: MV.tech Solutions services: web and application development, custom software, data engineering, BI, AI and MCP, automation and dedicated teams.
-Last modified: 2026-11-24
+Last modified: 2026-11-26
 
 ## Software, Data, AI & Technology Staffing
 
@@ -2577,11 +2717,11 @@ Build websites, web applications, SaaS products, customer portals and internal t
 
 Web Development Application Development Custom Software Development Customer Portal Development Workflow Automation & APIs
 
-#### AI Consulting & Development
+#### AI & Agentic AI
 
-Add AI to a business process or product. Our work covers knowledge assistants, document processing, RAG systems and connections between AI platforms, company data and internal tools.
+Enterprise AI, AI agents and generative AI that turn ideas into working systems. Our work covers knowledge assistants, document processing and RAG systems, AI agents that carry out tasks with approval steps, and connections between AI platforms, company data and internal tools.
 
-AI Consulting & Development Employee AI Chatbots MCP Servers & AI Connectors
+Agentic AI & AI Agents AI Consulting & Development Employee AI Chatbots MCP Servers & AI Connectors
 
 #### Dedicated Engineering Teams
 
@@ -2610,6 +2750,7 @@ Find a service by the work you need done
 | Build a customer or partner portal | Customer Portal Development |
 | Automate a recurring finance or operations report | Reporting Automation |
 | Help employees find answers in internal policies | Employee AI Chatbots |
+| Let an AI agent complete multi-step tasks in your tools | Agentic AI & AI Agents |
 | Connect AI to documents or business systems | AI Consulting |
 | Automate recurring work between applications | Workflow Automation |
 | Add engineering capacity to your team | Staff Augmentation |
@@ -2648,11 +2789,181 @@ Tell us what you want to build, improve or connect. We’ll discuss the requirem
 
 ---
 
+# Agentic AI & AI Agent Development Services | MV.tech Solutions
+
+URL: https://mvtech.solutions/services/agentic-ai/
+Description: AI agents that complete multi-step work in your business tools, with approval steps, evaluation and logs. Agentic AI development from MV.tech Solutions.
+Last modified: 2026-11-26
+
+MV.tech Solutions services
+
+## Agentic AI and AI agents that complete work in your systems.
+
+An AI agent does more than answer a question. It reads a request, decides which steps to take, uses your tools to carry them out and reports back. MV.tech Solutions designs and builds agents for real business tasks, with clear limits on what they can reach, approval steps for anything that changes a record, and logs your team can review.
+
+- New York headquarters and Ahmedabad office
+- Overlap with your time zone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### Use an agent when the work has several steps and a clear finish.
+
+- A task takes a person through several systems and many small decisions, such as triaging requests, preparing a report or updating records.
+- Your team already uses an AI assistant and wants it to complete work, not only draft text.
+- A proof of concept works in a demo and needs permissions, testing and monitoring before real users depend on it.
+What we deliver
+
+### What we build.
+
+01
+
+#### Task agents
+
+Agents built around one business process, such as request triage, data lookups, document handling or report preparation. Each has a defined goal, a list of tools it may use and a clear point where it stops and hands over to a person.
+
+02
+
+#### Tools and system access
+
+The functions an agent calls to read or update your systems, built as APIs or MCP servers. Read and write tools are kept separate, inputs are validated, and every call runs under a scoped identity.
+
+03
+
+#### Approval steps and guardrails
+
+Human approval before an agent sends, pays, deletes or changes anything that matters. Limits on scope, spending and request rates are enforced in code rather than in the prompt.
+
+04
+
+#### Evaluation and monitoring
+
+A test set of real requests with expected outcomes, run before every change. A log of each step the agent took, so your team can review its decisions and spot problems early.
+
+- Python
+- Claude
+- GPT
+- Gemini
+- Llama
+- Qwen
+- Model Context Protocol (MCP)
+- Retrieval-augmented generation (RAG)
+- REST APIs
+- OAuth 2.0
+- SQL
+- BigQuery
+- Snowflake
+- Docker
+- Cloud Run
+- GitHub Actions
+- Pytest
+Business applications
+
+### Where agents help.
+
+- Request triage. Read incoming requests, look up the customer or order, draft a reply and route the case, with a person approving anything that is sent.
+- Data questions. Answer questions from approved warehouse views, run checked queries and assemble a summary for someone to review.
+- Back-office tasks. Collect documents, extract the details, update the right system and flag exceptions for a person to handle.
+Engagement scope
+
+### Start with one process and one group of users.
+
+Bring a process your team runs every week, the systems it touches and the people who would use the agent. We agree what the agent may do on its own, what needs approval and how success will be measured. Then we build and test against real examples before widening access.
+
+Working together
+
+### How we deliver this work.
+
+- 01 — Map the task — Break the process into steps, decisions and systems, and mark the points where a person must approve.
+- 02 — Build and evaluate — Build the agent and its tools, then test them on real requests, including unusual cases and bad inputs.
+- 03 — Release and monitor — Start with a small group of users, review the logs, and widen the agent's scope one step at a time.
+From our founder’s engineering work
+
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseTime zones, team and engagement costs
+Before we begin
+
+### Common questions about agentic AI and AI agents
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**What is agentic AI?**
+Agentic AI describes AI systems that work toward a goal over several steps. Instead of answering a single prompt, an agent decides what to do next, calls tools such as a database query or a business API, checks the result and continues until the task is done or it needs a person. The model does the reasoning; the tools, permissions and checks around it decide what it can actually do.
+
+**How is an AI agent different from a chatbot?**
+A chatbot answers questions. An agent takes actions. A chatbot over your HR policies tells an employee how to request leave; an agent could check the balance, fill in the request and send it to a manager for approval. Many projects start as an assistant that answers and add agent abilities once the answers are trusted.
+
+**When is an AI agent the wrong choice?**
+When the steps never change, a regular automation is cheaper, faster and easier to test. When a mistake would be costly and there is no sensible point for a person to approve, an agent should not act on its own. We will tell you if a simpler workflow, or an assistant that only drafts, is the better fit.
+
+**How do you stop an AI agent from doing something it should not?**
+By limiting what it can reach rather than relying on instructions. Each tool checks permissions on the server, write actions are separate from reads, consequential steps wait for human approval, and spending and request limits are enforced in code. Every step is logged, so unexpected behavior shows up in review.
+
+**Which AI models do you build agents with?**
+We work with Claude, GPT, Gemini and open models such as Llama and Qwen, and choose per task based on quality, cost, speed and where your data is allowed to go. The tools and the evaluation set are kept separate from the model, so you can change models later without rebuilding the agent.
+
+**How much does it cost to build an AI agent?**
+We quote after a scoping call. The main factors are the number of systems the agent uses, how many of its actions change data, your approval and audit requirements and the size of the evaluation set. A first agent for one process and one team is the usual starting point. Model usage is billed separately by the provider and depends on volume.
+
+**How long does a first AI agent take to build?**
+A focused first agent for one process usually takes weeks, not months. The first part maps the task and collects real test cases; the rest is build and evaluation rounds until the agent meets the agreed standard. A wider rollout follows once the logs show it behaving as expected.
+
+Related services
+
+### Other ways we can help.
+
+#### AI Automation, RAG & MCP Development
+
+Turn a useful AI idea into a working business application.
+
+#### MCP Servers & AI Connectors
+
+Connect AI assistants to the systems your business already uses.
+
+#### Workflow Automation Consulting
+
+Reduce the manual work between your business systems.
+
+Related guides
+
+### Guides for planning an AI agent.
+
+Agentic AI explained
+
+### What is agentic AI, and when does a business need an AI agent?
+
+How agents differ from assistants and automation, when to build one and what keeps it safe.
+
+Agentic AI guide
+MCP explained
+
+### What is an MCP server, and when should a business build one?
+
+What an MCP server exposes, when building one makes sense, and the security decisions involved.
+
+MCP guide
+AI data access
+
+### Letting AI assistants query your data warehouse safely
+
+Scoped identities, checked SQL, row limits and provenance for assistants connected to business data.
+
+AI access guide
+Your next step
+
+### Discuss an AI agent for your team.
+
+Tell us about the process, the systems involved and who would use the agent. We'll discuss what it should do on its own, what needs approval and what a first release would include.
+
+---
+
 # AI Consulting & Application Development Services | MV.tech Solutions
 
 URL: https://mvtech.solutions/services/ai-consulting/
 Description: AI consulting, knowledge assistants, RAG, document processing and application integration from MV.tech Solutions, with use-case planning and evaluation.
-Last modified: 2026-11-24
+Last modified: 2026-11-26
 
 MV.tech Solutions services
 
@@ -2766,6 +3077,10 @@ Related services
 
 ### Other ways we can help.
 
+#### Agentic AI & AI Agent Development
+
+Enterprise AI, agents and generative AI that turn ideas into working systems.
+
 #### MCP Servers & AI Connectors
 
 Connect AI assistants to the systems your business already uses.
@@ -2773,10 +3088,6 @@ Connect AI assistants to the systems your business already uses.
 #### Workflow Automation Consulting
 
 Reduce the manual work between your business systems.
-
-#### Data Engineering Consulting
-
-Build reliable data pipelines and trace a reported number back to the records it came from.
 
 Related guides
 
@@ -4566,7 +4877,7 @@ Tell us about the work, your current systems and the people who will use the res
 
 URL: https://mvtech.solutions/services/mcp-and-ai-connectors/
 Description: Connect AI assistants to databases, business APIs and internal tools with custom MCP servers and connectors, including permissions, testing and deployment.
-Last modified: 2026-11-24
+Last modified: 2026-11-26
 
 MV.tech Solutions services
 
@@ -4686,6 +4997,10 @@ Related services
 
 ### Other ways we can help.
 
+#### Agentic AI & AI Agent Development
+
+Enterprise AI, agents and generative AI that turn ideas into working systems.
+
 #### AI Automation, RAG & MCP Development
 
 Turn a useful AI idea into a working business application.
@@ -4693,10 +5008,6 @@ Turn a useful AI idea into a working business application.
 #### Workflow Automation Consulting
 
 Reduce the manual work between your business systems.
-
-#### Custom Software Development
-
-Build software around the way your business operates.
 
 Related guides
 
@@ -5718,7 +6029,7 @@ Tell us about the work, your current systems and the people who will use the res
 
 URL: https://mvtech.solutions/services/workflow-automation/
 Description: Automate recurring work across applications, APIs, databases and spreadsheets. MV.tech Solutions builds integrations, validation and exception handling.
-Last modified: 2026-11-23
+Last modified: 2026-11-26
 
 MV.tech Solutions services
 
@@ -5835,6 +6146,10 @@ Related services
 
 ### Other ways we can help.
 
+#### Agentic AI & AI Agent Development
+
+Enterprise AI, agents and generative AI that turn ideas into working systems.
+
 #### MCP Servers & AI Connectors
 
 Connect AI assistants to the systems your business already uses.
@@ -5842,10 +6157,6 @@ Connect AI assistants to the systems your business already uses.
 #### AI Automation, RAG & MCP Development
 
 Turn a useful AI idea into a working business application.
-
-#### Custom Software Development
-
-Build software around the way your business operates.
 
 Related guides
 
