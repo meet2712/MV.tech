@@ -11,7 +11,7 @@ import { createHash } from 'node:crypto';
 import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { attr, escapeHtml as h, fileFor, htmlToText, parseFragment, slugFor, stripTags, textContent, walk } from './html.mjs';
-import { articlePage, callButton, contractingParty, fillFacts, icon, insightsIndex, legalLine, officeAddressLines, officeMapUrl, officesBlock, servicePage } from './templates.mjs';
+import { articlePage, callButton, contractingParty, fillFacts, icon, insightsIndex, legalLine, officeAddressLines, officeMapUrl, officesBlock, overlapTable, servicePage } from './templates.mjs';
 
 const site = JSON.parse(await readFile('content/site.json', 'utf8'));
 const origin = site.origin;
@@ -43,7 +43,7 @@ const pages = [];
 for (const name of (await readdir('content/pages')).filter((f) => f.endsWith('.html')).sort()) {
   const file = `content/pages/${name}`;
   const { meta, body: sourceBody } = parseMetaFile(await readFile(file, 'utf8'), file);
-  const body = sourceBody.replace('<!--offices-->', () => officesBlock(site));
+  const body = sourceBody.replace('<!--offices-->', () => officesBlock(site)).replace('<!--overlap-->', () => overlapTable(site));
   pages.push({ ...meta, body, kind: meta.kind ?? 'page', source: file, hashSource: hash(JSON.stringify(meta) + body) });
 }
 
@@ -182,7 +182,7 @@ function schemaGraph(page) {
     // The organization uses its headquarters address. Both operating offices appear under location.
     address: [postalAddress(headquarters)],
     location: site.offices.map((office) => ({ '@type': 'Place', '@id': `${origin}/#office-${office.id}`, name: `${site.name} – ${office.name}`, address: postalAddress(office), ...(office.telephone ? { telephone: office.telephone } : {}), ...(officeMapUrl(office) ? { hasMap: officeMapUrl(office) } : {}) })),
-    areaServed: [{ '@type': 'Country', name: 'United States' }, 'Worldwide'], founder: { '@id': `${origin}/#founder` }, sameAs: [site.linkedin, site.crunchbase, site.goodfirms, site.clutch], knowsAbout: site.knowsAbout,
+    areaServed: [...site.marketsServed.map((name) => ({ '@type': name === 'European Union' ? 'AdministrativeArea' : 'Country', name })), 'Worldwide'], founder: { '@id': `${origin}/#founder` }, sameAs: [site.linkedin, site.crunchbase, site.goodfirms, site.clutch], knowsAbout: site.knowsAbout,
     contactPoint: [
       { '@type': 'ContactPoint', contactType: 'sales', email: site.email, url: `${origin}/contact/`, areaServed: ['US', 'Worldwide'], availableLanguage: ['English', 'Hindi', 'Gujarati'] },
       ...site.offices.filter((office) => office.telephone).map((office) => ({ '@type': 'ContactPoint', contactType: 'sales', telephone: office.telephone, areaServed: office.countryCode === 'US' ? 'US' : ['IN', 'Worldwide'], availableLanguage: 'English' })),
@@ -191,7 +191,7 @@ function schemaGraph(page) {
   };
   const founder = { '@type': 'Person', '@id': `${origin}/#founder`, name: site.founder.name, jobTitle: site.founder.jobTitle, description: site.founder.description, url: `${origin}/about/`, worksFor: { '@id': `${origin}/#organization` }, sameAs: site.founder.sameAs, knowsAbout: site.knowsAbout, hasCredential: site.credentials.map((c) => ({ '@type': 'EducationalOccupationalCredential', name: c.name, credentialCategory: c.category, recognizedBy: { '@type': 'Organization', name: c.issuer } })) };
   const website = { '@type': 'WebSite', '@id': `${origin}/#website`, name: site.name, alternateName: site.alternateNames.slice(0, 3), url: `${origin}/`, description: site.shortSummary, publisher: { '@id': `${origin}/#organization` }, inLanguage: 'en-US' };
-  const crumbs = page.route === '/' ? null : [{ name: 'Home', url: origin + '/' }, ...(page.route.startsWith('/services/') && page.route !== '/services/' ? [{ name: 'Services', url: origin + '/services/' }] : []), ...(page.kind === 'article' ? [{ name: 'Insights', url: origin + '/insights/' }] : []), { name: page.name, url }];
+  const crumbs = page.route === '/' ? null : [{ name: 'Home', url: origin + '/' }, ...(page.route.startsWith('/services/') && page.route !== '/services/' ? [{ name: 'Services', url: origin + '/services/' }] : []), ...(page.kind === 'article' ? [{ name: 'Insights', url: origin + '/insights/' }] : []), ...(page.service?.parent ? [{ name: page.service.parent.name, url: origin + page.service.parent.url }] : []), { name: page.name, url }];
   const types = { '/': 'WebPage', '/about/': 'AboutPage', '/contact/': 'ContactPage', '/services/': 'CollectionPage', '/insights/': 'CollectionPage', '/faq/': 'FAQPage' };
   const faq = extractFaq(page.body);
   const webpage = {
@@ -207,7 +207,7 @@ function schemaGraph(page) {
   if (crumbs) graph.push({ '@type': 'BreadcrumbList', '@id': `${url}#breadcrumb`, itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: c.url })) });
   if (page.kind === 'service') {
     webpage.mainEntity = { '@id': `${url}#service` };
-    graph.push({ '@type': 'Service', '@id': `${url}#service`, name: page.service.name, serviceType: page.service.serviceType ?? page.service.name, description: page.service.intro, url, provider: { '@id': `${origin}/#organization` }, areaServed: 'Worldwide', availableChannel: { '@type': 'ServiceChannel', serviceUrl: `${origin}/contact/`, availableLanguage: 'English' } });
+    graph.push({ '@type': 'Service', '@id': `${url}#service`, name: page.service.name, serviceType: page.service.serviceType ?? page.service.name, description: page.service.intro, url, provider: { '@id': `${origin}/#organization` }, areaServed: page.service.areaServed ? page.service.areaServed.map((name) => ({ '@type': name === 'European Union' ? 'AdministrativeArea' : 'Country', name })) : 'Worldwide', availableChannel: { '@type': 'ServiceChannel', serviceUrl: `${origin}/contact/`, availableLanguage: 'English' } });
   }
   if (page.kind === 'article') {
     webpage.mainEntity = { '@id': `${url}#article` };

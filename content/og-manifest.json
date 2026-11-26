@@ -120,6 +120,60 @@
     "kicker": "Model Context Protocol explained · When to build · Security · A first project"
   },
   {
+    "route": "/outsourcing/",
+    "slug": "outsourcing",
+    "title": "Software, data and AI outsourcing by region",
+    "kicker": "US · UK · Europe · Gulf · Australia · New Zealand · Singapore · Hong Kong"
+  },
+  {
+    "route": "/outsourcing/australia/",
+    "slug": "outsourcing-australia",
+    "title": "Offshore developers and data engineers for Australian companies",
+    "kicker": "Outsourcing · Australia · Software · Data · AI"
+  },
+  {
+    "route": "/outsourcing/europe/",
+    "slug": "outsourcing-europe",
+    "title": "An offshore software, data and AI team for European companies",
+    "kicker": "Outsourcing · Europe · Software · Data · AI"
+  },
+  {
+    "route": "/outsourcing/hong-kong/",
+    "slug": "outsourcing-hong-kong",
+    "title": "An offshore software, data and AI team for Hong Kong companies",
+    "kicker": "Outsourcing · Hong Kong · Software · Data · AI"
+  },
+  {
+    "route": "/outsourcing/new-zealand/",
+    "slug": "outsourcing-new-zealand",
+    "title": "An offshore software and data team for New Zealand companies",
+    "kicker": "Outsourcing · New Zealand · Software · Data · AI"
+  },
+  {
+    "route": "/outsourcing/singapore/",
+    "slug": "outsourcing-singapore",
+    "title": "Software, data and AI outsourcing for Singapore companies",
+    "kicker": "Outsourcing · Singapore · Software · Data · AI"
+  },
+  {
+    "route": "/outsourcing/uae/",
+    "slug": "outsourcing-uae",
+    "title": "Software, data and AI outsourcing for companies in the UAE and Gulf",
+    "kicker": "Outsourcing · UAE and Gulf · Software · Data · AI"
+  },
+  {
+    "route": "/outsourcing/uk/",
+    "slug": "outsourcing-uk",
+    "title": "Software, data and AI outsourcing for UK companies",
+    "kicker": "Outsourcing · United Kingdom · Software · Data · AI"
+  },
+  {
+    "route": "/outsourcing/usa/",
+    "slug": "outsourcing-usa",
+    "title": "Software, data and AI outsourcing for US companies",
+    "kicker": "Outsourcing · United States · Software · Data · AI"
+  },
+  {
     "route": "/privacy/",
     "slug": "privacy",
     "title": "Privacy Policy",

@@ -1014,6 +1014,18 @@
         "answer": "Yes. An ETL migration moves the jobs that load and transform the data, not just the tables. We inventory the existing pipelines, stored procedures and scheduled jobs, rebuild them for the new platform as tested, version-controlled code, and run old and new side by side until the outputs reconcile."
       },
       {
+        "question": "What do ETL migration engineering services include?",
+        "answer": "An inventory of the existing jobs and what depends on them, a mapping from each source table and transformation to the new platform, rebuilt or converted pipelines, historical loads, parallel runs with reconciliation, cutover and documentation. The old jobs are retired once report owners have signed off."
+      },
+      {
+        "question": "How do you migrate a data warehouse to Snowflake?",
+        "answer": "We inventory the tables, jobs and reports, map data types and SQL dialect differences, load history through staged files and rebuild the transformations as SQL models. Old and new run side by side, and each report switches when its totals match and its owner signs off. Warehouse sizing, roles and cost monitoring are set up before the cutover."
+      },
+      {
+        "question": "How do you migrate a data warehouse to BigQuery?",
+        "answer": "The steps are the same, with BigQuery specifics. We design datasets, partitioning and clustering around how the tables are queried, convert SQL to GoogleSQL, load history through Cloud Storage or the BigQuery Data Transfer Service and set cost controls such as query quotas. Each report is checked against the old warehouse before it switches."
+      },
+      {
         "question": "How do you prove the new warehouse is correct?",
         "answer": "By comparing it with the old one, automatically and repeatedly. Record counts and control totals per load, date coverage and gap checks, null and duplicate profiles, key uniqueness, and metric-level comparison of reported figures. Every difference is investigated and then either fixed or documented as a deliberate change, including the cases where the legacy number turns out to be the wrong one."
       },
@@ -1101,7 +1113,8 @@
     "briefLink": {
       "anchor": "migration-brief",
       "label": "Outline your migration"
-    }
+    },
+    "serviceType": "Data warehouse and ETL migration engineering"
   },
   {
     "path": "/services/blockchain-data-analytics/",
@@ -3235,5 +3248,1471 @@
     "applicationsHeading": "Work we can scope with your team",
     "questionsHeading": "Questions buyers ask",
     "closingHeading": "Discuss your project"
+  },
+  {
+    "path": "/outsourcing/usa/",
+    "key": "outsourcing-usa",
+    "name": "Outsourcing for US Companies",
+    "title": "Software & Data Outsourcing for US Companies | MV.tech Solutions",
+    "description": "Outsource software, data engineering and AI work to a New York company with engineers in India. US contract, Eastern-morning overlap and a written scope.",
+    "h1": "Software, data and AI outsourcing for US companies.",
+    "eyebrow": "Outsourcing · United States",
+    "serviceType": "Software, data and AI outsourcing",
+    "parent": {
+      "name": "Outsourcing by Region",
+      "url": "/outsourcing/"
+    },
+    "areaServed": [
+      "United States"
+    ],
+    "intro": "MV.tech Solutions is headquartered in New York and delivers from an engineering office in Ahmedabad, India. US companies sign with a New York corporation, reach us on a US number and share their morning with the engineers doing the work.",
+    "fitHeading": "When an offshore team makes sense for a US business.",
+    "fit": [
+      "You need engineering capacity this quarter and local hiring is taking months.",
+      "A data migration, portal or AI project has a clear finish, and your own team is busy running the business.",
+      "You want one US contract instead of managing individual overseas contractors."
+    ],
+    "deliverablesHeading": "What US clients outsource to us.",
+    "deliverables": [
+      {
+        "title": "Data platforms and reporting",
+        "text": "Pipelines into Snowflake, BigQuery or Redshift, warehouse migrations and Power BI reporting, with totals checked against the source before reports switch."
+      },
+      {
+        "title": "Web applications and portals",
+        "text": "Customer portals, internal tools and SaaS features in React, Next.js, Node.js and Python, released through your repository and review process."
+      },
+      {
+        "title": "AI assistants and agents",
+        "text": "Knowledge assistants, MCP connectors and AI agents that work inside your systems with the permissions of the person asking."
+      },
+      {
+        "title": "Dedicated engineers",
+        "text": "Data, software and AI engineers who join your stand-ups for an agreed number of hours each week, or a recruitment search when the role should be permanent."
+      }
+    ],
+    "tools": [
+      "US headquarters in New York",
+      "Eastern and Pacific overlap",
+      "MSA and SOW",
+      "Snowflake",
+      "BigQuery",
+      "Power BI",
+      "React and Next.js",
+      "Python",
+      "AI agents"
+    ],
+    "region": {
+      "label": "the United States",
+      "eyebrow": "Hours, contracts and data",
+      "heading": "Working with us from the United States.",
+      "intro": "These are the points US procurement and engineering leads usually check first.",
+      "caption": "Facts for US clients",
+      "facts": [
+        [
+          "Contracting party",
+          "A New York corporation doing business as MV.tech Solutions; the legal entity is named on our About page"
+        ],
+        [
+          "Headquarters",
+          "Bellerose, New York"
+        ],
+        [
+          "Phone",
+          "+1 (447) 348-9720"
+        ],
+        [
+          "Shared hours",
+          "9:00 am to 1:00 pm Eastern or 7:00 to 10:00 am Pacific, agreed per engagement"
+        ],
+        [
+          "Contracts",
+          "Mutual NDA, then a statement of work under our terms or your master services agreement"
+        ],
+        [
+          "Data handling",
+          "Work happens in your cloud accounts where possible, with least-privilege access that you grant and can revoke"
+        ],
+        [
+          "Privacy and sector rules",
+          "Tell us at scoping if CCPA, HIPAA, GLBA or SOC 2 controls apply, and we state in writing what we can commit to"
+        ]
+      ],
+      "cities": [
+        "New York",
+        "San Francisco"
+      ],
+      "overlapCaption": "Typical shared hours with US teams"
+    },
+    "applicationsHeading": "Common first projects for US clients.",
+    "applications": [
+      {
+        "title": "A reporting migration",
+        "text": "Move one finance or operations report from spreadsheets or a legacy warehouse and check it against the original."
+      },
+      {
+        "title": "An extra engineer for a quarter",
+        "text": "Add a data or full-stack engineer to an existing team while a permanent hire is in progress."
+      },
+      {
+        "title": "An AI pilot",
+        "text": "Put one internal process behind an assistant or agent, with an evaluation set and a human approval step."
+      }
+    ],
+    "scopeHeading": "Agree hours, owners and the first milestone.",
+    "scope": "A first call covers the goal, the systems involved and the hours your team is available. The proposal names the people, the weekly overlap in your time zone, the first milestone and how it will be accepted. Work outside the shared window is handed over in writing, so your team starts each morning with an update instead of a question.",
+    "approachHeading": "From first call to first milestone.",
+    "approach": [
+      {
+        "title": "Discuss the work",
+        "text": "A 30-minute call in your working hours about the goal, the systems and your constraints."
+      },
+      {
+        "title": "Agree the engagement",
+        "text": "A written proposal with scope or capacity, people, shared hours, acceptance checks and price."
+      },
+      {
+        "title": "Deliver and review",
+        "text": "Work in agreed review cycles, with written updates outside the shared hours and a documented handover."
+      }
+    ],
+    "questionsHeading": "Questions US companies ask before outsourcing.",
+    "questions": [
+      {
+        "question": "Is MV.tech Solutions a US company?",
+        "answer": "Yes. MV.tech Solutions is the registered business name of a New York corporation headquartered in Bellerose, New York. Engineering is delivered by our team in Ahmedabad, India, and US clients contract with the New York company."
+      },
+      {
+        "question": "How many hours a day will the team overlap with us?",
+        "answer": "We typically plan 9:00 am to 1:00 pm Eastern or 7:00 to 10:00 am Pacific for meetings, reviews and pairing. The exact window is written into the engagement. Outside it, progress notes and pull requests are ready for your team the next morning."
+      },
+      {
+        "question": "Can you sign our MSA and NDA?",
+        "answer": "Yes. We sign a mutual NDA before detailed discussions and can work under your master services agreement, with a statement of work for each engagement."
+      },
+      {
+        "question": "How is our data protected when engineers are in India?",
+        "answer": "Engineers use access you grant in your own cloud accounts, limited to what the work needs, and secrets stay in your secret manager. We do not keep client data after handover unless a support agreement requires it. If state privacy laws or sector rules such as HIPAA apply, raise them at scoping and we will say plainly what we can and cannot commit to."
+      },
+      {
+        "question": "What does outsourcing cost compared with hiring in the US?",
+        "answer": "We quote after a scoping call, because the price depends on scope, seniority and the support you want us to own. A project is priced by milestone and a dedicated engineer by agreed monthly capacity. Compare that with the full cost of a US hire, including recruiting time, benefits and management."
+      },
+      {
+        "question": "Can we start small?",
+        "answer": "Yes. A first engagement can be one report, one integration or one part-time engineer. More scope is added after the first milestone is accepted."
+      }
+    ],
+    "relatedServiceKeys": [
+      "it-staff-augmentation",
+      "data-engineering",
+      "agentic-ai"
+    ],
+    "relatedResourcesHeading": "Guides for planning the engagement.",
+    "relatedResources": [
+      {
+        "href": "/insights/what-a-remote-data-engineering-team-from-india-costs/",
+        "kicker": "Budgeting",
+        "title": "What a remote data engineering team from India costs",
+        "text": "What drives the price of a remote team and how to compare proposals.",
+        "label": "Cost guide"
+      },
+      {
+        "href": "/insights/timezone-overlap-with-an-india-based-engineering-team/",
+        "kicker": "Remote delivery",
+        "title": "Working with an India-based team across time zones",
+        "text": "Realistic overlap windows and the async habits that keep distributed work moving.",
+        "label": "Time zone guide"
+      },
+      {
+        "href": "/insights/staff-augmentation-vs-project-consulting-vs-recruitment/",
+        "kicker": "Engagement models",
+        "title": "Staff augmentation vs project-based consulting",
+        "text": "Who directs the work, what each model costs and when to hire instead.",
+        "label": "Comparison guide"
+      }
+    ],
+    "summary": "A New York company with an engineering team in India, for US businesses outsourcing software, data and AI work.",
+    "ogTitle": "Software, data and AI outsourcing for US companies",
+    "ogKicker": "Outsourcing · United States · Software · Data · AI",
+    "closingHeading": "Tell us what you want to hand over.",
+    "closingCopy": "Share the goal, your systems and your time zone. You speak with an engineer on the first 30-minute call and leave with a written next step.",
+    "callLabel": "Book a 30-minute call"
+  },
+  {
+    "path": "/outsourcing/uk/",
+    "key": "outsourcing-uk",
+    "name": "Outsourcing for UK Companies",
+    "title": "Outsource Software & Data Engineering from the UK | MV.tech Solutions",
+    "description": "UK companies outsource software, data engineering and AI projects to our team in India. Shared hours until mid-afternoon, UK GDPR terms and a written scope.",
+    "h1": "Software, data and AI outsourcing for UK companies.",
+    "eyebrow": "Outsourcing · United Kingdom",
+    "serviceType": "Software, data and AI outsourcing",
+    "parent": {
+      "name": "Outsourcing by Region",
+      "url": "/outsourcing/"
+    },
+    "areaServed": [
+      "United Kingdom"
+    ],
+    "intro": "India is four and a half to five and a half hours ahead of the UK, so our Ahmedabad engineers share your morning and early afternoon. UK teams can hand us a data platform, a web application or an AI project as a scoped delivery, or add our engineers to their own team.",
+    "fitHeading": "When outsourcing to India fits a UK team.",
+    "fit": [
+      "Your roadmap is larger than your team, and contractor day rates make extra capacity hard to justify.",
+      "You need a data warehouse, reporting or AI project delivered without pulling engineers off the product.",
+      "You want a supplier that is online for your stand-up and most of your working day."
+    ],
+    "deliverablesHeading": "What UK clients outsource to us.",
+    "deliverables": [
+      {
+        "title": "Finance and operations reporting",
+        "text": "Warehouse models and Power BI reports reconciled to the ledger, including supplier statement and month-end checks for Dynamics 365 Business Central."
+      },
+      {
+        "title": "Product engineering",
+        "text": "React, Next.js, Node.js and Python development for SaaS products, customer portals and internal tools, reviewed through your pull requests."
+      },
+      {
+        "title": "AI on your own data",
+        "text": "Internal assistants and agents that answer from your documents and systems, with permissions enforced in the application and UK GDPR considered in the design."
+      },
+      {
+        "title": "Engineers in your team",
+        "text": "Dedicated data, software or AI engineers for an agreed capacity, directed by your leads, as an alternative to short-term contractors."
+      }
+    ],
+    "tools": [
+      "UK working hours",
+      "UK GDPR",
+      "Power BI",
+      "Dynamics 365 Business Central",
+      "Snowflake",
+      "Azure",
+      "React and Next.js",
+      "Python",
+      "AI assistants"
+    ],
+    "region": {
+      "label": "the United Kingdom",
+      "eyebrow": "Hours, contracts and data",
+      "heading": "Working with us from the United Kingdom.",
+      "intro": "The practical details UK engineering, finance and data protection leads ask about.",
+      "caption": "Facts for UK clients",
+      "facts": [
+        [
+          "Time difference",
+          "India is 5 hours 30 minutes ahead of GMT and 4 hours 30 minutes ahead of British Summer Time"
+        ],
+        [
+          "Shared hours",
+          "9:00 am to 3:30 pm UK time, agreed per engagement"
+        ],
+        [
+          "Data protection",
+          "UK GDPR and the Data Protection Act 2018. Where personal data would be accessed from India, your data protection lead will usually ask for an International Data Transfer Agreement or the UK Addendum; we settle those terms before any access"
+        ],
+        [
+          "Where the work happens",
+          "In your cloud accounts and repositories where possible, so data stays in your UK region"
+        ],
+        [
+          "Who you contract with",
+          "A company, not individual contractors"
+        ],
+        [
+          "Contracts",
+          "Mutual NDA, then a statement of work. The proposal names the contracting entity, currency and payment terms"
+        ]
+      ],
+      "cities": [
+        "London"
+      ],
+      "overlapCaption": "Typical shared hours with UK teams"
+    },
+    "applicationsHeading": "Common first projects for UK clients.",
+    "applications": [
+      {
+        "title": "A month-end reporting fix",
+        "text": "Reconcile one finance report to the ledger and automate the checks that currently take days."
+      },
+      {
+        "title": "A delivery team for a release",
+        "text": "Add two or three engineers for a product milestone without a long hiring cycle."
+      },
+      {
+        "title": "A first AI assistant",
+        "text": "Answer staff questions from policies and documents, with sources shown and access limited by role."
+      }
+    ],
+    "scopeHeading": "Settle scope, hours and data terms first.",
+    "scope": "We start with a call during UK hours to understand the goal, the systems and your data protection requirements. The proposal sets out scope or capacity, the shared hours in UK time, named reviewers on both sides and the acceptance checks. Anything that involves personal data is agreed with your data protection lead before access is granted.",
+    "approachHeading": "From first call to first milestone.",
+    "approach": [
+      {
+        "title": "Discuss the work",
+        "text": "A 30-minute call in your working hours about the goal, the systems and your constraints."
+      },
+      {
+        "title": "Agree the engagement",
+        "text": "A written proposal with scope or capacity, people, shared hours, acceptance checks and price."
+      },
+      {
+        "title": "Deliver and review",
+        "text": "Work in agreed review cycles, with written updates outside the shared hours and a documented handover."
+      }
+    ],
+    "questionsHeading": "Questions UK companies ask before outsourcing.",
+    "questions": [
+      {
+        "question": "Can an India-based team work UK hours?",
+        "answer": "Not the full day, and we do not pretend otherwise. We typically share 9:00 am to 3:30 pm UK time, which covers stand-ups, reviews and most working sessions. Later requests are picked up the next morning in India, before your day starts."
+      },
+      {
+        "question": "How do you handle UK GDPR when work is done from India?",
+        "answer": "First we try to avoid moving personal data at all: engineers work in your environment, with test or masked data where the task allows. Where access to personal data from India is needed, your data protection lead will usually require an International Data Transfer Agreement or the UK Addendum, and those terms are settled before access is granted."
+      },
+      {
+        "question": "Is this the same as hiring contractors?",
+        "answer": "No. You contract with MV.tech Solutions as a company, for a scope of work or an agreed team capacity. The engineers are our team, we manage them, and continuity is our responsibility if someone is unavailable."
+      },
+      {
+        "question": "What does it cost compared with a UK contractor or agency?",
+        "answer": "We quote after a scoping call. Projects are priced by milestone and dedicated engineers by agreed monthly capacity. Compare proposals on the same deliverable, the seniority of the people and the support included, and count your own team’s time for reviews."
+      },
+      {
+        "question": "Can you work with Dynamics 365 Business Central and Power BI?",
+        "answer": "Yes. Finance reporting is a specialism: loading Business Central ledgers into a warehouse, reconciling supplier statements and month-end balances, and building Power BI reports that agree with the ledger."
+      }
+    ],
+    "relatedServiceKeys": [
+      "power-bi-consulting",
+      "it-staff-augmentation",
+      "application-development"
+    ],
+    "relatedResourcesHeading": "Guides for planning the engagement.",
+    "relatedResources": [
+      {
+        "href": "/insights/reconciling-dynamics-365-business-central-with-your-data-warehouse/",
+        "kicker": "Finance data",
+        "title": "Reconciling supplier statements in Business Central",
+        "text": "Match supplier statements to the vendor ledger and keep warehouse reports in agreement.",
+        "label": "Finance guide"
+      },
+      {
+        "href": "/insights/timezone-overlap-with-an-india-based-engineering-team/",
+        "kicker": "Remote delivery",
+        "title": "Working with an India-based team across time zones",
+        "text": "Realistic overlap windows and the async habits that keep distributed work moving.",
+        "label": "Time zone guide"
+      },
+      {
+        "href": "/insights/staff-augmentation-vs-project-consulting-vs-recruitment/",
+        "kicker": "Engagement models",
+        "title": "Staff augmentation vs project-based consulting",
+        "text": "Who directs the work, what each model costs and when to hire instead.",
+        "label": "Comparison guide"
+      }
+    ],
+    "summary": "An India-based engineering team that shares the UK morning and early afternoon, for software, data and AI work.",
+    "ogTitle": "Software, data and AI outsourcing for UK companies",
+    "ogKicker": "Outsourcing · United Kingdom · Software · Data · AI",
+    "closingHeading": "Tell us what your team cannot get to.",
+    "closingCopy": "Share the goal, your systems and your working hours. You speak with an engineer on the first 30-minute call and leave with a written next step.",
+    "callLabel": "Book a 30-minute call"
+  },
+  {
+    "path": "/outsourcing/europe/",
+    "key": "outsourcing-europe",
+    "name": "Outsourcing for European Companies",
+    "title": "Offshore Development Team for European Companies | MV.tech Solutions",
+    "description": "European companies add software, data and AI engineers from our India team. Shared hours until 4:00 pm Central European Time, GDPR terms and English delivery.",
+    "h1": "An offshore software, data and AI team for European companies.",
+    "eyebrow": "Outsourcing · Europe",
+    "serviceType": "Software, data and AI outsourcing",
+    "parent": {
+      "name": "Outsourcing by Region",
+      "url": "/outsourcing/"
+    },
+    "areaServed": [
+      "European Union",
+      "Germany",
+      "Netherlands",
+      "Switzerland"
+    ],
+    "intro": "For companies in Germany, the Netherlands, the Nordics, Switzerland and across the EU, our Ahmedabad engineers are online for most of the working day: India is three and a half to four and a half hours ahead of Central European Time. Delivery, documentation and meetings are in English.",
+    "fitHeading": "When an offshore team fits a European company.",
+    "fit": [
+      "Local engineers are scarce or expensive for the skills you need, especially in data and AI.",
+      "You have compared nearshore suppliers and want more senior time for the same budget.",
+      "Your data protection officer needs clear GDPR terms before any supplier touches a system."
+    ],
+    "deliverablesHeading": "What European clients outsource to us.",
+    "deliverables": [
+      {
+        "title": "Data engineering and analytics",
+        "text": "Pipelines, warehouse models and BI on Snowflake, BigQuery, Redshift or Azure, with reconciliation checks your report owners can review."
+      },
+      {
+        "title": "Software development",
+        "text": "Web applications, portals and integrations built in your repositories with your review and release process."
+      },
+      {
+        "title": "AI inside your perimeter",
+        "text": "Assistants, RAG and agents deployed in your own cloud region, using the model providers and data residency your policies allow."
+      },
+      {
+        "title": "A dedicated team",
+        "text": "Engineers who work your sprint rhythm for an agreed capacity and duration, with a named lead on our side."
+      }
+    ],
+    "tools": [
+      "Central European hours",
+      "GDPR",
+      "English delivery",
+      "Snowflake",
+      "BigQuery",
+      "Azure",
+      "Python",
+      "React and Next.js",
+      "RAG and agents"
+    ],
+    "region": {
+      "label": "Europe",
+      "eyebrow": "Hours, contracts and data",
+      "heading": "Working with us from Europe.",
+      "intro": "Hours, language and GDPR are the three questions European buyers raise first.",
+      "caption": "Facts for European clients",
+      "facts": [
+        [
+          "Time difference",
+          "India is 4 hours 30 minutes ahead of Central European Time, and 3 hours 30 minutes ahead in summer"
+        ],
+        [
+          "Shared hours",
+          "9:00 am to 4:00 pm Central European Time, agreed per engagement"
+        ],
+        [
+          "Working language",
+          "English for delivery, documentation and meetings"
+        ],
+        [
+          "Data protection",
+          "GDPR. India has no EU adequacy decision, so access to personal data from India needs a data processing agreement and Standard Contractual Clauses, settled at scoping"
+        ],
+        [
+          "Where the work happens",
+          "In your cloud accounts where possible, so data stays in your EU region"
+        ],
+        [
+          "Contracts",
+          "Mutual NDA, then a statement of work. The proposal names the contracting entity, currency and payment terms"
+        ]
+      ],
+      "cities": [
+        "Berlin",
+        "London"
+      ],
+      "overlapCaption": "Typical shared hours with European teams"
+    },
+    "applicationsHeading": "Common first projects for European clients.",
+    "applications": [
+      {
+        "title": "A warehouse migration",
+        "text": "Move reporting to a cloud warehouse in phases, running old and new in parallel until totals match."
+      },
+      {
+        "title": "A nearshore alternative",
+        "text": "Extend or replace a nearshore team where senior data or AI skills are hard to find."
+      },
+      {
+        "title": "A governed AI pilot",
+        "text": "Test one assistant or agent inside your perimeter with an evaluation set and an audit log."
+      }
+    ],
+    "scopeHeading": "Agree GDPR terms and working hours before access.",
+    "scope": "The first call covers the goal, the systems and how personal data is involved. The proposal sets out scope or capacity, the shared hours in your time zone, the reviewers and the acceptance checks. Where personal data is in scope, the data processing agreement and transfer clauses are signed before any access is granted.",
+    "approachHeading": "From first call to first milestone.",
+    "approach": [
+      {
+        "title": "Discuss the work",
+        "text": "A 30-minute call in your working hours about the goal, the systems and your constraints."
+      },
+      {
+        "title": "Agree the engagement",
+        "text": "A written proposal with scope or capacity, people, shared hours, acceptance checks and price."
+      },
+      {
+        "title": "Deliver and review",
+        "text": "Work in agreed review cycles, with written updates outside the shared hours and a documented handover."
+      }
+    ],
+    "questionsHeading": "Questions European companies ask before outsourcing.",
+    "questions": [
+      {
+        "question": "Offshore in India or nearshore in Eastern Europe: what is the real difference?",
+        "answer": "A nearshore team shares your whole working day. An India team shares roughly 9:00 am to 4:00 pm Central European Time and starts several hours before you, so requests left in the evening have progress by your morning. The right choice depends on how much real-time collaboration the work needs and which skills you are short of."
+      },
+      {
+        "question": "How do you meet GDPR requirements?",
+        "answer": "We keep personal data in your environment and use masked or synthetic data where the task allows. If engineers in India need access to personal data, that is an international transfer: your data protection officer will need a data processing agreement and Standard Contractual Clauses in place, and we settle those before access is granted."
+      },
+      {
+        "question": "Which European time zones can you cover?",
+        "answer": "All of them for part of the day. Central European teams typically share 9:00 am to 4:00 pm. Ireland and Portugal share until about 3:30 pm, and Finland, Greece and the Baltic states until about 5:00 pm."
+      },
+      {
+        "question": "Do you work in languages other than English?",
+        "answer": "Delivery is in English. The applications and reports we build can carry content in your languages, which your team reviews."
+      },
+      {
+        "question": "Can we start with a small engagement?",
+        "answer": "Yes. A first engagement can be a single pipeline, a proof of concept or one part-time engineer. The first milestone has written acceptance checks, and you decide what follows."
+      }
+    ],
+    "relatedServiceKeys": [
+      "offshore-data-engineering-team",
+      "data-warehouse-migration",
+      "ai-consulting"
+    ],
+    "relatedResourcesHeading": "Guides for planning the engagement.",
+    "relatedResources": [
+      {
+        "href": "/insights/data-consultancy-company-for-offshore-team/",
+        "kicker": "Offshore teams",
+        "title": "Choosing a data consultancy for an offshore team",
+        "text": "How to set scope, ownership and review routines with an offshore partner.",
+        "label": "Buyer guide"
+      },
+      {
+        "href": "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
+        "kicker": "Vendor selection",
+        "title": "12 questions before hiring a remote consultancy",
+        "text": "What to ask about people, delivery, security and handover before you sign.",
+        "label": "Buyer checklist"
+      },
+      {
+        "href": "/insights/timezone-overlap-with-an-india-based-engineering-team/",
+        "kicker": "Remote delivery",
+        "title": "Working with an India-based team across time zones",
+        "text": "Realistic overlap windows and the async habits that keep distributed work moving.",
+        "label": "Time zone guide"
+      }
+    ],
+    "summary": "An India-based engineering team that shares most of the Central European working day, for software, data and AI work under GDPR terms.",
+    "ogTitle": "An offshore software, data and AI team for European companies",
+    "ogKicker": "Outsourcing · Europe · Software · Data · AI",
+    "closingHeading": "Tell us which skills you are short of.",
+    "closingCopy": "Share the goal, your systems and your time zone. You speak with an engineer on the first 30-minute call and leave with a written next step.",
+    "callLabel": "Book a 30-minute call"
+  },
+  {
+    "path": "/outsourcing/uae/",
+    "key": "outsourcing-uae",
+    "name": "Outsourcing for UAE & Gulf Companies",
+    "title": "Software & AI Outsourcing for UAE & Gulf Companies | MV.tech Solutions",
+    "description": "Companies in Dubai, Abu Dhabi and the Gulf outsource software, data and AI projects to our India team, 90 minutes ahead and online for almost the whole day.",
+    "h1": "Software, data and AI outsourcing for companies in the UAE and Gulf.",
+    "eyebrow": "Outsourcing · UAE and Gulf",
+    "serviceType": "Software, data and AI outsourcing",
+    "parent": {
+      "name": "Outsourcing by Region",
+      "url": "/outsourcing/"
+    },
+    "areaServed": [
+      "United Arab Emirates",
+      "Saudi Arabia",
+      "Qatar"
+    ],
+    "intro": "Ahmedabad is 90 minutes ahead of Dubai, so our engineers are online for almost all of a Gulf working day. That makes an India team practical for web applications, data platforms and AI projects that need daily conversation with the people who will use them.",
+    "fitHeading": "When an India team fits a Gulf business.",
+    "fit": [
+      "You are digitizing a process and need engineers who can start within weeks.",
+      "Reports are assembled by hand from an ERP, a CRM and spreadsheets, and month-end takes too long.",
+      "You want an AI assistant or agent for staff or customers, with clear control over the data it uses."
+    ],
+    "deliverablesHeading": "What Gulf clients outsource to us.",
+    "deliverables": [
+      {
+        "title": "Business applications and portals",
+        "text": "Customer, partner and internal portals with roles and approvals, integrated with the ERP, CRM and payment systems you already run."
+      },
+      {
+        "title": "Dashboards and reporting automation",
+        "text": "Power BI and warehouse reporting for finance, sales and operations, replacing manual spreadsheet consolidation."
+      },
+      {
+        "title": "AI assistants and agents",
+        "text": "Employee and customer assistants that answer from your documents and systems, and agents that complete multi-step tasks with approval steps."
+      },
+      {
+        "title": "A team in your working day",
+        "text": "Engineers assigned to your backlog who are online from 9:00 am to 6:00 pm Gulf time."
+      }
+    ],
+    "tools": [
+      "Gulf working hours",
+      "Monday to Friday",
+      "Customer portals",
+      "Power BI",
+      "ERP and CRM integration",
+      "AI assistants",
+      "Workflow automation",
+      "React and Next.js",
+      "Python"
+    ],
+    "region": {
+      "label": "the UAE and Gulf",
+      "eyebrow": "Hours, contracts and data",
+      "heading": "Working with us from the UAE and Gulf.",
+      "intro": "The smallest time difference of any region we serve, and the same working week.",
+      "caption": "Facts for UAE and Gulf clients",
+      "facts": [
+        [
+          "Time difference",
+          "India is 1 hour 30 minutes ahead of Gulf Standard Time, all year"
+        ],
+        [
+          "Shared hours",
+          "9:00 am to 6:00 pm in Dubai and Abu Dhabi, agreed per engagement"
+        ],
+        [
+          "Working week",
+          "Monday to Friday on both sides"
+        ],
+        [
+          "Data protection",
+          "The UAE Personal Data Protection Law (Federal Decree-Law No. 45 of 2021), plus DIFC and ADGM rules for companies in those free zones. Requirements are agreed at scoping"
+        ],
+        [
+          "Where the work happens",
+          "In your cloud accounts where possible, including UAE cloud regions"
+        ],
+        [
+          "Contracts",
+          "Mutual NDA, then a statement of work. The proposal names the contracting entity, currency and payment terms"
+        ]
+      ],
+      "cities": [
+        "Dubai"
+      ],
+      "overlapCaption": "Typical shared hours with Gulf teams"
+    },
+    "applicationsHeading": "Common first projects for Gulf clients.",
+    "applications": [
+      {
+        "title": "A customer or partner portal",
+        "text": "Give customers one place to place orders, track requests and download documents."
+      },
+      {
+        "title": "Management reporting",
+        "text": "Daily sales, finance and operations dashboards from the systems you already use."
+      },
+      {
+        "title": "An internal AI assistant",
+        "text": "Answer HR, policy and operations questions from approved documents."
+      }
+    ],
+    "scopeHeading": "Start with one process and its owner.",
+    "scope": "Pick one process or report and the person who owns it. On the first call we cover the systems involved, who approves what and your working week. The proposal sets out scope or capacity, the people, shared hours in Gulf time and the acceptance checks for the first milestone.",
+    "approachHeading": "From first call to first milestone.",
+    "approach": [
+      {
+        "title": "Discuss the work",
+        "text": "A 30-minute call in your working hours about the goal, the systems and your constraints."
+      },
+      {
+        "title": "Agree the engagement",
+        "text": "A written proposal with scope or capacity, people, shared hours, acceptance checks and price."
+      },
+      {
+        "title": "Deliver and review",
+        "text": "Work in agreed review cycles, with written updates outside the shared hours and a documented handover."
+      }
+    ],
+    "questionsHeading": "Questions Gulf companies ask before outsourcing.",
+    "questions": [
+      {
+        "question": "How close are your working hours to Dubai’s?",
+        "answer": "Very close. India is 90 minutes ahead all year, so a 9:00 am meeting in Dubai is 10:30 am for our team, and we are online until about 6:00 pm Gulf time."
+      },
+      {
+        "question": "Do you work with companies in Saudi Arabia, Qatar and the wider Gulf?",
+        "answer": "Yes. Riyadh and Doha are one hour behind Dubai, so the shared window there runs from 9:00 am to about 5:00 pm. Tell us your location and working week, and the hours are set out in the proposal."
+      },
+      {
+        "question": "Which data protection rules apply?",
+        "answer": "Most UAE companies fall under the federal Personal Data Protection Law, and companies in the DIFC and ADGM free zones have their own regimes. We keep data in your environment where possible and agree access, transfer and retention terms with you before work starts."
+      },
+      {
+        "question": "Can you integrate with our ERP and other systems?",
+        "answer": "Usually, yes, if the system has an API, a database or scheduled exports. Our experience includes Dynamics 365 Business Central and HubSpot. We confirm what each system exposes during scoping."
+      },
+      {
+        "question": "How do we get started?",
+        "answer": "Book a 30-minute call or send a short brief. We reply with questions, then a proposal that sets out scope or capacity, hours, people and price."
+      }
+    ],
+    "relatedServiceKeys": [
+      "customer-portal-development",
+      "reporting-automation",
+      "employee-ai-chatbots"
+    ],
+    "relatedResourcesHeading": "Guides for planning the engagement.",
+    "relatedResources": [
+      {
+        "href": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
+        "kicker": "Reporting",
+        "title": "Moving Excel reporting into a cloud data warehouse",
+        "text": "How to move spreadsheet reports without changing the numbers people rely on.",
+        "label": "Migration guide"
+      },
+      {
+        "href": "/insights/what-is-agentic-ai-and-when-does-a-business-need-an-ai-agent/",
+        "kicker": "AI engineering",
+        "title": "What is agentic AI, and when do you need an AI agent?",
+        "text": "How agents differ from assistants and automations, and what keeps them safe.",
+        "label": "AI guide"
+      },
+      {
+        "href": "/insights/timezone-overlap-with-an-india-based-engineering-team/",
+        "kicker": "Remote delivery",
+        "title": "Working with an India-based team across time zones",
+        "text": "Realistic overlap windows and the async habits that keep distributed work moving.",
+        "label": "Time zone guide"
+      }
+    ],
+    "summary": "An India-based engineering team 90 minutes ahead of Dubai, for software, reporting and AI work across the Gulf.",
+    "ogTitle": "Software, data and AI outsourcing for companies in the UAE and Gulf",
+    "ogKicker": "Outsourcing · UAE and Gulf · Software · Data · AI",
+    "closingHeading": "Tell us which process you want to improve.",
+    "closingCopy": "Share the goal, your systems and your working week. You speak with an engineer on the first 30-minute call and leave with a written next step.",
+    "callLabel": "Book a 30-minute call"
+  },
+  {
+    "path": "/outsourcing/australia/",
+    "key": "outsourcing-australia",
+    "name": "Outsourcing for Australian Companies",
+    "title": "Offshore Developers & Data Engineers for Australia | MV.tech Solutions",
+    "description": "Australian companies outsource software, data and AI work to our India team. Shared afternoons in Sydney and Melbourne, most of the day in Perth, written scope.",
+    "h1": "Offshore developers and data engineers for Australian companies.",
+    "eyebrow": "Outsourcing · Australia",
+    "serviceType": "Software, data and AI outsourcing",
+    "parent": {
+      "name": "Outsourcing by Region",
+      "url": "/outsourcing/"
+    },
+    "areaServed": [
+      "Australia"
+    ],
+    "intro": "Our Ahmedabad engineers start work as the Australian afternoon begins. Teams in Sydney, Melbourne and Brisbane share their afternoon with us, Perth shares most of the day, and work handed over at close of business continues for several more hours in India.",
+    "fitHeading": "When an offshore team fits an Australian business.",
+    "fit": [
+      "Local salaries and contractor rates limit how much engineering you can fund.",
+      "You want work to keep moving after your day ends, with results ready the next morning.",
+      "You need data, BI or AI skills for a project, not a permanent headcount."
+    ],
+    "deliverablesHeading": "What Australian clients outsource to us.",
+    "deliverables": [
+      {
+        "title": "Software and product development",
+        "text": "Web applications, SaaS features and customer portals built with React, Next.js, Node.js and Python."
+      },
+      {
+        "title": "Data and BI",
+        "text": "Pipelines, cloud warehouse models and Power BI or Tableau reporting, checked against source systems before go-live."
+      },
+      {
+        "title": "AI and automation",
+        "text": "Assistants over company knowledge, workflow automation and AI agents with approval steps and logs."
+      },
+      {
+        "title": "Follow-the-sun delivery",
+        "text": "A written handover at the end of your day, so reviews, fixes and builds are waiting when you start."
+      }
+    ],
+    "tools": [
+      "AEST and AWST overlap",
+      "Australian Privacy Principles",
+      "React and Next.js",
+      "Node.js",
+      "Python",
+      "Power BI",
+      "Tableau",
+      "Snowflake",
+      "Workflow automation"
+    ],
+    "region": {
+      "label": "Australia",
+      "eyebrow": "Hours, contracts and data",
+      "heading": "Working with us from Australia.",
+      "intro": "India’s morning is the Australian afternoon, which shapes how the working day is planned.",
+      "caption": "Facts for Australian clients",
+      "facts": [
+        [
+          "Time difference",
+          "Sydney and Melbourne are 4 hours 30 minutes ahead of India, or 5 hours 30 minutes during daylight saving time. Perth is 2 hours 30 minutes ahead"
+        ],
+        [
+          "Shared hours",
+          "12:30 pm to 6:00 pm in Sydney, Melbourne and Brisbane; 11:00 am to 6:00 pm in Perth, agreed per engagement"
+        ],
+        [
+          "After your day ends",
+          "Our team works for several more hours, so handed-over items have moved by your next morning"
+        ],
+        [
+          "Data protection",
+          "The Privacy Act 1988 and the Australian Privacy Principles, including APP 8 on sending personal information overseas. Requirements are agreed at scoping"
+        ],
+        [
+          "Where the work happens",
+          "In your cloud accounts where possible, so data stays in your Australian region"
+        ],
+        [
+          "Contracts",
+          "Mutual NDA, then a statement of work. The proposal names the contracting entity, currency and payment terms"
+        ]
+      ],
+      "cities": [
+        "Sydney"
+      ],
+      "overlapCaption": "Typical shared hours with Australian teams"
+    },
+    "applicationsHeading": "Common first projects for Australian clients.",
+    "applications": [
+      {
+        "title": "A product backlog",
+        "text": "Add engineers to ship features your local team has specified."
+      },
+      {
+        "title": "A reporting rebuild",
+        "text": "Move reporting from spreadsheets to a warehouse and dashboards that finance trusts."
+      },
+      {
+        "title": "An automation project",
+        "text": "Remove a manual process between two systems, with monitoring and a clear owner."
+      }
+    ],
+    "scopeHeading": "Plan the afternoon window and the handover.",
+    "scope": "On the first call we cover the goal, the systems and which of your afternoons suit a regular session. The proposal sets out scope or capacity, the shared hours in your time zone, what the end-of-day handover contains and the acceptance checks for the first milestone.",
+    "approachHeading": "From first call to first milestone.",
+    "approach": [
+      {
+        "title": "Discuss the work",
+        "text": "A 30-minute call in your working hours about the goal, the systems and your constraints."
+      },
+      {
+        "title": "Agree the engagement",
+        "text": "A written proposal with scope or capacity, people, shared hours, acceptance checks and price."
+      },
+      {
+        "title": "Deliver and review",
+        "text": "Work in agreed review cycles, with written updates outside the shared hours and a documented handover."
+      }
+    ],
+    "questionsHeading": "Questions Australian companies ask before outsourcing.",
+    "questions": [
+      {
+        "question": "How do the time zones work between Australia and India?",
+        "answer": "India’s morning is the Australian east coast’s afternoon. We typically share 12:30 pm to 6:00 pm in Sydney and Melbourne and 11:00 am to 6:00 pm in Perth. After you finish, our team continues for several hours, so handed-over work has moved by your next morning."
+      },
+      {
+        "question": "Does the Privacy Act allow our data to be handled offshore?",
+        "answer": "APP 8 generally keeps an Australian organization accountable when personal information is disclosed overseas, so most organizations keep personal data in their own Australian environment and give offshore engineers controlled access or masked data. We agree the access model with you before work starts."
+      },
+      {
+        "question": "Is offshore cheaper than hiring locally in Australia?",
+        "answer": "Usually for the engineering time itself, but compare the whole cost: your team’s review time, the overlap you need and the support included. We quote after a scoping call so the price reflects the actual work."
+      },
+      {
+        "question": "Do you work with New Zealand companies too?",
+        "answer": "Yes. New Zealand is two hours ahead of Sydney, so the shared window is shorter and written handovers matter more. Our New Zealand page explains how we plan it."
+      },
+      {
+        "question": "Can we meet the engineers before committing?",
+        "answer": "Yes. You speak with the engineer who would do the work, and you can ask them to walk through a similar project before you sign."
+      }
+    ],
+    "relatedServiceKeys": [
+      "web-development",
+      "business-intelligence",
+      "workflow-automation"
+    ],
+    "relatedResourcesHeading": "Guides for planning the engagement.",
+    "relatedResources": [
+      {
+        "href": "/insights/what-a-remote-data-engineering-team-from-india-costs/",
+        "kicker": "Budgeting",
+        "title": "What a remote data engineering team from India costs",
+        "text": "What drives the price of a remote team and how to compare proposals.",
+        "label": "Cost guide"
+      },
+      {
+        "href": "/insights/timezone-overlap-with-an-india-based-engineering-team/",
+        "kicker": "Remote delivery",
+        "title": "Working with an India-based team across time zones",
+        "text": "Realistic overlap windows and the async habits that keep distributed work moving.",
+        "label": "Time zone guide"
+      },
+      {
+        "href": "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
+        "kicker": "Vendor selection",
+        "title": "12 questions before hiring a remote consultancy",
+        "text": "What to ask about people, delivery, security and handover before you sign.",
+        "label": "Buyer checklist"
+      }
+    ],
+    "summary": "An India-based engineering team that shares the Australian afternoon and keeps work moving overnight.",
+    "ogTitle": "Offshore developers and data engineers for Australian companies",
+    "ogKicker": "Outsourcing · Australia · Software · Data · AI",
+    "closingHeading": "Tell us what should be ready by morning.",
+    "closingCopy": "Share the goal, your systems and your city. You speak with an engineer on the first 30-minute call and leave with a written next step.",
+    "callLabel": "Book a 30-minute call"
+  },
+  {
+    "path": "/outsourcing/new-zealand/",
+    "key": "outsourcing-new-zealand",
+    "name": "Outsourcing for New Zealand Companies",
+    "title": "Offshore Software & Data Team for New Zealand | MV.tech Solutions",
+    "description": "New Zealand companies outsource software, data and AI projects to our India team, with a planned afternoon overlap, overnight progress and written handovers.",
+    "h1": "An offshore software and data team for New Zealand companies.",
+    "eyebrow": "Outsourcing · New Zealand",
+    "serviceType": "Software, data and AI outsourcing",
+    "parent": {
+      "name": "Outsourcing by Region",
+      "url": "/outsourcing/"
+    },
+    "areaServed": [
+      "New Zealand"
+    ],
+    "intro": "New Zealand is six and a half to seven and a half hours ahead of India, the widest gap among the regions we serve. We plan for it: a fixed window late in your afternoon for calls, and written handovers so the work moves while you are offline.",
+    "fitHeading": "When an India team fits a New Zealand business.",
+    "fit": [
+      "The local talent pool is small for the data, AI or engineering skills you need.",
+      "Your work can be specified in writing and reviewed the next morning.",
+      "You want a fixed-scope project or steady capacity without adding headcount."
+    ],
+    "deliverablesHeading": "What New Zealand clients outsource to us.",
+    "deliverables": [
+      {
+        "title": "Scoped projects",
+        "text": "A defined application, integration, data pipeline or report delivered in milestones with written acceptance checks."
+      },
+      {
+        "title": "Overnight engineering capacity",
+        "text": "Engineers who pick up tickets at the end of your day and return pull requests, test results and questions by your morning."
+      },
+      {
+        "title": "Data and reporting",
+        "text": "Warehouse models and dashboards that replace spreadsheet reporting, with totals checked against the source."
+      },
+      {
+        "title": "AI features",
+        "text": "Assistants and agents built on your documents and systems, evaluated before rollout."
+      }
+    ],
+    "tools": [
+      "NZST afternoon overlap",
+      "Written handovers",
+      "Privacy Act 2020",
+      "Python",
+      "SQL",
+      "Power BI",
+      "React and Next.js",
+      "Cloud warehouses",
+      "AI assistants"
+    ],
+    "region": {
+      "label": "New Zealand",
+      "eyebrow": "Hours, contracts and data",
+      "heading": "Working with us from New Zealand.",
+      "intro": "The overlap is short, so the working method matters more here than anywhere else.",
+      "caption": "Facts for New Zealand clients",
+      "facts": [
+        [
+          "Time difference",
+          "New Zealand is 6 hours 30 minutes ahead of India, or 7 hours 30 minutes during New Zealand daylight time"
+        ],
+        [
+          "Shared hours",
+          "2:30 pm to 6:00 pm in Auckland and Wellington, or 3:30 pm to 6:00 pm during daylight time, agreed per engagement"
+        ],
+        [
+          "How work moves",
+          "A written handover at the end of your day; progress and questions are waiting the next morning"
+        ],
+        [
+          "Data protection",
+          "The Privacy Act 2020, including its principle on disclosing personal information outside New Zealand. Requirements are agreed at scoping"
+        ],
+        [
+          "Where the work happens",
+          "In your cloud accounts where possible, with access that you grant and can revoke"
+        ],
+        [
+          "Contracts",
+          "Mutual NDA, then a statement of work. The proposal names the contracting entity, currency and payment terms"
+        ]
+      ],
+      "cities": [
+        "Auckland",
+        "Sydney"
+      ],
+      "overlapCaption": "Typical shared hours with New Zealand and Australian teams"
+    },
+    "applicationsHeading": "Common first projects for New Zealand clients.",
+    "applications": [
+      {
+        "title": "A build with a clear specification",
+        "text": "An integration, portal or report where requirements are written down and acceptance is testable."
+      },
+      {
+        "title": "Extra hands for a small team",
+        "text": "One or two engineers who extend a small in-house team’s working day."
+      },
+      {
+        "title": "A reporting clean-up",
+        "text": "Consolidate reporting from several systems into one warehouse and dashboard."
+      }
+    ],
+    "scopeHeading": "Write the work down, then fix the weekly window.",
+    "scope": "Because the overlap is short, we agree more in writing than usual: the requirement, the acceptance checks and what each end-of-day handover contains. The proposal sets the fixed call window in your time zone, the people and the first milestone.",
+    "approachHeading": "From first call to first milestone.",
+    "approach": [
+      {
+        "title": "Discuss the work",
+        "text": "A 30-minute call in your working hours about the goal, the systems and your constraints."
+      },
+      {
+        "title": "Agree the engagement",
+        "text": "A written proposal with scope or capacity, people, shared hours, acceptance checks and price."
+      },
+      {
+        "title": "Deliver and review",
+        "text": "Work in agreed review cycles, with written updates outside the shared hours and a documented handover."
+      }
+    ],
+    "questionsHeading": "Questions New Zealand companies ask before outsourcing.",
+    "questions": [
+      {
+        "question": "Is the time difference between New Zealand and India workable?",
+        "answer": "Yes, for work that can be written down and reviewed. We share about two and a half to three and a half hours late in your afternoon for calls and decisions. The rest runs on tickets, recorded walkthroughs and pull requests, and our team works while you are offline."
+      },
+      {
+        "question": "What kind of work suits this arrangement, and what does not?",
+        "answer": "Projects with clear requirements, backlog items, data pipelines and reporting suit it well. Work that needs constant real-time conversation, such as early product discovery or live incident response, needs more overlap than we can offer from India, and we will say so."
+      },
+      {
+        "question": "How do you handle New Zealand privacy requirements?",
+        "answer": "The Privacy Act 2020 restricts disclosing personal information overseas unless comparable safeguards are in place. Most organizations keep personal data in their own environment and give offshore engineers controlled access or masked data. We agree the terms with you before work starts."
+      },
+      {
+        "question": "Can you also cover our Australian team?",
+        "answer": "Yes. Sydney and Melbourne share a longer afternoon window with India, so a trans-Tasman team can use the Australian afternoon for joint sessions."
+      },
+      {
+        "question": "How do we start?",
+        "answer": "Send a short brief or book a call in the shared window. We reply with questions and a proposal that sets out scope, hours, people and price."
+      }
+    ],
+    "relatedServiceKeys": [
+      "custom-software",
+      "data-engineering",
+      "reporting-automation"
+    ],
+    "relatedResourcesHeading": "Guides for planning the engagement.",
+    "relatedResources": [
+      {
+        "href": "/insights/timezone-overlap-with-an-india-based-engineering-team/",
+        "kicker": "Remote delivery",
+        "title": "Working with an India-based team across time zones",
+        "text": "Realistic overlap windows and the async habits that keep distributed work moving.",
+        "label": "Time zone guide"
+      },
+      {
+        "href": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
+        "kicker": "Reporting",
+        "title": "Moving Excel reporting into a cloud data warehouse",
+        "text": "How to move spreadsheet reports without changing the numbers people rely on.",
+        "label": "Migration guide"
+      },
+      {
+        "href": "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
+        "kicker": "Vendor selection",
+        "title": "12 questions before hiring a remote consultancy",
+        "text": "What to ask about people, delivery, security and handover before you sign.",
+        "label": "Buyer checklist"
+      }
+    ],
+    "summary": "An India-based engineering team for New Zealand companies, built around a fixed afternoon window and written overnight handovers.",
+    "ogTitle": "An offshore software and data team for New Zealand companies",
+    "ogKicker": "Outsourcing · New Zealand · Software · Data · AI",
+    "closingHeading": "Tell us what you would hand over tonight.",
+    "closingCopy": "Share the goal, your systems and your preferred call time. You speak with an engineer on the first 30-minute call and leave with a written next step.",
+    "callLabel": "Book a 30-minute call"
+  },
+  {
+    "path": "/outsourcing/singapore/",
+    "key": "outsourcing-singapore",
+    "name": "Outsourcing for Singapore Companies",
+    "title": "Software & Data Outsourcing for Singapore Teams | MV.tech Solutions",
+    "description": "Singapore companies outsource software, data engineering and AI projects to our India team. Shared hours from 11:00 am to 6:00 pm SGT and PDPA-aware delivery.",
+    "h1": "Software, data and AI outsourcing for Singapore companies.",
+    "eyebrow": "Outsourcing · Singapore",
+    "serviceType": "Software, data and AI outsourcing",
+    "parent": {
+      "name": "Outsourcing by Region",
+      "url": "/outsourcing/"
+    },
+    "areaServed": [
+      "Singapore"
+    ],
+    "intro": "Singapore is two and a half hours ahead of India, so our Ahmedabad engineers are online from late morning to the end of your day. That leaves room for a daily stand-up, reviews and working sessions on the same day.",
+    "fitHeading": "When an India team fits a Singapore company.",
+    "fit": [
+      "Hiring locally for data and AI roles is slow and expensive.",
+      "You run regional operations and need data from several countries in one reporting view.",
+      "You want to pilot an AI assistant or agent with clear data controls."
+    ],
+    "deliverablesHeading": "What Singapore clients outsource to us.",
+    "deliverables": [
+      {
+        "title": "Regional data platforms",
+        "text": "Pipelines that bring country systems, currencies and entities into one warehouse, with reconciled group reporting."
+      },
+      {
+        "title": "Product and platform engineering",
+        "text": "Web applications, APIs and integrations for SaaS and fintech products, built in your repositories."
+      },
+      {
+        "title": "AI and agents",
+        "text": "Assistants, RAG and agentic workflows with permissions, evaluation and logs."
+      },
+      {
+        "title": "Dedicated engineers",
+        "text": "A named engineer or small team working your sprint cadence from 11:00 am to 6:00 pm Singapore time."
+      }
+    ],
+    "tools": [
+      "SGT overlap",
+      "PDPA",
+      "Multi-currency reporting",
+      "BigQuery",
+      "Snowflake",
+      "Python",
+      "React and Next.js",
+      "REST APIs",
+      "AI agents"
+    ],
+    "region": {
+      "label": "Singapore",
+      "eyebrow": "Hours, contracts and data",
+      "heading": "Working with us from Singapore.",
+      "intro": "A small time difference and a window that also covers most of Southeast Asia.",
+      "caption": "Facts for Singapore clients",
+      "facts": [
+        [
+          "Time difference",
+          "Singapore is 2 hours 30 minutes ahead of India, all year"
+        ],
+        [
+          "Shared hours",
+          "11:00 am to 6:00 pm Singapore time, agreed per engagement"
+        ],
+        [
+          "Data protection",
+          "The Personal Data Protection Act 2012, including its Transfer Limitation Obligation for data sent overseas. Requirements are agreed at scoping"
+        ],
+        [
+          "Where the work happens",
+          "In your cloud accounts where possible, so data stays in your Singapore region"
+        ],
+        [
+          "Regional coverage",
+          "The same window covers Kuala Lumpur, Manila, Perth and Hong Kong"
+        ],
+        [
+          "Contracts",
+          "Mutual NDA, then a statement of work. The proposal names the contracting entity, currency and payment terms"
+        ]
+      ],
+      "cities": [
+        "Singapore",
+        "Hong Kong"
+      ],
+      "overlapCaption": "Typical shared hours with Singapore and Hong Kong teams"
+    },
+    "applicationsHeading": "Common first projects for Singapore clients.",
+    "applications": [
+      {
+        "title": "Group reporting",
+        "text": "One view of sales, finance or operations across several countries and currencies."
+      },
+      {
+        "title": "A product team extension",
+        "text": "Engineers added to a SaaS or fintech roadmap for a release."
+      },
+      {
+        "title": "An AI pilot",
+        "text": "One assistant or agent on a defined process, measured against an evaluation set."
+      }
+    ],
+    "scopeHeading": "Fix the daily window and the first milestone.",
+    "scope": "The first call covers the goal, the systems and which countries or entities are involved. The proposal sets out scope or capacity, the daily window in Singapore time, the people and the acceptance checks. Where personal data is in scope, the transfer and access terms are agreed before work starts.",
+    "approachHeading": "From first call to first milestone.",
+    "approach": [
+      {
+        "title": "Discuss the work",
+        "text": "A 30-minute call in your working hours about the goal, the systems and your constraints."
+      },
+      {
+        "title": "Agree the engagement",
+        "text": "A written proposal with scope or capacity, people, shared hours, acceptance checks and price."
+      },
+      {
+        "title": "Deliver and review",
+        "text": "Work in agreed review cycles, with written updates outside the shared hours and a documented handover."
+      }
+    ],
+    "questionsHeading": "Questions Singapore companies ask before outsourcing.",
+    "questions": [
+      {
+        "question": "What hours will we share with the team?",
+        "answer": "Typically 11:00 am to 6:00 pm Singapore time, which is 8:30 am to 3:30 pm in India. Requests sent after that are picked up the same evening your time, because our team works for several more hours."
+      },
+      {
+        "question": "How do you handle the PDPA when work is done from India?",
+        "answer": "Giving engineers in India access to personal data is an overseas transfer under the PDPA, so the recipient must protect it to a comparable standard. Most organizations keep the data in their Singapore environment with controlled access or masked data. We agree contractual terms with you before work starts."
+      },
+      {
+        "question": "Can you support teams across Southeast Asia?",
+        "answer": "Yes. Kuala Lumpur and Manila share Singapore’s time zone. Jakarta, Bangkok and Ho Chi Minh City are one hour behind, which lengthens the shared window by their clocks."
+      },
+      {
+        "question": "Is offshoring to India suitable for a small Singapore company?",
+        "answer": "Yes, if the first piece of work is small and specific. A first engagement can be one report, one integration or a part-time engineer, with a written milestone you accept before anything expands."
+      },
+      {
+        "question": "How is pricing set?",
+        "answer": "We quote after a scoping call. Projects are priced by milestone and dedicated engineers by agreed monthly capacity. The proposal states the currency and payment terms."
+      }
+    ],
+    "relatedServiceKeys": [
+      "data-engineering",
+      "application-development",
+      "agentic-ai"
+    ],
+    "relatedResourcesHeading": "Guides for planning the engagement.",
+    "relatedResources": [
+      {
+        "href": "/insights/letting-ai-assistants-query-your-data-warehouse-safely/",
+        "kicker": "AI and data",
+        "title": "Letting AI assistants query your data warehouse safely",
+        "text": "Per-user permissions, read-only access and logging for AI over business data.",
+        "label": "AI guide"
+      },
+      {
+        "href": "/insights/what-a-remote-data-engineering-team-from-india-costs/",
+        "kicker": "Budgeting",
+        "title": "What a remote data engineering team from India costs",
+        "text": "What drives the price of a remote team and how to compare proposals.",
+        "label": "Cost guide"
+      },
+      {
+        "href": "/insights/staff-augmentation-vs-project-consulting-vs-recruitment/",
+        "kicker": "Engagement models",
+        "title": "Staff augmentation vs project-based consulting",
+        "text": "Who directs the work, what each model costs and when to hire instead.",
+        "label": "Comparison guide"
+      }
+    ],
+    "summary": "An India-based engineering team online from late morning to close of business in Singapore, for software, data and AI work.",
+    "ogTitle": "Software, data and AI outsourcing for Singapore companies",
+    "ogKicker": "Outsourcing · Singapore · Software · Data · AI",
+    "closingHeading": "Tell us what you want built or fixed.",
+    "closingCopy": "Share the goal, your systems and the countries involved. You speak with an engineer on the first 30-minute call and leave with a written next step.",
+    "callLabel": "Book a 30-minute call"
+  },
+  {
+    "path": "/outsourcing/hong-kong/",
+    "key": "outsourcing-hong-kong",
+    "name": "Outsourcing for Hong Kong Companies",
+    "title": "Offshore Software & Data Team for Hong Kong | MV.tech Solutions",
+    "description": "Hong Kong companies outsource software, data and AI work to our India team. Shared hours 11:00 am to 6:00 pm HKT, English delivery, PDPO-aware data handling.",
+    "h1": "An offshore software, data and AI team for Hong Kong companies.",
+    "eyebrow": "Outsourcing · Hong Kong",
+    "serviceType": "Software, data and AI outsourcing",
+    "parent": {
+      "name": "Outsourcing by Region",
+      "url": "/outsourcing/"
+    },
+    "areaServed": [
+      "Hong Kong"
+    ],
+    "intro": "Our Ahmedabad engineers are online from 11:00 am to the end of the Hong Kong working day. Trading, logistics, finance and professional services firms can add developers, data engineers and AI specialists without the cost of a larger local team.",
+    "fitHeading": "When an offshore team fits a Hong Kong business.",
+    "fit": [
+      "Office and salary costs make every additional local engineer a major decision.",
+      "Reporting depends on spreadsheets passed between finance, operations and regional offices.",
+      "You want software or AI built around your process instead of adapting to a packaged product."
+    ],
+    "deliverablesHeading": "What Hong Kong clients outsource to us.",
+    "deliverables": [
+      {
+        "title": "Operations and finance systems",
+        "text": "Order, shipment, client and billing workflows built as web applications with roles, approvals and audit history."
+      },
+      {
+        "title": "Reporting and dashboards",
+        "text": "A warehouse and Power BI reporting that consolidates entities and currencies and agrees with the ledger."
+      },
+      {
+        "title": "Document and AI automation",
+        "text": "Assistants and agents that read documents, answer from company knowledge and prepare work for a person to approve."
+      },
+      {
+        "title": "Engineers on your schedule",
+        "text": "Dedicated developers or data engineers working 11:00 am to 6:00 pm Hong Kong time, directed by your managers."
+      }
+    ],
+    "tools": [
+      "HKT overlap",
+      "English delivery",
+      "PDPO",
+      "Custom software",
+      "Power BI",
+      "Document processing",
+      "Python",
+      "React and Next.js",
+      "AI assistants"
+    ],
+    "region": {
+      "label": "Hong Kong",
+      "eyebrow": "Hours, contracts and data",
+      "heading": "Working with us from Hong Kong.",
+      "intro": "Hours, language and personal data rules, as Hong Kong managers usually ask about them.",
+      "caption": "Facts for Hong Kong clients",
+      "facts": [
+        [
+          "Time difference",
+          "Hong Kong is 2 hours 30 minutes ahead of India, all year"
+        ],
+        [
+          "Shared hours",
+          "11:00 am to 6:00 pm Hong Kong time, agreed per engagement"
+        ],
+        [
+          "Working language",
+          "English for delivery, documentation and meetings"
+        ],
+        [
+          "Data protection",
+          "The Personal Data (Privacy) Ordinance. The Privacy Commissioner recommends contractual clauses for transfers outside Hong Kong, and requirements are agreed at scoping"
+        ],
+        [
+          "Where the work happens",
+          "In your cloud accounts where possible, with access that you grant and can revoke"
+        ],
+        [
+          "Contracts",
+          "Mutual NDA, then a statement of work. The proposal names the contracting entity, currency and payment terms"
+        ]
+      ],
+      "cities": [
+        "Hong Kong",
+        "Singapore"
+      ],
+      "overlapCaption": "Typical shared hours with Hong Kong and Singapore teams"
+    },
+    "applicationsHeading": "Common first projects for Hong Kong clients.",
+    "applications": [
+      {
+        "title": "A process moved off spreadsheets",
+        "text": "One workflow, such as quotations or shipment tracking, rebuilt as an application."
+      },
+      {
+        "title": "Consolidated reporting",
+        "text": "Group figures across entities and currencies in one dashboard."
+      },
+      {
+        "title": "Document handling",
+        "text": "Extract, check and route information from recurring documents, with a review step."
+      }
+    ],
+    "scopeHeading": "Choose one workflow and agree how it is accepted.",
+    "scope": "Start with one workflow or report and the manager responsible for it. The first call covers the systems, the documents involved and who approves the result. The proposal sets out scope or capacity, shared hours in Hong Kong time, the people and the acceptance checks.",
+    "approachHeading": "From first call to first milestone.",
+    "approach": [
+      {
+        "title": "Discuss the work",
+        "text": "A 30-minute call in your working hours about the goal, the systems and your constraints."
+      },
+      {
+        "title": "Agree the engagement",
+        "text": "A written proposal with scope or capacity, people, shared hours, acceptance checks and price."
+      },
+      {
+        "title": "Deliver and review",
+        "text": "Work in agreed review cycles, with written updates outside the shared hours and a documented handover."
+      }
+    ],
+    "questionsHeading": "Questions Hong Kong companies ask before outsourcing.",
+    "questions": [
+      {
+        "question": "When is your team available during Hong Kong hours?",
+        "answer": "From about 11:00 am to 6:00 pm Hong Kong time, which is the Indian morning and early afternoon. Our team then works several more hours, so items raised late in your day usually have progress by the next morning."
+      },
+      {
+        "question": "Do you deliver in English or Chinese?",
+        "answer": "Meetings, documentation and code are in English. The applications and reports we build can carry Traditional Chinese content and interfaces, which your team reviews."
+      },
+      {
+        "question": "How is personal data protected under the PDPO?",
+        "answer": "The Personal Data (Privacy) Ordinance keeps the data user responsible for how its processors handle personal data, including overseas. Most organizations keep personal data in their own environment with controlled access or masked data. We agree contractual terms with you before work starts."
+      },
+      {
+        "question": "Can you work with our teams in Singapore or mainland China as well?",
+        "answer": "Singapore and mainland China share Hong Kong’s time zone, so the same working window applies. Access to systems hosted in mainland China depends on your network and compliance rules, which we check at scoping."
+      },
+      {
+        "question": "What size of project do you take on?",
+        "answer": "From a single report or integration to a multi-month build with a dedicated team. We suggest starting with one milestone that can be accepted on its own."
+      }
+    ],
+    "relatedServiceKeys": [
+      "custom-software",
+      "power-bi-consulting",
+      "employee-ai-chatbots"
+    ],
+    "relatedResourcesHeading": "Guides for planning the engagement.",
+    "relatedResources": [
+      {
+        "href": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
+        "kicker": "Reporting",
+        "title": "Moving Excel reporting into a cloud data warehouse",
+        "text": "How to move spreadsheet reports without changing the numbers people rely on.",
+        "label": "Migration guide"
+      },
+      {
+        "href": "/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/",
+        "kicker": "AI engineering",
+        "title": "RAG vs fine-tuning for knowledge assistants",
+        "text": "Which approach fits an internal assistant over company documents.",
+        "label": "AI guide"
+      },
+      {
+        "href": "/insights/timezone-overlap-with-an-india-based-engineering-team/",
+        "kicker": "Remote delivery",
+        "title": "Working with an India-based team across time zones",
+        "text": "Realistic overlap windows and the async habits that keep distributed work moving.",
+        "label": "Time zone guide"
+      }
+    ],
+    "summary": "An India-based engineering team online from 11:00 am to close of business in Hong Kong, for software, reporting and AI work.",
+    "ogTitle": "An offshore software, data and AI team for Hong Kong companies",
+    "ogKicker": "Outsourcing · Hong Kong · Software · Data · AI",
+    "closingHeading": "Tell us which workflow to start with.",
+    "closingCopy": "Share the goal, your systems and your working hours. You speak with an engineer on the first 30-minute call and leave with a written next step.",
+    "callLabel": "Book a 30-minute call"
   }
 ]
