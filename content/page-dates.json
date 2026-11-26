@@ -39,9 +39,39 @@
     "published": "2026-06-02",
     "modified": "2026-11-26"
   },
+  "/industries/": {
+    "hash": "e0d3eb86e39db16e",
+    "published": "2026-11-26",
+    "modified": "2026-11-26"
+  },
+  "/industries/ecommerce/": {
+    "hash": "d1aae06352c95e0e",
+    "published": "2026-11-26",
+    "modified": "2026-11-26"
+  },
+  "/industries/insurance/": {
+    "hash": "45e0186ac8863c7a",
+    "published": "2026-11-26",
+    "modified": "2026-11-26"
+  },
+  "/industries/logistics/": {
+    "hash": "f9ef87891ae624f5",
+    "published": "2026-11-26",
+    "modified": "2026-11-26"
+  },
+  "/industries/manufacturing/": {
+    "hash": "d7ac71051ce719a8",
+    "published": "2026-11-26",
+    "modified": "2026-11-26"
+  },
   "/insights/": {
-    "hash": "b865cb8eb7ae1ce5",
+    "hash": "53d1e8b46f720496",
     "published": "2026-09-10",
+    "modified": "2026-11-26"
+  },
+  "/insights/contractor-eor-or-staff-augmentation-for-engineers-in-india/": {
+    "hash": "3114ad7ccffc627b",
+    "published": "2026-11-26",
     "modified": "2026-11-26"
   },
   "/insights/data-consultancy-company-for-offshore-team/": {
@@ -51,6 +81,11 @@
   },
   "/insights/data-warehouse-migration-to-snowflake-steps-and-checklist/": {
     "hash": "2afd34cad5b4ecae",
+    "published": "2026-11-26",
+    "modified": "2026-11-26"
+  },
+  "/insights/india-vs-latin-america-for-us-engineering-teams/": {
+    "hash": "7bc9a5ebda2722a4",
     "published": "2026-11-26",
     "modified": "2026-11-26"
   },
@@ -85,19 +120,19 @@
     "modified": "2026-11-26"
   },
   "/insights/staff-augmentation-vs-project-consulting-vs-recruitment/": {
-    "hash": "a16e8bb8234a4088",
+    "hash": "4ca4a36993a2b672",
     "published": "2026-09-10",
     "modified": "2026-11-26"
   },
   "/insights/timezone-overlap-with-an-india-based-engineering-team/": {
-    "hash": "4ae7ade50747091f",
+    "hash": "5abcf82305ea8ddc",
     "published": "2026-09-10",
-    "modified": "2026-11-23"
+    "modified": "2026-11-26"
   },
   "/insights/what-a-remote-data-engineering-team-from-india-costs/": {
-    "hash": "5a1a599ed610e12d",
+    "hash": "5e7e367319580abf",
     "published": "2026-10-12",
-    "modified": "2026-11-14"
+    "modified": "2026-11-26"
   },
   "/insights/what-is-agentic-ai-and-when-does-a-business-need-an-ai-agent/": {
     "hash": "d31a50790dafc99d",
@@ -150,7 +185,7 @@
     "modified": "2026-11-26"
   },
   "/outsourcing/usa/": {
-    "hash": "d92f8591226e5108",
+    "hash": "2cf31b4b06f64cd2",
     "published": "2026-11-26",
     "modified": "2026-11-26"
   },
@@ -280,9 +315,9 @@
     "modified": "2026-11-26"
   },
   "/solutions/": {
-    "hash": "739fc79ff4679446",
+    "hash": "ad8468605e1cca31",
     "published": "2026-06-02",
-    "modified": "2026-11-24"
+    "modified": "2026-11-26"
   },
   "/terms/": {
     "hash": "d98a8209b1f64cba",

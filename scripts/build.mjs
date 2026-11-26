@@ -207,7 +207,7 @@ function schemaGraph(page) {
   if (crumbs) graph.push({ '@type': 'BreadcrumbList', '@id': `${url}#breadcrumb`, itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: c.url })) });
   if (page.kind === 'service') {
     webpage.mainEntity = { '@id': `${url}#service` };
-    graph.push({ '@type': 'Service', '@id': `${url}#service`, name: page.service.name, serviceType: page.service.serviceType ?? page.service.name, description: page.service.intro, url, provider: { '@id': `${origin}/#organization` }, areaServed: page.service.areaServed ? page.service.areaServed.map((name) => ({ '@type': name === 'European Union' ? 'AdministrativeArea' : 'Country', name })) : 'Worldwide', availableChannel: { '@type': 'ServiceChannel', serviceUrl: `${origin}/contact/`, availableLanguage: 'English' } });
+    graph.push({ '@type': 'Service', '@id': `${url}#service`, name: page.service.name, serviceType: page.service.serviceType ?? page.service.name, description: page.service.intro, url, provider: { '@id': `${origin}/#organization` }, areaServed: page.service.areaServed ? page.service.areaServed.map((name) => ({ '@type': name === 'European Union' ? 'AdministrativeArea' : 'Country', name })) : 'Worldwide', ...(page.service.industry ? { audience: { '@type': 'BusinessAudience', audienceType: page.service.industry.audience } } : {}), availableChannel: { '@type': 'ServiceChannel', serviceUrl: `${origin}/contact/`, availableLanguage: 'English' } });
   }
   if (page.kind === 'article') {
     webpage.mainEntity = { '@id': `${url}#article` };
