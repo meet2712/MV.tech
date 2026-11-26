@@ -48,10 +48,46 @@
     "kicker": "MV.tech Solutions · Company · Services · Delivery · Pricing"
   },
   {
+    "route": "/industries/",
+    "slug": "industries",
+    "title": "Software, data and AI by industry",
+    "kicker": "Logistics · Manufacturing · E-commerce · Insurance"
+  },
+  {
+    "route": "/industries/ecommerce/",
+    "slug": "industries-ecommerce",
+    "title": "Software, data and AI for e-commerce companies",
+    "kicker": "Industries · E-commerce · Software · Data · AI"
+  },
+  {
+    "route": "/industries/insurance/",
+    "slug": "industries-insurance",
+    "title": "Software, data and AI for insurance brokers and agencies",
+    "kicker": "Industries · Insurance · Software · Data · AI"
+  },
+  {
+    "route": "/industries/logistics/",
+    "slug": "industries-logistics",
+    "title": "Software, data and AI for logistics and freight companies",
+    "kicker": "Industries · Logistics · Software · Data · AI"
+  },
+  {
+    "route": "/industries/manufacturing/",
+    "slug": "industries-manufacturing",
+    "title": "Software, data and AI for manufacturing companies",
+    "kicker": "Industries · Manufacturing · Software · Data · AI"
+  },
+  {
     "route": "/insights/",
     "slug": "insights",
     "title": "Insights",
     "kicker": "Guides from the MV.tech Solutions engineering team"
+  },
+  {
+    "route": "/insights/contractor-eor-or-staff-augmentation-for-engineers-in-india/",
+    "slug": "insights-contractor-eor-or-staff-augmentation-for-engineers-in-india",
+    "title": "Contractor, EOR or staff augmentation in India",
+    "kicker": "Contractors · Employer of record · Staff augmentation · Subsidiary"
   },
   {
     "route": "/insights/data-consultancy-company-for-offshore-team/",
@@ -64,6 +100,12 @@
     "slug": "insights-data-warehouse-migration-to-snowflake-steps-and-checklist",
     "title": "Data warehouse migration to Snowflake",
     "kicker": "Inventory · SQL conversion · History · Parallel runs · Cutover"
+  },
+  {
+    "route": "/insights/india-vs-latin-america-for-us-engineering-teams/",
+    "slug": "insights-india-vs-latin-america-for-us-engineering-teams",
+    "title": "India vs Latin America for a US engineering team",
+    "kicker": "Time zones · Cost · Talent pool · Hiring speed · Using both"
   },
   {
     "route": "/insights/letting-ai-assistants-query-your-data-warehouse-safely/",

@@ -190,7 +190,8 @@ export function servicePage(page, site, allPages) {
     <div class="container">
       <div class="section-heading"><div><p class="eyebrow">What we deliver</p><h2>${h(page.deliverablesHeading)}</h2></div></div>
       <div class="card-grid card-grid-2">${page.deliverables.map((item, i) => `<article class="card"><span class="item-number">0${i + 1}</span><h3>${h(item.title)}</h3><p>${h(item.text)}</p></article>`).join('')}</div>
-      <ul class="chip-list" aria-label="Relevant capabilities">${page.tools.map((tool) => `<li>${h(tool)}</li>`).join('')}</ul>
+      <ul class="chip-list" aria-label="Relevant capabilities">${page.tools.map((tool) => `<li>${h(tool)}</li>`).join('')}</ul>${page.industry ? `
+      <p class="body-copy">Other industries: ${allPages.filter((p) => p.industry && p.key !== page.key).map((p) => `<a href="${p.path}">${h(p.industry.label)}</a>`).join(' · ')} · <a href="/industries/">all industries</a>.</p>` : ''}
     </div>
   </section>
 ${page.region ? regionSection(page, site, allPages) : ''}${remote ? `  <section class="band band-light" id="timezones">

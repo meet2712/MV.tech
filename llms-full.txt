@@ -730,6 +730,703 @@ Tell us what you want to build, improve or connect. We’ll discuss the requirem
 
 ---
 
+# Software, Data & AI by Industry | MV.tech Solutions
+
+URL: https://mvtech.solutions/industries/
+Description: How MV.tech Solutions applies software, data and AI engineering in logistics, manufacturing, e-commerce and insurance: common problems and what we build.
+Last modified: 2026-11-26
+
+Industries
+
+## Software, data and AI for your industry.
+
+The engineering is the same across industries. The systems, the reports people argue about and the documents that pile up are different. Each page below describes the problems companies in that industry commonly bring to an engineering team, and what we build for them.
+
+Choose your industry
+
+### Common problems, and what we build for them.
+
+#### Logistics and freight
+
+Customer and carrier portals, on-time and margin reporting, connections between transport, warehouse and accounting systems, and document automation from proof of delivery to invoice.
+
+#### Manufacturing
+
+Production, scrap and downtime reporting, ERP and shop-floor data in one warehouse, work order and quality applications, and assistants that answer from procedures and manuals.
+
+#### E-commerce
+
+One revenue number across the store, marketplaces and ad platforms, profit by product and channel, order and inventory integrations, and AI drafts for catalog and support.
+
+#### Insurance brokers and agencies
+
+Client portals, renewal tracking, commission reconciliation, intake and document automation, and assistants that answer from policy wordings with the source shown.
+
+In another industry? Our business solutions page groups the same work by problem: reporting, operations, products and AI. If you are outside the United States, see outsourcing by region.
+
+The same in every industry
+
+### How a first project is set up.
+
+- One process and one owner. We start with a single report, workflow or portal feature and the person who signs it off.
+- Checks agreed before the build. For reporting, that usually means totals that match finance. For a workflow, the cases it must handle and who approves exceptions.
+- Your systems and your access rules. We work in your environments where possible, with least-privilege access. See our security and delivery standards.
+- A choice of engagement. A scoped project, a dedicated engineer or team, or recruitment for a permanent role.
+Before you choose
+
+### Questions about industry experience.
+
+More answers are in the full FAQ.
+
+**Which industries does MV.tech Solutions work with?**
+We work across industries. We publish pages for logistics, manufacturing, e-commerce and insurance because their systems and reporting problems are distinct, and the same software, data and AI engineering applies to other sectors.
+
+**Do you need experience in our industry to help us?**
+Your team knows the industry and we bring the engineering. What matters is that we learn your process before building: which system holds each fact, how your team defines its figures and who approves a result. That is why a first project covers one process with a named owner.
+
+**Can you work with the industry software we already use?**
+Usually, yes, if the software offers an API, a database connection or scheduled exports. We check what each system exposes during scoping and tell you if a connection would be fragile.
+
+Contact MV.tech Solutions
+
+### Tell us about the process you want to improve.
+
+Book a 30-minute call. You’ll speak with an engineer and leave with a written next step.
+
+---
+
+# Software, Data & AI for E-commerce Companies | MV.tech Solutions
+
+URL: https://mvtech.solutions/industries/ecommerce/
+Description: Marketing attribution and profit reporting, data pipelines from storefronts, marketplaces and ad platforms, integrations and AI tools for online sellers.
+Last modified: 2026-11-26
+
+Industries · E-commerce
+
+## Software, data and AI for e-commerce companies.
+
+Orders, ad spend, inventory and customer data sit in the storefront, marketplaces, ad platforms and a finance system. We build the pipelines, reporting, integrations and AI tools that turn them into one picture of what is selling and what is profitable.
+
+- New York headquarters and Ahmedabad office
+- Overlap with your time zone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### Signs that the numbers are not telling one story.
+
+- The ad platforms and the storefront report different revenue, and nobody is sure which to believe.
+- Profit by product or channel takes a spreadsheet and most of a day to work out.
+- Inventory, orders and refunds are reconciled by hand between systems.
+What we deliver
+
+### What we build for e-commerce companies.
+
+01
+
+#### Attribution and profitability reporting
+
+Revenue, ad spend, refunds and product cost in one model, so you can see contribution margin by product, channel and campaign.
+
+02
+
+#### Data pipelines from every channel
+
+Scheduled loads from storefronts such as Shopify or WooCommerce, marketplaces, ad platforms and payment providers into a warehouse you own.
+
+03
+
+#### Store and back-office integrations
+
+Connections between the store, inventory, fulfillment and accounting, and custom applications or front ends built with React and Next.js.
+
+04
+
+#### AI for catalog and support
+
+Drafts of product content and answers to customer questions from your policies and order data, with a person reviewing before anything is published or sent.
+
+- Storefront and marketplace data
+- Ad platform data
+- Marketing attribution
+- BigQuery and Snowflake
+- Power BI and Looker Studio
+- Inventory and order integration
+- React and Next.js
+- Python
+- AI assistants
+Other industries: Logistics · Manufacturing · Insurance · all industries.
+
+Business applications
+
+### Common first projects in e-commerce.
+
+- One revenue number. Reconcile storefront, payment and ad platform revenue so every report starts from the same figure.
+- A profit dashboard. Contribution margin by product and channel, refreshed daily.
+- An order or inventory sync. Remove one manual reconciliation between the store and fulfillment or accounting.
+Engagement scope
+
+### Start with the number people disagree about.
+
+Tell us which two reports disagree, for example storefront revenue and ad platform revenue, and how your team defines a sale. We trace both to their sources, explain the difference and agree one definition. The proposal sets out the first report and the checks for accepting it.
+
+Working together
+
+### From one process to a working release.
+
+- 01 — Map the process — A 30-minute call about the workflow, the systems it touches and who owns each step.
+- 02 — Agree a first release — A written proposal with scope, the checks you will use to accept it, the people and the price.
+- 03 — Deliver and extend — Release the first piece, review it with the people who use it and decide what to add next.
+From our founder’s engineering work
+
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseAll services
+Before we begin
+
+### Questions e-commerce companies ask us.
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**Why do the ad platforms and our store show different revenue?**
+They count differently. Ad platforms credit sales within their own attribution windows and can each claim the same order. The store records actual orders, often in a different time zone, and handles refunds, cancellations, tax and shipping differently. A warehouse model applies one definition to all of them.
+
+**How do we get one view of sales across our store, marketplaces and ad platforms?**
+Load orders, refunds, fees and ad spend from each source into one warehouse on a schedule, map products and channels to shared keys, and report from that model instead of from each platform’s dashboard.
+
+**Which metrics should an e-commerce dashboard show first?**
+Start with contribution margin by product and channel, customer acquisition cost, repeat purchase rate, refund rate and days of stock cover. Add more only when someone has a decision that depends on them.
+
+**Do you build online stores?**
+Our work is the engineering around the store: integrations, custom applications, data and automation. Where a custom front end is needed, we build it in React and Next.js against the platform’s APIs.
+
+**Can AI write product descriptions or answer customer questions?**
+Yes, as drafts. AI can prepare product content from your specifications and answer common questions from policies and order status. A person should review content before publishing and approve refunds or other actions.
+
+Related services
+
+### Other ways we can help.
+
+#### Data Engineering Consulting
+
+Build reliable data pipelines and trace a reported number back to the records it came from.
+
+#### Business Intelligence & Dashboards
+
+Give business teams a consistent view of performance.
+
+#### Workflow Automation Consulting
+
+Reduce the manual work between your business systems.
+
+Related guides
+
+### Guides for planning the work.
+
+Reporting
+
+### Moving Excel reporting into a cloud data warehouse
+
+How to move spreadsheet reports without changing the numbers people rely on.
+
+Migration guide
+AI and data
+
+### Letting AI assistants query your data warehouse safely
+
+Per-user permissions, read-only access and logging for AI over business data.
+
+AI guide
+AI engineering
+
+### What is agentic AI, and when do you need an AI agent?
+
+How agents differ from assistants and automations, and what keeps them safe.
+
+AI guide
+Your next step
+
+### Tell us which numbers do not agree.
+
+Describe the process, the systems involved and what should be better afterward. You speak with an engineer on the first 30-minute call and leave with a written next step.
+
+---
+
+# Software, Data & AI for Insurance Brokers | MV.tech Solutions
+
+URL: https://mvtech.solutions/industries/insurance/
+Description: Client portals, renewal and commission reporting, automation and AI assistants for insurance brokers and agencies, with access controls for client data.
+Last modified: 2026-11-26
+
+Industries · Insurance
+
+## Software, data and AI for insurance brokers and agencies.
+
+Policies, renewals, commissions and client documents are spread across an agency management system, carrier portals, email and spreadsheets. We build client portals, reporting, automation and AI tools around them, with access controls suited to personal and financial data.
+
+- New York headquarters and Ahmedabad office
+- Overlap with your time zone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### Signs that manual work is limiting the agency.
+
+- Renewals are tracked in spreadsheets, and some are noticed late.
+- Commission statements from carriers are reconciled by hand every month.
+- Staff retype the same client details into carrier portals and forms.
+What we deliver
+
+### What we build for brokers and agencies.
+
+01
+
+#### Client and partner portals
+
+A secure place for clients to see policies, download certificates and documents, submit requests and follow a claim.
+
+02
+
+#### Renewal and commission reporting
+
+A renewal pipeline, retention and book-of-business reporting, and commission statements matched to policies with differences flagged.
+
+03
+
+#### Workflow and document automation
+
+Intake forms that feed your management system, data pulled from documents for review, and reminders that follow the renewal calendar.
+
+04
+
+#### AI assistants
+
+Assistants that answer staff questions from policy wordings and procedures with the source shown, and draft client emails for a person to check and send.
+
+- Client portals
+- Renewal tracking
+- Commission reconciliation
+- Document extraction
+- Power BI
+- Workflow automation
+- Knowledge assistants
+- Role-based access
+- Audit logs
+Other industries: Logistics · Manufacturing · E-commerce · all industries.
+
+Business applications
+
+### Common first projects for brokers and agencies.
+
+- A renewal dashboard. Every renewal due in the next 90 days, with owner and status, from one source.
+- Commission reconciliation. Match carrier statements to policies each month and list only the exceptions.
+- A client document portal. Let clients find their own certificates and policy documents.
+Engagement scope
+
+### Start with one recurring task and who signs it off.
+
+Choose one recurring task, such as monthly commission reconciliation or renewal follow-up, and the person who signs it off. We look at where the data lives, what your management system can export and which rules apply to the client data involved. The proposal sets out the first release, the access controls and the acceptance checks.
+
+Working together
+
+### From one process to a working release.
+
+- 01 — Map the process — A 30-minute call about the workflow, the systems it touches and who owns each step.
+- 02 — Agree a first release — A written proposal with scope, the checks you will use to accept it, the people and the price.
+- 03 — Deliver and extend — Release the first piece, review it with the people who use it and decide what to add next.
+From our founder’s engineering work
+
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseAll services
+Before we begin
+
+### Questions brokers and agencies ask us.
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**What can an insurance broker automate first?**
+Renewal reminders and tracking, commission statement reconciliation, client intake forms and certificate requests are common starting points, because they recur every month and follow clear rules.
+
+**Can you integrate with our agency management system?**
+It depends on what the system offers. Many provide an API, reporting exports or a database connection. We confirm the options during scoping and design around what is supported.
+
+**How do you protect client data?**
+Engineers use access you grant in your own environment, limited to what the work needs, and client data is not used to train third-party models. Tell us at scoping which privacy or financial regulations apply, and we state in writing what we can commit to.
+
+**Can AI read policy documents?**
+AI can extract fields from policy documents and answer questions about their wording with the source shown. A person should check the result before anything is sent to a client or relied on for coverage.
+
+**How does commission reconciliation work?**
+Each line on the carrier statement is matched to a policy and the commission you expected. Matched lines pass automatically, and differences in amount, rate or policy are listed for someone to follow up.
+
+Related services
+
+### Other ways we can help.
+
+#### Customer Portal Development
+
+Customer and partner portals with account permissions, order or request tracking and integrations to existing business systems.
+
+#### Reporting Automation
+
+Automation of recurring finance and operations reports, from source extraction and validation to Power BI or governed Excel output.
+
+#### Employee AI Chatbot Development
+
+Internal employee chatbots that answer questions from approved documents with citations, access controls and evaluation.
+
+Related guides
+
+### Guides for planning the work.
+
+AI engineering
+
+### RAG vs fine-tuning for knowledge assistants
+
+Which approach fits an internal assistant over company documents.
+
+AI guide
+Finance data
+
+### Reconciling supplier statements in Business Central
+
+Match supplier statements to the vendor ledger and keep warehouse reports in agreement.
+
+Finance guide
+Vendor selection
+
+### 12 questions before hiring a remote consultancy
+
+What to ask about people, delivery, security and handover before you sign.
+
+Buyer checklist
+Your next step
+
+### Tell us which monthly task takes the longest.
+
+Describe the process, the systems involved and what should be better afterward. You speak with an engineer on the first 30-minute call and leave with a written next step.
+
+---
+
+# Software, Data & AI for Logistics Companies | MV.tech Solutions
+
+URL: https://mvtech.solutions/industries/logistics/
+Description: Customer portals, shipment and margin reporting, system integrations and AI tools for carriers, freight brokers, 3PLs and distributors, from MV.tech Solutions.
+Last modified: 2026-11-26
+
+Industries · Logistics
+
+## Software, data and AI for logistics and freight companies.
+
+Dispatch, tracking, billing and customer updates often live in separate systems, with spreadsheets filling the gaps between them. We build the portals, integrations, reporting and AI tools that connect them, for carriers, freight brokers, third-party logistics providers and distributors.
+
+- New York headquarters and Ahmedabad office
+- Overlap with your time zone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### Signs that the systems are holding the operation back.
+
+- Customers call or email for shipment status because there is nowhere to look it up.
+- Margin per load, lane or customer is worked out in a spreadsheet days after the work is done.
+- Staff retype orders, proof-of-delivery documents and invoices between the transport system, accounting and email.
+What we deliver
+
+### What we build for logistics companies.
+
+01
+
+#### Customer and carrier portals
+
+A secure place for customers to book, track shipments and download documents, and for carriers to accept loads and upload proof of delivery.
+
+02
+
+#### Operations and margin reporting
+
+On-time performance, cost and margin by load, lane and customer, built from your transport, warehouse and accounting systems and checked against finance.
+
+03
+
+#### Integrations and document automation
+
+Connections between transport, warehouse and accounting systems through APIs, EDI or file feeds, with data pulled from documents such as bills of lading and reviewed before it posts.
+
+04
+
+#### AI assistants and agents
+
+Assistants that answer status questions and draft quotes or customer updates from your own data, with a person approving anything that goes to a customer.
+
+- Transport and warehouse system integration
+- EDI and API feeds
+- Customer portals
+- Power BI
+- Snowflake and BigQuery
+- Document extraction
+- AI agents
+- Python
+- React and Next.js
+Other industries: Manufacturing · E-commerce · Insurance · all industries.
+
+Business applications
+
+### Common first projects in logistics.
+
+- A shipment tracking portal. Give customers status, documents and delivery proof without a phone call.
+- A margin and on-time dashboard. See performance by lane and customer every morning instead of at month-end.
+- Proof-of-delivery to invoice automation. Shorten the time between delivery and a correct invoice.
+Engagement scope
+
+### Start with one flow and the systems it crosses.
+
+Choose one flow, such as status updates or invoicing, and name the person who owns it. We map which system holds each piece of information, how they can be connected and what a correct result looks like. The proposal sets out the first release and the checks your team will use to accept it.
+
+Working together
+
+### From one process to a working release.
+
+- 01 — Map the process — A 30-minute call about the workflow, the systems it touches and who owns each step.
+- 02 — Agree a first release — A written proposal with scope, the checks you will use to accept it, the people and the price.
+- 03 — Deliver and extend — Release the first piece, review it with the people who use it and decide what to add next.
+From our founder’s engineering work
+
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseAll services
+Before we begin
+
+### Questions logistics companies ask us.
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**What software do logistics companies most often need built?**
+Usually four things: a customer portal for booking, tracking and documents; reporting on on-time performance and margin; integrations between the transport, warehouse and accounting systems; and automation of document handling such as proof of delivery and invoicing.
+
+**Can you integrate with our transport management, warehouse or accounting system?**
+Usually, yes, if the system offers an API, a database connection, EDI or scheduled exports. We confirm what each system exposes during scoping and tell you if a connection would be fragile.
+
+**How can AI help a logistics company?**
+AI is useful for reading documents, answering shipment status questions, drafting quotes and customer updates, and flagging exceptions such as late or mismatched loads. A person approves anything that changes a record or goes to a customer.
+
+**How long does a customer tracking portal take to build?**
+A first version with login, shipment status and documents is typically a matter of weeks. The schedule depends mostly on how the portal gets data from your transport system.
+
+**Do you work with small and mid-sized carriers and brokers?**
+Yes. A first engagement can be one report, one integration or one portal feature, with a written milestone you accept before anything expands.
+
+Related services
+
+### Other ways we can help.
+
+#### Customer Portal Development
+
+Customer and partner portals with account permissions, order or request tracking and integrations to existing business systems.
+
+#### Workflow Automation Consulting
+
+Reduce the manual work between your business systems.
+
+#### Business Intelligence & Dashboards
+
+Give business teams a consistent view of performance.
+
+Related guides
+
+### Guides for planning the work.
+
+Reporting
+
+### Moving Excel reporting into a cloud data warehouse
+
+How to move spreadsheet reports without changing the numbers people rely on.
+
+Migration guide
+AI engineering
+
+### What is agentic AI, and when do you need an AI agent?
+
+How agents differ from assistants and automations, and what keeps them safe.
+
+AI guide
+Vendor selection
+
+### 12 questions before hiring a remote consultancy
+
+What to ask about people, delivery, security and handover before you sign.
+
+Buyer checklist
+Your next step
+
+### Tell us which flow slows your operation down.
+
+Describe the process, the systems involved and what should be better afterward. You speak with an engineer on the first 30-minute call and leave with a written next step.
+
+---
+
+# Software, Data & AI for Manufacturing Companies | MV.tech Solutions
+
+URL: https://mvtech.solutions/industries/manufacturing/
+Description: Production and quality reporting, ERP and shop-floor data integration, internal applications and AI assistants for manufacturers, from MV.tech Solutions.
+Last modified: 2026-11-26
+
+Industries · Manufacturing
+
+## Software, data and AI for manufacturing companies.
+
+Production, quality, inventory and finance data usually sit in an ERP, on machines or in a manufacturing execution system, and in a set of spreadsheets. We bring them into one reporting view and build the applications and AI tools around them.
+
+- New York headquarters and Ahmedabad office
+- Overlap with your time zone
+- Senior specialists, direct access
+- Scope agreed in writing
+The starting point
+
+### Signs that plant data is harder to use than it should be.
+
+- Production, scrap and downtime figures are compiled by hand at the end of each shift or week.
+- The ERP holds the data, but few people trust the reports that come out of it.
+- Quotes, work orders or quality records move around by email and paper.
+What we deliver
+
+### What we build for manufacturers.
+
+01
+
+#### Production and quality reporting
+
+Dashboards for output, scrap, downtime and on-time delivery, built from ERP, shop-floor and quality data with definitions your managers agree on.
+
+02
+
+#### ERP and shop-floor data integration
+
+Pipelines that load ERP, machine and quality data into a warehouse, with inventory and cost totals reconciled to finance.
+
+03
+
+#### Internal applications and portals
+
+Work order tracking, quality records, and supplier or customer portals, built around your process with roles and approvals.
+
+04
+
+#### AI assistants and agents
+
+Assistants that answer questions from procedures and manuals with sources shown, draft quotes from past jobs and flag unusual readings for a person to review.
+
+- ERP integration
+- Shop-floor and quality data
+- Power BI
+- Snowflake and BigQuery
+- Reporting automation
+- Supplier and customer portals
+- Knowledge assistants
+- Python
+- SQL
+Other industries: Logistics · E-commerce · Insurance · all industries.
+
+Business applications
+
+### Common first projects in manufacturing.
+
+- A daily production report. Replace the hand-built shift or weekly report with one that refreshes on its own.
+- ERP figures people trust. Reconcile one disputed report, such as inventory value or cost of goods, to the ledger.
+- A procedures assistant. Let staff ask questions of work instructions and manuals and see the source page.
+Engagement scope
+
+### Start with one report or record people argue about.
+
+Pick one report or record, such as scrap by line or the status of open work orders, and the person who owns it. We trace where each figure comes from, agree the definitions and build the first version against real data. The proposal names the acceptance checks, for example that monthly totals match finance.
+
+Working together
+
+### From one process to a working release.
+
+- 01 — Map the process — A 30-minute call about the workflow, the systems it touches and who owns each step.
+- 02 — Agree a first release — A written proposal with scope, the checks you will use to accept it, the people and the price.
+- 03 — Deliver and extend — Release the first piece, review it with the people who use it and decide what to add next.
+From our founder’s engineering work
+
+- Moving reporting into a cloud warehouse
+- Reconciling ledger and dashboard totals
+- Building read-only data connectors
+Explore our expertiseAll services
+Before we begin
+
+### Questions manufacturers ask us.
+
+Not answered here? Ask us directly or read the full FAQ.
+
+**What can data engineering do for a manufacturer?**
+It brings ERP, shop-floor and quality data into one place with agreed definitions, so output, scrap, downtime and cost can be reported daily without manual work and compared across lines, shifts and plants.
+
+**Can you connect our ERP and machine data?**
+Usually, yes. ERP data is read through its API, database or exports. Machine and quality data depends on what the equipment or its historian exposes, which we check during scoping.
+
+**Do you build predictive maintenance models?**
+We start with reliable collection and reporting of downtime and failures. Prediction is worth attempting once failure history is recorded consistently, and we will tell you if your data does not support it yet.
+
+**Can AI answer questions from our procedures and manuals?**
+Yes. A knowledge assistant can search approved documents and answer with the source shown, limited to what each person is allowed to see. It should say when the answer is not in the documents.
+
+**What does a first project look like?**
+One report or one workflow with a named owner, delivered in weeks, with written checks for accepting it. Further sources and reports are added after the first one is in daily use.
+
+Related services
+
+### Other ways we can help.
+
+#### Reporting Automation
+
+Automation of recurring finance and operations reports, from source extraction and validation to Power BI or governed Excel output.
+
+#### Data Engineering Consulting
+
+Build reliable data pipelines and trace a reported number back to the records it came from.
+
+#### Employee AI Chatbot Development
+
+Internal employee chatbots that answer questions from approved documents with citations, access controls and evaluation.
+
+Related guides
+
+### Guides for planning the work.
+
+Reporting
+
+### Moving Excel reporting into a cloud data warehouse
+
+How to move spreadsheet reports without changing the numbers people rely on.
+
+Migration guide
+AI engineering
+
+### RAG vs fine-tuning for knowledge assistants
+
+Which approach fits an internal assistant over company documents.
+
+AI guide
+Finance data
+
+### Reconciling supplier statements in Business Central
+
+Match supplier statements to the vendor ledger and keep warehouse reports in agreement.
+
+Finance guide
+Your next step
+
+### Tell us which report or record causes the most arguments.
+
+Describe the process, the systems involved and what should be better afterward. You speak with an engineer on the first 30-minute call and leave with a written next step.
+
+---
+
 # Insights on Remote Engineering, Data & AI | MV.tech Solutions
 
 URL: https://mvtech.solutions/insights/
@@ -742,6 +1439,13 @@ Insights
 
 Written by the people who do the work. Plain answers to the questions teams ask before they hire a remote data, software or AI team.
 
+Hiring models
+
+### Contractor, employer of record or staff augmentation: how a US company adds engineers in India
+
+Four ways a US company without an Indian entity can add engineers in India: contractors, an employer of record, staff augmentation or a subsidiary.
+
+Nov 26, 2026 · 6 min read
 Warehouse migration
 
 ### Data warehouse migration to Snowflake: steps, checks and a cutover checklist
@@ -749,6 +1453,13 @@ Warehouse migration
 How to migrate a data warehouse to Snowflake: inventory, SQL and data type conversion, historical loads, parallel runs, cost controls and a cutover checklist.
 
 Nov 26, 2026 · 7 min read
+Offshore strategy
+
+### India vs Latin America for a US engineering team: time zones, cost and hiring speed
+
+India vs Latin America for US companies adding engineers: time zone overlap, cost, talent depth, hiring speed and when to combine both for longer coverage.
+
+Nov 26, 2026 · 6 min read
 Warehouse migration
 
 ### Migrating a data warehouse to BigQuery: design, steps, costs and checks
@@ -838,6 +1549,143 @@ Your next step
 ### Have a question these guides do not answer?
 
 Tell us about your situation. A 30-minute call with the engineering team is usually enough to point you in a useful direction.
+
+---
+
+# Contractor vs EOR vs Staff Augmentation in India | MV.tech Solutions
+
+URL: https://mvtech.solutions/insights/contractor-eor-or-staff-augmentation-for-engineers-in-india/
+Description: Four ways a US company without an Indian entity can add engineers in India: contractors, an employer of record, staff augmentation or a subsidiary.
+Last modified: 2026-11-26
+
+Hiring models
+
+## Contractor, employer of record or staff augmentation: how a US company adds engineers in India
+
+Four ways a US company without an Indian entity can add engineers in India: contractors, an employer of record, staff augmentation or a subsidiary.
+
+By Meet Vaghasia, Founder & Lead Engineer · Published November 26, 2026 · 6 min read
+
+In brief
+
+- A US company with no Indian entity has three practical ways to add engineers in India: independent contractors, an employer of record (EOR), or staff augmentation through a services company. Setting up a subsidiary is a fourth route that suits larger, long-term teams.
+- For one or two engineers, staff augmentation or an EOR is usually the simplest. Someone else is the legal employer, and the engineers can be working in your hours within weeks.
+- The main risks are a full-time contractor being treated as an employee, weak assignment of intellectual property and unclear data protection terms. All three are settled in the contract before anyone starts.
+This guide is general information for planning, not legal or tax advice. Employment, tax and intellectual property rules depend on your facts, so have counsel review the contracts before you sign.
+
+### What are the ways to add engineers in India without an Indian entity?
+
+Four routes for a US company adding engineers in India
+| Route | Legal employer | You contract with | Typical start | Main thing to watch | Fits |
+| Independent contractor | Nobody. The person is self-employed | The individual | Days | Misclassification and intellectual property assignment | Short, well-defined project work |
+| Employer of record | The EOR’s Indian entity | The EOR | Weeks | You still find, manage and replace the person yourself, and pay a fee per head | A specific person you have already chosen |
+| Staff augmentation | The services company | The services company, under a master agreement and statement of work | Days to weeks | Dependence on the vendor; check the intellectual property, notice and replacement terms | One to a dozen engineers for a period that may change |
+| Your own subsidiary | Your Indian company | Your employees directly | Months | Setup cost and continuing compliance work | A larger permanent team |
+
+### What is the simplest legal way to get two engineers in India working US hours?
+
+Use staff augmentation or an employer of record. In both, a company in India is the legal employer and handles payroll, statutory benefits and local tax, so you are not directing self-employed individuals as if they were staff.
+
+- Choose staff augmentationwhen you want the supplier to provide and vet the engineers, cover absences and replace someone who is not working out. You direct the priorities and the supplier remains responsible for its people.
+- Choose an employer of recordwhen you have already found the person you want and need a compliant way to employ them.
+Either way, put the overlap in the contract. A typical arrangement with US Eastern time is 9:00 am to 1:00 pm Eastern, which is evening in India, so make sure the engineers have agreed to those hours.
+
+### When does a contractor start to look like an employee?
+
+Authorities and courts look at how the relationship works in practice, not at the title on the contract. The more of these apply, the more a contractor resembles an employee:
+
+- They work full-time for you and have no other clients.
+- You set their hours and manage their day-to-day work as you would for staff.
+- They use your equipment, your email address and your internal tools.
+- The engagement has no end date or defined deliverable.
+If a contractor is treated as an employee, the company can face claims for employment benefits and tax. A contractor arrangement is safest for a defined piece of work with a clear end. For ongoing, full-time work under your direction, use one of the routes where a company employs the person.
+
+### Who owns the code?
+
+Do not assume you do. In general, an employer owns work an employee creates in the course of the job, while an independent contractor keeps the copyright in what they write unless it is assigned in writing.
+
+- With a contractor,the agreement should assign all work product to your company in writing, and state that the assignment is permanent and worldwide. Indian copyright law can apply default limits on duration and territory when an assignment is silent on them.
+- With an EOR or a services company,you need two links in the chain: the engineer assigns their work to the employer, and the employer assigns it to you. Ask to see that both are in place.
+- In every case,add confidentiality terms and keep the code in repositories your company owns from the first day.
+
+### What about tax and a permanent establishment?
+
+A foreign company can become taxable in India if it has a fixed place of business there, or people there who regularly negotiate or sign contracts on its behalf. Engineering work delivered by an independent services company under a services agreement is the lower-risk pattern. Sales staff, country managers or an office in your name raise the question. Ask a tax adviser before anyone in India takes on a commercial role for you.
+
+### What should the contract say about data protection?
+
+If engineers in India can reach customer or employee data, set the terms out in a data processing agreement or equivalent clauses:
+
+- What data they may access, and for what purpose.
+- That work happens in your environment, with least-privilege access you can revoke.
+- Confidentiality obligations that bind each individual.
+- Notice to you if there is a security incident, and how quickly.
+- Return or deletion of data when the engagement ends.
+- Whether any other company may be involved in the work.
+Raise sector rules early. Health data under HIPAA, financial data and some state privacy laws add requirements that the supplier has to be able to meet, and it is better to hear “we cannot commit to that” before signing.
+
+### How should you choose?
+
+- A defined project with an end date:a contractor or a scoped project with a services company.
+- One or two engineers for months, working under your direction:staff augmentation, or an EOR if you have already chosen the person.
+- A team of several engineers with a mix of skills:staff augmentation or a dedicated team from one supplier, so continuity and replacement are their responsibility.
+- A permanent team that will keep growing:start with staff augmentation or an EOR, and consider a subsidiary when the team is large enough to justify the setup and compliance work.
+
+### Frequently asked questions
+
+**Do we need an Indian entity to hire engineers in India?**
+No. A US company can work with engineers in India through independent contractors, an employer of record or a services company that employs them. A subsidiary becomes worth considering only for a larger, permanent team.
+
+**Is an employer of record the same as staff augmentation?**
+No. With an employer of record, you find and manage the person and the EOR employs them and runs payroll. With staff augmentation, the services company supplies engineers from its own team, employs and supports them, and replaces them if needed, while you direct the work.
+
+**What is the biggest legal risk with contractors in India?**
+Misclassification. A contractor who works full-time, only for you and under your daily direction can be treated as an employee, with claims for benefits and tax. Unassigned intellectual property is the second risk, because a contractor keeps the copyright unless it is assigned in writing.
+
+**How does MV.tech Solutions contract with US clients?**
+US clients contract with our New York corporation under a master services agreement and a statement of work for each engagement. The engineers are our team in Ahmedabad, India, and the agreed overlap with your working hours is written into the engagement.
+
+### Add engineers in India with MV.tech Solutions
+
+Our staff augmentation service places data, software and AI engineers from our Ahmedabad team in your delivery process, and US companies contract with our New York headquarters. If the role should be permanent, see technology recruitment. To compare regions first, read India vs Latin America for a US engineering team, or tell us about the role you need to fill.
+
+Related guides
+
+### Keep planning the engagement.
+
+Offshore strategy
+
+### India vs Latin America for a US engineering team: time zones, cost and hiring speed
+
+India vs Latin America for US companies adding engineers: time zone overlap, cost, talent depth, hiring speed and when to combine both for longer coverage.
+
+6 min read
+Engagement models
+
+### Staff augmentation vs project-based consulting: cost, control and when to hire instead
+
+Staff augmentation vs consulting: who directs the work, what each costs for the same eight-week project, and when a permanent hire is the better choice.
+
+7 min read
+Buyer's guide
+
+### 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
+
+A buyer's checklist for a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
+
+5 min read
+About the author
+
+### Meet Vaghasia
+
+Meet Vaghasia is the founder of MV.tech Solutions. His work includes building data pipelines, moving reports into cloud warehouses and connecting AI assistants to business systems. He holds the Google Cloud Professional Data Engineer certification and IBM Mastery Awards in big data engineering and artificial intelligence analysis.
+
+About MV.tech SolutionsSelected engineering workServices
+Your next step
+
+### Want help applying this?
+
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech Solutions.
 
 ---
 
@@ -1082,6 +1930,150 @@ Buyer's guide
 A buyer's checklist for a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
 
 5 min read
+About the author
+
+### Meet Vaghasia
+
+Meet Vaghasia is the founder of MV.tech Solutions. His work includes building data pipelines, moving reports into cloud warehouses and connecting AI assistants to business systems. He holds the Google Cloud Professional Data Engineer certification and IBM Mastery Awards in big data engineering and artificial intelligence analysis.
+
+About MV.tech SolutionsSelected engineering workServices
+Your next step
+
+### Want help applying this?
+
+Book a 30-minute call with the engineers who would do the work. We can talk through your situation and suggest a practical next step, whether or not that involves MV.tech Solutions.
+
+---
+
+# India vs Latin America for US Engineering Teams | MV.tech Solutions
+
+URL: https://mvtech.solutions/insights/india-vs-latin-america-for-us-engineering-teams/
+Description: India vs Latin America for US companies adding engineers: time zone overlap, cost, talent depth, hiring speed and when to combine both for longer coverage.
+Last modified: 2026-11-26
+
+Offshore strategy
+
+## India vs Latin America for a US engineering team: time zones, cost and hiring speed
+
+India vs Latin America for US companies adding engineers: time zone overlap, cost, talent depth, hiring speed and when to combine both for longer coverage.
+
+By Meet Vaghasia, Founder & Lead Engineer · Published November 26, 2026 · 6 min read
+
+In brief
+
+- Latin America shares most of the US working day, so it suits work that needs conversation all day. India shares about four hours with US Eastern mornings and keeps working after the US team stops.
+- India generally offers lower rates and a much larger pool of engineers, especially for data, cloud and AI skills. Latin America generally costs more than India and less than the United States.
+- Decide by the kind of work, not by the region. Many companies keep platform, data and back-office engineering in India and add Latin America for squads that work alongside US product managers and customers all day.
+We deliver from India, so we have an interest in this comparison. We have tried to write it the way we would answer on a scoping call: there is work an India team does well for a US company, and work where a team in your own time zone is the better choice.
+
+### How do India and Latin America compare for a US company?
+
+India and Latin America compared for a US engineering team
+| Factor | India | Latin America |
+| Time difference from US Eastern | 9.5 to 10.5 hours ahead | Within about two hours, depending on country and season |
+| Shared hours with US Eastern | About four, typically 9:00 am to 1:00 pm Eastern, when the India team works into its evening | Six to eight |
+| Shared hours with US Pacific | About three, typically 7:00 to 10:00 am Pacific | Four to seven |
+| Work outside your hours | Continues while you are offline, so requests can have progress by your morning | Little. The team works when you do |
+| Cost | Generally the lowest of the common offshore regions | Generally higher than India and lower than the United States |
+| Talent pool | Very large, with depth in data engineering, cloud, testing and AI | Smaller, and spread across several countries |
+| Contracts and employment law | One country | Often several countries, each with its own rules |
+| Travel from the United States | Long-haul | Short to medium flights |
+
+### Which is better for time zone overlap?
+
+Latin America. Colombia and Peru are on or within an hour of US Eastern time, Mexico City is one to two hours behind it, and Argentina and Brazil are one to two hours ahead. A team there can attend every meeting in a normal working day.
+
+India Standard Time is 9.5 hours ahead of US Eastern in summer and 10.5 in winter. An India team that works into its evening typically shares 9:00 am to 1:00 pm Eastern, or 7:00 to 10:00 am Pacific. That is enough for a stand-up, reviews and a working session, but not for a day of ad-hoc questions. Our guide to working with an India-based team across time zones covers the habits that make four hours enough.
+
+### Which costs less?
+
+India, in most comparisons of the same role and seniority. Published rate surveys differ and change every year, so compare written quotes for the same role instead of relying on averages. Add the costs that do not appear in a rate:
+
+- Your own time.A team with less overlap needs better written requirements and more deliberate reviews.
+- Seniority.A lower rate for a less experienced engineer is not a saving if your leads spend the difference supervising.
+- Structure.Hiring across three Latin American countries can mean three sets of contracts, payroll providers or vendors.
+What drives the price of an India team is set out in our guide to what a remote data engineering team from India costs.
+
+### Which is faster to hire in?
+
+The route matters more than the region. A services company with engineers already on staff can start in days or weeks in either place. Hiring individuals directly, or through an employer of record, takes weeks to months because you run the search yourself. India’s larger talent pool helps most when you need several engineers with the same specialist skill at once.
+
+### What kind of work suits each region?
+
+#### India is the stronger choice when
+
+- The work can be written down and reviewed: data pipelines, warehouse migrations, reporting, backlog features, test automation, integrations.
+- You want progress while your team is offline, such as overnight builds, data fixes ready before the morning report, or support cover.
+- You need to scale a team quickly or need skills that are scarce locally.
+- Budget decides how much engineering you can fund.
+
+#### Latin America is the stronger choice when
+
+- Engineers need to sit in on customer calls, design sessions and product decisions throughout the US day.
+- The work is early product discovery, where requirements change hourly.
+- You need people on call for live incidents during US business hours.
+
+### Should a company with an India team add Latin America?
+
+Start by finding where the delay actually comes from. If work stalls overnight because a decision was not written down, a second region will not fix it. Clearer handovers and a slightly longer overlap usually will, at no extra cost.
+
+Adding Latin America makes sense when some squads truly need all-day contact with US product managers or customers. The common pattern is to place those squads in Latin America and keep platform, data and back-office engineering in India. Count the cost of the split before you commit: another vendor or legal entity, a second set of working practices and more coordination for your leads.
+
+### How do you build 24-hour coverage with India, Eastern Europe and Latin America?
+
+Each region covers part of the clock, and the handovers do the rest.
+
+Working hours by region in UTC for follow-the-sun coverage
+| Region | Typical working day (local) | Same hours in UTC |
+| India | 9:30 am to 6:30 pm | 04:00 to 13:00 |
+| Eastern Europe | 9:00 am to 6:00 pm | 07:00 to 16:00 |
+| Latin America | 9:00 am to 6:00 pm | 12:00 to 23:00, depending on country |
+| US West Coast | Late afternoon and evening | 23:00 to 04:00, the remaining gap |
+This works for support, operations and incident response, where each task can be finished or handed over within a shift. It works poorly for feature development, because each handover costs context. If you do it, use one tracker, a written handover at the end of every shift and one named owner for each open issue.
+
+### Frequently asked questions
+
+**Is India or Latin America better for a US startup?**
+It depends on the work. Choose Latin America when engineers must talk with your product team and customers throughout the US day. Choose India when the work can be specified in writing, when budget limits how many engineers you can fund, or when you need data, cloud or AI skills that are hard to find.
+
+**How many hours can an India team overlap with US Eastern time?**
+About four hours is typical: 9:00 am to 1:00 pm Eastern, which is 6:30 to 10:30 pm in India during US daylight saving time. The exact window is agreed per engagement.
+
+**Is nearshore always more expensive than offshore?**
+Rates in Latin America are generally higher than in India for the same role, but the total depends on seniority, how much of your own team’s time each model needs and how many countries you hire in. Compare written quotes for the same role and deliverable.
+
+**Can we use both India and Latin America?**
+Yes. Many companies place customer-facing or product squads in Latin America and keep platform, data and back-office engineering in India. It adds coordination and usually a second vendor or entity, so do it for a specific need, not for coverage alone.
+
+### Talk to MV.tech Solutions about an India team
+
+MV.tech Solutions is headquartered in New York and delivers from Ahmedabad, India. US clients sign a US contract and share Eastern mornings with the engineers doing the work; see outsourcing for US companies and staff augmentation. If your work needs all-day US overlap, we will tell you so on the first call. To compare hiring routes, read contractor, employer of record or staff augmentation in India, or book a 30-minute call.
+
+Related guides
+
+### Keep planning the engagement.
+
+Hiring models
+
+### Contractor, employer of record or staff augmentation: how a US company adds engineers in India
+
+Four ways a US company without an Indian entity can add engineers in India: contractors, an employer of record, staff augmentation or a subsidiary.
+
+6 min read
+Remote delivery playbook
+
+### How to Work with an India-Based Engineering Team Across Time Zones
+
+Realistic overlap windows, what to agree up front and the async habits that make a remote team in India work for US, UK, EU and Australian companies.
+
+6 min read
+Cost guide
+
+### What Does a Remote Data Engineering Team from India Cost?
+
+What sets the price of a remote data engineering team from India, where the saving really comes from, how to compare quotes and the costs buyers forget.
+
+6 min read
 About the author
 
 ### Meet Vaghasia
@@ -2031,6 +3023,13 @@ Related guides
 
 ### Keep planning the engagement.
 
+Hiring models
+
+### Contractor, employer of record or staff augmentation: how a US company adds engineers in India
+
+Four ways a US company without an Indian entity can add engineers in India: contractors, an employer of record, staff augmentation or a subsidiary.
+
+6 min read
 Cost guide
 
 ### What Does a Remote Data Engineering Team from India Cost?
@@ -2038,13 +3037,6 @@ Cost guide
 What sets the price of a remote data engineering team from India, where the saving really comes from, how to compare quotes and the costs buyers forget.
 
 6 min read
-Buyer's guide
-
-### 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
-
-A buyer's checklist for a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
-
-5 min read
 Remote delivery playbook
 
 ### How to Work with an India-Based Engineering Team Across Time Zones
@@ -2071,7 +3063,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/insights/timezone-overlap-with-an-india-based-engineering-team/
 Description: Realistic overlap windows, what to agree up front and the async habits that make a remote team in India work for US, UK, EU and Australian companies.
-Last modified: 2026-11-23
+Last modified: 2026-11-26
 
 Remote delivery playbook
 
@@ -2079,7 +3071,7 @@ Remote delivery playbook
 
 Realistic overlap windows, what to agree up front and the async habits that make a remote team in India work for US, UK, EU and Australian companies.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published September 10, 2026 · Updated November 23, 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published September 10, 2026 · Updated November 26, 2026 · 6 min read
 
 In brief
 
@@ -2176,13 +3168,13 @@ Cost guide
 What sets the price of a remote data engineering team from India, where the saving really comes from, how to compare quotes and the costs buyers forget.
 
 6 min read
-Buyer's guide
+Offshore strategy
 
-### 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
+### India vs Latin America for a US engineering team: time zones, cost and hiring speed
 
-A buyer's checklist for a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
+India vs Latin America for US companies adding engineers: time zone overlap, cost, talent depth, hiring speed and when to combine both for longer coverage.
 
-5 min read
+6 min read
 Engagement models
 
 ### Staff augmentation vs project-based consulting: cost, control and when to hire instead
@@ -2209,7 +3201,7 @@ Book a 30-minute call with the engineers who would do the work. We can talk thro
 
 URL: https://mvtech.solutions/insights/what-a-remote-data-engineering-team-from-india-costs/
 Description: What sets the price of a remote data engineering team from India, where the saving really comes from, how to compare quotes and the costs buyers forget.
-Last modified: 2026-11-14
+Last modified: 2026-11-26
 
 Cost guide
 
@@ -2217,7 +3209,7 @@ Cost guide
 
 What sets the price of a remote data engineering team from India, where the saving really comes from, how to compare quotes and the costs buyers forget.
 
-By Meet Vaghasia, Founder & Lead Engineer · Published October 12, 2026 · Updated November 14, 2026 · 6 min read
+By Meet Vaghasia, Founder & Lead Engineer · Published October 12, 2026 · Updated November 26, 2026 · 6 min read
 
 In brief
 
@@ -2311,20 +3303,20 @@ Engagement models
 Staff augmentation vs consulting: who directs the work, what each costs for the same eight-week project, and when a permanent hire is the better choice.
 
 7 min read
-Remote delivery playbook
+Offshore strategy
 
-### How to Work with an India-Based Engineering Team Across Time Zones
+### India vs Latin America for a US engineering team: time zones, cost and hiring speed
 
-Realistic overlap windows, what to agree up front and the async habits that make a remote team in India work for US, UK, EU and Australian companies.
+India vs Latin America for US companies adding engineers: time zone overlap, cost, talent depth, hiring speed and when to combine both for longer coverage.
 
 6 min read
-Buyer's guide
+Hiring models
 
-### 12 Questions to Ask Before Hiring a Remote Data Engineering Consultancy
+### Contractor, employer of record or staff augmentation: how a US company adds engineers in India
 
-A buyer's checklist for a remote data engineering partner: who does the work, how the first milestone is scoped, how correctness is proven and what is included.
+Four ways a US company without an Indian entity can add engineers in India: contractors, an employer of record, staff augmentation or a subsidiary.
 
-5 min read
+6 min read
 About the author
 
 ### Meet Vaghasia
@@ -4096,13 +5088,20 @@ Related guides
 
 ### Guides for planning the engagement.
 
-Budgeting
+Offshore strategy
 
-### What a remote data engineering team from India costs
+### India vs Latin America for a US engineering team
 
-What drives the price of a remote team and how to compare proposals.
+Time zone overlap, cost, talent depth and when to use both regions.
 
-Cost guide
+Comparison guide
+Hiring models
+
+### Contractor, employer of record or staff augmentation in India
+
+Four ways to add engineers in India without an Indian entity, and what to put in the contract.
+
+Hiring guide
 Remote delivery
 
 ### Working with an India-based team across time zones
@@ -4110,13 +5109,6 @@ Remote delivery
 Realistic overlap windows and the async habits that keep distributed work moving.
 
 Time zone guide
-Engagement models
-
-### Staff augmentation vs project-based consulting
-
-Who directs the work, what each model costs and when to hire instead.
-
-Comparison guide
 Your next step
 
 ### Tell us what you want to hand over.
@@ -8049,13 +9041,13 @@ Tell us about the work, your current systems and the people who will use the res
 
 URL: https://mvtech.solutions/solutions/
 Description: Business solutions for finance reporting, operational workflows, customer portals, AI applications and blockchain analytics from MV.tech Solutions.
-Last modified: 2026-11-24
+Last modified: 2026-11-26
 
 Business solutions
 
 ## Connect technology to the way your business works.
 
-MV.tech Solutions develops systems for reporting, operations, products and blockchain data. These solution areas show the work we can scope with your team; the final design depends on your processes, data and users.
+MV.tech Solutions develops systems for reporting, operations, products and blockchain data. These solution areas show the work we can scope with your team; the final design depends on your processes, data and users. See the same work by industry.
 
 Finance and reporting
 

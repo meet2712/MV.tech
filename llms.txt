@@ -65,6 +65,14 @@ This is a factual index of the company's public website. The linked pages contai
 - [Outsourcing for Singapore Companies](https://mvtech.solutions/outsourcing/singapore/): Singapore companies outsource software, data engineering and AI projects to our India team. Shared hours from 11:00 am to 6:00 pm SGT and PDPA-aware delivery.
 - [Outsourcing for Hong Kong Companies](https://mvtech.solutions/outsourcing/hong-kong/): Hong Kong companies outsource software, data and AI work to our India team. Shared hours 11:00 am to 6:00 pm HKT, English delivery, PDPO-aware data handling.
 
+## Industries
+
+- [Industries](https://mvtech.solutions/industries/): How MV.tech Solutions applies software, data and AI engineering in logistics, manufacturing, e-commerce and insurance.
+- [Logistics Software, Data & AI](https://mvtech.solutions/industries/logistics/): Customer portals, shipment and margin reporting, system integrations and AI tools for carriers, freight brokers, 3PLs and distributors, from MV.tech Solutions.
+- [Manufacturing Software, Data & AI](https://mvtech.solutions/industries/manufacturing/): Production and quality reporting, ERP and shop-floor data integration, internal applications and AI assistants for manufacturers, from MV.tech Solutions.
+- [E-commerce Software, Data & AI](https://mvtech.solutions/industries/ecommerce/): Marketing attribution and profit reporting, data pipelines from storefronts, marketplaces and ad platforms, integrations and AI tools for online sellers.
+- [Insurance Software, Data & AI](https://mvtech.solutions/industries/insurance/): Client portals, renewal and commission reporting, automation and AI assistants for insurance brokers and agencies, with access controls for client data.
+
 ## Examples of work
 
 - [Work examples](https://mvtech.solutions/work/) covers tools the team runs, creative work it delivered and engineering work from the founder’s career.
@@ -111,6 +119,8 @@ This is a factual index of the company's public website. The linked pages contai
 - [How Do You Let an AI Assistant Query Your Data Warehouse Safely?](https://mvtech.solutions/insights/letting-ai-assistants-query-your-data-warehouse-safely/): A step-by-step pattern for giving Claude, GPT or Gemini read-only access to a warehouse: scoped identity, checked SQL, row limits, redaction and provenance.
 - [Data warehouse migration to Snowflake](https://mvtech.solutions/insights/data-warehouse-migration-to-snowflake-steps-and-checklist/): the seven stages of a Snowflake migration, how to prove the numbers match, running costs and a cutover checklist.
 - [Migrating a data warehouse to BigQuery](https://mvtech.solutions/insights/migrating-a-data-warehouse-to-bigquery-steps-costs-and-checks/): dataset and partition design, SQL translation, loading history, cost controls and validation before cutover.
+- [India vs Latin America for a US engineering team](https://mvtech.solutions/insights/india-vs-latin-america-for-us-engineering-teams/): time zone overlap, cost, talent pool, hiring speed and how to build follow-the-sun coverage.
+- [Contractor, employer of record or staff augmentation in India](https://mvtech.solutions/insights/contractor-eor-or-staff-augmentation-for-engineers-in-india/): four ways a US company without an Indian entity can add engineers in India, with the contract points to settle first.
 
 ## Commercial and experience context
 

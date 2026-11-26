@@ -3411,11 +3411,18 @@
     "relatedResourcesHeading": "Guides for planning the engagement.",
     "relatedResources": [
       {
-        "href": "/insights/what-a-remote-data-engineering-team-from-india-costs/",
-        "kicker": "Budgeting",
-        "title": "What a remote data engineering team from India costs",
-        "text": "What drives the price of a remote team and how to compare proposals.",
-        "label": "Cost guide"
+        "href": "/insights/india-vs-latin-america-for-us-engineering-teams/",
+        "kicker": "Offshore strategy",
+        "title": "India vs Latin America for a US engineering team",
+        "text": "Time zone overlap, cost, talent depth and when to use both regions.",
+        "label": "Comparison guide"
+      },
+      {
+        "href": "/insights/contractor-eor-or-staff-augmentation-for-engineers-in-india/",
+        "kicker": "Hiring models",
+        "title": "Contractor, employer of record or staff augmentation in India",
+        "text": "Four ways to add engineers in India without an Indian entity, and what to put in the contract.",
+        "label": "Hiring guide"
       },
       {
         "href": "/insights/timezone-overlap-with-an-india-based-engineering-team/",
@@ -3423,13 +3430,6 @@
         "title": "Working with an India-based team across time zones",
         "text": "Realistic overlap windows and the async habits that keep distributed work moving.",
         "label": "Time zone guide"
-      },
-      {
-        "href": "/insights/staff-augmentation-vs-project-consulting-vs-recruitment/",
-        "kicker": "Engagement models",
-        "title": "Staff augmentation vs project-based consulting",
-        "text": "Who directs the work, what each model costs and when to hire instead.",
-        "label": "Comparison guide"
       }
     ],
     "summary": "A New York company with an engineering team in India, for US businesses outsourcing software, data and AI work.",
@@ -4713,6 +4713,586 @@
     "ogKicker": "Outsourcing · Hong Kong · Software · Data · AI",
     "closingHeading": "Tell us which workflow to start with.",
     "closingCopy": "Share the goal, your systems and your working hours. You speak with an engineer on the first 30-minute call and leave with a written next step.",
+    "callLabel": "Book a 30-minute call"
+  },
+  {
+    "path": "/industries/logistics/",
+    "key": "industry-logistics",
+    "name": "Logistics Software, Data & AI",
+    "title": "Software, Data & AI for Logistics Companies | MV.tech Solutions",
+    "description": "Customer portals, shipment and margin reporting, system integrations and AI tools for carriers, freight brokers, 3PLs and distributors, from MV.tech Solutions.",
+    "h1": "Software, data and AI for logistics and freight companies.",
+    "eyebrow": "Industries · Logistics",
+    "serviceType": "Software, data and AI engineering for logistics and freight companies",
+    "parent": {
+      "name": "Industries",
+      "url": "/industries/"
+    },
+    "industry": {
+      "label": "Logistics",
+      "audience": "Logistics and freight companies"
+    },
+    "intro": "Dispatch, tracking, billing and customer updates often live in separate systems, with spreadsheets filling the gaps between them. We build the portals, integrations, reporting and AI tools that connect them, for carriers, freight brokers, third-party logistics providers and distributors.",
+    "fitHeading": "Signs that the systems are holding the operation back.",
+    "fit": [
+      "Customers call or email for shipment status because there is nowhere to look it up.",
+      "Margin per load, lane or customer is worked out in a spreadsheet days after the work is done.",
+      "Staff retype orders, proof-of-delivery documents and invoices between the transport system, accounting and email."
+    ],
+    "deliverablesHeading": "What we build for logistics companies.",
+    "deliverables": [
+      {
+        "title": "Customer and carrier portals",
+        "text": "A secure place for customers to book, track shipments and download documents, and for carriers to accept loads and upload proof of delivery."
+      },
+      {
+        "title": "Operations and margin reporting",
+        "text": "On-time performance, cost and margin by load, lane and customer, built from your transport, warehouse and accounting systems and checked against finance."
+      },
+      {
+        "title": "Integrations and document automation",
+        "text": "Connections between transport, warehouse and accounting systems through APIs, EDI or file feeds, with data pulled from documents such as bills of lading and reviewed before it posts."
+      },
+      {
+        "title": "AI assistants and agents",
+        "text": "Assistants that answer status questions and draft quotes or customer updates from your own data, with a person approving anything that goes to a customer."
+      }
+    ],
+    "tools": [
+      "Transport and warehouse system integration",
+      "EDI and API feeds",
+      "Customer portals",
+      "Power BI",
+      "Snowflake and BigQuery",
+      "Document extraction",
+      "AI agents",
+      "Python",
+      "React and Next.js"
+    ],
+    "applicationsHeading": "Common first projects in logistics.",
+    "applications": [
+      {
+        "title": "A shipment tracking portal",
+        "text": "Give customers status, documents and delivery proof without a phone call."
+      },
+      {
+        "title": "A margin and on-time dashboard",
+        "text": "See performance by lane and customer every morning instead of at month-end."
+      },
+      {
+        "title": "Proof-of-delivery to invoice automation",
+        "text": "Shorten the time between delivery and a correct invoice."
+      }
+    ],
+    "scopeHeading": "Start with one flow and the systems it crosses.",
+    "scope": "Choose one flow, such as status updates or invoicing, and name the person who owns it. We map which system holds each piece of information, how they can be connected and what a correct result looks like. The proposal sets out the first release and the checks your team will use to accept it.",
+    "approachHeading": "From one process to a working release.",
+    "approach": [
+      {
+        "title": "Map the process",
+        "text": "A 30-minute call about the workflow, the systems it touches and who owns each step."
+      },
+      {
+        "title": "Agree a first release",
+        "text": "A written proposal with scope, the checks you will use to accept it, the people and the price."
+      },
+      {
+        "title": "Deliver and extend",
+        "text": "Release the first piece, review it with the people who use it and decide what to add next."
+      }
+    ],
+    "questionsHeading": "Questions logistics companies ask us.",
+    "questions": [
+      {
+        "question": "What software do logistics companies most often need built?",
+        "answer": "Usually four things: a customer portal for booking, tracking and documents; reporting on on-time performance and margin; integrations between the transport, warehouse and accounting systems; and automation of document handling such as proof of delivery and invoicing."
+      },
+      {
+        "question": "Can you integrate with our transport management, warehouse or accounting system?",
+        "answer": "Usually, yes, if the system offers an API, a database connection, EDI or scheduled exports. We confirm what each system exposes during scoping and tell you if a connection would be fragile."
+      },
+      {
+        "question": "How can AI help a logistics company?",
+        "answer": "AI is useful for reading documents, answering shipment status questions, drafting quotes and customer updates, and flagging exceptions such as late or mismatched loads. A person approves anything that changes a record or goes to a customer."
+      },
+      {
+        "question": "How long does a customer tracking portal take to build?",
+        "answer": "A first version with login, shipment status and documents is typically a matter of weeks. The schedule depends mostly on how the portal gets data from your transport system."
+      },
+      {
+        "question": "Do you work with small and mid-sized carriers and brokers?",
+        "answer": "Yes. A first engagement can be one report, one integration or one portal feature, with a written milestone you accept before anything expands."
+      }
+    ],
+    "relatedServiceKeys": [
+      "customer-portal-development",
+      "workflow-automation",
+      "business-intelligence"
+    ],
+    "relatedResourcesHeading": "Guides for planning the work.",
+    "relatedResources": [
+      {
+        "href": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
+        "kicker": "Reporting",
+        "title": "Moving Excel reporting into a cloud data warehouse",
+        "text": "How to move spreadsheet reports without changing the numbers people rely on.",
+        "label": "Migration guide"
+      },
+      {
+        "href": "/insights/what-is-agentic-ai-and-when-does-a-business-need-an-ai-agent/",
+        "kicker": "AI engineering",
+        "title": "What is agentic AI, and when do you need an AI agent?",
+        "text": "How agents differ from assistants and automations, and what keeps them safe.",
+        "label": "AI guide"
+      },
+      {
+        "href": "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
+        "kicker": "Vendor selection",
+        "title": "12 questions before hiring a remote consultancy",
+        "text": "What to ask about people, delivery, security and handover before you sign.",
+        "label": "Buyer checklist"
+      }
+    ],
+    "summary": "Portals, reporting, integrations and AI tools for carriers, freight brokers, 3PLs and distributors.",
+    "ogTitle": "Software, data and AI for logistics and freight companies",
+    "ogKicker": "Industries · Logistics · Software · Data · AI",
+    "closingHeading": "Tell us which flow slows your operation down.",
+    "closingCopy": "Describe the process, the systems involved and what should be better afterward. You speak with an engineer on the first 30-minute call and leave with a written next step.",
+    "callLabel": "Book a 30-minute call"
+  },
+  {
+    "path": "/industries/manufacturing/",
+    "key": "industry-manufacturing",
+    "name": "Manufacturing Software, Data & AI",
+    "title": "Software, Data & AI for Manufacturing Companies | MV.tech Solutions",
+    "description": "Production and quality reporting, ERP and shop-floor data integration, internal applications and AI assistants for manufacturers, from MV.tech Solutions.",
+    "h1": "Software, data and AI for manufacturing companies.",
+    "eyebrow": "Industries · Manufacturing",
+    "serviceType": "Software, data and AI engineering for manufacturing companies",
+    "parent": {
+      "name": "Industries",
+      "url": "/industries/"
+    },
+    "industry": {
+      "label": "Manufacturing",
+      "audience": "Manufacturing companies"
+    },
+    "intro": "Production, quality, inventory and finance data usually sit in an ERP, on machines or in a manufacturing execution system, and in a set of spreadsheets. We bring them into one reporting view and build the applications and AI tools around them.",
+    "fitHeading": "Signs that plant data is harder to use than it should be.",
+    "fit": [
+      "Production, scrap and downtime figures are compiled by hand at the end of each shift or week.",
+      "The ERP holds the data, but few people trust the reports that come out of it.",
+      "Quotes, work orders or quality records move around by email and paper."
+    ],
+    "deliverablesHeading": "What we build for manufacturers.",
+    "deliverables": [
+      {
+        "title": "Production and quality reporting",
+        "text": "Dashboards for output, scrap, downtime and on-time delivery, built from ERP, shop-floor and quality data with definitions your managers agree on."
+      },
+      {
+        "title": "ERP and shop-floor data integration",
+        "text": "Pipelines that load ERP, machine and quality data into a warehouse, with inventory and cost totals reconciled to finance."
+      },
+      {
+        "title": "Internal applications and portals",
+        "text": "Work order tracking, quality records, and supplier or customer portals, built around your process with roles and approvals."
+      },
+      {
+        "title": "AI assistants and agents",
+        "text": "Assistants that answer questions from procedures and manuals with sources shown, draft quotes from past jobs and flag unusual readings for a person to review."
+      }
+    ],
+    "tools": [
+      "ERP integration",
+      "Shop-floor and quality data",
+      "Power BI",
+      "Snowflake and BigQuery",
+      "Reporting automation",
+      "Supplier and customer portals",
+      "Knowledge assistants",
+      "Python",
+      "SQL"
+    ],
+    "applicationsHeading": "Common first projects in manufacturing.",
+    "applications": [
+      {
+        "title": "A daily production report",
+        "text": "Replace the hand-built shift or weekly report with one that refreshes on its own."
+      },
+      {
+        "title": "ERP figures people trust",
+        "text": "Reconcile one disputed report, such as inventory value or cost of goods, to the ledger."
+      },
+      {
+        "title": "A procedures assistant",
+        "text": "Let staff ask questions of work instructions and manuals and see the source page."
+      }
+    ],
+    "scopeHeading": "Start with one report or record people argue about.",
+    "scope": "Pick one report or record, such as scrap by line or the status of open work orders, and the person who owns it. We trace where each figure comes from, agree the definitions and build the first version against real data. The proposal names the acceptance checks, for example that monthly totals match finance.",
+    "approachHeading": "From one process to a working release.",
+    "approach": [
+      {
+        "title": "Map the process",
+        "text": "A 30-minute call about the workflow, the systems it touches and who owns each step."
+      },
+      {
+        "title": "Agree a first release",
+        "text": "A written proposal with scope, the checks you will use to accept it, the people and the price."
+      },
+      {
+        "title": "Deliver and extend",
+        "text": "Release the first piece, review it with the people who use it and decide what to add next."
+      }
+    ],
+    "questionsHeading": "Questions manufacturers ask us.",
+    "questions": [
+      {
+        "question": "What can data engineering do for a manufacturer?",
+        "answer": "It brings ERP, shop-floor and quality data into one place with agreed definitions, so output, scrap, downtime and cost can be reported daily without manual work and compared across lines, shifts and plants."
+      },
+      {
+        "question": "Can you connect our ERP and machine data?",
+        "answer": "Usually, yes. ERP data is read through its API, database or exports. Machine and quality data depends on what the equipment or its historian exposes, which we check during scoping."
+      },
+      {
+        "question": "Do you build predictive maintenance models?",
+        "answer": "We start with reliable collection and reporting of downtime and failures. Prediction is worth attempting once failure history is recorded consistently, and we will tell you if your data does not support it yet."
+      },
+      {
+        "question": "Can AI answer questions from our procedures and manuals?",
+        "answer": "Yes. A knowledge assistant can search approved documents and answer with the source shown, limited to what each person is allowed to see. It should say when the answer is not in the documents."
+      },
+      {
+        "question": "What does a first project look like?",
+        "answer": "One report or one workflow with a named owner, delivered in weeks, with written checks for accepting it. Further sources and reports are added after the first one is in daily use."
+      }
+    ],
+    "relatedServiceKeys": [
+      "reporting-automation",
+      "data-engineering",
+      "employee-ai-chatbots"
+    ],
+    "relatedResourcesHeading": "Guides for planning the work.",
+    "relatedResources": [
+      {
+        "href": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
+        "kicker": "Reporting",
+        "title": "Moving Excel reporting into a cloud data warehouse",
+        "text": "How to move spreadsheet reports without changing the numbers people rely on.",
+        "label": "Migration guide"
+      },
+      {
+        "href": "/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/",
+        "kicker": "AI engineering",
+        "title": "RAG vs fine-tuning for knowledge assistants",
+        "text": "Which approach fits an internal assistant over company documents.",
+        "label": "AI guide"
+      },
+      {
+        "href": "/insights/reconciling-dynamics-365-business-central-with-your-data-warehouse/",
+        "kicker": "Finance data",
+        "title": "Reconciling supplier statements in Business Central",
+        "text": "Match supplier statements to the vendor ledger and keep warehouse reports in agreement.",
+        "label": "Finance guide"
+      }
+    ],
+    "summary": "Production reporting, ERP and shop-floor data integration, internal applications and AI assistants for manufacturers.",
+    "ogTitle": "Software, data and AI for manufacturing companies",
+    "ogKicker": "Industries · Manufacturing · Software · Data · AI",
+    "closingHeading": "Tell us which report or record causes the most arguments.",
+    "closingCopy": "Describe the process, the systems involved and what should be better afterward. You speak with an engineer on the first 30-minute call and leave with a written next step.",
+    "callLabel": "Book a 30-minute call"
+  },
+  {
+    "path": "/industries/ecommerce/",
+    "key": "industry-ecommerce",
+    "name": "E-commerce Software, Data & AI",
+    "title": "Software, Data & AI for E-commerce Companies | MV.tech Solutions",
+    "description": "Marketing attribution and profit reporting, data pipelines from storefronts, marketplaces and ad platforms, integrations and AI tools for online sellers.",
+    "h1": "Software, data and AI for e-commerce companies.",
+    "eyebrow": "Industries · E-commerce",
+    "serviceType": "Software, data and AI engineering for e-commerce companies",
+    "parent": {
+      "name": "Industries",
+      "url": "/industries/"
+    },
+    "industry": {
+      "label": "E-commerce",
+      "audience": "E-commerce companies"
+    },
+    "intro": "Orders, ad spend, inventory and customer data sit in the storefront, marketplaces, ad platforms and a finance system. We build the pipelines, reporting, integrations and AI tools that turn them into one picture of what is selling and what is profitable.",
+    "fitHeading": "Signs that the numbers are not telling one story.",
+    "fit": [
+      "The ad platforms and the storefront report different revenue, and nobody is sure which to believe.",
+      "Profit by product or channel takes a spreadsheet and most of a day to work out.",
+      "Inventory, orders and refunds are reconciled by hand between systems."
+    ],
+    "deliverablesHeading": "What we build for e-commerce companies.",
+    "deliverables": [
+      {
+        "title": "Attribution and profitability reporting",
+        "text": "Revenue, ad spend, refunds and product cost in one model, so you can see contribution margin by product, channel and campaign."
+      },
+      {
+        "title": "Data pipelines from every channel",
+        "text": "Scheduled loads from storefronts such as Shopify or WooCommerce, marketplaces, ad platforms and payment providers into a warehouse you own."
+      },
+      {
+        "title": "Store and back-office integrations",
+        "text": "Connections between the store, inventory, fulfillment and accounting, and custom applications or front ends built with React and Next.js."
+      },
+      {
+        "title": "AI for catalog and support",
+        "text": "Drafts of product content and answers to customer questions from your policies and order data, with a person reviewing before anything is published or sent."
+      }
+    ],
+    "tools": [
+      "Storefront and marketplace data",
+      "Ad platform data",
+      "Marketing attribution",
+      "BigQuery and Snowflake",
+      "Power BI and Looker Studio",
+      "Inventory and order integration",
+      "React and Next.js",
+      "Python",
+      "AI assistants"
+    ],
+    "applicationsHeading": "Common first projects in e-commerce.",
+    "applications": [
+      {
+        "title": "One revenue number",
+        "text": "Reconcile storefront, payment and ad platform revenue so every report starts from the same figure."
+      },
+      {
+        "title": "A profit dashboard",
+        "text": "Contribution margin by product and channel, refreshed daily."
+      },
+      {
+        "title": "An order or inventory sync",
+        "text": "Remove one manual reconciliation between the store and fulfillment or accounting."
+      }
+    ],
+    "scopeHeading": "Start with the number people disagree about.",
+    "scope": "Tell us which two reports disagree, for example storefront revenue and ad platform revenue, and how your team defines a sale. We trace both to their sources, explain the difference and agree one definition. The proposal sets out the first report and the checks for accepting it.",
+    "approachHeading": "From one process to a working release.",
+    "approach": [
+      {
+        "title": "Map the process",
+        "text": "A 30-minute call about the workflow, the systems it touches and who owns each step."
+      },
+      {
+        "title": "Agree a first release",
+        "text": "A written proposal with scope, the checks you will use to accept it, the people and the price."
+      },
+      {
+        "title": "Deliver and extend",
+        "text": "Release the first piece, review it with the people who use it and decide what to add next."
+      }
+    ],
+    "questionsHeading": "Questions e-commerce companies ask us.",
+    "questions": [
+      {
+        "question": "Why do the ad platforms and our store show different revenue?",
+        "answer": "They count differently. Ad platforms credit sales within their own attribution windows and can each claim the same order. The store records actual orders, often in a different time zone, and handles refunds, cancellations, tax and shipping differently. A warehouse model applies one definition to all of them."
+      },
+      {
+        "question": "How do we get one view of sales across our store, marketplaces and ad platforms?",
+        "answer": "Load orders, refunds, fees and ad spend from each source into one warehouse on a schedule, map products and channels to shared keys, and report from that model instead of from each platform’s dashboard."
+      },
+      {
+        "question": "Which metrics should an e-commerce dashboard show first?",
+        "answer": "Start with contribution margin by product and channel, customer acquisition cost, repeat purchase rate, refund rate and days of stock cover. Add more only when someone has a decision that depends on them."
+      },
+      {
+        "question": "Do you build online stores?",
+        "answer": "Our work is the engineering around the store: integrations, custom applications, data and automation. Where a custom front end is needed, we build it in React and Next.js against the platform’s APIs."
+      },
+      {
+        "question": "Can AI write product descriptions or answer customer questions?",
+        "answer": "Yes, as drafts. AI can prepare product content from your specifications and answer common questions from policies and order status. A person should review content before publishing and approve refunds or other actions."
+      }
+    ],
+    "relatedServiceKeys": [
+      "data-engineering",
+      "business-intelligence",
+      "workflow-automation"
+    ],
+    "relatedResourcesHeading": "Guides for planning the work.",
+    "relatedResources": [
+      {
+        "href": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
+        "kicker": "Reporting",
+        "title": "Moving Excel reporting into a cloud data warehouse",
+        "text": "How to move spreadsheet reports without changing the numbers people rely on.",
+        "label": "Migration guide"
+      },
+      {
+        "href": "/insights/letting-ai-assistants-query-your-data-warehouse-safely/",
+        "kicker": "AI and data",
+        "title": "Letting AI assistants query your data warehouse safely",
+        "text": "Per-user permissions, read-only access and logging for AI over business data.",
+        "label": "AI guide"
+      },
+      {
+        "href": "/insights/what-is-agentic-ai-and-when-does-a-business-need-an-ai-agent/",
+        "kicker": "AI engineering",
+        "title": "What is agentic AI, and when do you need an AI agent?",
+        "text": "How agents differ from assistants and automations, and what keeps them safe.",
+        "label": "AI guide"
+      }
+    ],
+    "summary": "Attribution and profit reporting, channel data pipelines, store integrations and AI tools for online sellers.",
+    "ogTitle": "Software, data and AI for e-commerce companies",
+    "ogKicker": "Industries · E-commerce · Software · Data · AI",
+    "closingHeading": "Tell us which numbers do not agree.",
+    "closingCopy": "Describe the process, the systems involved and what should be better afterward. You speak with an engineer on the first 30-minute call and leave with a written next step.",
+    "callLabel": "Book a 30-minute call"
+  },
+  {
+    "path": "/industries/insurance/",
+    "key": "industry-insurance",
+    "name": "Insurance Software, Data & AI",
+    "title": "Software, Data & AI for Insurance Brokers | MV.tech Solutions",
+    "description": "Client portals, renewal and commission reporting, automation and AI assistants for insurance brokers and agencies, with access controls for client data.",
+    "h1": "Software, data and AI for insurance brokers and agencies.",
+    "eyebrow": "Industries · Insurance",
+    "serviceType": "Software, data and AI engineering for insurance brokers and agencies",
+    "parent": {
+      "name": "Industries",
+      "url": "/industries/"
+    },
+    "industry": {
+      "label": "Insurance",
+      "audience": "Insurance brokers and agencies"
+    },
+    "intro": "Policies, renewals, commissions and client documents are spread across an agency management system, carrier portals, email and spreadsheets. We build client portals, reporting, automation and AI tools around them, with access controls suited to personal and financial data.",
+    "fitHeading": "Signs that manual work is limiting the agency.",
+    "fit": [
+      "Renewals are tracked in spreadsheets, and some are noticed late.",
+      "Commission statements from carriers are reconciled by hand every month.",
+      "Staff retype the same client details into carrier portals and forms."
+    ],
+    "deliverablesHeading": "What we build for brokers and agencies.",
+    "deliverables": [
+      {
+        "title": "Client and partner portals",
+        "text": "A secure place for clients to see policies, download certificates and documents, submit requests and follow a claim."
+      },
+      {
+        "title": "Renewal and commission reporting",
+        "text": "A renewal pipeline, retention and book-of-business reporting, and commission statements matched to policies with differences flagged."
+      },
+      {
+        "title": "Workflow and document automation",
+        "text": "Intake forms that feed your management system, data pulled from documents for review, and reminders that follow the renewal calendar."
+      },
+      {
+        "title": "AI assistants",
+        "text": "Assistants that answer staff questions from policy wordings and procedures with the source shown, and draft client emails for a person to check and send."
+      }
+    ],
+    "tools": [
+      "Client portals",
+      "Renewal tracking",
+      "Commission reconciliation",
+      "Document extraction",
+      "Power BI",
+      "Workflow automation",
+      "Knowledge assistants",
+      "Role-based access",
+      "Audit logs"
+    ],
+    "applicationsHeading": "Common first projects for brokers and agencies.",
+    "applications": [
+      {
+        "title": "A renewal dashboard",
+        "text": "Every renewal due in the next 90 days, with owner and status, from one source."
+      },
+      {
+        "title": "Commission reconciliation",
+        "text": "Match carrier statements to policies each month and list only the exceptions."
+      },
+      {
+        "title": "A client document portal",
+        "text": "Let clients find their own certificates and policy documents."
+      }
+    ],
+    "scopeHeading": "Start with one recurring task and who signs it off.",
+    "scope": "Choose one recurring task, such as monthly commission reconciliation or renewal follow-up, and the person who signs it off. We look at where the data lives, what your management system can export and which rules apply to the client data involved. The proposal sets out the first release, the access controls and the acceptance checks.",
+    "approachHeading": "From one process to a working release.",
+    "approach": [
+      {
+        "title": "Map the process",
+        "text": "A 30-minute call about the workflow, the systems it touches and who owns each step."
+      },
+      {
+        "title": "Agree a first release",
+        "text": "A written proposal with scope, the checks you will use to accept it, the people and the price."
+      },
+      {
+        "title": "Deliver and extend",
+        "text": "Release the first piece, review it with the people who use it and decide what to add next."
+      }
+    ],
+    "questionsHeading": "Questions brokers and agencies ask us.",
+    "questions": [
+      {
+        "question": "What can an insurance broker automate first?",
+        "answer": "Renewal reminders and tracking, commission statement reconciliation, client intake forms and certificate requests are common starting points, because they recur every month and follow clear rules."
+      },
+      {
+        "question": "Can you integrate with our agency management system?",
+        "answer": "It depends on what the system offers. Many provide an API, reporting exports or a database connection. We confirm the options during scoping and design around what is supported."
+      },
+      {
+        "question": "How do you protect client data?",
+        "answer": "Engineers use access you grant in your own environment, limited to what the work needs, and client data is not used to train third-party models. Tell us at scoping which privacy or financial regulations apply, and we state in writing what we can commit to."
+      },
+      {
+        "question": "Can AI read policy documents?",
+        "answer": "AI can extract fields from policy documents and answer questions about their wording with the source shown. A person should check the result before anything is sent to a client or relied on for coverage."
+      },
+      {
+        "question": "How does commission reconciliation work?",
+        "answer": "Each line on the carrier statement is matched to a policy and the commission you expected. Matched lines pass automatically, and differences in amount, rate or policy are listed for someone to follow up."
+      }
+    ],
+    "relatedServiceKeys": [
+      "customer-portal-development",
+      "reporting-automation",
+      "employee-ai-chatbots"
+    ],
+    "relatedResourcesHeading": "Guides for planning the work.",
+    "relatedResources": [
+      {
+        "href": "/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/",
+        "kicker": "AI engineering",
+        "title": "RAG vs fine-tuning for knowledge assistants",
+        "text": "Which approach fits an internal assistant over company documents.",
+        "label": "AI guide"
+      },
+      {
+        "href": "/insights/reconciling-dynamics-365-business-central-with-your-data-warehouse/",
+        "kicker": "Finance data",
+        "title": "Reconciling supplier statements in Business Central",
+        "text": "Match supplier statements to the vendor ledger and keep warehouse reports in agreement.",
+        "label": "Finance guide"
+      },
+      {
+        "href": "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/",
+        "kicker": "Vendor selection",
+        "title": "12 questions before hiring a remote consultancy",
+        "text": "What to ask about people, delivery, security and handover before you sign.",
+        "label": "Buyer checklist"
+      }
+    ],
+    "summary": "Client portals, renewal and commission reporting, automation and AI assistants for insurance brokers and agencies.",
+    "ogTitle": "Software, data and AI for insurance brokers and agencies",
+    "ogKicker": "Industries · Insurance · Software · Data · AI",
+    "closingHeading": "Tell us which monthly task takes the longest.",
+    "closingCopy": "Describe the process, the systems involved and what should be better afterward. You speak with an engineer on the first 30-minute call and leave with a written next step.",
     "callLabel": "Book a 30-minute call"
   }
 ]
