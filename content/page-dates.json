@@ -40,7 +40,7 @@
     "modified": "2026-11-26"
   },
   "/insights/": {
-    "hash": "5f208a98c3ee7364",
+    "hash": "b865cb8eb7ae1ce5",
     "published": "2026-09-10",
     "modified": "2026-11-26"
   },
@@ -49,15 +49,25 @@
     "published": "2026-09-18",
     "modified": "2026-11-16"
   },
+  "/insights/data-warehouse-migration-to-snowflake-steps-and-checklist/": {
+    "hash": "2afd34cad5b4ecae",
+    "published": "2026-11-26",
+    "modified": "2026-11-26"
+  },
   "/insights/letting-ai-assistants-query-your-data-warehouse-safely/": {
     "hash": "a736b7c8e2f412ae",
     "published": "2026-10-12",
     "modified": "2026-11-26"
   },
+  "/insights/migrating-a-data-warehouse-to-bigquery-steps-costs-and-checks/": {
+    "hash": "3b8781c5fa968f3e",
+    "published": "2026-11-26",
+    "modified": "2026-11-26"
+  },
   "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/": {
-    "hash": "3f953102360d4f86",
+    "hash": "75bed4ce0cc8cdd9",
     "published": "2026-10-12",
-    "modified": "2026-11-23"
+    "modified": "2026-11-26"
   },
   "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/": {
     "hash": "eee13586e32c65b2",
@@ -180,9 +190,9 @@
     "modified": "2026-11-23"
   },
   "/services/bigquery-consulting/": {
-    "hash": "ef19a657b27c0465",
+    "hash": "5c8bfd67a49f5ee6",
     "published": "2026-10-12",
-    "modified": "2026-11-14"
+    "modified": "2026-11-26"
   },
   "/services/blockchain-data-analytics/": {
     "hash": "d4254799d297857e",
@@ -210,7 +220,7 @@
     "modified": "2026-11-23"
   },
   "/services/data-warehouse-migration/": {
-    "hash": "7ccd6974c7e8b045",
+    "hash": "5bdf2fdfb111fb72",
     "published": "2026-09-12",
     "modified": "2026-11-26"
   },
@@ -250,9 +260,9 @@
     "modified": "2026-11-23"
   },
   "/services/snowflake-consulting/": {
-    "hash": "87849b9626cba336",
+    "hash": "4aae28a6ce573212",
     "published": "2026-10-12",
-    "modified": "2026-11-14"
+    "modified": "2026-11-26"
   },
   "/services/technology-recruitment/": {
     "hash": "f1925d01f3ad76ac",

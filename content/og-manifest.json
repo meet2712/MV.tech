@@ -60,10 +60,22 @@
     "kicker": "Offshore data team · Vendor fit · Time zone overlap"
   },
   {
+    "route": "/insights/data-warehouse-migration-to-snowflake-steps-and-checklist/",
+    "slug": "insights-data-warehouse-migration-to-snowflake-steps-and-checklist",
+    "title": "Data warehouse migration to Snowflake",
+    "kicker": "Inventory · SQL conversion · History · Parallel runs · Cutover"
+  },
+  {
     "route": "/insights/letting-ai-assistants-query-your-data-warehouse-safely/",
     "slug": "insights-letting-ai-assistants-query-your-data-warehouse-safely",
     "title": "Letting AI assistants query your data warehouse safely",
     "kicker": "Read-only access · Checked SQL · Redaction · Provenance"
+  },
+  {
+    "route": "/insights/migrating-a-data-warehouse-to-bigquery-steps-costs-and-checks/",
+    "slug": "insights-migrating-a-data-warehouse-to-bigquery-steps-costs-and-checks",
+    "title": "Migrating a data warehouse to BigQuery",
+    "kicker": "Design · SQL translation · Loading · Cost controls · Validation"
   },
   {
     "route": "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",

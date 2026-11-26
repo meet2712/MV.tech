@@ -1,0 +1,110 @@
+<!--meta
+{
+  "name": "Data warehouse migration to Snowflake",
+  "title": "Data warehouse migration to Snowflake: steps, checks and a cutover checklist",
+  "description": "How to migrate a data warehouse to Snowflake: inventory, SQL and data type conversion, historical loads, parallel runs, cost controls and a cutover checklist.",
+  "kicker": "Warehouse migration",
+  "ogTitle": "Data warehouse migration to Snowflake",
+  "ogKicker": "Inventory · SQL conversion · History · Parallel runs · Cutover",
+  "published": "2026-11-26",
+  "keywords": [
+    "data warehouse migration to Snowflake",
+    "Snowflake migration",
+    "migrate SQL Server to Snowflake",
+    "Snowflake migration checklist",
+    "data warehouse migration",
+    "ETL migration"
+  ],
+  "pageTitle": "Data Warehouse Migration to Snowflake: Checklist | MV.tech Solutions",
+  "relatedArticleRoutes": [
+    "/insights/migrating-a-data-warehouse-to-bigquery-steps-costs-and-checks/",
+    "/insights/moving-excel-reporting-into-a-cloud-data-warehouse/",
+    "/insights/questions-to-ask-before-hiring-a-remote-data-engineering-consultancy/"
+  ]
+}
+-->
+<div class="in-brief">
+  <p class="eyebrow">In brief</p>
+  <ul>
+    <li>A data warehouse migration to Snowflake has seven stages: inventory, scope, schema and SQL conversion, historical load, pipeline rebuild, parallel run and cutover. The parallel run is the stage teams skip and later regret.</li>
+    <li>Most of the effort is in the jobs and report logic, not the data. Tables copy quickly. Stored procedures, ETL jobs and report calculations have to be rewritten and tested.</li>
+    <li>Snowflake has no indexes to tune, does not enforce most constraints and bills compute by the second. Plan tests, clustering and cost limits around those differences before you load anything.</li>
+  </ul>
+</div>
+
+<p>When a team moves to Snowflake, the first question from finance is usually whether last month’s numbers will change. A migration is finished when the people who own the reports agree that they have not. This guide covers the order of work, the checks that prove the result and the settings that keep the bill predictable.</p>
+
+<h2>What changes when you move to Snowflake?</h2>
+<p>Snowflake separates storage from compute and removes much of the tuning a traditional warehouse needs. Some of what your current platform does for you no longer happens, so decide how you will replace it.</p>
+<div class="table-wrap" tabindex="0"><table class="data-table"><caption>How common warehouse features map to Snowflake</caption><thead><tr><th scope="col">In your current warehouse</th><th scope="col">In Snowflake</th><th scope="col">What to do</th></tr></thead><tbody>
+<tr><th scope="row">Indexes and statistics tuned by hand</th><td>Automatic micro-partitions, with optional clustering keys</td><td>Drop the index definitions. Add a clustering key only to very large tables that are always filtered on the same columns</td></tr>
+<tr><th scope="row">One server or cluster sized for peak load</th><td>Virtual warehouses that start, stop and resize independently of storage</td><td>Create separate warehouses for loading, transformation and BI, each with auto-suspend</td></tr>
+<tr><th scope="row">Primary, unique and foreign keys enforced</th><td>Declared but not enforced on standard tables; only NOT NULL is enforced</td><td>Add tests for duplicates and missing parents to the pipeline</td></tr>
+<tr><th scope="row">Stored procedures in T-SQL, PL/SQL or BTEQ</th><td>Snowflake Scripting, JavaScript or Python procedures, or SQL models in a tool such as dbt</td><td>Rewrite set-based logic as models and keep procedures for work that is truly procedural</td></tr>
+<tr><th scope="row">Licenses or fixed nodes</th><td>Compute billed per second while a warehouse runs; storage billed separately</td><td>Set resource monitors and short auto-suspend times from the first day</td></tr>
+<tr><th scope="row">Backups and restore jobs</th><td>Time Travel and zero-copy clones</td><td>Use clones for test environments and Time Travel to recover from accidental changes</td></tr>
+</tbody></table></div>
+
+<h2>How do you migrate a data warehouse to Snowflake, step by step?</h2>
+<ol>
+  <li><strong>Inventory what exists.</strong> List the tables with their sizes and row counts, the ETL jobs and schedules, the stored procedures, the reports and their owners, and the users and roles. Query logs show which tables and reports are still used. Those that are not do not need to move.</li>
+  <li><strong>Decide what moves first and what gets redesigned.</strong> Lift and shift keeps the table structures and gets you off the old platform sooner. A redesign fixes the model and takes longer. A common compromise is to move structures as they are, then remodel one subject area at a time.</li>
+  <li><strong>Convert schemas and SQL.</strong> Map the data types, for example DATETIME to TIMESTAMP_NTZ and money types to NUMBER with a fixed scale. Decide how to handle identifier case, because Snowflake stores unquoted names in upper case. Translate dialect-specific functions. Snowflake’s SnowConvert tool translates much of the code from SQL Server, Oracle, Teradata and other sources; treat its output as a first draft to review and test.</li>
+  <li><strong>Load history.</strong> Export tables to compressed Parquet or CSV files in cloud storage, create a stage and load them with COPY INTO. Load the largest tables in date ranges so that a failure repeats only one range. Record row counts and control totals for every load.</li>
+  <li><strong>Rebuild the pipelines.</strong> Point ingestion at Snowflake using batch loads, Snowpipe for files that arrive continuously, or the ELT tool you already use. Then rebuild the transformations in dependency order and schedule them with tasks, dbt or your orchestrator.</li>
+  <li><strong>Run old and new in parallel.</strong> For at least one full reporting cycle, usually a month-end, load both warehouses from the same sources and compare them every day.</li>
+  <li><strong>Cut over report by report.</strong> Switch a report when its totals match and its owner has signed off. Keep the old warehouse read-only for an agreed period, then switch it off.</li>
+</ol>
+
+<h2>How do you prove the Snowflake numbers match?</h2>
+<p>Compare the two warehouses at three levels, from the cheapest check to the one people care about.</p>
+<ul>
+  <li><strong>Row counts</strong> for each table and each load date.</li>
+  <li><strong>Control totals:</strong> sums of the key amounts and counts of distinct keys by period.</li>
+  <li><strong>Report figures:</strong> the numbers on the reports people use, such as month-end revenue by entity, agreed with the old report for closed periods.</li>
+</ul>
+<p>Inside Snowflake, the HASH_AGG function returns one fingerprint for a whole table, which is a quick way to confirm that two Snowflake copies are identical after a reload. Between platforms, rely on counts and totals, because hash functions differ from one system to another.</p>
+<p>Keep a log of every difference. Some are improvements, such as a duplicate removed or a rounding error fixed. Each one needs a reason and the name of the report owner who accepted it. The same method is described in our guide to <a href="/insights/moving-excel-reporting-into-a-cloud-data-warehouse/">checking a reporting migration</a>.</p>
+
+<h2>What does Snowflake cost to run after the migration?</h2>
+<p>Snowflake charges for compute while a virtual warehouse is running, by the second with a one-minute minimum each time it resumes, and for compressed storage by the month. Compute is usually the larger part, and it is the part you control.</p>
+<ul>
+  <li><strong>Auto-suspend every warehouse</strong> after a minute or two of inactivity, with auto-resume on.</li>
+  <li><strong>Start with small warehouses</strong> and increase the size only when a specific workload needs it.</li>
+  <li><strong>Set resource monitors</strong> that alert, then suspend a warehouse, at a credit limit.</li>
+  <li><strong>Give each workload its own warehouse</strong> so you can see what loading, transformation and BI each cost.</li>
+  <li><strong>Budget for the overlap.</strong> During the parallel run you pay for both platforms, so agree its length in advance.</li>
+</ul>
+
+<h2>Snowflake cutover checklist</h2>
+<ul>
+  <li>Every table in scope has matching row counts and control totals for closed periods.</li>
+  <li>Each report owner has signed off their report, and accepted differences are recorded.</li>
+  <li>Roles, grants and service accounts have been reviewed, with no shared administrator logins.</li>
+  <li>Resource monitors and auto-suspend are set on every warehouse.</li>
+  <li>BI connections, extracts and downstream exports point to Snowflake.</li>
+  <li>Schedules on the old platform are disabled, not deleted.</li>
+  <li>A rollback decision time and the person who makes that decision are agreed.</li>
+  <li>The old warehouse is read-only and has a date for decommissioning.</li>
+  <li>The runbook and data dictionary describe the new platform.</li>
+</ul>
+
+<h2>Common mistakes in a Snowflake migration</h2>
+<ul>
+  <li><strong>Converting procedures line by line.</strong> Row-by-row loops that were tolerable on the old server are slow and expensive in Snowflake. Rewrite them as set-based SQL.</li>
+  <li><strong>Moving everything.</strong> Unused tables and reports add conversion and testing work for no benefit.</li>
+  <li><strong>Skipping the parallel run</strong> to save a month of double running costs. Differences then surface in front of the people who use the reports.</li>
+  <li><strong>One large warehouse for every workload,</strong> left running. Costs rise and nobody can tell which workload caused them.</li>
+  <li><strong>Assuming constraints still protect the data.</strong> Without tests, duplicates arrive silently.</li>
+</ul>
+
+<h2>Frequently asked questions</h2>
+<div class="faq-list">
+  <details><summary><span>How long does a data warehouse migration to Snowflake take?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>The schedule depends on the number of jobs and reports more than on data volume. A first phase covering one subject area, with its pipelines and reports, typically takes weeks. A full warehouse with hundreds of jobs takes months, most of it spent converting and testing logic and running in parallel.</p></div></details>
+  <details><summary><span>Can we migrate to Snowflake from SQL Server, Oracle, Teradata or Redshift?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>Yes. These are the common sources and the stages are the same for each. What differs is the SQL dialect and procedure language you convert from, and how the history is exported.</p></div></details>
+  <details><summary><span>Do we need dbt to use Snowflake?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>No. Snowflake runs SQL, scheduled tasks and stored procedures on its own. A modeling tool such as dbt helps once you have many dependent transformations, because it adds version control, tests and documentation.</p></div></details>
+  <details><summary><span>Should we lift and shift or redesign the data model?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>Lift and shift when the priority is leaving the old platform by a fixed date. Redesign when the current model is the reason reports are slow or disputed. Many teams move the structures first, then remodel one subject area at a time once the old platform is switched off.</p></div></details>
+</div>
+
+<h2>Plan a Snowflake migration with MV.tech Solutions</h2>
+<p>Our <a href="/services/data-warehouse-migration/">data warehouse and ETL migration service</a> covers inventory, conversion, parallel runs and report sign-off, and our <a href="/services/snowflake-consulting/">Snowflake consulting</a> covers modeling, cost and access after the move. Our founder has moved reporting to Snowflake and checked the Power BI figures against their sources. Comparing platforms? Read the guide to <a href="/insights/migrating-a-data-warehouse-to-bigquery-steps-costs-and-checks/">migrating a data warehouse to BigQuery</a>. To start, <a href="/contact/#migration-brief">tell us which pipeline or report should move first</a> and how you will check the result.</p>

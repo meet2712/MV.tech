@@ -109,6 +109,8 @@ This is a factual index of the company's public website. The linked pages contai
 - [Reconciling supplier statements and warehouse reports with Dynamics 365 Business Central](https://mvtech.solutions/insights/reconciling-dynamics-365-business-central-with-your-data-warehouse/): Match a supplier statement to the Business Central vendor ledger, explain month-end differences and check the same balances in your data warehouse.
 - [How Do You Move Excel Reporting into a Cloud Data Warehouse?](https://mvtech.solutions/insights/moving-excel-reporting-into-a-cloud-data-warehouse/): How to move month-end Excel reporting into Snowflake or BigQuery: finding the sources and rules behind the spreadsheets, the order of work and reconciliation.
 - [How Do You Let an AI Assistant Query Your Data Warehouse Safely?](https://mvtech.solutions/insights/letting-ai-assistants-query-your-data-warehouse-safely/): A step-by-step pattern for giving Claude, GPT or Gemini read-only access to a warehouse: scoped identity, checked SQL, row limits, redaction and provenance.
+- [Data warehouse migration to Snowflake](https://mvtech.solutions/insights/data-warehouse-migration-to-snowflake-steps-and-checklist/): the seven stages of a Snowflake migration, how to prove the numbers match, running costs and a cutover checklist.
+- [Migrating a data warehouse to BigQuery](https://mvtech.solutions/insights/migrating-a-data-warehouse-to-bigquery-steps-costs-and-checks/): dataset and partition design, SQL translation, loading history, cost controls and validation before cutover.
 
 ## Commercial and experience context
 
