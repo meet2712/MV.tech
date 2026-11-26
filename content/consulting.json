@@ -439,9 +439,9 @@
     "ogTitle": "AI Automation, RAG & MCP Development",
     "ogKicker": "MV.tech Solutions · Consulting · Development · Integration",
     "relatedServiceKeys": [
+      "agentic-ai",
       "mcp-and-ai-connectors",
-      "workflow-automation",
-      "data-engineering"
+      "workflow-automation"
     ],
     "h1": "AI consulting and development for business workflows.",
     "questionsHeading": "Questions buyers ask about RAG, LLM integration and AI agents",
@@ -596,9 +596,9 @@
     "ogTitle": "MCP Servers & AI Connectors",
     "ogKicker": "MV.tech Solutions · Consulting · Development · Integration",
     "relatedServiceKeys": [
+      "agentic-ai",
       "ai-consulting",
-      "workflow-automation",
-      "custom-software"
+      "workflow-automation"
     ],
     "h1": "MCP server development and custom AI integrations.",
     "questionsHeading": "Common questions about MCP server development and AI connectors",
@@ -621,6 +621,157 @@
     "applicationsHeading": "Where this service fits.",
     "closingHeading": "Discuss your AI integration.",
     "closingCopy": "Tell us about the work, your current systems and the people who will use the result. We’ll discuss the requirements, delivery options and what an engagement would include."
+  },
+  {
+    "path": "/services/agentic-ai/",
+    "key": "agentic-ai",
+    "name": "Agentic AI & AI Agent Development",
+    "title": "Agentic AI & AI Agent Development Services | MV.tech Solutions",
+    "description": "AI agents that complete multi-step work in your business tools, with approval steps, evaluation and logs. Agentic AI development from MV.tech Solutions.",
+    "intro": "An AI agent does more than answer a question. It reads a request, decides which steps to take, uses your tools to carry them out and reports back. MV.tech Solutions designs and builds agents for real business tasks, with clear limits on what they can reach, approval steps for anything that changes a record, and logs your team can review.",
+    "fitHeading": "Use an agent when the work has several steps and a clear finish.",
+    "fit": [
+      "A task takes a person through several systems and many small decisions, such as triaging requests, preparing a report or updating records.",
+      "Your team already uses an AI assistant and wants it to complete work, not only draft text.",
+      "A proof of concept works in a demo and needs permissions, testing and monitoring before real users depend on it."
+    ],
+    "deliverablesHeading": "What we build.",
+    "deliverables": [
+      {
+        "title": "Task agents",
+        "text": "Agents built around one business process, such as request triage, data lookups, document handling or report preparation. Each has a defined goal, a list of tools it may use and a clear point where it stops and hands over to a person."
+      },
+      {
+        "title": "Tools and system access",
+        "text": "The functions an agent calls to read or update your systems, built as APIs or MCP servers. Read and write tools are kept separate, inputs are validated, and every call runs under a scoped identity."
+      },
+      {
+        "title": "Approval steps and guardrails",
+        "text": "Human approval before an agent sends, pays, deletes or changes anything that matters. Limits on scope, spending and request rates are enforced in code rather than in the prompt."
+      },
+      {
+        "title": "Evaluation and monitoring",
+        "text": "A test set of real requests with expected outcomes, run before every change. A log of each step the agent took, so your team can review its decisions and spot problems early."
+      }
+    ],
+    "scopeHeading": "Start with one process and one group of users.",
+    "scope": "Bring a process your team runs every week, the systems it touches and the people who would use the agent. We agree what the agent may do on its own, what needs approval and how success will be measured. Then we build and test against real examples before widening access.",
+    "approach": [
+      {
+        "title": "Map the task",
+        "text": "Break the process into steps, decisions and systems, and mark the points where a person must approve."
+      },
+      {
+        "title": "Build and evaluate",
+        "text": "Build the agent and its tools, then test them on real requests, including unusual cases and bad inputs."
+      },
+      {
+        "title": "Release and monitor",
+        "text": "Start with a small group of users, review the logs, and widen the agent's scope one step at a time."
+      }
+    ],
+    "tools": [
+      "Python",
+      "Claude",
+      "GPT",
+      "Gemini",
+      "Llama",
+      "Qwen",
+      "Model Context Protocol (MCP)",
+      "Retrieval-augmented generation (RAG)",
+      "REST APIs",
+      "OAuth 2.0",
+      "SQL",
+      "BigQuery",
+      "Snowflake",
+      "Docker",
+      "Cloud Run",
+      "GitHub Actions",
+      "Pytest"
+    ],
+    "questions": [
+      {
+        "question": "What is agentic AI?",
+        "answer": "Agentic AI describes AI systems that work toward a goal over several steps. Instead of answering a single prompt, an agent decides what to do next, calls tools such as a database query or a business API, checks the result and continues until the task is done or it needs a person. The model does the reasoning; the tools, permissions and checks around it decide what it can actually do."
+      },
+      {
+        "question": "How is an AI agent different from a chatbot?",
+        "answer": "A chatbot answers questions. An agent takes actions. A chatbot over your HR policies tells an employee how to request leave; an agent could check the balance, fill in the request and send it to a manager for approval. Many projects start as an assistant that answers and add agent abilities once the answers are trusted."
+      },
+      {
+        "question": "When is an AI agent the wrong choice?",
+        "answer": "When the steps never change, a regular automation is cheaper, faster and easier to test. When a mistake would be costly and there is no sensible point for a person to approve, an agent should not act on its own. We will tell you if a simpler workflow, or an assistant that only drafts, is the better fit."
+      },
+      {
+        "question": "How do you stop an AI agent from doing something it should not?",
+        "answer": "By limiting what it can reach rather than relying on instructions. Each tool checks permissions on the server, write actions are separate from reads, consequential steps wait for human approval, and spending and request limits are enforced in code. Every step is logged, so unexpected behavior shows up in review."
+      },
+      {
+        "question": "Which AI models do you build agents with?",
+        "answer": "We work with Claude, GPT, Gemini and open models such as Llama and Qwen, and choose per task based on quality, cost, speed and where your data is allowed to go. The tools and the evaluation set are kept separate from the model, so you can change models later without rebuilding the agent."
+      },
+      {
+        "question": "How much does it cost to build an AI agent?",
+        "answer": "We quote after a scoping call. The main factors are the number of systems the agent uses, how many of its actions change data, your approval and audit requirements and the size of the evaluation set. A first agent for one process and one team is the usual starting point. Model usage is billed separately by the provider and depends on volume."
+      },
+      {
+        "question": "How long does a first AI agent take to build?",
+        "answer": "A focused first agent for one process usually takes weeks, not months. The first part maps the task and collects real test cases; the rest is build and evaluation rounds until the agent meets the agreed standard. A wider rollout follows once the logs show it behaving as expected."
+      }
+    ],
+    "relatedResourcesHeading": "Guides for planning an AI agent.",
+    "relatedResources": [
+      {
+        "href": "/insights/what-is-agentic-ai-and-when-does-a-business-need-an-ai-agent/",
+        "kicker": "Agentic AI explained",
+        "title": "What is agentic AI, and when does a business need an AI agent?",
+        "text": "How agents differ from assistants and automation, when to build one and what keeps it safe.",
+        "label": "Agentic AI guide"
+      },
+      {
+        "href": "/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/",
+        "kicker": "MCP explained",
+        "title": "What is an MCP server, and when should a business build one?",
+        "text": "What an MCP server exposes, when building one makes sense, and the security decisions involved.",
+        "label": "MCP guide"
+      },
+      {
+        "href": "/insights/letting-ai-assistants-query-your-data-warehouse-safely/",
+        "kicker": "AI data access",
+        "title": "Letting AI assistants query your data warehouse safely",
+        "text": "Scoped identities, checked SQL, row limits and provenance for assistants connected to business data.",
+        "label": "AI access guide"
+      }
+    ],
+    "summary": "Enterprise AI, agents and generative AI that turn ideas into working systems.",
+    "ogTitle": "Agentic AI & AI Agent Development",
+    "ogKicker": "MV.tech Solutions · AI Agents · Tool Use · Approval Steps",
+    "relatedServiceKeys": [
+      "ai-consulting",
+      "mcp-and-ai-connectors",
+      "workflow-automation"
+    ],
+    "h1": "Agentic AI and AI agents that complete work in your systems.",
+    "questionsHeading": "Common questions about agentic AI and AI agents",
+    "applications": [
+      {
+        "title": "Request triage",
+        "text": "Read incoming requests, look up the customer or order, draft a reply and route the case, with a person approving anything that is sent."
+      },
+      {
+        "title": "Data questions",
+        "text": "Answer questions from approved warehouse views, run checked queries and assemble a summary for someone to review."
+      },
+      {
+        "title": "Back-office tasks",
+        "text": "Collect documents, extract the details, update the right system and flag exceptions for a person to handle."
+      }
+    ],
+    "eyebrow": "MV.tech Solutions services",
+    "approachHeading": "How we deliver this work.",
+    "applicationsHeading": "Where agents help.",
+    "closingHeading": "Discuss an AI agent for your team.",
+    "closingCopy": "Tell us about the process, the systems involved and who would use the agent. We'll discuss what it should do on its own, what needs approval and what a first release would include."
   },
   {
     "path": "/services/business-intelligence/",
@@ -1177,9 +1328,9 @@
     "ogTitle": "Workflow Automation Consulting",
     "ogKicker": "MV.tech Solutions · Consulting · Development · Integration",
     "relatedServiceKeys": [
+      "agentic-ai",
       "mcp-and-ai-connectors",
-      "ai-consulting",
-      "custom-software"
+      "ai-consulting"
     ],
     "h1": "Workflow automation and business system integration.",
     "questionsHeading": "Common questions about workflow automation consulting",

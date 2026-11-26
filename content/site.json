@@ -129,7 +129,8 @@
     "Retrieval-augmented generation (RAG) and internal knowledge assistants",
     "Model Context Protocol (MCP) server and tool development in Python",
     "Custom AI connectors, plugins and reusable AI skills for enterprise AI platforms",
-    "Agentic workflows with human approval, evaluation and guardrails",
+    "Agentic AI and AI agent development: multi-step tool use with human approval, evaluation and guardrails",
+    "Generative AI applications for enterprise workflows",
     "LLM-assisted extraction of structured data from documents, APIs and web sources",
     "Dynamic SQL generation and natural-language querying over governed datasets",
     "Custom software, web applications, client portals and internal tools",
@@ -198,8 +199,8 @@
         "href": "/services/custom-software/"
       },
       {
-        "label": "AI & Automation",
-        "href": "/services/ai-consulting/"
+        "label": "AI & Agentic AI",
+        "href": "/services/agentic-ai/"
       },
       {
         "label": "Dedicated Teams",

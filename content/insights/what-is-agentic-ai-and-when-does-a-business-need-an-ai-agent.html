@@ -1,0 +1,96 @@
+<!--meta
+{
+  "name": "What is agentic AI?",
+  "title": "What Is Agentic AI, and When Does a Business Need an AI Agent?",
+  "description": "Agentic AI in plain language: how an AI agent differs from a chatbot or an automation, when one is worth building, what keeps it safe and a first project.",
+  "kicker": "AI engineering",
+  "ogTitle": "What is agentic AI, and when does a business need an AI agent?",
+  "ogKicker": "Agentic AI explained · Agents vs assistants · Guardrails · A first project",
+  "published": "2026-11-26",
+  "keywords": [
+    "agentic AI",
+    "AI agents",
+    "AI agent development",
+    "enterprise AI",
+    "generative AI",
+    "agentic workflows"
+  ],
+  "pageTitle": "What Is Agentic AI? When to Build an AI Agent | MV.tech Solutions",
+  "relatedArticleRoutes": [
+    "/insights/what-is-an-mcp-server-and-when-should-a-business-build-one/",
+    "/insights/letting-ai-assistants-query-your-data-warehouse-safely/",
+    "/insights/rag-vs-fine-tuning-for-internal-knowledge-assistants/"
+  ]
+}
+-->
+<div class="in-brief">
+  <p class="eyebrow">In brief</p>
+  <ul>
+    <li>Agentic AI means AI systems that work toward a goal over several steps: they decide what to do next, use tools such as a database query or a business API, check the result and continue until the task is done or a person needs to step in.</li>
+    <li>An agent is worth building when a task runs through several systems, involves small judgment calls and has a clear finish. When the steps never change, a regular automation is cheaper and easier to test.</li>
+    <li>What makes an agent safe is the engineering around the model: permission checks on the server, separate read and write tools, human approval for consequential actions, an evaluation set and a log of every step.</li>
+  </ul>
+</div>
+
+<p>Most businesses met generative AI as a chat window: you ask, it answers. Agentic AI is the next step. Instead of producing a reply and stopping, an AI agent takes a request, works out the steps, uses your systems to carry them out and reports what it did. That makes it far more useful, and it also means the questions change from "is the answer good?" to "what is it allowed to do, and how do we know it did the right thing?"</p>
+
+<h2>What agentic AI means</h2>
+<p>An AI agent is a language model placed in a loop with tools. The model reads the request and the current situation, chooses an action, such as looking up an order, running a query or drafting an email, and receives the result. It then decides the next action, and repeats until the goal is met or it reaches a point where it must hand over to a person.</p>
+<p>The model provides the reasoning. Everything else is ordinary software: the tools it can call, the permissions on those tools, the checks on its inputs and outputs, and the record of what happened. In a well-built agent, most of the effort goes into that surrounding software, not into the prompt.</p>
+
+<h2>Agent, assistant or automation?</h2>
+<p>Three kinds of system often get the same "AI" label. They suit different work.</p>
+<div class="table-wrap" tabindex="0"><table class="data-table"><caption>How an AI agent compares with an assistant and a regular automation</caption><thead><tr><th scope="col">System</th><th scope="col">What it does</th><th scope="col">Best for</th></tr></thead><tbody>
+<tr><th scope="row">Regular automation</th><td>Follows fixed steps you define, every time</td><td>Repetitive work where the steps and inputs do not change</td></tr>
+<tr><th scope="row">AI assistant</th><td>Answers questions or drafts text from your documents and data</td><td>Finding information and preparing first drafts that a person sends</td></tr>
+<tr><th scope="row">AI agent</th><td>Plans steps and takes actions in your systems toward a goal</td><td>Multi-step tasks with judgment calls and a clear finish</td></tr>
+</tbody></table></div>
+<p>Many good projects combine them. An assistant that answers policy questions can later gain one agent ability, such as filing a request, once its answers are trusted. An agent can hand fixed sub-steps to a regular automation where that is more reliable.</p>
+
+<h2>When an AI agent is worth building</h2>
+<ul>
+  <li><strong>The task crosses several systems.</strong> A person opens the ticketing tool, the CRM and the order system to resolve one request. An agent can do the lookups and assemble the answer.</li>
+  <li><strong>It involves small judgment calls.</strong> Which category a request belongs to, which customer record matches, whether a document is complete. Fixed rules handle these badly; a model handles them well enough when the result is checked.</li>
+  <li><strong>It has a clear finish.</strong> "Route this request with a drafted reply" is a good goal. "Improve customer service" is not.</li>
+  <li><strong>It happens often enough to matter.</strong> An agent pays off on work a team does every day or every week, not once a quarter.</li>
+</ul>
+
+<h2>When it is not</h2>
+<ul>
+  <li><strong>The steps never change.</strong> A regular automation is cheaper, faster and easier to test.</li>
+  <li><strong>A mistake would be costly and nobody can approve in time.</strong> If there is no sensible point for a person to check the action, the agent should draft, not act.</li>
+  <li><strong>The data it needs is not reachable or not clean.</strong> An agent cannot fix missing access or unreliable records; it will only move faster on bad information.</li>
+</ul>
+
+<h2>What makes an AI agent safe enough for real work</h2>
+<p>The model will occasionally misread a request or choose the wrong tool. A production agent is designed so that those mistakes are caught or contained, rather than assuming they will not happen.</p>
+<ul>
+  <li><strong>Permissions on the server, not in the prompt.</strong> Each tool checks who the agent is acting for and what that person may access before it runs.</li>
+  <li><strong>Separate read and write tools.</strong> Looking things up and changing records are different tools with different rules. Most agents start read-only.</li>
+  <li><strong>Human approval for consequential actions.</strong> Sending, paying, deleting or changing anything important waits for a person, and the approval happens outside the model's control.</li>
+  <li><strong>Limits enforced in code.</strong> Caps on spending, request rates, record counts and run time stop a confused agent from doing damage at scale.</li>
+  <li><strong>An evaluation set.</strong> A collection of real requests with expected outcomes, run before every change to the prompt, tools or model.</li>
+  <li><strong>A log of every step.</strong> Which tool was called, with what input, and what came back. This is how a team reviews decisions and spots problems early.</li>
+</ul>
+<p>If a tool returns content from an email, a web page or a document, the agent should treat it as data, not as instructions. This is the main defense against prompt injection, where text inside a document tries to redirect the agent.</p>
+
+<h2>What a sensible first agent project looks like</h2>
+<ol>
+  <li><strong>Pick one process</strong> your team runs every week, with a clear finish and a clear owner.</li>
+  <li><strong>Collect real examples</strong>, typically fifty to a few hundred past requests with the outcome a person produced. These become the evaluation set.</li>
+  <li><strong>Start read-only</strong>: the agent looks things up and drafts, and a person acts. Measure how often the draft is right.</li>
+  <li><strong>Add one write action at a time</strong>, each behind an approval step, once the logs show the agent choosing tools reliably.</li>
+  <li><strong>Widen access gradually</strong>, from a small group of users to the whole team.</li>
+</ol>
+<p>A focused first agent of this shape is usually weeks of work, and it leaves you with tools, tests and logs that the next agent can reuse.</p>
+
+<h2>Frequently asked questions</h2>
+<div class="faq-list">
+  <details><summary><span>Is agentic AI the same as generative AI?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>Agentic AI is built on generative AI, but it is not the same thing. Generative AI produces text, images or code in response to a prompt. Agentic AI uses a generative model to decide on and carry out a series of actions with tools, working toward a goal rather than producing a single response.</p></div></details>
+  <details><summary><span>Do AI agents replace employees?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>In practice they take over parts of a job: the lookups, the copying between systems and the first draft. The person keeps the judgment calls, approves consequential actions and handles the exceptions the agent flags. Teams usually use the time saved on the work that needs a person.</p></div></details>
+  <details><summary><span>Can an AI agent work with the software we already use?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>Usually, yes, if the software has an API or a database the agent can reach through a controlled tool. Many teams expose those tools through an MCP server, so the same governed access works across several AI applications. Systems with no API can sometimes be reached through exports or a browser, but that is slower and more fragile.</p></div></details>
+  <details><summary><span>What does an AI agent cost to run?</span><i data-lucide="chevron-down" aria-hidden="true"></i></summary><div class="faq-answer"><p>Running costs are mainly model usage, which grows with the number of requests and the number of steps each one takes, plus the hosting for the agent and its tools. Choosing a smaller model for simple steps, caching repeated lookups and capping the steps per request keep the cost predictable.</p></div></details>
+</div>
+
+<h2>Plan an AI agent with MV.tech Solutions</h2>
+<p>Our <a href="/services/agentic-ai/">agentic AI and AI agent development service</a> covers task mapping, tools, approval steps, evaluation and monitoring. For the systems access underneath an agent, see <a href="/services/mcp-and-ai-connectors/">MCP servers and AI connectors</a>; for assistants that answer from your documents, see <a href="/services/ai-consulting/">AI consulting</a>. Start a <a href="/contact/#book-call">scoping call</a> with the process you have in mind, the systems it touches and the people who would use the agent.</p>
