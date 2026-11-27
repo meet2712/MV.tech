@@ -1,13 +1,13 @@
 {
   "/": {
-    "hash": "f3277bf9e5bfb525",
+    "hash": "21947d8b60a8512a",
     "published": "2026-01-02",
-    "modified": "2026-11-26"
+    "modified": "2026-11-27"
   },
   "/about/": {
-    "hash": "a966d017692ba31b",
+    "hash": "c7b1a37911bafec1",
     "published": "2026-06-02",
-    "modified": "2026-11-24"
+    "modified": "2026-11-27"
   },
   "/accessibility/": {
     "hash": "d53fc4952b600b4d",
@@ -25,9 +25,9 @@
     "modified": "2026-11-14"
   },
   "/contact/": {
-    "hash": "a42d49703b895ca5",
+    "hash": "1881e61944d28bcb",
     "published": "2026-06-02",
-    "modified": "2026-11-24"
+    "modified": "2026-11-27"
   },
   "/expertise/": {
     "hash": "939ad6857d49cd72",
@@ -185,9 +185,9 @@
     "modified": "2026-11-26"
   },
   "/outsourcing/usa/": {
-    "hash": "2cf31b4b06f64cd2",
+    "hash": "1f43b0a8333cdacf",
     "published": "2026-11-26",
-    "modified": "2026-11-26"
+    "modified": "2026-11-27"
   },
   "/privacy/": {
     "hash": "9e2a68231a49de48",
